@@ -40,6 +40,9 @@ classvars:
    vrDesc = itematt_auctioned_desc
    vrDM_Trigger = auctioned_dm
 
+   // Keep tracking even if the item breaks.
+   vbRemoveOnItemBreak = FALSE
+
 properties:
 
 messages:

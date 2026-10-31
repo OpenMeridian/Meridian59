@@ -156,22 +156,14 @@ messages:
       return;
    }
 
-   ItemBrokenInBattle()
+   ItemBrokenMessage()
    {
-      local i, oItemAtt, rName;
-
-      // Remove itematts from us, since we're not gonna use 'em anymore.
-      // This also lets cursed items finally remove themselves from us.
-      foreach i in plItem_Attributes
+      if (poOwner <> $)
+         AND IsClass(poOwner,&User)
       {
-         oItemAtt = Send(SYS,@FindItemAttByNum,
-                         #num=Send(self,@GetNumFromCompound,#compound=First(i)));
-         Send(oItemAtt,@RemoveFromItem,#oItem=self);
+         Send(poOwner,@MsgSendUser,#message_rsc=vrItem_broken,
+               #parm1=Send(self,@GetPluralName));
       }
-
-      Send(poOwner,@SomethingChanged,#what=self);
-      Post(poOwner,@MsgSendUser,#message_rsc=vrItem_broken,
-            #parm1=Send(self,@GetPluralName));
 
       return;
    }

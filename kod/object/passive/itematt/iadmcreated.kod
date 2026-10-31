@@ -40,6 +40,9 @@ classvars:
    vrDesc = itematt_dmcreated_desc
    vrDM_Trigger = dmcreated_dm
 
+   // Keep tracking even if the item breaks.
+   vbRemoveOnItemBreak = FALSE
+
 properties:
 
 messages:

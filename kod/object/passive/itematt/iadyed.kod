@@ -37,6 +37,9 @@ classvars:
    viItem_Att_Num = IA_DYED
    vrDesc = ItemAtt_dyed_desc
 
+   // Item stays colored when it breaks - maybe someone wants that?
+   vbRemoveOnItemBreak = FALSE
+
 properties:
 
 messages:

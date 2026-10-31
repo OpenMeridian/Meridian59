@@ -1363,13 +1363,33 @@ messages:
       {
          iNum = Send(self,@GetNumFromCompound,#compound=First(i));
          oItemAtt = Send(SYS,@FindItemAttByNum,#num=iNum);
-         Send(oItemAtt,@RemoveFromItem,#oItem=self);
+         if (Send(oItemAtt,@RemoveOnItemBreak))
+         {
+            Send(oItemAtt,@RemoveFromItem,#oItem=self);
+         }
       }
    
       Send(poOwner,@SomethingChanged,#what=self);
-      Send(poOwner,@MsgSendUser,#message_rsc=vrItem_broken,
-           #parm1=Send(self,@GetName));
-      Send(poOwner,@TryUnuseItem,#what=self);
+      Send(self,@ItemBrokenMessage);
+      // TODO: ThrownWeapon uses the item broken code when the last instance
+      // is thrown, don't unuse it because it's still technically in play.
+      // Maybe consider handling this differently.
+      if (NOT IsClass(self,&ThrownWeapon))
+      {
+         Send(poOwner,@TryUnuseItem,#what=self);
+      }
+
+      return;
+   }
+
+   ItemBrokenMessage()
+   {
+      if (poOwner <> $)
+         AND IsClass(poOwner,&User)
+      {
+         Send(poOwner,@MsgSendUser,#message_rsc=vrItem_broken,
+            #parm1=Send(self,@GetName));
+      }
 
       return;
    }
