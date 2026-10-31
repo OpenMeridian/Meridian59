@@ -72,9 +72,9 @@ messages:
          }
       }
 
+      piItem_flags = (piItem_flags & ~ITEM_PALETTE_MASK) | iColor;
       if poOwner <> $
       {
-         piItem_flags = (piItem_flags & ~ITEM_PALETTE_MASK) | iColor;
          Send(poOwner,@SomethingChanged,#what=self);
       }
 
