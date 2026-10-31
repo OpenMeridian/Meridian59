@@ -65,40 +65,45 @@ messages:
       propagate;
    }
 
-   AddToItem(oItem = $, state1 = $)
+   UpdateItem(oItem=$, iState=$)
    {
       local oOwner;
 
       oOwner = Send(oItem,@GetOwner);
 
-      Send(oItem,@SetPaletteTranslation,#translation=state1);
+      Send(oItem,@SetPaletteTranslation,#translation=iState);
       if (oOwner <> $)
       {
          Send(oOwner,@SomethingChanged,#what=oItem);
          // Checks for item in overlays. SomethingChanged should probably
          // handle this, but other classes use ChangeWindowOverlay for
          // animations already.
-         Send(oOwner,@ChangeWindowOverlay,#what=oItem);
+         if (IsClass(oOwner,&User))
+         {
+            Send(oOwner,@ChangeWindowOverlay,#what=oItem);
+         }
       }
+
+      return;
+   }
+
+   AddToItem(oItem = $, state1 = $)
+   {
+      Send(self,@UpdateItem,#oItem=oItem,#iState=state1);
 
       propagate;
    }
 
    RemoveFromItem(oItem=$, state1 = $)
    {
-      local oOwner;
+      local lData, i;
 
-      oOwner = Send(oItem,@GetOwner);
-
-      Send(oItem,@SetPaletteTranslation,#translation=-(state1));
-      if (oOwner <> $)
+      if (state1 = $)
       {
-         Send(oOwner,@SomethingChanged,#what=oItem);
-         // Checks for item in overlays. SomethingChanged should probably
-         // handle this, but other classes use ChangeWindowOverlay for
-         // animations already.
-         Send(oOwner,@ChangeWindowOverlay,#what=oItem);
+         lData = Send(oItem,@GetAttributeData,#ItemAtt=viItem_Att_Num);
+         state1 = Nth(lData,3);
       }
+      Send(self,@UpdateItem,#oItem=oItem,#iState=-(state1));
 
       propagate;
    }
