@@ -16,12 +16,20 @@ enum { DB_STOPPED=0, DB_STOPPING, DB_STARTING, DB_CONNECTED, DB_READY };
 static int db_state = DB_STOPPED;
 
 // Connection
+typedef struct {
+   char *host;
+   int port;
+   char *username;
+   char *password;
+   char *database;
+   char *ssl_mode;
+   char *ssl_root_cert;
+   char *ssl_cert;
+   char *ssl_key;
+} postgres_connection_settings;
+
 static PGconn *pg_conn = NULL;
-static char *db_host = NULL;
-static int db_port = 0;
-static char *db_user = NULL;
-static char *db_pass = NULL;
-static char *db_name = NULL;
+static postgres_connection_settings db_settings = {0};
 
 // Queue
 static sql_queue queue;
@@ -67,6 +75,31 @@ static void PgThreadJoin(void);
 static void *PgWorker(void *arg);
 #endif
 
+static bool PgCopySetting(char **target, const char *value, bool required)
+{
+   *target = NULL;
+   if (!value)
+      return !required;
+   if (!required && !*value)
+      return true;
+
+   *target = PgStrdup(value);
+   return *target != NULL;
+}
+
+static void PgFreeConnectionSettings(void)
+{
+   free(db_settings.host);
+   free(db_settings.username);
+   free(db_settings.password);
+   free(db_settings.database);
+   free(db_settings.ssl_mode);
+   free(db_settings.ssl_root_cert);
+   free(db_settings.ssl_cert);
+   free(db_settings.ssl_key);
+   memset(&db_settings, 0, sizeof(db_settings));
+}
+
 static bool PgThreadStart(void)
 {
 #ifdef BLAK_PLATFORM_WINDOWS
@@ -101,12 +134,47 @@ static void PgThreadJoin(void)
 
 static bool PgConnect(void)
 {
-   char conninfo[512];
-   snprintf(conninfo, sizeof(conninfo),
-      "host=%s port=%d user=%s password=%s dbname=%s",
-      db_host, db_port, db_user, db_pass, db_name);
+   std::string port = std::to_string(db_settings.port);
+   const char *keywords[10];
+   const char *values[10];
+   int parameter_count = 0;
 
-   pg_conn = PQconnectdb(conninfo);
+   keywords[parameter_count] = "host";
+   values[parameter_count++] = db_settings.host;
+   keywords[parameter_count] = "port";
+   values[parameter_count++] = port.c_str();
+   keywords[parameter_count] = "user";
+   values[parameter_count++] = db_settings.username;
+   keywords[parameter_count] = "password";
+   values[parameter_count++] = db_settings.password;
+   keywords[parameter_count] = "dbname";
+   values[parameter_count++] = db_settings.database;
+
+   if (db_settings.ssl_mode)
+   {
+      keywords[parameter_count] = "sslmode";
+      values[parameter_count++] = db_settings.ssl_mode;
+   }
+   if (db_settings.ssl_root_cert)
+   {
+      keywords[parameter_count] = "sslrootcert";
+      values[parameter_count++] = db_settings.ssl_root_cert;
+   }
+   if (db_settings.ssl_cert)
+   {
+      keywords[parameter_count] = "sslcert";
+      values[parameter_count++] = db_settings.ssl_cert;
+   }
+   if (db_settings.ssl_key)
+   {
+      keywords[parameter_count] = "sslkey";
+      values[parameter_count++] = db_settings.ssl_key;
+   }
+
+   keywords[parameter_count] = NULL;
+   values[parameter_count] = NULL;
+
+   pg_conn = PQconnectdbParams(keywords, values, 0);
    if (PQstatus(pg_conn) != CONNECTION_OK)
    {
       eprintf("PostgreSQL connection failed: %s\n", PQerrorMessage(pg_conn));
@@ -118,7 +186,8 @@ static bool PgConnect(void)
    // Set client encoding to WIN1252 for German umlauts and legacy data
    PQsetClientEncoding(pg_conn, "WIN1252");
 
-   lprintf("PostgreSQL connected to %s:%d/%s\n", db_host, db_port, db_name);
+   lprintf("PostgreSQL connected to %s:%d/%s\n",
+      db_settings.host, db_settings.port, db_settings.database);
    return true;
 }
 
@@ -442,39 +511,36 @@ static void *PgWorker(void *arg)
 // Public API
 /******************************************************************************/
 
-void MySQLInit(char *Host, int Port, char *User, char *Password, char *DB)
+void PostgreSQLInit(const postgres_connection_options *options)
 {
    if (db_state != DB_STOPPED)
       return;
 
-   if (!Host || !User || !Password || !DB)
+   if (!options || !options->host || !options->username ||
+      !options->password || !options->database)
    {
       eprintf("PostgreSQL init failed: missing connection parameters\n");
       return;
    }
 
-   db_host = PgStrdup(Host);
-   db_port = Port;
-   db_user = PgStrdup(User);
-   db_pass = PgStrdup(Password);
-   db_name = PgStrdup(DB);
-
-   if (!db_host || !db_user || !db_pass || !db_name)
+   db_settings.port = options->port;
+   if (!PgCopySetting(&db_settings.host, options->host, true) ||
+      !PgCopySetting(&db_settings.username, options->username, true) ||
+      !PgCopySetting(&db_settings.password, options->password, true) ||
+      !PgCopySetting(&db_settings.database, options->database, true) ||
+      !PgCopySetting(&db_settings.ssl_mode, options->ssl_mode, false) ||
+      !PgCopySetting(&db_settings.ssl_root_cert, options->ssl_root_cert, false) ||
+      !PgCopySetting(&db_settings.ssl_cert, options->ssl_cert, false) ||
+      !PgCopySetting(&db_settings.ssl_key, options->ssl_key, false))
    {
-      free(db_host); db_host = NULL;
-      free(db_user); db_user = NULL;
-      free(db_pass); db_pass = NULL;
-      free(db_name); db_name = NULL;
+      PgFreeConnectionSettings();
       eprintf("PostgreSQL init failed: could not allocate connection parameters\n");
       return;
    }
 
    if (!DatabaseQueueInit(&queue))
    {
-      free(db_host); db_host = NULL;
-      free(db_user); db_user = NULL;
-      free(db_pass); db_pass = NULL;
-      free(db_name); db_name = NULL;
+      PgFreeConnectionSettings();
       eprintf("PostgreSQL init failed: could not initialize queue\n");
       return;
    }
@@ -484,16 +550,21 @@ void MySQLInit(char *Host, int Port, char *User, char *Password, char *DB)
    if (!PgThreadStart())
    {
       DatabaseQueueShutdown(&queue);
-      free(db_host); db_host = NULL;
-      free(db_user); db_user = NULL;
-      free(db_pass); db_pass = NULL;
-      free(db_name); db_name = NULL;
+      PgFreeConnectionSettings();
       db_state = DB_STOPPED;
       eprintf("PostgreSQL init failed: could not start writer thread\n");
       return;
    }
 
    PgSleepMs(100); // 100ms for thread startup
+}
+
+void MySQLInit(char *Host, int Port, char *User, char *Password, char *DB)
+{
+   postgres_connection_options options = {
+      Host, Port, User, Password, DB, NULL, NULL, NULL, NULL
+   };
+   PostgreSQLInit(&options);
 }
 
 void MySQLEnd()
@@ -504,10 +575,7 @@ void MySQLEnd()
    db_state = DB_STOPPING;
    PgThreadJoin();
 
-   free(db_host); db_host = NULL;
-   free(db_user); db_user = NULL;
-   free(db_pass); db_pass = NULL;
-   free(db_name); db_name = NULL;
+   PgFreeConnectionSettings();
 }
 
 BOOL MySQLRecordGeneric(int type, int num_fields, sql_data_node data[])

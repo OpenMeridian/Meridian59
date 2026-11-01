@@ -50,11 +50,23 @@ void MainServer()
 	{
 	#ifdef BLAK_USE_POSTGRESQL
 		lprintf("Starting PostgreSQL writer");
+		postgres_connection_options database_options = {
+			ConfigStr(MYSQL_HOST),
+			ConfigInt(MYSQL_CPORT),
+			ConfigStr(MYSQL_USERNAME),
+			ConfigStr(MYSQL_PASSWORD),
+			ConfigStr(MYSQL_DB),
+			ConfigStr(POSTGRES_SSLMODE),
+			ConfigStr(POSTGRES_SSLROOTCERT),
+			ConfigStr(POSTGRES_SSLCERT),
+			ConfigStr(POSTGRES_SSLKEY)
+		};
+		PostgreSQLInit(&database_options);
 	#else
 		lprintf("Starting MySQL writer");
-	#endif
 		MySQLInit(ConfigStr(MYSQL_HOST), ConfigInt(MYSQL_CPORT), ConfigStr(MYSQL_USERNAME),
 			ConfigStr(MYSQL_PASSWORD), ConfigStr(MYSQL_DB));
+	#endif
 	}
 
 	lprintf("Starting %s\n",BlakServLongVersionString());

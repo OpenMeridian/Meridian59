@@ -214,6 +214,10 @@ config_table_type config_table[] =
 { MYSQL_HOST,             F, "Host",          CONFIG_STR,   "localhost" },
 { MYSQL_CPORT,            F, "Port",          CONFIG_INT,   "3306" },
 { MYSQL_DB,               F, "Database",      CONFIG_STR,   "meridian" },
+{ POSTGRES_SSLMODE,       F, "SSLMode",       CONFIG_STR,   "" },
+{ POSTGRES_SSLROOTCERT,   F, "SSLRootCert",   CONFIG_STR,   "" },
+{ POSTGRES_SSLCERT,       F, "SSLCert",       CONFIG_STR,   "" },
+{ POSTGRES_SSLKEY,        F, "SSLKey",        CONFIG_STR,   "" },
 
 { BLAKOD_GROUP,           F, "[Blakod]",      CONFIG_GROUP, "" },
 { BLAKOD_MATCHES_LIST_MAX,T, "MatchesList",   CONFIG_INT,   "10000" },
