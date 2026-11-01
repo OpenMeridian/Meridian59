@@ -67,7 +67,7 @@ properties:
 
    // Whether the spell enables players to access Jixa & Berg.
    // Also requires expansion to be enabled in settings.
-   pbCanEludeToEast = FALSE
+   pbCanEludeToEast = TRUE
 
    // Players must visit a a 'new' city (i.e. not in the original 7)
    // before they can elude to it.

@@ -61,6 +61,9 @@ classvars:
    // if this attribute is present.
    vbAllowSpecialAttributes = TRUE
 
+   // Whether this item attribute should be removed when the item breaks.
+   vbRemoveOnItemBreak = TRUE
+
 properties:
 
    plItems_to_Attribute = $
@@ -301,6 +304,11 @@ messages:
       /// this returns the amount added to an item's spell usage percentage.
       /// for most itematts, this is 0.
       return 0;
+   }
+
+   RemoveOnItemBreak()
+   {
+      return vbRemoveOnItemBreak;
    }
 
 ////////////////////////////////////////////////////

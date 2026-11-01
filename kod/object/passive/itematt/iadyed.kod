@@ -16,9 +16,9 @@ ItemAttDyed is ItemAttribute
 //
 //   Form is:
 //
-//      [IA_DYED, iColor]
+//      [IA_DYED, $, iColor, iOriginalColor]
 //
-//   iColor::the color of the item
+//   iColor::the dye color; iOriginalColor::the original palette
 //
 ///////////////////////////////////////////////////////////////////////
 
@@ -36,6 +36,9 @@ classvars:
 
    viItem_Att_Num = IA_DYED
    vrDesc = ItemAtt_dyed_desc
+
+   // Item stays colored when it breaks - maybe someone wants that?
+   vbRemoveOnItemBreak = FALSE
 
 properties:
 
@@ -65,40 +68,79 @@ messages:
       propagate;
    }
 
-   AddToItem(oItem = $, state1 = $)
+   UpdateItem(oItem=$, iState=$)
    {
       local oOwner;
 
       oOwner = Send(oItem,@GetOwner);
 
-      Send(oItem,@SetPaletteTranslation,#translation=state1);
+      Send(oItem,@SetPaletteTranslation,#translation=iState);
       if (oOwner <> $)
       {
          Send(oOwner,@SomethingChanged,#what=oItem);
          // Checks for item in overlays. SomethingChanged should probably
          // handle this, but other classes use ChangeWindowOverlay for
          // animations already.
-         Send(oOwner,@ChangeWindowOverlay,#what=oItem);
+         if (IsClass(oOwner,&User))
+         {
+            Send(oOwner,@ChangeWindowOverlay,#what=oItem);
+         }
+      }
+
+      return;
+   }
+
+   AddToItem(oItem = $, state1 = $)
+   {
+      local lData;
+
+      lData = Send(oItem,@GetAttributeData,#ItemAtt=viItem_Att_Num);
+      if (lData <> $)
+      {
+         SetNth(lData,3,state1);
+         Send(self,@UpdateItem,#oItem=oItem,#iState=state1);
+
+         return;
       }
 
       propagate;
    }
 
+   AddEffects(oItem=$,lData=$,state1=$)
+   {
+      local iOriginalColor;
+
+      iOriginalColor = Send(oItem,@GetPaletteTranslation);
+      if (Length(lData) > 3)
+      {
+         SetNth(lData,4,iOriginalColor);
+      }
+      else
+      {
+         lData = AppendListElem(iOriginalColor,lData);
+      }
+
+      Send(self,@UpdateItem,#oItem=oItem,#iState=state1);
+
+      return;
+   }
+
    RemoveFromItem(oItem=$, state1 = $)
    {
-      local oOwner;
+      local lData, iOriginalColor;
 
-      oOwner = Send(oItem,@GetOwner);
-
-      Send(oItem,@SetPaletteTranslation,#translation=-(state1));
-      if (oOwner <> $)
+      lData = Send(oItem,@GetAttributeData,#ItemAtt=viItem_Att_Num);
+      if (lData = $)
       {
-         Send(oOwner,@SomethingChanged,#what=oItem);
-         // Checks for item in overlays. SomethingChanged should probably
-         // handle this, but other classes use ChangeWindowOverlay for
-         // animations already.
-         Send(oOwner,@ChangeWindowOverlay,#what=oItem);
+         propagate;
       }
+
+      iOriginalColor = 0;
+      if (Length(lData) > 3 AND Nth(lData,4) <> $)
+      {
+         iOriginalColor = Nth(lData,4);
+      }
+      Send(self,@UpdateItem,#oItem=oItem,#iState=iOriginalColor);
 
       propagate;
    }

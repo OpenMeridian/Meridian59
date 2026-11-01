@@ -41,6 +41,9 @@ classvars:
    viDifficulty = 2
    vrDM_Trigger = engraved_dm
 
+   // Keep engraved message even if the item breaks.
+   vbRemoveOnItemBreak = FALSE
+
 properties:
 
    plDiscarded_Strings = $
