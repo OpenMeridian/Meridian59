@@ -109,13 +109,19 @@ void MainServer(void)
 
    if (ConfigBool(MYSQL_ENABLED))
    {
-#ifdef BLAK_PLATFORM_WINDOWS
-      lprintf("Starting MySQL writer\n");
-#else
       lprintf("Starting PostgreSQL writer\n");
-#endif
-      MySQLInit(ConfigStr(MYSQL_HOST), ConfigInt(MYSQL_CPORT), ConfigStr(MYSQL_USERNAME),
-         ConfigStr(MYSQL_PASSWORD), ConfigStr(MYSQL_DB));
+      postgres_connection_options database_options = {
+         ConfigStr(MYSQL_HOST),
+         ConfigInt(MYSQL_CPORT),
+         ConfigStr(MYSQL_USERNAME),
+         ConfigStr(MYSQL_PASSWORD),
+         ConfigStr(MYSQL_DB),
+         ConfigStr(POSTGRES_SSLMODE),
+         ConfigStr(POSTGRES_SSLROOTCERT),
+         ConfigStr(POSTGRES_SSLCERT),
+         ConfigStr(POSTGRES_SSLKEY)
+      };
+      PostgreSQLInit(&database_options);
    }
 
    lprintf("Starting %s\n", BlakServLongVersionString());

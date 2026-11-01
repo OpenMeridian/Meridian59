@@ -21,7 +21,7 @@
 #define CPH_NUM_ARGUMENTS 3
 
 typedef std::vector <std::tuple<std::string, std::string, std::string>> FileList;
-int base_path_len;
+size_t base_path_len;
 typedef std::vector <std::string> ExtList;
 static std::string patchinfo_path;
 static std::string client_path;
@@ -109,7 +109,7 @@ int main(int argc, char **argv)
 
       // Print the file to the give patchinfo.txt.
       json_dump_file(FileArray, patchinfo_path.c_str(), JSON_INDENT(1));
-      printf("Successfully added %i files.\n", files.size());
+         printf("Successfully added %zu files.\n", files.size());
    }
 
    printf("Scanning completed in %.3f ms.\n", GetMicroCountDouble() - startTime);

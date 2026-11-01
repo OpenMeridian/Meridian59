@@ -62,6 +62,7 @@ Filename  ../../kod/include/blakston.khd
 [MySQL]
 Enabled     No
 Host        127.0.0.1
+Port        5432
 Username    blakserv
 Password    blaks3kr1t
 Database    blakserv

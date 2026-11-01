@@ -122,7 +122,26 @@ Database    meridian59
 ```
 
 Note: The config section is named `[MySQL]` for compatibility with the Windows version,
-but on Linux it connects to PostgreSQL via libpq.
+but on Linux it connects to PostgreSQL via libpq. The Windows Win32 build uses MySQL
+and normally needs port 3306; the Windows x64 build uses PostgreSQL.
+
+The SSL settings are PostgreSQL-only. If unset, libpq normally uses `sslmode=prefer`,
+which does not verify the server and can fall back to an unencrypted connection.
+For verified TLS, configure the PostgreSQL server for TLS, set `Host` to a name or IP
+address that matches its certificate, and add these settings under `[MySQL]`:
+
+```ini
+SSLMode     verify-full
+SSLRootCert </etc/postgresql/certs/ca.crt>
+```
+
+The CA file must exist on the client. If the server requires a client certificate,
+also supply the paths to that certificate and its private key:
+
+```ini
+SSLCert     </etc/postgresql/certs/client.crt>
+SSLKey      </etc/postgresql/certs/client.key>
+```
 
 The server creates all required tables automatically on first connect.
 
