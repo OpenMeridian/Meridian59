@@ -16,9 +16,9 @@ ItemAttDyed is ItemAttribute
 //
 //   Form is:
 //
-//      [IA_DYED, iColor]
+//      [IA_DYED, $, iColor, iOriginalColor]
 //
-//   iColor::the color of the item
+//   iColor::the dye color; iOriginalColor::the original palette
 //
 ///////////////////////////////////////////////////////////////////////
 
@@ -92,21 +92,55 @@ messages:
 
    AddToItem(oItem = $, state1 = $)
    {
-      Send(self,@UpdateItem,#oItem=oItem,#iState=state1);
+      local lData;
+
+      lData = Send(oItem,@GetAttributeData,#ItemAtt=viItem_Att_Num);
+      if (lData <> $)
+      {
+         SetNth(lData,3,state1);
+         Send(self,@UpdateItem,#oItem=oItem,#iState=state1);
+
+         return;
+      }
 
       propagate;
    }
 
+   AddEffects(oItem=$,lData=$,state1=$)
+   {
+      local iOriginalColor;
+
+      iOriginalColor = Send(oItem,@GetPaletteTranslation);
+      if (Length(lData) > 3)
+      {
+         SetNth(lData,4,iOriginalColor);
+      }
+      else
+      {
+         lData = AppendListElem(iOriginalColor,lData);
+      }
+
+      Send(self,@UpdateItem,#oItem=oItem,#iState=state1);
+
+      return;
+   }
+
    RemoveFromItem(oItem=$, state1 = $)
    {
-      local lData, i;
+      local lData, iOriginalColor;
 
-      if (state1 = $)
+      lData = Send(oItem,@GetAttributeData,#ItemAtt=viItem_Att_Num);
+      if (lData = $)
       {
-         lData = Send(oItem,@GetAttributeData,#ItemAtt=viItem_Att_Num);
-         state1 = Nth(lData,3);
+         propagate;
       }
-      Send(self,@UpdateItem,#oItem=oItem,#iState=-(state1));
+
+      iOriginalColor = 0;
+      if (Length(lData) > 3 AND Nth(lData,4) <> $)
+      {
+         iOriginalColor = Nth(lData,4);
+      }
+      Send(self,@UpdateItem,#oItem=oItem,#iState=iOriginalColor);
 
       propagate;
    }
