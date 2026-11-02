@@ -1,0 +1,51 @@
+name: Cleanup old branch artifacts
+
+on:
+  workflow_call:
+    inputs:
+      artifact-name:
+        description: Name of the artifact to keep for the current branch
+        required: true
+        type: string
+
+permissions:
+  actions: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Keep only the latest branch artifact
+        uses: actions/github-script@v9
+        env:
+          ARTIFACT_NAME: ${{ inputs.artifact-name }}
+        with:
+          script: |
+            const branch = context.ref.replace(/^refs\/heads\//, "");
+            const repositoryId = context.payload.repository.id;
+            const currentRunId = Number(context.runId);
+            const artifacts = await github.paginate(
+              github.rest.actions.listArtifactsForRepo,
+              {
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                name: process.env.ARTIFACT_NAME,
+                per_page: 100,
+              },
+              (response) => response.data.artifacts,
+            );
+
+            const staleArtifacts = artifacts.filter((artifact) =>
+              artifact.workflow_run?.head_branch === branch &&
+              artifact.workflow_run?.head_repository_id === repositoryId &&
+              artifact.workflow_run?.id !== currentRunId
+            );
+
+            for (const artifact of staleArtifacts) {
+              await github.rest.actions.deleteArtifact({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                artifact_id: artifact.id,
+              });
+            }

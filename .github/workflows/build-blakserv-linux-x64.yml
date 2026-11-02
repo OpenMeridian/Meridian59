@@ -11,12 +11,17 @@ on:
       - master
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: read
 
 jobs:
   build:
     runs-on: ubuntu-24.04
+    timeout-minutes: 30
     steps:
       - name: Check out source
         uses: actions/checkout@v4
@@ -38,7 +43,16 @@ jobs:
       - name: Upload Linux x64 artifact
         uses: actions/upload-artifact@v4
         with:
-          name: blakserv-linux-x64
+          name: ${{ github.event_name == 'pull_request' && format('blakserv-linux-x64-pr-{0}', github.event.pull_request.number) || 'blakserv-linux-x64' }}
           path: blakserv-linux-x64.tar.gz
           if-no-files-found: error
-          retention-days: 30
+          retention-days: ${{ github.event_name == 'pull_request' && 5 || 90 }}
+
+  cleanup-old-branch-artifacts:
+    if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/develop'
+    needs: build
+    permissions:
+      actions: write
+    uses: ./.github/workflows/cleanup-old-branch-artifacts.yml
+    with:
+      artifact-name: blakserv-linux-x64
