@@ -1,0 +1,44 @@
+name: Build Blakserv Linux x64
+
+on:
+  push:
+    branches:
+      - develop
+      - master
+  pull_request:
+    branches:
+      - develop
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Install build dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y g++ make libjansson-dev libpq-dev
+
+      - name: Build Blakserv
+        run: make -C blakserv -f makefile.linux OUTDIR=linux_debug
+
+      - name: Package server executable
+        run: |
+          install -d dist/blakserv-linux-x64
+          install -m 0755 blakserv/linux_debug/blakserv dist/blakserv-linux-x64/blakserv
+          tar -C dist -czf blakserv-linux-x64.tar.gz blakserv-linux-x64
+
+      - name: Upload Linux x64 artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: blakserv-linux-x64
+          path: blakserv-linux-x64.tar.gz
+          if-no-files-found: error
+          retention-days: 30

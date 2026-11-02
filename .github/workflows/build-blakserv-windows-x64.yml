@@ -1,0 +1,69 @@
+name: Build Blakserv Windows x64
+
+on:
+  push:
+    branches:
+      - develop
+      - master
+  pull_request:
+    branches:
+      - develop
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-2022
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up MSBuild
+        uses: microsoft/setup-msbuild@v2
+
+      - name: Set up MSVC developer environment
+        uses: ilammy/msvc-dev-cmd@v1
+        with:
+          arch: x64
+
+      - name: Build Blakserv x64
+        shell: pwsh
+        run: |
+          $solutionDir = $env:GITHUB_WORKSPACE + "/"
+          msbuild blakserv\blakserv.vcxproj /m /nologo /p:Configuration=Release /p:Platform=x64 "/p:SolutionDir=$solutionDir" /p:PostBuildEventUseInBuild=false
+
+      - name: Package server executable and runtime DLLs
+        shell: pwsh
+        run: |
+          $packageDir = "dist\blakserv-windows-x64"
+          New-Item -ItemType Directory -Force -Path $packageDir | Out-Null
+          Copy-Item "blakserv\x64\Release\blakserv.exe" $packageDir
+
+          $runtimeDlls = @(
+            "libpq.dll",
+            "libcrypto-3-x64.dll",
+            "libintl-9.dll",
+            "libssl-3-x64.dll",
+            "libiconv-2.dll",
+            "libwinpthread-1.dll"
+          )
+          foreach ($dll in $runtimeDlls) {
+            $source = Join-Path "bin" $dll
+            if (-not (Test-Path $source)) {
+              throw "Missing runtime dependency: $source"
+            }
+            Copy-Item $source $packageDir
+          }
+
+          Compress-Archive -Path "$packageDir\*" -DestinationPath "blakserv-windows-x64.zip" -Force
+
+      - name: Upload Windows x64 artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: blakserv-windows-x64
+          path: blakserv-windows-x64.zip
+          if-no-files-found: error
+          retention-days: 30
