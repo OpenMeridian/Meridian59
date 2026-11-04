@@ -34,18 +34,50 @@ jobs:
         with:
           arch: x64
 
-      - name: Build Blakserv x64
+      - name: Build Blakserv and server KOD data
         shell: pwsh
         run: |
-          $solutionDir = $env:GITHUB_WORKSPACE + "/"
-          msbuild blakserv\blakserv.vcxproj /m /nologo /p:Configuration=Release /p:Platform=x64 "/p:SolutionDir=$solutionDir" /p:PostBuildEventUseInBuild=false
+          msbuild Meridian59.sln '/t:Server\blakserv;Server\blakod' /m:2 /nologo /p:Configuration=Release /p:Platform=x64 /p:BuildServerResources=false
 
-      - name: Package server executable and runtime DLLs
+      - name: Package server runtime
         shell: pwsh
         run: |
-          $packageDir = "dist\blakserv-windows-x64"
-          New-Item -ItemType Directory -Force -Path $packageDir | Out-Null
-          Copy-Item "blakserv\x64\Release\blakserv.exe" $packageDir
+          $packageRoot = "dist\blakserv-windows-x64"
+          $serverDir = Join-Path $packageRoot "run\server"
+          $kodIncludeDir = Join-Path $packageRoot "kod\include"
+          $roomsDir = Join-Path $packageRoot "resource\rooms"
+          $serverDirs = @("loadkod", "memmap", "rooms", "rsc", "channel", "savegame")
+          New-Item -ItemType Directory -Force -Path $serverDir, $kodIncludeDir, $roomsDir | Out-Null
+          foreach ($directory in $serverDirs) {
+            New-Item -ItemType Directory -Force -Path (Join-Path $serverDir $directory) | Out-Null
+          }
+
+          foreach ($file in @("run\server\loadkod\system.bof", "run\server\rsc\rsc0000.rsb")) {
+            if (-not (Test-Path $file -PathType Leaf) -or (Get-Item $file).Length -eq 0) {
+              throw "Missing or empty generated server data: $file"
+            }
+          }
+          $serverFiles = @("blakadmin.sh", "packages.txt", "blakston.khd", "protocol.khd", "kodbase.txt")
+          foreach ($file in $serverFiles) {
+            Copy-Item (Join-Path "run\server" $file) $serverDir
+          }
+          Copy-Item "dlg\npcdlg.txt" $serverDir
+          Copy-Item "run\server\blakserv.cfg" (Join-Path $serverDir "blakserv.cfg.example")
+          Copy-Item "run\server\channel\.gitignore" (Join-Path $serverDir "channel\.gitignore")
+          Copy-Item "run\server\savegame\.gitignore" (Join-Path $serverDir "savegame\.gitignore")
+          foreach ($directory in @("loadkod", "memmap", "rsc")) {
+            $source = Join-Path "run\server" $directory
+            $destination = Join-Path $serverDir $directory
+            Copy-Item "$source\*" $destination -Recurse -Force
+          }
+          Copy-Item "blakserv\x64\Release\blakserv.exe" $serverDir
+          Copy-Item "blakserv\x64\Release\blakserv.map" $serverDir
+          Copy-Item "blakserv\x64\Release\blakserv.pdb" $serverDir
+
+          Copy-Item "kod\kodbase.txt" (Join-Path $packageRoot "kod\kodbase.txt")
+          Copy-Item "kod\include\*.khd" $kodIncludeDir
+          Copy-Item "resource\rooms\*.roo" $roomsDir
+          Copy-Item "resource\rooms\*.roo" (Join-Path $serverDir "rooms")
 
           $runtimeDlls = @(
             "libpq.dll",
@@ -60,10 +92,10 @@ jobs:
             if (-not (Test-Path $source)) {
               throw "Missing runtime dependency: $source"
             }
-            Copy-Item $source $packageDir
+            Copy-Item $source $serverDir
           }
 
-          Compress-Archive -Path "$packageDir\*" -DestinationPath "blakserv-windows-x64.zip" -Force
+          Compress-Archive -Path "$packageRoot\*" -DestinationPath "blakserv-windows-x64.zip" -Force
 
       - name: Upload Windows x64 artifact
         uses: actions/upload-artifact@v4

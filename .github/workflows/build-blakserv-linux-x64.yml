@@ -29,15 +29,33 @@ jobs:
       - name: Install build dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install --no-install-recommends -y g++ make libjansson-dev libpq-dev
+          sudo apt-get install --no-install-recommends -y g++ make flex bison libjansson-dev libpq-dev
 
-      - name: Build Blakserv
-        run: make -C blakserv -f makefile.linux OUTDIR=linux_debug
+      - name: Build Blakserv and runtime data
+        run: make -f makefile.linux Bserver Bresource Bkod
 
-      - name: Package server executable
+      - name: Package server runtime
         run: |
-          install -d dist/blakserv-linux-x64
-          install -m 0755 blakserv/linux_debug/blakserv dist/blakserv-linux-x64/blakserv
+          package_root=dist/blakserv-linux-x64
+          server_dir="$package_root/run/server"
+          install -d "$server_dir/loadkod" "$server_dir/memmap" "$server_dir/rooms" \
+            "$server_dir/rsc" "$server_dir/channel" "$server_dir/savegame" \
+            "$package_root/kod/include" "$package_root/resource/rooms"
+          test -s run/server/loadkod/system.bof
+          test -s run/server/rsc/rsc0000.rsb
+          install -m 0755 blakserv/debug/blakserv "$server_dir/blakserv"
+          install -m 0755 run/server/blakadmin.sh "$server_dir/blakadmin.sh"
+          install -m 0644 run/server/blakserv.cfg-linux "$server_dir/blakserv.cfg.example"
+          install -m 0644 run/server/packages.txt run/server/blakston.khd \
+            run/server/protocol.khd run/server/kodbase.txt "$server_dir/"
+          install -m 0644 dlg/npcdlg.txt "$server_dir/npcdlg.txt"
+          cp -a run/server/loadkod/. "$server_dir/loadkod/"
+          cp -a run/server/memmap/. "$server_dir/memmap/"
+          cp -a run/server/rooms/. "$server_dir/rooms/"
+          cp -a run/server/rsc/. "$server_dir/rsc/"
+          install -m 0644 kod/kodbase.txt "$package_root/kod/kodbase.txt"
+          install -m 0644 kod/include/*.khd "$package_root/kod/include/"
+          install -m 0644 resource/rooms/*.roo "$package_root/resource/rooms/"
           tar -C dist -czf blakserv-linux-x64.tar.gz blakserv-linux-x64
 
       - name: Upload Linux x64 artifact

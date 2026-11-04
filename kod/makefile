@@ -24,7 +24,7 @@ all :
 	@echo Copying .rsc files, creating server and client .rsb files
 	@-$(RM) $(BLAKSERVRUNDIR)\rsc\*.rsb >nul 2>&1
 	@-$(RM) $(CLIENTRUNDIR)\resource\*.rsb >nul 2>&1
-	-@$(RSCMERGE) $(BLAKSERVRUNDIR)\rsc\rsc0000.rsb $(BLAKSERVRUNDIR)\rsc
+	@$(RSCMERGE) $(BLAKSERVRUNDIR)\rsc\rsc0000.rsb $(BLAKSERVRUNDIR)\rsc
 	-@$(CP) $(BLAKSERVRUNDIR)\rsc\rsc0000.rsb $(CLIENTRUNDIR)\resource\ 2>&1
 
 clean :

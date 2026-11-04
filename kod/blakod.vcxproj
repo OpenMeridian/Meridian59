@@ -48,10 +48,10 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>$(ProjectDir)</OutDir>
     <TargetName>blakdiff</TargetName>
-    <NMakeBuildCommandLine>nmake all
+    <NMakeBuildCommandLine>nmake all || exit /b 1
 rmdir /S /Q $(ProjectDir)\vsbuildfolder &gt;nul 2&gt;&amp;1
 </NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>nmake clean all
+    <NMakeReBuildCommandLine>nmake clean all || exit /b 1
 rmdir /S /Q $(ProjectDir)\vsbuildfolder &gt;nul 2&gt;&amp;1</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>nmake clean</NMakeCleanCommandLine>
     <IntDir>$(ProjectDir)</IntDir>
@@ -59,10 +59,10 @@ rmdir /S /Q $(ProjectDir)\vsbuildfolder &gt;nul 2&gt;&amp;1</NMakeReBuildCommand
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(ProjectDir)</OutDir>
     <TargetName>blakdiff</TargetName>
-    <NMakeBuildCommandLine>nmake all
+    <NMakeBuildCommandLine>nmake all || exit /b 1
 rmdir /S /Q $(ProjectDir)\vsbuildfolder &gt;nul 2&gt;&amp;1
 </NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>nmake clean all
+    <NMakeReBuildCommandLine>nmake clean all || exit /b 1
 rmdir /S /Q $(ProjectDir)\vsbuildfolder &gt;nul 2&gt;&amp;1</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>nmake clean</NMakeCleanCommandLine>
     <IntDir>$(ProjectDir)</IntDir>

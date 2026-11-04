@@ -6,37 +6,27 @@ TOPDIR=.
 include common.mak.linux
 
 # make ignores targets if they match directory names
+.PHONY: all Bserver Bcompiler Bkod Butil Bresource clean
+
 all: Bserver Bresource Bkod Butil
 
 Bserver:
-	@echo Making $(COMMAND) in $(BLAKSERVDIR); \
-	cd $(BLAKSERVDIR); \
-	$(MAKE) -f makefile.linux $(COMMAND); \
-	cd ..
+	$(MAKE) -C $(BLAKSERVDIR) -f makefile.linux $(COMMAND)
 
 Bcompiler:
-	@echo Making $(COMMAND) in $(BLAKCOMPDIR); \
-	cd $(BLAKCOMPDIR); \
-	$(MAKE) -f makefile.linux $(COMMAND); \
-	cd ..
+	$(MAKE) -C $(BLAKCOMPDIR) -f makefile.linux $(COMMAND)
 
 Bkod: Bcompiler Butil
-	@echo Making $(COMMAND) in $(KODDIR); \
-	cd $(KODDIR); \
-	$(MAKE) -f makefile.linux $(COMMAND); \
-	cd ..
+	$(MAKE) -C $(KODDIR) -f makefile.linux $(COMMAND)
 
 Butil:
-	@echo Making $(COMMAND) in $(UTILDIR); \
-	cd $(UTILDIR); \
-	$(MAKE) -f makefile.linux $(COMMAND); \
-	cd ..
+	$(MAKE) -C $(UTILDIR) -f makefile.linux $(COMMAND)
 
 # Copy room files to server run directory (equivalent of Windows Bresource)
 Bresource:
 	@echo Copying room files to server
 	@mkdir -p $(BLAKSERVRUNDIR)/rooms
-	-@$(CP) $(RESOURCEDIR)/rooms/*.roo $(BLAKSERVRUNDIR)/rooms/ 2>/dev/null
+	$(CP) $(RESOURCEDIR)/rooms/*.roo $(BLAKSERVRUNDIR)/rooms/
 
 clean:
 	env COMMAND='clean' $(MAKE) -sf makefile.linux
