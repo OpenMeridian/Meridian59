@@ -698,10 +698,33 @@ void GameSendSystemEnter(session_node *s)
    SendTopLevelBlakodMessage(GetSystemObjectID(),SYSTEM_ENTER_GAME_MSG,1,&p);
 }
 
+/* The client sends the player's object id as decimal text. Returns the id
+ * if it names an existing object, otherwise INVALID_OBJECT, so the text
+ * can't add anything else to the admin command it is put into.
+ */
+static int GameDMParseObjectID(const char *str)
+{
+   char *end;
+   long object_id;
+
+   if (str == NULL)
+      return INVALID_OBJECT;
+
+   object_id = strtol(str, &end, 10);
+   if (end == str || *end != '\0' || object_id <= 0 || object_id > INT_MAX)
+      return INVALID_OBJECT;
+
+   if (GetObjectByIDQuietly((int) object_id) == NULL)
+      return INVALID_OBJECT;
+
+   return (int) object_id;
+}
+
 void GameDMCommand(session_node *s, int type, char *str)
 {
    char buf[LEN_MAX_CLIENT_MSG + 200];
    int acctype;
+   int object_id;
 
    acctype = ACCOUNT_NORMAL;
    if (!s || !s->account)
@@ -750,7 +773,10 @@ void GameDMCommand(session_node *s, int type, char *str)
          break;
       if (ConfigInt(RIGHTS_GOPLAYER) == ACCOUNT_ADMIN && acctype == ACCOUNT_DM)
          break;
-      sprintf(buf, "send object %i admingotoobject what object %s", s->game->object_id, str);
+      object_id = GameDMParseObjectID(str);
+      if (object_id == INVALID_OBJECT)
+         break;
+      sprintf(buf, "send object %i admingotoobject what object %i", s->game->object_id, object_id);
       SendSessionAdminText(s->session_id, "~B> %s\n", buf); /* echo it to 'em */
       TryAdminCommand(s->session_id, buf);
       break;
@@ -760,7 +786,10 @@ void GameDMCommand(session_node *s, int type, char *str)
          break;
       if (ConfigInt(RIGHTS_GETPLAYER) == ACCOUNT_ADMIN && acctype == ACCOUNT_DM)
          break;
-      sprintf(buf, "send object %s admingotoobject what object %i", str, s->game->object_id);
+      object_id = GameDMParseObjectID(str);
+      if (object_id == INVALID_OBJECT)
+         break;
+      sprintf(buf, "send object %i admingotoobject what object %i", object_id, s->game->object_id);
       SendSessionAdminText(s->session_id, "~B> %s\n", buf); /* echo it to 'em */
       TryAdminCommand(s->session_id, buf);
       break;
