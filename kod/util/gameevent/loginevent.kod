@@ -42,6 +42,12 @@ messages:
 
    Delete()
    {
+      if ptEventEnd <> $
+      {
+         DeleteTimer(ptEventEnd);
+         ptEventEnd = $;
+      }
+
       plNotifiedUsers = $;
       plItemsToGive = $;
       plMessagesToGive = $;

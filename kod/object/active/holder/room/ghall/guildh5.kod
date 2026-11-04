@@ -504,10 +504,10 @@ messages:
          ptWestDoor = $;
       }
 
-      if ptEntrance <> $
+      if ptSecret <> $
       {
-         DeleteTimer(ptEntrance);
-         ptEntrance = $;
+         DeleteTimer(ptSecret);
+         ptSecret = $;
       }
 
       propagate;

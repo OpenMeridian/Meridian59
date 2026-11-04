@@ -418,6 +418,12 @@ messages:
          ptVigor = $;
       }
 
+      if ptMinionControlCheck <> $
+      {
+         DeleteTimer(ptMinionControlCheck);
+         ptMinionControlCheck = $;
+      }
+
       propagate;
    }
 

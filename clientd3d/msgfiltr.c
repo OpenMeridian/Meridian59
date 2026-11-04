@@ -19,6 +19,7 @@ static HWND hWhoDialog = NULL;        /* Non-null if Who dialog is up */
 extern player_info player;
 
 #define WHOM_UPDATE (WM_APP+5)
+#define WHOM_RESET  (WM_APP+6)
 
 Bool AddUserToIgnoreList(ID name)
 {
@@ -70,11 +71,47 @@ void UpdateWho(object_node* pUser, BOOL bAdded)
       SendMessage(hWhoDialog, WHOM_UPDATE, (WPARAM)bAdded, (LPARAM)pUser);
 }
 
+/*
+ * ResetWho:  The list of current users is replaced; the who dialog must
+ *   show the new list before the old one is freed.
+ */
+void ResetWho(list_type users)
+{
+   if (hWhoDialog)
+      SendMessage(hWhoDialog, WHOM_RESET, 0, (LPARAM)users);
+}
+
+/*
+ * WhoSetUsers:  Fill the who dialog's list box with the given users and
+ *   highlight the ones we're not ignoring.
+ */
+static void WhoSetUsers(HWND hDlg, IDList users)
+{
+   HWND hList = GetDlgItem(hDlg, IDC_USERLIST);
+   int num, i;
+
+   ItemListSetContents(hList, users, False);
+
+   num = ListBox_GetCount(hList);
+   for (i = 0; i < num; i++)
+   {
+     object_node *obj = (object_node *) ListBox_GetItemData(hList, i);
+     if (obj == NULL)
+     {
+       debug(("WhoDialogProc got NULL user entry\n"));
+       continue;
+     }
+     if (!IsUserInIgnoreList(obj->name_res))
+       ListBox_SetSel(hList, TRUE, i);
+   }
+
+   SetDlgItemInt(hDlg, IDC_NUMPLAYERS, num, FALSE);
+}
+
 /*****************************************************************************/
 BOOL CALLBACK WhoDialogProc(HWND hDlg, UINT message, UINT wParam, LONG lParam)
 {
    HWND hList;
-   IDList users;
    int num, i;
    Bool selected, ignored;
    
@@ -82,30 +119,13 @@ BOOL CALLBACK WhoDialogProc(HWND hDlg, UINT message, UINT wParam, LONG lParam)
    {      
    case WM_INITDIALOG:
       CenterWindow(hDlg, GetParent(hDlg));
-      users = (IDList) lParam;
       hList = GetDlgItem(hDlg, IDC_USERLIST);
 
       // Don't draw objects; too slow to load user bitmaps
       SetWindowLong(hList, GWL_USERDATA, OD_DRAWICON | OD_ONLYSEL | OD_COLORTEXT | OD_MAKEICONINDEX(0));
       
       /* Set contents of user list */
-      ItemListSetContents(hList, users, False);
-
-      // Highlight people we're not ignoring
-      num = ListBox_GetCount(hList);
-      for (i = 0; i < num; i++)
-      {
-        object_node *obj = (object_node *) ListBox_GetItemData(hList, i);
-        if (obj == NULL)
-        {
-          debug(("WhoDialogProc got NULL user entry\n"));
-          continue;
-        }
-        if (!IsUserInIgnoreList(obj->name_res))
-          ListBox_SetSel(hList, TRUE, i);
-      }
-      
-      SetDlgItemInt(hDlg, IDC_NUMPLAYERS, num, FALSE);
+      WhoSetUsers(hDlg, (IDList) lParam);
 
       CheckDlgButton(hDlg, IDC_BROADCAST, config.no_broadcast);
       CheckDlgButton(hDlg, IDC_IGNOREALL, config.ignore_all);
@@ -114,6 +134,10 @@ BOOL CALLBACK WhoDialogProc(HWND hDlg, UINT message, UINT wParam, LONG lParam)
          SetWindowLong(hList, GWL_USERDATA, GetWindowLong(hList, GWL_USERDATA) | OD_NEXTICON);
 
       hWhoDialog = hDlg;
+      return TRUE;
+
+   case WHOM_RESET:
+      WhoSetUsers(hDlg, (IDList) lParam);
       return TRUE;
 
    case WHOM_UPDATE:

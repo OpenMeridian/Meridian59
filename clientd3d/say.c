@@ -28,7 +28,8 @@ list_type current_users = NULL;
 */
 void SetCurrentUsers(list_type users)
 {
-	/* Destroy old list, and if dialog is up, reset user list box */
+	/* If dialog is up, reset user list box, then destroy old list */
+	ResetWho(users);
 	ObjectListDestroy(current_users);
 	current_users = users;
 }
@@ -72,6 +73,7 @@ void RemoveCurrentUser(ID user_id)
 */
 void FreeCurrentUsers(void)
 {
+	ResetWho(NULL);
 	ObjectListDestroy(current_users);
 	current_users = NULL;
 }
