@@ -83,6 +83,8 @@ messages:
          // For some reason, the client is Sending a null list if you
          //  target a number item with a spell.  for now, assume it's bad.
          Send(who,@MsgSendUser,#message_rsc=apparition_fizzle);
+
+         return FALSE;
       }
 
       oRoom = Send(who,@GetOwner);

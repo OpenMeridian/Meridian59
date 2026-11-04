@@ -9608,7 +9608,7 @@ messages:
                piLastSafeRoom = Send(self,@GetHomeRoom);
             }
          }
-         else if (piflags & PFLAG2_CHEAP_DEATH)
+         else if (piFlags2 & PFLAG2_CHEAP_DEATH)
          {
             piFlags2 &= ~PFLAG2_CHEAP_DEATH;
             if (NOT Send(poOwner,@CheckRoomFlag,#flag=ROOM_SAFELOGOFF))

@@ -74,7 +74,8 @@ messages:
 
    NewOwner(what = $)
    {
-      if (IsClass(what,&Room))
+      if what <> $
+         AND IsClass(what,&Room)
          AND (NOT Send(what,@CheckRoomFlag,#flag=ROOM_NO_COMBAT))
       {
          if Send(Send(SYS,@GetNodeAttack),@GetRespawn)
