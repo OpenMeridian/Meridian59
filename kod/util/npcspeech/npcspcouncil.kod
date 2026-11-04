@@ -1,0 +1,1356 @@
+// Meridian 59, Copyright 1994-2012 Andrew Kirmse and Chris Kirmse.
+// All rights reserved.
+//
+// This software is distributed under a license that is described in
+// the LICENSE file that accompanies it.
+//
+// Meridian is a registered trademark.
+
+
+////////////////////////////////////////////////////////////////////////////////
+NpcSpeechCouncil is NpcSpeech
+// NPC talk of the five councilors:
+// answers to trigger words and random lines.
+// Each line is a resource (EN here, DE in the .lkod); Library adds the
+// lists in CreateSpeechLibrary and CreateRandomLibrary.
+
+constants:
+
+   include blakston.khd
+
+resources:
+
+   include npcspcouncil.lkod
+
+   // FiveCouncilor (Esseldi)
+   fivecouncilor_speech_001 = \
+      "~kEsseldi says, \"I would love to see one of those pendants.\""
+   fivecouncilor_speech_002 = \
+      "~kEsseldi says, \"Well, actually the animals scatter when you travel "
+      "through. The monsters are the things to look out for.\""
+   fivecouncilor_speech_003 = \
+      "~kEsseldi says, \"Ah, old Barloque! It's been a few years since I've "
+      "seen her. Truth to tell, I find her a bit stuffy. Only stop there to "
+      "collect some gear on the way to visit the princess.\""
+   fivecouncilor_speech_004 = \
+      "~kEsseldi says, \"Now there is a place I would have liked to see. "
+      "Tales of Brax are always about an enlightened civilization aspiring "
+      "to construct the greatest city of their time. How brave they must "
+      "have been, and how foolish.\""
+   fivecouncilor_speech_005 = \
+      "~kEsseldi says, \"May your journeys find you in fascinating locales.\""
+   fivecouncilor_speech_006 = \
+      "~kEsseldi says, \"You can really learn a great deal about your roots "
+      "in Cor Noth.\""
+   fivecouncilor_speech_007 = \
+      "~kEsseldi says, \"Myself and four other gentlemen were chosen by King "
+      "Zarcos V to guide the country while he was off doing his own "
+      "exploring. I don't think he's coming back to the throne personally, "
+      "so it's going to be ultimately up to us councilors to choose his "
+      "successor. Personally, I could do without all the politics.\""
+   fivecouncilor_speech_008 = \
+      "~kEsseldi says, \"Drechx can usually be found out near old Castle "
+      "Victoria. It's quite a hike from here. It's amazing how good a shape "
+      "that old man is in.\""
+   fivecouncilor_speech_009 = \
+      "~kEsseldi says, \"I believe that the fabric of magic pulls the Tokens "
+      "towards itself. In our world we have several mana nodes of power and "
+      "dozens of wizards activating magic at different times and power "
+      "levels. When the Tokens are pulled from enough angles, they pop "
+      "towards, but not necessarily to, the strongest ones. I don't know why "
+      "the monsters grab them up though, I think Drechx is working on that "
+      "one.\""
+   fivecouncilor_speech_010 = \
+      "~kEsseldi says, \"I believe that the fabric of magic pulls the Tokens "
+      "towards itself. In our world we have several mana nodes of power and "
+      "dozens of wizards activating magic at different times and power "
+      "levels. When the Tokens are pulled from enough angles, they pop "
+      "towards, but not necessarily to, the strongest ones. I don't know why "
+      "the monsters grab them up though, I think Drechx is working on that "
+      "one.\""
+   fivecouncilor_speech_011 = \
+      "~kEsseldi says, \"Ho Traveler! What brings you out this way?\""
+   fivecouncilor_speech_012 = "~kEsseldi says, \"I have heard of them.\""
+   fivecouncilor_speech_013 = \
+      "~kEsseldi says, \"I am very interested in getting a look at one of "
+      "those swords.\""
+   fivecouncilor_speech_014 = \
+      "~kEsseldi says, \"There's some great people in Jasper, let me tell "
+      "you. Hard working town with good, hard working people.\""
+   fivecouncilor_speech_015 = \
+      "~kEsseldi says, \"Ah, you have heard the story of Venya'cyr. Perhaps "
+      "the lich cannot leave its cursed city.\""
+   fivecouncilor_speech_016 = \
+      "~kEsseldi says, \"Marion's such a nice little town. Friendly people. "
+      "Good farmers. There's nothing better than a good hot meal in Marion "
+      "after being out in the wilds for a few weeks.\""
+   fivecouncilor_speech_017 = \
+      "~kEsseldi says, \"Rook can tell you about monsters.\""
+   fivecouncilor_speech_018 = \
+      "~kEsseldi says, \"Yeah, it was ~Ihumoch~I. That means Troll in "
+      "another language, I think.\""
+   fivecouncilor_speech_019 = \
+      "~kEsseldi says, \"What a spectacular night to be outside! Look, if "
+      "you squint, you can see the East Star.\""
+   fivecouncilor_speech_020 = \
+      "~kEsseldi says, \"Yeah, the ones under Jasper and Barloque.\""
+   fivecouncilor_speech_021 = \
+      "~kEsseldi says, \"It's a little complicated to explain, but I think "
+      "the tokens move around on their own because of the way they interact "
+      "with the mana fields. Each act like magnets, pulling these items "
+      "around in different directions. There's more to it than that. I won't "
+      "bore you with the explanation.\""
+   fivecouncilor_speech_022 = \
+      "~kEsseldi says, \"I really don't have time to get into it right now. "
+      "Maybe some other time.\""
+   fivecouncilor_speech_023 = \
+      "~kEsseldi says, \"I don't much care for Tos as a town. Don't get me "
+      "wrong, the architecture is amazing, like a piece of history sitting "
+      "right there. But the people don't much respect the antiquity of the "
+      "city and tend to abuse it. I only go through Tos when I need to "
+      "advise the Duke.\""
+   fivecouncilor_speech_024 = \
+      "~kEsseldi says, \"I remember that an urn played a part in the story "
+      "of Venya'cyr, but I do not remember its significance.\""
+   fivecouncilor_speech_025 = \
+      "~kEsseldi says, \"Poor girl. She was trapped by the forces "
+      "surrounding her. Would you have done any different? Could you have "
+      "done any different? Can any of us say we have not succumbed to our "
+      "darker instincts at some point? It just cost her more than it has the "
+      "rest of us.\""
+   fivecouncilor_speech_026 = \
+      "~kEsseldi says, \"This is probably not the most popular thing to say "
+      "but, I think the man was a coward for leaving his city without "
+      "standing to fight.\""
+   fivecouncilor_random_001 = \
+      "~kEsseldi says, \"I've been studying these tokens for a long time "
+      "now. I think I'm starting to figure out why they keep popping around "
+      "on us. Just some theories really, but I'm making progress.\""
+   fivecouncilor_random_002 = \
+      "~kEsseldi says, \"If you're a clever explorer, you'll figure out the "
+      "way to the inside of the stone circle in the land of Trolls.\""
+   fivecouncilor_random_003 = \
+      "~kEsseldi says, \"I tell you I have been almost everywhere it seems, "
+      "except the underworld that is. Strange how there are so many ways to "
+      "get out of the afterlife. A lot of open doors...\""
+   fivecouncilor_random_004 = \
+      "~kEsseldi says, \"I find that traveling around is the best way to "
+      "learn about the world, but there are some people that can teach you a "
+      "thing or two as well.\""
+   fivecouncilor_random_005 = \
+      "~kEsseldi says, \"All of the Gods have temples out here in the wilds. "
+      "Problem is finding them. I still don't have a clue to where old Riija "
+      "has hidden out. And I'm beginning to believe that whatever was left "
+      "of Jala's temple is long gone, washed away by the servants of Qor.\""
+   fivecouncilor_random_006 = \
+      "~kEsseldi says, \"If you are hunting for the Mana Nodes, it's an "
+      "awfully good idea to hire a mercenary to guide you. The paths are "
+      "often treacherous. I'd guide you myself, but I'm off on my own quest "
+      "now.\""
+   fivecouncilor_random_007 = \
+      "~kEsseldi says, \"I'm heading up towards the Seafarer's Peak myself. "
+      "It's a wonderful view up there.\""
+   fivecouncilor_random_008 = \
+      "~kEsseldi says, \"The one place I hate exploring is those blasted "
+      "sewers. They seem to go on forever. It would be interesting, but they "
+      "just smell so bad.\""
+   fivecouncilor_random_009 = \
+      "~kEsseldi says, \"There's nothing like a good hike to clear your "
+      "mind. As long as you're careful about the animals that is.\""
+   fivecouncilor_random_010 = "~kEsseldi applies some balm to his feet."
+   fivecouncilor_random_011 = \
+      "~kYou detect the pungent scent of skunk in the forest."
+   fivecouncilor_random_012 = \
+      "~kEsseldi says, \"Watch out for trolls. You know I heard someone call "
+      "them by some other name recently.\""
+   fivecouncilor_random_013 = \
+      "~kEsseldi says, \"Jonas D'Accor knows more than anybody about the old "
+      "legends of Konima.\""
+   fivecouncilor_random_014 = \
+      "~kEsseldi says, \"History claims that the ancient Empire used to "
+      "trade with us through the Nexus near Castle Victoria. The Nexus was "
+      "destroyed centuries ago. Now only trolls guard the stones that once "
+      "marked the gateway.\""
+   fivecouncilor_random_015 = "~kEsseldi says, \"Smell that fresh air!\""
+   fivecouncilor_random_016 = \
+      "~kEsseldi says, \"What a beautiful day to be outside!\""
+   fivecouncilor_speech_027 = \
+      "~kEsseldi says, \"You like standing around in towns, Cor Noth's one "
+      "of the nicer ones. They ask me to give lectures at the University "
+      "from time to time. One day, I'll get around to it, I figure.\""
+   fivecouncilor_trigger_amulet = "amulet"
+   fivecouncilor_trigger_animal = "animal"
+   fivecouncilor_trigger_barloque = "barloque"
+   fivecouncilor_trigger_brax = "brax"
+   fivecouncilor_trigger_bye = "bye"
+   fivecouncilor_trigger_cor_noth = "cor noth"
+   fivecouncilor_trigger_council = "council"
+   fivecouncilor_trigger_drechx = "drechx"
+   fivecouncilor_trigger_drex = "drex"
+   fivecouncilor_trigger_explain = "explain"
+   fivecouncilor_trigger_explanation = "explanation"
+   fivecouncilor_trigger_hello = "hello"
+   fivecouncilor_trigger_hunter = "hunter"
+   fivecouncilor_trigger_hunter_sword = "hunter sword"
+   fivecouncilor_trigger_jasper = "jasper"
+   fivecouncilor_trigger_lich = "lich"
+   fivecouncilor_trigger_marion = "marion"
+   fivecouncilor_trigger_monsters = "monsters"
+   fivecouncilor_trigger_name = "name"
+   fivecouncilor_trigger_night = "night"
+   fivecouncilor_trigger_sewers = "sewers"
+   fivecouncilor_trigger_sewers_2 = "sewers"
+   fivecouncilor_trigger_theory = "theory"
+   fivecouncilor_trigger_theories = "theories"
+   fivecouncilor_trigger_tos = "tos"
+   fivecouncilor_trigger_urn = "urn"
+   fivecouncilor_trigger_venya_cyr = "venya'cyr"
+   fivecouncilor_trigger_zarrus = "zarrus"
+
+   // FourCouncilor (Drechx)
+   fourcouncilor_speech_001 = \
+      "~kDrechx says, \"With their whole existence, the necromancers hate "
+      "everything that lives. The amulet is the result of that perversion. "
+      "Did you know that the only thing a necromancer can eat is the life "
+      "force of living beings? Real food is like poison to them.\""
+   fourcouncilor_speech_002 = \
+      "~kDrechx says, \"That is the way they both feed. Themselves and their "
+      "queen. It is truly disgusting. I only know what Alzahakar has told "
+      "me.\""
+   fourcouncilor_speech_003 = \
+      "~kDrechx says, \"The capital city of Barloque is afflicted with rats. "
+      "Those rich fellows there ought to spend some shillings on mercenaries "
+      "to rid her sewers of the vermin, before disease is spread.\""
+   fourcouncilor_speech_004 = \
+      "~kDrechx says, \"I am no historian.  Talk to the malnourished wizard "
+      "Alzahakar if you want to know about such things.  Let me ask you "
+      "this, Have you ever seen that man eat? I have not.\""
+   fourcouncilor_speech_005 = "~kDrechx says, \"Good health to you, friend.\""
+   fourcouncilor_speech_006 = \
+      "~kDrechx says, \"The scholars' town of Cor Noth suffers from a "
+      "pollution problem. They best clean out their stream before it spawns "
+      "more dreaded slime on the world.\""
+   fourcouncilor_speech_007 = \
+      "~kDrechx says, \"King Zarcos was wise to abdicate the throne to us "
+      "five councilors. His mind is afflicted with mental health problems "
+      "that have been seen in a few of the Kings before him. He needed to "
+      "remove himself from the pressures of rule in order to heal. The five "
+      "of us will see to the Kingdom, until a successor is chosen.\""
+   fourcouncilor_speech_008 = \
+      "~kDrechx says, \"This Akardius has his head on straight. If the "
+      "people will it, my vote is his.\""
+   fourcouncilor_speech_009 = \
+      "~kDrechx says, \"Greetings, my friend. How's your health today?\""
+   fourcouncilor_speech_010 = \
+      "~kDrechx says, \"The Hunters' bond with their swords seems unhealthy "
+      "to me. It is unnatural, so it is not good for the body.\""
+   fourcouncilor_speech_011 = \
+      "~kDrechx says, \"Anything that makes the body dependent on foreign "
+      "material is bad for a person in the end. I know these weapons help "
+      "the Hunters tremendously, but I often wonder what toll the body pays "
+      "for it.\""
+   fourcouncilor_speech_012 = \
+      "~kDrechx says, \"I have heard that it is magical in nature.\""
+   fourcouncilor_speech_013 = \
+      "~kDrechx says, \"Since the intrusion of Jonas and the rebellion into "
+      "their lives I must say that the citizens' health is much improved.  "
+      "Although I could not recommend it as a usual treatment.\""
+   fourcouncilor_speech_014 = \
+      "~kDrechx says, \"He was deformed, if I remember the story correctly.  "
+      "The people did not like the fact that their leader was so hunched "
+      "over and quiet.  The story said that the king lost his voice. How can "
+      "you have a king with no voice?\""
+   fourcouncilor_speech_015 = \
+      "~kDrechx says, \"From what I have heard, the Lich cannot die. Her "
+      "body was changed by the powers that corrupted her. I wonder what it "
+      "is like to live forever?\""
+   fourcouncilor_speech_016 = \
+      "~kDrechx says, \"Marion is a town in perfect health. It balances the "
+      "simple needs of the body with the temperament of peaceful living. It "
+      "is small, but I guarantee that town will outlive the others.\""
+   fourcouncilor_speech_017 = \
+      "~kDrechx says, \"Good, don't you feel more relaxed now?\""
+   fourcouncilor_speech_018 = \
+      "~kDrechx says, \"She has what it takes to rule the land, yet there is "
+      "a naivete that prevents my full support.\""
+   fourcouncilor_speech_019 = \
+      "~kDrechx says, \"Isn't he the new vault man in Tos?\""
+   fourcouncilor_speech_020 = \
+      "~kDrechx says, \"The tokens have a warm life affirming glow coming "
+      "from them. A soul, I'd say. That's why monsters scurry to gather "
+      "them. It's the nature of life to attract other life. That's also why "
+      "death doesn't seem to have such dire effects on us humans when we "
+      "carry a token. It shares part of its life force with us. Alzahakar "
+      "has some theories of his own on this.\""
+   fourcouncilor_speech_021 = \
+      "~kDrechx says, \"The city of Tos suffers from old age. All things in "
+      "life must age, whether living or stone, and poor Tos rests on her "
+      "last legs. Only new life can restore her walls.\""
+   fourcouncilor_speech_022 = \
+      "~kDrechx says, \"A truly despicable character.  She killed her own "
+      "brother, Ker'toth.\""
+   fourcouncilor_speech_023 = "~kDrechx says, \"Nope.\""
+   fourcouncilor_speech_024 = "~kDrechx says, \"Who?\""
+   fourcouncilor_random_001 = \
+      "~kDrechx says, \"My fellow councilors are always looking to retrieve "
+      "the mysterious tokens. We have been tasked with studying them. You'll "
+      "find each of us have our own theories on how they function.\""
+   fourcouncilor_random_002 = \
+      "~kDrechx says, \"The quickest way to recover is to rest at an inn and "
+      "have yourself a good, warm meal.\""
+   fourcouncilor_random_003 = \
+      "~kDrechx says, \"If you want your body to be more resilient, well, "
+      "you'll have to break it down so that it can heal stronger. Might I "
+      "say by taking on creatures that are tougher than you.\""
+   fourcouncilor_random_004 = \
+      "~kDrechx says, \"A good place to hone your body is in the Arena of "
+      "Kraanan. You might get some bruises... but you won't face death like "
+      "combats out in the wild.\""
+   fourcouncilor_random_005 = \
+      "~kDrechx says, \"While armor may be good protection, I think it just "
+      "burdens you down.\""
+   fourcouncilor_random_006 = \
+      "~kDrechx says, \"The Tokens are wonderful creatures. Others might "
+      "call them objects, but I know they have a certain life to them. I "
+      "have some theories on why that is.\""
+   fourcouncilor_random_007 = \
+      "~kDrechx says, \"You'll heal a lot faster if you have a full "
+      "stomach.\""
+   fourcouncilor_random_008 = \
+      "~kDrechx says, \"Now a human has to watch after their own body, but "
+      "if you want a little help, the ways of Shal'ille can teach you a "
+      "healing spell.\""
+   fourcouncilor_random_009 = \
+      "~kDrechx says, \"I've been out swimming far out in that great big "
+      "ocean. Those rumors of sea creatures are nonsense. I don't know why "
+      "they don't sail to deep waters anymore, but I don't believe in sea "
+      "monsters.\""
+   fourcouncilor_random_010 = \
+      "~kDrechx says, \"I've seen over sixty five winters. That's a lot, my "
+      "friend. You don't see sixty five winters by being careless with your "
+      "body. Some men and women half my age aren't in nearly as good a "
+      "shape. Ha, I show them, I do.\""
+   fourcouncilor_random_011 = \
+      "~kDrechx says, \"I'm particular to the Demon Skull token because it "
+      "seems the most negative towards life force. I gather that whatever "
+      "beast it came from was diametrically opposed to life. Being the "
+      "healthiest councilor, it's best that I keep track of it.\""
+   fourcouncilor_random_012 = \
+      "~kDrechx says, \"This old castle here, it's the oldest structure in "
+      "the land. I'm surprised it's still standing. Perhaps the spirit of "
+      "ancient King Far'Nohl keeps it from crumbling to dust.\""
+   fourcouncilor_random_013 = \
+      "~kDrechx chants, \"Ohm... Ohm... Ohm... say it with me now... Ohm... "
+      "Ohm... Ohm...\""
+   fourcouncilor_random_014 = \
+      "~kThe horrid smell of decay comes from the ancient castle."
+   fourcouncilor_random_015 = \
+      "~kYou have an uncomfortable feeling as you stand before the ancient "
+      "castle, as if mankind was not meant to return to these walls."
+   fourcouncilor_random_016 = \
+      "~kInhuman screams can be heard from within the dark castle."
+   fourcouncilor_random_017 = \
+      "~kJust standing before the immense, dark structure, you are "
+      "overwhelmed with an eerie feeling."
+   fourcouncilor_random_018 = "~kDrechx begins to rigorously exercise."
+   fourcouncilor_random_019 = \
+      "~kDrechx says, \"Breathe in... breathe out... breathe in deeply... "
+      "breathe out deeply...\""
+   fourcouncilor_random_020 = \
+      "~kDrechx says, \"My body is my temple. If you don't eat better, your "
+      "body will be your junkyard.\""
+   fourcouncilor_random_021 = \
+      "~kDrechx says, \"What did you have to eat today? The best food is the "
+      "most natural food.\""
+   fourcouncilor_random_022 = \
+      "~kDrechx says, \"If you want to live to see my age, you best eat "
+      "better and exercise your mind and body often.\""
+   fourcouncilor_random_023 = \
+      "~kDrechx says, \"How often do you exercise each day? I'm guessing not "
+      "enough.\""
+   fourcouncilor_random_024 = \
+      "~kDrechx says, \"What matters if you change the town you live in? The "
+      "only true house that you own is your body and that address you can "
+      "not change.\""
+   fourcouncilor_random_025 = \
+      "~kClosing his eyes and relaxing his body, Drechx enters a deep trance."
+   fourcouncilor_trigger_amulet = "amulet"
+   fourcouncilor_trigger_barloque = "barloque"
+   fourcouncilor_trigger_brax = "brax"
+   fourcouncilor_trigger_bye = "bye"
+   fourcouncilor_trigger_cor_noth = "cor noth"
+   fourcouncilor_trigger_council = "council"
+   fourcouncilor_trigger_duke = "duke"
+   fourcouncilor_trigger_hello = "hello"
+   fourcouncilor_trigger_hunter = "hunter"
+   fourcouncilor_trigger_hunter_sword = "hunter sword"
+   fourcouncilor_trigger_hunter_sword_2 = "hunter sword"
+   fourcouncilor_trigger_jasper = "jasper"
+   fourcouncilor_trigger_ker_toth = "ker'toth"
+   fourcouncilor_trigger_lich = "lich"
+   fourcouncilor_trigger_marion = "marion"
+   fourcouncilor_trigger_ohm = "ohm"
+   fourcouncilor_trigger_princess = "princess"
+   fourcouncilor_trigger_tendrath = "tendrath"
+   fourcouncilor_trigger_token = "token"
+   fourcouncilor_trigger_token_2 = "token"
+   fourcouncilor_trigger_tos = "tos"
+   fourcouncilor_trigger_venya_cyr = "venya'cyr"
+   fourcouncilor_trigger_zarrus = "zarrus"
+
+   // OneCouncilor (Alzahakar)
+   onecouncilor_speech_001 = \
+      "~kAlzahakar says, \"The necromancer amulet is worn by those who serve "
+      "the Lich directly. They are a mouth through which the Lich can feed. "
+      "All who are slain by the hand of a necromancer sate the Lich's "
+      "hunger.\""
+   onecouncilor_speech_002 = \
+      "~kAlzahakar says, \"Barloque is an exquisite city. In my days as a "
+      "fledgling wizard, I maintained residence within her grand walls. It "
+      "was expensive, but my mastery of magic allowed me with means by which "
+      "to live there.\""
+   onecouncilor_speech_003 = \
+      "~kAlzahakar says, \"It was to be the greatest seat of culture that "
+      "the meridian had ever known.  They were a strong, organized peoples "
+      "who suffered from self-righteousness and nobility.  Very dangerous "
+      "for a city.\""
+   onecouncilor_speech_004 = \
+      "~kAlzahakar says, \"May the gods see no reason to destroy you.\""
+   onecouncilor_speech_005 = \
+      "~kAlzahakar says, \"How many nights did I burn a candle to the base "
+      "studying at the University in Cor Noth? The scholarly atmosphere was "
+      "most conducive to higher learning.\""
+   onecouncilor_speech_006 = \
+      "~kAlzahakar says, \"The King has personally appointed me, his oldest "
+      "friend and ally, as the head of the council of five. Together we will "
+      "break the secrets of the tokens and perhaps use them to mend the "
+      "ancient Meridian.\""
+   onecouncilor_speech_007 = \
+      "~kAlzahakar says, \"I find that I am torn when placing my vote. "
+      "Akardius is new, yet quite capable.\""
+   onecouncilor_speech_008 = \
+      "~kAlzahakar says, \"The ancient Nexus of power connected this land to "
+      "the former empire. Long ago, the Nexus snapped and nearly destroyed "
+      "this world. The five tokens are the magical key to reconstructing the "
+      "nexus. However, the theoretical new Nexus would not necessarily "
+      "connect back to the empire of old. Who can truly say what could be in "
+      "store for us?\""
+   onecouncilor_speech_009 = \
+      "~kAlzahakar says, \"The spells of some disciplines require dedication "
+      "to certain moral alignments. The fey are useful in changing that "
+      "alignment quickly. \""
+   onecouncilor_speech_010 = \
+      "~kAlzahakar says, \"Greetings, my little friend.\""
+   onecouncilor_speech_011 = \
+      "~kAlzahakar says, \"They are children of the mage Tendrath. Their "
+      "swords grant them great powers, but also demand a sacrifice that "
+      "seems brutal to some.\""
+   onecouncilor_speech_012 = \
+      "~kAlzahakar says, \"The hunters have sworn eternal vengeance on the "
+      "necromancers and all those who spill the blood of the innocent. To "
+      "know that the hunters are on your heels is to know fear.\""
+   onecouncilor_speech_013 = \
+      "~kAlzahakar says, \"Tendrath forged the magic swords to slay the "
+      "Lich. The swords were lost to the Lich when the bravest warriors set "
+      "out to slay Venya'cyr but died by her powers themselves. The swords "
+      "are effective against necromancers, but cannot slay the Lich.\""
+   onecouncilor_speech_014 = \
+      "~kAlzahakar says, \"Jasper, isn't that where Jonas led his little "
+      "rebellion to?\""
+   onecouncilor_speech_015 = \
+      "~kAlzahakar says, \"A misshapen man whose deformity always made his "
+      "kingship suspect.  He lived in a time when people believed that the "
+      "king represented the spirit of a nation.  Are things so different "
+      "now?  The people did not want to see deformity.\""
+   onecouncilor_speech_016 = \
+      "~kAlzahakar says, \"The Lich is the transformed soul of the ancient "
+      "queen of Brax. Her name was Venya'cyr. She was seduced by the Ancient "
+      "forces. They used Venya'cyr's noble ideals to corrupt her.\""
+   onecouncilor_speech_017 = \
+      "~kAlzahakar says, \"I believe Venya'cyr can never die. That is the "
+      "curse. The more she uses these Ancient forces, the less survives of "
+      "the once noble queen. Perhaps she is already completely corrupted.\""
+   onecouncilor_speech_018 = \
+      "~kAlzahakar says, \"Marion enjoys the protection of the goddess "
+      "Shal'ille. It is a very peaceful place to study.\""
+   onecouncilor_speech_019 = \
+      "~kAlzahakar says, \"Ah, the fair and clever Princess Kateriina, she "
+      "will one day make a beautiful queen and powerful sorceress. She is "
+      "wise to spend her time in support of the magical arts.\""
+   onecouncilor_speech_020 = \
+      "~kAlzahakar says, \"I know little of him.  His family was killed by "
+      "Venya'cyr.  It is rumored that his ghost still wanders the land.\""
+   onecouncilor_speech_021 = \
+      "~kAlzahakar says, \"It is my theory that together the tokens could "
+      "form a powerful bond of magic that would create the Nexus anew. Our "
+      "problem is we can not seem to get them to stay in one place together "
+      "long enough to invoke the proper spells and experiments. I could "
+      "explain further, if you wish.\""
+   onecouncilor_speech_022 = \
+      "~kAlzahakar says, \"Tos has no redeeming value. Even the magic shop "
+      "owner is a disgrace to the world.\""
+   onecouncilor_speech_023 = \
+      "~kAlzahakar says, \"The young princess had a brother.  The brother "
+      "was King of Brax. He was physically deformed and over the years he "
+      "lost his voice.  The young princess was loved by the people and she "
+      "performed many of the duties reserved for the king.\""
+   onecouncilor_speech_024 = \
+      "~kAlzahakar says, \"Once a nobleman in the House of Brax, he was the "
+      "cousin of the Princess Venya'cyr.  He fled the realm for Tos when the "
+      "Ancient forces guiding Venya'cyr pronounced him a rival for the "
+      "throne.\""
+   onecouncilor_speech_025 = \
+      "~kAlzahakar says, \"Zarrus is an ancestor of the King Zarcos.  Zarrus "
+      "was a cousin to Venya'cyr.  It takes no genius to figure out that the "
+      "Lich, at one time, shared the bloodlines of our King.  I am sure she "
+      "would like it to be thus again.\""
+   onecouncilor_random_001 = \
+      "~kAlzahakar says, \"All of us on the council seek the magical tokens "
+      "so that we may crack their secrets and draw from their power. I have "
+      "my theories on how this magic can be utilized.\""
+   onecouncilor_random_002 = \
+      "~kAlzahakar says, \"There are many magical portals open that connect "
+      "areas that do not sit side by side, or even in the same dimension for "
+      "that matter. Why even the underworld is known to have such portals.\""
+   onecouncilor_random_003 = \
+      "~kAlzahakar says, \"I am indeed a master of all magic, but the "
+      "balance I must maintain is too precarious for the common wizard. You "
+      "are better off staying with one school. If your mind becomes clouded "
+      "with other schools, I suggest you seek the potion of forgetfulness.\""
+   onecouncilor_random_004 = \
+      "~kAlzahakar says, \"Beware of the magic of Riija, for little of it "
+      "has any substance. Unless you believe it does, of course.\""
+   onecouncilor_random_005 = \
+      "~kAlzahakar says, \"All magic comes to us directly from the gods. An "
+      "atheist is impotent here in Meridian. Perhaps worse off though is "
+      "someone who tries to appease all of the gods at once.\""
+   onecouncilor_random_006 = \
+      "~kAlzahakar says, \"I do not have time to show you how to get to the "
+      "various temples, if that's what you are here to ask. Hire a "
+      "mercenary, there are many that can guide the way.\""
+   onecouncilor_random_007 = \
+      "~kAlzahakar says, \"I have theories on how the tokens function in "
+      "this dimension and how they can be used in the future.\""
+   onecouncilor_random_008 = \
+      "~kAlzahakar says, \"Priestesses are not the only ones who can teach "
+      "magic to those willing to learn.\""
+   onecouncilor_random_009 = \
+      "~kAlzahakar says, \"Many people wonder if we still have a king. "
+      "Indeed, it is so. I, and I alone, speak to him frequently. His "
+      "highness is... too preoccupied with his studies to be burdened by "
+      "company or the kingdom.\""
+   onecouncilor_random_010 = \
+      "~kAlzahakar says, \"I can not believe how many minor magicians walk "
+      "with the pride of a full sorcerer. I pity them should they cross my "
+      "path.\""
+   onecouncilor_random_011 = \
+      "~kAlzahakar says, \"I do not traffic with the other council members "
+      "very much. They are not to my tastes, except perhaps Esseldi. At "
+      "least he has the sense to track down the Mana Nodes. He also has some "
+      "interesting theories on the Tokens.\""
+   onecouncilor_random_012 = \
+      "~kAlzahakar says, \"Do not put any stock in that wasted wizard "
+      "Maleval. He is a charlatan, nothing more.\""
+   onecouncilor_random_013 = \
+      "~kStrangely, the fireplace does not seem to give off as much heat as "
+      "you would expect."
+   onecouncilor_random_014 = \
+      "~kAlzahakar makes a mystical gesture. You are unsure of what magic he "
+      "may have just cast."
+   onecouncilor_random_015 = \
+      "~kAlzahakar says, \"Please, warm yourself by my fire.\""
+   onecouncilor_random_016 = \
+      "~kAlzahakar says, \"I sense a peacefulness in the continuum. All is "
+      "well.\""
+   onecouncilor_random_017 = \
+      "~kAlzahakar says, \"Clearly Shal'ille's magic ranks stronger than "
+      "that of the other gods.\""
+   onecouncilor_random_018 = \
+      "~kAlzahakar says, \"How serene the world seems when you fully devote "
+      "yourself to the goddess Shal'ille.\""
+   onecouncilor_random_019 = \
+      "~kAlzahakar says, \"The spirit of Shal'ille is with us. A most "
+      "blessed occurrence.\""
+   onecouncilor_random_020 = \
+      "~kAlzahakar says, \"Do not underestimate the raw power of Faren. I've "
+      "seen many a lesser sorcerer consumed by his own spells when "
+      "carelessly cast.\""
+   onecouncilor_random_021 = \
+      "~kAlzahakar says, \"Kraanan is not just a warrior's god. No, his "
+      "magic is quite potent in directly combating other spells.\""
+   onecouncilor_random_022 = \
+      "~kAlzahakar says, \"Being a practitioner of all magics, I find the "
+      "fey of the Vale of Sorrows particularly useful.\""
+   onecouncilor_random_023 = \
+      "~kAlzahakar says, \"I find Qor's magic to be most potent, don't you? "
+      "You should master it, her dark shadows are most inviting.\""
+   onecouncilor_random_024 = \
+      "~kAlzahakar says, \"It is so easy to follow mistress Qor. A little "
+      "blood spilled here and there, and then you can drink deeply from her "
+      "power!\""
+   onecouncilor_random_025 = \
+      "~kAlzahakar says, \"I sense the forces of evil strongly now. Yes, "
+      "that wonderful elation that comes with black magic!\""
+   onecouncilor_random_026 = \
+      "~kAlzahakar says, \"I feel the dark spirits of Qor growing restless. "
+      "Leave my home, else I may release them!\""
+   onecouncilor_random_027 = \
+      "~kAlzahakar says, \"I have some very important mystical research to "
+      "do. I trust you can find the door!\""
+   onecouncilor_trigger_amulet = "amulet"
+   onecouncilor_trigger_barloque = "barloque"
+   onecouncilor_trigger_brax = "brax"
+   onecouncilor_trigger_bye = "bye"
+   onecouncilor_trigger_cor_noth = "cor noth"
+   onecouncilor_trigger_council = "council"
+   onecouncilor_trigger_duke = "duke"
+   onecouncilor_trigger_explain = "explain"
+   onecouncilor_trigger_explain_2 = "explain"
+   onecouncilor_trigger_fey = "fey"
+   onecouncilor_trigger_hello = "hello"
+   onecouncilor_trigger_hunter = "hunter"
+   onecouncilor_trigger_hunter_sword = "hunter sword"
+   onecouncilor_trigger_jasper = "jasper"
+   onecouncilor_trigger_king_of_brax = "king of brax"
+   onecouncilor_trigger_lich = "lich"
+   onecouncilor_trigger_marion = "marion"
+   onecouncilor_trigger_princess = "princess"
+   onecouncilor_trigger_tendrath = "tendrath"
+   onecouncilor_trigger_theory = "theory"
+   onecouncilor_trigger_tos = "tos"
+   onecouncilor_trigger_venya_cyr = "venya'cyr"
+   onecouncilor_trigger_zarrus = "zarrus"
+
+   // ThreeCouncilor (Cylill)
+   threecouncilor_speech_001 = \
+      "~kCylill says, \"People who rely on magic like this are vulnerable in "
+      "a way that common folk are not. It would be wiser to look into the "
+      "origin of their powers.\""
+   threecouncilor_speech_002 = \
+      "~kCylill says, \"Barloque is a fairly well defended city. Its walls "
+      "and moat offer excellent protection to the south, where it needed it "
+      "in the old Tos wars. But her weakness is in her poorly guarded north "
+      "shore. A platoon in small boats could shuttle 'round her.\""
+   threecouncilor_speech_003 = \
+      "~kCylill says, \"It was to be the greatest military power in the "
+      "world.  The soldiers of Brax were ferocious warriors and their "
+      "generals were skilled tacticians.\""
+   threecouncilor_speech_004 = "~kCylill says, \"Cheerio, chap!\""
+   threecouncilor_speech_005 = \
+      "~kCylill says, \"A rudimentary wall surrounds Cor Noth. She has "
+      "hardly any military to speak of. And her potential enemies could "
+      "fully surround her. Very bad design, I say, very bad.\""
+   threecouncilor_speech_006 = \
+      "~kCylill says, \"My son, Cort, is the esteemed Watcher of the Arena. "
+      "His mother helped him get that position. If it were up to me, he'd be "
+      "going through a proper and rigid stay in the Duke's army right now.\""
+   threecouncilor_speech_007 = \
+      "~kCylill says, \"Essentially, the council is comprised of myself and "
+      "four other jolly good chaps. We look after the kingdom in the stead "
+      "of King Zarcos. Most of the time my peers study these mysterious "
+      "tokens. I am charged with making sure they don't fall in to the wrong "
+      "hands.\""
+   threecouncilor_speech_008 = \
+      "~kCylill says, \"I hope Akardius can lead troops like Kalior could.\""
+   threecouncilor_speech_009 = "~kCylill says, \"Ho chap!\""
+   threecouncilor_speech_010 = \
+      "~kCylill says, \"I fear men who have no visible leader. They can "
+      "easily rise up, and then I have to deal with them. I don't fear them "
+      "personally, you know, I fear the lack of leadership or of a "
+      "commander.\""
+   threecouncilor_speech_011 = \
+      "~kCylill says, \"Having once seen a hunter in action, I'm not sure "
+      "there's much difference between the hunters and the necromancers.\""
+   threecouncilor_speech_012 = \
+      "~kCylill says, \"Jasper has a good natural defense. There are only a "
+      "few, very visible ways in and out. A small yet well coordinated task "
+      "force could repel attackers. If war breaks out, that may be ~Ithe~I "
+      "place to go.\""
+   threecouncilor_speech_013 = \
+      "~kCylill says, \"It was a fortress said to be built with ancient "
+      "magic. The owner of that fortress was the Lich. Supposedly the castle "
+      "had a labyrinth that could keep even the mightiest forces from "
+      "entering its realm. Of course, the fear of the Urn alone kept most "
+      "people from even trying.\""
+   threecouncilor_speech_014 = \
+      "~kCylill says, \"Marion has the best defense of all the cities, she's "
+      "protected by a goddess! I say, what could be better than a goddess "
+      "who makes your enemies sheath their swords. Ha.\""
+   threecouncilor_speech_015 = \
+      "~kCylill says, \"Qerti'nya is Cort's mother. She taught me a great "
+      "deal about our lord Kraanan and about the ways of women. Probably "
+      "more about the ways of women than I wished to know. She lives way out "
+      "at the temple beyond the cragged mountains, which is good for her, "
+      "and bloody good for me.\""
+   threecouncilor_speech_016 = \
+      "~kCylill says, \"The Princess believes a skilled soldier is better "
+      "than a strong soldier. Fair logic, I say.\""
+   threecouncilor_speech_017 = \
+      "~kCylill says, \"Qerti'nya is Cort's mother. She taught me a great "
+      "deal about our lord Kraanan and about the ways of women. Probably "
+      "more about the ways of women than I wished to know. She lives way out "
+      "at the temple beyond the cragged mountains, which is good for her, "
+      "and bloody good for me.\""
+   threecouncilor_speech_018 = \
+      "~kCylill says, \"My son, Cort, is the esteemed Watcher of the Arena. "
+      "His mother helped him get that position. If it were up to me, he'd be "
+      "going through a proper and rigid stay in the Duke's army right now.\""
+   threecouncilor_speech_019 = \
+      "~kCylill says, \"Tendrath was a weak man who used his power to "
+      "destroy an entire city.\""
+   threecouncilor_speech_020 = \
+      "~kCylill says, \"Tos is protected by the capable hands of the Honor "
+      "Guard. The Badlands offered superb protection to the north during the "
+      "Barloque wars, but now her enemy comes from the south. It will be "
+      "interesting to see if they can repel a solid siege.\""
+   threecouncilor_speech_021 = \
+      "~kCylill says, \"The Urn was the original source of the Lich's "
+      "powers. Through the powers of this Urn, Queen Venya'cyr was "
+      "corrupted.\""
+   threecouncilor_speech_022 = \
+      "~kCylill says, \"She was the sister of an incompetent king despised "
+      "by all his people. He was weak of mind, with no experience in battle, "
+      "and had neither knowledge of diplomacy nor talent for warfare.\""
+   threecouncilor_speech_023 = \
+      "~kCylill says, \"My son, Cort, is the esteemed Watcher of the Arena. "
+      "His mother helped him get that position. If it were up to me, he'd be "
+      "going through a proper and rigid stay in the Duke's army right now.\""
+   threecouncilor_speech_024 = "~kCylill says, \"I know not of this man.\""
+   threecouncilor_random_001 = \
+      "~kCylill says, \"If you really want to know what's what about those "
+      "beasties out there, you should seek Rook. That chap knows the score.\""
+   threecouncilor_random_002 = \
+      "~kCylill says, \"The only warrior that's worth his weight has battle "
+      "scars to brag of. I wouldn't trust a man to defend my castle if he "
+      "hadn't lived through a really good trouncing or two.\""
+   threecouncilor_random_003 = \
+      "~kCylill says, \"Always remember an army or even a troupe of men is "
+      "mightier than the single soldier.\""
+   threecouncilor_random_004 = \
+      "~kCylill says, \"Keep an eye out will you for those blasted tokens. "
+      "I'm in charge of protecting their safety. They are official property "
+      "of the council, you know.\""
+   threecouncilor_random_005 = \
+      "~kCylill says, \"Did I ever tell you about my underdog strategy in "
+      "the battle of Ukgoth? The Nasties, or the trolls if you will, had us "
+      "surrounded. We were thirty men with wounded. They numbered sixty or "
+      "more. I had my men defend in a cross pattern as our five best flanked "
+      "their leader. Bloody mess, all in all.\""
+   threecouncilor_random_006 = \
+      "~kCylill says, \"During my second tour of duty, I found myself and my "
+      "men faced with ferreting out a small cult of Qor who were randomly "
+      "picking off our civilians. Those buggers dug themselves so deep into "
+      "the Cragged Mountains with their bloody magic, it took us near five "
+      "months to give them what for.\""
+   threecouncilor_random_007 = \
+      "~kCylill says, \"Thinking back, it was when our military exercises "
+      "took us to the Druids Hills when I faced my first troll. Some of the "
+      "men broke formation. A few of the chaps ran. Not I. I fought side by "
+      "side with my Sergeant till the bloody beast fell. That's when I knew "
+      "command was for me.\""
+   threecouncilor_random_008 = \
+      "~kCylill says, \"I remember when I was promoted to Captain in the "
+      "Duke's Honor Guard. A small revolution had begun in Jasper. This was "
+      "back 'round the time of the miner's strike. The whole place was a "
+      "bloody mess with the scabs returning to the mines and what with all "
+      "the riots that started up.\""
+   threecouncilor_random_009 = \
+      "~kCylill says, \"Now if I had moved the orange footmen 'round the "
+      "river to the north... that might have saved some... but then again we "
+      "needed a force back for the... What? Ho? Are you still here?\""
+   threecouncilor_random_010 = \
+      "~kCylill says, \"You don't come by way of Tos, do you? How's my son "
+      "doing there?\""
+   threecouncilor_random_011 = "~kCylill says, \"Stand up straight.\""
+   threecouncilor_random_012 = \
+      "~kThe pleasant scent of raspberries hangs in the air near the source "
+      "of the river."
+   threecouncilor_random_013 = \
+      "~kCylill paces back and forth, muttering something about some long "
+      "ago war."
+   threecouncilor_random_014 = \
+      "~kCylill says, \"Jolly good day, today was, don't you think!\""
+   threecouncilor_trigger_amulet = "amulet"
+   threecouncilor_trigger_barloque = "barloque"
+   threecouncilor_trigger_brax = "brax"
+   threecouncilor_trigger_bye = "bye"
+   threecouncilor_trigger_cor_noth = "cor noth"
+   threecouncilor_trigger_cort = "cort"
+   threecouncilor_trigger_council = "council"
+   threecouncilor_trigger_duke = "duke"
+   threecouncilor_trigger_hello = "hello"
+   threecouncilor_trigger_hunter = "hunter"
+   threecouncilor_trigger_hunter_sword = "hunter sword"
+   threecouncilor_trigger_jasper = "jasper"
+   threecouncilor_trigger_lich = "lich"
+   threecouncilor_trigger_marion = "marion"
+   threecouncilor_trigger_mother = "mother"
+   threecouncilor_trigger_princess = "princess"
+   threecouncilor_trigger_qerti_nya = "qerti'nya"
+   threecouncilor_trigger_qertina = "qertina"
+   threecouncilor_trigger_son = "son"
+   threecouncilor_trigger_tendrath = "tendrath"
+   threecouncilor_trigger_tos = "tos"
+   threecouncilor_trigger_urn = "urn"
+   threecouncilor_trigger_venya_cyr = "venya'cyr"
+   threecouncilor_trigger_watcher = "watcher"
+   threecouncilor_trigger_watcher_2 = "watcher"
+   threecouncilor_trigger_zarrus = "zarrus"
+
+   // TwoCouncilor (Bei Naq)
+   twocouncilor_speech_001 = \
+      "~kBei Naq says, \"I am very interested in owning one of those "
+      "amulets. I am sure they are priceless.\""
+   twocouncilor_speech_002 = \
+      "~kBei Naq says, \"Barloque is the richest city in the world, and that "
+      "is why I respect it.\""
+   twocouncilor_speech_003 = \
+      "~kBei Naq says, \"A lost city whose treasures, should they be found, "
+      "could prove very profitable for the one who finds them.\""
+   twocouncilor_speech_004 = "~kBei Naq says, \"Be off with you, then.\""
+   twocouncilor_speech_005 = \
+      "~kBei Naq says, \"Cor Noth has its value. It lies roughly between the "
+      "Princess and the Duke. The inn is merely acceptable as a place to "
+      "stay for the night.\""
+   twocouncilor_speech_006 = \
+      "~kBei Naq says, \"King Zarcos left me, and the other four, in charge "
+      "of managing the government until his successor is chosen. We have "
+      "been tasked with studying the priceless tokens.\""
+   twocouncilor_speech_007 = \
+      "~kBei Naq says, \"My support goes his way on occasion. In fact, "
+      "generally, I support him. However, the Princess often returns my "
+      "jeweled token, so I sometimes support her.\""
+   twocouncilor_speech_008 = "~kBei Naq says, \"Yes? Why are you here?\""
+   twocouncilor_speech_009 = \
+      "~kBei Naq says, \"I am one of the five councilors.\""
+   twocouncilor_speech_010 = \
+      "~kBei Naq says, \"I know nothing about those homeless fanatics.\""
+   twocouncilor_speech_011 = \
+      "~kBei Naq says, \"I would dearly love to call such a sword my own. "
+      "Surely such fortune would not come free of charge.\""
+   twocouncilor_speech_012 = \
+      "~kBei Naq says, \"A pox on Jasper! Much of my fortune was made "
+      "through Jasper's mines, but now they are all dried up. The town "
+      "should be closed.\""
+   twocouncilor_speech_013 = \
+      "~kBei Naq says, \"Do I look like a historian? I am a simple man, "
+      "don't ask me such things.\""
+   twocouncilor_speech_014 = \
+      "~kBei Naq says, \"No one has any money in Marion. Not worth my "
+      "attention, I tell you.\""
+   twocouncilor_speech_015 = \
+      "~kBei Naq says, \"It is rumored that he was a masterful negotiator "
+      "who always kept his objectivity.  He was a diplomat for hire who had "
+      "a knack for easing tension and acquiring wealth.  A potent "
+      "combination wouldn't you say?\""
+   twocouncilor_speech_016 = \
+      "~kBei Naq says, \"The Princess Kateriina comes from a very rich "
+      "family. I respect that.\""
+   twocouncilor_speech_017 = "~kBei Naq says, \"Who?\""
+   twocouncilor_speech_018 = \
+      "~kBei Naq says, \"Each token is made of the absolute finest of "
+      "materials, so good in fact that I do not believe they were made by "
+      "the hands of man. I suspect that they were crafted by gods in a realm "
+      "beyond Meridian. Each token probably represents a different being of "
+      "immense power.\""
+   twocouncilor_speech_019 = \
+      "~kBei Naq says, \"Age does not always mean more value. Tos, for "
+      "example, seems to get less valuable every year.\""
+   twocouncilor_speech_020 = \
+      "~kBei Naq says, \"The eggs of a giant queen spider are said to have "
+      "certain value as an aphrodisiac.\""
+   twocouncilor_speech_021 = \
+      "~kBei Naq says, \"I have heard the name but I recall nothing about "
+      "the person.\""
+   twocouncilor_speech_022 = \
+      "~kBei Naq says, \"An ancestor of Zarcos.  He began to build the "
+      "fortune which would later bring his family to power.  I respect his "
+      "tenacity as well as his methods.\""
+   twocouncilor_random_001 = \
+      "~kBei Naq says, \"It is tragic how often we lose sight of the tokens. "
+      "Simply put, they are priceless. I indeed have my own theories on why "
+      "they are so valuable.\""
+   twocouncilor_random_002 = \
+      "~kBei Naq says, \"I've heard that there is a new queen spider. I "
+      "would like to get my hands on her eggs. They have certain... value.\""
+   twocouncilor_random_003 = \
+      "~kBei Naq says, \"The safest place for your money is in a bank. "
+      "Unless you have a hidden gem mine to tuck away your fortune, like I "
+      "do.\""
+   twocouncilor_random_004 = \
+      "~kBei Naq says, \"A buyer can be found for most any item, if you look "
+      "hard enough.\""
+   twocouncilor_random_005 = \
+      "~kBei Naq says, \"I hear legend of a mighty gem created by some long "
+      "dead alchemist buried away near some underground lake.\""
+   twocouncilor_random_006 = \
+      "~kBei Naq says, \"Those disgusting Trolls are often attracted to "
+      "shiny things like gems. I'll wager they have stashed a great deal of "
+      "treasure over the years.\""
+   twocouncilor_random_007 = \
+      "~kBei Naq says, \"A good place to store your treasures is up with the "
+      "vaultman in Barloque.\""
+   twocouncilor_random_008 = \
+      "~kBei Naq says, \"The Justicar in Barloque holds trials of murderers. "
+      "Bah, we've more of a problem with thieves. The Justicar should hear "
+      "those cases as well.\""
+   twocouncilor_random_009 = \
+      "~kBei Naq says, \"Thieves, thieves, everywhere. I cannot stomach such "
+      "miserable wretches.\""
+   twocouncilor_random_010 = \
+      "~kBei Naq says, \"Do not stand too close to me. And let me see your "
+      "hands at all times.\""
+   twocouncilor_random_011 = "~kBei Naq says, \"Well, what do you want?\""
+   twocouncilor_random_012 = \
+      "~kBei Naq says, \"Wealth of coin or token should not be brought "
+      "together in a lump in your home. There are better places to hoard "
+      "your power.\""
+   twocouncilor_random_013 = \
+      "~kBei Naq says, \"I often like to play a good game of Feudal Lords "
+      "with some of my friends up in Barloque. Meidei has the cards behind "
+      "his bar.\""
+   twocouncilor_random_014 = \
+      "~kBei Naq says, \"Who sent you here? What do you want? My gold I'll "
+      "warrant. Well, you won't be getting it!\""
+   twocouncilor_random_015 = \
+      "~kBei Naq says, \"You look like a thief, come to steal my treasures. "
+      "Well, you won't get them, I tell you, you won't!\""
+   twocouncilor_random_016 = \
+      "~kBei Naq says, \"Don't even consider robbing me. I can snap my "
+      "fingers and my personal guards will show you the pointed end of their "
+      "swords.\""
+   twocouncilor_trigger_amulet = "amulet"
+   twocouncilor_trigger_barloque = "barloque"
+   twocouncilor_trigger_brax = "brax"
+   twocouncilor_trigger_bye = "bye"
+   twocouncilor_trigger_cor_noth = "cor noth"
+   twocouncilor_trigger_council = "council"
+   twocouncilor_trigger_duke = "duke"
+   twocouncilor_trigger_hello = "hello"
+   twocouncilor_trigger_help = "help"
+   twocouncilor_trigger_hunter = "hunter"
+   twocouncilor_trigger_hunter_sword = "hunter sword"
+   twocouncilor_trigger_hunter_sword_2 = "hunter sword"
+   twocouncilor_trigger_jasper = "jasper"
+   twocouncilor_trigger_lich = "lich"
+   twocouncilor_trigger_marion = "marion"
+   twocouncilor_trigger_methods = "methods"
+   twocouncilor_trigger_princess = "princess"
+   twocouncilor_trigger_tendrath = "tendrath"
+   twocouncilor_trigger_theories = "theories"
+   twocouncilor_trigger_tos = "tos"
+   twocouncilor_trigger_value = "value"
+   twocouncilor_trigger_venya_cyr = "venya'cyr"
+   twocouncilor_trigger_zarrus = "zarrus"
+
+messages:
+
+   GetSpeechLibrary()
+   "Speech library nodes: [class, [[triggers, mood, action, key], ...]]"
+   {
+      local lLib;
+
+      lLib = $;
+
+      lLib = Cons([&FiveCouncilor,[
+         [[fivecouncilor_trigger_amulet],0,
+            [LIBACT_QUOTE_RSC,fivecouncilor_speech_001],1],
+         [[fivecouncilor_trigger_animal],0,
+            [LIBACT_QUOTE_RSC,fivecouncilor_speech_002],2],
+         [[fivecouncilor_trigger_barloque],0,
+            [LIBACT_QUOTE_RSC,fivecouncilor_speech_003],3],
+         [[fivecouncilor_trigger_brax],0,
+            [LIBACT_QUOTE_RSC,fivecouncilor_speech_004],4],
+         [[fivecouncilor_trigger_bye],0,
+            [LIBACT_QUOTE_RSC,fivecouncilor_speech_005],5],
+         [[fivecouncilor_trigger_cor_noth],0,
+            [LIBACT_QUOTE_RSC,fivecouncilor_speech_006],6],
+         [[fivecouncilor_trigger_council],0,
+            [LIBACT_QUOTE_RSC,fivecouncilor_speech_007],7],
+         [[fivecouncilor_trigger_drechx,fivecouncilor_trigger_drex],0,
+            [LIBACT_QUOTE_RSC,fivecouncilor_speech_008],8],
+         [[fivecouncilor_trigger_explain],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,fivecouncilor_speech_009],9],
+         [[fivecouncilor_trigger_explanation],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,fivecouncilor_speech_010],10],
+         [[fivecouncilor_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,fivecouncilor_speech_011],11],
+         [[fivecouncilor_trigger_hunter],0,
+            [LIBACT_QUOTE_RSC,fivecouncilor_speech_012],12],
+         [[fivecouncilor_trigger_hunter_sword],0,
+            [LIBACT_QUOTE_RSC,fivecouncilor_speech_013],13],
+         [[fivecouncilor_trigger_jasper],0,
+            [LIBACT_QUOTE_RSC,fivecouncilor_speech_014],14],
+         [[fivecouncilor_trigger_lich],0,
+            [LIBACT_QUOTE_RSC,fivecouncilor_speech_015],15],
+         [[fivecouncilor_trigger_marion],0,
+            [LIBACT_QUOTE_RSC,fivecouncilor_speech_016],16],
+         [[fivecouncilor_trigger_monsters],0,
+            [LIBACT_QUOTE_RSC,fivecouncilor_speech_017],17],
+         [[fivecouncilor_trigger_name],0,
+            [LIBACT_QUOTE_RSC,fivecouncilor_speech_018],18],
+         [[fivecouncilor_trigger_night],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,fivecouncilor_speech_019],19],
+         [[fivecouncilor_trigger_sewers,fivecouncilor_trigger_sewers_2],0,
+            [LIBACT_QUOTE_RSC,fivecouncilor_speech_020],20],
+         [[fivecouncilor_trigger_theory,
+            fivecouncilor_trigger_theories],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,fivecouncilor_speech_021],21],
+         [[fivecouncilor_trigger_theory,
+            fivecouncilor_trigger_theories],LIBRES_MOOD_NOT_GOOD,
+            [LIBACT_QUOTE_RSC,fivecouncilor_speech_022],22],
+         [[fivecouncilor_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,fivecouncilor_speech_023],23],
+         [[fivecouncilor_trigger_urn],0,
+            [LIBACT_QUOTE_RSC,fivecouncilor_speech_024],24],
+         [[fivecouncilor_trigger_venya_cyr],0,
+            [LIBACT_QUOTE_RSC,fivecouncilor_speech_025],25],
+         [[fivecouncilor_trigger_zarrus],0,
+            [LIBACT_QUOTE_RSC,fivecouncilor_speech_026],26],
+         [[fivecouncilor_trigger_cor_noth],0,
+            [LIBACT_QUOTE_RSC,fivecouncilor_speech_027],27]
+      ]],lLib);
+
+      lLib = Cons([&FourCouncilor,[
+         [[fourcouncilor_trigger_amulet],0,
+            [LIBACT_QUOTE_RSC,fourcouncilor_speech_001],1],
+         [[fourcouncilor_trigger_amulet],0,
+            [LIBACT_QUOTE_RSC,fourcouncilor_speech_002],2],
+         [[fourcouncilor_trigger_barloque],0,
+            [LIBACT_QUOTE_RSC,fourcouncilor_speech_003],3],
+         [[fourcouncilor_trigger_brax],0,
+            [LIBACT_QUOTE_RSC,fourcouncilor_speech_004],4],
+         [[fourcouncilor_trigger_bye],0,
+            [LIBACT_QUOTE_RSC,fourcouncilor_speech_005],5],
+         [[fourcouncilor_trigger_cor_noth],0,
+            [LIBACT_QUOTE_RSC,fourcouncilor_speech_006],6],
+         [[fourcouncilor_trigger_council],0,
+            [LIBACT_QUOTE_RSC,fourcouncilor_speech_007],7],
+         [[fourcouncilor_trigger_duke],0,
+            [LIBACT_QUOTE_RSC,fourcouncilor_speech_008],8],
+         [[fourcouncilor_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,fourcouncilor_speech_009],9],
+         [[fourcouncilor_trigger_hunter],0,
+            [LIBACT_QUOTE_RSC,fourcouncilor_speech_010],10],
+         [[fourcouncilor_trigger_hunter_sword,
+            fourcouncilor_trigger_hunter_sword_2],0,
+            [LIBACT_QUOTE_RSC,fourcouncilor_speech_011],11],
+         [[fourcouncilor_trigger_hunter_sword,
+            fourcouncilor_trigger_hunter_sword_2],0,
+            [LIBACT_QUOTE_RSC,fourcouncilor_speech_012],12],
+         [[fourcouncilor_trigger_jasper],0,
+            [LIBACT_QUOTE_RSC,fourcouncilor_speech_013],13],
+         [[fourcouncilor_trigger_ker_toth],0,
+            [LIBACT_QUOTE_RSC,fourcouncilor_speech_014],14],
+         [[fourcouncilor_trigger_lich],0,
+            [LIBACT_QUOTE_RSC,fourcouncilor_speech_015],15],
+         [[fourcouncilor_trigger_marion],0,
+            [LIBACT_QUOTE_RSC,fourcouncilor_speech_016],16],
+         [[fourcouncilor_trigger_ohm],0,
+            [LIBACT_QUOTE_RSC,fourcouncilor_speech_017],17],
+         [[fourcouncilor_trigger_princess],0,
+            [LIBACT_QUOTE_RSC,fourcouncilor_speech_018],18],
+         [[fourcouncilor_trigger_tendrath],0,
+            [LIBACT_QUOTE_RSC,fourcouncilor_speech_019],19],
+         [[fourcouncilor_trigger_token,fourcouncilor_trigger_token_2],0,
+            [LIBACT_QUOTE_RSC,fourcouncilor_speech_020],20],
+         [[fourcouncilor_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,fourcouncilor_speech_021],21],
+         [[fourcouncilor_trigger_venya_cyr],0,
+            [LIBACT_QUOTE_RSC,fourcouncilor_speech_022],22],
+         [[fourcouncilor_trigger_zarrus],0,
+            [LIBACT_QUOTE_RSC,fourcouncilor_speech_023],23],
+         [[fourcouncilor_trigger_zarrus],0,
+            [LIBACT_QUOTE_RSC,fourcouncilor_speech_024],24]
+      ]],lLib);
+
+      lLib = Cons([&OneCouncilor,[
+         [[onecouncilor_trigger_amulet],0,
+            [LIBACT_QUOTE_RSC,onecouncilor_speech_001],1],
+         [[onecouncilor_trigger_barloque],0,
+            [LIBACT_QUOTE_RSC,onecouncilor_speech_002],2],
+         [[onecouncilor_trigger_brax],0,
+            [LIBACT_QUOTE_RSC,onecouncilor_speech_003],3],
+         [[onecouncilor_trigger_bye],0,
+            [LIBACT_QUOTE_RSC,onecouncilor_speech_004],4],
+         [[onecouncilor_trigger_cor_noth],0,
+            [LIBACT_QUOTE_RSC,onecouncilor_speech_005],5],
+         [[onecouncilor_trigger_council],0,
+            [LIBACT_QUOTE_RSC,onecouncilor_speech_006],6],
+         [[onecouncilor_trigger_duke],0,
+            [LIBACT_QUOTE_RSC,onecouncilor_speech_007],7],
+         [[onecouncilor_trigger_explain,onecouncilor_trigger_explain_2],0,
+            [LIBACT_QUOTE_RSC,onecouncilor_speech_008],8],
+         [[onecouncilor_trigger_fey],LIBRES_MOOD_NOT_GOOD,
+            [LIBACT_QUOTE_RSC,onecouncilor_speech_009],9],
+         [[onecouncilor_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,onecouncilor_speech_010],10],
+         [[onecouncilor_trigger_hunter],0,
+            [LIBACT_QUOTE_RSC,onecouncilor_speech_011],11],
+         [[onecouncilor_trigger_hunter],0,
+            [LIBACT_QUOTE_RSC,onecouncilor_speech_012],12],
+         [[onecouncilor_trigger_hunter_sword],0,
+            [LIBACT_QUOTE_RSC,onecouncilor_speech_013],13],
+         [[onecouncilor_trigger_jasper],0,
+            [LIBACT_QUOTE_RSC,onecouncilor_speech_014],14],
+         [[onecouncilor_trigger_king_of_brax],0,
+            [LIBACT_QUOTE_RSC,onecouncilor_speech_015],15],
+         [[onecouncilor_trigger_lich],0,
+            [LIBACT_QUOTE_RSC,onecouncilor_speech_016],16],
+         [[onecouncilor_trigger_lich],0,
+            [LIBACT_QUOTE_RSC,onecouncilor_speech_017],17],
+         [[onecouncilor_trigger_marion],0,
+            [LIBACT_QUOTE_RSC,onecouncilor_speech_018],18],
+         [[onecouncilor_trigger_princess],0,
+            [LIBACT_QUOTE_RSC,onecouncilor_speech_019],19],
+         [[onecouncilor_trigger_tendrath],0,
+            [LIBACT_QUOTE_RSC,onecouncilor_speech_020],20],
+         [[onecouncilor_trigger_theory],0,
+            [LIBACT_QUOTE_RSC,onecouncilor_speech_021],21],
+         [[onecouncilor_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,onecouncilor_speech_022],22],
+         [[onecouncilor_trigger_venya_cyr],0,
+            [LIBACT_QUOTE_RSC,onecouncilor_speech_023],23],
+         [[onecouncilor_trigger_zarrus],0,
+            [LIBACT_QUOTE_RSC,onecouncilor_speech_024],24],
+         [[onecouncilor_trigger_zarrus],0,
+            [LIBACT_QUOTE_RSC,onecouncilor_speech_025],25]
+      ]],lLib);
+
+      lLib = Cons([&ThreeCouncilor,[
+         [[threecouncilor_trigger_amulet],0,
+            [LIBACT_QUOTE_RSC,threecouncilor_speech_001],1],
+         [[threecouncilor_trigger_barloque],0,
+            [LIBACT_QUOTE_RSC,threecouncilor_speech_002],2],
+         [[threecouncilor_trigger_brax],0,
+            [LIBACT_QUOTE_RSC,threecouncilor_speech_003],3],
+         [[threecouncilor_trigger_bye],0,
+            [LIBACT_QUOTE_RSC,threecouncilor_speech_004],4],
+         [[threecouncilor_trigger_cor_noth],0,
+            [LIBACT_QUOTE_RSC,threecouncilor_speech_005],5],
+         [[threecouncilor_trigger_cort],0,
+            [LIBACT_QUOTE_RSC,threecouncilor_speech_006],6],
+         [[threecouncilor_trigger_council],0,
+            [LIBACT_QUOTE_RSC,threecouncilor_speech_007],7],
+         [[threecouncilor_trigger_duke],0,
+            [LIBACT_QUOTE_RSC,threecouncilor_speech_008],8],
+         [[threecouncilor_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,threecouncilor_speech_009],9],
+         [[threecouncilor_trigger_hunter],0,
+            [LIBACT_QUOTE_RSC,threecouncilor_speech_010],10],
+         [[threecouncilor_trigger_hunter_sword],0,
+            [LIBACT_QUOTE_RSC,threecouncilor_speech_011],11],
+         [[threecouncilor_trigger_jasper],0,
+            [LIBACT_QUOTE_RSC,threecouncilor_speech_012],12],
+         [[threecouncilor_trigger_lich],0,
+            [LIBACT_QUOTE_RSC,threecouncilor_speech_013],13],
+         [[threecouncilor_trigger_marion],0,
+            [LIBACT_QUOTE_RSC,threecouncilor_speech_014],14],
+         [[threecouncilor_trigger_mother],0,
+            [LIBACT_QUOTE_RSC,threecouncilor_speech_015],15],
+         [[threecouncilor_trigger_princess],0,
+            [LIBACT_QUOTE_RSC,threecouncilor_speech_016],16],
+         [[threecouncilor_trigger_qerti_nya,threecouncilor_trigger_qertina],0,
+            [LIBACT_QUOTE_RSC,threecouncilor_speech_017],17],
+         [[threecouncilor_trigger_son],0,
+            [LIBACT_QUOTE_RSC,threecouncilor_speech_018],18],
+         [[threecouncilor_trigger_tendrath],0,
+            [LIBACT_QUOTE_RSC,threecouncilor_speech_019],19],
+         [[threecouncilor_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,threecouncilor_speech_020],20],
+         [[threecouncilor_trigger_urn],0,
+            [LIBACT_QUOTE_RSC,threecouncilor_speech_021],21],
+         [[threecouncilor_trigger_venya_cyr],0,
+            [LIBACT_QUOTE_RSC,threecouncilor_speech_022],22],
+         [[threecouncilor_trigger_watcher,threecouncilor_trigger_watcher_2],0,
+            [LIBACT_QUOTE_RSC,threecouncilor_speech_023],23],
+         [[threecouncilor_trigger_zarrus],0,
+            [LIBACT_QUOTE_RSC,threecouncilor_speech_024],24]
+      ]],lLib);
+
+      lLib = Cons([&TwoCouncilor,[
+         [[twocouncilor_trigger_amulet],0,
+            [LIBACT_QUOTE_RSC,twocouncilor_speech_001],1],
+         [[twocouncilor_trigger_barloque],0,
+            [LIBACT_QUOTE_RSC,twocouncilor_speech_002],2],
+         [[twocouncilor_trigger_brax],0,
+            [LIBACT_QUOTE_RSC,twocouncilor_speech_003],3],
+         [[twocouncilor_trigger_bye],0,
+            [LIBACT_QUOTE_RSC,twocouncilor_speech_004],4],
+         [[twocouncilor_trigger_cor_noth],0,
+            [LIBACT_QUOTE_RSC,twocouncilor_speech_005],5],
+         [[twocouncilor_trigger_council],0,
+            [LIBACT_QUOTE_RSC,twocouncilor_speech_006],6],
+         [[twocouncilor_trigger_duke],0,
+            [LIBACT_QUOTE_RSC,twocouncilor_speech_007],7],
+         [[twocouncilor_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,twocouncilor_speech_008],8],
+         [[twocouncilor_trigger_help],0,
+            [LIBACT_QUOTE_RSC,twocouncilor_speech_009],9],
+         [[twocouncilor_trigger_hunter],0,
+            [LIBACT_QUOTE_RSC,twocouncilor_speech_010],10],
+         [[twocouncilor_trigger_hunter_sword,
+            twocouncilor_trigger_hunter_sword_2],0,
+            [LIBACT_QUOTE_RSC,twocouncilor_speech_011],11],
+         [[twocouncilor_trigger_jasper],0,
+            [LIBACT_QUOTE_RSC,twocouncilor_speech_012],12],
+         [[twocouncilor_trigger_lich],0,
+            [LIBACT_QUOTE_RSC,twocouncilor_speech_013],13],
+         [[twocouncilor_trigger_marion],0,
+            [LIBACT_QUOTE_RSC,twocouncilor_speech_014],14],
+         [[twocouncilor_trigger_methods],0,
+            [LIBACT_QUOTE_RSC,twocouncilor_speech_015],15],
+         [[twocouncilor_trigger_princess],0,
+            [LIBACT_QUOTE_RSC,twocouncilor_speech_016],16],
+         [[twocouncilor_trigger_tendrath],0,
+            [LIBACT_QUOTE_RSC,twocouncilor_speech_017],17],
+         [[twocouncilor_trigger_theories],0,
+            [LIBACT_QUOTE_RSC,twocouncilor_speech_018],18],
+         [[twocouncilor_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,twocouncilor_speech_019],19],
+         [[twocouncilor_trigger_value],0,
+            [LIBACT_QUOTE_RSC,twocouncilor_speech_020],20],
+         [[twocouncilor_trigger_venya_cyr],0,
+            [LIBACT_QUOTE_RSC,twocouncilor_speech_021],21],
+         [[twocouncilor_trigger_zarrus],0,
+            [LIBACT_QUOTE_RSC,twocouncilor_speech_022],22]
+      ]],lLib);
+
+      return lLib;
+   }
+
+   GetRandomLibrary()
+   "Random library nodes: [class, [[percent, mood, action, key], ...]]"
+   {
+      local lLib;
+
+      lLib = $;
+
+      lLib = Cons([&FiveCouncilor,[
+         [50,0,[LIBACT_QUOTE_RSC,fivecouncilor_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,fivecouncilor_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,fivecouncilor_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,fivecouncilor_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,fivecouncilor_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,fivecouncilor_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,fivecouncilor_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,fivecouncilor_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,fivecouncilor_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,fivecouncilor_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,fivecouncilor_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,fivecouncilor_random_012],12],
+         [50,0,[LIBACT_QUOTE_RSC,fivecouncilor_random_013],13],
+         [50,0,[LIBACT_QUOTE_RSC,fivecouncilor_random_014],14],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,fivecouncilor_random_015],15],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,fivecouncilor_random_016],16]
+      ]],lLib);
+
+      lLib = Cons([&FourCouncilor,[
+         [50,0,[LIBACT_QUOTE_RSC,fourcouncilor_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,fourcouncilor_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,fourcouncilor_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,fourcouncilor_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,fourcouncilor_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,fourcouncilor_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,fourcouncilor_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,fourcouncilor_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,fourcouncilor_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,fourcouncilor_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,fourcouncilor_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,fourcouncilor_random_012],12],
+         [50,0,[LIBACT_QUOTE_RSC,fourcouncilor_random_013],13],
+         [50,0,[LIBACT_QUOTE_RSC,fourcouncilor_random_014],14],
+         [50,0,[LIBACT_QUOTE_RSC,fourcouncilor_random_015],15],
+         [50,0,[LIBACT_QUOTE_RSC,fourcouncilor_random_016],16],
+         [50,0,[LIBACT_QUOTE_RSC,fourcouncilor_random_017],17],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,fourcouncilor_random_018],18],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,fourcouncilor_random_019],19],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,fourcouncilor_random_020],20],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,fourcouncilor_random_021],21],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,fourcouncilor_random_022],22],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,fourcouncilor_random_023],23],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,fourcouncilor_random_024],24],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,fourcouncilor_random_025],25]
+      ]],lLib);
+
+      lLib = Cons([&OneCouncilor,[
+         [50,0,[LIBACT_QUOTE_RSC,onecouncilor_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,onecouncilor_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,onecouncilor_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,onecouncilor_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,onecouncilor_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,onecouncilor_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,onecouncilor_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,onecouncilor_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,onecouncilor_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,onecouncilor_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,onecouncilor_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,onecouncilor_random_012],12],
+         [50,0,[LIBACT_QUOTE_RSC,onecouncilor_random_013],13],
+         [50,0,[LIBACT_QUOTE_RSC,onecouncilor_random_014],14],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,onecouncilor_random_015],15],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,onecouncilor_random_016],16],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,onecouncilor_random_017],17],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,onecouncilor_random_018],18],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,onecouncilor_random_019],19],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,onecouncilor_random_020],20],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,onecouncilor_random_021],21],
+         [50,LIBRES_MOOD_NOT_GOOD,
+            [LIBACT_QUOTE_RSC,onecouncilor_random_022],22],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,onecouncilor_random_023],23],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,onecouncilor_random_024],24],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,onecouncilor_random_025],25],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,onecouncilor_random_026],26],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,onecouncilor_random_027],27]
+      ]],lLib);
+
+      lLib = Cons([&ThreeCouncilor,[
+         [50,0,[LIBACT_QUOTE_RSC,threecouncilor_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,threecouncilor_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,threecouncilor_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,threecouncilor_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,threecouncilor_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,threecouncilor_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,threecouncilor_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,threecouncilor_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,threecouncilor_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,threecouncilor_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,threecouncilor_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,threecouncilor_random_012],12],
+         [50,0,[LIBACT_QUOTE_RSC,threecouncilor_random_013],13],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,threecouncilor_random_014],14]
+      ]],lLib);
+
+      lLib = Cons([&TwoCouncilor,[
+         [50,0,[LIBACT_QUOTE_RSC,twocouncilor_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,twocouncilor_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,twocouncilor_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,twocouncilor_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,twocouncilor_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,twocouncilor_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,twocouncilor_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,twocouncilor_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,twocouncilor_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,twocouncilor_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,twocouncilor_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,twocouncilor_random_012],12],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,twocouncilor_random_013],13],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,twocouncilor_random_014],14],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,twocouncilor_random_015],15],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,twocouncilor_random_016],16]
+      ]],lLib);
+
+      return lLib;
+   }
+
+end
+////////////////////////////////////////////////////////////////////////////////

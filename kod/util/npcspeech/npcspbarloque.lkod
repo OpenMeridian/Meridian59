@@ -1,0 +1,1554 @@
+// BarloqueApothecary
+barloqueapothecary_speech_001 = de \
+   "~kKoldor sagt, \"Unsere schöne Hauptstadt Barloque ist solch ein feiner "
+   "Ort. Die anderen Städte können nicht die Wunder der hiesigen "
+   "Ladenbesitzer anbieten.\""
+barloqueapothecary_speech_002 = de \
+   "~kKoldor sagt, \"In Wahrheit ziehe ich das meiste selbst. Es gibt nur "
+   "wenig, was Ihr mir bieten könntet und was ich gebrauchen könnte.\""
+barloqueapothecary_speech_003 = de \
+   "~kKoldor sagt, \"Müsst Ihr mich schon so bald verlassen? Es wird mir "
+   "leid tun, Euch gehen zu sehen.\""
+barloqueapothecary_speech_004 = de \
+   "~kKoldor sagt, \"Cor Noth hat eine merkwürdige Mischung von Leuten.\""
+barloqueapothecary_speech_005 = de \
+   "~kKoldor sagt, \"Der Rat herrscht in der Abwesenheit des Königs über das "
+   "Land.\""
+barloqueapothecary_speech_006 = de \
+   "~kKoldor sagt, \"Ihr müsst verstehen, dass der Tod des Herzogs ein "
+   "schwerer Schicksalsschlag ist. Sein Neffe, der noch inkompetenter als "
+   "Kalior ist, hat die Herrschaft an sich gerissen.\""
+barloqueapothecary_speech_007 = de \
+   "~kEine weibliche Stimme ruft aus dem anderen Raum, \"Koldor, bewegt Euch "
+   "endlich hierher! Euer Abendmahl wird zu Eis geworden sein, ehe es Euch "
+   "sieht.\""
+barloqueapothecary_speech_008 = de \
+   "~kEine weibliche Stimme schreit aus dem anderen Raum, \"~BKoldor, hört "
+   "Ihr mir überhaupt zu? Dreimal hab' ich Euch jetzt schon gerufen. Kommt "
+   "sofort her. Koldor?\""
+barloqueapothecary_speech_009 = de \
+   "~kEine weibliche Stimme schreit wütend aus dem anderen Raum, \"~BKoldor! "
+   "Kommt jetzt endlich zu Bett. Ich hab keine Lust noch länger wach zu "
+   "bleiben und darauf zu warten, dass Ihr endlich Euren Krimskramsladen "
+   "zumacht!\""
+barloqueapothecary_speech_010 = de \
+   "~kKoldor summt vor sich hin und bemerkt Eure Anwesenheit gar nicht."
+barloqueapothecary_speech_011 = de \
+   "~kKoldor sagt, \"Ah, mein werter Freund, wie schön es ist, Euer Antlitz "
+   "wieder zu erblicken.\""
+barloqueapothecary_speech_012 = de \
+   "~kKoldor sagt, \"Ah, %s, wie schön es ist, Euer Antlitz wieder zu "
+   "erblicken.\""
+barloqueapothecary_speech_013 = de \
+   "~kKoldor sagt, \"Als der größte Experte und Pflanzenkundige, was "
+   "Kräuter, Wurzeln, Beeren, Pilze und andere pflanzliche Leckereien "
+   "betrifft, stehe ich Euch ergeben zu Diensten. Wahrlich, ich könnte Euch "
+   "sogar ein oder zwei Tricks beibringen.\""
+barloqueapothecary_speech_014 = de \
+   "~kKoldor sagt, \"Ihr werdet keinen erfahreneren Steinmetz finden als "
+   "jenen Mann in Jasper, dem die Hände von Afiera Xor gehören.\""
+barloqueapothecary_speech_015 = de \
+   "~kKoldor sagt, \"Ich achte nicht sehr auf all die Politik, aber ich kann "
+   "in dem, was Jonas gemacht hat, nichts Falsches erkennen.\""
+barloqueapothecary_speech_016 = de \
+   "~kKoldor sagt, \"Die fruchtbarsten Böden finden sich bei Marion.\""
+barloqueapothecary_speech_017 = de \
+   "~kEine weibliche Stimme schreit wütend aus dem anderen Raum, \"~BKoldor! "
+   "Kommt jetzt endlich zu Bett. Ich hab keine Lust noch länger wach zu "
+   "bleiben und darauf zu warten, dass Ihr endlich Euren Krimskramsladen "
+   "zumacht!\""
+barloqueapothecary_speech_018 = de \
+   "~kKoldor sagt, \"Es ist meine feste Meinung, dass die Priesterinnen "
+   "Tränke zubereiten, die den Geist von Zaubersprüchen reinwaschen. Doch "
+   "seid gewarnt, solche Tränke zu trinken hat oft einen hohen Preis.\""
+barloqueapothecary_speech_019 = de \
+   "~kKoldor sagt, \"Möge die Prinzessin die Stärke haben, um gegen diese "
+   "neue Bedrohung, Akardius, anzukämpfen.\""
+barloqueapothecary_speech_020 = de \
+   "~kKoldor sagt, \"Ehrlich, ich habe keine Zeit, Euch auszubilden. "
+   "Vielleicht sucht Ihr mich später wieder auf, wenn ich Zeit erübrigen "
+   "kann.\""
+barloqueapothecary_speech_021 = de \
+   "~kKoldor sagt, \"Ich verkaufe die feinsten Kräuter und Wurzeln.\""
+barloqueapothecary_speech_022 = de \
+   "~kKoldor sagt, \"Vielleicht könntet Ihr von einem wie mir lernen, wie "
+   "man die Luft erwärmt. Und wenn Ihr mein Wohlwollen genießt, könnte ich "
+   "auch gewillt sein, Euch beizubringen, wie man dem Blick entschwindet.\""
+barloqueapothecary_speech_023 = de \
+   "~kKoldor nickt mit dem Kopf und lächelt leicht, als Tos erwähnt wird. Es "
+   "ist deutlich, dass er sich zurückhält, seine Meinung über die Stadt zu "
+   "äußern."
+barloqueapothecary_speech_024 = de \
+   "~kKoldor sagt, \"Vielleicht könntet Ihr von einem wie mir lernen, wie "
+   "man die Luft erwärmt. Und wenn Ihr mein Wohlwollen genießt, könnte ich "
+   "auch gewillt sein, Euch beizubringen, wie man dem Blick entschwindet.\""
+barloqueapothecary_random_001 = de \
+   "~kKoldor sagt, \"Sieh an! Merkwürdigerweise hat unser neuer Nachbar, der "
+   "Schmied, der mitsamt seinem Laden erst kürzlich aus Tos hierhergezogen "
+   "ist, eine ganz besondere Vorliebe für Zauberstäbe. Ich weiß nicht, wozu "
+   "er sie sammelt.\""
+barloqueapothecary_random_002 = de \
+   "~kKoldor sagt, \"Wusstet Ihr, dass einige Pilze, die man in der Wildnis "
+   "findet, denen Nahrung spenden, die sie verzehren? Es ist wirklich ein "
+   "Wunder, welch unterschiedliche Arten von Magie solche Pflanzen liefern "
+   "können, seien es Reagenzien oder Nahrungsmittel.\""
+barloqueapothecary_random_003 = de \
+   "~kKoldor sagt, \"Die Magie der verschiedenen Götter zu erlernen, ist wie "
+   "ein üppiges Mahl. Ihr werdet feststellen, dass manche Speisen nicht "
+   "zusammenpassen. Und oft müsst Ihr Euren Gaumen reinigen, bevor Ihr zum "
+   "nächsten Gang übergeht. Wie bei einem guten, trockenen Wein gibt es auch "
+   "Tränke, die den Verstand von unerwünschtem Wissen reinigen.\""
+barloqueapothecary_random_004 = de \
+   "~kKoldor sagt, \"Ich bitte Euch höflichst, mir doch mitzuteilen, ob Ihr "
+   "Euch hier wärmer fühlt, als es Eurem Körper angenehm ist. Ich gedenke, "
+   "die Temperatur hier auf einem Niveau zu halten, das meinen wertvollen "
+   "Pflanzen dort drinnen wohl bekommt. Wenn Ihr jedoch Gefallen an solch "
+   "außerordentlicher Wärme finden solltet, kann ich Euch eines Tages in die "
+   "Magie der Hitze einweihen.\""
+barloqueapothecary_random_005 = de \
+   "~kKoldor sagt, \"Gen Süden unserer schönen Stadt und tief im Ödland "
+   "residiert die Faren-Priesterin. Ich halte sie für eine lebhafte und "
+   "reine Verbündete der ganzen Natur. Doch seid gewarnt, die Frau verfügt "
+   "über ein Temperament, das man in den sorgfältig abgeschirmten Bereichen "
+   "einfacher Zivilisation nicht findet.\""
+barloqueapothecary_random_006 = de \
+   "~kKoldor sagt, \"Wenn Euch Eure Füße schmerzen sollten, der "
+   "radebrechende Pritchett führt gegenüber von meinem Laden eine gemütliche "
+   "Herberge. Das stimmt wirklich.\""
+barloqueapothecary_random_007 = de \
+   "~kKoldor sagt, \"Ich weiß nicht, warum die Schiffe nicht mehr fahren.\""
+barloqueapothecary_random_008 = de \
+   "~kKoldor sagt, \"Oh, ich finde nichts fesselnder als die wunderbaren "
+   "Eigenschaften der Reagenzien. Wie klein sie sind, und doch wie groß. Ach "
+   "ja, ich könnte all meine Tage hier damit zubringen, sie zu studieren.\""
+barloqueapothecary_random_009 = de \
+   "~kKoldor sagt, \"Die Natur hat mehr Pflanzen und Mineralien "
+   "hervorgebracht, als unsereins zählen kann. Ich bin der festen Ansicht, "
+   "dass jeder Kieselstein und jeder Zweig eine machtvolle Essenz enthält, "
+   "die wir eines Tages anzapfen und in unsere Zaubersprüche einbringen "
+   "können.\""
+barloqueapothecary_random_010 = de \
+   "~kKoldor sagt, \"Kann ich dabei behilflich sein, bestimmte Kräuter oder "
+   "Pilze zu finden?\""
+barloqueapothecary_random_011 = de \
+   "~kKoldor sagt, \"Hm. Das ist in der Tat interessant, dass die "
+   "Holunderbeeren der frühen Jahreszeit kleinere und zackigere Blätter "
+   "haben als die Nachzügler im Herbst.\""
+barloqueapothecary_random_012 = de \
+   "~kKoldor sagt, \"Solltet Ihr Euch je in der Nähe des geheimnisvollen "
+   "Steinkreises wiederfinden, der weit jenseits der Zerklüfteten Berge "
+   "liegt, und solltet Ihr zäh genug sein, dann, wie ich meine, werdet Ihr "
+   "den Weg zur Mitte und zur magischen Quelle finden.\""
+barloqueapothecary_random_013 = de \
+   "~kKoldor sagt, \"Es gibt keine größere Verschwendung als das "
+   "leichtfertige Wegwerfen wertvoller Reagenzien für Zaubersprüche durch "
+   "diejenigen, die ihren wahren Wert für jene nicht kennen, die die Hexerei "
+   "betreiben.\""
+barloqueapothecary_trigger_sell = de "verkauf"
+barloqueapothecary_trigger_bye = de "ciao"
+barloqueapothecary_trigger_council = de "ratsmitglied"
+barloqueapothecary_trigger_council_2 = de "hohen rat"
+barloqueapothecary_trigger_duke = de "herzog"
+barloqueapothecary_trigger_hello = de "hallo"
+barloqueapothecary_trigger_help = de "hilfe"
+barloqueapothecary_trigger_night = de "nacht"
+barloqueapothecary_trigger_potion = de "trank"
+barloqueapothecary_trigger_potion_2 = de "tränke"
+barloqueapothecary_trigger_princess = de "prinzessin"
+barloqueapothecary_trigger_pupil = de "schüler"
+barloqueapothecary_trigger_buy = de "kaufen"
+barloqueapothecary_trigger_teach = de "lernen"
+barloqueapothecary_trigger_learn = de "lehren"
+barloqueapothecary_trigger_learn_2 = de "beibringen"
+
+// BarloqueBartender
+barloquebartender_speech_001 = de \
+   "~kMeidei sagt, \"Barloque ist die Hauptstadt. Sobald sie Shal'ille "
+   "wahrlich ins Herz geschlossen hat, wird sie dem Königreich wahren "
+   "Frieden bringen können.\""
+barloquebartender_speech_002 = de \
+   "~kMeidei sagt, \"Ich suche nach neuen Rezepturen, und mir gehen oft so "
+   "gewöhnliche Dinge wie Fackeln aus.\""
+barloquebartender_speech_003 = de \
+   "~kMeidei sagt, \"Möge Shal'ille Euch auf den rechten Weg geleiten.\""
+barloquebartender_speech_004 = de \
+   "~kMeidei übergibt Dir einen Stapel ungewöhnlicher Spielkarten und sagt, "
+   "\"Mangelt es Euch an Wissen, die Regeln dieses Kartenspiels betreffend?\""
+barloquebartender_speech_005 = de \
+   "~kMeidei sagt, \"Cor Noth ist eine schreckliche Stadt. Die Universität "
+   "ist von den Lehren Shal'illes abgekommen und die Bewohner sind zügellose "
+   "Atheisten. Und schlimmer noch, die Elfenbeinkapelle Shal'illes wurde von "
+   "abartigen Gilden entweiht.\""
+barloquebartender_speech_006 = de \
+   "~kMeidei sagt, \"Die fünf ernannten Ratsmitglieder fragen sich sicher, "
+   "ob ihre Ämter in Gefahr sind. Ich weiß nicht, wo sie gerade sind. "
+   "Möglicherweise kennt Pritchett ihren Aufenthaltsort.\""
+barloquebartender_speech_007 = de \
+   "~k~IEine Krone ist eine willkürliche Stückelung von Geld, Zutaten, "
+   "Juwelen oder Gegenständen, über die sich die Spieler einigen. "
+   "Normalerweise entspricht eine Krone 50 Schillingen. Bei Spielen mit "
+   "hohen Einsätzen kann eine Krone allerdings auch 10.000 Schillinge wert "
+   "sein."
+barloquebartender_speech_008 = de \
+   "~k%s zieht die ~gSklaven`n-Karte - ~I %s fliegt aus dem Spiel und muss "
+   "sofort bezahlen. Die übrigen Spieler fahren fort. ~BBleibt nur ein "
+   "Spieler übrig, so gewinnt dieser das Spiel."
+barloquebartender_speech_009 = de \
+   "~k%s zieht die ~gVagabunden`n-Karte - ~I Nichts passiert, der nächste "
+   "Spieler ist an der Reihe."
+barloquebartender_speech_010 = de \
+   "~k%s zieht die ~gGutsbesitzer`n-Karte - ~I und muss 10 Kronen in die "
+   "Kasse zahlen."
+barloquebartender_speech_011 = de \
+   "~k%s zieht die ~bKleriker`n-Karte - ~I jeder Spieler muss %s sofort 1 "
+   "Krone zahlen."
+barloquebartender_speech_012 = de \
+   "~k%s zieht die ~rPrinzen`n-Karte - ~I und kassiert 1/2 der Kasse."
+barloquebartender_speech_013 = de \
+   "~k%s zieht die ~r~BKönigs~B`n-Karte - ~I ~Bgewinnt das Spiel und "
+   "kassiert die gesamte Kasse!"
+barloquebartender_speech_014 = de \
+   "~k%s zieht die ~rBürgermeister`n-Karte - ~I und kassiert 1/10 der Kasse."
+barloquebartender_speech_015 = de \
+   "~k%s zieht die ~gHändler`n-Karte - ~I und muss 4 Kronen in die Kasse "
+   "zahlen."
+barloquebartender_speech_016 = de \
+   "~k%s zieht die ~gVollbürger`n-Karte - ~I und darf erneut ziehen, wenn 2 "
+   "Kronen in die Kasse gezahlt werden."
+barloquebartender_speech_017 = de \
+   "~k%s zieht die ~gLeibeigenen`n-Karte - ~I und muss 2 Kronen in die Kasse "
+   "zahlen."
+barloquebartender_speech_018 = de \
+   "~k%s zieht die ~gDiener`n-Karte - ~I und muss 1 Krone in die Kasse "
+   "zahlen."
+barloquebartender_speech_019 = de \
+   "~kMeidei sagt, \"Eine neue Plage hat sich in Tos breitgemacht.\""
+barloquebartender_speech_020 = de \
+   "~kMeidei sagt, \"Ein unwichtiger Gott ist dieser Faren. Weichet nicht ab "
+   "vom Wege Shal'illes.\""
+barloquebartender_speech_021 = de \
+   "~kMeidei sagt, \"Solchen Unsinn von Euch zu geben, kann Euch wahrlich "
+   "viel Ärger einbringen.\""
+barloquebartender_speech_022 = de \
+   "~kMeidei übergibt Dir einen Stapel ungewöhnlicher Spielkarten und sagt, "
+   "\"Mangelt es Euch an Wissen, die Regeln dieses Kartenspiels betreffend?\""
+barloquebartender_speech_023 = de \
+   "~kMeidei sagt, \"Die Fey Elhai sind die am meisten geschätzten Kinder "
+   "der Shal'ille. Die böse Qor verdarb die Fey Dirhai und begann den "
+   "schrecklichen Krieg um die Vorherrschaft über das Tal der Trauer.\""
+barloquebartender_speech_024 = de \
+   "~kMeidei sagt, \"Willkommen und preiset Shal'ille.\""
+barloquebartender_speech_025 = de \
+   "~kMeidei sagt, \"Ich führe die Kneipe, verkaufe Speisen und habe mich "
+   "der Göttin Shal'ille verschrieben.\""
+barloquebartender_speech_026 = de \
+   "~kMeidei sagt, \"Arme Jala. Hätte Shal'ille sich nicht schon "
+   "verpflichtet, das Land zu heilen, hätte sie vielleicht ihre schöne "
+   "Schwester aus den Fängen der niederträchtigen Qor befreien können.\""
+barloquebartender_speech_027 = de \
+   "~kMeidei sagt, \"Einst dachte ich, dass die Bewohner von Jasper Farmer "
+   "werden sollten. Alles, was jetzt daraus entsteht, sind diese verfluchten "
+   "Rebellen und Kriminellen. Der Justiziar sollte ihnen vielleicht einen "
+   "Besuch abstatten.\""
+barloquebartender_speech_028 = de \
+   "~kMeidei sagt, \"Das mächtige Böse wurde gestürzt.\""
+barloquebartender_speech_029 = de \
+   "~kMeidei sagt, \"Unter der Anleitung von Xiana wächst Kateriina zu einer "
+   "feinen und mitfühlenden Frau heran.\""
+barloquebartender_speech_030 = de \
+   "~k~IMeidei wird Deine Gewinne und Verluste nicht notieren. Du musst "
+   "einen Mitspieler auswählen, der aufschreibt, wer wem wieviel schuldet. "
+   "Auf diese Weise ist es möglich, verschiedenste Wetteinsätze zu machen, "
+   "wie zum Beispiel Schillinge, Reagenzien und Lebensmittel."
+barloquebartender_speech_031 = de \
+   "~kMeidei sagt, \"Lord Kraanan ist der Gatte der heiligen Shal'ille. "
+   "Deshalb muss ich seine Anhänger tolerieren, trotz ihrer kriegerischen "
+   "Art.\""
+barloquebartender_speech_032 = de \
+   "~kMeidei sagt, \"Marion ist eine friedliche und liebenswerte Stadt unter "
+   "der sorgenden Führung der guten Shal'ille, gepriesen sei ihr Name.\""
+barloquebartender_speech_033 = de \
+   "~kMeidei sagt, \"Ihre sittenlose Art und ihre gottlosen Taten passen "
+   "nicht zu Shal'illes Güte und Liebe. Hört nicht auf Miriana, sie will "
+   "Euch nur vom rechten Weg abbringen.\""
+barloquebartender_speech_034 = de \
+   "~kMeidei sagt, \"Sie zieht die Aufmerksamkeit auf sich und man beginnt "
+   "sich zu fragen, zu welchem Zweck?\""
+barloquebartender_speech_035 = de \
+   "~kMeidei sagt, \"Shal'ille vergibt alles, aber diejenigen, die nach "
+   "Vergebung suchen, müssen es aus eigenem Antrieb tun. Ich hoffe, dass "
+   "Miriana eines Tages wirklich Erleuchtung und den Weg zu unserer gütigen "
+   "Göttin findet.\""
+barloquebartender_speech_036 = de \
+   "~kMeidei sagt, \"Herrin Shal'ille, führt uns auf den Pfad des Friedens, "
+   "denn Zerstörung verursacht nur noch mehr Zerstörung. Mich schaudert "
+   "angesichts der Forderung nach ihrem Tod, denn den Tod eines anderen zu "
+   "verschulden, führt sicherlich zum eigenen Tod.\""
+barloquebartender_speech_037 = de \
+   "~kMeidei sagt, \"Ich habe nicht den Wunsch, im Angesicht der Güte "
+   "Shal'illes über diese verkommene Kreatur zu sprechen.\""
+barloquebartender_speech_038 = de \
+   "~kMeidei sagt, \"Sprecht den üblen Namen dieses Geschöpfs hier nicht "
+   "aus. Sie will den Namen unserer Herrin Shal'ille beflecken.\""
+barloquebartender_speech_039 = de \
+   "~kMeidei sagt, \"Ich sage Euch, eine magische Manaquelle, die dem Guten "
+   "gewidmet ist, erscheint, wenn die Fey Dirhai aus dem Wald vertrieben "
+   "werden.\""
+barloquebartender_speech_040 = de \
+   "~kMeidei sagt, \"Vertraut wie ich darauf, dass unsere Herrin Shal'ille "
+   "uns beschützen wird, sollte Miriana zu einer Gefahr werden.\""
+barloquebartender_speech_041 = de \
+   "~kMeidei sagt, \"Genug von diesen Vorkommnissen. Lasst uns das Brot "
+   "brechen und zur Herrin Shal'ille beten, auf dass sie uns leiten möge.\""
+barloquebartender_speech_042 = de \
+   "~kMeidei sagt, \"Unter der Anleitung von Xiana wächst Kateriina zu einer "
+   "feinen und mitfühlenden Frau heran.\""
+barloquebartender_speech_043 = de \
+   "~kMeidei sagt, \"Sprecht ihren sündigen Namen nicht aus! Keiner ist so "
+   "niederträchtig wie diese schändliche Harpyie! Meidet ihre verführerische "
+   "Art und steht treu zu Shal'ille!\""
+barloquebartender_speech_044 = de \
+   "~kMeidei sagt, \"Dieser Wechselbalg Riija ist ein Schwätzer und "
+   "Hanswurst! Haltet Euch fern von seinen verdrehten Lehren!\""
+barloquebartender_speech_045 = de \
+   "~kRegeln für das Spiel ~BFeudalherren~B - ~I Die Spieler ziehen "
+   "abwechselnd (sagt ~kziehen`n~I) vom Kartenstapel. Wählt eine Person, die "
+   "Buch darüber führt, wie viele ~g~BKronen~g`n~I jeder Spieler schuldet. "
+   "Nach jedem fünften Zug verkündet diese Person die Schulden eines jeden "
+   "Spielers und wie groß die ~rKasse~n~I insgesamt ist. Der Spieler, der "
+   "die ~BKönig~n~I-Karte zieht, gewinnt die gesamte Kasse, und alle anderen "
+   "Spieler müssen dieser Person zahlen, was sie schulden."
+barloquebartender_speech_046 = de \
+   "~kMeidei sagt, \"Wenn Ihr Essen, alltägliche Gegenstände oder ein "
+   "friedliches Schachspiel sucht oder von der Größe Shal'illes hören wollt, "
+   "so hat Eure Suche hier ein Ende.\""
+barloquebartender_speech_047 = de \
+   "~kMeidei sagt, \"Gepriesen sei Shal'ille! Die Herrin des sanften Regens "
+   "schützt die ganze Welt vor dem Niederträchtigen und Sündhaften. Kennt "
+   "Ihr ihre Lehre?\""
+barloquebartender_speech_048 = de \
+   "~kIm Raum wird es still, als %s den verkümmerten Zwerg erwähnt."
+barloquebartender_speech_049 = de \
+   "~kMeidei sagt, \"Tos liegt jenseits des Ödlandes im Süden. Möge "
+   "Shal'ille Euch beschützen, solltet Ihr zu diesen sündhaften Mauern "
+   "reisen wollen.\""
+barloquebartender_speech_050 = de \
+   "~kMeidei sagt, \"Das Tal der Trauer, wie es heute genannt wird, wurde "
+   "von der sanften Shal'ille für ihr Lieblingsvolk, die Fey Elhai, "
+   "geschaffen. Diese verfluchten Fey Dirhai verderben dieses heiligste "
+   "aller Länder.\""
+barloquebartender_speech_051 = de \
+   "~kMeidei sagt, \"Shal'ille ist die Göttin des Friedens und der "
+   "Gelassenheit. Die Hingabe an sie wird Euch Gesundheit und genügend "
+   "Speisen bringen, denn das sind wahrlich die einzigen notwendigen Dinge "
+   "des Lebens.\""
+barloquebartender_speech_052 = de \
+   "~kMeidei sagt, \"Xiana lehrt in ihrem Tempel die Predigten von "
+   "Shal'ille. Meiner Treu, eine weise Dame.\""
+barloquebartender_random_001 = de \
+   "~kMeidei sagt, \"Solltet Ihr Schillinge in großer Zahl besitzen, so "
+   "wären sie auf einer Bank sicher, doch sie würden einem besseren Zweck "
+   "dienen, wenn Ihr sie im Namen Shal'illes der Wohltätigkeit spenden "
+   "würdet. Wenn Ihr sie mir gebt, werde ich sie für Euch unter den Armen "
+   "verteilen.\""
+barloquebartender_random_002 = de \
+   "~kMeidei sagt, \"Sucht Roluk, um mehr über die schändlichen Monster, die "
+   "unser Land plagen, zu erfahren. Nachdem er bei der Prinzessin in Ungnade "
+   "fiel, ist er, glaube ich, nach Cor Noth gezogen.\""
+barloquebartender_random_003 = de \
+   "~kMeidei sagt, \"Wenn Ihr versessen darauf seid zu kämpfen, dann fangt "
+   "mit den Ratten an. Sie sind einfach zu töten, und es gibt viele davon.\""
+barloquebartender_random_004 = de \
+   "~kMeidei sagt, \"Die Priesterin Xiana kann Euch in den Zaubersprüchen "
+   "der gesegneten Shal'ille unterweisen.\""
+barloquebartender_random_005 = de \
+   "~kMeidei sagt, \"Sucht den Tempel von Shal'ille auf und betet um "
+   "Erlösung! Er liegt in den tiefen Wäldern von Ileria, nördlich von "
+   "Marion.\""
+barloquebartender_random_006 = de \
+   "~kMeidei sagt, \"Edelsteine und Kräuter können häufig bei Zaubersprüchen "
+   "eingesetzt werden. Doch ich bitte Euch, nutzt sie nur nach dem Willen "
+   "von Shal'ille.\""
+barloquebartender_random_007 = de \
+   "~kMeidei sagt, \"Rastet und esst lieber hier als unterwegs. Das bekommt "
+   "dem Körper besser. Und auch der Seele, denn ich werde Euch von der "
+   "gesegneten Shal'ille erzählen.\""
+barloquebartender_random_008 = de \
+   "~kMeidei sagt, \"Andere werden sagen, dass mächtigere Kampfpartner einen "
+   "stärker machen. Auch wenn dies wahr sein mag, so ist Kampf doch nicht "
+   "der Weg zur Erlösung. Nur durch die friedlichen Lehren von Shal'ille "
+   "werdet Ihr Zufriedenheit finden!\""
+barloquebartender_random_009 = de \
+   "~kMeidei sagt, \"Wenn Ihr mich fragt, ich glaube, dass diese Artefakte "
+   "verflucht sind. Bringt sie nicht zu mir. Aus irgendeinem verdrehten "
+   "Grund wünscht der Rat, sie zu untersuchen.\""
+barloquebartender_random_010 = de \
+   "~kMeidei sagt, \"Ihr scheint schwer mit Ausrüstung beladen. Vielleicht "
+   "möchtet Ihr den Lagerverwalter hier in Barloque aufsuchen, oder besser "
+   "noch, gebt Eure Gegenstände im Namen von Shal'ille den Bedürftigen.\""
+barloquebartender_random_011 = de \
+   "~kMeidei sagt, \"Hütet Euch vor den Zerklüfteten Bergen. Sie verbergen "
+   "den schändlichen Tempel der Qor und ihre sündigen Diener!\""
+barloquebartender_random_012 = de \
+   "~kMeidei sagt, \"Ran'er Zen ist der Weise von Marion. Er ist in den "
+   "Lehren von Shal'ille bewandert und kann Euch vielleicht ihre Magie "
+   "lehren.\""
+barloquebartender_random_013 = de \
+   "~kMeidei sagt, \"Mir wurde gesagt, dass es in Tos einen Mann gäbe, der "
+   "einen Zauberspruch der gesegneten Shal'ille lehrt. Ich weiß jedoch "
+   "seinen Namen nicht.\""
+barloquebartender_random_014 = de \
+   "~kMeidei sagt, \"Die Priesterin Xiana kann Euch mehr über die Schriften "
+   "von Shal'ille lehren. Eines Tages werdet Ihr eine Pilgerfahrt zu ihr "
+   "unternehmen müssen!\""
+barloquebartender_random_015 = de \
+   "~kMeidei sagt, \"Wahrlich, die Diener der Qor bringen diese "
+   "schrecklichen Ratten aus der tiefen Kanalisation hervor, um unser Land "
+   "zu plagen.\""
+barloquebartender_random_016 = de \
+   "~kDen Kopf gesenkt murmelt Meidei leise ein Gebet zu Shal'ille."
+barloquebartender_random_017 = de \
+   "~kMeidei blickt Dich mit flammendem Blick an und sagt, \"Sagt, folgt Ihr "
+   "der Lehre von Shal'ille?\""
+barloquebartender_random_018 = de \
+   "~kMeidei sagt, \"Ihr scheint sanfter Gesinnung zu sein. Wisset, eine "
+   "Quelle guter Magie liegt im Tal der Fey.\""
+barloquebartender_random_019 = de \
+   "~kMeidei sagt, \"Gepriesen sei Shal'ille die Sanftmütige! Möge sie Euch "
+   "Gesundheit bringen!\""
+barloquebartender_random_020 = de "~kMeidei sagt, \"Shal'ille segnet Euch.\""
+barloquebartender_random_021 = de \
+   "~kMeidei sagt, \"Herrin Shal'ille, ich bitte Euch, segnet jene, die da "
+   "zu mir kommen und aus meiner Küche speisen und aus meinen Fässern "
+   "trinken, segnet jene, die der Prinzessin folgen, segnet jene, die Euren "
+   "sanften Busen umarmen, segnet jene, die Euch ablehnen, denn sie wissen "
+   "nicht, was sie tun, segnet die Ratten in der Hoffnung, dass sie Eure "
+   "Diener des Guten werden, segnet meine Familie.\""
+barloquebartender_random_022 = de \
+   "~kMeidei sagt, \"Herrin Shal'ille, ich bitte Euch, segnet die Bauern auf "
+   "den Feldern, segnet die Baumeister, die uns ein Obdach geben, segnet die "
+   "Bäume, die uns Schatten spenden, segnet die Flüsse, die uns Wasser "
+   "geben, segnet die Führer, die uns auf unseren Reisen helfen, und segnet "
+   "die Wächter, auf dass sie uns nicht strafen.\""
+barloquebartender_random_023 = de \
+   "~kMeidei sagt, \"Wahrlich, die einfachen Sprüche unserer Herrin wirken "
+   "stärker, wenn ein ergebener Anhänger von höchster Güte sie anwendet.\""
+barloquebartender_random_024 = de \
+   "~kMeidei sagt, \"Möge uns Shal'ille vor den Bachstelzen beschützen, die "
+   "uns mit Waffen zu täuschen versuchen, die anders sind als sie "
+   "erscheinen. Ich zweifele nicht, dass sie das tun kann.\""
+barloquebartender_random_025 = de \
+   "~kMeidei sagt, \"Shal'ille, ich bitte Euch, segnet die Kinder und die "
+   "Armen.\""
+barloquebartender_random_026 = de \
+   "~kMeidei sagt, \"Preiset Shal'ille die Sanfte! Studiert ihre Lehre!\""
+barloquebartender_random_027 = de \
+   "~kMeidei sagt, \"Folgt ihrer friedvollen Lehre und Shal'ille wird Euch "
+   "segnen.\""
+barloquebartender_random_028 = de \
+   "~kMeidei sagt, \"Ich bitte um Verzeihung, verehrter Kunde ... . ~I "
+   "Shal'ille, ich bitte Euch, bringt dem Land Frieden ... .~I So, was darf "
+   "ich Euch bringen?\""
+barloquebartender_random_029 = de \
+   "~kMeidei sagt, \"Wenn Ihr die Lehren von Shal'ille ablehnt, werdet Ihr "
+   "gewiss zugrunde gehen und zu Qor verdammt werden!\""
+barloquebartender_random_030 = de \
+   "~kMeidei sagt, \"Verbeugt Euch vor Shal'ille und bittet um ihre "
+   "Vergebung!\""
+barloquebartender_random_031 = de \
+   "~kMeidei beachtet Dich nicht, während er still vor sich hin betet."
+barloquebartender_trigger_sell = de "verkauf"
+barloquebartender_trigger_bye = de "ciao"
+barloquebartender_trigger_cards = de "karten"
+barloquebartender_trigger_council = de "ratsmitglied"
+barloquebartender_trigger_crowns = de "krone"
+barloquebartender_trigger_draw = de "ziehen"
+barloquebartender_trigger_duke = de "herzog"
+barloquebartender_trigger_fate = de "schicksal"
+barloquebartender_trigger_hello = de "hallo"
+barloquebartender_trigger_help = de "hilfe"
+barloquebartender_trigger_kitty = de "kasse"
+barloquebartender_trigger_kitty_2 = de "pott"
+barloquebartender_trigger_node = de "quelle"
+barloquebartender_trigger_node_attack = de "quellenangriff"
+barloquebartender_trigger_princess = de "prinzessin"
+barloquebartender_trigger_rules = de "regeln"
+barloquebartender_trigger_buy = de "kaufen"
+barloquebartender_trigger_shal_ille = de "sha-lill"
+barloquebartender_trigger_sha_lill = de "shal'ille"
+barloquebartender_trigger_stunted_dwarf = de "verkümmerter zwerg"
+barloquebartender_trigger_vale = de "tal"
+barloquebartender_trigger_ways = de "wege"
+barloquebartender_trigger_ways_2 = de "lehre"
+
+// BarloqueBlacksmith
+barloqueblacksmith_speech_001 = de \
+   "~kFerloi Qan sagt, \"Ich benutze nie eine Rüstung, seitdem ich "
+   "herausgefunden hab', dass ich nur an einen Schild zu denken brauch' und "
+   "schon erscheint er. Vielleicht könnte ich es Dich auch lehren.\""
+barloqueblacksmith_speech_002 = de \
+   "~kFerloi Qan sagt, \"Barloque ist meine neue Heimat. Äh, es mag zu gut "
+   "sein für Leute wie unsereins.\""
+barloqueblacksmith_speech_003 = de \
+   "~kFerloi Qan sagt, \"Was hast Du da? Ich sehe mir Rüstungen und Waffen "
+   "an. Vielleicht auch andere interessante Sachen, wenn Du welche hast.\""
+barloqueblacksmith_speech_004 = de "~kFerloi Qan sagt, \"Auf Wiedersehen.\""
+barloqueblacksmith_speech_005 = de \
+   "~kFerloi Qan sagt, \"Roluk lebt in Cor Noth. Er kann Dich lehren, wie "
+   "man kämpft.\""
+barloqueblacksmith_speech_006 = de \
+   "~kFerloi Qan sagt, \"Die Politik des Rates kümmert mich wenig.\""
+barloqueblacksmith_speech_007 = de \
+   "~kFerloi Qan sagt, \"Es ist traurig, von Kaliors Ableben zu hören. Ich "
+   "hoffe, dass Herzog Akardius die Steuern nicht erhöht.\""
+barloqueblacksmith_speech_008 = de "~kFerloi Qan sagt, \"Welche Expedition?\""
+barloqueblacksmith_speech_009 = de \
+   "~kFerloi Qan sagt, \"Ich benutze die Schmiede, um ... Waffen und "
+   "Rüstungen zu schmieden.\""
+barloqueblacksmith_speech_010 = de "~kFerloi Qan sagt, \"Hallo.\""
+barloqueblacksmith_speech_011 = de \
+   "~kFerloi Qan sagt, \"Äh ... Ich kann Rüstungen ... oder ... äh ... "
+   "Waffen anfertigen. Ich kaufe auch alten Kram, sofern er nicht beschädigt "
+   "ist oder es sich um ein ungewöhnliches Stück handelt - auch wenn jeder "
+   "andere denken würde, es sei nichts wert. Meine Mutter sagt, ich hätte "
+   "ein Auge für Qualität.\""
+barloqueblacksmith_speech_012 = de \
+   "~kFerloi Qan sagt, \"Quintor ist der Schmied in Jasper. Er war vor "
+   "langer Zeit mein Freund, aber dann verließ ihn seine Frau und er war "
+   "seitdem nicht mehr derselbe. Ich hörte, er fand trotzdem einen Freund. "
+   "Ich glaube, der Name war Queasy oder so ähnlich.\""
+barloqueblacksmith_speech_013 = de \
+   "~kFerloi Qan sagt, \"Also, ich weiß nicht viel über Politik und so "
+   "etwas, aber ich weiß, dass Jonas nie ein so fairer Herrscher wie "
+   "Prinzessin Kateriina sein könnte.\""
+barloqueblacksmith_speech_014 = de \
+   "~kFerloi Qan sagt, \"Kolhorr ist oben in Marion. Wir gehen einmal im "
+   "Monat gemeinsam etwas trinken und reden über, nun, die Herstellung von "
+   "Waffen und anderen Sachen.\""
+barloqueblacksmith_speech_015 = de \
+   "~kFerloi Qan sagt, \"Die Prinzessin ist eine nette Dame. Sie...ähm... "
+   "hat viel zu tun.\""
+barloqueblacksmith_speech_016 = de \
+   "~kFerloi Qan sagt, \"Er kennt auch jede Menge Klatsch über die "
+   "Designer.\""
+barloqueblacksmith_speech_017 = de \
+   "~kFerloi Qan sagt, \"Ich verkaufe Rüstungen und Waffen.\""
+barloqueblacksmith_speech_018 = de \
+   "~kFerloi Qan sagt, \"Äh ... ich bin Schmied. Kann ich Dir irgendwie "
+   "helfen?\""
+barloqueblacksmith_speech_019 = de \
+   "~kFerloi Qan sagt, \"Hm, ich kann versuchen, Dir zu zeigen, wie man "
+   "einen magischen Schild anfertigt.\""
+barloqueblacksmith_speech_020 = de \
+   "~kFerloi Qan sagt, \"Ich habe Tos verlassen. Ich hatte meine Gründe "
+   "dafür.\""
+barloqueblacksmith_speech_021 = de \
+   "~kFerloi Qan sagt, \"Du hast einen Zauberstab? Lass ihn mich mal sehen.\""
+barloqueblacksmith_speech_022 = de \
+   "~kFerloi Qan sagt, \"Waffen sind gut, wenn Du Sachen ... ähh umbringen "
+   "willst.\""
+barloqueblacksmith_random_001 = de \
+   "~kFerloi Qan sagt, \"Hier gibt es eine Menge Gilden. Frular, die Straße "
+   "runter, macht sie sozusagen offiziell.\""
+barloqueblacksmith_random_002 = de \
+   "~kFerloi Qan sagt, \"Ich mochte es nicht, dass mein Laden gleich "
+   "gegenüber vom, äh, Friedhof lag. Jede Nacht habe ich solch einen Krawall "
+   "mitbekommen. Aber Kraanan schützte mich vor den Zombies.\""
+barloqueblacksmith_random_003 = de \
+   "~kFerloi Qan sagt, \"Ich hatte vor nichts Totem Angst. Das ist nicht der "
+   "Grund, weshalb ich Tos verlassen habe.\""
+barloqueblacksmith_random_004 = de \
+   "~kFerloi Qan sagt, \"Wenn Du diese Waffen ausprobieren möchtest, dann "
+   "nimm sie mit nach Tos. Die Arena von Kraanan ist ein guter Ort, um zu "
+   "üben. Niemand wird dort wirklich verletzt.\""
+barloqueblacksmith_random_005 = de \
+   "~kFerloi Qan sagt, \"Wenn Du Dich langweilst, gibt es hier immer Leute, "
+   "die ein oder zwei Aufträge zu vergeben haben, wenn Du arbeiten willst.\""
+barloqueblacksmith_random_006 = de \
+   "~kFerloi Qan sagt, \"Einige Waffen eignen sich besser, um damit "
+   "bestimmte Monster zu bekämpfen, verstehst Du.\""
+barloqueblacksmith_random_007 = de \
+   "~kFerloi Qan sagt, \"Einmal bin ich zum, äh, Tempel von Kraanan "
+   "gegangen. Es ist schwierig, dahin zu gelangen. Ich verlief mich mehrmals "
+   "in der Nähe dieser antiken Stätte mit den Steinen.\""
+barloqueblacksmith_random_008 = de \
+   "~kFerloi Qan sagt, \"Folgst Du Kraanan der Faust? Er ist der mächtigste "
+   "Gott.\""
+barloqueblacksmith_random_009 = de \
+   "~kFerloi Qan sagt, \"Ich kenne noch nicht viele Leute in der Stadt. "
+   "Rulker wusste immer den neusten Klatsch über jeden in Tos. Ich weiß "
+   "überhaupt nichts über Barloque.\""
+barloqueblacksmith_random_010 = de \
+   "~kFerloi Qan untersucht sorgfältig einen halbfertigen Hammer."
+barloqueblacksmith_random_011 = de \
+   "~kFerloi Qan murmelt ein kurzes Gebet an Kraanan."
+barloqueblacksmith_random_012 = de \
+   "~kSich den Schweiß von der Stirn wischend kehrt Ferloi Qan zu seiner "
+   "Arbeit zurück."
+barloqueblacksmith_random_013 = de \
+   "~kDeine Augen brennen leicht vom Ruß in der Luft."
+barloqueblacksmith_random_014 = de \
+   "~kDie Hitze, die der Ofen abgibt, macht es hier drin unangenehm warm."
+barloqueblacksmith_random_015 = de \
+   "~kFerloi Qan sagt, \"Betreibt Paddock noch immer seinen schmuddeligen "
+   "Laden in Tos?\""
+barloqueblacksmith_random_016 = de \
+   "~kFerloi Qan sagt, \"Hier oben riecht die Seeluft so gut. Ich sollte ein "
+   "kühles Bad im Meer nehmen, bevor ich zur Schmiede zurückkehre.\""
+barloqueblacksmith_random_017 = de \
+   "~kFerloi Qan sagt, \"Oh, es ist schön, am Leben zu sein.\""
+barloqueblacksmith_random_018 = de \
+   "~kFerloi Qan sagt, \"Du bist mein Freund.\""
+barloqueblacksmith_random_019 = de \
+   "~kFerloi Qan sagt, \"Ich bin froh, dass Du hier bist. Ich mag diese "
+   "Fremden nicht, die in meinen Laden kommen.\""
+barloqueblacksmith_random_020 = de \
+   "~kFerloi Qan sagt, \"Hier in Barloque bin ich glücklicher, Du nicht "
+   "auch?\""
+barloqueblacksmith_random_021 = de \
+   "~kFerloi Qan sagt, \"Kann ich sonst noch etwas für Dich tun? Ich muss "
+   "mit meiner Arbeit fortfahren.\""
+barloqueblacksmith_random_022 = de \
+   "~kFerloi Qan sagt, \"Ich bin nicht gerne hier. Jeden Morgen dieser "
+   "widerliche Fischgestank.\""
+barloqueblacksmith_random_023 = de \
+   "~kFerloi Qan sagt, \"Ich werde langsam wütend. Du gehst jetzt besser, "
+   "ehe ich Dir einen Hieb versetze.\""
+barloqueblacksmith_random_024 = de \
+   "~kFerloi Qan sagt, \"Sieh mich nicht so an. Ich nehme Dich mit nach "
+   "draußen und verpass Dir 'ne ordentliche Abreibung.\""
+barloqueblacksmith_random_025 = de \
+   "~kFerloi Qan sagt, \"Machst Du Dich über mich lustig? Ich mag es nicht, "
+   "wenn sich Leute über mich lustig machen, und ich bin größer als Du.\""
+barloqueblacksmith_random_026 = de \
+   "~kFerloi Qan sagt, \"Häng hier nicht weiter in meinem Laden rum, "
+   "Kleiner, oder ich verpasse Dir eine.\""
+barloqueblacksmith_random_027 = de \
+   "~kFerloi Qan sagt, \"Ich mag es nicht, wenn Fremde in meinem Laden "
+   "herumhängen.\""
+barloqueblacksmith_random_028 = de \
+   "~kFerloi Qan sagt, \"Was guckst Du? Willst Du mit mir kämpfen?\""
+barloqueblacksmith_random_029 = de \
+   "~kFerloi Qan sagt, \"Ich bin gar nicht glücklich. Jemand hat mir eine "
+   "magische Waffe angedreht, und es stellte sich heraus, dass sie überhaupt "
+   "nicht magisch ist.\""
+barloqueblacksmith_trigger_armor = de "rüstung"
+barloqueblacksmith_trigger_sell = de "verkauf"
+barloqueblacksmith_trigger_bye = de "ciao"
+barloqueblacksmith_trigger_council = de "ratsmitglied"
+barloqueblacksmith_trigger_duke = de "herzog"
+barloqueblacksmith_trigger_forge = de "schmiede"
+barloqueblacksmith_trigger_hello = de "hallo"
+barloqueblacksmith_trigger_help = de "hilfe"
+barloqueblacksmith_trigger_princess = de "prinzessin"
+barloqueblacksmith_trigger_rycksher = de "rulker"
+barloqueblacksmith_trigger_rulker = de "rycksher"
+barloqueblacksmith_trigger_buy = de "kaufen"
+barloqueblacksmith_trigger_smith = de "schmied"
+barloqueblacksmith_trigger_teach = de "lernen"
+barloqueblacksmith_trigger_teach_2 = de "lehren"
+barloqueblacksmith_trigger_wand = de "zauberstab"
+barloqueblacksmith_trigger_weapon = de "waffe"
+
+// BarloqueClerk
+barloqueclerk_speech_001 = de \
+   "~kCaramo sagt, \"Lebewohl und ehre Jalas Wahrheit.\""
+barloqueclerk_speech_002 = de \
+   "~kCaramo sagt, \"Der vom König ernannte Rat von Meridian regiert das "
+   "Königreich. Die Gerichtsbarkeit obliegt jedoch dem Büro des Justiziars.\""
+barloqueclerk_speech_003 = de \
+   "~kCaramo sagt, \"Willkommen im Büro des Justiziars, %s.\""
+barloqueclerk_speech_004 = de \
+   "~kCaramo errötet und ihre Wangen laufen rosig an."
+barloqueclerk_speech_005 = de \
+   "~kCaramo sagt, \"Jeder hat das Recht, sich seine eigene Meinung über die "
+   "Dinge zu bilden, und hier ist es nicht anders.\""
+barloqueclerk_trigger_bye = de "ciao"
+barloqueclerk_trigger_council = de "ratsmitglied"
+barloqueclerk_trigger_hello = de "hallo"
+barloqueclerk_trigger_rebels = de "rebellen"
+
+// BarloqueInnkeeper
+barloqueinnkeeper_speech_001 = de \
+   "~kPritchett sagt, \"Ich bin recht neu in der Hauptstadt, doch die Leute "
+   "von hier haben mich bereits akzeptiert. Wenn es mir gelingt, einen Titel "
+   "zu kaufen, wird keiner mehr wissen, dass ich nicht von hier stamme.\""
+barloqueinnkeeper_speech_002 = de \
+   "~kPritchett sagt, \"Tschüss, ich meine, bei meinem Troll, es war schön, "
+   "Dich getroffen zu haben. Lebewohl.\""
+barloqueinnkeeper_speech_003 = de \
+   "~kPritchett sagt, \"Cor Noth ist gar keine so üble Stadt. Es ist nur "
+   "schade, dass der Fluss so wahnsinnig verdreckt ist.\""
+barloqueinnkeeper_speech_004 = de \
+   "~kPritchett sagt, \"Akardius und die Prinzessin kämpfen um Einfluss beim "
+   "Rat. Suche Koldor auf. Er müsste die Absichten jedes einzelnen "
+   "Ratsmitglieds kennen.\""
+barloqueinnkeeper_speech_005 = de \
+   "~kPritchett sagt, \"Der Herzog war ein Schuft, aber ich bin nicht "
+   "sicher, ob er seinen furchtbaren Tod verdient hat, selbst einer wie er.\""
+barloqueinnkeeper_speech_006 = de \
+   "~kPritchett sagt, \"Du schenkst zu vielen Gerüchten Glauben, jeder weiß, "
+   "dass es nur Mythen und Legenden sind.\""
+barloqueinnkeeper_speech_007 = de \
+   "~kPritchett sagt, \"Hallo, äh... wohl getroffen, brave Reisende.\""
+barloqueinnkeeper_speech_008 = de \
+   "~kPritchett sagt, \"Dies hier ist die beste Kneipe in Barloque. Du "
+   "solltest Dich ein bisschen ausruhen.\""
+barloqueinnkeeper_speech_009 = de \
+   "~kPritchett sagt, \"Ich habe den Mann gesehen, als er direkt draußen vor "
+   "dem Tor stand. Nicht am Hafen, wie Du jetzt vielleicht denkst, sondern "
+   "auf der Südseite. Manchmal sieht man ihn, wenn man zum Schloss der "
+   "Prinzessin unterwegs ist. Ich habe aber gehört, dass er viel "
+   "herumzieht.\""
+barloqueinnkeeper_speech_010 = de \
+   "~kPritchett sagt, \"Ha, Du hast nie eine so niveaulose Stadt wie Jasper "
+   "gesehen. Warum die neue Fraktion sich ausgerechnet dort niederlassen "
+   "wollte, ist mir schleierhaft.\""
+barloqueinnkeeper_speech_011 = de \
+   "~kPritchett sagt, \"Viele gute Speisen kommen aus Marion. Es ist in der "
+   "Tat ein reicher Ort.\""
+barloqueinnkeeper_speech_012 = de \
+   "~kPritchett sagt, \"Ich hörte, dass sie niemals badet. Fragt sich denn "
+   "niemand, was sich unter dem ganzen Schmutz verbirgt?\""
+barloqueinnkeeper_speech_013 = de \
+   "~kPritchett sagt, \"Ich verstehe nicht, woher ein Kind solche Kräfte und "
+   "solches Wissen schöpft. Das bringt einen schon ins Grübeln.\""
+barloqueinnkeeper_speech_014 = de \
+   "~kPritchett sagt, \"Die Göttin des Lichts, Shal'ille, vergibt ja "
+   "angeblich alles. Aber ich kann mir nicht helfen, ich misstraue ihr.\""
+barloqueinnkeeper_speech_015 = de \
+   "~kPritchett sagt, \"Sie hat nicht einen Schilling, den sie hier ausgeben "
+   "könnte. Wenn Du ihr auf ihrem Weg folgst, dann verschwinde von hier.\""
+barloqueinnkeeper_speech_016 = de \
+   "~kPritchett sagt, \"Mir scheint, Du solltest besser von hier "
+   "verschwinden. Solch ein Name ist hier nicht willkommen.\""
+barloqueinnkeeper_speech_017 = de \
+   "~kPritchett sagt, \"Ich tue Deine Dienste als Bote jetzo nicht "
+   "benötigen.\""
+barloqueinnkeeper_speech_018 = de \
+   "~kPritchett sagt, \"Ich habe vernommen, Miriana könne große Monster aus "
+   "den Elementen beschwören. Aber solche Geschichten sind bestimmt "
+   "übertrieben.\""
+barloqueinnkeeper_speech_019 = de \
+   "~kPritchett sagt, \"Ich ward nie Zeuge eines solchen Ereignisses, aber "
+   "manch einer meiner Besucher behauptet, es gesehen zu haben.\""
+barloqueinnkeeper_speech_020 = de \
+   "~kPritchett fragt, \"Warum sollte jemand danach streben, den heiligen "
+   "Quellen ihre Kraft zu entziehen...\""
+barloqueinnkeeper_speech_021 = de \
+   "~kPritchett sagt, \"Gepriesen sei Kateriina! Ich bete dafür, dass sie "
+   "die Kraft hat, um diese neue Bedrohung zu bekämpfen.\""
+barloqueinnkeeper_speech_022 = de \
+   "~kPritchett flüstert, \"Erzähle niemandem, dass ich das gesagt habe, "
+   "aber die ganze Sache mit den Rebellen ist gar nicht mal so schlecht. Ich "
+   "meine, die Leute müssen ab und zu mal aufgerüttelt werden.\""
+barloqueinnkeeper_speech_023 = de \
+   "~kPritchett sagt, \"Ah, das ist eine Geschichte, wenn Du die Zeit hast.\""
+barloqueinnkeeper_speech_024 = de \
+   "~kPritchett sagt, \"Aye, ich war Seemann. Einer der letzten. Damals, in "
+   "jenen Tagen, als die Schiffe noch segelten.\""
+barloqueinnkeeper_speech_025 = de \
+   "~kPritchett sagt, \"Ah, das ist eine Geschichte, wenn Du die Zeit hast.\""
+barloqueinnkeeper_speech_026 = de \
+   "~kPritchett sagt, \"Es war vor vielen Jahren ... wir waren das letzte "
+   "Schiff, das von den Kaianlagen Barloques ablegte. Nun, es gibt noch ein "
+   "paar Fischerboote, die hinausfahren, doch bei diesen Gezeiten kommt kein "
+   "echtes Segelschiff sehr weit von unserer Küste, bevor es umkehren muss.\""
+barloqueinnkeeper_speech_027 = de \
+   "~kIm Raum wird es still, als %s den verkümmerten Zwerg erwähnt."
+barloqueinnkeeper_speech_028 = de \
+   "~kPritchett sagt, \"Aye, es ist zu gefährlich geworden, bei diesen "
+   "unvorhersehbaren Gezeiten zu segeln. Sie reißen Dein Schiff schneller "
+   "auseinander, als Du spucken kannst. Es ist, als ob die Götter selbst "
+   "nicht wollten, dass der Mensch jenseits der Küstengewässer segelt.\""
+barloqueinnkeeper_speech_029 = de \
+   "~kPritchett sagt, \"Es war vor vielen Jahren ... wir waren das letzte "
+   "Schiff, das von den Kaianlagen Barloques ablegte. Nun, es gibt noch ein "
+   "paar Fischerboote, die hinausfahren, doch bei diesen Gezeiten kommt kein "
+   "echtes Segelschiff sehr weit von unserer Küste, bevor es umkehren muss.\""
+barloqueinnkeeper_speech_030 = de \
+   "~kPritchett sagt, \"Alle meine Kollegen und ich hier in Barloque wissen, "
+   "dass Tos nicht das Zeug zu einer großen Stadt hat! Vor Jahren lagen wir "
+   "im Krieg mit Tos.\""
+barloqueinnkeeper_random_001 = de \
+   "~kPritchett sagt, \"Wenn Dir die Monster zu sehr zusetzen, solltest Du "
+   "Roluk aufsuchen. Er war früher hier in Barloque, um die Prinzessin in "
+   "solchen Dingen zu beraten.\""
+barloqueinnkeeper_random_002 = de \
+   "~kPritchett sagt, \"Ich glaube, ich habe gehört, dass es nahe den "
+   "Wäldern von Faronath geheimnisvolle Waldschrate gibt. Es wird behauptet, "
+   "sie verfügten über große Zauberkräfte.\""
+barloqueinnkeeper_random_003 = de \
+   "~kPritchett sagt, \"Du würdest dem einfachen Volk von großem Nutzen "
+   "sein, wenn Du den Kampf gegen die Ratten, die aus der nahegelegenen "
+   "Kanalisation ausschwärmen, aufnehmen würdest. Das Land leidet unter "
+   "dieser Plage, und sie sind leicht genug ins Jenseits zu befördern.\""
+barloqueinnkeeper_random_004 = de \
+   "~kPritchett sagt, \"Es gibt welche, die Dir wertvolle Fähigkeiten "
+   "vermitteln könnten, wenn Du fragtest.\""
+barloqueinnkeeper_random_005 = de \
+   "~kPritchett sagt, \"Ich habe gehört, dass es vier oder fünf Tempel dort "
+   "draußen in der Wildnis geben soll, wo Du die Mittel finden könntest, um "
+   "neue Zaubersprüche wirken zu können.\""
+barloqueinnkeeper_random_006 = de \
+   "~kPritchett sagt, \"Ich verstehe nicht, warum so viele Menschen Pilze "
+   "und Beeren mit sich herumtragen. Sie scheinen bei Koldor gegenüber ein- "
+   "und auszugehen.\""
+barloqueinnkeeper_random_007 = de \
+   "~kPritchett sagt, \"In früheren Zeiten pflegten wir zu sagen, dass der "
+   "einzige Weg, ein besserer Seemann zu werden, darin bestünde, einen "
+   "stärkeren Sturm auf See zu meistern. Mir ist zu Ohren gekommen, dass das "
+   "Gleiche für den Kampf gegen Monster gilt.\""
+barloqueinnkeeper_random_008 = de \
+   "~kPritchett sagt, \"Auch wenn Du hier im Bernstein kein Zimmer hast, so "
+   "ist es doch ein guter Ort, um sich zu erholen.\""
+barloqueinnkeeper_random_009 = de \
+   "~kPritchett sagt, \"Um die Wahrheit zu sagen, ich vermisse meine Zeiten "
+   "als Seemann.\""
+barloqueinnkeeper_random_010 = de \
+   "~kPritchett sagt, \"Ah, riechst Du diese Seeluft? Wie sehr ich meine "
+   "Zeiten auf See vermisse.\""
+barloqueinnkeeper_random_011 = de \
+   "~kPritchett sagt, \"Weißt Du, es ist gar nicht so schwierig, die "
+   "gewählte Art, wie die Leute in Barloque sprechen, aufzuschnappen. Ich "
+   "denke sogar, dass ich sie in der kurzen Zeit, die ich erst hier bin, "
+   "ganz gut gemeistert habe.\""
+barloqueinnkeeper_random_012 = de \
+   "~kPritchett sagt, \"Hattest Du das Vergnügen, Madelia zu begegnen? Sie "
+   "ist meine Liebste. Und eines Tages wird sie auch meine Ehefrau sein.\""
+barloqueinnkeeper_random_013 = de \
+   "~kPritchett sagt, \"Wenn Du nach den schönsten Kleidern suchst, dann "
+   "suche nicht länger, denn ich werde Dir von meiner Liebsten, Madelia, "
+   "erzählen. Sie fertigt die schönsten Kleider für unsere Prinzessin im "
+   "nahegelegenen Schloss.\""
+barloqueinnkeeper_random_014 = de \
+   "~kPritchett sagt, \"Ich bin wirklich der glücklichste Mann auf Erden, "
+   "denn ich habe den Blick von Madelia auf mich gezogen. Schon bald werde "
+   "ich um ihre Hand anhalten.\""
+barloqueinnkeeper_random_015 = de \
+   "~kPritchett sagt, \"Ich bin sehr froh, Dich hier zu sehen. Wie ergeht es "
+   "Dir?\""
+barloqueinnkeeper_random_016 = de \
+   "~kPritchett sagt, \"Sag mir, guter edler Schurke, woher stammst Du?\""
+barloqueinnkeeper_random_017 = de \
+   "~kPritchett sagt, \"Wenn es sei Unterhaltung, was Du daselbst suchest, "
+   "so nimm meine Empfehlung an. Es heißt, im Bhrama und Falken oder dem "
+   "Haus der Buchmacher hier durch die nächste Türe spielet man manchmal bis "
+   "zur späten Nachtstunde.\""
+barloqueinnkeeper_random_018 = de \
+   "~kPritchett sagt, \"Willst Du den ganzen Tag hier herumhängen, Du "
+   "Schlafnase?!\""
+barloqueinnkeeper_random_019 = de \
+   "~kPritchett sagt, \"Gibt's nichts Besseres, was Du tun könntest?\""
+barloqueinnkeeper_trigger_bye = de "ciao"
+barloqueinnkeeper_trigger_council = de "ratsmitglied"
+barloqueinnkeeper_trigger_duke = de "herzog"
+barloqueinnkeeper_trigger_fate = de "schicksal"
+barloqueinnkeeper_trigger_hello = de "hallo"
+barloqueinnkeeper_trigger_help = de "hilfe"
+barloqueinnkeeper_trigger_need_a_courier = de "brauchst du einen boten?"
+barloqueinnkeeper_trigger_node_attack = de "quellenangriff"
+barloqueinnkeeper_trigger_princess = de "prinzessin"
+barloqueinnkeeper_trigger_rebels = de "rebellen"
+barloqueinnkeeper_trigger_sailed = de "segeln"
+barloqueinnkeeper_trigger_sailor = de "seemann"
+barloqueinnkeeper_trigger_ships = de "schiffe"
+barloqueinnkeeper_trigger_story = de "geschichte"
+barloqueinnkeeper_trigger_stunted_dwarf = de "verkümmerter zwerg"
+barloqueinnkeeper_trigger_tides = de "gezeiten"
+barloqueinnkeeper_trigger_tides_2 = de "wellen"
+barloqueinnkeeper_trigger_time = de "zeit"
+
+// BarloqueMerchant
+barloquemerchant_speech_001 = de \
+   "~kHerbut sagt, \"Eine Schlafnase ist eine faule Person, Ihr ungehobelter "
+   "Trampel.\""
+barloquemerchant_speech_002 = de \
+   "~kHerbut sagt, \"Barloque ist die einzige Stadt, die der Beachtung wert "
+   "ist. Die anderen sind nichts weiter als Ställe für das gewöhnliche "
+   "Vieh.\""
+barloquemerchant_speech_003 = de \
+   "~kHerbut sagt, \"Ich biete faire Preise für Eure Edelsteine und Juwelen. "
+   "Denn wisset, mein Auge erkennt jeden Makel.\""
+barloquemerchant_speech_004 = de \
+   "~kHerbut sagt, \"Gehabt Euch wohl, bis bald.\""
+barloquemerchant_speech_005 = de \
+   "~kHerbut sagt, \"Die Klepsydra in der Mitte von Nord-Barloque ist eine "
+   "Uhr. Ich nehme nicht an, dass Euer Gemüt zu schlicht ist, sie zu lesen.\""
+barloquemerchant_speech_006 = de \
+   "~kHerbut sagt, \"Cor Noth versprach ein Abkömmling des großartigen "
+   "Barloque zu werden, doch diese jungen Studenten werfen nur Unrat in den "
+   "Fluss und verschmutzen die schönen Straßen. Der Uhrenturm ist nur eine "
+   "schlichte Sonnenuhr im Vergleich zu unserer schönen Klepsydra.\""
+barloquemerchant_speech_007 = de \
+   "~kHerbut sagt, \"Der Rat füllt seine Becher mit mehr, als angeboten "
+   "wird. Sie sollten die Prinzessin herrschen lassen und selbst nur noch "
+   "als Berater fungieren.\""
+barloquemerchant_speech_008 = de \
+   "~kHerbut sagt, \"Jetzt macht Ihr Euch über mich lustig!\""
+barloquemerchant_speech_009 = de \
+   "~kHerbut sagt, \"Beherrscht Ihr die Sprache nicht? Ein Trampel ist ein "
+   "träger Hansper.\""
+barloquemerchant_speech_010 = de \
+   "~kHerbut sagt, \"Jetzt, wo der Herzog aus dem Weg geräumt ist, kann die "
+   "Prinzessin vielleicht ihre rechtmäßige Krone nehmen.\""
+barloquemerchant_speech_011 = de \
+   "~kHerbut sagt, \"Jetzt macht Ihr Euch über mich lustig!\""
+barloquemerchant_speech_012 = de \
+   "~kHerbut sagt, \"Ich bin der einzige ehrliche Kaufmann. Geht nicht zu "
+   "Skivlat, denn er ist eine Schlafnase.\""
+barloquemerchant_speech_013 = de \
+   "~kHerbut sagt, \"Meiner Treu, so einen Hansper wie Euch hab' ich ja noch "
+   "nie gesehen. Ein Hansper ist ein Kerl von niederem Stand.\""
+barloquemerchant_speech_014 = de "~kHerbut sagt, \"Seid gegrüßt.\""
+barloquemerchant_speech_015 = de \
+   "~kHerbut sagt, \"Ich bin Meridians größter Juwelier. Wenn Ihr Edelsteine "
+   "zu verkaufen habt oder Juwelen braucht, stehe ich Euch zu Diensten. Wenn "
+   "nicht, dann findet Ihr die Tür hinter Euch.\""
+barloquemerchant_speech_016 = de \
+   "~kHerbut sagt, \"Jasper hat nur eine Sache von Wert: die Edelsteine, die "
+   "ihre Minen hervorbringen.\""
+barloquemerchant_speech_017 = de \
+   "~kHerbut sagt, \"Ich bin der einzige ehrliche Kaufmann. Geht nicht zu "
+   "Skivlat, denn er ist eine Schlafnase.\""
+barloquemerchant_speech_018 = de \
+   "~kHerbut sagt, \"Ich verstehe einfach nicht, was er sich davon erhofft. "
+   "Es ist ja nicht so, als würden sie ihm je einen eigenen Titel "
+   "zugestehen, abgesehen von dem eines Verräters.\""
+barloquemerchant_speech_019 = de \
+   "~kHerbut sagt, \"Ihr scherzt. Marion ist keine Stadt von Rang.\""
+barloquemerchant_speech_020 = de \
+   "~kHerbut sagt, \"Bei meinem Treueid, Prinzessin Kateriina ist es wert zu "
+   "herrschen. Sie wurde dazu erzogen, im Gegensatz zum schurkischen "
+   "Herzog.\""
+barloquemerchant_speech_021 = de \
+   "~kHerbut sagt, \"Pritchett kommt nicht von hier. Seine gewöhnliche Zunge "
+   "ist nicht in der Lage, ordentlich Barloque zu sprechen. Er erfindet "
+   "seine eigene Sprache.\""
+barloquemerchant_speech_022 = de \
+   "~kHerbut sagt, \"Die Armen natürlich. Nur hier in Barloque findet Ihr "
+   "wirklich Leute, mit denen man Umgang pflegen kann.\""
+barloquemerchant_speech_023 = de \
+   "~kHerbut sagt, \"Eine Ratte!?\" Herbut springt zurück, \"Oh nein! Wo ist "
+   "sie?\""
+barloquemerchant_speech_024 = de \
+   "~kHerbut sagt, \"Ich nehme an, Ihr habt Gold genug, um meine Edelsteine "
+   "anzuschauen.\""
+barloquemerchant_speech_025 = de \
+   "~kHerbut sagt, \"Ich bin der einzige ehrliche Kaufmann. Geht nicht zu "
+   "Skivlat, denn er ist eine Schlafnase.\""
+barloquemerchant_speech_026 = de \
+   "~kHerbut sagt, \"Was ist mit Solomon? Kann sein, dass er ein Freund von "
+   "mir ist, aber hier in Barloque hat er nichts zu melden.\""
+barloquemerchant_speech_027 = de \
+   "~kHerbut sagt, \"Ich bin nicht in der Stimmung, von den geschäftlichen "
+   "Gepflogenheiten meines guten Nachbarn zu erzählen.\""
+barloquemerchant_speech_028 = de \
+   "~kHerbut sagt, \"Was denkt Ihr von mir? Ich werde Euch nicht von Frulars "
+   "Geheimnissen erzählen!\""
+barloquemerchant_speech_029 = de \
+   "~kHerbut sagt, \"Die Artefakte sind faszinierende magische Objekte, die "
+   "der Rat zu erforschen trachtet. Solltet Ihr jemals auf eines stoßen, "
+   "dann suchet den Rat auf, und Ihr werdet belohnt werden.\""
+barloquemerchant_speech_030 = de \
+   "~kHerbut sagt, \"Ich bin an keinem unangenehmeren Ort als Tos gewesen. "
+   "Die Straßen quellen über von der wertlosesten Art von Schwachsinnigen.\""
+barloquemerchant_random_001 = de \
+   "~kHerbut sagt, \"Ich werde nicht mit diesen verschwindenden Artefakten "
+   "Handel treiben. In Wahrheit weiß nicht einmal der Rat, warum sie in die "
+   "Wildnis teleportieren.\""
+barloquemerchant_random_002 = de \
+   "~kHerbut sagt, \"Die Klepsydra zählt die Zeit wunderbar regelmäßig. Es "
+   "ist schade, dass der langweilige Pöbel sie nicht zu lesen weiß.\""
+barloquemerchant_random_003 = de \
+   "~kHerbut sagt, \"Es gibt keinen besseren Ort als Barloque. Vielleicht "
+   "gibt es keinen schlimmeren Platz als die fauligen Docks und "
+   "Abwasserkanäle.\""
+barloquemerchant_random_004 = de \
+   "~kHerbut sagt, \"Wirklich, wir haben kein Rattenproblem. Das sind nur "
+   "von den geringeren Städten ausgestreute Gerüchte.\""
+barloquemerchant_random_005 = de \
+   "~kHerbut sagt, \"Madelia ist nichts weiter als ein leichtes Mädchen. "
+   "Wäre sie nicht die einzige Schneiderin von Rang, würde sie sicher am "
+   "Hafen etwas ganz anderes verkaufen.\""
+barloquemerchant_random_006 = de \
+   "~kHerbut sagt, \"Frular handelt mit Gildenhallen in dem dünnwandigen "
+   "Gebäude neben mir. Meinen Ohren sind schon ein paar Geschichten über "
+   "seine Klientel zugetragen worden.\""
+barloquemerchant_random_007 = de \
+   "~kHerbut sagt, \"Ungeziefer verseucht unsere Straßen, und nein, ich "
+   "spreche nicht von Ratten. Ich beziehe mich auf die neuen Bürger, diesen "
+   "Plebejer Ferloi Qan und diesen nichtswürdigen Pritchett.\""
+barloquemerchant_random_008 = de \
+   "~kHerbut sagt, \"Im Südosten erstrahlt zu dieser Jahreszeit das Laubwerk "
+   "von Schloss Bourgeois prächtig. Es ist ein wunderbarer Palast, der "
+   "unserer stolzen Kateriina wohl ansteht.\""
+barloquemerchant_random_009 = de \
+   "~kLeichter Spott kräuselt Herbuts Lippen, als er seinen Blick über Dich "
+   "schweifen lässt."
+barloquemerchant_random_010 = de \
+   "~kHerbut streckt seinen Hals leicht, als würde er zur östlichen Mauer "
+   "hin lauschen."
+barloquemerchant_random_011 = de \
+   "~kHerbut sagt, \"Möchtet Ihr Eure Juwelen vielleicht schätzen lassen, "
+   "edle Seele?\""
+barloquemerchant_random_012 = de \
+   "~kHerbut sagt, \"Mir ist durch diese dünnen Wände zu Ohren gekommen, "
+   "dass es in dieser Welt eine große Menge Dummschwätzer gibt.\""
+barloquemerchant_random_013 = de \
+   "~kHerbut sagt, \"Ich sehe keinen Grund, jemals einen Fuß aus Barloque "
+   "heraus zu setzen, außer, um vielleicht dem wunderbaren Schloss ihrer "
+   "Hoheit einen Besuch abzustatten.\""
+barloquemerchant_random_014 = de \
+   "~kHerbut sagt, \"Unfassbar ist für mich die völlige Unfähigkeit auf "
+   "dieser Welt. Nehmt zum Beispiel diesen Trampel Solomon. Haben Eure Augen "
+   "jemals einen anderen Mann erblickt, dessen Bauch so weit von seinem "
+   "Rücken entfernt ist?\""
+barloquemerchant_random_015 = de \
+   "~kHerbut sagt, \"Wie kann ich Euch zu Diensten sein?\""
+barloquemerchant_random_016 = de \
+   "~kHerbut sagt, \"Spürt Ihr diese Seeluft? Wahrhaftig, sie ist "
+   "erfrischend. In keiner anderen Stadt werdet Ihr solch eine gesunde Luft "
+   "finden.\""
+barloquemerchant_random_017 = de \
+   "~kHerbut sagt, \"Oh weh, diese Welt quillt über von unzulänglichen "
+   "Trampeln. Wie sehr es mich danach dürstet, mich mit einem wohlerzogenen "
+   "Herrn aus guter Familie zu unterhalten.\""
+barloquemerchant_random_018 = de \
+   "~kHerbut sagt, \"Wollt Ihr nichts mehr kaufen?! Eure nutzlose "
+   "Anwesenheit verschwendet nur Platz in meinem Laden.\""
+barloquemerchant_random_019 = de \
+   "~kHerbut bedenkt Dich mit einem vernichtenden Blick."
+barloquemerchant_random_020 = de \
+   "~kHerbut sagt, \"Geht weg, Ihr primitives Hinterteil einer Pflaume!\""
+barloquemerchant_random_021 = de \
+   "~kHerbut sagt, \"Hinfort, Ihr unterbelichtete nichtsnutzige Kanaille!\""
+barloquemerchant_random_022 = de \
+   "~kHerbut sagt, \"Verärgert mich nicht länger, Ihr miauender "
+   "pickelküssender Fußlecker!\""
+barloquemerchant_random_023 = de \
+   "~kHerbut sagt, \"Entfernt Euch, eigensinnige dreckschleimende "
+   "Vogelscheuche!\""
+barloquemerchant_random_024 = de \
+   "~kHerbut sagt, \"Genug, Ihr verseuchtes doofgeborenes Schreckgespenst!\""
+barloquemerchant_random_025 = de \
+   "~kHerbut sagt, \"Weg mit Euch, Ihr feiger pockennarbiger Klotz!\""
+barloquemerchant_random_026 = de \
+   "~kHerbut sagt, \"Hinweg, Ihr närrischer Abklatsch eines "
+   "Krempelgesichts!\""
+barloquemerchant_random_027 = de \
+   "~kHerbut sagt, \"Ich sage nur: hebt Euch hinfort, Ihr schwammiges "
+   "milchsaures Stück Mist!\""
+barloquemerchant_random_028 = de \
+   "~kHerbut kreischt, \"Ihr brummender, zwiebeläugiger Malzwurm, verlasst "
+   "diesen Ort!\""
+barloquemerchant_random_029 = de \
+   "~kHerbut kreischt, \"Hinfälliger, kleinkarierter, dummschwätzender "
+   "Drecksack, ich will Euer Gesicht hier nie wieder sehen!\""
+barloquemerchant_trigger_axwaddle = de "schlafnase"
+barloquemerchant_trigger_sell = de "verkauf"
+barloquemerchant_trigger_bye = de "ciao"
+barloquemerchant_trigger_clepsydra = de "klepsydra"
+barloquemerchant_trigger_council = de "ratsmitglied"
+barloquemerchant_trigger_council_2 = de "der rat"
+barloquemerchant_trigger_degree = de "grad"
+barloquemerchant_trigger_drumble = de "trampel"
+barloquemerchant_trigger_duke = de "herzog"
+barloquemerchant_trigger_fellow = de "kerl"
+barloquemerchant_trigger_gem = de "edelstein"
+barloquemerchant_trigger_haskard = de "hansper"
+barloquemerchant_trigger_hello = de "hallo"
+barloquemerchant_trigger_help = de "hilfe"
+barloquemerchant_trigger_jewel = de "juwel"
+barloquemerchant_trigger_princess = de "prinzessin"
+barloquemerchant_trigger_rabble = de "pöbel"
+barloquemerchant_trigger_rabble_2 = de "armen"
+barloquemerchant_trigger_rat = de "ratte"
+barloquemerchant_trigger_buy = de "kaufen"
+barloquemerchant_trigger_stories = de "geschichten"
+barloquemerchant_trigger_tokens = de "artefakte"
+
+// Barloquetailor
+barloquetailor_speech_001 = de \
+   "~kMadelia sagt, \"Das nahe Barloque ist die Hauptstadt unseres schönen "
+   "Königreiches. Meiner Treu, ich ziehe sie den verkrusteten Straßen von "
+   "Tos vor.\""
+barloquetailor_speech_002 = de "~kMadelia sagt, \"Lebet wohl, %s.\""
+barloquetailor_speech_003 = de \
+   "~kMadelia sagt, \"Wenn Ihr Euch meine schönen Kleider nicht leisten "
+   "könnt, so findet Ihr in Cor Noth einen Schneider von geringerem "
+   "Geschick.\""
+barloquetailor_speech_004 = de \
+   "~kMadelia sagt, \"Ich mische mich nicht in die Belange des Rates ein, "
+   "außer wenn sie Ihre Hoheit betreffen.\""
+barloquetailor_speech_005 = de \
+   "~kMadelia sagt, \"Ich habe der Prinzessin unter vier Augen geraten, sich "
+   "vor diesen Männern in Acht zu nehmen, doch ach, sie glaubt an das Gute "
+   "in den anderen. Ich kann nur hoffen, dass sie deren trügerische "
+   "Absichten durchschaut, bevor auch sie verletzt wird.\""
+barloquetailor_speech_006 = de \
+   "~kMadelia sagt, \"Ich dachte wirklich, dass sie mir helfen wollten. Wie "
+   "sollte ich wissen, dass sie bloß logen, um ihre eigene Sache "
+   "voranzutreiben? Ich habe Geschäfte zu erledigen, ich bitte Euch, geht "
+   "nun.\""
+barloquetailor_speech_007 = de \
+   "~kMadelia sagt, \"Sie sind genauso falsch und böse, wie sie es den "
+   "anderen vorwerfen. Wüsstet Ihr die Wahrheit über die .... Lage, würdet "
+   "Ihr sie nicht so unterstützen, wie Ihr es jetzt tut.\""
+barloquetailor_speech_008 = de \
+   "~kMadelia sagt, \"Der Herzog ist tot. Es ist schon komisch, dass er "
+   "Meridian jetzt genauso viel zu bieten hat wie zu Lebzeiten.\""
+barloquetailor_speech_009 = de \
+   "~kMadelia sagt, \"Ich erinnere mich, irgendwo von einer Vision der drei "
+   "gelesen zu haben, die offensichtlich unterschiedliche Seiten derselben "
+   "Macht waren.\""
+barloquetailor_speech_010 = de \
+   "~kMadelia flüstert, \"Ich habe einen uralten Text, den ich im Lager "
+   "eines Nekromanten gefunden habe. Ich bin mir nicht einmal sicher, ob er "
+   "ihn je gelesen hat, aber er erzählt von einem anderen Gott. Einem, der "
+   "keine Bindung zu denen hat, die wir jetzt verehren. Dieser Gott, so sagt "
+   "der Text, wurde an einem anderen Ort gefangen gesetzt, so dass seine "
+   "Gegenwart aus diesem Land entfernt wurde. Weiter heißt es, dass dieser "
+   "Gott zurückkehren wird. Seitdem wünsche ich mehr über die alten Legenden "
+   "zu erfahren, die anscheinend aus unseren Aufzeichnungen verschwunden "
+   "sind. Warum sollte jemand diese Aufzeichnungen absichtlich verschwinden "
+   "lassen?\""
+barloquetailor_speech_011 = de \
+   "~kMadelia sagt, \"Guten Morgen, %s. Was kann ich für Euch nähen?\""
+barloquetailor_speech_012 = de \
+   "~kMadelia sagt, \"Guten Tag, %s. Braucht Ihr vielleicht ein neues "
+   "Gewand?\""
+barloquetailor_speech_013 = de \
+   "~kMadelia sagt, \"Ihre Webarbeiten scheinen stets die Essenz des Lebens "
+   "zu sein, doch meine Gewänder sind modischer. Ihre Wandteppiche können "
+   "Euch stundenlang fesseln.\""
+barloquetailor_speech_014 = de \
+   "~kMadelia sagt, \"Hier gibt es kein Insekt. Ich habe keine Mühe "
+   "gescheut, diesen Raum von Motten zu befreien.\""
+barloquetailor_speech_015 = de \
+   "~kMadelia sagt, \"Stark und fleißig sind die Bergleute im fernen Jasper. "
+   "Ich muss sagen, dass Jonas sehr gut dorthin passt.\""
+barloquetailor_speech_016 = de \
+   "~kMadelia sagt, \"Dieses Marion ist ein hübsches Fleckchen Erde. Doch, "
+   "ich bitte Euch, was soll man schon in solch einem drolligen Örtchen "
+   "tun?\""
+barloquetailor_speech_017 = de \
+   "~kMadelia sagt, \"Viele glauben, dass sie eine Bedrohung ist, und ich "
+   "fühle, dass sie nicht nur ein missgeleitetes junges Mädchen ist, sondern "
+   "dass dies nur die Oberfläche einer tieferen Angelegenheit ist, die bald "
+   "enthüllt werden wird.\""
+barloquetailor_speech_018 = de \
+   "~kMadelia sagt, \"Wenn irgendjemand diesem armen Kind zugehört hätte, "
+   "hätte Miriana vielleicht nicht zu solch gewalttätigen Taten gegriffen.\""
+barloquetailor_speech_019 = de \
+   "~kMadelia sagt, \"Die Quellen füllen sich wieder und es scheint, als ob "
+   "Miriana keinen bleibenden Schaden angerichtet hätte.\""
+barloquetailor_speech_020 = de \
+   "~kMadelia sagt, \"Ich bin ganz sicher, dass meine Meinung zu diesem "
+   "Thema unwichtig ist.\""
+barloquetailor_speech_021 = de \
+   "~kMadelia sagt, \"Gesegnet sei Kateriina. Ihre Hoheit hat mich aus dem "
+   "Dreck von Tos in die herrliche Pracht dieses Schlosses gebracht.\""
+barloquetailor_speech_022 = de \
+   "~kMadelia mustert Dich mit einem anerkennenden Lächeln von oben bis "
+   "unten und sagt, \"Vielleicht später.\""
+barloquetailor_speech_023 = de \
+   "~kMadelia sagt, \"Seht Ihr denn nicht, dass ich bei der Arbeit bin?\""
+barloquetailor_speech_024 = de \
+   "~kMadelia sagt, \"Mein Kopf pocht zu dieser Stunde gar fürchterlich vor "
+   "Schmerz.\""
+barloquetailor_speech_025 = de \
+   "~kMadelia sagt, \"Ich bitte Euch, sprecht nicht von Tos. Seine Lichter "
+   "liegen weit hinter mir.\""
+barloquetailor_speech_026 = de \
+   "~kMadelia sagt, \"Genauso scharf wie Scheren, würden manche sagen, und "
+   "genauso tödlich.\""
+barloquetailor_random_001 = de \
+   "~kMadelia sagt, \"Ich verwende nur die besten Materialien.\""
+barloquetailor_random_002 = de \
+   "~kMadelia sagt, \"Habt Ihr diese scheußlichen roten Hosen gesehen? "
+   "Fürwahr, billigere Kleider könnte man nicht nähen. Ich kann über "
+   "diejenigen, die so schlecht erzogen sind, so etwas zu tragen, nur "
+   "lachen.\""
+barloquetailor_random_003 = de \
+   "~kMadelia sagt, \"Wenn Ihr Unterhaltung sucht, dann werdet Ihr die "
+   "Bibliothek Ihrer Hoheit höchst anregend finden.\""
+barloquetailor_random_004 = de \
+   "~kMadelia sagt, \"Leistet Ihrer Hoheit den Treueid und es wird Euch "
+   "leichter fallen, Fähigkeiten und Magie aufzunehmen.\""
+barloquetailor_random_005 = de \
+   "~kMadelia sagt, \"Die Prinzessin besitzt ein Herz aus reinem Gold. Ihr "
+   "seid herzlich willkommen, ihren Bankettsaal für jede Eurer großen "
+   "Versammlungen zu nutzen.\""
+barloquetailor_random_006 = de \
+   "~kMadelia sagt, \"Es ist merkwürdig, immer wieder ist die Tür zum Turm "
+   "verschlossen. Ich weiß nicht, was in der Kammer des Spötters vor sich "
+   "geht.\""
+barloquetailor_random_007 = de \
+   "~kMadelia sagt, \"Die Kneipe zum Bernstein ist ein hervorragender Ort, "
+   "um für die Nacht einzukehren. Wenn Ihr dort den lieben Pritchett seht, "
+   "sagt ihm bitte, dass ich unsere Pläne, gemeinsam zu speisen, nicht "
+   "vergessen habe.\""
+barloquetailor_random_008 = de \
+   "~kMadelia sagt, \"Wahrlich, es fällt schwer, nicht so zu sprechen, wie "
+   "es den Edlen von Barloque geziemt. Ihr müsst nur wissen, wann Ihr Euch, "
+   "Euer, Ihr und weshalb benutzen müsst. Versucht es und Ihr werdet sehen, "
+   "wie einfach es ist.\""
+barloquetailor_random_009 = de \
+   "~kMadelia sagt, \"Ich habe keine blauen Pilze mehr. Es ist Zeit, diesem "
+   "Simpel Frisconar schön zu tun.\""
+barloquetailor_random_010 = de \
+   "~kMadelia sagt, \"Ihr solltet stets einen Überfluss an hochwertiger "
+   "Kleidung haben. Und eine reiche Auswahl für jeden Anlass.\""
+barloquetailor_random_011 = de \
+   "~kMadelia näht an einem wundervoll bestickten Ballkleid."
+barloquetailor_random_012 = de \
+   "~kMadelia durchsucht eine Kiste mit feinen Fäden und wundert sich laut, "
+   "\"Wo hab' ich nur mein Röllchen mit Goldgarn gelassen?\""
+barloquetailor_random_013 = de \
+   "~kDie Stimme eines jungen Mädchens ruft aus dem anderen Raum, \"Herrin, "
+   "wir sind mit den Säumen fertig. Dürfen wir jetzt rausgehen und "
+   "spielen?\" Madelia ruft barsch zurück, \"Ich werde eure Arbeit "
+   "überprüfen, wenn ich mit meinem Kunden fertig bin.\""
+barloquetailor_random_014 = de \
+   "~kMadelia schaut kurz auf, als Du durch die Tür kommst, und Du kannst "
+   "eine Andeutung von Tränen in ihren Augen sehen."
+barloquetailor_random_015 = de \
+   "~kMadelia sagt, \"Glaubt nicht alles, was Ihr hört. Obwohl das meiste "
+   "nur durch die Wahrnehmung verminderte Wahrheit ist, ist manchmal die "
+   "vertrauenswürdigste Quelle die unzuverlässigste Information.\""
+barloquetailor_random_016 = de \
+   "~kMadelia sagt, \"Diese Fassade beginnt mich zu ermüden. Der einzige "
+   "Grund, warum ich sie aufrecht erhalte, ist, dass ich der armen Kateriina "
+   "mehr Kummer ersparen will, als sie ohnehin schon trägt.\""
+barloquetailor_random_017 = de \
+   "~kMadelia sagt, \"Gehört Ihr einer Gilde an? Frular, der Gildenmeister, "
+   "ist ein ~Isehr guter~I Freund von mir.\""
+barloquetailor_random_018 = de \
+   "~kMadelia sagt, \"Ich finde, dass Frular der bestaussehende Mann des "
+   "Reiches ist. Ihr seid doch nicht zufällig von seiner Frau zu mir "
+   "geschickt worden?\""
+barloquetailor_random_019 = de \
+   "~kMadelia sagt, \"Ach, der liebe Pritchett, er versucht so sehr, in die "
+   "adligen Kreise aufgenommen zu werden. Wenn er doch nur die Sprache von "
+   "Barloque so gut lernen könnte wie ich. Aber wahrhaftig, ich liebe ihn.\""
+barloquetailor_random_020 = de \
+   "~kMadelia sagt, \"Mir graut vor dem Gedanken, nach Tos zurückzukehren. "
+   "Es war eine höchst hässliche Angelegenheit, als ich Frisconar verließ.\""
+barloquetailor_random_021 = de \
+   "~kMadelia sagt, \"Ihre Hoheit verlangt meine volle Aufmerksamkeit für "
+   "dieses Kleid. Ich bitte Euch, verlasst nun meinen Raum.\""
+barloquetailor_random_022 = de \
+   "~kDu hörst mädchenhaftes Kichern aus dem hinteren Raum. Madelia ruft in "
+   "Richtung Tür, \"Ihr solltet da hinten besser fleißig arbeiten.\""
+barloquetailor_trigger_bye = de "ciao"
+barloquetailor_trigger_council = de "ratsmitglied"
+barloquetailor_trigger_councilor = de "ratsmitglied"
+barloquetailor_trigger_duke = de "herzog"
+barloquetailor_trigger_fate = de "schicksal"
+barloquetailor_trigger_god = de "gott"
+barloquetailor_trigger_hello = de "hallo"
+barloquetailor_trigger_insect = de "insekt"
+barloquetailor_trigger_node = de "quelle"
+barloquetailor_trigger_princess = de "prinzessin"
+
+// BarloqueVaultman
+barloquevaultman_speech_001 = de \
+   "~kObert sagt, \"Ihr werdet nirgends eine vornehmere Stadt finden als "
+   "Barloque.\""
+barloquevaultman_speech_002 = de \
+   "~kObert sagt, \"Es besteht keine Veranlassung für mich, etwas von Euch "
+   "zu kaufen. Ich handle mit Lagerraum und was darin verwahrt werden kann.\""
+barloquevaultman_speech_003 = de \
+   "~kObert sagt, \"Stets zu Diensten, %s, gehabt Euch wohl.\""
+barloquevaultman_speech_004 = de \
+   "~kObert sagt, \"Ich danke untertänigst. Einen schönen Tag wünsche ich "
+   "Euch, %s.\""
+barloquevaultman_speech_005 = de \
+   "~kObert sagt, \"Habt Ihr gesehen, wie Cor Noth Barloques Klepsydra mit "
+   "ihrer, kann man sagen, Uhr verhöhnt? Das ist eine Beleidigung unserer "
+   "Intelligenz, würde ich sagen.\""
+barloquevaultman_speech_006 = de \
+   "~kObert sagt, \"Ich frage mich, was der Rat der Fünf zu tun gedenkt. "
+   "Vielleicht weiß es Meidei.\""
+barloquevaultman_speech_007 = de \
+   "~kObert sagt, \"Sicherlich hat sich Kalior einen Feind zu viel gemacht. "
+   "Diesmal haben ihm seine Machenschaften wohl den Weg ins Grab geebnet.\""
+barloquevaultman_speech_008 = de \
+   "~kObert Cair'bre sagt, \"Guten Morgen, %s. Was gibt mir die Ehre Eures "
+   "Besuchs?\""
+barloquevaultman_speech_009 = de \
+   "~kObert Cair'bre sagt, \"Seid gegrüßt und willkommen, %s. Wie geht es "
+   "Euch?\""
+barloquevaultman_speech_010 = de \
+   "~kObert Cair'bre sagt, \"Ich stehe zu Diensten, Euer Gnaden. Für eine "
+   "Gebühr, die Ihr nicht zu hoch finden werdet, werde ich eine Reihe von "
+   "Sachen für Euch verwahren. Ich versichere Euch, dass sie weder "
+   "beschädigt noch gestohlen werden.\""
+barloquevaultman_speech_011 = de \
+   "~kObert sagt, \"Trotz all seiner Schönheit hat sich Jasper zum "
+   "Schlechten gewendet. Ich kann die Berichte kaum glauben, dass das "
+   "aufrührerische Gerede der Rebellen von dort ausgeht.\""
+barloquevaultman_speech_012 = de \
+   "~kObert sagt, \"Viele Jahre ist es her, dass ich die Vermessenheit "
+   "besaß, Marion zu besuchen. Was habt Ihr von den Bauern dort gehört? Es "
+   "muss ihnen gut gehen, da ihre Sommerernte süß und reichlich war.\""
+barloquevaultman_speech_013 = de \
+   "~kObert sagt, \"Gepriesen sei Ihre Königliche Hoheit! Die Prinzessin "
+   "wächst hervorragend in ihre Bestimmung. Ich bete dafür, dass Akardius' "
+   "nichtige Ansprüche auf den Thron ihren Aufstieg nicht behindern.\""
+barloquevaultman_speech_014 = de \
+   "~kObert sagt, \"Es ist nicht meine Sache, die Dinge, die ich in meinen "
+   "Lagerhäusern verwahre, zu verkaufen, denn den wahren Besitzern würde das "
+   "nicht gefallen.\""
+barloquevaultman_speech_015 = de \
+   "~kObert sagt, \"Ihr solltet Artefakte nicht hier lassen, denn ich weiß "
+   "aus erster Hand, dass sie sich nach eigenem Gutdünken fortbewegen. Ihr "
+   "hättet mehr davon, wenn Ihr diese mutwilligen Artefakte dem Rat anbieten "
+   "würdet.\""
+barloquevaultman_speech_016 = de \
+   "~kObert sagt, \"Schande über Tos! In längst vergangenen Zeiten zogen wir "
+   "einst gegen diese Stadt. Unsere Waffen stecken jetzt nutzlos in ihren "
+   "Scheiden, doch der Stachel der Beleidigung sitzt noch tief.\""
+barloquevaultman_random_001 = de \
+   "~kObert sagt, \"Habt Ihr schon gehört, die Kanalisation hüben zu "
+   "Barloque und die Kanalisation drüben zu Jasper treffen in der "
+   "unangenehmsten Art aufeinander. Es heißt, eine große Gefahr liege "
+   "dazwischen.\""
+barloquevaultman_random_002 = de \
+   "~kObert sagt, \"Es heißt, dass ein Mann, der sowohl ein Schurke als auch "
+   "ein Schwein ist, in unserer Kanalisation lebt. Ich frage Euch, was hat "
+   "überhaupt ein Mann unter dem Kopfsteinpflaster dieser schönen Stadt zu "
+   "suchen?\""
+barloquevaultman_random_003 = de \
+   "~kObert sagt, \"Ich flehe Euch an, begebt Euch nach Schloss Bourgeois "
+   "und leistet der Prinzessin den Treueid.\""
+barloquevaultman_random_004 = de \
+   "~kObert sagt, \"Ach, der arme Pritchett versucht ungeschickt, sich als "
+   "Einheimischer von Barloque auszugeben. Vielleicht sollte jemand dem "
+   "Buben beibringen, wie man richtig spricht. Seine Zunge bringt Wörter "
+   "hervor, die keinen Sinn ergeben.\""
+barloquevaultman_random_005 = de \
+   "~kObert sagt, \"Wenn Ihr eine Bank braucht, um Eure Schillinge zu "
+   "verwahren, würde ich Euch empfehlen, zur Ersten Königlichen Bank von "
+   "Jasper zu reisen.\""
+barloquevaultman_random_006 = de \
+   "~kObert sagt, \"Ich glaube, Ihr könntet die interessantesten Dinge "
+   "versteckt in den Schränken der Ladenbesitzer finden. Sie trennen sich "
+   "vielleicht davon, wenn man im Gegenzug einen Gefallen erweist.\""
+barloquevaultman_random_007 = de \
+   "~kObert sagt, \"Es stimmt, mir gehören alle Lagerhäuser. Ach ja, bis auf "
+   "eines. Die Gildenhalle auf der westlichen Seite. Das ist ein rüpelhafter "
+   "Haufen, und es ist sehr unwahrscheinlich, dass sie ihren Raum an mich "
+   "oder irgendjemand anders abgeben.\""
+barloquevaultman_random_008 = de \
+   "~kObert sagt, \"Was soll das bedeuten! Was ist los?\""
+barloquevaultman_random_009 = de \
+   "~kObert sagt, \"Sieh an! Wo habt Ihr denn diesen ganzen Kram gefunden, "
+   "den ich für Euch aufbewahren soll?\""
+barloquevaultman_random_010 = de \
+   "~kObert sagt, \"Es ist wirklich gut, dass ich fast alle Lagerhäuser von "
+   "Barloque besitze, denn sie füllen sich schnell mit allem, was edle Leute "
+   "wie Ihr verwahren möchten.\""
+barloquevaultman_random_011 = de \
+   "~kStöhnend schiebt Obert eine schwere Kiste zur Hintertür."
+barloquevaultman_random_012 = de \
+   "~kObert packt eine Kiste mit Waren und zeichnet sie mit einer Nummer aus."
+barloquevaultman_random_013 = de \
+   "~kObert sagt, \"Da seit über zwanzig Jahren kein einziges Schiff im "
+   "Hafen lag, fiel es mir leicht, diese ungenutzten Lagerhäuser zu "
+   "bekommen. Und das hat sich als sehr klug von mir erwiesen, denn jetzt "
+   "kommen fast alle zu mir, um mit den Sachen, die sie gesammelt haben, "
+   "meine Gebäude zu füllen.\""
+barloquevaultman_random_014 = de \
+   "~kObert sagt, \"Meine Kinder sind in so wenigen Jahren so sehr "
+   "gewachsen. Wie geht es Eurer Familie?\""
+barloquevaultman_random_015 = de \
+   "~kObert sagt, \"Ich bitte Euch, nehmt Euch an diesen Docks in Acht. Auch "
+   "eine solch prächtige Stadt wie Barloque hat ihre schlechten Seiten.\""
+barloquevaultman_random_016 = de \
+   "~kObert sagt, \"Es scheint, als werde der Herzog die Krone nicht "
+   "erlangen. Das Land wird neue Wirren erleben, wenn ein anderer "
+   "Thronanwärter versucht, den Thron an sich zu reißen.\""
+barloquevaultman_random_017 = de \
+   "~kObert sagt, \"Ich bin sehr beschäftigt, wie Ihr sehen könnt. Erledigt "
+   "Eure Sache schnell.\""
+barloquevaultman_random_018 = de \
+   "~kDer Geruch von Fisch hängt schwer in der Luft."
+barloquevaultman_trigger_sell = de "verkauf"
+barloquevaultman_trigger_bye = de "ciao"
+barloquevaultman_trigger_council = de "ratsmitglied"
+barloquevaultman_trigger_duke = de "herzog"
+barloquevaultman_trigger_hello = de "hallo"
+barloquevaultman_trigger_help = de "hilfe"
+barloquevaultman_trigger_princess = de "prinzessin"
+barloquevaultman_trigger_buy = de "kaufen"
+barloquevaultman_trigger_tokens = de "artefakt"
+
+// GuildCreator
+guildcreator_speech_001 = de \
+   "~kFrular sagt, \"Barloque beherbergt eine meiner Lieblingshallen. Die "
+   "Halle der Entdecker liegt um die östliche Ecke hier in Süd-Barloque.\""
+guildcreator_speech_002 = de \
+   "~kFrular sagt, \"Ich habe es nicht nötig, von Hausierern zu kaufen.\""
+guildcreator_speech_003 = de "~kFrular sagt, \"Gehabt Euch wohl.\""
+guildcreator_speech_004 = de \
+   "~kFrular sagt, \"Es war König Zarcos IV, der forderte, dass die Tempel "
+   "der Priester nicht innerhalb der Stadtmauern stehen dürften. Ich konnte "
+   "es nicht zulassen, dass der verlassene Tempel der Shal'ille mitten in "
+   "Cor Noth verfällt. Er gibt eine schöne Gildenhalle ab.\""
+guildcreator_speech_005 = de \
+   "~kFrular sagt, \"Mit meinen eingetragenen Gilden habe ich mehr als genug "
+   "Politik am Hals, und die Staatsaffären des Rates kümmern mich wahrlich "
+   "nicht.\""
+guildcreator_speech_006 = de \
+   "~kFrular sagt, \"Sogar unter Akardius sind meine Hallen vor "
+   "Durchsuchungen und Pfändungen sicher.\""
+guildcreator_speech_007 = de "~kFrular sagt, \"Seid gegrüßt, %s!\""
+guildcreator_speech_008 = de \
+   "~kFrular sagt, \"Wenn Ihr wünscht, Eure Gilde amtlich zu machen, dann "
+   "solltet Ihr einen Titel von mir kaufen. Ich verwahre die Aufzeichnungen "
+   "über die Gildenhallen.\""
+guildcreator_speech_009 = de \
+   "~kFrular sagt, \"Jaarba litt an einer starken Paranoia. Bevor die "
+   "Krankheit von ihm Besitz ergriff, beherbergte er eine kleine Gruppe von "
+   "Rebellen in seinem Haus. Sein Wohnsitz mit seinem Grundriss, der an "
+   "einen Irrgarten erinnert, ist ganz einmalig.\""
+guildcreator_speech_010 = de \
+   "~kFrular sagt, \"Es gibt keine merkwürdigere Stadt als jenes Jasper dort "
+   "drüben. Was für Geschichten könnte ich Euch von Jaarbas Wohnsitz und "
+   "Wryns Feste erzählen!\""
+guildcreator_speech_011 = de \
+   "~kFrular sagt, \"Ich habe keine Pachten in Marion. Dort duldet man den "
+   "Ärger nicht, den Gilden mit sich bringen.\""
+guildcreator_speech_012 = de \
+   "~kFrular sagt, \"Heil der Prinzessin. Ihrer Gnade ist es zu verdanken, "
+   "dass ich diese Hallen verpachten kann. Doch um ehrlich zu sein, belegt "
+   "mich die Prinzessin mit zu hohen Steuern.\""
+guildcreator_speech_013 = de \
+   "~kFrular sagt, \"Ich vermiete die schönsten Gildenhallen im ganzen "
+   "Land.\""
+guildcreator_speech_014 = de \
+   "~kFrular sagt, \"Über Jahrhunderte stand Konimas Zuflucht in Tos leer "
+   "und wartete auf die Rückkehr des Helden. Mir wurde die Pacht dieses "
+   "Besitzes nur mit der Klausel gewährt, dass das Gebäude sofort geräumt "
+   "und ihm die Schlüssel übergeben werden, sollte Konima selbst es "
+   "zurückfordern.\""
+guildcreator_speech_015 = de \
+   "~kFrular sagt, \"In früheren Tagen strebte der Bürgermeister von Jasper "
+   "danach, sich von der Landeshoheit der Krone zu befreien. Er ließ eine "
+   "große Feste in den Südminen graben, einen perfekten Palast, um sich im "
+   "Falle einer Belagerung darin zu verschanzen. Es kam zu keinem Krieg. Der "
+   "König wusste, dass der Bürgermeister seinen Eifer irgendwann verlieren "
+   "würde, wenn das Gold in den Minen erschöpft wäre. Ich fand die Pacht von "
+   "der Stadt recht vernünftig.\""
+guildcreator_random_001 = de \
+   "~kFrular sagt, \"Ich bin es leid, mich mit flügge werdenden Gilden "
+   "abzugeben, die nur wenig vorhaben. Ich sag Euch die Wahrheit, ich habe "
+   "schon mehr als einen Freibrief aufgehoben.\""
+guildcreator_random_002 = de \
+   "~kFrular sagt, \"Es gibt viele Arten, wie man in den Besitz der Halle "
+   "einer anderen Gilde kommt. Aber Ihr müsst wahrlich geduldig, schlau und "
+   "entschlossen sein. So viele glauben, sie besäßen diese Talente, aber nur "
+   "die Besten sind erfolgreich.\""
+guildcreator_random_003 = de \
+   "~kFrular sagt, \"Seid vorsichtig, wen Ihr fragt, Eurer Gilde "
+   "beizutreten. Ich habe viele Geschichten über neue Mitglieder gehört, die "
+   "die alten an Zahl übertrafen und den Meister zugunsten eines der ihren "
+   "absetzten.\""
+guildcreator_random_004 = de \
+   "~kFrular sagt, \"Ein trauriger Anblick sind jene einsamen Männer, die "
+   "fest daran glauben, sie könnten allein die Welt erobern. Ein Mann, der "
+   "keine Verbündeten hat, kommt kein bisschen voran.\""
+guildcreator_random_005 = de \
+   "~kFrular sagt, \"Jene Kugel ist für die etablierten Gildenmeister, um "
+   "ihren Freibrief auszuhängen oder um neue Mitglieder zu werben.\""
+guildcreator_random_006 = de \
+   "~kFrular sagt, \"Vielleicht würden viele Gildenhallen gut angenommen "
+   "werden. Ich empfinde jedoch Vertragsbrüche und Täuschungsmanöver als das "
+   "interessantere Schauspiel.\""
+guildcreator_random_007 = de \
+   "~kFrular sagt, \"Es kümmert mich nicht, wie eine Gilde in den Besitz "
+   "meiner Hallen kommt, solange sie so freundlich ist, die Pacht zu "
+   "zahlen.\""
+guildcreator_random_008 = de \
+   "~kFrular sagt, \"Wie unbeständig sind die Gaben der Freundschaft. "
+   "Freunde können Euch einerseits stärker, andererseits aber auch "
+   "verwundbarer machen.\""
+guildcreator_random_009 = de \
+   "~kFrular sagt, \"Das ist eine traurige Gilde, die nur ein oder zwei "
+   "Mitglieder hat. Wahrlich, ich werde mit ihnen keinen Handel treiben und "
+   "mich bemühen, ihnen den Freibrief zu entziehen.\""
+guildcreator_random_010 = de \
+   "~kFrular sagt, \"Lasst mich Euch mit gedämpfter Stimme sagen, ~I ich "
+   "glaube, dass dieser Geck Herbut seine Mußestunden damit verbringt, an "
+   "jener Wand zu lauschen.\""
+guildcreator_random_011 = de \
+   "~kFrular sagt, \"Hm. Mein Buch zeigt mir einen Fehler im Freibrief einer "
+   "bestimmten Gilde. Ich bin beinahe entschlossen, ihn ihnen zu entziehen.\""
+guildcreator_random_012 = de \
+   "~kDurch die Westmauer kannst Du den gedämpften Klang von jemandem hören, "
+   "der schreit. Du bekommst nicht ganz mit, was gesagt wird."
+guildcreator_random_013 = de \
+   "~kFrular blättert durch sein Buch und überprüft beiläufig, ob die "
+   "Freibriefe der Gilden in Ordnung sind."
+guildcreator_random_014 = de \
+   "~kAuf dem Boden hinter Frular kannst Du eine Spule mit einem feinen "
+   "goldenen Faden erkennen."
+guildcreator_random_015 = de \
+   "~kFrular sagt, \"Mein Lieblingsgildenhaus trägt den Namen Gildenhaus der "
+   "Buchmacher. Würde die dort ansässige Gilde auch nur mit einem halben "
+   "Knatgehirn geführt, könnte sie Schillinge in Massen verdienen, indem sie "
+   "ihre Türen der Öffentlichkeit öffnet.\""
+guildcreator_random_016 = de \
+   "~kFrular sagt, \"Im Schloss werdet Ihr die schöne Madelia antreffen. Ich "
+   "halte sie für süß und anschmiegsam. Sie ist eine höchst unterhaltsame "
+   "Gastgeberin. Ich beschwöre Euch, sprecht mit meiner Frau nicht über "
+   "diese Worte.\""
+guildcreator_random_017 = de \
+   "~kFrular sagt, \"Vielleicht sollte ich mich zur Ruhe setzen und diese "
+   "Stadt für mich selbst kaufen und Cor Noth für die schöne Madelia ... Was "
+   "denn! Wie lange steht Ihr schon hier?\""
+guildcreator_random_018 = de \
+   "~kFrular sagt, \"Kann das Leben noch besser werden, als es jetzt ist? "
+   "Massenhaft Gilden und meine Gewinne türmen sich bis in den Himmel.\""
+guildcreator_random_019 = de \
+   "~kFrular sagt, \"Ich habe es satt, mich mit den kleinen Zankereien "
+   "dieser Gilden zu befassen. Ich profitiere zwar von ihren Streitereien, "
+   "aber die Schmerzen, die meine Ohren erleiden müssen, wenn sie wie Kinder "
+   "weinen, sind das Geld möglicherweise am Ende nicht wert.\""
+guildcreator_random_020 = de \
+   "~kFrular sagt, \"Ich bin ein sehr beschäftigter Mann. Setzt Euch hin und "
+   "wartet oder kommt später noch einmal zurück.\""
+guildcreator_trigger_sell = de "verkauf"
+guildcreator_trigger_bye = de "ciao"
+guildcreator_trigger_council = de "ratsmitglied"
+guildcreator_trigger_duke = de "herzog"
+guildcreator_trigger_hello = de "hallo"
+guildcreator_trigger_help = de "hilfe"
+guildcreator_trigger_princess = de "prinzessin"
+guildcreator_trigger_buy = de "kaufen"
+
+// PrincessGuard
+princessguard_speech_001 = de \
+   "~kDie königliche Wache sagt, \"Barloque ist eine wirklich feine Stadt.\""
+princessguard_speech_002 = de \
+   "~kDie königliche Wache sagt, \"Mögen die Pocken Burg Schwarzstein "
+   "heimsuchen.\""
+princessguard_speech_003 = de \
+   "~kDie königliche Wache sagt, \"Cor Noth befindet sich an der Kreuzung "
+   "der Straßen zwischen den Städten.\""
+princessguard_speech_004 = de \
+   "~kDie königliche Wache sagt, \"Gepriesen sei der Rat der Weisen!\""
+princessguard_speech_005 = de \
+   "~kDie königliche Wache sagt, \"Jasper liegt im Südwesten.\""
+princessguard_speech_006 = de \
+   "~kDie königliche Wache sagt, \"Marion liegt im Westen.\""
+princessguard_speech_007 = de \
+   "~kDie königliche Wache sagt, \"Lang lebe die Prinzessin!\""
+princessguard_speech_008 = de \
+   "~kDie königliche Wache sagt, \"Das armselige Tos liegt jenseits des "
+   "Ödlandes.\""
+princessguard_trigger_blackstone = de "schwarzstein"
+princessguard_trigger_council = de "ratsmitglied"
+princessguard_trigger_princess = de "prinzessin"

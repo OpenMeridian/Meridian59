@@ -1,0 +1,137 @@
+// JixaBlacksmith
+jixablacksmith_speech_001 = de \
+   "~kJixa Schmied stammelt, \"R-R-Roderick? Warum ist er nicht selbst "
+   "gekommen, um mit mir zu reden?\""
+jixablacksmith_random_001 = de \
+   "~kJixa Schmied sagt, \"Ich sollte mit ihm nach Berg gehen, aber was "
+   "würde ~Isie~I denken?!\""
+jixablacksmith_random_002 = de \
+   "~kJixa Schmied stammelt, \"Halb Mensch? Halb Stier? Nein danke, so einen "
+   "will ich nie sehen!\""
+jixablacksmith_random_003 = de \
+   "~kJixa Schmied brummt, \"Wenn... d-Du jetzt gehst, bekommst Du nichts.\""
+jixablacksmith_random_004 = de \
+   "~kJixa Schmied sagt, \"Ich bin bereit, es noch einmal zu versuchen, wenn "
+   "Du es bist?\""
+jixablacksmith_random_005 = de \
+   "~kJixa Schmied sagt, \"Da ist etwas, das ich mir von der Seele reden "
+   "muss.\""
+jixablacksmith_random_006 = de \
+   "~kJixa Schmied sagt, \"Denkst Du manchmal, wir sollten einfach damit "
+   "aufhören?\""
+jixablacksmith_random_007 = de \
+   "~kJixa Schmied sagt, \"W-wie lange stehst Du schon da?\""
+jixablacksmith_random_008 = de \
+   "~kJixa Schmied sagt, \"Findest Du mich schon weise?\""
+jixablacksmith_random_009 = de \
+   "~kJixa Schmied sagt, \"Die Soldaten von Berg gelten als die besten der "
+   "Welt.\""
+jixablacksmith_random_010 = de \
+   "~kJixa Schmied sagt, \"Jala hatte einen Geliebten... das war Faren, "
+   "oder?\""
+jixablacksmith_random_011 = de \
+   "~kJixa Schmied sagt, \"Die Elementare entstanden aus der Liebe Jalas.\""
+jixablacksmith_random_012 = de \
+   "~kJixa Schmied sagt, \"Weder tot noch lebendig, einfach nur weggesperrte "
+   "Werkzeuge.\""
+jixablacksmith_random_013 = de \
+   "~kJixa Schmied sagt, \"Sie... weggesperrt, dienen nur ihren Meistern.\""
+jixablacksmith_random_014 = de \
+   "~kJixa Schmied sagt, \"Hast Du den Toten die letzte Ehre erwiesen?\""
+jixablacksmith_random_015 = de \
+   "~kJixa Schmied sagt, \"Traurigkeit führt oft zu einer Wahrheit...\""
+jixablacksmith_random_016 = de \
+   "~kJixa Schmied sagt, \"Barden spielen einfach irgendwas, ohne jede Sorge "
+   "auf der Welt.\""
+
+// JixaDyeM
+jixadyem_speech_001 = de \
+   "~kRosaline Marinus sagt, \"Ich sollte dir einen Farbstoff machen können. "
+   "Ich brauche nur das Herz eines Xeochicatl.\""
+jixadyem_random_001 = de \
+   "~kRosaline Marinus sagt, \"Mein Vater war ein großer Mann. Ich wünschte, "
+   "er wäre noch hier, um die Lande wiedervereint zu sehen.\""
+jixadyem_random_002 = de \
+   "~kRosaline Marinus sagt, \"Wenn du Tylo siehst, versuch bitte, ihn "
+   "aufzumuntern ... er wirkt in letzter Zeit etwas niedergeschlagen.\""
+jixadyem_random_003 = de \
+   "~kRosaline Marinus sagt, \"Ich habe gehört, Tylo und Roderick waren "
+   "einst enge Freunde. Wer weiß, was zwischen ihnen vorgefallen ist?\""
+jixadyem_random_004 = de \
+   "~kRosaline Marinus sagt, \"Ich würde Jorgan nicht trauen. Ständig sehe "
+   "ich zwielichtige Gestalten in seiner Bar ein und aus gehen.\""
+jixadyem_random_005 = de \
+   "~kRosaline Marinus sagt, \"Alle scheinen Jorgan zu lieben, aber ich habe "
+   "das Gefühl, dass er nichts Gutes im Schilde führt.\""
+jixadyem_random_006 = de \
+   "~kRosaline Marinus sagt, \"Glaubst du an Geister? Man sagt, in Berg "
+   "könnten die Geister unserer Vorfahren umgehen.\""
+jixadyem_random_007 = de \
+   "~kRosaline Marinus sagt, \"Jixa ist auch als die Stadt der Kunst "
+   "bekannt. Wir sind Jalas Kinder.\""
+jixadyem_random_008 = de \
+   "~kRosaline Marinus sagt, \"Sobald ich einen Fuß in Berg setze, spüre "
+   "ich, wie schwer das Mana in der Luft liegt.\""
+jixadyem_random_009 = de \
+   "~kRosaline Marinus sagt, \"Trau niemandem. In diesen Landen gibt es viel "
+   "zu viele Schurken.\""
+jixadyem_trigger_dye = de "farbe"
+jixadyem_trigger_dye_2 = de "farbstoff"
+
+// JixaInnkeeper
+jixainnkeeper_speech_001 = de \
+   "~kJorgan Yesjor sagt, \"Schau, hier machen wir die Dinge ein bisschen "
+   "anders, okay?\""
+jixainnkeeper_random_001 = de \
+   "~kJorgan Yesjor sagt, \"Eine Diebesgilde? Pah, lächerlich!\""
+jixainnkeeper_random_002 = de \
+   "~kJorgan Yesjor sagt, \"Ich schwöre dir – der Typ war ein völlig "
+   "Fremder, ist einfach auf mich zugekommen und hat mir die Tasche "
+   "gegeben.\""
+jixainnkeeper_random_003 = de \
+   "~kJorgan Yesjor prahlt, \"Darum nennt man mich schließlich einen "
+   "SCHAUSPIELER!\""
+jixainnkeeper_random_004 = de \
+   "~kJorgan Yesjor flüstert, \"Hast du ein Paket für mich?\""
+jixainnkeeper_random_005 = de \
+   "~kJorgan Yesjor ruft, \"Ich hätte diese Banditen besiegt, wenn Jalas "
+   "Lied nicht gewesen wäre!\""
+jixainnkeeper_random_006 = de \
+   "~kJorgan Yesjor flüstert, \"Wenn wir beide bei der Geschichte bleiben, "
+   "können sie nichts beweisen.\""
+jixainnkeeper_random_007 = de \
+   "~kJorgan Yesjor sagt, \"Ich will doch nur ein schönes, bequemes Leben. "
+   "Ist das so falsch?\""
+jixainnkeeper_random_008 = de \
+   "~kJorgan Yesjor sagt, \"Getränke, Getränke und noch mehr Getränke! Ha "
+   "HA!\""
+jixainnkeeper_random_009 = de \
+   "~kJorgan Yesjor sagt, \"Wer würde einen Kampf gewinnen, ein Stachelbiest "
+   "oder ein Nyrphling?\""
+jixainnkeeper_random_010 = de \
+   "~kJorgan Yesjor sagt, \"Hey ho, ins Sumpfland musst du gehen!\""
+jixainnkeeper_random_011 = de \
+   "~kJorgan Yesjor sagt, \"Hat jemand ein paar Trüffel?\""
+jixainnkeeper_random_012 = de \
+   "~kJorgan Yesjor sagt, \"Viele wollen mit Jixa Handel treiben. Ich sage, "
+   "alle sind in unserem Reich willkommen!\""
+jixainnkeeper_trigger_bandits = de "banditen"
+
+// SwampTree
+swamptree_random_001 = de \
+   "~kXoenta Baum flüstert, \"Im Palast von Berg spukt es, weißt du.\""
+swamptree_random_002 = de \
+   "~kXoenta Baum flüstert, \"Wenn du genau zuhörst, kannst du Stimmen in "
+   "der Luft hören. Es sind die der Hakka, des Schlangenstamms.\""
+swamptree_random_003 = de \
+   "~kXoenta Baum flüstert, \"Ohne die harmonische Balance von allen Seiten "
+   "wirst du nicht auf die andere Seite gelangen können.\""
+swamptree_random_004 = de \
+   "~kXoenta Baum flüstert, \"Es waren sieben von ihnen, sie gehörten zu den "
+   "Hakka.\""
+swamptree_random_005 = de \
+   "~kXoenta Baum flüstert, \"Großes Übel liegt dort unten, auch wenn du es "
+   "vielleicht nicht weißt.\""
+swamptree_random_006 = de \
+   "~kXoenta Baum flüstert, \"Ich kann die Geister hören, sie warten auf ein "
+   "Prisma.\""

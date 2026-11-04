@@ -1,0 +1,3468 @@
+// Meridian 59, Copyright 1994-2012 Andrew Kirmse and Chris Kirmse.
+// All rights reserved.
+//
+// This software is distributed under a license that is described in
+// the LICENSE file that accompanies it.
+//
+// Meridian is a registered trademark.
+
+
+////////////////////////////////////////////////////////////////////////////////
+NpcSpeechJasper is NpcSpeech
+// NPC talk of Jasper:
+// answers to trigger words and random lines.
+// Each line is a resource (EN here, DE in the .lkod); Library adds the
+// lists in CreateSpeechLibrary and CreateRandomLibrary.
+
+constants:
+
+   include blakston.khd
+
+resources:
+
+   include npcspjasper.lkod
+
+   // JasperBanker (Yevitan)
+   jasperbanker_speech_001 = \
+      "~kYevitan says, \"You may want to see Jonas about that.\""
+   jasperbanker_speech_002 = \
+      "~kYevitan says, \"Ah, yes, Barloque was my home for many years while "
+      "I was in service to the King. At one point it was the seat of "
+      "imperial power in Meridian, though now a ghost of a city sits in its "
+      "place. Ghostly remnants. It's no longer the center of anything, "
+      "except Meridian's own sewer system.\""
+   jasperbanker_speech_003 = \
+      "~kYevitan says, \"I lived for years in Barloque, but now I'm happy to "
+      "be back among my people here. Never really felt that I fit in there, "
+      "that I belonged to the place. Perhaps it is the way that they speak "
+      "there, they have a strange way of speaking, you know, elitist. In any "
+      "event, it isn't very welcoming.\""
+   jasperbanker_speech_004 = \
+      "~kYevitan says, \"'Tis a gilded cage, that forsaken city. A velvet "
+      "prison tended by a gang of thieves and in-bred imbeciles, where sense "
+      "is a liability and an honest opinion is dangerous to those that "
+      "express it. Be gone now, I'll say no more. I am weary of you.\""
+   jasperbanker_speech_005 = \
+      "~kYevitan says, \"Tell me, is this something that you have the "
+      "dedication to pursue? Is this something that you have talked over "
+      "with Zuxana? You must be very careful where you tread in these "
+      "matters.\""
+   jasperbanker_speech_006 = "~kYevitan says, \"Good bye.\""
+   jasperbanker_speech_007 = \
+      "~kYevitan says, \"To tell you the truth, I never go there for any "
+      "reason, but the reasons are entirely personal. You see, I cannot go "
+      "to Cor Noth without running into that little rodent Parrin Aragone, a "
+      "man I have never been able to tolerate in any amount.\""
+   jasperbanker_speech_008 = \
+      "~kYevitan says, \"To be honest, I never go there. But that is a "
+      "personal matter.\""
+   jasperbanker_speech_009 = \
+      "~kYevitan says, \"Well, not my favorite city personally.\""
+   jasperbanker_speech_010 = \
+      "~kYevitan says, \"What about it? You are irritating me with your "
+      "inane questions.\""
+   jasperbanker_speech_011 = "~kYevitan says, \"Impotent old men.\""
+   jasperbanker_speech_012 = \
+      "~kYevitan says, \"Sort of an interim government, I suppose.\""
+   jasperbanker_speech_013 = \
+      "~kYevitan says, \"What now? Council? Go on, knave, out!\""
+   jasperbanker_speech_014 = \
+      "~kYevitan says, \"Ah, yes, the great battle of Denthan Crossing. It "
+      "is a turning point in our history; that is the history of the Jasper "
+      "people, for it marks the end of our independence when the Wryn's army "
+      "was defeated there by the forces of Zarcos II. But true to the spirit "
+      "of the Jasper people, it also marked the end of Zarcos II. My people "
+      "saw to that. He never left that field.\""
+   jasperbanker_speech_015 = \
+      "~kYevitan says, \"Ah, yes, the great battle of Denthan. It was a "
+      "turning point in our history. \""
+   jasperbanker_speech_016 = \
+      "~kYevitan says, \"You want to talk about that no good, self "
+      "aggrandizing, pompous fool? That man is no more concerned for this "
+      "land and its citizens than you or I concern ourselves with the fate "
+      "of another baby spider, one way or the other. Well, he'll never be a "
+      "King, that's certain. And if the issue is ever in doubt I'll see to "
+      "it myself, by the gods I will. If that day comes, I'll take care of "
+      "him myself... \""
+   jasperbanker_speech_017 = \
+      "~kYevitan says, \"Yea. What about the inane little dribbler?\""
+   jasperbanker_speech_018 = \
+      "~kYevitan snarls, \"What?  I don't owe anything to that little Riija "
+      "puppy.  I've paid my debt to his Uncle, and I have the records to "
+      "prove it too.\""
+   jasperbanker_speech_019 = \
+      "~kYevitan says, \"There are many in this kingdom with a critical eye "
+      "on Frular of Barloque. And I will not stand here and say that this is "
+      "unwarranted. But say what you will about him, he is a genius at "
+      "making investments that in turn make money. Genius. I have never seen "
+      "the like of the man, even Bei Naq on his best day, which was of "
+      "course years before you were even born... \""
+   jasperbanker_speech_020 = \
+      "~kYevitan says, \"Yes, the Baron of Cor Noth or some such claptrap. "
+      "Another of many within the Royal Court with nothing to do but "
+      "exercise their boredom in public. Their time will come, though, you "
+      "will see.\""
+   jasperbanker_speech_021 = \
+      "~kYevitan says, \"Yes? What is it that I can do for you?\""
+   jasperbanker_speech_022 = \
+      "~kYevitan says, \"Herbutte? That pompous boob. The Royal Court is "
+      "full of his like, pretentious toadies squirming past each other for "
+      "table scraps. And I should know, because for all my years at Court, "
+      "all of my dedicated service to His Majesty Zarcos V, it was people "
+      "like this Herbutte who always made it a point to remind me that after "
+      "all I was only from Jasper. ~IOnly~I from Jasper and therefore only "
+      "fit for a temporary position among the so-called elite.\""
+   jasperbanker_speech_023 = \
+      "~kYevitan says, \"Well, it is a curious place to the outsider. . . "
+      "but it is a place of great potential. Huh? Great ~Ipotential~I. A "
+      "tougher people do not exist anywhere. Or a more loyal people. And "
+      "loyalty means everything in this world, with all its twists and "
+      "turns, and twisting around. These people are coming out of the "
+      "mountains, and defining the political future of this land.\""
+   jasperbanker_speech_024 = \
+      "~kYevitan says, \"Haven't seen the man in years. Oh, must be ten "
+      "years now at least. He was always a bit, you know, affected.\""
+   jasperbanker_speech_025 = \
+      "~kYevitan says, \"Ah, as fine a man as I've ever had the pleasure of "
+      "meeting.  Strong willed, sound of mind, and with such a glorious "
+      "vision.  He has my full support.\""
+   jasperbanker_speech_026 = \
+      "~kYevitan says, \"Now that's a new system since my time at Court. But "
+      "what a laugh. A toothless position of no authority, open to the "
+      "highest bidder. That's our justice? Oh, okay then... \""
+   jasperbanker_speech_027 = \
+      "~kYevitan says, \"Well, understand that he is a very old friend, "
+      "regardless of how he was as a ruler for this kingdom. He wasn't "
+      "particularly well suited to be King ever, too sensitive, too "
+      "vulnerable. He is in a safe place now. You realize he'd better be, "
+      "for if he shows his face he is a dead man. There are powerful people "
+      "in this land who cannot afford to have him making unexpected "
+      "appearances.\""
+   jasperbanker_speech_028 = \
+      "~kYevitan says, \"The King is in hiding. Exiled, hiding, whatever you "
+      "choose to call it. But you would know that already, for that news is "
+      "common knowledge.\""
+   jasperbanker_speech_029 = \
+      "~kYevitan says, \"Are you asking me where the King is? Is that what "
+      "you want to know? Bah! Even if I knew what makes you think I would "
+      "tell you? Take thee away, fool. I haven't the energy for you and your "
+      "prattle.\""
+   jasperbanker_speech_030 = \
+      "~kYevitan says, \"Lady Aftyn is a loyal friend to Zarcos, and I must "
+      "say that despite her beliefs a friend of my ally is a friend to me. I "
+      "am watching her carefully.\""
+   jasperbanker_speech_031 = \
+      "~kYevitan says, \"Marion plays a key role in the political landscape "
+      "of Meridian, although you would never guess it by judging its sleepy "
+      "appearance. Marion is a royalist stronghold, loyal to the King.\""
+   jasperbanker_speech_032 = \
+      "~kYevitan says, \"A very modest region, with rather modest ambition "
+      "and means.\""
+   jasperbanker_speech_033 = \
+      "~kYevitan says, \"What? Marion? Why do you waste my time with your "
+      "incessant chatter? I'm just trying to run a bank here.\""
+   jasperbanker_speech_034 = \
+      "~kYevitan says, \"Strange fellow. Heard that he's become possessed by "
+      "some fever of religious fanaticism. In the years that I knew him "
+      "well, he served drinks and kept abreast of the local gossip. Tipped a "
+      "few glasses back himself, as well. And now he has found Shal'ille? "
+      "Well that should tell you something.\""
+   jasperbanker_speech_035 = \
+      "~kYevitan says, \"Master Cair'bre is a most upstanding gentleman, and "
+      "a personal friend of mine for some years. I would trust my every "
+      "possession to his care without any hesitation, regardless of its "
+      "value.\""
+   jasperbanker_speech_036 = \
+      "~kYevitan says, \"Although she has many endearing qualities, I can "
+      "tell you with confidence that the quality of leadership is not among "
+      "them. Certainly royalty has its place in this kingdom, but I insist "
+      "that we are ready for more dynamic leadership. I suggest this in your "
+      "utmost confidence, but when the time comes for an army to march down "
+      "from these hills to instill a new King or Queen to the throne, where "
+      "will you be, my friend?\""
+   jasperbanker_speech_037 = \
+      "~kYevitan says, \"Most courteous and understanding, qualities that "
+      "she inherited from her late mother, the late Queen Katria.\""
+   jasperbanker_speech_038 = \
+      "~kYevitan says, \"A nice girl, but a girl is all she is.  She'll "
+      "never have the spine nor the wit to make a competent ruler.\""
+   jasperbanker_speech_039 = \
+      "~kYevitan says, \"There are reasons that all of our gods occupy the "
+      "positions that they do. If you wish to find out more about Qor, I "
+      "suggest that you seek out the Priestess Zuxana. She will instruct you "
+      "as to where to begin your education.\""
+   jasperbanker_speech_040 = \
+      "~kYevitan says, \"Well... Tos is a rather old fashioned city with a "
+      "rather fashionable political climate, if you know what I mean. The "
+      "people of Tos are more concerned with the appearance of taking action "
+      "than they are with actually taking action themselves, or with the "
+      "consequences. It's a simple place, really. Full of... well, "
+      "simpletons.\""
+   jasperbanker_speech_041 = \
+      "~kYevitan says, \"Hmmm? Tos? It was alive and well last time I passed "
+      "through the gates.\""
+   jasperbanker_speech_042 = \
+      "~kYevitan says, \"You ask too many questions for your own good.\""
+   jasperbanker_speech_043 = \
+      "~kYevitan says, \"A remarkable man... not what he appears, I assure "
+      "you.\""
+   jasperbanker_speech_044 = \
+      "~kYevitan says, \"Troll whiskey? Listen to me and listen good, you'd "
+      "better just get right on out of here before there's trouble.\""
+   jasperbanker_speech_045 = "~kYevitan looks at you very closely."
+   jasperbanker_speech_046 = \
+      "~kYevitan says, \"She is a mystery. An immensely powerful mystery. "
+      "For what moves Qor and her servants? That is a question I fear that "
+      "no one can answer.\""
+   jasperbanker_random_001 = \
+      "~kYevitan says, \"An old man learns ways to survive, or he doesn't "
+      "ever become an old man at all. If you need to get away with murder, "
+      "and sooner or later everybody does, it's a good idea that nobody sees "
+      "you. I know a trick for that. But it's Qor magic, and you need to "
+      "have some understanding of The Deceiver to use it.\""
+   jasperbanker_random_002 = \
+      "~kYevitan says, \"You will find that everybody knows a different side "
+      "of the story. To the shrewd political operative all of this "
+      "information is important, provided that you catalogue it for future "
+      "use. The key, my friend, is how you ask and the mood of the person to "
+      "whom you inquire. And, naturally, whatever you can do to improve that "
+      "mood is of paramount importance... \""
+   jasperbanker_random_003 = \
+      "~kYevitan says, \"All of this political turmoil between the Duke "
+      "Kalior and the young Princess seems to have a lot of citizens upset. "
+      "And rightfully so! People need a proper government, that they can "
+      "look up to, admire, and respect.  Just like what Jonas and I are "
+      "trying to bring to the land now.\""
+   jasperbanker_random_004 = \
+      "~kYevitan says, \"It's an uncertain world, but you can keep your "
+      "financial status quite secure by keeping your money in this "
+      "institution.\""
+   jasperbanker_random_005 = \
+      "~kYevitan says, \"Adventuring about is fine, but at the end of the "
+      "day you need to consider your financial situation! Money defines the "
+      "world within which we live, my friend. The ~Ioperating~I world.\""
+   jasperbanker_random_006 = \
+      "~kYevitan says, \"A young, industrious person like yourself can earn "
+      "favor by running errands, carrying messages and the like for people "
+      "between the towns of Meridian.\""
+   jasperbanker_random_007 = \
+      "~kYevitan says, \"Have you spoken with Hester Gilk in Cor Noth? She "
+      "has resources you might find useful, at some point in your travels... "
+      "\""
+   jasperbanker_random_008 = \
+      "~kYevitan says, \"There is too much focus on the Duke and the "
+      "Princess. People are failing to see the truth of the situation, which "
+      "is that neither of those two parties is suitable to rule! That's "
+      "right, unsuitable. I'm an old man, with the courage to admit it. I "
+      "know our people realize this but everyone is afraid to see the truth, "
+      "and certainly afraid to say a word. What kind of political situation "
+      "is that?\""
+   jasperbanker_random_009 = \
+      "~kYevitan says, \"There is even more trouble than before, now that "
+      "Akardius is Duke. He and the Princess it appears are back at square "
+      "one. The conflict begins anew.  The perfect time for a new player to "
+      "enter the game, eh?\""
+   jasperbanker_random_010 = \
+      "~kYevitan says, \"Who will be the next King or Queen of this land? "
+      "Look around you my friend. You? If your country calls to you, would "
+      "you step forward to lead? Well then, I will tell you that it will not "
+      "be me, that I can tell you, for I am an old man and my skills are "
+      "better used to guide than to govern... but I will tell you this, I "
+      "will have plenty to say about who it is. Remember that, and remember "
+      "that Jonas has my full support.\""
+   jasperbanker_random_011 = \
+      "~kYevitan says, \"As my dear friend King Zarcos V always said to me, "
+      "'Spare the luxuries to spoil the savings'. That is royal advice, %s, "
+      "but didn't I train him well?\""
+   jasperbanker_random_012 = \
+      "~kYevitan says, \"Jasper shall be bigger than ever...very soon.\""
+   jasperbanker_random_013 = \
+      "~kYevitan says, \"Qor smiles upon businessmen and rebels, for you see "
+      "there is a system even to breaking the system... \""
+   jasperbanker_random_014 = \
+      "~kYevitan says, \"How lovely to see you again, %s! I sincerely hope "
+      "you have been prosperous in the meanwhile, and have managed to avoid "
+      "the Duke and his band of cutthroats.\""
+   jasperbanker_random_015 = \
+      "~kYevitan says, \"Any deposit that you make remains safe here in my "
+      "vaults, no matter what may befall the depositor. That is the policy "
+      "of the Royal Bank of Jasper, and you have my word on it as a "
+      "businessman.\""
+   jasperbanker_random_016 = \
+      "~kYevitan says, \"It is a hard world my friend, one in which, I am "
+      "afraid, your net worth to the powers that be may be tabulated as "
+      "easily as counting beans. One, two, three, four, etc., etc.. That is "
+      "the reality of a political system based solely upon economic "
+      "constructs. We aren't asked whether or not we like it this way, but "
+      "this is how we must live until we summon the strength to make a "
+      "change.\""
+   jasperbanker_random_017 = \
+      "~kYevitan says, \"It's true that I spent many years in the service of "
+      "our last King, Zarcos V before settling into this business. I believe "
+      "now that a private life suits me better than the atmosphere of the "
+      "Royal Court. There is too much posturing over pedigrees and privilege "
+      "in the Court.\""
+   jasperbanker_random_018 = \
+      "~kYevitan says, \"There are those even now who live in the "
+      "sentimental delusion that Konima will return to this kingdom and "
+      "deliver us from our present woes! Gone these two hundred and twenty "
+      "some years, and he'll return now to dig us out of the mess that we've "
+      "gotten ourselves into! Imagine?\""
+   jasperbanker_random_019 = \
+      "~kYevitan says, \"It is wise to stock up on all of your essentials "
+      "before leaving Jasper, to ensure your safe passage through the "
+      "mountains. Jasper is not a large town by any means, but the quality "
+      "of our goods is unsurpassed.\""
+   jasperbanker_random_020 = \
+      "~kYevitan says, \"There are so many new travelers in our land, and so "
+      "much new opportunity. We are poised on the brink of a changing world, "
+      "my friend.\""
+   jasperbanker_random_021 = \
+      "~kYevitan says, \"If you deposit your money here at the Royal Bank, "
+      "you may also conduct business on your account at the First Royal Bank "
+      "in Tos, for although the Duke no longer owns both institutions, I "
+      "find it much more calming to my customers that the banks work "
+      "together.\""
+   jasperbanker_random_022 = \
+      "~kYevitan says, \"I certainly hope that you don't mistake the "
+      "tentative nature of the Jasper people for unfriendliness. On the "
+      "contrary, these are good, strong people who are excellent at "
+      "recognizing that which is best, and the worst, of outsiders.\""
+   jasperbanker_random_023 = \
+      "~kYevitan says, \"You must always consider your equity, my friend.\""
+   jasperbanker_random_024 = \
+      "~kYevitan says, \"Yes, can I help you? Some financial advice "
+      "perhaps?\""
+   jasperbanker_random_025 = \
+      "~kYevitan says, \"Do you have a deposit today, %s?\""
+   jasperbanker_random_026 = "~kYevitan says, \"What can I do for you, %s?\""
+   jasperbanker_random_027 = \
+      "~kYevitan says, \"Both Qor and Shal'ille spell casters will find "
+      "their abilities heightened the more extreme their karma.\""
+   jasperbanker_random_028 = \
+      "~kYevitan says, \"Do you bring news? Is that what you are doing here, "
+      "little messenger gnat? News from the kingdom? Bah, you bore me. Get "
+      "thee gone, imp.\""
+   jasperbanker_random_029 = \
+      "~kYevitan says, \"Has the Duke sent you to bother me to death, is "
+      "that why you are still here? He is a man of such unremarkable talents "
+      "it would surprise me to find out he had hired someone's village idiot "
+      "to monopolize my time now that I no longer have any ties to him.  He "
+      "just can't stand that someone has broken free of his slimy little "
+      "grip can he?\""
+   jasperbanker_random_030 = \
+      "~kYevitan says, \"If you want my advice, which you seem to seek, "
+      "young %s, I would advise you to keep your banking business confined "
+      "within these four walls. You may make up your own mind about the "
+      "situation, but I feel that Skivlat at the First Royal Bank in Tos is "
+      "not as ~Idiligent~I as he could be. He strikes me as a bit of the "
+      "strange type, you see. Quite strange indeed.\""
+   jasperbanker_random_031 = \
+      "~kYevitan says, \"As if it were not enough that I am plagued by the "
+      "Gerah Springers and Herbuttes of this world, you choose to occupy my "
+      "time and my place of business for whatever senseless reason that you "
+      "might have. Go on. I am an old man in Jasper, for Qor's sake, and I "
+      "really don't have time for you.\""
+   jasperbanker_random_032 = \
+      "~kYevitan says, \"Are you wasting my time? Go and speak your mind "
+      "with Joguer, I haven't the patience for thee and thine own.\""
+   jasperbanker_random_033 = \
+      "~kYevitan says, \"This is a bank, not a fishmonger's shack. Take your "
+      "gossip elsewhere, I have business to attend to.\""
+   jasperbanker_random_034 = \
+      "~kYevitan says, \"What do you require, outsider?\""
+   jasperbanker_random_035 = \
+      "~kYevitan says, \"If you have business with the bank today, kindly "
+      "conduct that business and we can both get on with our other "
+      "obligations.\""
+   jasperbanker_random_036 = \
+      "~kYevitan says, \"Look, I don't have time to chat with you. I don't "
+      "care to anyway, so get out of here. Go on. Get.\""
+   jasperbanker_trigger_army = "army"
+   jasperbanker_trigger_barloque = "barloque"
+   jasperbanker_trigger_blindness = "blindness"
+   jasperbanker_trigger_bye = "bye"
+   jasperbanker_trigger_bye_2 = "bye"
+   jasperbanker_trigger_bye_3 = "bye"
+   jasperbanker_trigger_cor_noth = "cor noth"
+   jasperbanker_trigger_council = "council"
+   jasperbanker_trigger_denthan = "denthan"
+   jasperbanker_trigger_duke = "duke"
+   jasperbanker_trigger_frular = "frular"
+   jasperbanker_trigger_gerah_springers = "gerah springers"
+   jasperbanker_trigger_hello = "hello"
+   jasperbanker_trigger_herbutte = "herbutte"
+   jasperbanker_trigger_herbut = "herbut"
+   jasperbanker_trigger_jasper = "jasper"
+   jasperbanker_trigger_joguer = "joguer"
+   jasperbanker_trigger_koldor = "koldor"
+   jasperbanker_trigger_jonas = "jonas"
+   jasperbanker_trigger_justicar = "justicar"
+   jasperbanker_trigger_justicar_2 = "justicar"
+   jasperbanker_trigger_king = "king"
+   jasperbanker_trigger_lady_aftyn = "lady aftyn"
+   jasperbanker_trigger_marion = "marion"
+   jasperbanker_trigger_meidei = "meidei"
+   jasperbanker_trigger_obert = "obert"
+   jasperbanker_trigger_cair_bre = "cair'bre"
+   jasperbanker_trigger_cairbre = "cairbre"
+   jasperbanker_trigger_princess = "princess"
+   jasperbanker_trigger_qor = "qor"
+   jasperbanker_trigger_tos = "tos"
+   jasperbanker_trigger_tova = "tova"
+   jasperbanker_trigger_whiskey = "whiskey"
+   jasperbanker_trigger_zig = "zig"
+   jasperbanker_trigger_zuxana = "zuxana"
+
+   // JasperBartender (Pietro)
+   jasperbartender_speech_001 = \
+      "~kPietro says, \"Crazy old coot. ~IYou'll~I schtay away from him, if "
+      "~Iyou~I know whaz good for ~Iyou~I!! I'll schay nothing more on the "
+      "subject, not a freggin' WORD.\""
+   jasperbartender_speech_002 = \
+      "~kPietro says, \"I don't know who you're talking about.\""
+   jasperbartender_speech_003 = \
+      "~kPietro says, \"Whaz the matter with you you can't keep your nose in "
+      "your own bizniz!?! ~Iwho~I ARE you, anywayz?\""
+   jasperbartender_speech_004 = \
+      "~kPietro says, \"~Ibarloque~I is the BOTTOM of the river, you know "
+      "what I mean?? Well, let'z juscht schay you ~Idon't~I, although "
+      "~II'm~I not so schure ~Iabout that~I. I'm ~Inot~I so schure about "
+      "that ~Iat all~I. But listen anywayz. The ~Iold people~I in thiz town "
+      "talk about a ~Ischyschtem of schewerz~I that run under the WHOLE of "
+      "Meridian, not juscht under Barloque where the ~Iratz~I come from... "
+      "that schewerz ~Iconnect~I TOZ, JASPER, COR NOTH ~Iand Barloque~I, and "
+      "that schyschtem empties at ~IBARLOQUE~I. That means that Barloque, "
+      "the ~IRoyal Capitol~I of this land, is the end of the line for ~Iall "
+      "that~I SEWAGE, is one ~IBIG~I schewer... \""
+   jasperbartender_speech_005 = "~kPietro says, \"I don't travel much.\""
+   jasperbartender_speech_006 = \
+      "~kPietro says, \"Pox on you, pox on Barloque, pox on your anchestorz, "
+      "pox on your freggin' bizniz!! Git out!!!\""
+   jasperbartender_speech_007 = \
+      "~kPietro says, \"Broom? What freggin' ~Ibroom~I?\""
+   jasperbartender_speech_008 = \
+      "~kPietro says, \"What, do I schtudder? Barz CLOZED, now ~Igit~I, hic, "
+      "~IGIT~I out!\""
+   jasperbartender_speech_009 = \
+      "~kPietro says, \"I'd just as soon ~Ispit~I on you as ~Ischerve~I you "
+      "a DRINK, donkey.\""
+   jasperbartender_speech_010 = "~kPietro glances up to watch you leave."
+   jasperbartender_speech_011 = "~kPietro says, \"Humpf.\""
+   jasperbartender_speech_012 = \
+      "~kPietro says, \"Thazz right, get on out. Go on. OUT!!!\""
+   jasperbartender_speech_013 = \
+      "~kPietro says, \"Cor Noth is where the ~Ianarchistz~I are, plotterz "
+      "and ~Ischabotage expertz~I. Thaz RIGHT. Humpf. Good for them, I "
+      "schay, who ~Ifreggin'~I carez. Burn the rest of Meridian, and Jasper "
+      "will schtill be here. ~ILet~I them do whatever they want, burn the "
+      "whole freggin' stewpot down to the freggin' flat prairie it squatz "
+      "on.\""
+   jasperbartender_speech_014 = \
+      "~kPietro says, \"It's supposed to be pretty nice there.\""
+   jasperbartender_speech_015 = \
+      "~kPietro says, \"I ~Isuppoze~I thaz where YOU'RE from, dog, an I "
+      "suppoze ~Ithiz town~I juz izn't up to your freggin' ~Istandardz~I, "
+      "either.\""
+   jasperbartender_speech_016 = \
+      "~kPietro says, \"Conzil? They have tokens, and it ~Iiz sched~I that "
+      "the tokenz can MOVE, ~Iall by theschelvz~I!!  I wonderz whatz in them "
+      "there tokens that mashkes them able to move like that.\""
+   jasperbartender_speech_017 = \
+      "~kPietro says, \"Keep your freggin' politics to yourself, stranger. "
+      "~INo one~I here is interested in what you have to say about the "
+      "council.\""
+   jasperbartender_speech_018 = \
+      "~kPietro says, \"Lizzen. Take your POLITICZ, and ~ISCHTICK~I them in "
+      "your ~Igob~I.\""
+   jasperbartender_speech_019 = "~kPietro says, \"Get LOST, ~Ijack azz~I.\""
+   jasperbartender_speech_020 = \
+      "~kPietro says, \"That freggin' Duke ~Ihatez~I Jasper, and he hatez "
+      "the peoplez from Jasper, too. And you know WHY? Thaz right, it'z "
+      "~Ibecausche~I he can't ~ICONTROL~I us, or this town, or any of it. "
+      "~IPOX~I on him. Pox on hiz armiez too, let him just march hiz armiez "
+      "into theze hillz and schow us differently. WE got a few thingz we "
+      "will schow HIM. Thaz ~Iright~I. There'll be freggin' bodiez all over "
+      "~Ithiz~I freggin' mountain.\""
+   jasperbartender_speech_021 = "~kPietro says, \"I don't follow politics.\""
+   jasperbartender_speech_022 = \
+      "~kPietro says, \"Itz none of your freggin' bizniz what I think, "
+      "puke.\""
+   jasperbartender_speech_023 = \
+      "~kPietro mutters, \"Good for nothin', those idiotz, when life treatz "
+      "them badly they alwayz have to go blame fate for it and not "
+      "themschelvez.\""
+   jasperbartender_speech_024 = "~kPietro abruptly says, \"Yes, WHAT?!?\""
+   jasperbartender_speech_025 = "~kPietro says, \"What do you want?\""
+   jasperbartender_speech_026 = \
+      "~kPietro spits, landing close to Jonas' boot, and turns away."
+   jasperbartender_speech_027 = \
+      "~kPietro says, \"I have only seen that man once or twice. He is "
+      "wandering around.... Know what I mean? He tries to sell that garbage "
+      "of his.\""
+   jasperbartender_speech_028 = \
+      "~kPietro says, \"Thiz town'z got more ~Isecretz~I than a Barloque "
+      "harlot. And thaz ~Iall~I I'm going to schay on the matter. That is "
+      "freggin' it. Not ANOTHER ~Iword~I. No. Not a ~IWORD~I.\""
+   jasperbartender_speech_029 = \
+      "~kPietro says, \"You're obviously a stranger to these parts, so let "
+      "me give you a little advice. Mind your own freggin' business in this "
+      "town, same as everyone else.\""
+   jasperbartender_speech_030 = \
+      "~kPietro says, \"Therez nothing for you in thiz town.\""
+   jasperbartender_speech_031 = \
+      "~kPietro says, \"We ~Ihatez~I thoze people.\""
+   jasperbartender_speech_032 = \
+      "~kPietro says, \"I don't know. Go see for yourself.\""
+   jasperbartender_speech_033 = "~kPietro says, \"Barz clozed. ~IGIT~I out.\""
+   jasperbartender_speech_034 = \
+      "~kPietro says, \"Rumor haz it that sche's not talking about a god, "
+      "but about herschelf.\""
+   jasperbartender_speech_035 = \
+      "~kPietro says, \"Sche's juscht a little girl, and everybody knowz "
+      "kidz don't know nuthin' about nuthin'.\""
+   jasperbartender_speech_036 = \
+      "~kPietro says, \"~IHic~I Izn't sche that little danschin' girl who "
+      "thinkz the magic nodez are callin' her?\""
+   jasperbartender_speech_037 = \
+      "~kPietro says, \"Out ~Ihic~I out of my bar and ~Ihic~I, mind your own "
+      "freggin' bizniz.\""
+   jasperbartender_speech_038 = \
+      "~kPietro says, \"What I've heard iz: ...sche doesn't drain the nodez "
+      "completely, sche only ever takez a little bit, and it takez a while "
+      "for that to regenerate.\""
+   jasperbartender_speech_039 = \
+      "~kPietro says, \"Everybody's getting all worked up and it's juscht a "
+      "kid. What harm can a kid do, anywayz?\""
+   jasperbartender_speech_040 = \
+      "~kPietro says, \"~IHic~I, schtupid, good-for-nuthin' kidz. Alwayz "
+      "schhhmelly diaperz, can't leave 'em alone to do nuthin'.\""
+   jasperbartender_speech_041 = \
+      "~kPietro says, \"The Princezz? Well, ~Inice~I and ~Itidy~I how she "
+      "got her father to DISAPPEAR, ischn't it? I know, they ~Ischay~I that "
+      "the King loscht hiz ~Imind~I, and I believe you me he ~Idid~I. But "
+      "peoplez mindz can also be manipu... they can be manipulative... "
+      "peoples minds can also be ~Imanipulated~I by magic and witchcraft, "
+      "and after all who does the princezz schurround herschelf with but "
+      "people of ~Imagic~I, sorcerers and mages. I'm not saying it wuz the "
+      "princezz herschelf, but her faction HAZ done ~IVERY WELL~I for itself "
+      "with the old man out of their way. If you aschk me, which ~Iyou "
+      "did~I, it'z that Alzahakar that done it to the King like that. He "
+      "knowz more about Riija than anyone realizez... \""
+   jasperbartender_speech_042 = \
+      "~kPietro says, \"She doesn't come here much, if you hadn't noticed.\""
+   jasperbartender_speech_043 = \
+      "~kPietro says, \"What are you, a ~Ispy~I? Are you a ~ISPY~I? Git out "
+      "of my bar, you freggin' Princess ~Ischpy~I you!\""
+   jasperbartender_speech_044 = \
+      "~kPietro says, \"Dizappeared on hiz way to Toz. Vanished into thin "
+      "air, becuz thaz what we have up here in the mountainz, thin air. If "
+      "you ask me though, and you did, his friggin' widow and her friggin' "
+      "blacksmith boyfriend killed him, left hiz body up there in the "
+      "freggin' mountainz, murdered him and took all the money he wuz headed "
+      "to Toz with. Becauze he had a bundle with him, and that dizappeared "
+      "too. HA!\""
+   jasperbartender_speech_045 = "~kPietro says, \"He left town.\""
+   jasperbartender_speech_046 = \
+      "~kPietro looks at you for a long moment, shaking his head."
+   jasperbartender_speech_047 = \
+      "~kPietro says, \"He'z doing better than ever before, better than "
+      "anyone elze in thiz town if you know what I mean. But I guez you "
+      "don't, or you wouldn't be azking. Okay, let me schpell it out for "
+      "you. He should be doing freggin' fine, since he freggin' murdered old "
+      "man Qesino and moved in with hiz freggin' wife! Don't you think you'd "
+      "be doing pretty freggin' well if you freggin' murdered old man Qesino "
+      "and moved in with hiz freggin' wife!?!\""
+   jasperbartender_speech_048 = \
+      "~kPietro says, \"He's the blacksmith in these parts. He's just across "
+      "the way, and if you've got business with him you should discuss it "
+      "with him.\""
+   jasperbartender_speech_049 = \
+      "~kPietro says, \"I don't want to freggin' know, and if you know whaz "
+      "good for you, neither do you. But if you want the real schtory on "
+      "Quintor, find his freggin' ex-wife! HA! You can bet sche'z with that "
+      "miner sche ran off with, if you can find her, that iz. Bring a shovel "
+      "when you go looking, becauze you'll have to dig up half this mountain "
+      "to find them both. Might have to usche your imagination too, 'cause "
+      "the piecez might not fit together scho good... that's what I mean by "
+      "if you know what'z good for you... \""
+   jasperbartender_speech_050 = \
+      "~kPietro says, \"Plenty of SCHEECRETS in these mountains. You ~Iwatch "
+      "your step~I, or you could become ~Ione~I of them.\""
+   jasperbartender_speech_051 = \
+      "~kThe room goes silent as %s mentions stunted dwarf."
+   jasperbartender_speech_052 = \
+      "~kPietro says, \"Toz is really ~Ithe schite of ancient EVIL~I. They "
+      "schay that at night ~Ithe dead get up and rize~I in Toz, that they "
+      "~Iwalk the earth~I. The city itschelf is built upon ~Ithe ancient "
+      "schtronghold of Qor~I. Thatz RIGHT!! ~IANCIENT EVIL~I!! And "
+      "~Ischomeday schoon~I that evil will make itschelf known to Meridian, "
+      "and thiz land will not be the schame!! The bodies of those "
+      "flatlanderz will be schtacked in big moundz, ~Ischacrificez~I to the "
+      "~IEVIL QOR~I and to their own ~Iignorance~I. ~IHumpf~I. HUMPH!\""
+   jasperbartender_speech_053 = "~kPietro says, \"Never been there.\""
+   jasperbartender_speech_054 = \
+      "~kPietro says, \"Get out of here. NOBODY in theez partz iz, ~Ihic~I, "
+      "iz ~Iinterested~I in the wayz of that stink-hole Toz, or ~Inobody~I "
+      "from there neither.\""
+   jasperbartender_speech_055 = \
+      "~kPietro says, \"Troll Whiskey iz illegal, or didn't you know? I "
+      "don't know nothing about Troll Whiskey, all I sell here is beer. "
+      "Beer, thaz it. Period.\""
+   jasperbartender_speech_056 = \
+      "~kPietro says, \"Oh, yes, the bereaving widow. She'z so freggin' "
+      "broken up about her husband'z dizappearance, that she freggin' "
+      "shacked up with the blacksmith!! Thick as thieves, thaz right, thick "
+      "as freggin' thieves. But you didn't hear that from me... \""
+   jasperbartender_speech_057 = \
+      "~kPietro says, \"She runs the inn, just down the street.\""
+   jasperbartender_speech_058 = \
+      "~kPietro says, \"You ask too many questions, stranger, schticking "
+      "your noze around where you got no biznez. Why don't you leave Jasper "
+      "while you still got a noze on your freggin' face.\""
+   jasperbartender_speech_059 = \
+      "~kPietro says, \"That old man haz got hiz own planz, that I know. Did "
+      "you know that in hiz younger, ~Ihic~I, hiz younger dayz he was the "
+      "~IFinancial Minischter~I to ~Ithe King~I? Thaz RIGHT. ~Ipowerful~I "
+      "man. They threw him out, too, when the, hic, when the King loscht hiz "
+      "mind. Wanted to ~IKILL~I him, he'z a powerful man ~Iand~I from Jasper "
+      "to boot. ~Ibut~I... he escaped, and they wouldn't dare to come for "
+      "him here. I ~Ibet you~I that schomeday ~Ischoon~I he goes right back "
+      "down there and takez back what he'z due. And GOOD FOR HIM!!\""
+   jasperbartender_speech_060 = \
+      "~kPietro says, \"Yes, the banker. Royal Bank of Jasper.\""
+   jasperbartender_speech_061 = \
+      "~kPietro says, \"Therez ~Inobody~I in thesche partz by that name, "
+      "~ISTRANGER~I.\""
+   jasperbartender_speech_062 = \
+      "~kPietro says, \"Schtupid... idiot... schtupid idiot. And "
+      "~Igreedy~I... \""
+   jasperbartender_random_001 = \
+      "~kPietro says, \"Drink! Eat! Rest up here while you can, you'll "
+      "~Ineed~I your schtrength for fighting monschters and BAD people in "
+      "her..out there! ~Ihic~I!\""
+   jasperbartender_random_002 = \
+      "~kPietro says, \"I have HEARD, ~Ihic~I, that a great warrior "
+      "reschides in Cor Noth, a maschter warrior don't shou know. He wuz the "
+      "~Icaptain of the Royal Guardz~I, okay? He is schupposed to know all "
+      "that there iz to know about battling monschsters, and demonz, and "
+      "schuch... \""
+   jasperbartender_random_003 = \
+      "~kPietro says, \"Barloque iz the royal capitol of all the land "
+      "outschide Jasper, and a place overwhelming with wealth. Aschk Yevitan "
+      "about it, he usched to LIVE there.\""
+   jasperbartender_random_004 = \
+      "~kPietro says, \"Schtay away from the trollz in thesche hillz, they "
+      "are deadly. DEADLY. The orcz too, becauze they will schometimez form "
+      "~IWAR PARTIES~I and ~Iraid~I the human townz! Yes! ~Ivery~I "
+      "dangerouz!\""
+   jasperbartender_random_005 = \
+      "~kPietro says, \"I could ~Itell~I you a few thinzz about thiz town "
+      "that would ~Imake~I your hairz schtand on their enz. Thazz RIGHT. On "
+      "their freggin' enz.\""
+   jasperbartender_random_006 = \
+      "~kPietro says, \"Schtart aschking questions around here, and you "
+      "don't ever know what you might turn up. Probably ~Iwouldn't~I WANT to "
+      "know, neither.\""
+   jasperbartender_random_007 = \
+      "~kPietro says, \"You ~Iwatch~I your step around here, stranger. "
+      "Schomeone will freggin' hit you over the freggin' HEAD and take your "
+      "money. Even ~Ihappenz to localz~I, you can believe me there, scho "
+      "don't go thinking you're ANYTHING FRIGGIN' SCHPECIAL... \""
+   jasperbartender_random_008 = \
+      "~kPietro says, \"Even ~IJasper's~I got it'z schare of IDIOTZ. No "
+      "namez ~Imentioned~I, but that Zhieu B'hob is a freggin' horschez "
+      "rump. Dumb az a cedar freggin' post.\""
+   jasperbartender_random_009 = \
+      "~kPietro says, \"Yevitan, now he'z a wize old bugger. He'z got planz, "
+      "BIG planz, but he wazn't schaying nothing till that Jonz, Jonarc, "
+      "whatz hiz face came round. Schmart guy.\""
+   jasperbartender_random_010 = \
+      "~kPietro says, \"Pick your path out of Jasper carefully, stranger. "
+      "The road to the east is infested with an army of trolls and orcs, "
+      "enough to challenge any army the freggin' flatlands could raise.\""
+   jasperbartender_random_011 = \
+      "~kPietro says, \"People in these parts aren't like the rest of "
+      "Meridian folks. It's a breed apart up here, and you'd best be mindful "
+      "of the differences.  Especially now with Jonas and his gang, they "
+      "don't like no one talking bad bout them.\""
+   jasperbartender_random_012 = \
+      "~kPietro says, \"We didn't used to get so many strangers up here in "
+      "the mountains.  Wish that damned Jonas and his guppies never thought "
+      "to come here.\""
+   jasperbartender_random_013 = "~kPietro is waiting to take your order."
+   jasperbartender_random_014 = \
+      "~kPietro says, \"There is a bank here in Jasper, just around the "
+      "corner. It is left over from the days that the freggin' mines "
+      "prospered.\""
+   jasperbartender_random_015 = \
+      "~kPietro says, \"Hey, you gonna buy a beer, or what? This isn't a "
+      "freggin' flophouse!!!\""
+   jasperbartender_random_016 = \
+      "~kPietro says, \"If you're here to drink and eat, then drink and eat. "
+      "I don't have time for your damned conversation.\""
+   jasperbartender_random_017 = \
+      "~kPietro says, \"You're better off by not asking too many questions "
+      "in these parts. We like our privacy.\""
+   jasperbartender_random_018 = \
+      "~kPietro says, \"Money freggin' talks in this land, so you better "
+      "figure out how to freggin' get it.\""
+   jasperbartender_random_019 = \
+      "~kPietro says, \"You might be surprised at what you can find out by "
+      "just listening.\""
+   jasperbartender_random_020 = \
+      "~kPietro says, \"I don't care where you sleep, but you're not "
+      "sleeping here.\""
+   jasperbartender_random_021 = \
+      "~kPietro grumbles, \"It used to be nice and quiet round these here "
+      "parts.  Haven't been this many loafers round since the mines dried "
+      "up.\""
+   jasperbartender_random_022 = \
+      "~kPietro says, \"We like things the way they are in these parts.\""
+   jasperbartender_random_023 = \
+      "~kPietro says, \"You don't want to freggin' start no trouble here.\""
+   jasperbartender_random_024 = "~kPietro says, \"~IHic~I.\""
+   jasperbartender_random_025 = "~kPietro says, \"What do you need?\""
+   jasperbartender_random_026 = \
+      "~kPietro says, \"~IHit~I the freggin' ROAD.\""
+   jasperbartender_random_027 = \
+      "~kPietro says, \"Did you need something? No? No? Well then, you "
+      "freggin' get going.\""
+   jasperbartender_random_028 = \
+      "~kPietro says, \"If I wuz you, dungface, I'd walk out of here while "
+      "you still can.\""
+   jasperbartender_random_029 = \
+      "~kPietro says, \"Hit the brickz, you freggin' road trash. Pietroz iz "
+      "C-L-O-S-E-D.\""
+   jasperbartender_random_030 = "~kPietro screams, \"WHAT!?!\""
+   jasperbartender_random_031 = \
+      "~kPietro yells, \"OUT! Everyone freggin' OUT!\""
+   jasperbartender_random_032 = \
+      "~kPietro grumbles, \"Stinkin rebelz, ~IHic~I, freggin' good for "
+      "nothin loutz, ~IHic~I, come inz an take o'er myz bar.  Thez don't "
+      "even askz me if'n I'm willin.\""
+   jasperbartender_random_033 = \
+      "~kPietro shouts, \"The bar iz closed. Get out.\""
+   jasperbartender_trigger_afiera_d_xor = "afiera d'xor"
+   jasperbartender_trigger_afiera_xor = "afiera xor"
+   jasperbartender_trigger_barloque = "barloque"
+   jasperbartender_trigger_broom = "broom"
+   jasperbartender_trigger_buy = "buy"
+   jasperbartender_trigger_sell = "sell"
+   jasperbartender_trigger_bye = "bye"
+   jasperbartender_trigger_cor_noth = "cor noth"
+   jasperbartender_trigger_council = "council"
+   jasperbartender_trigger_council_2 = "council"
+   jasperbartender_trigger_drunk = "drunk"
+   jasperbartender_trigger_duke = "duke"
+   jasperbartender_trigger_fate = "fate"
+   jasperbartender_trigger_hello = "hello"
+   jasperbartender_trigger_honored = "honored"
+   jasperbartender_trigger_izzio = "izzio"
+   jasperbartender_trigger_jasper = "jasper"
+   jasperbartender_trigger_marion = "marion"
+   jasperbartender_trigger_miriana = "miriana"
+   jasperbartender_trigger_node = "node"
+   jasperbartender_trigger_princess = "princess"
+   jasperbartender_trigger_qesino = "qesino"
+   jasperbartender_trigger_quintor = "quintor"
+   jasperbartender_trigger_secret = "secret"
+   jasperbartender_trigger_stunted_dwarf = "stunted dwarf"
+   jasperbartender_trigger_tos = "tos"
+   jasperbartender_trigger_whiskey = "whiskey"
+   jasperbartender_trigger_widow = "widow"
+   jasperbartender_trigger_yevitan = "yevitan"
+   jasperbartender_trigger_zhieu_b_hob = "zhieu b'hob"
+   jasperbartender_trigger_bob = "bob"
+
+   // JasperBlacksmith (Quintor)
+   jasperblacksmith_speech_001 = "~kQuintor says, \"Get out of my shop.\""
+   jasperblacksmith_speech_002 = \
+      "~kQuintor says, \"You'd best talk to Afiera D'xor if that's who you "
+      "want to talk about.\""
+   jasperblacksmith_speech_003 = \
+      "~kQuintor says, \"It's a great thing to have if you're gathering "
+      "firewood, but to carry as a weapon? The graveyards in these hills are "
+      "crowded with axe-carrying fools from the flatlands that went up "
+      "against the orc scimitar.\""
+   jasperblacksmith_speech_004 = "~kQuintor says, \"Get out of my shop.\""
+   jasperblacksmith_speech_005 = \
+      "~kQuintor says, \"The fancy manners and dress of Barloque are a long "
+      "way from Jasper, I assure you.\""
+   jasperblacksmith_speech_006 = \
+      "~kQuintor says, \"I've never been to the city of Barloque, so I'd be "
+      "the wrong person to ask.\""
+   jasperblacksmith_speech_007 = \
+      "~kQuintor says, \"This is Jasper. If you want to know about Barloque, "
+      "beggar, head north until you get to the coast, then go east until you "
+      "reach a sewer surrounded by walls. You can't miss it.\""
+   jasperblacksmith_speech_008 = \
+      "~kQuintor says, \"Come back and see me when you're in these parts.\""
+   jasperblacksmith_speech_009 = "~kQuintor says, \"Be gone.\""
+   jasperblacksmith_speech_010 = \
+      "~kQuintor says, \"They've got their heads stuck firmly in the ground "
+      "in Cor Noth, to be sure. ~IUniversity~I. You would learn more in a "
+      "week in these mountains than a lifetime at their so called "
+      "~Iuniversity~I.\""
+   jasperblacksmith_speech_011 = \
+      "~kQuintor says, \"Although I have been to the city of Cor Noth, I was "
+      "there as a visitor only. I know little of those people and their "
+      "ways.\""
+   jasperblacksmith_speech_012 = \
+      "~kQuintor says, \"Cor Noth? Well, I'd say it'd be a fine place for "
+      "~Ione~I such as you.\""
+   jasperblacksmith_speech_013 = \
+      "~kQuintor says, \"I would rather not discuss politics.\""
+   jasperblacksmith_speech_014 = \
+      "~kQuintor says, \"I am too busy to try and keep up with politics.\""
+   jasperblacksmith_speech_015 = \
+      "~kQuintor says, \"So what about them then? I don't have anything to "
+      "say to you!\""
+   jasperblacksmith_speech_016 = "~kQuintor says, \"A toy.\""
+   jasperblacksmith_speech_017 = \
+      "~kQuintor says, \"This Duke Akardius is as much a fool as Kalior. "
+      "Meridian needs an honorable warrior, such as Jonas, to take the "
+      "throne.\""
+   jasperblacksmith_speech_018 = \
+      "~kQuintor says, \"I don't know much about him.\""
+   jasperblacksmith_speech_019 = \
+      "~kQuintor says, \"I think you should take your political opinions out "
+      "of my shop, NOW!\""
+   jasperblacksmith_speech_020 = \
+      "~kQuintor says, \"This man, Frular of Barloque, is alive without a "
+      "soul or ancestors of merit. His business is to buy property and "
+      "buildings all across the land in order to rent them for profit. "
+      "BUT... this man Frular of Barloque especially wishes to acquire "
+      "buildings that are sacred to their communities, and then defile them "
+      "with his business dealings. He bought Wryn's Keep here in Jasper, "
+      "which is the traditional fortress of the mountain warlord, and a "
+      "Shal'ille temple in Cor Noth that I know of. Someday I will show him "
+      "how wrong this is.\""
+   jasperblacksmith_speech_021 = \
+      "~kQuintor says, \"I wouldn't make a hammer to act as a weapon, and I "
+      "don't know a respectable warrior that would fight with one either. A "
+      "hammer, really. I know a few farmers that would try to fight with a "
+      "hammer, but not a warrior. And I've known a few of the best.\""
+   jasperblacksmith_speech_022 = "~kQuintor says, \"Yes, can I help you?\""
+   jasperblacksmith_speech_023 = "~kQuintor says, \"Good %s, stranger.\""
+   jasperblacksmith_speech_024 = \
+      "~kQuintor says, \"What do you want, beggar?\""
+   jasperblacksmith_speech_025 = \
+      "~kQuintor says, \"I'll say this, it was a different place before the "
+      "mines failed and all those outsiders left town, and before Jonas "
+      "showed up with his so called ~Ifaction~I. But the people of Jasper "
+      "have always been here, and always will. You could spend your life in "
+      "Jasper and still not find out much about it, stranger. Sometimes it's "
+      "better to let sleeping dogs lie.\""
+   jasperblacksmith_speech_026 = \
+      "~kQuintor says, \"Take it at face value, stranger. Just a sleepy "
+      "mountain community where life is pretty simple.\""
+   jasperblacksmith_speech_027 = \
+      "~kQuintor says, \"Not your cup of tea, eh? Just as well you figured "
+      "it out the easy way.\""
+   jasperblacksmith_speech_028 = \
+      "~kQuintor says, \"A mace is a child's weapon, better suited to "
+      "crushing grapes than to actually fighting.\""
+   jasperblacksmith_speech_029 = \
+      "~kQuintor says, \"The people of Marion are complacent and stubborn. "
+      "That's probably because all they have to contend with down on the "
+      "flatlands are baby spiders and giant rats. No trolls, no orcs. Life "
+      "must be pretty easy.\""
+   jasperblacksmith_speech_030 = \
+      "~kQuintor says, \"Marion? Not much to say about it, it's just north "
+      "where the land flattens out.\""
+   jasperblacksmith_speech_031 = \
+      "~kQuintor says, \"I don't care about Marion, its problems, or your "
+      "opinions on any of it. I think you were just leaving.\""
+   jasperblacksmith_speech_032 = \
+      "~kQuintor says, \"What reason do you have to go mining, stranger?\""
+   jasperblacksmith_speech_033 = \
+      "~kQuintor says, \"Many think of them as a backwards race, but that is "
+      "the ignorance of those that have not dealt with them firsthand. In "
+      "these mountains, if you happen to run into an orc it will most likely "
+      "be a lone warrior, but even alone orcs are formidable fighters and "
+      "you must watch yourself. No one knows where their central fortress is "
+      "or what happens there, but you can be sure that they are waiting for "
+      "the time to come out in force, for they are capable of organizing and "
+      "fielding large armies. When that day comes, we will all know it.\""
+   jasperblacksmith_speech_034 = \
+      "~kQuintor says, \"The orcs are fearsome creatures that live up in "
+      "these mountains. I have heard that there is also another breed that "
+      "stays almost entirely underground, but that they are related in both "
+      "blood and spirit.\""
+   jasperblacksmith_speech_035 = \
+      "~kQuintor says, \"I am a blacksmith, not some soldier. Go about your "
+      "business and leave me alone.\""
+   jasperblacksmith_speech_036 = \
+      "~kQuintor says, \"If you have business with Pietro, I suggest that "
+      "you take it up with him.\""
+   jasperblacksmith_speech_037 = "~kQuintor says, \"Get out of my shop.\""
+   jasperblacksmith_speech_038 = \
+      "~kQuintor says, \"I'd rather discuss something else, if it's all the "
+      "same to you.\""
+   jasperblacksmith_speech_039 = \
+      "~kQuintor says, \"I haven't got an opinion about her at all.\""
+   jasperblacksmith_speech_040 = \
+      "~kQuintor bellows, \"The affairs of the Princess have absolutely no "
+      "bearing in these parts, so if you have an opinion why don't you keep "
+      "it to yourself!\""
+   jasperblacksmith_speech_041 = \
+      "~kQuintor says, \"I don't need no pupil right now. You best be on "
+      "your way, stranger.\""
+   jasperblacksmith_speech_042 = \
+      "~kQuintor says, \"The scimitar is the sword of the orc hordes, a "
+      "large, curve-bladed weapon that is a fearsome weapon in the hands of "
+      "those who have the skill. I have learned a few things wielding such a "
+      "blade. Occasionally I will take a pupil under my wing and teach them "
+      "some basic points.\""
+   jasperblacksmith_speech_043 = \
+      "~kQuintor says, \"The scimitar is an orc blade, very advanced in its "
+      "design. It puts to rest any ideas that those unfamiliar with the orcs "
+      "often have about the orcs being a backwards race.\""
+   jasperblacksmith_speech_044 = \
+      "~kQuintor says, \"I don't know anything about the scimitar.\""
+   jasperblacksmith_speech_045 = \
+      "~kQuintor says, \"I have something that you must see.\""
+   jasperblacksmith_speech_046 = \
+      "~kQuintor says, \"I might have something you'd be interested in.\""
+   jasperblacksmith_speech_047 = \
+      "~kQuintor says, \"I don't have anything you'd be interested in!\""
+   jasperblacksmith_speech_048 = \
+      "~kQuintor says, \"The sword is a warrior's weapon, and I have made my "
+      "share.\""
+   jasperblacksmith_speech_049 = \
+      "~kQuintor says, \"I might be able to teach you a few things about the "
+      "scimitar. It is a unique weapon in its balance and weight, and "
+      "requires dedication if you wish to master its subtlety. Perhaps I can "
+      "help you begin your studies.\""
+   jasperblacksmith_speech_050 = \
+      "~kQuintor says, \"It's true that I will occasionally take a pupil.\""
+   jasperblacksmith_speech_051 = \
+      "~kQuintor angrily says, \"I'm not taking pupils!\""
+   jasperblacksmith_speech_052 = \
+      "~kQuintor says, \"I don't care for the Tos people. They are blind "
+      "followers, unable to fully think for themselves.\""
+   jasperblacksmith_speech_053 = \
+      "~kQuintor says, \"Tos is at the center of all of the idleness that "
+      "plagues this land. You probably know more about it than I do.\""
+   jasperblacksmith_speech_054 = \
+      "~kQuintor says, \"I've got nothing to say about Tos, so if you're "
+      "that curious perhaps you should go and see for ~Iyourself~I.\""
+   jasperblacksmith_speech_055 = \
+      "~kQuintor says testily, \"Well, I don't know anything about any no "
+      "Troll Whiskey.\""
+   jasperblacksmith_speech_056 = "~kQuintor says, \"Get out of my shop.\""
+   jasperblacksmith_speech_057 = "~kQuintor says, \"Get out of my shop.\""
+   jasperblacksmith_speech_058 = \
+      "~kQuintor says, \"You would do well to avoid rumor-mongering and "
+      "state your business.\""
+   jasperblacksmith_speech_059 = \
+      "~kQuintor says, \"My wife left these parts years ago, when the mines "
+      "dried up. I... well, I haven't seen her for some time now.\""
+   jasperblacksmith_speech_060 = \
+      "~kQuintor says, \"That's my business, and none of your affair.\""
+   jasperblacksmith_speech_061 = \
+      "~kQuintor says, \"Are you asking me about my business? Who have you "
+      "been talking to? I think that you should leave here.\""
+   jasperblacksmith_speech_062 = \
+      "~kQuintor says, \"I don't know what you're after, but Yevitan's "
+      "business is his own, as mine is my own and your business best kept to "
+      "yourself.\""
+   jasperblacksmith_speech_063 = "~kQuintor says, \"Get out of my shop.\""
+   jasperblacksmith_speech_064 = \
+      "~kQuintor says, \"This is a blacksmith's shop, not a gossip parlor. "
+      "You will learn to mind your own business in this town.\""
+   jasperblacksmith_random_001 = \
+      "~kQuintor says, \"Have you been to Tos, stranger? In Tos there is a "
+      "grand arena, where Meridian's greatest warriors often test their "
+      "skills against each other in a trial by combat.\""
+   jasperblacksmith_random_002 = \
+      "~kQuintor says, \"If you'll take my advice, don't believe half of "
+      "what you hear in this town. And watch your step, if you think that "
+      "the creatures in these hills are treacherous you don't know the half "
+      "of it until you've gotten yourself on the wrong side of the people of "
+      "Jasper.\""
+   jasperblacksmith_random_003 = \
+      "~kQuintor says, \"My reputation as a weaponsmith speaks for itself. "
+      "Ask around, the finest sword steel in the land comes out of this "
+      "forge.\""
+   jasperblacksmith_random_004 = \
+      "~kQuintor says, \"There is a different wisdom to the people in these "
+      "hills than the other peoples of Meridian. You would never get their "
+      "trust to find it out, but the people of the Cragged Mountains know "
+      "how to survive. Afiera D'xor is a wise man. Go and see him, "
+      "stranger.\""
+   jasperblacksmith_random_005 = \
+      "~kQuintor says, \"I heard from a traveler recently that a new Queen "
+      "Spider is active in the Twisted Woods. An adventurer I knew once went "
+      "after her eggs, on account of the price of those things. She never "
+      "made it out, though, and the story ends there.\""
+   jasperblacksmith_random_006 = \
+      "~kQuintor says, \"Someday soon I believe the Wryn's Keep will be "
+      "returned to its rightful owners, the people of Jasper. Someday very "
+      "soon that cretin Frular will get his... \""
+   jasperblacksmith_random_007 = \
+      "~kQuintor says, \"If you want to improve your weapon skills, seek out "
+      "opponents that are worthy of a good fight. You won't get anywhere "
+      "fighting opponents that are beneath you.\""
+   jasperblacksmith_random_008 = \
+      "~kQuintor says, \"Can I show you anything in particular?\""
+   jasperblacksmith_random_009 = \
+      "~kQuintor says, \"The people of Jasper were once completely "
+      "independent of the rest of Meridian, with our own laws, and "
+      "government. In the time of my great grandfather we were a separate "
+      "state, with an appointed Warlord called a Wryn. You can still see the "
+      "warlord's fortress, The Wryn's Keep, at the edge of town, although "
+      "now it is rented to outsiders by some businessman in ~IBarloque~I.\""
+   jasperblacksmith_random_010 = \
+      "~kQuintor says, \"I am in the business of selling metalware. Is there "
+      "something specific you are wondering about?\""
+   jasperblacksmith_random_011 = \
+      "~kQuintor says, \"You must be new to these parts.\""
+   jasperblacksmith_random_012 = \
+      "~kQuintor says, \"You look a little lightly armed to be traveling in "
+      "these mountains, stranger. Even the idiots in this town know that "
+      "these hills are perilous, and you won't get any second chances.\""
+   jasperblacksmith_random_013 = "~kQuintor says, \"What do you need?\""
+   jasperblacksmith_random_014 = \
+      "~kQuintor says, \"Are you here about some specific business, "
+      "stranger?\""
+   jasperblacksmith_random_015 = \
+      "~kQuintor says, \"Mending a weapon with magic reduces the lifespan of "
+      "that weapon. Put off mends as long as possible.\""
+   jasperblacksmith_random_016 = \
+      "~kQuintor says, \"Better spellcasters will damage your weapons less "
+      "when they mend them, but mending is very hard on a weapon's overall "
+      "life.\""
+   jasperblacksmith_random_017 = \
+      "~kQuintor says, \"Some creatures, like the scorpion, get a taste for "
+      "your blood in the fight. They will not rest until you either run and "
+      "hide or until one of you is dead.\""
+   jasperblacksmith_random_018 = \
+      "~kQuintor hisses, \"Are you stupid? I am asking you to leave.\""
+   jasperblacksmith_random_019 = \
+      "~kQuintor says, \"I am too busy to waste another moment on you. Get "
+      "you gone.\""
+   jasperblacksmith_random_020 = \
+      "~kQuintor says, \"You waste my time, beggar. Be on your way.\""
+   jasperblacksmith_trigger_afiera = "afiera"
+   jasperblacksmith_trigger_afiera_d_xor = "afiera d'xor"
+   jasperblacksmith_trigger_afiera_xor = "afiera xor"
+   jasperblacksmith_trigger_axe = "axe"
+   jasperblacksmith_trigger_b_hob = "b'hob"
+   jasperblacksmith_trigger_barloque = "barloque"
+   jasperblacksmith_trigger_bye = "bye"
+   jasperblacksmith_trigger_cor_noth = "cor noth"
+   jasperblacksmith_trigger_council = "council"
+   jasperblacksmith_trigger_dagger = "dagger"
+   jasperblacksmith_trigger_duke = "duke"
+   jasperblacksmith_trigger_frular = "frular"
+   jasperblacksmith_trigger_hammer = "hammer"
+   jasperblacksmith_trigger_hello = "hello"
+   jasperblacksmith_trigger_jasper = "jasper"
+   jasperblacksmith_trigger_mace = "mace"
+   jasperblacksmith_trigger_marion = "marion"
+   jasperblacksmith_trigger_mining = "mining"
+   jasperblacksmith_trigger_orc = "orc"
+   jasperblacksmith_trigger_pietro = "pietro"
+   jasperblacksmith_trigger_princess = "princess"
+   jasperblacksmith_trigger_pupil = "pupil"
+   jasperblacksmith_trigger_scimitar = "scimitar"
+   jasperblacksmith_trigger_buy = "buy"
+   jasperblacksmith_trigger_sell = "sell"
+   jasperblacksmith_trigger_sword = "sword"
+   jasperblacksmith_trigger_teach = "teach"
+   jasperblacksmith_trigger_learn = "learn"
+   jasperblacksmith_trigger_learn_2 = "learn"
+   jasperblacksmith_trigger_tos = "tos"
+   jasperblacksmith_trigger_whiskey = "whiskey"
+   jasperblacksmith_trigger_widow = "widow"
+   jasperblacksmith_trigger_widow_qesino = "widow qesino"
+   jasperblacksmith_trigger_witwe_qesino = "witwe qesino"
+   jasperblacksmith_trigger_wife = "wife"
+   jasperblacksmith_trigger_yevitan = "yevitan"
+   jasperblacksmith_trigger_zhieu_b_hob = "zhieu b'hob"
+   jasperblacksmith_trigger_bob = "bob"
+
+   // JasperElder (Afiera D'xor)
+   jasperelder_speech_001 = \
+      "~kAfiera D'xor says, \"A gentle creature if avoided completely.\""
+   jasperelder_speech_002 = \
+      "~kAfiera D'xor says, \"Goodbye. Come back another time.\""
+   jasperelder_speech_003 = \
+      "~kAfiera D'xor says, \"I lead a simple life here, with my people and "
+      "my art.\""
+   jasperelder_speech_004 = \
+      "~kAfiera D'xor says, \"A beautiful city, though I haven't been there "
+      "for some years.\""
+   jasperelder_speech_005 = \
+      "~kAfiera D'xor says, \"I have no use for the place.\""
+   jasperelder_speech_006 = \
+      "~kAfiera D'xor says, \"We have much to learn from the mistakes of the "
+      "past.  Brax was a terrible mistake, but what have we learned?\""
+   jasperelder_speech_007 = \
+      "~kAfiera D'xor says, \"You must come back and see me soon.\""
+   jasperelder_speech_008 = "~kAfiera D'xor says, \"Yes, goodbye.\""
+   jasperelder_speech_009 = \
+      "~kAfiera D'xor seems to have forgotten that you are here at all."
+   jasperelder_speech_010 = "~kAfiera D'xor says, \"Simple creatures.\""
+   jasperelder_speech_011 = \
+      "~kAfiera D'xor says, \"Take some responsibility and go find out for "
+      "yourself.\""
+   jasperelder_speech_012 = \
+      "~kAfiera D'xor says, \"Lovely place, if I remember correctly.\""
+   jasperelder_speech_013 = \
+      "~kAfiera D'xor says, \"As far as a construct of this civilization "
+      "goes, it's not a bad one.\""
+   jasperelder_speech_014 = \
+      "~kAfiera D'xor says, \"Is that where you've come from?\""
+   jasperelder_speech_015 = \
+      "~kAfiera D'xor says, \"A bunch of pretty smart people. But so are "
+      "goat thieves, bartenders, and street urchins.\""
+   jasperelder_speech_016 = \
+      "~kAfiera D'xor says, \"In truth there is but one pool of magic, which "
+      "is drawn upon from every side, simple. Once you understand that, it "
+      "is not overly difficult to disrupt those connections by simply "
+      "disrupting that pool. Splash around a bit... \""
+   jasperelder_speech_017 = \
+      "~kAfiera D'xor says, \"Come back another time and we shall talk. I "
+      "cannot help you now.\""
+   jasperelder_speech_018 = \
+      "~kAfiera D'xor says, \"Those who wish to follow such a pretender both "
+      "strengthen his resolve to pursue the crown and validate his claim to "
+      "it.\""
+   jasperelder_speech_019 = \
+      "~kAfiera D'xor says, \"Politicians come and then pass as the seasons "
+      "pass. Who is the Duke but a man among his fellow citizens?\""
+   jasperelder_speech_020 = \
+      "~kAfiera D'xor says, \"He makes a fine politician, but would he truly "
+      "make a good king?\""
+   jasperelder_speech_021 = \
+      "~kAfiera D'xor says, \"Faren is the closest deity to the source of "
+      "all power, and he is on the rise. I know this. Beneath all lies "
+      "chaos, and beneath chaos, Faren. That is all that I will say.\""
+   jasperelder_speech_022 = \
+      "~kAfiera D'xor says, \"I have spent a large portion of my life "
+      "studying the ways of this world, of the natural orders, and have "
+      "learned some small and overall meaningless tricks to help me survive. "
+      "Many attribute the mastery of these tricks to Faren, and Faren magic, "
+      "but I know better, do you understand? There is but one magic. Only "
+      "one, from which all sources are drawn.\""
+   jasperelder_speech_023 = \
+      "~kAfiera D'xor says, \"You must leave now. Our conversation is over "
+      "for today.\""
+   jasperelder_speech_024 = "~kAfiera D'xor says, \"Come in, %s.\""
+   jasperelder_speech_025 = \
+      "~kAfiera D'xor says, \"Yes? Who is it? Step closer so that I might "
+      "see you.\""
+   jasperelder_speech_026 = \
+      "~kAfiera D'xor doesn't seem to have noticed that you are even here."
+   jasperelder_speech_027 = \
+      "~kAfiera D'xor says, \"They are a little better than the "
+      "necromancers, if you ask me.\""
+   jasperelder_speech_028 = \
+      "~kAfiera D'xor says, \"That is a tool of death. Let us hope the "
+      "hunters have at least a little morality left.\""
+   jasperelder_speech_029 = \
+      "~kAfiera D'xor says, \"Jala's true secret has yet to unfold. I have "
+      "spent my life in thought and meditation over the fate of the Jala, "
+      "and the fates of art and of music... I can tell you with confidence "
+      "that Jala is not dead. I cannot pretend to know where she is, for she "
+      "is the most mysterious and elusive of our deities... but I can tell "
+      "you that she has shown me that she will return when the time is "
+      "right.\""
+   jasperelder_speech_030 = \
+      "~kAfiera D'xor says, \"If you are going to study the ways of the "
+      "earth along the path of a god, then you must look carefully at all of "
+      "the gods, for all are equally necessary to complete the design. Do "
+      "not forget Jala, whom many say is dead. How can art be dead? Music? "
+      "Do not believe half of this talk. Look around, tell me what's true.\""
+   jasperelder_speech_031 = \
+      "~kAfiera D'xor says, \"I am tired now. Please go.\""
+   jasperelder_speech_032 = "~kAfiera D'xor says, \"Here you have it.\""
+   jasperelder_speech_033 = \
+      "~kAfiera D'xor says, \"Look around for yourself.\""
+   jasperelder_speech_034 = \
+      "~kAfiera D'xor says, \"Well, what do you think? Go out there and look "
+      "around, you are capable of coming to your own conclusions.\""
+   jasperelder_speech_035 = \
+      "~kAfiera D'xor says, \"A good man at heart, if a little too "
+      "determined, but he would make a sound ruler, if he can just get past "
+      "his need for vengeance that is.\""
+   jasperelder_speech_036 = \
+      "~kAfiera D'xor says, \"Have you two been introduced?\""
+   jasperelder_speech_037 = \
+      "~kAfiera D'xor says, \"He's probably in the bar talking grand "
+      "strategy, go find him and ask.\""
+   jasperelder_speech_038 = \
+      "~kAfiera D'xor says, \"There may come a point when we must face the "
+      "Lich in battle. Now is the time to find out as much as we can about "
+      "our enemy.\""
+   jasperelder_speech_039 = \
+      "~kAfiera D'xor says, \"Conjuring an attack of lightning is a power "
+      "that I learned from the many years that I spent among the tree folk. "
+      "I am not averse to passing it on to those with a capacity to "
+      "understand, and to utilize the power for what it is.\""
+   jasperelder_speech_040 = \
+      "~kAfiera D'xor says, \"I don't have time for this now.\""
+   jasperelder_speech_041 = \
+      "~kAfiera D'xor says, \"I have not been to Marion in a very long "
+      "time.\""
+   jasperelder_speech_042 = \
+      "~kAfiera D'xor says, \"Tell me, what is it like these days, Marion?\""
+   jasperelder_speech_043 = \
+      "~kAfiera D'xor seems to be thinking of something else."
+   jasperelder_speech_044 = \
+      "~kAfiera D'xor says, \"The pendant is a center of power for the "
+      "necromancer. It could also be a point of vulnerability. Understand "
+      "that, and there may be a way to destroy them. Make no mistake, for "
+      "they want the same.\""
+   jasperelder_speech_045 = \
+      "~kAfiera D'xor says, \"Destroy them at any cost.\""
+   jasperelder_speech_046 = \
+      "~kAfiera D'xor says, \"An ancient and venerable civilization, "
+      "completely misunderstood by our limited end/means sensibilities. But "
+      "they have also perpetuated these myths. I fear we shall never find "
+      "the truth, which is not that the orcs are bad and we are good, or "
+      "right, but that we are scared to death that our world will become "
+      "something new tomorrow. Even though it must.\""
+   jasperelder_speech_047 = "~kAfiera D'xor says, \"Leave me now.\""
+   jasperelder_speech_048 = "~kAfiera D'xor says, \"Ho hum.\""
+   jasperelder_speech_049 = \
+      "~kAfiera D'xor says, \"Yes, I spoke with her once, a very long time "
+      "ago. I don't doubt that she has honorable intentions, but I don't "
+      "think that she has the will for the undertaking of leadership.\""
+   jasperelder_speech_050 = \
+      "~kAfiera D'xor says, \"Take your questions to her then.\""
+   jasperelder_speech_051 = \
+      "~kAfiera D'xor says, \"Forgive me, but I have no time for a pupil "
+      "right now. You must leave.\""
+   jasperelder_speech_052 = \
+      "~kAfiera D'xor says, \"Rats are in conflict with us humans "
+      "essentially because we are both scavengers, competing for the same "
+      "limited piles of garbage and waste.\""
+   jasperelder_speech_053 = "~kAfiera D'xor says, \"Rat?\""
+   jasperelder_speech_054 = \
+      "~kAfiera D'xor says, \"The spiders have their own purpose. Can you "
+      "really blame them for the appearance of hostility when to them you "
+      "look like a walking meat pie? They are great hunters.\""
+   jasperelder_speech_055 = \
+      "~kAfiera D'xor says, \"I cannot talk any more now. Please leave me.\""
+   jasperelder_speech_056 = \
+      "~kAfiera D'xor says, \"I wish the poor man had achieved his goal all "
+      "those years ago.  Then we would not have to deal with these "
+      "tribulations today.\""
+   jasperelder_speech_057 = "~kAfiera D'xor says, \"Yes, Tos.\""
+   jasperelder_speech_058 = \
+      "~kAfiera D'xor says, \"Tos? I'm afraid I don't know very much about "
+      "the city itself.\""
+   jasperelder_speech_059 = \
+      "~kAfiera D'xor says, \"The very center of nonsense in this place.\""
+   jasperelder_speech_060 = \
+      "~kAfiera D'xor says, \"The tree folk have been upon this land for "
+      "many millennia, and have discovered ways to maintain peace and to "
+      "pass existence by their own terms.\""
+   jasperelder_speech_061 = \
+      "~kAfiera D'xor says, \"I will not speak with you any further today, I "
+      "must return to my work.\""
+   jasperelder_speech_062 = \
+      "~kAfiera D'xor says, \"Do you know anyone who has ever spoken with a "
+      "troll? It isn't likely. Not that they are what we would really "
+      "consider to be interesting conversationalists, sitting here, the two "
+      "of us. They aren't, by our standards, particularly quick, or keen. "
+      "The point is that we don't even try, even those that purport to "
+      "identify with Shal'ille and the ways of healing are all too ready to "
+      "fight rather than trying to understand. We don't want to hear their "
+      "answers, so we don't even bother to speak to them at all.\""
+   jasperelder_speech_063 = \
+      "~kAfiera D'xor says, \"I don't have anything to say to you at all.\""
+   jasperelder_speech_064 = "~kAfiera D'xor says, \"What of her?\""
+   jasperelder_speech_065 = \
+      "~kAfiera D'xor says, \"I believe that the yeti is both guardian and "
+      "messenger. But what message? They are solitary creatures.\""
+   jasperelder_speech_066 = \
+      "~kAfiera D'xor says, \"Yeti? Forgive me, but my concentration is "
+      "elsewhere. You must leave now.\""
+   jasperelder_random_001 = \
+      "~kAfiera D'xor says, \"Those councilors are trying to reopen the "
+      "ancient Nexus with the tokens. I'm not so sure that's a good idea. "
+      "Who knows what will happen when those tokens are brought together? "
+      "They ought to be ready to call the attention of the gods when that "
+      "happens.\""
+   jasperelder_random_002 = \
+      "~kAfiera D'xor says, \"Old Alzahakar is a wise man. A great magician, "
+      "and a learned man of many, many books. Perhaps he can help you find a "
+      "way into your own secret reserves. There is potential that resides "
+      "within, which even now is waiting for the winter surrounding you to "
+      "retreat.\""
+   jasperelder_random_003 = \
+      "~kAfiera D'xor says, \"Jala is not dead unless she is forgotten "
+      "completely. She is not dead as long as we keep her alive.\""
+   jasperelder_random_004 = "~kAfiera D'xor says, \"Enjoy yourself.\""
+   jasperelder_random_005 = \
+      "~kAfiera D'xor says, \"Be who you want to be. This, all of this, is "
+      "just a game. Just a game. It's as important as you want it to be.\""
+   jasperelder_random_006 = \
+      "~kAfiera D'xor says, \"Find your place and go there. Take your time, "
+      "and think about what is happening in your life. It is really quite "
+      "simple.\""
+   jasperelder_random_007 = \
+      "~kAfiera D'xor says, \"Do you smell something funny?\""
+   jasperelder_random_008 = \
+      "~kAfiera D'xor says, \"The treefolk have an old saying for those that "
+      "speak the tongue. They say 'Today is the forest fire, and tomorrow "
+      "the ashes.' They lived only in nightmares, and visions. So there will "
+      "be a time when all of this passes too, and our dreams now will then "
+      "replace this dream, and on, and on.\""
+   jasperelder_random_009 = \
+      "~kAfiera D'xor says, \"Be wary in choosing your enemies when the "
+      "chances to pick them for yourself are afforded. If the choice is "
+      "never there, then make sure whatever enemies you have don't forget "
+      "you until they are dead.\""
+   jasperelder_random_010 = \
+      "~kAfiera D'xor says, \"I have never had any money, nor any interest "
+      "in the stuff. There are too many I know that follow money above all "
+      "else, convinced that just to have a little more will truly save them, "
+      "once and for all... \""
+   jasperelder_random_011 = \
+      "~kAfiera D'xor says, \"It is often better to avoid trouble as it "
+      "approaches. Step around it, let it pass. That is the wisdom of an old "
+      "man, but one who continues to live and to get older.\""
+   jasperelder_random_012 = \
+      "~kAfiera D'xor says, \"You could devote your life to studying the "
+      "tokens. Many have. You could also devote your life to chasing your "
+      "own tail, so to speak. It is a mistake to believe that we can "
+      "understand something just through learned observation, without "
+      "delving into the pattern behind it, the grand pattern. Imagination. "
+      "Meaning.\""
+   jasperelder_random_013 = \
+      "~kAfiera D'xor says, \"It isn't as though we have a choice about art, "
+      "or music. It is just as much a part of our existence as speaking and "
+      "listening are.\""
+   jasperelder_random_014 = \
+      "~kAfiera D'xor says, \"You have come a long way to be here, I can see "
+      "that.\""
+   jasperelder_random_015 = \
+      "~kAfiera D'xor says, \"You can go wherever you wish by fighting your "
+      "way in, or if you are clever enough you can get to the same places by "
+      "avoiding violence and stepping around trouble. There are innumerable "
+      "ways to achieve exactly what you want in this world, my friend.\""
+   jasperelder_random_016 = \
+      "~kAfiera D'xor says, \"Don't sweat over the little things... "
+      "inconveniences, petty slights. There is real tragedy and heartache "
+      "enough to go around.\""
+   jasperelder_random_017 = \
+      "~kAfiera D'xor says, \"Do you know that the orc have a culture that "
+      "predates our own by a thousand years? I have seen some of the "
+      "artistic achievements of their people, and count myself fortunate for "
+      "the insight. For all the outward signs of hostility and apparent "
+      "ignorance to our own realities, the orc tribes have a cultural "
+      "sophistication that we seem incapable of comprehending.\""
+   jasperelder_random_018 = \
+      "~kAfiera D'xor says, \"Blessed be Shal'ille, who is gentle and "
+      "compassionate.\""
+   jasperelder_random_019 = \
+      "~kAfiera D'xor says, \"All hail Jala, our lady of art, of song, and "
+      "of truth.\""
+   jasperelder_random_020 = \
+      "~kAfiera D'xor says, \"Honor Faren, who finds a pattern in the chaos "
+      "of this world.\""
+   jasperelder_random_021 = \
+      "~kAfiera D'xor says, \"Welcome Riija, who honors us with remembrance "
+      "and vision.\""
+   jasperelder_random_022 = \
+      "~kAfiera D'xor says, \"Behold Mighty Kraanan, admirable in his "
+      "strength and his furious action.\""
+   jasperelder_random_023 = \
+      "~kAfiera D'xor says, \"Praise to Qor, who seeks undoing.\""
+   jasperelder_random_024 = "~kAfiera D'xor says, \"Who are you?\""
+   jasperelder_random_025 = "~kAfiera D'xor says, \"What do you seek?\""
+   jasperelder_random_026 = \
+      "~kAfiera D'xor says, \"History does not repeat itself, historians "
+      "tend to repeat each other.\""
+   jasperelder_random_027 = \
+      "~kAfiera D'xor says, \"The music of the earth is a source of magic in "
+      "and of itself.\""
+   jasperelder_random_028 = \
+      "~kAfiera D'xor says, \"There are secrets beyond the ocean, beyond the "
+      "mountains, beyond our settlement towns and cities certainly. Secrets "
+      "that uncover themselves in time, and time.\""
+   jasperelder_random_029 = \
+      "~kAfiera D'xor says, \"You came here to see an old man, and now you "
+      "have seen me. Why don't you make yourself comfortable there while I "
+      "work. I will tell you what I can.\""
+   jasperelder_random_030 = \
+      "~kAfiera D'xor says, \"The so-called tokens are relics from a bygone "
+      "era, from an intelligence that passed over this land so many "
+      "generations before we came here to dream that nothing remains of them "
+      "but souvenirs, trinkets beyond our imaginations.\""
+   jasperelder_random_031 = \
+      "~kAfiera D'xor says, \"Did you know that the trolls have a heritage "
+      "all of their own, a history that is both rich and exclusive of ours "
+      "as our history is exclusive of them?\""
+   jasperelder_random_032 = \
+      "~kAfiera D'xor says, \"There are no easy answers.\""
+   jasperelder_random_033 = \
+      "~kAfiera D'xor says, \"Life is in the process of happening all around "
+      "you, right? What are you waiting for?\""
+   jasperelder_random_034 = \
+      "~kAfiera D'xor says, \"Stay. Rest. We shall talk by and by.\""
+   jasperelder_random_035 = \
+      "~kAfiera D'xor says, \"Look around and you'll find your own way. You "
+      "have time, if you wish to.\""
+   jasperelder_random_036 = \
+      "~kAfiera D'xor says, \"The dead rise in Tos because we will it so, "
+      "you see, most of our perceived enemies are thus... inventions, "
+      "fancies of the collective imagination.\""
+   jasperelder_random_037 = \
+      "~kAfiera D'xor says, \"They say that the King has been gone from his "
+      "throne these many years, and that many calamities have befallen the "
+      "land because of this. What nonsense! This world follows its own "
+      "indescribable path, and nothing may alter that. Kings and Queens are "
+      "the personification of our vanity, no more.\""
+   jasperelder_random_038 = \
+      "~kAfiera D'xor says, \"It is not enough to create, we must create "
+      "with risks. From great conflicts come the most powerful surges of "
+      "creativity, and people aren't happy unless they're miserable. Do you "
+      "follow me?\""
+   jasperelder_random_039 = \
+      "~kAfiera D'xor says, \"There is no right and wrong among the gods. "
+      "All are equal, all are necessary. Honor their purpose, all.\""
+   jasperelder_random_040 = \
+      "~kAfiera D'xor says, \"The Living Tree, being a magical creature, "
+      "sets its own rules for survival in many cases. A truce spell can take "
+      "no hold upon them.\""
+   jasperelder_random_041 = \
+      "~kAfiera D'xor says, \"Maleval the Sorcerer has progressed his magic "
+      "beyond the scope of what has yet been imagined. He is playing with "
+      "the proverbial fire! He has told me that he can teach his sporeburst "
+      "spell to a student of Qor who is ready to take that step toward "
+      "Faren!\""
+   jasperelder_random_042 = \
+      "~kAfiera D'xor says, \"I have heard talk that a single Yrx'l Tree has "
+      "been identified upon Konima's Island. Having seen the branches and "
+      "leaves myself, I suspect that that is indeed what it is, although I "
+      "know the tree only from legend.\""
+   jasperelder_random_043 = \
+      "~kAfiera D'xor says, \"I believe that our conversation is over for "
+      "now. Come and see me another time.\""
+   jasperelder_random_044 = \
+      "~kAfiera D'xor says, \"People are basically stupid.\""
+   jasperelder_random_045 = \
+      "~kAfiera D'xor says, \"Go out there and fight for your living, if "
+      "that's what you must do. It's easier than thinking, right?\""
+   jasperelder_random_046 = \
+      "~kAfiera D'xor says, \"Please leave me now. I must return to my "
+      "carving.\""
+   jasperelder_random_047 = \
+      "~kAfiera D'xor says, \"I have nothing else to share with you now.\""
+   jasperelder_random_048 = \
+      "~kAfiera D'xor says, \"I must get back to my work now.\""
+   jasperelder_random_049 = "~kAfiera D'xor says, \"What do you understand?\""
+   jasperelder_random_050 = \
+      "~kAfiera D'xor says, \"You can see yourself out.\""
+   jasperelder_trigger_ant = "ant"
+   jasperelder_trigger_barloque = "barloque"
+   jasperelder_trigger_brax = "brax"
+   jasperelder_trigger_bye = "bye"
+   jasperelder_trigger_centipede = "centipede"
+   jasperelder_trigger_cor_noth = "cor noth"
+   jasperelder_trigger_council = "council"
+   jasperelder_trigger_dement = "dement"
+   jasperelder_trigger_duke = "duke"
+   jasperelder_trigger_faren = "faren"
+   jasperelder_trigger_hello = "hello"
+   jasperelder_trigger_hunter = "hunter"
+   jasperelder_trigger_hunter_sword = "hunter sword"
+   jasperelder_trigger_jala = "jala"
+   jasperelder_trigger_jasper = "jasper"
+   jasperelder_trigger_jonas = "jonas"
+   jasperelder_trigger_lich = "lich"
+   jasperelder_trigger_lightning = "lightning"
+   jasperelder_trigger_marion = "marion"
+   jasperelder_trigger_necromancer = "necromancer"
+   jasperelder_trigger_orc = "orc"
+   jasperelder_trigger_princess = "princess"
+   jasperelder_trigger_pupil = "pupil"
+   jasperelder_trigger_rat = "rat"
+   jasperelder_trigger_spider = "spider"
+   jasperelder_trigger_tendrath = "tendrath"
+   jasperelder_trigger_tos = "tos"
+   jasperelder_trigger_tree_folk = "tree folk"
+   jasperelder_trigger_troll = "troll"
+   jasperelder_trigger_venya_cyr = "venya'cyr"
+   jasperelder_trigger_yeti = "yeti"
+
+   // JasperInnKeeper (Widow Qesino)
+   jasperinnkeeper_speech_001 = \
+      "~kThe Widow Qesino says, \"Yes, he is a longtime resident of Jasper.\""
+   jasperinnkeeper_speech_002 = \
+      "~kThe Widow Qesino says, \"An ~Iassassin~I? Who was assassinated?\""
+   jasperinnkeeper_speech_003 = \
+      "~kThe Widow Qesino says, \"I know that Barloque is the home of "
+      "Meridian's royal family. Our own Yevitan, at the Royal Bank here in "
+      "Jasper, was a close advisor to King Zarcos IV and lived there for "
+      "many years before he came back to Jasper.\""
+   jasperinnkeeper_speech_004 = \
+      "~kThe Widow Qesino says, \"Although I have yet to travel to Barloque, "
+      "it is sure to be very grand.\""
+   jasperinnkeeper_speech_005 = \
+      "~kThe Widow Qesino says, \"Oh, no, you mustn't leave now... it isn't "
+      "safe to travel the mountains at night.\""
+   jasperinnkeeper_speech_006 = "~kThe Widow Qesino says, \"Good %s to you.\""
+   jasperinnkeeper_speech_007 = \
+      "~kThe Widow Qesino says, \"I'm fresh out of chicken soup. Would you "
+      "care for a bowl of faroni stew?\""
+   jasperinnkeeper_speech_008 = \
+      "~kThe Widow Qesino says, \"Cor Noth is due north and on the plains. "
+      "They are very idealistic people there.\""
+   jasperinnkeeper_speech_009 = \
+      "~kThe Widow Qesino says, \"I'm afraid I've never been to Cor Noth. "
+      "I'm sure it is a very decent place.\""
+   jasperinnkeeper_speech_010 = \
+      "~kThe Widow Qesino says, \"They are very wise, I know that, but what "
+      "can they do for all these troubles? People need to take more on "
+      "themselves, take control of their own lives.\""
+   jasperinnkeeper_speech_011 = \
+      "~kThe Widow Qesino says, \"The politics of the council are far "
+      "removed from the simple life we lead in Jasper.\""
+   jasperinnkeeper_speech_012 = \
+      "~kThe Widow Qesino says, \"I shed no tears for Kalior.\""
+   jasperinnkeeper_speech_013 = \
+      "~kThe Widow Qesino snorts, \"I'm sure we're just an after-thought to "
+      "him, if he thinks of us at all.\""
+   jasperinnkeeper_speech_014 = \
+      "~kThe Widow Qesino says, \"That whelp thought he had his hold on us "
+      "didn't he. He found out the hard way that he was dead wrong.\""
+   jasperinnkeeper_speech_015 = \
+      "~kThe Widow Qesino says, \"What are you talking about, anyway?\""
+   jasperinnkeeper_speech_016 = "~kThe Widow Qesino smiles at you warmly."
+   jasperinnkeeper_speech_017 = "~kThe Widow Qesino says, \"Welcome.\""
+   jasperinnkeeper_speech_018 = \
+      "~kThe Widow Qesino says, \"Come in and warm yourself near the fire.\""
+   jasperinnkeeper_speech_019 = \
+      "~kThe Widow Qesino says, \"My husband disappeared some time ago. He "
+      "has been missing these many months, and they told me he was presumed "
+      "dead when they gave up the search.\""
+   jasperinnkeeper_speech_020 = "~kThe Widow Qesino says, \"I am a widow.\""
+   jasperinnkeeper_speech_021 = \
+      "~kThe Widow Qesino says, \"This town will make a name for itself yet. "
+      " Now that we have Jonas and his rebels here they can't just ignore us "
+      "any longer.\""
+   jasperinnkeeper_speech_022 = \
+      "~kThe Widow Qesino says, \"The talk is really picking up here. I "
+      "wonder if there will be action behind those words.\""
+   jasperinnkeeper_speech_023 = \
+      "~kThe Widow Qesino says, \"He's a good man at heart, almost fits in "
+      "with us mountain folk.\""
+   jasperinnkeeper_speech_024 = \
+      "~kThe Widow Qesino says, \"I'm not really sure if he is our salvation "
+      "or latest downfall, it's a tossup really.\""
+   jasperinnkeeper_speech_025 = \
+      "~kThe Widow Qesino says, \"Who got ~Ikilled~I?\""
+   jasperinnkeeper_speech_026 = \
+      "~kThe Widow Qesino says, \"My sister and her husband settled in "
+      "Marion after the mines closed. It is a lovely town. The people there "
+      "are very witty, yes, always making jokes.\""
+   jasperinnkeeper_speech_027 = \
+      "~kThe Widow Qesino says, \"Marion is just out of the mountains, on "
+      "the other side of the great forest of Farol. Yes, some of the farmers "
+      "from those parts come up to Jasper regularly to sell their goods at "
+      "market.\""
+   jasperinnkeeper_speech_028 = \
+      "~kThe Widow Qesino says, \"From what folks tell me, she's just a "
+      "lonely, lost child looking for someone to show her some love.\""
+   jasperinnkeeper_speech_029 = \
+      "~kThe Widow Qesino says, \"She's only a little girl that nobody "
+      "listens to anyway. What would you do if people pestered you like "
+      "that?\""
+   jasperinnkeeper_speech_030 = \
+      "~kThe Widow Qesino says, \"And what if she really is telling the "
+      "truth.  Who would care anyway?\""
+   jasperinnkeeper_speech_031 = \
+      "~kThe Widow Qesino says, \"If she's not from around here, then I "
+      "don't care.\""
+   jasperinnkeeper_speech_032 = \
+      "~kThe Widow Qesino says, \"Out with you, before you bring misfortune "
+      "into my house. Off with you, shoo!\""
+   jasperinnkeeper_speech_033 = \
+      "~kThe Widow Qesino says, \"Murder? Someone was ~Imurdered~I?\""
+   jasperinnkeeper_speech_034 = \
+      "~kThe Widow Qesino says, \"I've already sent out all my "
+      "correspondences for the day.\""
+   jasperinnkeeper_speech_035 = \
+      "~kThe Widow Qesino says, \"She says we should ask the council, heh, "
+      "but honestly, I never believed those slimeballs. I always figured "
+      "they were hiding something.\""
+   jasperinnkeeper_speech_036 = \
+      "~kThe Widow Qesino says, \"Us mountain folk get by fine without all "
+      "the extras; if something gets taken from us, we just live without it. "
+      "It's kind of funny, somehow, watching them all, completely beside "
+      "themselves, just over those silly mana nodes.\""
+   jasperinnkeeper_speech_037 = \
+      "~kThe Widow Qesino says, \"Yes, the orcs cause many problems for "
+      "those who must travel in these mountains.\""
+   jasperinnkeeper_speech_038 = \
+      "~kThe Widow Qesino says, \"Yes, Pietro... well, he has a little "
+      "problem with his drinking.\""
+   jasperinnkeeper_speech_039 = \
+      "~kThe Widow Qesino says, \"He runs the tavern. He should still be "
+      "open, you'll find it just up the street.\""
+   jasperinnkeeper_speech_040 = \
+      "~kThe Widow Qesino says, \"Bless her heart, she is left to look after "
+      "the throne when the land is in such a ~Imess~I, from what I "
+      "understand. Goes to show you that happiness does not come with great "
+      "wealth and power.\""
+   jasperinnkeeper_speech_041 = \
+      "~kThe Widow Qesino says, \"She seems very kind, naive, but kind.\""
+   jasperinnkeeper_speech_042 = \
+      "~kThe Widow Qesino says, \"Can't much see her highness hiking up her "
+      "skirts and strolling through the mountains to Jasper.\""
+   jasperinnkeeper_speech_043 = \
+      "~kThe Widow Qesino says, \"Yes, Quintor is the blacksmith in Jasper. "
+      "His shop is just across the way, if you need any metalwork.\""
+   jasperinnkeeper_speech_044 = \
+      "~kThe Widow Qesino says, \"Yes, he is a boarder here and he runs the "
+      "blacksmith shop just across the way. A very fine blacksmith too, as "
+      "you can see for yourself, he has made many of the things here at the "
+      "inn.\""
+   jasperinnkeeper_speech_045 = \
+      "~kThe Widow Qesino says, \"It's about time Jasper had a regular "
+      "militia, specially with all them city folk wandering about as of "
+      "late.\""
+   jasperinnkeeper_speech_046 = \
+      "~kThe room goes silent as %s mentions stunted dwarf."
+   jasperinnkeeper_speech_047 = \
+      "~kThe Widow Qesino says, \"Yevitan at the Royal Bank here in Jasper "
+      "used to work closely with another bank, which is in Tos. You can do "
+      "business with either one. My late husband didn't trust Yevitan, and "
+      "would make the trip to Tos just to conduct business. He... well, when "
+      "he left here for Tos the last time, he went missing. Never showed up "
+      "in Tos, and no one has seen him here.\""
+   jasperinnkeeper_speech_048 = \
+      "~kThe Widow Qesino says, \"Yes, it's a big city north of here some "
+      "distance. My late husband frequently traveled there on business.\""
+   jasperinnkeeper_speech_049 = \
+      "~kThe Widow Qesino says, \"Trolls are ~Ivery~I wicked.\""
+   jasperinnkeeper_speech_050 = \
+      "~kThe Widow Qesino says, \"He is a very clever businessman, he was "
+      "once a close advisor to the King on such matters. That is quite an "
+      "accomplishment for someone from Jasper, because we are looked down "
+      "upon by the people from other towns.\""
+   jasperinnkeeper_speech_051 = \
+      "~kThe Widow Qesino says, \"Yes, that is the banker in Jasper. An "
+      "honest man.\""
+   jasperinnkeeper_speech_052 = \
+      "~kThe Widow Qesino says, \"Do you know him?\""
+   jasperinnkeeper_random_001 = \
+      "~kThe Widow Qesino says, \"You won't have much trouble with the rats "
+      "and the baby spiders you will see in these parts, but be very careful "
+      "of the trolls and the orcs!\""
+   jasperinnkeeper_random_002 = \
+      "~kThe Widow Qesino says, \"There now, don't you feel better for "
+      "havin' eaten?\""
+   jasperinnkeeper_random_003 = "~kThe Widow Qesino says, \"Bless you.\""
+   jasperinnkeeper_random_004 = \
+      "~kThe Widow Qesino says, \"I can make you something to eat if you are "
+      "hungry. \""
+   jasperinnkeeper_random_005 = \
+      "~kThe Widow Qesino says, \"When you need to rest and get your "
+      "strength back, go to an inn. You are safe here.\""
+   jasperinnkeeper_random_006 = \
+      "~kThe Widow Qesino says, \"Are you sure that you're not hungry? I've "
+      "just done the shopping, and you look as though you could use a good "
+      "meal.\""
+   jasperinnkeeper_random_007 = \
+      "~kThe Widow Qesino says, \"You look as though you've come a long way. "
+      "I'm sure that Jasper must seem quite backwards to you.\""
+   jasperinnkeeper_random_008 = \
+      "~kThe Widow Qesino says, \"Are you warming up? Let me stoke the fire "
+      "a bit.\""
+   jasperinnkeeper_random_009 = \
+      "~kThe Widow Qesino says, \"You'll catch a chill in these mountains at "
+      "night.\""
+   jasperinnkeeper_random_010 = \
+      "~kThe Widow Qesino says, \"Can I get you anything?\""
+   jasperinnkeeper_random_011 = \
+      "~kThe Widow Qesino says, \"I want you to leave my inn.\""
+   jasperinnkeeper_random_012 = \
+      "~kThe Widow Qesino says, \"You must leave here.\""
+   jasperinnkeeper_trigger_afiera_d_xor = "afiera d'xor"
+   jasperinnkeeper_trigger_afiera_xor = "afiera xor"
+   jasperinnkeeper_trigger_assassin = "assassin"
+   jasperinnkeeper_trigger_barloque = "barloque"
+   jasperinnkeeper_trigger_bye = "bye"
+   jasperinnkeeper_trigger_chicken_soup = "chicken soup"
+   jasperinnkeeper_trigger_cor_noth = "cor noth"
+   jasperinnkeeper_trigger_council = "council"
+   jasperinnkeeper_trigger_duke = "duke"
+   jasperinnkeeper_trigger_fate = "fate"
+   jasperinnkeeper_trigger_hello = "hello"
+   jasperinnkeeper_trigger_husband = "husband"
+   jasperinnkeeper_trigger_husband_2 = "husband"
+   jasperinnkeeper_trigger_jasper = "jasper"
+   jasperinnkeeper_trigger_jonas = "jonas"
+   jasperinnkeeper_trigger_kill = "kill"
+   jasperinnkeeper_trigger_kill_2 = "kill"
+   jasperinnkeeper_trigger_marion = "marion"
+   jasperinnkeeper_trigger_miriana = "miriana"
+   jasperinnkeeper_trigger_murder = "murder"
+   jasperinnkeeper_trigger_need_a_courier = "need a courier?"
+   jasperinnkeeper_trigger_node_attack = "node attack"
+   jasperinnkeeper_trigger_orc = "orc"
+   jasperinnkeeper_trigger_pietro = "pietro"
+   jasperinnkeeper_trigger_princess = "princess"
+   jasperinnkeeper_trigger_quintor = "quintor"
+   jasperinnkeeper_trigger_rebels = "rebels"
+   jasperinnkeeper_trigger_stunted_dwarf = "stunted dwarf"
+   jasperinnkeeper_trigger_tos = "tos"
+   jasperinnkeeper_trigger_troll = "troll"
+   jasperinnkeeper_trigger_yevitan = "yevitan"
+   jasperinnkeeper_trigger_zhieu_b_hob = "zhieu b'hob"
+   jasperinnkeeper_trigger_bob = "bob"
+
+   // JasperMerchant (Zhieu B'hob)
+   jaspermerchant_speech_001 = \
+      "~kZhieu B'hob says, \"He is by far the oldest and wisest man in "
+      "Jasper, a true treasure, like the crown of Jasper or like the secret. "
+      "You know, sort of like wanting to keep something so secret, I mean "
+      "~Iso~I secret, as if it were the most important thing in the world "
+      "that you're keeping secret, but your lips move all on their own and "
+      "try to give the secret away to everyone. And you really have to fight "
+      "every minute not to blurt out the secret? A secret like that? Well, "
+      "that's what he is, like a secret like that, only better, because he "
+      "is there for the whole town, for everyone. He knows so much about art "
+      "and about music. I believe he also knows a lot about magic, because I "
+      "believe many people go to him and learn spells from him, but I don't "
+      "know much about such things. I know he belongs here, even though he "
+      "also knows the mountains like the back of his hand. He has spent his "
+      "whole life roaming the mountains, mostly all alone. Afiera Xor knows "
+      "things that we cannot even imagine.\""
+   jaspermerchant_speech_002 = \
+      "~kZhieu B'hob says, \"He is an old and venerable part of our "
+      "community.\""
+   jaspermerchant_speech_003 = \
+      "~kZhieu B'hob says, \"He has a place here in town, and spends most of "
+      "his time working there now, although as you probably already know he "
+      "spent his life in solitude in these mountains, out with the beasts, "
+      "and the gods, do you know what I mean? He is alone, and that's what "
+      "he's chosen. To dedicate his life to art, and to Jala... er, I mean "
+      "Faren, you know, and all the other gods too, because you can't really "
+      "take just one and hold those beliefs sacred above all others, you "
+      "need to study how all of their ways are necessary. He taught me that, "
+      "Afiera D'xor did.\""
+   jaspermerchant_speech_004 = \
+      "~kZhieu B'hob says, \"I was really impressed with Barloque when I was "
+      "there, oh I guess a couple of years ago now. It is hard to "
+      "~Iimagine~I a more dignified city. And grand. Oh, ~II know~I, you "
+      "would have thought that all the stories about Barloque being the "
+      "Royal City Of Meridian and all would have painted a pretty complete "
+      "picture and all for me ~Ibefore~I I even got there, but I'll tell you "
+      "what, I was surprised all the same. The ocean? Well, Barloque's known "
+      "for being on the ocean, and if you're like me and never ~Iseen~I "
+      "something like that then the first thing that you realize is that "
+      "water ~Istarts~I at the edge of the ocean there and then it just "
+      "~Igoes~I on and on like that to the edge of the world or who knows "
+      "where, but just water as far as a man can see. No stopping it. "
+      "Whoosh. Just like that. Do you ~Iknow~I what I mean?\""
+   jaspermerchant_speech_005 = \
+      "~kZhieu B'hob says, \"Barloque is on the other side of Meridian, on "
+      "the northern coast of the Great Ocean.\""
+   jaspermerchant_speech_006 = \
+      "~kZhieu B'hob says, \"That's the Royal City, and it's kind of like a "
+      "royal enclave or something, because I'll tell you what, I'd say that "
+      "just about everybody there is for the Princess and for good King "
+      "Zarcos V. And when the lines get drawn for the final time about who "
+      "supports who around here, that's where the next Royal Army will march "
+      "from. Yes %s, that is where it will all begin.\""
+   jaspermerchant_speech_007 = \
+      "~kZhieu B'hob says, \"Goodbye, %s. Do come back soon.\""
+   jaspermerchant_speech_008 = \
+      "~kZhieu B'hob says, \"Thank you for stopping in, %s.\""
+   jaspermerchant_speech_009 = "~kZhieu B'hob says, \"Good bye.\""
+   jaspermerchant_speech_010 = \
+      "~kZhieu B'hob says, \"Have I told you about the vacation my wife and "
+      "I took shortly after our wedding? Well, Cor Noth is one of the cities "
+      "that we visited. I'm here to tell you, talk about the country mouse "
+      "visiting the city mouse! Cor Noth has some of the nicest folks, but "
+      "talk? Why those people just love to talk, and about ideas that I just "
+      "never thought about, let alone discussed! You bet it's a funny city "
+      "alright, and more friendly than you can imagine! But not at all like "
+      "Jasper, mostly on account, I'd say, of all the talk. And the things "
+      "that you'd see in the shops, and such; well we'd never really see "
+      "those types of things here in Jasper at all unless a stranger came "
+      "through with them, you know, as personal property or whatnot. But "
+      "here I am going on and on about Cor Noth when you've probably been "
+      "there a million times. Have you ever been there yourself, been to Cor "
+      "Noth?\""
+   jaspermerchant_speech_011 = \
+      "~kZhieu B'hob says, \"Have I told you about when I went on vacation "
+      "with my wife in Cor Noth shortly after our wedding? Well, Cor Noth is "
+      "one of the cities that we visited. And I can tell you, it's like the "
+      "country mouse visiting the city mouse!\""
+   jaspermerchant_speech_012 = \
+      "~kZhieu B'hob says, \"I don't get down to Cor Noth as often as I "
+      "would like. It is a fine city. Are you from there?\""
+   jaspermerchant_speech_013 = \
+      "~kZhieu B'hob says, \"I have heard that there is another entrance to "
+      "the ancient sewer system in Cor Noth, and that by entering there a "
+      "person could travel ~Icompletely~I underground and come out either "
+      "here in Jasper, or in Barloque.\""
+   jaspermerchant_speech_014 = \
+      "~kZhieu B'hob says, \"Council? Oh, the council! Well, for a moment "
+      "there I didn't know what you were talking about. The council. What do "
+      "you want to know about the council? What should I tell you? They are "
+      "our wise men, appointed by the King, who no longer holds power, to "
+      "help him lead the kingdom. The only problem is that the King is no "
+      "longer there and they haven't noticed yet. Funny, isn't it, and that "
+      "doesn't sound very wise either. From where I'm sitting, that clever "
+      "bunch looks pretty foolish. It's as if your house burns down and "
+      "you're tired - are you going to sleep in the ashes? I don't think so, "
+      "but of course my wife says I'm too critical and that I shouldn't "
+      "judge the whole affair so harshly. But I don't think I am, I do think "
+      "that what they are trying to do for us is admirable, but I don't "
+      "believe a single one of them has enough sense to know what that might "
+      "be. And then, who pays them anyway? I mean, do they do it for free? "
+      "What do they live on?\""
+   jaspermerchant_speech_015 = \
+      "~kZhieu B'hob says, \"I don't know much about council politics, "
+      "except to say that they don't bear much weight in Jasper. No %s, like "
+      "a fly on plate mail.\""
+   jaspermerchant_speech_016 = \
+      "~kZhieu B'hob says, \"A bunch of hocus pocus. Who are the council? Do "
+      "you know? Hey, I'm all for the idea, let's have some guidance. But "
+      "where's the leadership to go along with it? I'll tell you where, "
+      "right here in Jasper, and I probably shouldn't be saying anything at "
+      "all about this, but you should know... the leadership is right here "
+      "in Jasper, that's where. Yevitan. And I'll say no more. Just Yevitan. "
+      "He may not be the next King or Queen of Meridian, but he will be the "
+      "guy who picks them. Why, even now he is putting together... well, "
+      "never mind that, just know that Yevitan will be at the center of "
+      "great change in Meridian.\""
+   jaspermerchant_speech_017 = \
+      "~kZhieu B'hob says, \"A bunch of hocus pocus. Who are the council? Do "
+      "you know? Hey, I'm all for looking around for a little leadership. "
+      "But where are we to find a leader? I'll tell you where.\""
+   jaspermerchant_speech_018 = \
+      "~kZhieu B'hob says, \"Duke Akardius is not a man to take lightly. "
+      "That's all I'm going to say on it. Oh, and that he is very good at "
+      "what he does. You know, it isn't so easy to be a politician, that's "
+      "what I'd bet. Always making up the truth, you could get real busy "
+      "having to do that for a living. Sure could.\""
+   jaspermerchant_speech_019 = \
+      "~kZhieu B'hob says, \"I am sure that Akardius is as good at weaving "
+      "lies as his late uncle.\""
+   jaspermerchant_speech_020 = \
+      "~kZhieu B'hob says, \"Looks like Kalior's time came... \""
+   jaspermerchant_speech_021 = \
+      "~kZhieu B'hob says, \"Did I tell you about my pet goat? His name is "
+      "Aythya, you might see him floating around here sometimes.\""
+   jaspermerchant_speech_022 = \
+      "~kZhieu B'hob says, \"Hello, %s. Come in, what can I do for you?\""
+   jaspermerchant_speech_023 = \
+      "~kZhieu B'hob says, \"Good day to you, %s. What can I do for you "
+      "today?\""
+   jaspermerchant_speech_024 = "~kZhieu B'hob says, \"Good day.\""
+   jaspermerchant_speech_025 = \
+      "~kZhieu B'hob says, \"Well, I could tell you plenty about Jasper, how "
+      "much time have you got? Ha ha ha, but really, it's a good town. Full "
+      "of opportunity, that's what my wife has always said, and where at "
+      "first I didn't really see so much what she meant, I see it a lot more "
+      "now. There is plenty of opportunity here, if you can get inside with "
+      "the locals, and if you have determination. Take me for example, I "
+      "make a pretty good living, enough to get by, and the goods that I "
+      "keep in my shop are among the best that you can find anywhere.\""
+   jaspermerchant_speech_026 = \
+      "~kZhieu B'hob says, \"The people of Jasper aren't so hard to "
+      "understand as some folks let on, just a bit reserved, you know, the "
+      "silent types. We have sort of a motto here in Jasper, and I think "
+      "that we do well by it: ~IDon't say nothing at all if you don't have "
+      "something nice to say~I. Those are words to live by whether here in "
+      "Jasper, or wherever you take your boots off at the end of the day.\""
+   jaspermerchant_speech_027 = \
+      "~kZhieu B'hob says, \"Before the mines closed down this place was "
+      "booming. You should have seen Jasper then, I don't think you'd even "
+      "recognize it. Now it's more like it was in those days, with Jonas "
+      "setting up his headquarters here and all. I knew that Jasper would "
+      "once again have its day.\""
+   jaspermerchant_speech_028 = \
+      "~kZhieu B'hob says, \"I have a cousin who ran off to Marion. She "
+      "married an apple farmer down there. The two of them took the apples "
+      "and sold them to a caravan or something like that. Both of them "
+      "followed Faren. Well, one day he walked out on her to find out where "
+      "the north wind comes from or something like that. She says the "
+      "winters are really hard, but she never came back to Jasper. She seems "
+      "to like it there, I guess, but you know, the mountains aren't for "
+      "everyone. She says in the evenings most people sit around and talk to "
+      "pass the time. And everybody knows everybody else's business. That's "
+      "just how they are. I went there once, but it didn't do much for me, "
+      "and I really don't know why she has stayed there all these years. You "
+      "know, somehow it's very flat and quiet there, almost a little eerie. "
+      "I guess you just get used to it, the way some people spend their "
+      "whole lives in one place and others always have to travel around. "
+      "Well, I suppose you could say I belong to the first kind, because "
+      "I've always been very happy here, even since the mines closed and "
+      "money got tight, but what am I complaining about? Nothing. I think "
+      "everything is fine just the way it is here, do you know what I mean?\""
+   jaspermerchant_speech_029 = \
+      "~kZhieu B'hob says, \"It's mostly a farming town, and we have quite a "
+      "bit of trade with them. I get down there a couple of times a year.\""
+   jaspermerchant_speech_030 = \
+      "~kZhieu B'hob says, \"A sanctuary dedicated to Shal'ille has been set "
+      "up in Marion, where I understand any in need are welcomed and cared "
+      "for. Started by some Lady from Barloque, a genuine Lady now, in the "
+      "royal sense, not just a ~Ilady~I lady %s. I have heard that when her "
+      "husband passed on quite recently, a Lord Aftyn, he left her a "
+      "considerable fortune and she decided to turn that money into helping "
+      "people who need it the most! Can you imagine? I hear also that her "
+      "children, now grown, are quite upset by it too. Poor things. All old "
+      "enough to take care of themselves too, I hear, but the story goes "
+      "that they were counting on that money and now they are turned to "
+      "their own devices! HA! Serves them right!\""
+   jaspermerchant_speech_031 = \
+      "~kZhieu B'hob says, \"Well, Pietro has a little problem with his "
+      "drinking. You'd think that a grown man would know when to stop...  I "
+      "mean, I've got nothing whatsoever against drinking, but I don't feel "
+      "it would be right to send you over there without some sort of "
+      "preparation, because it can be a little shocking, the state that he "
+      "gets himself into. All worked up, and you know the Troll Whiskey "
+      "doesn't help him either.\""
+   jaspermerchant_speech_032 = \
+      "~kZhieu B'hob says, \"Yes, Pietro. Well he's a local man here, runs "
+      "the bar just down the street there. But I'll tell you frankly %s, "
+      "you'd only want to go in there if you are ~Ireally~I thirsty.\""
+   jaspermerchant_speech_033 = \
+      "~kZhieu B'hob says, \"Well, stupid is as stupid does I always say. I "
+      "mean, a little control is in order, because that's no way to run a "
+      "business. And when he drinks, he talks, and he talks about peoples' "
+      "business that he's got no say in, whatsoever. He better learn to "
+      "watch his tongue, is all I'm saying, before someone gets around to "
+      "carving it out of his head for him.\""
+   jaspermerchant_speech_034 = \
+      "~kZhieu B'hob says, \"You know, my wife and I have been talking about "
+      "it and we've decided; we cannot wait for the Princess to have her "
+      "inauguration and just become the Queen. Can you wait? Well, neither "
+      "of us can, that's for sure.\""
+   jaspermerchant_speech_035 = \
+      "~kZhieu B'hob says, \"You know, my wife and I only recently talked "
+      "about that, and I don't want to bring the subject up again.\""
+   jaspermerchant_speech_036 = \
+      "~kZhieu B'hob says, \"Oh, yes, the Princess. Well, she certainly "
+      "seems to be a ~Icapable~I young woman, hardly more than a girl and "
+      "with all this responsibility! Can you imagine?\""
+   jaspermerchant_speech_037 = \
+      "~kZhieu B'hob says, \"You might talk with Yevitan about the Princess. "
+      "He was once... acquainted with the King, and close to the royal "
+      "family.\""
+   jaspermerchant_speech_038 = \
+      "~kZhieu B'hob says, \"He's the quiet type, but you know what they say "
+      "about still rivers running deep. There's a lot more going on there "
+      "than either you or I would care to imagine. But he's a good "
+      "businessman, and an excellent craftsman, and what more needs to be "
+      "said, really? Don't you think that that's enough for one man?\""
+   jaspermerchant_speech_039 = \
+      "~kZhieu B'hob says, \"A very fine blacksmith, you can take my word on "
+      "that or you can go and see for yourself. He's just down the street.\""
+   jaspermerchant_speech_040 = \
+      "~kZhieu B'hob says, \"There was a time, when the mines were still in "
+      "operation, that Quintor had such a lovely young wife, a local girl. "
+      "Well, saddest thing, but when the mines closed, I guess his young "
+      "wife just figured that maybe she would clear out of here with the "
+      "rest of them, she broke her vows and packed it up with one of the "
+      "mining company officers and she was gone. Now Quintor, he went into "
+      "such a rage, such a rage... I was only a child at the time, but I'll "
+      "never forget it.\""
+   jaspermerchant_speech_041 = \
+      "~kZhieu B'hob says, \"I don't really know much about ~ITos~I, I go "
+      "down there for business from time to time... not the kind of place "
+      "I'd go for vacation, I'll say that.\""
+   jaspermerchant_speech_042 = "~kZhieu B'hob says, \"What a cut-up.\""
+   jaspermerchant_speech_043 = \
+      "~kZhieu B'hob says, \"Troll Whiskey is a traditional potion made by "
+      "the Jasper people, some say magic, some say Qor-badness. But either "
+      "way, it's illegal, and has been now for some time. They'll hang you "
+      "for making it, the Duke's people... \""
+   jaspermerchant_speech_044 = \
+      "~kZhieu B'hob says, \"Troll Whiskey? Boy oh boy, you're better off "
+      "not knowing anything at all about Troll Whiskey. Let's just leave it "
+      "at that.\""
+   jaspermerchant_speech_045 = \
+      "~kZhieu B'hob says, \"Troll Whiskey is a traditional brew of the "
+      "people in these hills, and it's some kind of powerful drinking. Boom, "
+      "like that, blow the top of your head right into the night sky. Not "
+      "that I would know, you understand, it is illegal. In the days when "
+      "Jasper was a separate mountain kingdom, the armies of the great "
+      "Jasper Overlords would drink Troll Whiskey before they would go into "
+      "battle, and they were undefeatable. Unstoppable. Many say beyond this "
+      "world, immortals on the battlefield. That's why it became outlawed, "
+      "when the Jasper people were finally conquered at the Battle of "
+      "Denthan Crossing, the King then Zarcos II decreed that Troll Whiskey "
+      "would thereafter be forbidden, to produce or consume.\""
+   jaspermerchant_speech_046 = \
+      "~kZhieu B'hob says, \"I knew old man Qesino pretty well, before he "
+      "disappeared. Not to speak poorly of the dead, but he was an ornery, "
+      "unpleasant man. Always thought someone was trying to cheat him out of "
+      "something. Didn't really make any attempt to temper himself, you "
+      "know, get along with people. Even in Jasper you need a few "
+      "niceties... makes things so much easier, you know what I mean?\""
+   jaspermerchant_speech_047 = \
+      "~kZhieu B'hob says, \"Tragic, just tragic. Her husband disappearing "
+      "and all.\""
+   jaspermerchant_speech_048 = \
+      "~kZhieu B'hob says, \"Well, perhaps her husband wasn't the easiest "
+      "man to get along with, I mean, that was just kind of accepted around "
+      "here, and Faren knows I didn't have to live with the man... but I "
+      "have to say that it was odd, you know, at the funeral... I "
+      "~Iwatched~I her at that funeral, not to be rude or anything, but I "
+      "was ~Iconcerned~I at the time... and I swear to you, she didn't shed "
+      "a single tear. Now even for the Jasper people, who are never very "
+      "outward with their emotions, I have to say that it was a ~Ibit~I "
+      "odd... \""
+   jaspermerchant_speech_049 = \
+      "~kZhieu B'hob says, \"I don't think I've told you about Jasper wool, "
+      "have I? Well, Jasper produces the finest wool in the land, hands "
+      "down. There is no better wool anywhere. It's our goats, and the skill "
+      "of our weavers. I've got some pants here, if you're interested, I can "
+      "show you exactly what I mean... \""
+   jaspermerchant_speech_050 = \
+      "~kZhieu B'hob says, \"The Wryn's Keep is the traditional fortress of "
+      "the old Jasper Overlords, did you know that?\""
+   jaspermerchant_speech_051 = \
+      "~kZhieu B'hob says, \"It's that big castle on the outskirts of the "
+      "town here. You can see it from the outside, but you have to be a "
+      "guest of the guild that has it rented to get inside. Can you imagine "
+      "anything more insulting to the people of Jasper? I mean, excuse me if "
+      "you are one of those that are part of that guild, you certainly seem "
+      "like a nice enough %s, but I can't help getting a little fired up "
+      "about this. The Wryn's Keep belongs to the people of Jasper, and "
+      "that's how it should stay. Ours. Not some "
+      "Frular-Of-Barloque-Businessman Type.\""
+   jaspermerchant_speech_052 = \
+      "~kZhieu B'hob says, \"Nowadays The Wryn's Keep is occupied by "
+      "strangers, people not from the mountains at all, but they've rented "
+      "it from Frular of Barloque. That upsets a few of the people here, but "
+      "not me. I say business is business.\""
+   jaspermerchant_speech_053 = \
+      "~kZhieu B'hob says, \"Well then you know all about it then.\""
+   jaspermerchant_speech_054 = \
+      "~kZhieu B'hob says, \"Don't judge a book by its cover they say, and I "
+      "guess that applies just so to Yevitan, like a hand might fit right "
+      "into a glove, or an old shoe, something like that because he is one "
+      "smart guy. Oh, I don't mean just because he was the King's own "
+      "Financial Minister specifically, although you know that  in itself is "
+      "a huge accomplishment, of course, coming from Jasper and all, but I "
+      "mean he is smart. He's got a lot figured out, you know, sometimes I "
+      "swear that he can predict the future, that's how smart he is. Oh, I "
+      "couldn't really give you any examples, you'll have to talk to him "
+      "yourself and see what you think, because I really couldn't give you "
+      "any solid examples, but you go and talk to him and I guarantee that "
+      "you'll see exactly what I mean.\""
+   jaspermerchant_speech_055 = \
+      "~kZhieu B'hob says, \"Oh, yes, Yevitan... he is the banker here at "
+      "the Royal Bank. Yevitan paid his dues and bought the bank away from "
+      "Duke Akardius. He is a very good banker, very trustworthy.\""
+   jaspermerchant_speech_056 = \
+      "~kZhieu B'hob says, \"A good man to have on your side, Yevitan is. He "
+      "is always watching out for the people of Jasper. Yevitan... well, I "
+      "guess you might say he's a patriot. A true patriot, he has so much to "
+      "offer this land, so many ideas about what our future could be, and "
+      "now that we have the proper leadership...\""
+   jaspermerchant_speech_057 = \
+      "~kZhieu B'hob says, \"We are very mindful of the secret police and "
+      "the Duke's spies up here in the mountains, %s. I'll say no more of "
+      "it, for nothing but trouble comes from that talk.\""
+   jaspermerchant_random_001 = \
+      "~kZhieu B'hob says, \"The guilds seem to offer a certain amount of "
+      "protection to their members... and you know what? I'm starting to "
+      "think that maybe we should form a merchant guild. That's right, a "
+      "merchant guild, one that protects us merchants, what do you think "
+      "about that? That's what we need alright. See, that way we could meet "
+      "every so often decide issues, you know, the Big Issues. Like... okay, "
+      "like what are our policies about prices? Or who do we serve, you "
+      "know, where do we stand politically? Duke? Hmmm? Princess?  Jonas?  "
+      "Is that the answer? I think that it would do us a lot of good to form "
+      "a guild, that's right, get some of these issues out on the table and "
+      "hammer them out, so to speak. I'd be willing to surrender some of my "
+      "personal beliefs, if that's what it would take.\""
+   jaspermerchant_random_002 = \
+      "~kZhieu B'hob says, \"I say a prayer every day that the Princess is "
+      "safe, but I can see how Jonas would make an excellent and prosperous "
+      "King.  This political strife and fighting needs to end forever.  So "
+      "that there will be justice, and peace, and that the orcs go way back "
+      "into the mountains, and mind their own business back there forever. "
+      "Because I think we need to have that kind of stability that a monarch "
+      "provides, someone for everyone to look up to and admire, someone to "
+      "have the final say on anything that comes up.\""
+   jaspermerchant_random_003 = \
+      "~kZhieu B'hob says, \"How are you stocked up there for provisions? "
+      "You know it's a mistake that a lot of people traveling in these hills "
+      "make, is to not bring enough provisions along with them, because food "
+      "will give you the energy that you need to survive out there. I know "
+      "that the edge of survival can be that fine. My wife lost her brother "
+      "to the mountains in just such a way. So take a look at what I've got "
+      "here, and fill up your knapsack with what you have room for, you'll "
+      "thank me for it later. You'll certainly thank me the next time that "
+      "you're in my shop %s. And you'll thank me out there in the "
+      "mountains.\""
+   jaspermerchant_random_004 = \
+      "~kZhieu B'hob says, \"What's your opinion on the Justicar system? "
+      "Yeah, well personally, I'll tell you what something needs to be done, "
+      "with the King out of sight and who knows who coming and going from "
+      "power! I'm glad, personally speaking now, that we people have some "
+      "say in how criminals are dealt with! We can't wait for the Duke to "
+      "get off his rear, no sir. None too soon, I say.\""
+   jaspermerchant_random_005 = \
+      "~kZhieu B'hob says, \"Actually, the people in this town can be "
+      "downright rude, if you're not used to their ways. It's a wonder that "
+      "anyone stops through Jasper at all. You would think that they would "
+      "appreciate some meaningful contact with the rest of Meridian... "
+      "business would certainly pick up, and Faren knows we could all use "
+      "that... I don't know, %s, I've lived here my whole life and I can't "
+      "figure it out. I guess it's just the way they are up here, I mean "
+      "everyone is perfectly nice once you get to know them, it's mostly a "
+      "matter of getting in at all, you know? Say for instance, how do you "
+      "even start a conversation with Afiera D'xor if you're not from here? "
+      "Hey, I've known him my whole life, he's practically a brother to my "
+      "uncle and I can see how it would be hard. Believe me, I can see that "
+      "%s.\""
+   jaspermerchant_random_006 = \
+      "~kZhieu B'hob says, \"The problems of the working class are too often "
+      "overlooked here, I mean who is looking out for the little guy in this "
+      "land? Not the Duke, I'll tell you that much, and the Princess, well, "
+      "I'm not sure that she has the experience yet that she'll need to "
+      "become Queen. Someday soon, mind you, but not yet. You know what I "
+      "mean. But those of us who are struggling just to keep bread on the "
+      "table, make ends meet? Where do we turn in the face of all these "
+      "troubles? Can you tell me that? Not likely, but I can. Jonas knows "
+      "what it is like to be shunned, he knows what it is like to have to "
+      "work for every little bit that you have. To my mind that combination "
+      "makes a better ruler than someone who never gets out into the world.\""
+   jaspermerchant_random_007 = \
+      "~kZhieu B'hob says, \"You know %s, just this morning I was sweeping "
+      "up here and thinking to myself how nice it would be to just close up "
+      "my shop for a couple of days and just wander around a little, you "
+      "know, maybe go down to Cor Noth, do a little shopping, something like "
+      "that. I'll bet that's exactly what you do, move around a lot, am I "
+      "right? It must be nice sometimes, although don't get me wrong I am "
+      "grateful for what I have, still sometimes, you know, I wonder... \""
+   jaspermerchant_random_008 = \
+      "~kZhieu B'hob says, \"Have you ever seen a so-called magic wand? A "
+      "man I know, Fehr'loi Qan buys them and says he has a large collection "
+      "up in Barloque. He told me he keeps them at his blacksmith shop. He "
+      "won't say much more than that, though, he is a very quiet type. He "
+      "used to live in Tos, and I would see him every couple of months when "
+      "I was there on business, you know, we'd get together and play chess. "
+      "But... he took his business moved north to Barloque, and I'll tell "
+      "you what, it was probably the best thing he ever did, from a business "
+      "standpoint anyway. Oh yes, he is making the shillings now! He'll "
+      "probably be able to retire in a couple of years! Can you imagine? "
+      "Retire in Barloque? And a relatively young guy too. I tell you what, "
+      "he has it made.\""
+   jaspermerchant_random_009 = \
+      "~kZhieu B'hob says, \"Don't you go into the mountains without "
+      "dressing warmly enough, or you won't last longer than spit on a "
+      "baking tray. Believe me, I've lived here my whole life. Wait a "
+      "moment... let me show you what I've got here, made from the finest "
+      "Jasper wool, which, as anyone who knows anything about it will tell "
+      "you, is the best wool you can get. You know, it's really no secret "
+      "that we here in Jasper have a great tradition of raising the Jasper "
+      "goat. Just like with Aythya, you can see how remarkably glossy the "
+      "quality of the wool is and how easy it is to dye, like nothing else. "
+      "Have a look at them, these great wool pants sell themselves. Many "
+      "people come here every year just to buy a new pair of my pants. I bet "
+      "you will do that too, %s, once you've tried them on.\""
+   jaspermerchant_random_010 = \
+      "~kZhieu B'hob says, \"A shilling saved is a shilling earned, you know "
+      "what I mean? You're better off not carrying around too much cash, go "
+      "and see Yevitan at the bank up the street. He'll keep your money "
+      "safe, and you'll be able to make deposits and withdrawals from the "
+      "Bank in Tos as well! Isn't that a good deal?\""
+   jaspermerchant_random_011 = \
+      "~kZhieu B'hob says, \"Just the basics in this town, %s. We'll get you "
+      "what you need alright, just as long as it fits into the basic "
+      "category.\""
+   jaspermerchant_random_012 = \
+      "~kZhieu B'hob says, \"There's been quite a bit of activity between "
+      "the guilds of late... not all of it good, either, in fact I'd say "
+      "that most of it has been mischievous and that's no good, there's no "
+      "place for people just behaving however they like, for Faren's sake.\""
+   jaspermerchant_random_013 = \
+      "~kZhieu B'hob says, \"As my granny always said, a stitch in time "
+      "saves nine! You'd best stock up on your necessary provisions here, "
+      "stranger, the mountains can be unforgiving.\""
+   jaspermerchant_random_014 = \
+      "~kZhieu B'hob says, \"The other people of Meridian tend to see us "
+      "Jasper folk as being... odd types, I guess, you know, somehow "
+      "different. You get a lot of that.\""
+   jaspermerchant_random_015 = \
+      "~kZhieu B'hob says, \"We've got a real nice inn here in Jasper, run "
+      "by Qes... err, the Widow Qesino, and she does a great job. Good food "
+      "too. Uh, yep... great food. Real warm inside too. Nice inn.\""
+   jaspermerchant_random_016 = \
+      "~kZhieu B'hob says, \"Jasper is renowned for, among other things, our "
+      "fine woolen products. You can't get pants like the kind I sell here "
+      "anywhere else in the world.\""
+   jaspermerchant_random_017 = \
+      "~kZhieu B'hob says, \"I've seen you in here before, %s, I'd swear on "
+      "it. I never forget a face.\""
+   jaspermerchant_random_018 = \
+      "~kZhieu B'hob says, \"You'll find that the prices are probably a bit "
+      "higher up here in the mountains, but that's because we're pretty "
+      "isolated up here. It's worth it though, %s, the quality of our goods "
+      "is unparalleled.\""
+   jaspermerchant_random_019 = \
+      "~kZhieu B'hob says, \"Did you see the blacksmiths' shop just up the "
+      "street?  Yes?  Well, Quintor may come off as being a bit stern at "
+      "first, but he's a fine blacksmith. No, not what you'd call a "
+      "conversationalist, but his weapons are recognized throughout the "
+      "world as being the finest anywhere. Swords especially.\""
+   jaspermerchant_random_020 = \
+      "~kZhieu B'hob says, \"Can I interest you in something here? I'm sure "
+      "we've got something here that you need... \""
+   jaspermerchant_random_021 = \
+      "~kZhieu B'hob says, \"I hope that you don't take it personally if the "
+      "people of Jasper seem, well, a bit reserved toward you, %s. That is "
+      "just their way.\""
+   jaspermerchant_random_022 = \
+      "~kZhieu B'hob says, \"I can sell you all the provisions that you need "
+      "to get into, out of, and through these mountains, although I can't "
+      "say safely. That, %s, is up to you. Keep your wits about you, because "
+      "it's only that or Troll Whiskey that'll get you through.\""
+   jaspermerchant_random_023 = \
+      "~kZhieu B'hob says, \"There's too much gossip in this town.\""
+   jaspermerchant_random_024 = \
+      "~kZhieu B'hob says, \"There are many fine craftspeople and artists in "
+      "Jasper. Our products are very valuable in other parts of this "
+      "kingdom.\""
+   jaspermerchant_random_025 = \
+      "~k~kZhieu B'hob says, \"People come in here, and want to talk, you "
+      "know, just pass the time of day and whatnot. Anyway, sometimes I hear "
+      "gossip and rumors, which naturally I don't repeat because I can't "
+      "know if they're true or not, and I don't really believe in talking "
+      "about things that one knows nothing about... but this one is worth "
+      "repeating even if only because it holds such hope! I have heard "
+      "rumors, and only rumors now, that although Jala is dead, she lives "
+      "through her songs! Imagine! Art, and music! Oh, I so want it to be "
+      "true!\""
+   jaspermerchant_random_026 = \
+      "~kZhieu B'hob says, \"If you go to Marion %s you have to go in the "
+      "Limping Toad and have an ale with the proprietor, Tova. He is a "
+      "funny, funny man.\""
+   jaspermerchant_random_027 = \
+      "~kZhieu B'hob says, \"Not too difficult to lose your way in these "
+      "mountains and just disappear, really, happens to people who've spent "
+      "their whole lives up here. Take Qesino, for instance, I mean whatever "
+      "happened to him, he might as well have dropped off the face of the "
+      "earth. And I'm sure he'd made that trip from here to Tos a thousand "
+      "times with his money for the bank there, you know, he and Yevitan "
+      "here had a falling out years back and neither of them ever got past "
+      "that point, and he always took his money all the way to Tos to "
+      "deposit, wouldn't set foot in the Royal Bank here to save his own "
+      "life. Knock on wood.\""
+   jaspermerchant_random_028 = \
+      "~kZhieu B'hob says, \"Did you know that Jasper was once the very "
+      "heart of an independent mountain kingdom in Meridian? We had our own "
+      "government and laws, and our own Overlord who sat upon a throne in "
+      "The Wryn's Keep. But that was many ages ago, in the time of my "
+      "grandfather's grandfather.  Although with Jonas taking over his own "
+      "little faction it might become that way again some day soon.\""
+   jaspermerchant_random_029 = \
+      "~kZhieu B'hob says, \"Did you know that our own Yevitan, the banker "
+      "here in Jasper, was once the Financial Minister under King Zarcos V? "
+      "That's right, and that's no small accomplishment either, being a man "
+      "from Jasper and all, because you rarely see a man or woman from "
+      "Jasper that is allowed into those circles at all.\""
+   jaspermerchant_random_030 = \
+      "~kZhieu B'hob says, \"You've no doubt heard that the King is in "
+      "hiding, you know supposedly he had some kind of supposed mental "
+      "failure, or whatever, and then he had to go into hiding to protect "
+      "his well being. Okay, well everyone knows that. But do you know where "
+      "he is? Well, I wouldn't be able to say that I know, but I have it on "
+      "the highest authority that he is safe, and very nearby. I probably "
+      "shouldn't say anything about this at all, but I hear he's in Marion. "
+      "Marion. I don't know where exactly, but Marion is what I hear.\""
+   jaspermerchant_random_031 = \
+      "~kZhieu B'hob says, \"Oh, what's the use, %s? What is the use?\""
+   jaspermerchant_random_032 = "~kZhieu B'hob says, \"This is the place.\""
+   jaspermerchant_trigger_afiera_d_xor = "afiera d'xor"
+   jaspermerchant_trigger_afiera_xor = "afiera xor"
+   jaspermerchant_trigger_barloque = "barloque"
+   jaspermerchant_trigger_bye = "bye"
+   jaspermerchant_trigger_bye_2 = "bye"
+   jaspermerchant_trigger_cor_noth = "cor noth"
+   jaspermerchant_trigger_council = "council"
+   jaspermerchant_trigger_duke = "duke"
+   jaspermerchant_trigger_goat = "goat"
+   jaspermerchant_trigger_hello = "hello"
+   jaspermerchant_trigger_jasper = "jasper"
+   jaspermerchant_trigger_marion = "marion"
+   jaspermerchant_trigger_pietro = "pietro"
+   jaspermerchant_trigger_princess = "princess"
+   jaspermerchant_trigger_quintor = "quintor"
+   jaspermerchant_trigger_tos = "tos"
+   jaspermerchant_trigger_tova = "tova"
+   jaspermerchant_trigger_whiskey = "whiskey"
+   jaspermerchant_trigger_widow = "widow"
+   jaspermerchant_trigger_qesino = "qesino"
+   jaspermerchant_trigger_wool = "wool"
+   jaspermerchant_trigger_wryn_s_keep = "wryn's keep"
+   jaspermerchant_trigger_wryn_s_keep_2 = "wryn's keep"
+   jaspermerchant_trigger_wryn_s_keep_3 = "wryn's keep"
+   jaspermerchant_trigger_wryn_s_keep_4 = "wryn's keep"
+   jaspermerchant_trigger_yes = "yes"
+   jaspermerchant_trigger_yevitan = "yevitan"
+   jaspermerchant_trigger_zig = "zig"
+
+messages:
+
+   GetSpeechLibrary()
+   "Speech library nodes: [class, [[triggers, mood, action, key], ...]]"
+   {
+      local lLib;
+
+      lLib = $;
+
+      lLib = Cons([&JasperBanker,[
+         [[jasperbanker_trigger_tos],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_041],41],
+         [[jasperbanker_trigger_tos],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_042],42],
+         [[jasperbanker_trigger_tova],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_043],43],
+         [[jasperbanker_trigger_whiskey],0,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_044],44],
+         [[jasperbanker_trigger_zig],0,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_045],45],
+         [[jasperbanker_trigger_zuxana],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_046],46]
+      ]],lLib);
+
+      lLib = Cons([&JasperBanker,[
+         [[jasperbanker_trigger_army],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_001],1],
+         [[jasperbanker_trigger_barloque],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_002],2],
+         [[jasperbanker_trigger_barloque],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_003],3],
+         [[jasperbanker_trigger_barloque],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_004],4],
+         [[jasperbanker_trigger_blindness],0,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_005],5],
+         [[jasperbanker_trigger_bye,
+            jasperbanker_trigger_bye_2,
+            jasperbanker_trigger_bye_3],0,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_006],6],
+         [[jasperbanker_trigger_cor_noth],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_007],7],
+         [[jasperbanker_trigger_cor_noth],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_008],8],
+         [[jasperbanker_trigger_cor_noth],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_009],9],
+         [[jasperbanker_trigger_cor_noth],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_010],10],
+         [[jasperbanker_trigger_council],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_011],11],
+         [[jasperbanker_trigger_council],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_012],12],
+         [[jasperbanker_trigger_council],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_013],13],
+         [[jasperbanker_trigger_denthan],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_014],14],
+         [[jasperbanker_trigger_denthan],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_015],15],
+         [[jasperbanker_trigger_duke],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_016],16],
+         [[jasperbanker_trigger_duke],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_017],17],
+         [[jasperbanker_trigger_duke],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_018],18],
+         [[jasperbanker_trigger_frular],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_019],19],
+         [[jasperbanker_trigger_gerah_springers],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_020],20],
+         [[jasperbanker_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_021],21],
+         [[jasperbanker_trigger_herbutte,
+            jasperbanker_trigger_herbut],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_022],22],
+         [[jasperbanker_trigger_jasper],0,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_023],23],
+         [[jasperbanker_trigger_joguer,
+            jasperbanker_trigger_koldor],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_024],24],
+         [[jasperbanker_trigger_jonas],0,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_025],25],
+         [[jasperbanker_trigger_justicar,
+            jasperbanker_trigger_justicar_2],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_026],26],
+         [[jasperbanker_trigger_king],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_027],27],
+         [[jasperbanker_trigger_king],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_028],28],
+         [[jasperbanker_trigger_king],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_029],29],
+         [[jasperbanker_trigger_lady_aftyn],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_030],30],
+         [[jasperbanker_trigger_marion],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_031],31],
+         [[jasperbanker_trigger_marion],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_032],32],
+         [[jasperbanker_trigger_marion],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_033],33],
+         [[jasperbanker_trigger_meidei],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_034],34],
+         [[jasperbanker_trigger_obert,
+            jasperbanker_trigger_cair_bre,
+            jasperbanker_trigger_cairbre],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_035],35],
+         [[jasperbanker_trigger_princess],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_036],36],
+         [[jasperbanker_trigger_princess],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_037],37],
+         [[jasperbanker_trigger_princess],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_038],38],
+         [[jasperbanker_trigger_qor],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_039],39],
+         [[jasperbanker_trigger_tos],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbanker_speech_040],40]
+      ]],lLib);
+
+      lLib = Cons([&JasperBartender,[
+         [[jasperbartender_trigger_princess],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_041],41],
+         [[jasperbartender_trigger_princess],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_042],42],
+         [[jasperbartender_trigger_princess],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_043],43],
+         [[jasperbartender_trigger_qesino],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_044],44],
+         [[jasperbartender_trigger_qesino],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_045],45],
+         [[jasperbartender_trigger_qesino],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_046],46],
+         [[jasperbartender_trigger_quintor],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_047],47],
+         [[jasperbartender_trigger_quintor],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_048],48],
+         [[jasperbartender_trigger_quintor],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_049],49],
+         [[jasperbartender_trigger_secret],0,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_050],50],
+         [[jasperbartender_trigger_stunted_dwarf],0,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_051,[LIBPLUG_NAME]],51],
+         [[jasperbartender_trigger_tos],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_052],52],
+         [[jasperbartender_trigger_tos],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_053],53],
+         [[jasperbartender_trigger_tos],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_054],54],
+         [[jasperbartender_trigger_whiskey],0,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_055],55],
+         [[jasperbartender_trigger_widow],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_056],56],
+         [[jasperbartender_trigger_widow],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_057],57],
+         [[jasperbartender_trigger_widow],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_058],58],
+         [[jasperbartender_trigger_yevitan],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_059],59],
+         [[jasperbartender_trigger_yevitan],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_060],60],
+         [[jasperbartender_trigger_yevitan],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_061],61],
+         [[jasperbartender_trigger_zhieu_b_hob,
+            jasperbartender_trigger_bob],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_062],62]
+      ]],lLib);
+
+      lLib = Cons([&JasperBartender,[
+         [[jasperbartender_trigger_afiera_d_xor,
+            jasperbartender_trigger_afiera_xor],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_001],1],
+         [[jasperbartender_trigger_afiera_d_xor,
+            jasperbartender_trigger_afiera_xor],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_002],2],
+         [[jasperbartender_trigger_afiera_d_xor,
+            jasperbartender_trigger_afiera_xor],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_003],3],
+         [[jasperbartender_trigger_barloque],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_004],4],
+         [[jasperbartender_trigger_barloque],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_005],5],
+         [[jasperbartender_trigger_barloque],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_006],6],
+         [[jasperbartender_trigger_broom],0,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_007],7],
+         [[jasperbartender_trigger_buy,
+            jasperbartender_trigger_sell],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_008],8],
+         [[jasperbartender_trigger_buy,
+            jasperbartender_trigger_sell],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_009],9],
+         [[jasperbartender_trigger_bye],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_010],10],
+         [[jasperbartender_trigger_bye],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_011],11],
+         [[jasperbartender_trigger_bye],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_012],12],
+         [[jasperbartender_trigger_cor_noth],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_013],13],
+         [[jasperbartender_trigger_cor_noth],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_014],14],
+         [[jasperbartender_trigger_cor_noth],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_015],15],
+         [[jasperbartender_trigger_council,
+            jasperbartender_trigger_council_2],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_016],16],
+         [[jasperbartender_trigger_council],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_017],17],
+         [[jasperbartender_trigger_council],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_018],18],
+         [[jasperbartender_trigger_drunk],0,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_019],19],
+         [[jasperbartender_trigger_duke],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_020],20],
+         [[jasperbartender_trigger_duke],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_021],21],
+         [[jasperbartender_trigger_duke],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_022],22],
+         [[jasperbartender_trigger_fate],0,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_023],23],
+         [[jasperbartender_trigger_hello],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_024],24],
+         [[jasperbartender_trigger_hello],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_025],25],
+         [[jasperbartender_trigger_honored],0,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_026],26],
+         [[jasperbartender_trigger_izzio],0,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_027],27],
+         [[jasperbartender_trigger_jasper],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_028],28],
+         [[jasperbartender_trigger_jasper],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_029],29],
+         [[jasperbartender_trigger_jasper],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_030],30],
+         [[jasperbartender_trigger_marion],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_031],31],
+         [[jasperbartender_trigger_marion],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_032],32],
+         [[jasperbartender_trigger_marion],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_033],33],
+         [[jasperbartender_trigger_miriana],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_034],34],
+         [[jasperbartender_trigger_miriana],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_035],35],
+         [[jasperbartender_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_036],36],
+         [[jasperbartender_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_037],37],
+         [[jasperbartender_trigger_node],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_038],38],
+         [[jasperbartender_trigger_node],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_039],39],
+         [[jasperbartender_trigger_node],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbartender_speech_040],40]
+      ]],lLib);
+
+      lLib = Cons([&JasperBlacksmith,[
+         [[jasperblacksmith_trigger_pupil],0,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_041],41],
+         [[jasperblacksmith_trigger_scimitar],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_042],42],
+         [[jasperblacksmith_trigger_scimitar],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_043],43],
+         [[jasperblacksmith_trigger_scimitar],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_044],44],
+         [[jasperblacksmith_trigger_buy,
+            jasperblacksmith_trigger_sell],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_045],45],
+         [[jasperblacksmith_trigger_buy,
+            jasperblacksmith_trigger_sell],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_046],46],
+         [[jasperblacksmith_trigger_buy,
+            jasperblacksmith_trigger_sell],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_047],47],
+         [[jasperblacksmith_trigger_sword],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_048],48],
+         [[jasperblacksmith_trigger_teach,
+            jasperblacksmith_trigger_learn,
+            jasperblacksmith_trigger_learn_2],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_049],49],
+         [[jasperblacksmith_trigger_teach,
+            jasperblacksmith_trigger_learn,
+            jasperblacksmith_trigger_learn_2],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_050],50],
+         [[jasperblacksmith_trigger_teach,
+            jasperblacksmith_trigger_learn,
+            jasperblacksmith_trigger_learn_2],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_051],51],
+         [[jasperblacksmith_trigger_tos],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_052],52],
+         [[jasperblacksmith_trigger_tos],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_053],53],
+         [[jasperblacksmith_trigger_tos],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_054],54],
+         [[jasperblacksmith_trigger_whiskey],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_055],55],
+         [[jasperblacksmith_trigger_whiskey],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_056],56],
+         [[jasperblacksmith_trigger_widow],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_057],57],
+         [[jasperblacksmith_trigger_widow_qesino,
+            jasperblacksmith_trigger_witwe_qesino],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_058],58],
+         [[jasperblacksmith_trigger_wife],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_059],59],
+         [[jasperblacksmith_trigger_wife],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_060],60],
+         [[jasperblacksmith_trigger_wife],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_061],61],
+         [[jasperblacksmith_trigger_yevitan],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_062],62],
+         [[jasperblacksmith_trigger_yevitan],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_063],63],
+         [[jasperblacksmith_trigger_zhieu_b_hob,
+            jasperblacksmith_trigger_bob],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_064],64]
+      ]],lLib);
+
+      lLib = Cons([&JasperBlacksmith,[
+         [[jasperblacksmith_trigger_afiera],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_001],1],
+         [[jasperblacksmith_trigger_afiera_d_xor,
+            jasperblacksmith_trigger_afiera_xor],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_002],2],
+         [[jasperblacksmith_trigger_axe],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_003],3],
+         [[jasperblacksmith_trigger_b_hob],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_004],4],
+         [[jasperblacksmith_trigger_barloque],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_005],5],
+         [[jasperblacksmith_trigger_barloque],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_006],6],
+         [[jasperblacksmith_trigger_barloque],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_007],7],
+         [[jasperblacksmith_trigger_bye],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_008],8],
+         [[jasperblacksmith_trigger_bye],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_009],9],
+         [[jasperblacksmith_trigger_cor_noth],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_010],10],
+         [[jasperblacksmith_trigger_cor_noth],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_011],11],
+         [[jasperblacksmith_trigger_cor_noth],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_012],12],
+         [[jasperblacksmith_trigger_council],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_013],13],
+         [[jasperblacksmith_trigger_council],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_014],14],
+         [[jasperblacksmith_trigger_council],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_015],15],
+         [[jasperblacksmith_trigger_dagger],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_016],16],
+         [[jasperblacksmith_trigger_duke],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_017],17],
+         [[jasperblacksmith_trigger_duke],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_018],18],
+         [[jasperblacksmith_trigger_duke],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_019],19],
+         [[jasperblacksmith_trigger_frular],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_020],20],
+         [[jasperblacksmith_trigger_hammer],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_021],21],
+         [[jasperblacksmith_trigger_hello],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_022],22],
+         [[jasperblacksmith_trigger_hello],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_023,
+               [LIBPLUG_DAYNIGHT]],23],
+         [[jasperblacksmith_trigger_hello],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_024],24],
+         [[jasperblacksmith_trigger_jasper],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_025],25],
+         [[jasperblacksmith_trigger_jasper],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_026],26],
+         [[jasperblacksmith_trigger_jasper],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_027],27],
+         [[jasperblacksmith_trigger_mace],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_028],28],
+         [[jasperblacksmith_trigger_marion],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_029],29],
+         [[jasperblacksmith_trigger_marion],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_030],30],
+         [[jasperblacksmith_trigger_marion],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_031],31],
+         [[jasperblacksmith_trigger_mining],0,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_032],32],
+         [[jasperblacksmith_trigger_orc],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_033],33],
+         [[jasperblacksmith_trigger_orc],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_034],34],
+         [[jasperblacksmith_trigger_orc],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_035],35],
+         [[jasperblacksmith_trigger_pietro],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_036],36],
+         [[jasperblacksmith_trigger_pietro],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_037],37],
+         [[jasperblacksmith_trigger_princess],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_038],38],
+         [[jasperblacksmith_trigger_princess],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_039],39],
+         [[jasperblacksmith_trigger_princess],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_speech_040],40]
+      ]],lLib);
+
+      lLib = Cons([&JasperElder,[
+         [[jasperelder_trigger_marion],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_041],41],
+         [[jasperelder_trigger_marion],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_042],42],
+         [[jasperelder_trigger_marion],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_043],43],
+         [[jasperelder_trigger_necromancer],0,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_044],44],
+         [[jasperelder_trigger_necromancer],0,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_045],45],
+         [[jasperelder_trigger_orc],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_046],46],
+         [[jasperelder_trigger_orc],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_047],47],
+         [[jasperelder_trigger_princess],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_048],48],
+         [[jasperelder_trigger_princess],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_049],49],
+         [[jasperelder_trigger_princess],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_050],50],
+         [[jasperelder_trigger_pupil],0,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_051],51],
+         [[jasperelder_trigger_rat],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_052],52],
+         [[jasperelder_trigger_rat],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_053],53],
+         [[jasperelder_trigger_spider],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_054],54],
+         [[jasperelder_trigger_spider],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_055],55],
+         [[jasperelder_trigger_tendrath],0,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_056],56],
+         [[jasperelder_trigger_tos],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_057],57],
+         [[jasperelder_trigger_tos],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_058],58],
+         [[jasperelder_trigger_tos],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_059],59],
+         [[jasperelder_trigger_tree_folk],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_060],60],
+         [[jasperelder_trigger_tree_folk],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_061],61],
+         [[jasperelder_trigger_troll],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_062],62],
+         [[jasperelder_trigger_troll],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_063],63],
+         [[jasperelder_trigger_venya_cyr],0,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_064],64],
+         [[jasperelder_trigger_yeti],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_065],65],
+         [[jasperelder_trigger_yeti],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_066],66]
+      ]],lLib);
+
+      lLib = Cons([&JasperElder,[
+         [[jasperelder_trigger_ant],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_001],1],
+         [[jasperelder_trigger_ant],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_002],2],
+         [[jasperelder_trigger_barloque],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_003],3],
+         [[jasperelder_trigger_barloque],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_004],4],
+         [[jasperelder_trigger_barloque],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_005],5],
+         [[jasperelder_trigger_brax],0,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_006],6],
+         [[jasperelder_trigger_bye],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_007],7],
+         [[jasperelder_trigger_bye],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_008],8],
+         [[jasperelder_trigger_bye],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_009],9],
+         [[jasperelder_trigger_centipede],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_010],10],
+         [[jasperelder_trigger_centipede],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_011],11],
+         [[jasperelder_trigger_cor_noth],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_012],12],
+         [[jasperelder_trigger_cor_noth],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_013],13],
+         [[jasperelder_trigger_cor_noth],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_014],14],
+         [[jasperelder_trigger_council],0,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_015],15],
+         [[jasperelder_trigger_dement],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_016],16],
+         [[jasperelder_trigger_dement],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_017],17],
+         [[jasperelder_trigger_duke],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_018],18],
+         [[jasperelder_trigger_duke],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_019],19],
+         [[jasperelder_trigger_duke],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_020],20],
+         [[jasperelder_trigger_faren],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_021],21],
+         [[jasperelder_trigger_faren],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_022],22],
+         [[jasperelder_trigger_faren],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_023],23],
+         [[jasperelder_trigger_hello],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_024,[LIBPLUG_NAME]],24],
+         [[jasperelder_trigger_hello],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_025],25],
+         [[jasperelder_trigger_hello],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_026],26],
+         [[jasperelder_trigger_hunter],0,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_027],27],
+         [[jasperelder_trigger_hunter_sword],0,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_028],28],
+         [[jasperelder_trigger_jala],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_029],29],
+         [[jasperelder_trigger_jala],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_030],30],
+         [[jasperelder_trigger_jala],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_031],31],
+         [[jasperelder_trigger_jasper],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_032],32],
+         [[jasperelder_trigger_jasper],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_033],33],
+         [[jasperelder_trigger_jasper],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_034],34],
+         [[jasperelder_trigger_jonas],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_035],35],
+         [[jasperelder_trigger_jonas],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_036],36],
+         [[jasperelder_trigger_jonas],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_037],37],
+         [[jasperelder_trigger_lich],0,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_038],38],
+         [[jasperelder_trigger_lightning],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_039],39],
+         [[jasperelder_trigger_lightning],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_speech_040],40]
+      ]],lLib);
+
+      lLib = Cons([&JasperInnKeeper,[
+         [[jasperinnkeeper_trigger_princess],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_041],41],
+         [[jasperinnkeeper_trigger_princess],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_042],42],
+         [[jasperinnkeeper_trigger_quintor],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_043],43],
+         [[jasperinnkeeper_trigger_quintor],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_044],44],
+         [[jasperinnkeeper_trigger_rebels],0,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_045],45],
+         [[jasperinnkeeper_trigger_stunted_dwarf],0,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_046,[LIBPLUG_NAME]],46],
+         [[jasperinnkeeper_trigger_tos],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_047],47],
+         [[jasperinnkeeper_trigger_tos],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_048],48],
+         [[jasperinnkeeper_trigger_troll],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_049],49],
+         [[jasperinnkeeper_trigger_yevitan],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_050],50],
+         [[jasperinnkeeper_trigger_yevitan],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_051],51],
+         [[jasperinnkeeper_trigger_zhieu_b_hob,
+            jasperinnkeeper_trigger_bob],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_052],52]
+      ]],lLib);
+
+      lLib = Cons([&JasperInnKeeper,[
+         [[jasperinnkeeper_trigger_afiera_d_xor,
+            jasperinnkeeper_trigger_afiera_xor],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_001],1],
+         [[jasperinnkeeper_trigger_assassin],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_002],2],
+         [[jasperinnkeeper_trigger_barloque],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_003],3],
+         [[jasperinnkeeper_trigger_barloque],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_004],4],
+         [[jasperinnkeeper_trigger_bye],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_005],5],
+         [[jasperinnkeeper_trigger_bye],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_006,
+               [LIBPLUG_DAYNIGHT]],6],
+         [[jasperinnkeeper_trigger_chicken_soup],0,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_007],7],
+         [[jasperinnkeeper_trigger_cor_noth],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_008],8],
+         [[jasperinnkeeper_trigger_cor_noth],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_009],9],
+         [[jasperinnkeeper_trigger_council],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_010],10],
+         [[jasperinnkeeper_trigger_council],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_011],11],
+         [[jasperinnkeeper_trigger_duke],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_012],12],
+         [[jasperinnkeeper_trigger_duke],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_013],13],
+         [[jasperinnkeeper_trigger_duke],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_014],14],
+         [[jasperinnkeeper_trigger_fate],0,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_015],15],
+         [[jasperinnkeeper_trigger_hello],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_016],16],
+         [[jasperinnkeeper_trigger_hello],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_017],17],
+         [[jasperinnkeeper_trigger_hello],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_018],18],
+         [[jasperinnkeeper_trigger_husband,
+            jasperinnkeeper_trigger_husband_2],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_019],19],
+         [[jasperinnkeeper_trigger_husband,
+            jasperinnkeeper_trigger_husband_2],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_020],20],
+         [[jasperinnkeeper_trigger_jasper],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_021],21],
+         [[jasperinnkeeper_trigger_jasper],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_022],22],
+         [[jasperinnkeeper_trigger_jonas],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_023],23],
+         [[jasperinnkeeper_trigger_jonas],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_024],24],
+         [[jasperinnkeeper_trigger_kill,
+            jasperinnkeeper_trigger_kill_2],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_025],25],
+         [[jasperinnkeeper_trigger_marion],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_026],26],
+         [[jasperinnkeeper_trigger_marion],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_027],27],
+         [[jasperinnkeeper_trigger_miriana],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_028],28],
+         [[jasperinnkeeper_trigger_miriana],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_029],29],
+         [[jasperinnkeeper_trigger_miriana],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_030],30],
+         [[jasperinnkeeper_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_031],31],
+         [[jasperinnkeeper_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_032],32],
+         [[jasperinnkeeper_trigger_murder],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_033],33],
+         [[jasperinnkeeper_trigger_need_a_courier],0,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_034],34],
+         [[jasperinnkeeper_trigger_node_attack],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_035],35],
+         [[jasperinnkeeper_trigger_node_attack],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_036],36],
+         [[jasperinnkeeper_trigger_orc],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_037],37],
+         [[jasperinnkeeper_trigger_pietro],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_038],38],
+         [[jasperinnkeeper_trigger_pietro],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_039],39],
+         [[jasperinnkeeper_trigger_princess],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_speech_040],40]
+      ]],lLib);
+
+      lLib = Cons([&JasperMerchant,[
+         [[jaspermerchant_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_041],41],
+         [[jaspermerchant_trigger_tova],0,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_042],42],
+         [[jaspermerchant_trigger_whiskey],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_043],43],
+         [[jaspermerchant_trigger_whiskey],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_044],44],
+         [[jaspermerchant_trigger_whiskey],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_045],45],
+         [[jaspermerchant_trigger_widow,
+            jaspermerchant_trigger_qesino],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_046],46],
+         [[jaspermerchant_trigger_widow,
+            jaspermerchant_trigger_qesino],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_047],47],
+         [[jaspermerchant_trigger_widow,
+            jaspermerchant_trigger_qesino],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_048],48],
+         [[jaspermerchant_trigger_wool],0,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_049],49],
+         [[jaspermerchant_trigger_wryn_s_keep,
+            jaspermerchant_trigger_wryn_s_keep_2,
+            jaspermerchant_trigger_wryn_s_keep_3,
+            jaspermerchant_trigger_wryn_s_keep_4],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_050],50],
+         [[jaspermerchant_trigger_wryn_s_keep,
+            jaspermerchant_trigger_wryn_s_keep_2,
+            jaspermerchant_trigger_wryn_s_keep_3],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_051,
+               [LIBPLUG_LORDLADY]],51],
+         [[jaspermerchant_trigger_wryn_s_keep,
+            jaspermerchant_trigger_wryn_s_keep_2,
+            jaspermerchant_trigger_wryn_s_keep_3],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_052],52],
+         [[jaspermerchant_trigger_yes],0,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_053],53],
+         [[jaspermerchant_trigger_yevitan],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_054],54],
+         [[jaspermerchant_trigger_yevitan],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_055],55],
+         [[jaspermerchant_trigger_yevitan],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_056],56],
+         [[jaspermerchant_trigger_zig],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_057,[LIBPLUG_NAME]],57]
+      ]],lLib);
+
+      lLib = Cons([&JasperMerchant,[
+         [[jaspermerchant_trigger_afiera_d_xor,
+            jaspermerchant_trigger_afiera_xor],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_001],1],
+         [[jaspermerchant_trigger_afiera_d_xor,
+            jaspermerchant_trigger_afiera_xor],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_002],2],
+         [[jaspermerchant_trigger_afiera_d_xor,
+            jaspermerchant_trigger_afiera_xor],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_003],3],
+         [[jaspermerchant_trigger_barloque],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_004],4],
+         [[jaspermerchant_trigger_barloque],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_005],5],
+         [[jaspermerchant_trigger_barloque],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_006,
+               [LIBPLUG_SIRMADAM]],6],
+         [[jaspermerchant_trigger_bye,
+            jaspermerchant_trigger_bye_2],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_007,[LIBPLUG_NAME]],7],
+         [[jaspermerchant_trigger_bye,
+            jaspermerchant_trigger_bye_2],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_008,
+               [LIBPLUG_SIRMADAM]],8],
+         [[jaspermerchant_trigger_bye,
+            jaspermerchant_trigger_bye_2],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_009],9],
+         [[jaspermerchant_trigger_cor_noth],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_010],10],
+         [[jaspermerchant_trigger_cor_noth],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_011],11],
+         [[jaspermerchant_trigger_cor_noth],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_012],12],
+         [[jaspermerchant_trigger_cor_noth],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_013],13],
+         [[jaspermerchant_trigger_council],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_014],14],
+         [[jaspermerchant_trigger_council],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_015,
+               [LIBPLUG_SIRMADAM]],15],
+         [[jaspermerchant_trigger_council],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_016],16],
+         [[jaspermerchant_trigger_council],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_017],17],
+         [[jaspermerchant_trigger_duke],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_018],18],
+         [[jaspermerchant_trigger_duke],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_019],19],
+         [[jaspermerchant_trigger_duke],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_020],20],
+         [[jaspermerchant_trigger_goat],0,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_021],21],
+         [[jaspermerchant_trigger_hello],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_022,[LIBPLUG_NAME]],22],
+         [[jaspermerchant_trigger_hello],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_023,
+               [LIBPLUG_SIRMADAM]],23],
+         [[jaspermerchant_trigger_hello],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_024],24],
+         [[jaspermerchant_trigger_jasper],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_025],25],
+         [[jaspermerchant_trigger_jasper],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_026],26],
+         [[jaspermerchant_trigger_jasper],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_027],27],
+         [[jaspermerchant_trigger_marion],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_028],28],
+         [[jaspermerchant_trigger_marion],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_029],29],
+         [[jaspermerchant_trigger_marion],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_030,[LIBPLUG_NAME]],30],
+         [[jaspermerchant_trigger_pietro],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_031],31],
+         [[jaspermerchant_trigger_pietro],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_032,
+               [LIBPLUG_SIRMADAM]],32],
+         [[jaspermerchant_trigger_pietro],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_033],33],
+         [[jaspermerchant_trigger_princess],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_034],34],
+         [[jaspermerchant_trigger_princess],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_035],35],
+         [[jaspermerchant_trigger_princess],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_036],36],
+         [[jaspermerchant_trigger_princess],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_037],37],
+         [[jaspermerchant_trigger_quintor],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_038],38],
+         [[jaspermerchant_trigger_quintor],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_039],39],
+         [[jaspermerchant_trigger_quintor],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_speech_040],40]
+      ]],lLib);
+
+      return lLib;
+   }
+
+   GetRandomLibrary()
+   "Random library nodes: [class, [[percent, mood, action, key], ...]]"
+   {
+      local lLib;
+
+      lLib = $;
+
+      lLib = Cons([&JasperBanker,[
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,jasperbanker_random_001],1],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,jasperbanker_random_002],2],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,jasperbanker_random_003],3],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,jasperbanker_random_004],4],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,jasperbanker_random_005],5],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,jasperbanker_random_006],6],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,jasperbanker_random_007],7],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,jasperbanker_random_008],8],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,jasperbanker_random_009],9],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,jasperbanker_random_010],10],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbanker_random_011,
+               [LIBPLUG_LADLASSIE]],11],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,jasperbanker_random_012],12],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,jasperbanker_random_013],13],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbanker_random_014,[LIBPLUG_NAME]],14],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbanker_random_015],15],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbanker_random_016],16],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbanker_random_017],17],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbanker_random_018],18],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbanker_random_019],19],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbanker_random_020],20],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbanker_random_021],21],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbanker_random_022],22],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbanker_random_023],23],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbanker_random_024],24],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbanker_random_025,[LIBPLUG_NAME]],25],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbanker_random_026,[LIBPLUG_NAME]],26],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperbanker_random_027],27],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,jasperbanker_random_028],28],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,jasperbanker_random_029],29],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbanker_random_030,[LIBPLUG_SIRMADAM]],30],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,jasperbanker_random_031],31],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,jasperbanker_random_032],32],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,jasperbanker_random_033],33],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,jasperbanker_random_034],34],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,jasperbanker_random_035],35],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,jasperbanker_random_036],36]
+      ]],lLib);
+
+      lLib = Cons([&JasperBartender,[
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_001],1],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_002],2],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_003],3],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_004],4],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_005],5],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_006],6],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_007],7],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_008],8],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_009],9],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_010],10],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_011],11],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_012],12],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_013],13],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_014],14],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_015],15],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_016],16],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_017],17],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_018],18],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_019],19],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_020],20],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_021],21],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_022],22],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_023],23],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_024],24],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_025],25],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_026],26],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_027],27],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_028],28],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_029],29],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_030],30],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_031],31],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperbartender_random_032],32],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,jasperbartender_random_033],33]
+      ]],lLib);
+
+      lLib = Cons([&JasperBlacksmith,[
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_random_001],1],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_random_002],2],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_random_003],3],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_random_004],4],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_random_005],5],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_random_006],6],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_random_007],7],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_random_008],8],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_random_009],9],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_random_010],10],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_random_011],11],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_random_012],12],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_random_013],13],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_random_014],14],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_random_015],15],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_random_016],16],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_random_017],17],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_random_018],18],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_random_019],19],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperblacksmith_random_020],20]
+      ]],lLib);
+
+      lLib = Cons([&JasperElder,[
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_random_041],41],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_random_042],42],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,jasperelder_random_043],43],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,jasperelder_random_044],44],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,jasperelder_random_045],45],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,jasperelder_random_046],46],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,jasperelder_random_047],47],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,jasperelder_random_048],48],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,jasperelder_random_049],49],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,jasperelder_random_050],50]
+      ]],lLib);
+
+      lLib = Cons([&JasperElder,[
+         [50,0,[LIBACT_QUOTE_RSC,jasperelder_random_001],1],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,jasperelder_random_002],2],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,jasperelder_random_003],3],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,jasperelder_random_004],4],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,jasperelder_random_005],5],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,jasperelder_random_006],6],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,jasperelder_random_007],7],
+         [50,LIBRES_MOOD_NEUTRAL,[LIBACT_QUOTE_RSC,jasperelder_random_008],8],
+         [50,LIBRES_MOOD_NEUTRAL,[LIBACT_QUOTE_RSC,jasperelder_random_009],9],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_random_010],10],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_random_011],11],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_random_012],12],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_random_013],13],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_random_014],14],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_random_015],15],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_random_016],16],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_random_017],17],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_random_018],18],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_random_019],19],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_random_020],20],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_random_021],21],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_random_022],22],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_random_023],23],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_random_024],24],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_random_025],25],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_random_026],26],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_random_027],27],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_random_028],28],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_random_029],29],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_random_030],30],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_random_031],31],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_random_032],32],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_random_033],33],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_random_034],34],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_random_035],35],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperelder_random_036],36],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_random_037],37],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_random_038],38],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jasperelder_random_039],39],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,jasperelder_random_040],40]
+      ]],lLib);
+
+      lLib = Cons([&JasperInnKeeper,[
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_random_001],1],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_random_002],2],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_random_003],3],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_random_004],4],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_random_005],5],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_random_006],6],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_random_007],7],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_random_008],8],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_random_009],9],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_random_010],10],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jasperinnkeeper_random_011],11],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,jasperinnkeeper_random_012],12]
+      ]],lLib);
+
+      lLib = Cons([&JasperMerchant,[
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,jaspermerchant_random_001],1],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,jaspermerchant_random_002],2],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_random_003,[LIBPLUG_NAME]],3],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,jaspermerchant_random_004],4],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_random_005,
+               [LIBPLUG_NAME,LIBPLUG_NAME]],5],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,jaspermerchant_random_006],6],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_random_007,
+               [LIBPLUG_SIRMADAM]],7],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,jaspermerchant_random_008],8],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_random_009,[LIBPLUG_NAME]],9],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_random_010],10],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_random_011,
+               [LIBPLUG_SIRMADAM]],11],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_random_012],12],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_random_013],13],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_random_014],14],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_random_015],15],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_random_016],16],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_random_017,[LIBPLUG_NAME]],17],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_random_018,
+               [LIBPLUG_SIRMADAM]],18],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_random_019],19],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_random_020],20],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_random_021,
+               [LIBPLUG_SIRMADAM]],21],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_random_022,
+               [LIBPLUG_SIRMADAM]],22],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_random_023],23],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,jaspermerchant_random_024],24],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_random_025],25],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_random_026,[LIBPLUG_NAME]],26],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,jaspermerchant_random_027],27],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,jaspermerchant_random_028],28],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,jaspermerchant_random_029],29],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,jaspermerchant_random_030],30],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,jaspermerchant_random_031,[LIBPLUG_NAME]],31],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,jaspermerchant_random_032],32]
+      ]],lLib);
+
+      return lLib;
+   }
+
+end
+////////////////////////////////////////////////////////////////////////////////

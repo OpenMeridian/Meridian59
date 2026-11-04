@@ -1,0 +1,2391 @@
+// Meridian 59, Copyright 1994-2012 Andrew Kirmse and Chris Kirmse.
+// All rights reserved.
+//
+// This software is distributed under a license that is described in
+// the LICENSE file that accompanies it.
+//
+// Meridian is a registered trademark.
+
+
+////////////////////////////////////////////////////////////////////////////////
+NpcSpeechBarloque is NpcSpeech
+// NPC talk of Barloque:
+// answers to trigger words and random lines.
+// Each line is a resource (EN here, DE in the .lkod); Library adds the
+// lists in CreateSpeechLibrary and CreateRandomLibrary.
+
+constants:
+
+   include blakston.khd
+
+resources:
+
+   include npcspbarloque.lkod
+
+   // BarloqueApothecary (Joguer)
+   barloqueapothecary_speech_001 = \
+      "~kJoguer says, \"Such a fine city is our fair capital Barloque. The "
+      "other cities can offer not the wonders of hither shop keepers.\""
+   barloqueapothecary_speech_002 = \
+      "~kJoguer says, \"In faith, I grow most of mine own stock. There is "
+      "little that thou could offer me that I have need of.\""
+   barloqueapothecary_speech_003 = \
+      "~kJoguer says, \"Must thou make such haste in thy departure? I shall "
+      "be sorry to see thee go.\""
+   barloqueapothecary_speech_004 = \
+      "~kJoguer says, \"Cor Noth hath an odd assortment of folk.\""
+   barloqueapothecary_speech_005 = \
+      "~kJoguer says, \"The council doth rule the land in the absence of our "
+      "King.\""
+   barloqueapothecary_speech_006 = \
+      "~kJoguer says, \"Thou should understand that the death of the Duke is "
+      "a bane. His nephew, even more incompetent than Kalior, has taken the "
+      "reins of power.\""
+   barloqueapothecary_speech_007 = \
+      "~kA woman's voice calls from the other room, \"Joguer, bring thyself "
+      "hither! Thy dinner will be ice before it sees the likes of thee.\""
+   barloqueapothecary_speech_008 = \
+      "~kA woman's voice yells from the other room, \"~BJoguer, dost thou "
+      "listen to me not? 'Tis thrice I have called thee now. Attend to me. "
+      "Joguer?\""
+   barloqueapothecary_speech_009 = \
+      "~kA woman irately calls from the other room, \"~BJoguer! Get thee to "
+      "bed. I'll stay awake no more waiting for thee to shut thy bauble "
+      "shop!\""
+   barloqueapothecary_speech_010 = \
+      "~kJoguer hums to himself, oblivious of your presence."
+   barloqueapothecary_speech_011 = \
+      "~kJoguer says, \"Ah, my gentle friend, how good it is to see thy "
+      "countenance once again.\""
+   barloqueapothecary_speech_012 = \
+      "~kJoguer says, \"Ah, %s, how good it is to see thy countenance once "
+      "again.\""
+   barloqueapothecary_speech_013 = \
+      "~kJoguer says, \"As the foremost expert and sage on herbs, roots, "
+      "berries, mushrooms and other tidbits of foliage, I am humbly at thy "
+      "service. By my troth, I can even teach a trick or two.\""
+   barloqueapothecary_speech_014 = \
+      "~kJoguer says, \"Thou will never find a more skilled artisan of stone "
+      "than the man in Jasper who owns the hands of Afiera D'xor.\""
+   barloqueapothecary_speech_015 = \
+      "~kJoguer says, \"Well I don't pay much attention to all of them "
+      "politics, but I don't see anything wrong with what Jonas has done.\""
+   barloqueapothecary_speech_016 = \
+      "~kJoguer says, \"The most fertile of soil can be found near yonder "
+      "Marion.\""
+   barloqueapothecary_speech_017 = \
+      "~kA woman irately calls from the other room, \"~BJoguer! Get thee to "
+      "bed. I'll stay awake no more waiting for thee to shut thy bauble "
+      "shop!\""
+   barloqueapothecary_speech_018 = \
+      "~kJoguer says, \"'Tis my belief that the priestesses produce potions "
+      "that cleanse the mind of spells. Be fair warned, quaffing such oft "
+      "comes with a high price.\""
+   barloqueapothecary_speech_019 = \
+      "~kJoguer says, \"May the Princess have the strength to combat this "
+      "new threat, Akardius.\""
+   barloqueapothecary_speech_020 = \
+      "~kJoguer says, \"In faith, I have not time for teaching. Mayhap, thou "
+      "will seek me again when I have time to spare.\""
+   barloqueapothecary_speech_021 = \
+      "~kJoguer says, \"I sell the finest herbs and roots.\""
+   barloqueapothecary_speech_022 = \
+      "~kJoguer says, \"Mayhaps, thou could learn how to warm the air from "
+      "one such as me. Or if thou has my favor, I will consider teaching "
+      "thee how to fade clear of sight.\""
+   barloqueapothecary_speech_023 = \
+      "~kJoguer nods his head and half smiles when Tos is mentioned. It is "
+      "obvious that he is refraining from voicing his opinions on the town."
+   barloqueapothecary_speech_024 = \
+      "~kJoguer says, \"Mayhaps, thou could learn how to warm the air from "
+      "one such as me. Or if thou has my favor, I will consider teaching "
+      "thee how to fade clear of sight.\""
+   barloqueapothecary_random_001 = \
+      "~kJoguer says, \"How now! Curious enough, our fledgling neighbor "
+      "blacksmith who hath recently removed himself and his shop likewise "
+      "from yonder Tos, has a most peculiar fascination with magical wands. "
+      "I know not wherefore he collects them.\""
+   barloqueapothecary_random_002 = \
+      "~kJoguer says, \"Dost thou know that some mushrooms found in the wild "
+      "can grant sustenance to those who consume them. 'Tis truly a wonder "
+      "the different types of magics such foliage can deliver, be it as "
+      "reagents or food stock.\""
+   barloqueapothecary_random_003 = \
+      "~kJoguer says, \"Learning the magic of the different gods be like "
+      "treating thyself to a vast meal. Some foods, thou will find, do not "
+      "go together. And oft, thou must cleanse thy palette before moving on "
+      "to another entree. Like a fine dry wine, there are potions that can "
+      "cleanse thy mind of unwanted learning.\""
+   barloqueapothecary_random_004 = \
+      "~kJoguer says, \"I beseech thee, allow it into my knowledge if thou "
+      "doth feel warm in greater measure than pleases thy body. I would to "
+      "keep the temperatures to the level of expectation required by my "
+      "precious greenery within. Or if thou find comfort in such extreme "
+      "warmth, mayhap I could one day teach thee the magic of heat.\""
+   barloqueapothecary_random_005 = \
+      "~kJoguer says, \"To the south of our beauteous city and deep within "
+      "the Badlands, the Faren priestess doth reside. I take her to be high "
+      "spirited and a pure ally to the breadth of nature, yet be fair warned "
+      "the woman hath a temper seen not in the careful bounds of simple "
+      "civilization.\""
+   barloqueapothecary_random_006 = \
+      "~kJoguer says, \"If thou art weary in thy feet, tongue twisted "
+      "Pritchett doth host a pleasant inn across from mine shop. 'Tis true, "
+      "indeed.\""
+   barloqueapothecary_random_007 = \
+      "~kJoguer says, \"I know not why the ships sail no more.\""
+   barloqueapothecary_random_008 = \
+      "~kJoguer says, \"Ah, I find nothing more intriguing than the wondrous "
+      "nature of the reagents, how little they are, yet how big. Alas, I "
+      "could spend all of my days here studying them.\""
+   barloqueapothecary_random_009 = \
+      "~kJoguer says, \"Nature hath spawned many a plant and rock, more "
+      "indeed than one can put to numbers. 'Tis mine own belief that each "
+      "pebble and every twig doth hold some essence of power that we will "
+      "one day tap and put to use in our spell crafting.\""
+   barloqueapothecary_random_010 = \
+      "~kJoguer says, \"Can I help thee to find a certain herb or mushroom?\""
+   barloqueapothecary_random_011 = \
+      "~kJoguer says, \"Hmm. Interesting indeed that the elderberries of the "
+      "early season behold smaller and more jagged leaves than those late "
+      "comers of autumn.\""
+   barloqueapothecary_random_012 = \
+      "~kJoguer says, \"Were thou ever to find thyself near the mysterious "
+      "stone circle that lies deep beyond the cragged mountains, and if thou "
+      "possess tenacity in great measure, then, as I understand and breathe, "
+      "thou will find means to the center and to the magic source within.\""
+   barloqueapothecary_random_013 = \
+      "~kJoguer says, \"No greater waste hath occurred than frivolous "
+      "discarding of valued spell reagents by those who hath no awareness of "
+      "their true value to those who practice acts of sorcery.\""
+   barloqueapothecary_trigger_barloque = "barloque"
+   barloqueapothecary_trigger_sell = "sell"
+   barloqueapothecary_trigger_bye = "bye"
+   barloqueapothecary_trigger_cor_noth = "cor noth"
+   barloqueapothecary_trigger_council = "council"
+   barloqueapothecary_trigger_council_2 = "council"
+   barloqueapothecary_trigger_duke = "duke"
+   barloqueapothecary_trigger_echo = "echo"
+   barloqueapothecary_trigger_emote = "emote"
+   barloqueapothecary_trigger_hello = "hello"
+   barloqueapothecary_trigger_help = "help"
+   barloqueapothecary_trigger_jasper = "jasper"
+   barloqueapothecary_trigger_jonas = "jonas"
+   barloqueapothecary_trigger_marion = "marion"
+   barloqueapothecary_trigger_night = "night"
+   barloqueapothecary_trigger_potion = "potion"
+   barloqueapothecary_trigger_potion_2 = "potion"
+   barloqueapothecary_trigger_princess = "princess"
+   barloqueapothecary_trigger_pupil = "pupil"
+   barloqueapothecary_trigger_buy = "buy"
+   barloqueapothecary_trigger_teach = "teach"
+   barloqueapothecary_trigger_learn = "learn"
+   barloqueapothecary_trigger_learn_2 = "learn"
+   barloqueapothecary_trigger_tos = "tos"
+   barloqueapothecary_trigger_trick = "trick"
+
+   // BarloqueBartender (Meidei)
+   barloquebartender_speech_001 = \
+      "~kMeidei says, \"Barloque be the capital city. Once she has properly "
+      "embraced the bosom of Shal'ille, she will be able to truly bring the "
+      "kingdom to peace.\""
+   barloquebartender_speech_002 = \
+      "~kMeidei says, \"I seek new recipes and oft run low on common things "
+      "like torches.\""
+   barloquebartender_speech_003 = \
+      "~kMeidei says, \"May Shal'ille guide thee to righteousness.\""
+   barloquebartender_speech_004 = \
+      "~kMeidei hands you a deck of unusual playing cards and says, \"Dost "
+      "thou lack in knowledge, the rules of this card game?\""
+   barloquebartender_speech_005 = \
+      "~kMeidei says, \"A horrid city is Cor Noth. The University strays "
+      "from the teachings of Shal'ille and the inhabitants are wanton "
+      "atheists. What's worse, the ivory chapel of Shal'ille hath been "
+      "soiled by deviant guilds.\""
+   barloquebartender_speech_006 = \
+      "~kMeidei says, \"The five appointed councilors are sure to be "
+      "wondering if their jobs are in jeopardy. I know not where they are "
+      "right now. Mayhap Pritchett knows their whereabouts.\""
+   barloquebartender_speech_007 = \
+      "~k~IA crown is an arbitrary denomination of money, reagents, gems or "
+      "items that the players agree to. Typically, one crown equals 50 "
+      "shillings. High stake games have been known to have a single crown "
+      "equal 10,000 shillings."
+   barloquebartender_speech_008 = \
+      "~k%s draws the ~gSlave`n card - ~I %s is booted out of this game and "
+      "must pay up immediately. Remaining players continue. ~BIf only one "
+      "player remains, that player has won the game."
+   barloquebartender_speech_009 = \
+      "~k%s draws the ~gVagabond`n card - ~I Nothing happens, play passes to "
+      "the next player."
+   barloquebartender_speech_010 = \
+      "~k%s draws the ~gEsquire`n card - ~I must pay 10 Crowns to the Kitty."
+   barloquebartender_speech_011 = \
+      "~k%s draws the ~bClergy`n card - ~I each player must give %s 1 Crown "
+      "immediately."
+   barloquebartender_speech_012 = \
+      "~k%s draws the ~rPrince`n card - ~I collect 1/2 of the Kitty."
+   barloquebartender_speech_013 = \
+      "~k%s draws the ~r~BKing~B`n card - ~I ~Bwin the game and collect all "
+      "of the Kitty!"
+   barloquebartender_speech_014 = \
+      "~k%s draws the ~rLord Mayor`n card - ~I collect 1/10 of the Kitty."
+   barloquebartender_speech_015 = \
+      "~k%s draws the ~gTradesman`n card - ~I must pay 4 Crowns to the Kitty."
+   barloquebartender_speech_016 = \
+      "~k%s draws the ~gFreeman`n card - ~I may draw again if 2 Crowns are "
+      "paid to the Kitty."
+   barloquebartender_speech_017 = \
+      "~k%s draws the ~gSerf`n card - ~I must pay 2 Crowns to the Kitty."
+   barloquebartender_speech_018 = \
+      "~k%s draws the ~gServant`n card - ~I must pay 1 Crown to the Kitty."
+   barloquebartender_speech_019 = \
+      "~kMeidei says, \"A new pox has formed in Tos.\""
+   barloquebartender_speech_020 = \
+      "~kMeidei says, \"An inconsequential god is that Faren. Stray not from "
+      "the path of Shal'ille.\""
+   barloquebartender_speech_021 = \
+      "~kMeidei says, \"Spouting such nonsense can verily bring thee much "
+      "trouble.\""
+   barloquebartender_speech_022 = \
+      "~kMeidei hands you a deck of unusual playing cards and says, \"Dost "
+      "thou lack in knowledge, the rules of this card game?\""
+   barloquebartender_speech_023 = \
+      "~kMeidei says, \"The Fey Elhai be the most treasured children of "
+      "Shal'ille. 'Twas foul Qor who corrupted the Fey Dirhai and began the "
+      "horrid war for dominance o'er the Vale of Sorrows.\""
+   barloquebartender_speech_024 = \
+      "~kMeidei says, \"Welcome and praise Shal'ille.\""
+   barloquebartender_speech_025 = \
+      "~kMeidei says, \"I tend the bar, sell food, and pledge myself to the "
+      "goddess Shal'ille.\""
+   barloquebartender_speech_026 = \
+      "~kMeidei says, \"Poor Jala. Had Shal'ille not already pledged herself "
+      "to mending the land, mayhap she could have saved her fair sister from "
+      "foul Qor.\""
+   barloquebartender_speech_027 = \
+      "~kMeidei says, \"I once thought those of Jasper should take to "
+      "farming. All that is produced now are these blasted rebels and "
+      "criminals. Mayhap the Justicar should pay them a visit.\""
+   barloquebartender_speech_028 = \
+      "~kMeidei says, \"The mighty wicked has fallen.\""
+   barloquebartender_speech_029 = \
+      "~kMeidei says, \"With the tutelage of Xiana, Kateriina is growing "
+      "into a fine and compassionate woman.\""
+   barloquebartender_speech_030 = \
+      "~k~IMeidei will not keep track of your winnings and losses. You must "
+      "select one player to keep tabs on who owes whom how much. This allows "
+      "you to bet with any type of wager such as shillings, reagents and "
+      "food."
+   barloquebartender_speech_031 = \
+      "~kMeidei says, \"Lord Kraanan be the husband to the holy Shal'ille. I "
+      "must therefore tolerate his followers, despite their warring ways.\""
+   barloquebartender_speech_032 = \
+      "~kMeidei says, \"Marion is a peaceful and loving town under the "
+      "caring guidance of good Shal'ille, praise be her name.\""
+   barloquebartender_speech_033 = \
+      "~kMeidei says, \"Her wanton ways and godless deeds befit not the "
+      "goodness and love of Shal'ille. Listen not to Miriana, she only seeks "
+      "to lead thee astray.\""
+   barloquebartender_speech_034 = \
+      "~kMeidei says, \"She draws attention to herself, and one begins to "
+      "wonder, to what end?\""
+   barloquebartender_speech_035 = \
+      "~kMeidei says, \"Shal'ille forgives all, but those who seek "
+      "forgiveness must do so of their own accord. I hope that Miriana will "
+      "one day truly find enlightenment and the path to our gracious "
+      "goddess.\""
+   barloquebartender_speech_036 = \
+      "~kMeidei says, \"Lady Shal'ille, lead us on the path of peace, for "
+      "destruction only begets more destruction. I shudder at the call for "
+      "her death, for to cause the death of another surely leads to one's "
+      "own death.\""
+   barloquebartender_speech_037 = \
+      "~kMeidei says, \"I have no wish to speak of that depraved creature in "
+      "the face of Shal'ille's goodness.\""
+   barloquebartender_speech_038 = \
+      "~kMeidei says, \"Speak not the foul name of that creature here. She "
+      "seeks to besmirch the name of our Lady Shal'ille.\""
+   barloquebartender_speech_039 = \
+      "~kMeidei says, \"I tell thee, a magical mana node devoted to good "
+      "appears when the Fey Dirhai are repelled from the forest.\""
+   barloquebartender_speech_040 = \
+      "~kMeidei says, \"Trust as I do that our Lady Shal'ille will protect "
+      "us, should Miriana become a danger.\""
+   barloquebartender_speech_041 = \
+      "~kMeidei says, \"Enough of these happenings. Let us break bread and "
+      "pray to Lady Shal'ille, that she may guide us.\""
+   barloquebartender_speech_042 = \
+      "~kMeidei says, \"With the tutelage of Xiana, Kateriina is growing "
+      "into a fine and compassionate woman.\""
+   barloquebartender_speech_043 = \
+      "~kMeidei says, \"Speak thee not her wicked name! There is none so "
+      "base as that vile harpy! Avoid her seductive ways and stay true to "
+      "Shal'ille!\""
+   barloquebartender_speech_044 = \
+      "~kMeidei says, \"That changeling Riija is a prattler and a buffoon! "
+      "Stay thee away from his twisted ways!\""
+   barloquebartender_speech_045 = \
+      "~kRules to play ~BFeudal Lords~B - ~I Players take turns picking (say "
+      "~kdraw`n~I) from the deck. Select one person to keep track of how "
+      "many ~g~Bcrowns~g`n~I each player owes. After every five draws, that "
+      "person should announce each player's debt and what the total size of "
+      "the ~rkitty~n~I is. The player who draws the ~BKing~n~I card, wins "
+      "the entire kitty and all other players must pay that person what they "
+      "owe."
+   barloquebartender_speech_046 = \
+      "~kMeidei says, \"If thou seeks food, common items, a peaceful game of "
+      "chess, or to hear of the greatness of Shal'ille, then seek thee no "
+      "further.\""
+   barloquebartender_speech_047 = \
+      "~kMeidei says, \"Praise be Shal'ille! The Lady of Gentle Rains "
+      "protects all the world from the vile and wicked. Do you know of her "
+      "ways?\""
+   barloquebartender_speech_048 = \
+      "~kThe room goes silent as %s mentions stunted dwarf."
+   barloquebartender_speech_049 = \
+      "~kMeidei says, \"Tos lies beyond the badlands to the south. May "
+      "Shal'ille protect thee if thou wish to travel to her wicked walls.\""
+   barloquebartender_speech_050 = \
+      "~kMeidei says, \"The Vale of Sorrows as it is now called was molded "
+      "by gentle Shal'ille for her favorite folk, the Fey Elhai. Those "
+      "cursed Fey Dirhai spoil the most holy of lands.\""
+   barloquebartender_speech_051 = \
+      "~kMeidei says, \"Shal'ille is the goddess of peace and serenity. "
+      "Dedication to her shall bring thee good health and enough food, which "
+      "are forsooth the only necessities of life.\""
+   barloquebartender_speech_052 = \
+      "~kMeidei says, \"Xiana teaches the sermons of Shal'ille at her "
+      "temple. By my faith, a wise lady.\""
+   barloquebartender_random_001 = \
+      "~kMeidei says, \"If thou hath shillings in great measure, they would "
+      "be safe in a bank, but they would be better served if given to "
+      "charity in the name of Shal'ille. If thou give them to me, I will "
+      "distribute them to the poor for thee.\""
+   barloquebartender_random_002 = \
+      "~kMeidei says, \"Seek thee Rook for lore of the vile monsters that "
+      "plague our land. After falling from grace of the Princess, I believe "
+      "he hath moved to Cor Noth.\""
+   barloquebartender_random_003 = \
+      "~kMeidei says, \"If thou are intent on fighting, start with the rats. "
+      "They are easy and overpopulated.\""
+   barloquebartender_random_004 = \
+      "~kMeidei says, \"The Priestess Xiana can instruct thee on the spells "
+      "of blessed Shal'ille.\""
+   barloquebartender_random_005 = \
+      "~kMeidei says, \"Seek thee the temple of Shal'ille and pray for "
+      "redemption! It lies in the deep woods of Ileria, north of Marion.\""
+   barloquebartender_random_006 = \
+      "~kMeidei says, \"Gems and herbs can oft be employed to work magic. I "
+      "pray thee, use them only for the will of Shal'ille.\""
+   barloquebartender_random_007 = \
+      "~kMeidei says, \"Rest and eat in here rather than on the road. 'Tis "
+      "best for thy body. Also for thy soul, for I will tell thee of blessed "
+      "Shal'ille.\""
+   barloquebartender_random_008 = \
+      "~kMeidei says, \"Others will say that battling opponents more potent "
+      "than thee will make thy body stronger. While this be true, combat is "
+      "not the way to salvation. Only through the peaceful teachings of "
+      "Shal'ille can thou find thyself content!\""
+   barloquebartender_random_009 = \
+      "~kMeidei says, \"If thou ask me, I believe those tokens cursed. Bring "
+      "them not before me. Surely for some wicked reason, the council wishes "
+      "to study them.\""
+   barloquebartender_random_010 = \
+      "~kMeidei says, \"Thou appears weighed down by equipment. Thou may "
+      "wish to seek the Vaultman here in Barloque, or better yet give thy "
+      "items to the needy in the name of Shal'ille.\""
+   barloquebartender_random_011 = \
+      "~kMeidei says, \"Beware the Cragged Mountains, they hide the vile "
+      "temple of Qor and her sinful servants!\""
+   barloquebartender_random_012 = \
+      "~kMeidei says, \"Ran er'Hoth be the Wise Man of Marion. He is versed "
+      "in the ways of Shal'ille and mayhap can teach thee her magic.\""
+   barloquebartender_random_013 = \
+      "~kMeidei says, \"I am told there is a man in Tos who teaches a spell "
+      "of blessed Shal'ille. I know not his name.\""
+   barloquebartender_random_014 = \
+      "~kMeidei says, \"The Priestess Xiana can learn thee more of the "
+      "scriptures of Shal'ille. Thou must take pilgrimage to her one day!\""
+   barloquebartender_random_015 = \
+      "~kMeidei says, \"Forsooth, the servants of Qor bring forth those "
+      "horrid rats from the deep sewers to plague our lands.\""
+   barloquebartender_random_016 = \
+      "~kBowing his head, Meidei silently mouths a prayer to Shal'ille."
+   barloquebartender_random_017 = \
+      "~kMeidei glares at you with fire in his eyes and says, \"Pray tell, "
+      "dost thou follow the ways of Shal'ille?\""
+   barloquebartender_random_018 = \
+      "~kMeidei says, \"Thou seems of gentle sort. Know this, a node of good "
+      "magic lies in the vale of the fey.\""
+   barloquebartender_random_019 = \
+      "~kMeidei says, \"Praise Shal'ille the Calm! May she bid thee good "
+      "health!\""
+   barloquebartender_random_020 = "~kMeidei says, \"Shal'ille blesses thee.\""
+   barloquebartender_random_021 = \
+      "~kMeidei says, \"Lady Shal'ille, prithee bless those who come to my "
+      "establishment and eat from my kitchens and drink from my kegs, bless "
+      "those who follow the Princess, bless those who embrace your gentle "
+      "bosom, bless those who refuse you for they know not what they do, "
+      "bless the rats in hopes that they will become your servants of good, "
+      "bless my family.\""
+   barloquebartender_random_022 = \
+      "~kMeidei says, \"Lady Shal'ille, I pray thee bless the farmers in the "
+      "fields, bless the builders who give us shelter, bless the trees that "
+      "give us shade, bless the rivers that give us water, bless the Guides "
+      "that help us in our travels and bless the Guardians for smiting us "
+      "not.\""
+   barloquebartender_random_023 = \
+      "~kMeidei says, \"Verily, the simple spells of our Lady hath more "
+      "potency when employed by devoted follower of the utmost goodness.\""
+   barloquebartender_random_024 = \
+      "~kMeidei says, \"May Shal'ille protect us from the wagtails who try "
+      "to fool us with weapons that are not as they appear. I doubt it not, "
+      "she can do that.\""
+   barloquebartender_random_025 = \
+      "~kMeidei says, \"Shal'ille, I pray thee bless the children and the "
+      "poor.\""
+   barloquebartender_random_026 = \
+      "~kMeidei says, \"Praise Shal'ille the Gentle! Study thou her ways!\""
+   barloquebartender_random_027 = \
+      "~kMeidei says, \"Follow her peaceful ways, and Shal'ille will bless "
+      "thee.\""
+   barloquebartender_random_028 = \
+      "~kMeidei says, \"I beg thy pardon, fair customer... . ~I Shal'ille, "
+      "prithee bring peace to the countryside... .~I Now what can I get for "
+      "thee?\""
+   barloquebartender_random_029 = \
+      "~kMeidei says, \"If thou refuses the litany of Shal'ille, thou will "
+      "surely perish and be damned to Qor!\""
+   barloquebartender_random_030 = \
+      "~kMeidei says, \"Bow thyself down before Shal'ille and beg for her "
+      "forgiveness!\""
+   barloquebartender_random_031 = "~kMeidei ignores you as he silently prays."
+   barloquebartender_trigger_barloque = "barloque"
+   barloquebartender_trigger_sell = "sell"
+   barloquebartender_trigger_bye = "bye"
+   barloquebartender_trigger_cards = "cards"
+   barloquebartender_trigger_cor_noth = "cor noth"
+   barloquebartender_trigger_council = "council"
+   barloquebartender_trigger_crowns = "crowns"
+   barloquebartender_trigger_draw = "draw"
+   barloquebartender_trigger_duke = "duke"
+   barloquebartender_trigger_faren = "faren"
+   barloquebartender_trigger_fate = "fate"
+   barloquebartender_trigger_feudal = "feudal"
+   barloquebartender_trigger_fey = "fey"
+   barloquebartender_trigger_hello = "hello"
+   barloquebartender_trigger_help = "help"
+   barloquebartender_trigger_jala = "jala"
+   barloquebartender_trigger_jasper = "jasper"
+   barloquebartender_trigger_kalior = "kalior"
+   barloquebartender_trigger_kateriina = "kateriina"
+   barloquebartender_trigger_kitty = "kitty"
+   barloquebartender_trigger_kitty_2 = "kitty"
+   barloquebartender_trigger_kraanan = "kraanan"
+   barloquebartender_trigger_marion = "marion"
+   barloquebartender_trigger_miriana = "miriana"
+   barloquebartender_trigger_node = "node"
+   barloquebartender_trigger_node_attack = "node attack"
+   barloquebartender_trigger_princess = "princess"
+   barloquebartender_trigger_qor = "qor"
+   barloquebartender_trigger_riija = "riija"
+   barloquebartender_trigger_rules = "rules"
+   barloquebartender_trigger_buy = "buy"
+   barloquebartender_trigger_shal_ille = "shal'ille"
+   barloquebartender_trigger_sha_lill = "sha-lill"
+   barloquebartender_trigger_stunted_dwarf = "stunted dwarf"
+   barloquebartender_trigger_tos = "tos"
+   barloquebartender_trigger_vale = "vale"
+   barloquebartender_trigger_ways = "ways"
+   barloquebartender_trigger_ways_2 = "ways"
+   barloquebartender_trigger_xiana = "xiana"
+
+   // BarloqueBlacksmith (Fehr'loi Qan)
+   barloqueblacksmith_speech_001 = \
+      "~kFehr'loi Qan says, \"I never use no armor, since I found out I can "
+      "just think about a shield and it appears. Perhaps I could try to "
+      "teach you.\""
+   barloqueblacksmith_speech_002 = \
+      "~kFehr'loi Qan says, \"Barloque is my new home. Uh, it may be too "
+      "good fer the likes of me.\""
+   barloqueblacksmith_speech_003 = \
+      "~kFehr'loi Qan says, \"What you got? I'll look at weapons and armor. "
+      "Maybe other interestin' stuff if you got any.\""
+   barloqueblacksmith_speech_004 = "~kFehr'loi Qan says, \"G'bye.\""
+   barloqueblacksmith_speech_005 = \
+      "~kFehr'loi Qan says, \"Rook lives in Cor Noth. He can teach you how "
+      "t' fight.\""
+   barloqueblacksmith_speech_006 = \
+      "~kFehr'loi Qan says, \"I care little for the politics of the "
+      "council.\""
+   barloqueblacksmith_speech_007 = \
+      "~kFehr'loi Qan says, \"It is a shame to hear of Kalior's demise. I "
+      "hope that Duke Akardius does not raise the taxes.\""
+   barloqueblacksmith_speech_008 = "~kFehr'loi Qan says, \"What expedition?\""
+   barloqueblacksmith_speech_009 = \
+      "~kFehr'loi Qan says, \"I use the forge to... forge weapons and "
+      "armor.\""
+   barloqueblacksmith_speech_010 = "~kFehr'loi Qan says, \"'ello.\""
+   barloqueblacksmith_speech_011 = \
+      "~kFehr'loi Qan says, \"Uh... I can make armor... or... uh... a "
+      "weapon. I'll also buy old stuff if it ain't broke or if it's unusual "
+      "even if everyone else thinks it ain't worth nothin'. M' mum says I "
+      "gots an eye for quality.\""
+   barloqueblacksmith_speech_012 = \
+      "~kFehr'loi Qan says, \"Quintor's the smith in Jasper.  He was my "
+      "friend a long time ago, but then his wife left him and he hasn't "
+      "been, uh, the same since.  I hear he found himself a friend though, I "
+      "think the name was Queasy, or something.\""
+   barloqueblacksmith_speech_013 = \
+      "~kFehr'loi Qan says, \"Well I don't know much about politics and the "
+      "like, but I do know that Jonas could never make a fairer ruler than "
+      "Princess Kateriina.\""
+   barloqueblacksmith_speech_014 = \
+      "~kFehr'loi Qan says, \"Colhorr's up in Marion. We go drinking once a "
+      "month and talk about, well, makin' weapons and stuff.\""
+   barloqueblacksmith_speech_015 = \
+      "~kFehr'loi Qan says, \"The Princess is a nice lady. She uh...has lots "
+      "to do.\""
+   barloqueblacksmith_speech_016 = \
+      "~kFehr'loi Qan says, \"He also knows a bunch of gossip about the "
+      "designers.\""
+   barloqueblacksmith_speech_017 = \
+      "~kFehr'loi Qan says, \"I sell armor and weapons.\""
+   barloqueblacksmith_speech_018 = \
+      "~kFehr'loi Qan says, \"Uh... I'm a smith. Can I help you?\""
+   barloqueblacksmith_speech_019 = \
+      "~kFehr'loi Qan says, \"Um, I can try to show you how to make a magic "
+      "shield.\""
+   barloqueblacksmith_speech_020 = \
+      "~kFehr'loi Qan says, \"I left Tos. I got m' reasons.\""
+   barloqueblacksmith_speech_021 = \
+      "~kFehr'loi Qan says, \"You got a wand? Let me see it.\""
+   barloqueblacksmith_speech_022 = \
+      "~kFehr'loi Qan says, \"Weapons are good if you want to... kill "
+      "stuff.\""
+   barloqueblacksmith_random_001 = \
+      "~kFehr'loi Qan says, \"There's a lot of Guilds around here. Frular, "
+      "down the street, he makes 'em official like.\""
+   barloqueblacksmith_random_002 = \
+      "~kFehr'loi Qan says, \"I didn't like having m' shop across the, uh, "
+      "street from that graveyard. Every night, I would hear such a ruckus. "
+      "But Kraanan protected me from the zombies.\""
+   barloqueblacksmith_random_003 = \
+      "~kFehr'loi Qan says, \"I wasn't scared of nothin' dead. That's not "
+      "why I left Tos.\""
+   barloqueblacksmith_random_004 = \
+      "~kFehr'loi Qan says, \"If you want to try out these weapons, take 'em "
+      "down to Tos. The Arena of Kraanan's a good place to practice. Nobody "
+      "really gets hurt there.\""
+   barloqueblacksmith_random_005 = \
+      "~kFehr'loi Qan says, \"If you're bored, people 'round here usually "
+      "have an errand or two, if you're willin' to work.\""
+   barloqueblacksmith_random_006 = \
+      "~kFehr'loi Qan says, \"Some weapons are better for fightin' certain "
+      "monsters than others, y'know.\""
+   barloqueblacksmith_random_007 = \
+      "~kFehr'loi Qan says, \"I once went to the, uh, temple of Kraanan. "
+      "It's hard to get to. I got lost a couple times near that ancient "
+      "place with the stones.\""
+   barloqueblacksmith_random_008 = \
+      "~kFehr'loi Qan says, \"Do you follow Kraanan the Fist? He's the "
+      "strongest god.\""
+   barloqueblacksmith_random_009 = \
+      "~kFehr'loi Qan says, \"I, uh, still don't know many people in town. "
+      "Rycksher always had good gossip 'bout everybody in Tos. I don't know "
+      "no nothin' 'bout Barloque.\""
+   barloqueblacksmith_random_010 = \
+      "~kFehr'loi Qan carefully examines a half finished hammer."
+   barloqueblacksmith_random_011 = \
+      "~kFehr'loi Qan mumbles a short prayer to Kraanan."
+   barloqueblacksmith_random_012 = \
+      "~kWiping the sweat from his brow, Fehr'loi Qan returns to his work."
+   barloqueblacksmith_random_013 = \
+      "~kYour eyes sting slightly from the soot in the air."
+   barloqueblacksmith_random_014 = \
+      "~kThe heat from the furnace makes it uncomfortably warm in here."
+   barloqueblacksmith_random_015 = \
+      "~kFehr'loi Qan says, \"Does Paddock still run his grubby shop in "
+      "Tos?\""
+   barloqueblacksmith_random_016 = \
+      "~kFehr'loi Qan says, \"The ocean air smells so good up here. I should "
+      "go out for a cool swim before I get back to the forge.\""
+   barloqueblacksmith_random_017 = \
+      "~kFehr'loi Qan says, \"Oh, it's good to be alive.\""
+   barloqueblacksmith_random_018 = \
+      "~kFehr'loi Qan says, \"You're my friend.\""
+   barloqueblacksmith_random_019 = \
+      "~kFehr'loi Qan says, \"I'm glad you are here. I don't like those "
+      "strangers that come in to my shop.\""
+   barloqueblacksmith_random_020 = \
+      "~kFehr'loi Qan says, \"I'm happier up here in Barloque, ain't you?\""
+   barloqueblacksmith_random_021 = \
+      "~kFehr'loi Qan says, \"Anything else I can help you with? I got to "
+      "get on with my work.\""
+   barloqueblacksmith_random_022 = \
+      "~kFehr'loi Qan says, \"I don't like being here. Every morning, that "
+      "bad fish smell.\""
+   barloqueblacksmith_random_023 = \
+      "~kFehr'loi Qan says, \"I'm gettin' mad now. You better leave before I "
+      "give you a good punch.\""
+   barloqueblacksmith_random_024 = \
+      "~kFehr'loi Qan says, \"Don't look at me that way. I'll take you "
+      "outside and give you a good bruisin'.\""
+   barloqueblacksmith_random_025 = \
+      "~kFehr'loi Qan says, \"Are you makin' fun of me? I don't like people "
+      "makin' fun of me and I'm bigger than you.\""
+   barloqueblacksmith_random_026 = \
+      "~kFehr'loi Qan says, \"Stop hangin' around m' shop, little person, or "
+      "I'll give you what for.\""
+   barloqueblacksmith_random_027 = \
+      "~kFehr'loi Qan says, \"I don't like strangers hangin' around my "
+      "shop.\""
+   barloqueblacksmith_random_028 = \
+      "~kFehr'loi Qan says, \"What are you lookin' at? You wantin' to fight "
+      "me?\""
+   barloqueblacksmith_random_029 = \
+      "~kFehr'loi Qan says, \"I'm not happy. Somebody pawned a magic weapon "
+      "off on me and it turns out that it wasn't magical at all.\""
+   barloqueblacksmith_trigger_armor = "armor"
+   barloqueblacksmith_trigger_barloque = "barloque"
+   barloqueblacksmith_trigger_sell = "sell"
+   barloqueblacksmith_trigger_bye = "bye"
+   barloqueblacksmith_trigger_cor_noth = "cor noth"
+   barloqueblacksmith_trigger_council = "council"
+   barloqueblacksmith_trigger_duke = "duke"
+   barloqueblacksmith_trigger_expedition = "expedition"
+   barloqueblacksmith_trigger_forge = "forge"
+   barloqueblacksmith_trigger_hello = "hello"
+   barloqueblacksmith_trigger_help = "help"
+   barloqueblacksmith_trigger_jasper = "jasper"
+   barloqueblacksmith_trigger_jonas = "jonas"
+   barloqueblacksmith_trigger_marion = "marion"
+   barloqueblacksmith_trigger_princess = "princess"
+   barloqueblacksmith_trigger_rycksher = "rycksher"
+   barloqueblacksmith_trigger_rulker = "rulker"
+   barloqueblacksmith_trigger_buy = "buy"
+   barloqueblacksmith_trigger_smith = "smith"
+   barloqueblacksmith_trigger_teach = "teach"
+   barloqueblacksmith_trigger_teach_2 = "teach"
+   barloqueblacksmith_trigger_tos = "tos"
+   barloqueblacksmith_trigger_wand = "wand"
+   barloqueblacksmith_trigger_weapon = "weapon"
+
+   // BarloqueClerk (Caramo)
+   barloqueclerk_speech_001 = \
+      "~kCaramo says, \"Fare thee well and honor Jala's Truth.\""
+   barloqueclerk_speech_002 = \
+      "~kCaramo says, \"The Council of Meridian, appointed by the King, "
+      "governs thy kingdom. Common law, however, is at the mandate of the "
+      "Justicar's office.\""
+   barloqueclerk_speech_003 = \
+      "~kCaramo says, \"Welcome to the office of the Justicar, %s.\""
+   barloqueclerk_speech_004 = "~kCaramo blushes, her cheeks flushing pinkly."
+   barloqueclerk_speech_005 = \
+      "~kCaramo says, \"Everyone has a right to their own mind about things, "
+      "this is no exception.\""
+   barloqueclerk_trigger_bye = "bye"
+   barloqueclerk_trigger_council = "council"
+   barloqueclerk_trigger_hello = "hello"
+   barloqueclerk_trigger_jonas = "jonas"
+   barloqueclerk_trigger_rebels = "rebels"
+
+   // BarloqueInnkeeper (BarloqueInnkeeper)
+   barloqueinnkeeper_speech_001 = \
+      "~kPritchett says, \"I am rather new to the Capital City, but I hath "
+      "gaineth acceptanceth from the people hither here. When I am able to "
+      "buyeth my title, not a soul wilt not know I am from here not.\""
+   barloqueinnkeeper_speech_002 = \
+      "~kPritchett says, \"Bye, I mean, by my troll, it 'twas good to have "
+      "sighted you. Fare and be well.\""
+   barloqueinnkeeper_speech_003 = \
+      "~kPritchett says, \"It 'tis a well enough town, Cor Noth is. It 'tis "
+      "a pity that her river is so very verily unclean.\""
+   barloqueinnkeeper_speech_004 = \
+      "~kPritchett says, \"Akardius and the Princess struggle to gain the "
+      "influence of the Council. Seek out Joguer. He may know the individual "
+      "agendas of each council member.\""
+   barloqueinnkeeper_speech_005 = \
+      "~kPritchett says, \"The Duke was a scoundrel, but I am not sure that "
+      "his grizzly death was fitting, even for one such as he.\""
+   barloqueinnkeeper_speech_006 = \
+      "~kPritchett says, \"Thee putteth faith in too many rumors, everyone "
+      "knoweth they be only myths and legends.\""
+   barloqueinnkeeper_speech_007 = \
+      "~kPritchett says, \"Hello, er... goodly met, fair travelfolk.\""
+   barloqueinnkeeper_speech_008 = \
+      "~kPritchett says, \"This here be the finest inn in yonder Barloque. "
+      "Thee should relaxeth for a bit.\""
+   barloqueinnkeeper_speech_009 = \
+      "~kPritchett says, \"I have seen the man standing right outside the "
+      "gates. Not by the docks mind you, but the southern side. You can "
+      "sometimes catch him when you are heading toward the Princess' castle. "
+      "I have heard though that he moves about.\""
+   barloqueinnkeeper_speech_010 = \
+      "~kPritchett says, \"Ha, thee hath never seeneth a low-brow town such "
+      "as wither Jasper, why the new faction wouldeth chooseth to settle "
+      "there is beyond me.\""
+   barloqueinnkeeper_speech_011 = \
+      "~kPritchett says, \"Many a good food cometh frometh Marion. In fate, "
+      "it 'tis a bountiful place.\""
+   barloqueinnkeeper_speech_012 = \
+      "~kPritchett says, \"I heareth that she never batheth. Doth no one "
+      "wonder what hideth beneath all that filth?\""
+   barloqueinnkeeper_speech_013 = \
+      "~kPritchett says, \"I understandeth not whence a child draweth such "
+      "powers and knowledge. It doth maketh one ponder.\""
+   barloqueinnkeeper_speech_014 = \
+      "~kPritchett says, \"The goddess of light, Shal'ille, supposedly "
+      "forgiveth all. But I cannot help it, I mistrusteth her.\""
+   barloqueinnkeeper_speech_015 = \
+      "~kPritchett says, \"She hath not a single shilling she could spendeth "
+      "here. If thee followeth her path, then begone from here.\""
+   barloqueinnkeeper_speech_016 = \
+      "~kPritchett says, \"Methinks thee hadst better begone from here. Such "
+      "a name be not welcome hither.\""
+   barloqueinnkeeper_speech_017 = \
+      "~kPritchett says, \"I doth nay need nary a courier at hither time.\""
+   barloqueinnkeeper_speech_018 = \
+      "~kPritchett says, \"I have heardeth that Miriana can summon great "
+      "monsters upon the elements. But such tales be surely exaggerated.\""
+   barloqueinnkeeper_speech_019 = \
+      "~kPritchett says, \"I wert never witness to such an event, but many a "
+      "visitor of mine claimeth to have seen it.\""
+   barloqueinnkeeper_speech_020 = \
+      "~kPritchett asks, \"Why would anyone striveth to draineth the holy "
+      "nodes of their power...\""
+   barloqueinnkeeper_speech_021 = \
+      "~kPritchett says, \"Hail Kateriina! I pray she has the strength to "
+      "combat this new threat.\""
+   barloqueinnkeeper_speech_022 = \
+      "~kPritchett whispers, \"Well, don't telleth anyone I said this, but "
+      "this whole thing with the rebels tisn't really that bad.  What thy "
+      "mean is people need shaking upeth every so often.\""
+   barloqueinnkeeper_speech_023 = \
+      "~kPritchett says, \"Ah, that's a story if thee hath the time.\""
+   barloqueinnkeeper_speech_024 = \
+      "~kPritchett says, \"Aye, I was a sailor. One of the last. Back in "
+      "those yonder days when the ships still sailed.\""
+   barloqueinnkeeper_speech_025 = \
+      "~kPritchett says, \"Ah, that's a story if thee hath the time.\""
+   barloqueinnkeeper_speech_026 = \
+      "~kPritchett says, \"It was many years hither past... we were the last "
+      "ship to sail from Barloque quay. Well, there be still some fishing "
+      "boats that go out, but with those tides, no true sailing vessel can "
+      "get very far from our shore before having to headeth back.\""
+   barloqueinnkeeper_speech_027 = \
+      "~kThe room goes silent as %s mentions stunted dwarf."
+   barloqueinnkeeper_speech_028 = \
+      "~kPritchett says, \"Aye, it hath become too dangerous to sail in "
+      "those unpredictable tides. They rip your ship apart faster than you "
+      "can spit. It 'tis as if the gods themselves do not be wanting man to "
+      "sail beyond the coastal waters.\""
+   barloqueinnkeeper_speech_029 = \
+      "~kPritchett says, \"It was many years hither past... we were the last "
+      "ship to sail from Barloque quay. Well, there be still some fishing "
+      "boats that go out, but with those tides, no true sailing vessel can "
+      "get very far from our shore before having to headeth back.\""
+   barloqueinnkeeper_speech_030 = \
+      "~kPritchett says, \"All of my colleagues and me here in Barloque hath "
+      "knowledge indeed that Tos hath not the making of a great city! Yonder "
+      "years ago, we wert at war with wither Tos.\""
+   barloqueinnkeeper_random_001 = \
+      "~kPritchett says, \"If thy monsters art causing thou too much havoc, "
+      "maychanceth thee should seeketh Rook. He hath used to be here in "
+      "Barloque to adviseth the Princess on such matters.\""
+   barloqueinnkeeper_random_002 = \
+      "~kPritchett says, \"Methought me heardeth that there be mystical "
+      "treefolk neareth the forests of Faronath. It 'tis said they wieldeth "
+      "great magic.\""
+   barloqueinnkeeper_random_003 = \
+      "~kPritchett says, \"Thee would serveth the common folk good, if thee "
+      "were to fighteth the rats that swarmeth out from the nearby yonder "
+      "sewer. The land be plagued with them and they be easy enough to "
+      "dispatcheth.\""
+   barloqueinnkeeper_random_004 = \
+      "~kPritchett says, \"I do be seek you, there are those who can "
+      "teacheth valuable skills to thy if thy asketh.\""
+   barloqueinnkeeper_random_005 = \
+      "~kPritchett says, \"I haveth heardeth that there be four or five "
+      "temples out in the wilderness where thee may findeth the means of "
+      "casting new spells.\""
+   barloqueinnkeeper_random_006 = \
+      "~kPritchett says, \"I do not knoweth not why so many people carry "
+      "around mushrooms and berries. They all seemeth to be going in and out "
+      "of Joguer's place across the street.\""
+   barloqueinnkeeper_random_007 = \
+      "~kPritchett says, \"In the old days, we used to sayeth that the only "
+      "way to becometh a better sailor was to braveth a stronger storm at "
+      "sea. I hear the sameth goes for fighting monsters.\""
+   barloqueinnkeeper_random_008 = \
+      "~kPritchett says, \"Even if thee do not haveth a room here at the "
+      "Brownestone, it 'tis still a good place to resteth up.\""
+   barloqueinnkeeper_random_009 = \
+      "~kPritchett says, \"Truth be toldeth, I misseth my days as a sailor.\""
+   barloqueinnkeeper_random_010 = \
+      "~kPritchett says, \"Ah, do thoueth smell that sea air? How I misseth "
+      "my days on the sea.\""
+   barloqueinnkeeper_random_011 = \
+      "~kPritchett says, \"Thee know, it 'tis not so hard to picketh up the "
+      "eloquent way those in Barloque speaketh. Why I think in my short time "
+      "thither, I have masteredeth it.\""
+   barloqueinnkeeper_random_012 = \
+      "~kPritchett says, \"Havest ye had pleasure to meeteth fair Madelia? "
+      "She be my sweet beloved. Indeed and for suits, she wilt one day "
+      "hither be mine wife.\""
+   barloqueinnkeeper_random_013 = \
+      "~kPritchett says, \"If thy seekeths the finest clothing, then seekest "
+      "no more, for I will tell thou of my love, Madelia. She makeths the "
+      "finest clothes for our Princess in yonder nearby Castle.\""
+   barloqueinnkeeper_random_014 = \
+      "~kPritchett says, \"I am indeedeth the luckiest man alive, for I have "
+      "caught the eye of Madelia. Soon I will asketh her hand for marriage.\""
+   barloqueinnkeeper_random_015 = \
+      "~kPritchett says, \"I am very glad to see thou here. How fareth "
+      "thou?\""
+   barloqueinnkeeper_random_016 = \
+      "~kPritchett says, \"Telleth me, goodly noble knave, where do thy hail "
+      "frometh?\""
+   barloqueinnkeeper_random_017 = \
+      "~kPritchett says, \"If it beeth entertainment that thyself seekeths, "
+      "I could recommendeth the Bhrama and the Falcon or the Bookmaker's "
+      "house next door hither. I hear them gamblingeth lateth at night "
+      "sometimes.\""
+   barloqueinnkeeper_random_018 = \
+      "~kPritchett says, \"Are thee just going to hangeth out here all day, "
+      "you waddleaxer?!\""
+   barloqueinnkeeper_random_019 = \
+      "~kPritchett says, \"Is there not something better hither yonder that "
+      "thee could be doing?\""
+   barloqueinnkeeper_trigger_barloque = "barloque"
+   barloqueinnkeeper_trigger_bye = "bye"
+   barloqueinnkeeper_trigger_cor_noth = "cor noth"
+   barloqueinnkeeper_trigger_council = "council"
+   barloqueinnkeeper_trigger_duke = "duke"
+   barloqueinnkeeper_trigger_fate = "fate"
+   barloqueinnkeeper_trigger_hello = "hello"
+   barloqueinnkeeper_trigger_help = "help"
+   barloqueinnkeeper_trigger_izzio = "izzio"
+   barloqueinnkeeper_trigger_jasper = "jasper"
+   barloqueinnkeeper_trigger_marion = "marion"
+   barloqueinnkeeper_trigger_miriana = "miriana"
+   barloqueinnkeeper_trigger_need_a_courier = "need a courier?"
+   barloqueinnkeeper_trigger_node_attack = "node attack"
+   barloqueinnkeeper_trigger_princess = "princess"
+   barloqueinnkeeper_trigger_rebels = "rebels"
+   barloqueinnkeeper_trigger_sailed = "sailed"
+   barloqueinnkeeper_trigger_sailor = "sailor"
+   barloqueinnkeeper_trigger_ships = "ships"
+   barloqueinnkeeper_trigger_story = "story"
+   barloqueinnkeeper_trigger_stunted_dwarf = "stunted dwarf"
+   barloqueinnkeeper_trigger_tides = "tides"
+   barloqueinnkeeper_trigger_tides_2 = "tides"
+   barloqueinnkeeper_trigger_time = "time"
+   barloqueinnkeeper_trigger_tos = "tos"
+
+   // BarloqueMerchant (Herbutte)
+   barloquemerchant_speech_001 = \
+      "~kHerbutte says, \"An axwaddle is a lazy person, you uncouth "
+      "drumble.\""
+   barloquemerchant_speech_002 = \
+      "~kHerbutte says, \"Barloque is the only city worthy of attention. The "
+      "others are but barnyards for the common cattle.\""
+   barloquemerchant_speech_003 = \
+      "~kHerbutte says, \"I offer fair values for thy gems and jewels. Mind "
+      "you, I have quite an eye for flaws.\""
+   barloquemerchant_speech_004 = "~kHerbutte says, \"To thee, Anon.\""
+   barloquemerchant_speech_005 = \
+      "~kHerbutte says, \"The clepsydra in the center of North Barloque is a "
+      "clock. I presume thou are not so simple that thou can read it not.\""
+   barloquemerchant_speech_006 = \
+      "~kHerbutte says, \"Promise had Cor Noth as an offspring of grand "
+      "Barloque, yet those young students add only waste to her river and "
+      "sully her fine streets. Its clock tower is a common sundial compared "
+      "to our fair clepsydra.\""
+   barloquemerchant_speech_007 = \
+      "~kHerbutte says, \"The council fill their cups with more than what's "
+      "offered. They should let the Princess rule the land and return to the "
+      "level of Advisors.\""
+   barloquemerchant_speech_008 = "~kHerbutte says, \"Thou mockest me now!\""
+   barloquemerchant_speech_009 = \
+      "~kHerbutte says, \"Dost thou speak the language not? A drumble is a "
+      "sluggish haskard.\""
+   barloquemerchant_speech_010 = \
+      "~kHerbutte says, \"Mayhap with the Duke out of the way, the Princess "
+      "can take her rightful crown.\""
+   barloquemerchant_speech_011 = "~kHerbutte says, \"Thou mockest me now!\""
+   barloquemerchant_speech_012 = \
+      "~kHerbutte says, \"I am the only fair dealer. Seek not Skivlat for a "
+      "lowly axwaddle is he.\""
+   barloquemerchant_speech_013 = \
+      "~kHerbutte says, \"My word, never have I seen such a haskard as thee. "
+      "A haskard is a fellow of low degree.\""
+   barloquemerchant_speech_014 = "~kHerbutte says, \"Good morrow.\""
+   barloquemerchant_speech_015 = \
+      "~kHerbutte says, \"I am Meridian's first most jeweler. If thou hath "
+      "gems to sell or if thou hath need of jewels, then I am at thy "
+      "service. If not, then find ye the door behind thee.\""
+   barloquemerchant_speech_016 = \
+      "~kHerbutte says, \"Jasper hath but one value, the gems her mines "
+      "produce.\""
+   barloquemerchant_speech_017 = \
+      "~kHerbutte says, \"I am the only fair dealer. Seek not Skivlat for a "
+      "lowly axwaddle is he.\""
+   barloquemerchant_speech_018 = \
+      "~kHerbutte says, \"I just don't see what he hopes to gain by this, "
+      "it's not like they will ever let him have a title of his own, besides "
+      "traitor.\""
+   barloquemerchant_speech_019 = \
+      "~kHerbutte says, \"Thou jests. Marion is not a town of any stature.\""
+   barloquemerchant_speech_020 = \
+      "~kHerbutte says, \"On my allegiance, the Princess Kateriina be worthy "
+      "to rule. She hath been properly bred for such, unlike that villainous "
+      "Duke.\""
+   barloquemerchant_speech_021 = \
+      "~kHerbutte says, \"Pritchett doth belong elsewhere. His common tongue "
+      "hath no control over the proper speak of Barloque. He doth create his "
+      "own language.\""
+   barloquemerchant_speech_022 = \
+      "~kHerbutte says, \"The poor, of course. Only here in Barloque can "
+      "thou truly find worthwhile gentlefolk.\""
+   barloquemerchant_speech_023 = \
+      "~kHerbutte says, \"Rat!?\" Herbutte jumps back, \"Oh no! Where be "
+      "it?\""
+   barloquemerchant_speech_024 = \
+      "~kHerbutte says, \"I presume thou hast gold enough to view my gems.\""
+   barloquemerchant_speech_025 = \
+      "~kHerbutte says, \"I am the only fair dealer. Seek not Skivlat for a "
+      "lowly axwaddle is he.\""
+   barloquemerchant_speech_026 = \
+      "~kHerbutte says, \"What of Solomon? He may be a friend to me, but he "
+      "hath no sway here in Barloque.\""
+   barloquemerchant_speech_027 = \
+      "~kHerbutte says, \"I am of no mood to talk of my fair neighbor's "
+      "dealings.\""
+   barloquemerchant_speech_028 = \
+      "~kHerbutte says, \"What doth thou think of me? I shall not tell thee "
+      "Frular's secrets!\""
+   barloquemerchant_speech_029 = \
+      "~kHerbutte says, \"The tokens be fascinating magical objects the "
+      "council seeks to study. If thou ever happens upon one, seek ye the "
+      "council and rewarded wilt thou be.\""
+   barloquemerchant_speech_030 = \
+      "~kHerbutte says, \"I have not been to a more disagreeable spot than "
+      "Tos. The city streets doth run rampant with the most unworthy of "
+      "cretins.\""
+   barloquemerchant_random_001 = \
+      "~kHerbutte says, \"I won't traffic with those vanishing tokens. In "
+      "faith, even the council knows not why they teleport out to the "
+      "wilds.\""
+   barloquemerchant_random_002 = \
+      "~kHerbutte says, \"The clepsydra keeps perfect time. 'Tis a pity the "
+      "dreary rabble knows not how to read it.\""
+   barloquemerchant_random_003 = \
+      "~kHerbutte says, \"No better place is there than Barloque. Mayhaps "
+      "there be no worse place than the foul docks and sewers.\""
+   barloquemerchant_random_004 = \
+      "~kHerbutte says, \"By my troth, we've no rat problem. 'Tis but rumors "
+      "spread by the lesser cities.\""
+   barloquemerchant_random_005 = \
+      "~kHerbutte says, \"Madelia is naught but a lightskirt. Were she not "
+      "the only clothier of merit, she would surely be selling something "
+      "else by the docks.\""
+   barloquemerchant_random_006 = \
+      "~kHerbutte says, \"Frular deals in guild halls in the thin walled "
+      "building beside me. Mine ears know quite a few stories of his "
+      "clientele.\""
+   barloquemerchant_random_007 = \
+      "~kHerbutte says, \"Vermin infest our streets, and no, I speak not of "
+      "rats. I refer to the new residents, that groundling Fehr'loi Qan and "
+      "that candlewaster Pritchett.\""
+   barloquemerchant_random_008 = \
+      "~kHerbutte says, \"To the south east, the Bourgeois Castle foliage "
+      "blooms beautifully this time of year. 'Tis a magnificent palace "
+      "befitting of our proud Kateriina.\""
+   barloquemerchant_random_009 = \
+      "~kA slight sneer comes to Herbutte's lips as he looks you over."
+   barloquemerchant_random_010 = \
+      "~kHerbutte cranes his head slightly as if listening to the eastern "
+      "wall."
+   barloquemerchant_random_011 = \
+      "~kHerbutte says, \"Perchance, wouldst thou have thy gems appraised, "
+      "good gentle?\""
+   barloquemerchant_random_012 = \
+      "~kHerbutte says, \"Through these thin walls it hath come to mine ears "
+      "that this world holds a great many prattling fools.\""
+   barloquemerchant_random_013 = \
+      "~kHerbutte says, \"No reason do I see for ever setting foot outside "
+      "of Barloque, except perchance to pay visit to the glorious Castle of "
+      "her Highness.\""
+   barloquemerchant_random_014 = \
+      "~kHerbutte says, \"Astounded am I at the utter incompetence abound in "
+      "this world. Take for example, that drumble Solomon, hath thou ever "
+      "set eyes upon another man who wears his belly so far from his back.\""
+   barloquemerchant_random_015 = \
+      "~kHerbutte says, \"How may I be of service to thee?\""
+   barloquemerchant_random_016 = \
+      "~kHerbutte says, \"Doth thou smell that sea air? Verily, 'tis "
+      "refreshing. Thou wilt find it not quite so hale in any other city.\""
+   barloquemerchant_random_017 = \
+      "~kHerbutte says, \"Alas, this world brims with inadequate drumble. "
+      "How I long to have words with a civilized gentleman of the proper "
+      "class.\""
+   barloquemerchant_random_018 = \
+      "~kHerbutte says, \"Wilt thou buy nothing more?! Thy useless "
+      "countenance merely wastes space in my shop.\""
+   barloquemerchant_random_019 = "~kHerbutte casts a withering glance at you."
+   barloquemerchant_random_020 = \
+      "~kHerbutte says, \"Be gone, thou artless rump-fed giglet!\""
+   barloquemerchant_random_021 = \
+      "~kHerbutte says, \"Away, thou surly idle-headed puttock!\""
+   barloquemerchant_random_022 = \
+      "~kHerbutte says, \"Trouble me no more, thou mewling ill-breeding "
+      "foot-licker!\""
+   barloquemerchant_random_023 = \
+      "~kHerbutte says, \"Remove thyself, thou wayward common-kissing "
+      "gudgeon!\""
+   barloquemerchant_random_024 = \
+      "~kHerbutte says, \"Enough, thou infectious fool-born bugbear!\""
+   barloquemerchant_random_025 = \
+      "~kHerbutte says, \"Away with thee, thou craven pox-marked lout!\""
+   barloquemerchant_random_026 = \
+      "~kHerbutte says, \"Leave, thou fobbing half-faced hugger-mugger!\""
+   barloquemerchant_random_027 = \
+      "~kHerbutte says, \"I say be gone, thou spongy milk-livered codpiece!\""
+   barloquemerchant_random_028 = \
+      "~kHerbutte yells, \"Thou droning onion-eyed malt-worm, leave me!\""
+   barloquemerchant_random_029 = \
+      "~kHerbutte yells, \"Thou tottering doghearted barnacle, I wish never "
+      "to see thy face again!\""
+   barloquemerchant_trigger_axwaddle = "axwaddle"
+   barloquemerchant_trigger_barloque = "barloque"
+   barloquemerchant_trigger_sell = "sell"
+   barloquemerchant_trigger_bye = "bye"
+   barloquemerchant_trigger_clepsydra = "clepsydra"
+   barloquemerchant_trigger_cor_noth = "cor noth"
+   barloquemerchant_trigger_council = "council"
+   barloquemerchant_trigger_council_2 = "council"
+   barloquemerchant_trigger_degree = "degree"
+   barloquemerchant_trigger_drumble = "drumble"
+   barloquemerchant_trigger_duke = "duke"
+   barloquemerchant_trigger_fellow = "fellow"
+   barloquemerchant_trigger_gem = "gem"
+   barloquemerchant_trigger_haskard = "haskard"
+   barloquemerchant_trigger_haskard_2 = "haskard"
+   barloquemerchant_trigger_hello = "hello"
+   barloquemerchant_trigger_help = "help"
+   barloquemerchant_trigger_jasper = "jasper"
+   barloquemerchant_trigger_jewel = "jewel"
+   barloquemerchant_trigger_jonas = "jonas"
+   barloquemerchant_trigger_marion = "marion"
+   barloquemerchant_trigger_princess = "princess"
+   barloquemerchant_trigger_pritchet = "pritchet"
+   barloquemerchant_trigger_rabble = "rabble"
+   barloquemerchant_trigger_rabble_2 = "rabble"
+   barloquemerchant_trigger_rat = "rat"
+   barloquemerchant_trigger_buy = "buy"
+   barloquemerchant_trigger_skivlat = "skivlat"
+   barloquemerchant_trigger_solomon = "solomon"
+   barloquemerchant_trigger_stories = "stories"
+   barloquemerchant_trigger_story = "story"
+   barloquemerchant_trigger_tokens = "tokens"
+   barloquemerchant_trigger_tos = "tos"
+
+   // Barloquetailor (Barloquetailor)
+   barloquetailor_speech_001 = \
+      "~kMadelia says, \"Nearby Barloque is the capital city of our fair "
+      "kingdom. By my troth, I do prefer her to the crusted streets of Tos.\""
+   barloquetailor_speech_002 = "~kMadelia says, \"Fare thee well, my %s.\""
+   barloquetailor_speech_003 = \
+      "~kMadelia says, \"If thou can not afford my fine apparels, Cor Noth "
+      "houses a tailor of lesser skill.\""
+   barloquetailor_speech_004 = \
+      "~kMadelia says, \"I do not involve myself in the affairs of the "
+      "council save where Her Highness is concerned.\""
+   barloquetailor_speech_005 = \
+      "~kMadelia says, \"I have counseled the princess in private to be wary "
+      "of these men, but alas, she doth believe in the good in others. I can "
+      "but hope she sees through their deceitful intentions ere she too is "
+      "hurt.\""
+   barloquetailor_speech_006 = \
+      "~kMadelia says, \"I truly thought they wished to help me. How was I "
+      "to know they did but lie to further their own cause? I have business "
+      "to attend to, I pray thee, go now.\""
+   barloquetailor_speech_007 = \
+      "~kMadelia says, \"They are just as deceitful and wicked as they "
+      "accuse the others of being. If thou knew the truth about the .... "
+      "situation, thou wouldst not support them as thou dost now.\""
+   barloquetailor_speech_008 = \
+      "~kMadelia says, \"The Duke is dead. It is funny that he has as much "
+      "to offer Meridian now as he did in life.\""
+   barloquetailor_speech_009 = \
+      "~kMadelia says, \"I do recall reading somewhere of a vision of the "
+      "three, which were clearly different sides of the same power.\""
+   barloquetailor_speech_010 = \
+      "~kMadelia whispers, \"I have an ancient text, found in the storeroom "
+      "of a necromancer. I am not even certain he ever read it, but it tells "
+      "of another god. One with no bond to those we now worship. This god, "
+      "so saith the text, was imprisoned in another place, so that its "
+      "presence was removed from this land. It further saith that this god "
+      "shall return. Since then I have wished to know more of the old "
+      "legends that seem to have vanished from our records. Why would anyone "
+      "have made these records vanish on purpose?\""
+   barloquetailor_speech_011 = \
+      "~kMadelia says, \"Good morrow, my %s. How may I tailor thee?\""
+   barloquetailor_speech_012 = \
+      "~kMadelia says, \"Good day to thee, my %s. Doth thou require a new "
+      "gown?\""
+   barloquetailor_speech_013 = \
+      "~kMadelia says, \"Her weavings do ever seem the very essence of life, "
+      "yet my gowns are more in fashion. Her tapestries can hold thee "
+      "spellbound for hours.\""
+   barloquetailor_speech_014 = \
+      "~kMadelia says, \"There be no insect here. To great lengths, I have "
+      "gone to rid this room of moths.\""
+   barloquetailor_speech_015 = \
+      "~kMadelia says, \"Strong and hard working are the mining men of yon "
+      "Jasper. I must say that Jonas fits in well there.\""
+   barloquetailor_speech_016 = \
+      "~kMadelia says, \"'Tis a sweet place, thither Marion. Yet, I pray "
+      "thee, tell me what is there to do in such a quaint spot?\""
+   barloquetailor_speech_017 = \
+      "~kMadelia says, \"Many believe she is a menace, and I feel that she "
+      "is not merely a misguided young girl, but that this is only the "
+      "surface of a deeper matter that shall soon be revealed.\""
+   barloquetailor_speech_018 = \
+      "~kMadelia says, \"Had anyone but listened to that poor child, mayhap "
+      "Miriana would not have resorted to such violent deeds.\""
+   barloquetailor_speech_019 = \
+      "~kMadelia says, \"The nodes do fill once more, and it doth seem that "
+      "Miriana hath wrought no lasting harm.\""
+   barloquetailor_speech_020 = \
+      "~kMadelia says, \"I am most certain that mine opinion on this matter "
+      "is of no import.\""
+   barloquetailor_speech_021 = \
+      "~kMadelia says, \"Hail Kateriina. Her Highness hath brought me from "
+      "the filth of yon Tos to the magnificent glory of hither castle.\""
+   barloquetailor_speech_022 = \
+      "~kMadelia looks you over with an approving smile and says, \"Mayhap "
+      "later.\""
+   barloquetailor_speech_023 = \
+      "~kMadelia says, \"Can thou see not, I am busy at work.\""
+   barloquetailor_speech_024 = \
+      "~kMadelia says, \"My head doth pound with pain at this time.\""
+   barloquetailor_speech_025 = \
+      "~kMadelia says, \"I pray thee, speak not of Tos. Her lights are far "
+      "behind me.\""
+   barloquetailor_speech_026 = \
+      "~kMadelia says, \"As sharp as shears, some would say, and just as "
+      "deadly.\""
+   barloquetailor_random_001 = \
+      "~kMadelia says, \"I use only the best of material.\""
+   barloquetailor_random_002 = \
+      "~kMadelia says, \"Hast thou seen those atrocious red pants? Forsooth, "
+      "cheaper garments could be made not. I laugh at those ill-bred enough "
+      "to wear them.\""
+   barloquetailor_random_003 = \
+      "~kMadelia says, \"If thou seeks to be entertained, thou will find Her "
+      "Highness' library to be most exhilarating.\""
+   barloquetailor_random_004 = \
+      "~kMadelia says, \"Pledge thyself to Her Highness and thou wilt find "
+      "learning of skills and magic to be of greater ease.\""
+   barloquetailor_random_005 = \
+      "~kMadelia says, \"The princess hath a heart made of pure gold. Thou "
+      "art most welcome to use her banquet room for any of thy grand "
+      "gatherings.\""
+   barloquetailor_random_006 = \
+      "~kMadelia says, \"'Tis strange, every now and again the door to the "
+      "tower is locked. I know not what goings about happen within the "
+      "chamber of the Mocker.\""
+   barloquetailor_random_007 = \
+      "~kMadelia says, \"The Brownstone Inn is a perfect place to settle "
+      "down for the night. If thou sees dear Pritchett within, I pray thee, "
+      "tell him that I have forgotten not our plans to dine together.\""
+   barloquetailor_random_008 = \
+      "~kMadelia says, \"In faith, 'tis difficult not to speak in the manner "
+      "befitting the nobles of Barloque. Thou must only know when to use "
+      "thees, thous, thys and wherefores. Try it and thou will see how easy "
+      "it is.\""
+   barloquetailor_random_009 = \
+      "~kMadelia says, \"I am without blue mushrooms. 'Tis time to make nice "
+      "to that simpkin Frisconar.\""
+   barloquetailor_random_010 = \
+      "~kMadelia says, \"Thou should always have an excess of quality "
+      "apparel. And a healthy variety for thy every occasion.\""
+   barloquetailor_random_011 = \
+      "~kMadelia stitches up a beautiful embroidered ballroom gown."
+   barloquetailor_random_012 = \
+      "~kMadelia sorts through a box of fine threads and wonders aloud, "
+      "\"Now where did I leave my goldenrod?\""
+   barloquetailor_random_013 = \
+      "~kA young girl's voice calls from the other room, \"Mistress, we are "
+      "finished with the hems. May we go out and play now?\" Madelia curtly "
+      "calls back, \"I will check thy work when I finish with my customer.\""
+   barloquetailor_random_014 = \
+      "~kMadelia looks up briefly as you come through the door, and you can "
+      "see a hint of tears in her eyes."
+   barloquetailor_random_015 = \
+      "~kMadelia says, \"Believe not all thou hearest. Though most is but "
+      "truth diminished by perception, sometimes the most trustworthy source "
+      "is the least reliable information.\""
+   barloquetailor_random_016 = \
+      "~kMadelia says, \"This facade begins to weary me. The only reason I "
+      "keep it up is to spare poor Kateriina more grief than she already "
+      "bears.\""
+   barloquetailor_random_017 = \
+      "~kMadelia says, \"Dost thou belong to a guild? Frular, the guild "
+      "creator, is a ~Ivery good ~Ifriend of mine.\""
+   barloquetailor_random_018 = \
+      "~kMadelia says, \"I do believe that Frular is the most handsome man "
+      "in all of the kingdom. Perchance, thou were sent not to me by his "
+      "wife?\""
+   barloquetailor_random_019 = \
+      "~kMadelia says, \"Oh dear Pritchett, he tries in such great measure "
+      "to blend with the nobility. If only he could properly learn the "
+      "tongue of Barloque as I have. In faith, I do love him.\""
+   barloquetailor_random_020 = \
+      "~kMadelia says, \"I dread the thought of going back to Tos. 'Twas a "
+      "most ugly affair when I left Frisconar.\""
+   barloquetailor_random_021 = \
+      "~kMadelia says, \"Her Highness doth require my full attention on this "
+      "gown. I pray thee, be gone from mine room.\""
+   barloquetailor_random_022 = \
+      "~kYou hear some girlish giggles coming from the back room. Madelia "
+      "yells to the door, \"Thou had better be hard at work back there.\""
+   barloquetailor_trigger_barloque = "barloque"
+   barloquetailor_trigger_bye = "bye"
+   barloquetailor_trigger_cor_noth = "cor noth"
+   barloquetailor_trigger_council = "council"
+   barloquetailor_trigger_councilor = "councilor"
+   barloquetailor_trigger_duke = "duke"
+   barloquetailor_trigger_fate = "fate"
+   barloquetailor_trigger_god = "god"
+   barloquetailor_trigger_hello = "hello"
+   barloquetailor_trigger_hester_gilk = "hester gilk"
+   barloquetailor_trigger_insect = "insect"
+   barloquetailor_trigger_jasper = "jasper"
+   barloquetailor_trigger_marion = "marion"
+   barloquetailor_trigger_miriana = "miriana"
+   barloquetailor_trigger_node = "node"
+   barloquetailor_trigger_princess = "princess"
+   barloquetailor_trigger_sex = "sex"
+   barloquetailor_trigger_tos = "tos"
+   barloquetailor_trigger_venya_cyr = "venya'cyr"
+
+   // BarloqueVaultman (Obert Cair'bre)
+   barloquevaultman_speech_001 = \
+      "~kObert says, \"Thou wilt never find a more noble city than this here "
+      "Barloque.\""
+   barloquevaultman_speech_002 = \
+      "~kObert says, \"I've no need to buy a thing from thee. 'Tis space and "
+      "what could be stored in it that I deal.\""
+   barloquevaultman_speech_003 = \
+      "~kObert says, \"Your servant always, my %s, fare thee well.\""
+   barloquevaultman_speech_004 = \
+      "~kObert says, \"I humbly thank you. Good day to thee, my %s.\""
+   barloquevaultman_speech_005 = \
+      "~kObert says, \"Hath thou seen the mockery Cor Noth makes of fine "
+      "Barloque's clepsydra with their, dare I say, clock. 'Tis an insult to "
+      "our intelligent brain, says I.\""
+   barloquevaultman_speech_006 = \
+      "~kObert says, \"I wonder what the council of five will do now? "
+      "Perhaps Meidei knows.\""
+   barloquevaultman_speech_007 = \
+      "~kObert says, \"Surely Kalior hath made one enemy too many. This time "
+      "his dealings hath surely earned him his trip to the grave.\""
+   barloquevaultman_speech_008 = \
+      "~kObert Cair'bre says, \"Good morrow, my %s. To what do I owe the "
+      "honor of thy presence?\""
+   barloquevaultman_speech_009 = \
+      "~kObert Cair'bre says, \"Hail and well met, my %s. How fare thee?\""
+   barloquevaultman_speech_010 = \
+      "~kObert Cair'bre says, \"I am at thy service, good noble. For a fee "
+      "that thou will find none too exorbitant, I will store a number of "
+      "goods for thee. 'Twill be safe from harm or theft, I assure thee.\""
+   barloquevaultman_speech_011 = \
+      "~kObert says, \"In all its beauty, Jasper has surely taken a turn for "
+      "the worse. I can barely believe the reports that the rebel talk is "
+      "originating there.\""
+   barloquevaultman_speech_012 = \
+      "~kObert says, \"Many a year has it been since I have had presumption "
+      "to visit thither Marion. What hear thou of her farmers? They must be "
+      "well, for their summer crop was bountiful and sweet.\""
+   barloquevaultman_speech_013 = \
+      "~kObert says, \"Hail her grace! The Princess grows beautifully into "
+      "her rule. I pray Akardius' false claims to the throne do not slow her "
+      "ascent.\""
+   barloquevaultman_speech_014 = \
+      "~kObert says, \"'Tis not my business to sell the goods housed within "
+      "mine warehouses, for the true owners would like it not.\""
+   barloquevaultman_speech_015 = \
+      "~kObert says, \"Thou would not to leave tokens here for I have born "
+      "witness that they move by their own desire. Thou could better profit "
+      "thyself by offering those willful tokens to the council.\""
+   barloquevaultman_speech_016 = \
+      "~kObert says, \"A plague on Tos! In times long past, we took up arms "
+      "against her. Our weapons now sit idle in their sheaths, but the stain "
+      "of their insults disappears not.\""
+   barloquevaultman_random_001 = \
+      "~kObert says, \"Dost thou hear, hither sewers of Barloque and thither "
+      "sewers of Jasper meet one another in a most disagreeable fashion. "
+      "'Tis said much danger lies betwixt the two.\""
+   barloquevaultman_random_002 = \
+      "~kObert says, \"'Tis said that one man, who be both a rascal and a "
+      "cur, dwelleth in our sewers. I ask thee, what business hath any man "
+      "below the cobblestone of this fair city?\""
+   barloquevaultman_random_003 = \
+      "~kObert says, \"I do beseech thee, take thyself to the Bourgeois "
+      "Castle and pledge thy allegiance to the Princess.\""
+   barloquevaultman_random_004 = \
+      "~kObert says, \"Alas, poor Pritchett doth try badly to masque as a "
+      "native of Barloque. Mayhap, someone need teach the knave how to speak "
+      "properly. His tongue doth create words which make sense not.\""
+   barloquevaultman_random_005 = \
+      "~kObert says, \"If thou hast need of a bank to store thy shillings, I "
+      "would suggest a journey to the First Royal Bank of Jasper.\""
+   barloquevaultman_random_006 = \
+      "~kObert says, \"Methinks, thou may find the most interesting items "
+      "stashed within the cupboards of the shop keepers. They may part with "
+      "said items, if favors are done in exchange.\""
+   barloquevaultman_random_007 = \
+      "~kObert says, \"'Tis true enough, I do own the lot of these "
+      "warehouses. Alas, save one. The guildhall on the west side. A rowdy "
+      "bunch are they and not likely to give up their space to me or any one "
+      "besides me for that matter.\""
+   barloquevaultman_random_008 = \
+      "~kObert says, \"How now! What's the matter?\""
+   barloquevaultman_random_009 = \
+      "~kObert says, \"How now! From where, pray tell, dost thou find all of "
+      "these baubles which thou bringest for me to store?\""
+   barloquevaultman_random_010 = \
+      "~kObert says, \"'Tis good indeed, that I possess near all of "
+      "Barloque's warehouses, for they quickly fill with all that noble folk "
+      "like thyself wish to store.\""
+   barloquevaultman_random_011 = \
+      "~kWith a grunt, Obert moves a crate to the back door."
+   barloquevaultman_random_012 = \
+      "~kObert packs up a crate of goods and marks it with a number."
+   barloquevaultman_random_013 = \
+      "~kObert says, \"With nary a ship in port in over a score of years, I "
+      "found myself easily in the means of acquiring these unused "
+      "warehouses. And that proved most wise on the part of me, for now "
+      "nearly every soul in the land comes to fill my buildings with their "
+      "collectibles.\""
+   barloquevaultman_random_014 = \
+      "~kObert says, \"My children hath grown so much in so few years. How "
+      "fare thy kin?\""
+   barloquevaultman_random_015 = \
+      "~kObert says, \"I pray thee, be on thy guard in hither docks. A "
+      "magnificent city is Barloque, but not so much in that it hath not a "
+      "bad side.\""
+   barloquevaultman_random_016 = \
+      "~kObert says, \"It appears that the Duke shall not claim the crown. "
+      "The land shall see new trouble as another pretender tries to usurp "
+      "the throne.\""
+   barloquevaultman_random_017 = \
+      "~kObert says, \"I am rather busy as thou can see. Make haste with thy "
+      "business.\""
+   barloquevaultman_random_018 = "~kThe smell of fish hangs in the air."
+   barloquevaultman_trigger_barloque = "barloque"
+   barloquevaultman_trigger_sell = "sell"
+   barloquevaultman_trigger_bye = "bye"
+   barloquevaultman_trigger_cor_noth = "cor noth"
+   barloquevaultman_trigger_council = "council"
+   barloquevaultman_trigger_duke = "duke"
+   barloquevaultman_trigger_hello = "hello"
+   barloquevaultman_trigger_help = "help"
+   barloquevaultman_trigger_jasper = "jasper"
+   barloquevaultman_trigger_marion = "marion"
+   barloquevaultman_trigger_princess = "princess"
+   barloquevaultman_trigger_buy = "buy"
+   barloquevaultman_trigger_tokens = "tokens"
+   barloquevaultman_trigger_tokens_2 = "tokens"
+   barloquevaultman_trigger_tos = "tos"
+
+   // GuildCreator (Frular)
+   guildcreator_speech_001 = \
+      "~kFrular says, \"Barloque doth house a favored hall of mine. The Hall "
+      "of Explorers lies 'round the eastern corner here in south Barloque.\""
+   guildcreator_speech_002 = \
+      "~kFrular says, \"I need not buy from peddlers.\""
+   guildcreator_speech_003 = "~kFrular says, \"Fare thee well.\""
+   guildcreator_speech_004 = \
+      "~kFrular says, \"'Twas King Zarcos IV, who demanded the priest's "
+      "temple exist not within the walls of the cities. I could not let that "
+      "abandoned Shal'ille temple go to ruin in the middle of Cor Noth. A "
+      "fine guild hall it has made.\""
+   guildcreator_speech_005 = \
+      "~kFrular says, \"I have more than enough politics with mine chartered "
+      "guilds and truly care not for the council's state affairs.\""
+   guildcreator_speech_006 = \
+      "~kFrular says, \"Even under Akardius, my halls are safe from search "
+      "and seizure.\""
+   guildcreator_speech_007 = "~kFrular says, \"Hail, %s!\""
+   guildcreator_speech_008 = \
+      "~kFrular says, \"If thou wish to make thy guild official, then thou "
+      "shouldst buy a title from me. I maintain the records on Guild Halls.\""
+   guildcreator_speech_009 = \
+      "~kFrular says, \"Jaarba had paranoia in great measure. Before his "
+      "affliction of insanity, he housed a small group of rebels. His abode "
+      "is most unique in its maze layout.\""
+   guildcreator_speech_010 = \
+      "~kFrular says, \"No more bizarre town is there than yonder Jasper. "
+      "What tales I could tell thee about Jaarba's Abode and the Wryn's "
+      "Keep!\""
+   guildcreator_speech_011 = \
+      "~kFrular says, \"I hold no leases in Marion. They tolerate not the "
+      "troubles that guilds bring forth.\""
+   guildcreator_speech_012 = \
+      "~kFrular says, \"Hail the Princess. It is through her grace that I am "
+      "able to lease these halls. Yet, in truth, the Princess doth tax me "
+      "too much.\""
+   guildcreator_speech_013 = \
+      "~kFrular says, \"I rent the finest guild halls in the land.\""
+   guildcreator_speech_014 = \
+      "~kFrular says, \"For centuries, Konima's Dwelling lay vacant in Tos "
+      "awaiting the hero's return. I was only granted lease of said property "
+      "with the clause that should Konima himself ask for it back, the "
+      "building would be immediately emptied and the keys presented to him.\""
+   guildcreator_speech_015 = \
+      "~kFrular says, \"In days of yore, the mayor of Jasper sought to "
+      "extract himself from the sovereignty of the crown. He had dug a great "
+      "keep within the south mines, a perfect palace to hole up in the event "
+      "of siege. No war came about. The King knew that the Mayor would "
+      "eventually lose his fire as the mine's gold was depleted. I found it "
+      "to be a rather reasonable lease from the town.\""
+   guildcreator_random_001 = \
+      "~kFrular says, \"I grow weary of dealing with fledgling guilds of "
+      "little intention. I tell thee truly, I have canceled more than one "
+      "charter in my time.\""
+   guildcreator_random_002 = \
+      "~kFrular says, \"There are many ways to take possession of a Hall "
+      "from another guild. But thou must be patient, cunning and determined, "
+      "indeed. So many believe they possess said talents, but only the best "
+      "succeed.\""
+   guildcreator_random_003 = \
+      "~kFrular says, \"Take care in who thou asks to join thy guild. I've "
+      "heard many a tale of new members outnumbering the old and ousting the "
+      "master in favor of their own.\""
+   guildcreator_random_004 = \
+      "~kFrular says, \"A sad thing is those lonely men who hath true belief "
+      "they can take the world by themselves. A man who hath no allies shall "
+      "prosper nary a whit.\""
+   guildcreator_random_005 = \
+      "~kFrular says, \"Yon globe is for established Guild Masters to post "
+      "their charter or to appeal for more members.\""
+   guildcreator_random_006 = \
+      "~kFrular says, \"Mayhaps, plenty of guild halls would be well "
+      "received. Yet I do find the treaty breaking and subterfuge to be more "
+      "interesting drama.\""
+   guildcreator_random_007 = \
+      "~kFrular says, \"I care not how a guild comes to possess my halls, "
+      "only that they are kind enough to pay the rent.\""
+   guildcreator_random_008 = \
+      "~kFrular says, \"How fickle the boons of friendship. Friends make "
+      "thee stronger. Yet, friends make thee more vulnerable as well.\""
+   guildcreator_random_009 = \
+      "~kFrular says, \"'Tis a sad guild that has but one or two members. In "
+      "truth, I will traffic not with them and will endeavor to revoke the "
+      "charter.\""
+   guildcreator_random_010 = \
+      "~kFrular says, \"Let me tell thee in hushed tones, ~I I believe that "
+      "popinjay Herbutte spends his idle hours listening through yon wall.\""
+   guildcreator_random_011 = \
+      "~kFrular says, \"Hmm. My book shows me an error in a certain guild's "
+      "charter. I've half a mind to revoke them.\""
+   guildcreator_random_012 = \
+      "~kThrough the western wall, you can hear the muffled sound of someone "
+      "yelling. You can't quite make out what is said."
+   guildcreator_random_013 = \
+      "~kFrular flips through his book, casually checking that the guild "
+      "charters are in proper order."
+   guildcreator_random_014 = \
+      "~kOn the floor behind Frular, you can see a spool of fine golden "
+      "thread."
+   guildcreator_random_015 = \
+      "~kFrular says, \"My favored guildhall comes with the name the "
+      "Bookmaster's Guild House. If managed with half a knat's brain, the "
+      "guild who inhabits her can make shillings in great measure by opening "
+      "her doors to the public.\""
+   guildcreator_random_016 = \
+      "~kFrular says, \"At the castle, thou will find fair Madelia. I take "
+      "her to be sweet and supple. A most entertaining hostess is she. I "
+      "protest unto thee, speak not to mine wife about these words.\""
+   guildcreator_random_017 = \
+      "~kFrular says, \"Mayhaps, I should retire and buy this city for "
+      "myself and buy Cor Noth for the fair Madelia... How Now! How long "
+      "hast thou been standing there?\""
+   guildcreator_random_018 = \
+      "~kFrular says, \"Can life become better than 'tis now? Guilds abound "
+      "and mine profits soar to the sky above.\""
+   guildcreator_random_019 = \
+      "~kFrular says, \"I grow weary of dealing with the petty squabbling of "
+      "these guilds. For certain, their bickering only serves to profit me, "
+      "but mayhap more money is worth not the pains mine ears endure when "
+      "they whine like babes.\""
+   guildcreator_random_020 = \
+      "~kFrular says, \"I am a very busy man. Seat thyself and wait or seek "
+      "to come back at another time.\""
+   guildcreator_trigger_barloque = "barloque"
+   guildcreator_trigger_sell = "sell"
+   guildcreator_trigger_bye = "bye"
+   guildcreator_trigger_cor_noth = "cor noth"
+   guildcreator_trigger_council = "council"
+   guildcreator_trigger_duke = "duke"
+   guildcreator_trigger_hello = "hello"
+   guildcreator_trigger_help = "help"
+   guildcreator_trigger_jaarba = "jaarba"
+   guildcreator_trigger_jasper = "jasper"
+   guildcreator_trigger_marion = "marion"
+   guildcreator_trigger_princess = "princess"
+   guildcreator_trigger_buy = "buy"
+   guildcreator_trigger_tos = "tos"
+   guildcreator_trigger_wryn = "wryn"
+
+   // PrincessGuard (Keep Guard)
+   princessguard_speech_001 = \
+      "~kThe royal guard says, \"Barloque is truly a fine city.\""
+   princessguard_speech_002 = \
+      "~kThe royal guard says, \"A pox on Blackstone Keep.\""
+   princessguard_speech_003 = \
+      "~kThe royal guard says, \"Cor Noth is at the cross roads between the "
+      "towns.\""
+   princessguard_speech_004 = \
+      "~kThe royal guard says, \"Hail the Council of Advisors!\""
+   princessguard_speech_005 = \
+      "~kThe royal guard says, \"Jasper is to the south and west.\""
+   princessguard_speech_006 = \
+      "~kThe royal guard says, \"Marion is in the west.\""
+   princessguard_speech_007 = \
+      "~kThe royal guard says, \"Long Live the Princess!\""
+   princessguard_speech_008 = \
+      "~kThe royal guard says, \"Miserable Tos is beyond the badlands.\""
+   princessguard_trigger_barloque = "barloque"
+   princessguard_trigger_blackstone = "blackstone"
+   princessguard_trigger_cor_noth = "cor noth"
+   princessguard_trigger_council = "council"
+   princessguard_trigger_jasper = "jasper"
+   princessguard_trigger_marion = "marion"
+   princessguard_trigger_princess = "princess"
+   princessguard_trigger_tos = "tos"
+
+messages:
+
+   GetSpeechLibrary()
+   "Speech library nodes: [class, [[triggers, mood, action, key], ...]]"
+   {
+      local lLib;
+
+      lLib = $;
+
+      lLib = Cons([&BarloqueApothecary,[
+         [[barloqueapothecary_trigger_barloque],0,
+            [LIBACT_QUOTE_RSC,barloqueapothecary_speech_001],1],
+         [[barloqueapothecary_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,barloqueapothecary_speech_002],2],
+         [[barloqueapothecary_trigger_bye],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloqueapothecary_speech_003],3],
+         [[barloqueapothecary_trigger_cor_noth],0,
+            [LIBACT_QUOTE_RSC,barloqueapothecary_speech_004],4],
+         [[barloqueapothecary_trigger_council,
+            barloqueapothecary_trigger_council_2],0,
+            [LIBACT_QUOTE_RSC,barloqueapothecary_speech_005],5],
+         [[barloqueapothecary_trigger_duke],0,
+            [LIBACT_QUOTE_RSC,barloqueapothecary_speech_006],6],
+         [[barloqueapothecary_trigger_echo],0,
+            [LIBACT_QUOTE_RSC,barloqueapothecary_speech_007],7],
+         [[barloqueapothecary_trigger_echo],0,
+            [LIBACT_QUOTE_RSC,barloqueapothecary_speech_008],8],
+         [[barloqueapothecary_trigger_echo],0,
+            [LIBACT_QUOTE_RSC,barloqueapothecary_speech_009],9],
+         [[barloqueapothecary_trigger_emote],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloqueapothecary_speech_010],10],
+         [[barloqueapothecary_trigger_hello],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloqueapothecary_speech_011],11],
+         [[barloqueapothecary_trigger_hello],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,barloqueapothecary_speech_012,
+               [LIBPLUG_LORDLADY]],12],
+         [[barloqueapothecary_trigger_help],0,
+            [LIBACT_QUOTE_RSC,barloqueapothecary_speech_013],13],
+         [[barloqueapothecary_trigger_jasper],0,
+            [LIBACT_QUOTE_RSC,barloqueapothecary_speech_014],14],
+         [[barloqueapothecary_trigger_jonas],0,
+            [LIBACT_QUOTE_RSC,barloqueapothecary_speech_015],15],
+         [[barloqueapothecary_trigger_marion],0,
+            [LIBACT_QUOTE_RSC,barloqueapothecary_speech_016],16],
+         [[barloqueapothecary_trigger_night],0,
+            [LIBACT_QUOTE_RSC,barloqueapothecary_speech_017],17],
+         [[barloqueapothecary_trigger_potion,
+            barloqueapothecary_trigger_potion_2],0,
+            [LIBACT_QUOTE_RSC,barloqueapothecary_speech_018],18],
+         [[barloqueapothecary_trigger_princess],0,
+            [LIBACT_QUOTE_RSC,barloqueapothecary_speech_019],19],
+         [[barloqueapothecary_trigger_pupil],0,
+            [LIBACT_QUOTE_RSC,barloqueapothecary_speech_020],20],
+         [[barloqueapothecary_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,barloqueapothecary_speech_021],21],
+         [[barloqueapothecary_trigger_teach,
+            barloqueapothecary_trigger_learn,
+            barloqueapothecary_trigger_learn_2],0,
+            [LIBACT_QUOTE_RSC,barloqueapothecary_speech_022],22],
+         [[barloqueapothecary_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,barloqueapothecary_speech_023],23],
+         [[barloqueapothecary_trigger_trick],0,
+            [LIBACT_QUOTE_RSC,barloqueapothecary_speech_024],24]
+      ]],lLib);
+
+      lLib = Cons([&BarloqueBartender,[
+         [[barloquebartender_trigger_node_attack],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_041],41],
+         [[barloquebartender_trigger_princess],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_042],42],
+         [[barloquebartender_trigger_qor],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_043],43],
+         [[barloquebartender_trigger_riija],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_044],44],
+         [[barloquebartender_trigger_rules],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_045],45],
+         [[barloquebartender_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_046],46],
+         [[barloquebartender_trigger_shal_ille,
+            barloquebartender_trigger_sha_lill],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_047],47],
+         [[barloquebartender_trigger_stunted_dwarf],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_048,
+               [LIBPLUG_NAME]],48],
+         [[barloquebartender_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_049],49],
+         [[barloquebartender_trigger_vale],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_050],50],
+         [[barloquebartender_trigger_ways,barloquebartender_trigger_ways_2],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_051],51],
+         [[barloquebartender_trigger_xiana],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_052],52]
+      ]],lLib);
+
+      lLib = Cons([&BarloqueBartender,[
+         [[barloquebartender_trigger_barloque],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_001],1],
+         [[barloquebartender_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_002],2],
+         [[barloquebartender_trigger_bye],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_003],3],
+         [[barloquebartender_trigger_cards],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_004],4],
+         [[barloquebartender_trigger_cor_noth],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_005],5],
+         [[barloquebartender_trigger_council],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_006],6],
+         [[barloquebartender_trigger_crowns],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_007],7],
+         [[barloquebartender_trigger_draw],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_008,
+               [LIBPLUG_NAME,LIBPLUG_NAME]],8],
+         [[barloquebartender_trigger_draw],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_009,[LIBPLUG_NAME]],9],
+         [[barloquebartender_trigger_draw],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_010,
+               [LIBPLUG_NAME]],10],
+         [[barloquebartender_trigger_draw],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_011,
+               [LIBPLUG_NAME,LIBPLUG_NAME]],11],
+         [[barloquebartender_trigger_draw],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_012,
+               [LIBPLUG_NAME]],12],
+         [[barloquebartender_trigger_draw],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_013,
+               [LIBPLUG_NAME]],13],
+         [[barloquebartender_trigger_draw],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_014,
+               [LIBPLUG_NAME]],14],
+         [[barloquebartender_trigger_draw],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_015,
+               [LIBPLUG_NAME]],15],
+         [[barloquebartender_trigger_draw],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_016,
+               [LIBPLUG_NAME]],16],
+         [[barloquebartender_trigger_draw],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_017,
+               [LIBPLUG_NAME]],17],
+         [[barloquebartender_trigger_draw],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_018,
+               [LIBPLUG_NAME]],18],
+         [[barloquebartender_trigger_duke],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_019],19],
+         [[barloquebartender_trigger_faren],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_020],20],
+         [[barloquebartender_trigger_fate],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_021],21],
+         [[barloquebartender_trigger_feudal],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_022],22],
+         [[barloquebartender_trigger_fey],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_023],23],
+         [[barloquebartender_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_024],24],
+         [[barloquebartender_trigger_help],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_025],25],
+         [[barloquebartender_trigger_jala],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_026],26],
+         [[barloquebartender_trigger_jasper],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_027],27],
+         [[barloquebartender_trigger_kalior],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_028],28],
+         [[barloquebartender_trigger_kateriina],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_029],29],
+         [[barloquebartender_trigger_kitty,
+            barloquebartender_trigger_kitty_2],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_030],30],
+         [[barloquebartender_trigger_kraanan],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_031],31],
+         [[barloquebartender_trigger_marion],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_032],32],
+         [[barloquebartender_trigger_miriana],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_033],33],
+         [[barloquebartender_trigger_miriana],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_034],34],
+         [[barloquebartender_trigger_miriana],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_035],35],
+         [[barloquebartender_trigger_miriana],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_036],36],
+         [[barloquebartender_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_037],37],
+         [[barloquebartender_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_038],38],
+         [[barloquebartender_trigger_node],0,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_039],39],
+         [[barloquebartender_trigger_node_attack],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloquebartender_speech_040],40]
+      ]],lLib);
+
+      lLib = Cons([&BarloqueBlacksmith,[
+         [[barloqueblacksmith_trigger_armor],0,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_speech_001],1],
+         [[barloqueblacksmith_trigger_barloque],0,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_speech_002],2],
+         [[barloqueblacksmith_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_speech_003],3],
+         [[barloqueblacksmith_trigger_bye],0,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_speech_004],4],
+         [[barloqueblacksmith_trigger_cor_noth],0,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_speech_005],5],
+         [[barloqueblacksmith_trigger_council],0,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_speech_006],6],
+         [[barloqueblacksmith_trigger_duke],0,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_speech_007],7],
+         [[barloqueblacksmith_trigger_expedition],0,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_speech_008],8],
+         [[barloqueblacksmith_trigger_forge],0,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_speech_009],9],
+         [[barloqueblacksmith_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_speech_010],10],
+         [[barloqueblacksmith_trigger_help],0,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_speech_011],11],
+         [[barloqueblacksmith_trigger_jasper],0,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_speech_012],12],
+         [[barloqueblacksmith_trigger_jonas],0,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_speech_013],13],
+         [[barloqueblacksmith_trigger_marion],0,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_speech_014],14],
+         [[barloqueblacksmith_trigger_princess],0,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_speech_015],15],
+         [[barloqueblacksmith_trigger_rycksher,
+            barloqueblacksmith_trigger_rulker],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_speech_016],16],
+         [[barloqueblacksmith_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_speech_017],17],
+         [[barloqueblacksmith_trigger_smith],0,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_speech_018],18],
+         [[barloqueblacksmith_trigger_teach,
+            barloqueblacksmith_trigger_teach_2],0,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_speech_019],19],
+         [[barloqueblacksmith_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_speech_020],20],
+         [[barloqueblacksmith_trigger_wand],0,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_speech_021],21],
+         [[barloqueblacksmith_trigger_weapon],0,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_speech_022],22]
+      ]],lLib);
+
+      lLib = Cons([&BarloqueClerk,[
+         [[barloqueclerk_trigger_bye],0,
+            [LIBACT_QUOTE_RSC,barloqueclerk_speech_001],1],
+         [[barloqueclerk_trigger_council],0,
+            [LIBACT_QUOTE_RSC,barloqueclerk_speech_002],2],
+         [[barloqueclerk_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,barloqueclerk_speech_003,[LIBPLUG_NAME]],3],
+         [[barloqueclerk_trigger_jonas],0,
+            [LIBACT_QUOTE_RSC,barloqueclerk_speech_004],4],
+         [[barloqueclerk_trigger_rebels],0,
+            [LIBACT_QUOTE_RSC,barloqueclerk_speech_005],5]
+      ]],lLib);
+
+      lLib = Cons([&BarloqueInnkeeper,[
+         [[barloqueinnkeeper_trigger_barloque],0,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_001],1],
+         [[barloqueinnkeeper_trigger_bye],0,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_002],2],
+         [[barloqueinnkeeper_trigger_cor_noth],0,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_003],3],
+         [[barloqueinnkeeper_trigger_council],0,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_004],4],
+         [[barloqueinnkeeper_trigger_duke],0,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_005],5],
+         [[barloqueinnkeeper_trigger_fate],0,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_006],6],
+         [[barloqueinnkeeper_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_007],7],
+         [[barloqueinnkeeper_trigger_help],0,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_008],8],
+         [[barloqueinnkeeper_trigger_izzio],0,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_009],9],
+         [[barloqueinnkeeper_trigger_jasper],0,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_010],10],
+         [[barloqueinnkeeper_trigger_marion],0,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_011],11],
+         [[barloqueinnkeeper_trigger_miriana],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_012],12],
+         [[barloqueinnkeeper_trigger_miriana],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_013],13],
+         [[barloqueinnkeeper_trigger_miriana],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_014],14],
+         [[barloqueinnkeeper_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_015],15],
+         [[barloqueinnkeeper_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_016],16],
+         [[barloqueinnkeeper_trigger_need_a_courier],0,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_017],17],
+         [[barloqueinnkeeper_trigger_node_attack],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_018],18],
+         [[barloqueinnkeeper_trigger_node_attack],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_019],19],
+         [[barloqueinnkeeper_trigger_node_attack],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_020],20],
+         [[barloqueinnkeeper_trigger_princess],0,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_021],21],
+         [[barloqueinnkeeper_trigger_rebels],0,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_022],22],
+         [[barloqueinnkeeper_trigger_sailed],0,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_023],23],
+         [[barloqueinnkeeper_trigger_sailor],0,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_024],24],
+         [[barloqueinnkeeper_trigger_ships],0,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_025],25],
+         [[barloqueinnkeeper_trigger_story],0,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_026],26],
+         [[barloqueinnkeeper_trigger_stunted_dwarf],0,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_027,
+               [LIBPLUG_NAME]],27],
+         [[barloqueinnkeeper_trigger_tides,
+            barloqueinnkeeper_trigger_tides_2],0,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_028],28],
+         [[barloqueinnkeeper_trigger_time],0,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_029],29],
+         [[barloqueinnkeeper_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_speech_030],30]
+      ]],lLib);
+
+      lLib = Cons([&BarloqueMerchant,[
+         [[barloquemerchant_trigger_axwaddle],0,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_001],1],
+         [[barloquemerchant_trigger_barloque],0,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_002],2],
+         [[barloquemerchant_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_003],3],
+         [[barloquemerchant_trigger_bye],0,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_004],4],
+         [[barloquemerchant_trigger_clepsydra],0,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_005],5],
+         [[barloquemerchant_trigger_cor_noth],0,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_006],6],
+         [[barloquemerchant_trigger_council,
+            barloquemerchant_trigger_council_2],0,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_007],7],
+         [[barloquemerchant_trigger_degree],0,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_008],8],
+         [[barloquemerchant_trigger_drumble],0,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_009],9],
+         [[barloquemerchant_trigger_duke],0,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_010],10],
+         [[barloquemerchant_trigger_fellow],0,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_011],11],
+         [[barloquemerchant_trigger_gem],0,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_012],12],
+         [[barloquemerchant_trigger_haskard,
+            barloquemerchant_trigger_haskard_2],0,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_013],13],
+         [[barloquemerchant_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_014],14],
+         [[barloquemerchant_trigger_help],0,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_015],15],
+         [[barloquemerchant_trigger_jasper],0,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_016],16],
+         [[barloquemerchant_trigger_jewel],0,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_017],17],
+         [[barloquemerchant_trigger_jonas],0,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_018],18],
+         [[barloquemerchant_trigger_marion],0,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_019],19],
+         [[barloquemerchant_trigger_princess],0,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_020],20],
+         [[barloquemerchant_trigger_pritchet],0,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_021],21],
+         [[barloquemerchant_trigger_rabble,
+            barloquemerchant_trigger_rabble_2],0,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_022],22],
+         [[barloquemerchant_trigger_rat],0,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_023],23],
+         [[barloquemerchant_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_024],24],
+         [[barloquemerchant_trigger_skivlat],0,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_025],25],
+         [[barloquemerchant_trigger_solomon],0,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_026],26],
+         [[barloquemerchant_trigger_stories,
+            barloquemerchant_trigger_story],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_027],27],
+         [[barloquemerchant_trigger_stories,
+            barloquemerchant_trigger_story],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_028],28],
+         [[barloquemerchant_trigger_tokens],0,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_029],29],
+         [[barloquemerchant_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,barloquemerchant_speech_030],30]
+      ]],lLib);
+
+      lLib = Cons([&Barloquetailor,[
+         [[barloquetailor_trigger_barloque],0,
+            [LIBACT_QUOTE_RSC,barloquetailor_speech_001],1],
+         [[barloquetailor_trigger_bye],0,
+            [LIBACT_QUOTE_RSC,barloquetailor_speech_002,
+               [LIBPLUG_LORDLADY]],2],
+         [[barloquetailor_trigger_cor_noth],0,
+            [LIBACT_QUOTE_RSC,barloquetailor_speech_003],3],
+         [[barloquetailor_trigger_council],0,
+            [LIBACT_QUOTE_RSC,barloquetailor_speech_004],4],
+         [[barloquetailor_trigger_councilor],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloquetailor_speech_005],5],
+         [[barloquetailor_trigger_councilor],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,barloquetailor_speech_006],6],
+         [[barloquetailor_trigger_councilor],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloquetailor_speech_007],7],
+         [[barloquetailor_trigger_duke],0,
+            [LIBACT_QUOTE_RSC,barloquetailor_speech_008],8],
+         [[barloquetailor_trigger_fate],0,
+            [LIBACT_QUOTE_RSC,barloquetailor_speech_009],9],
+         [[barloquetailor_trigger_god],0,
+            [LIBACT_QUOTE_RSC,barloquetailor_speech_010],10],
+         [[barloquetailor_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,barloquetailor_speech_011,
+               [LIBPLUG_LORDLADY]],11],
+         [[barloquetailor_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,barloquetailor_speech_012,
+               [LIBPLUG_LORDLADY]],12],
+         [[barloquetailor_trigger_hester_gilk],0,
+            [LIBACT_QUOTE_RSC,barloquetailor_speech_013],13],
+         [[barloquetailor_trigger_insect],0,
+            [LIBACT_QUOTE_RSC,barloquetailor_speech_014],14],
+         [[barloquetailor_trigger_jasper],0,
+            [LIBACT_QUOTE_RSC,barloquetailor_speech_015],15],
+         [[barloquetailor_trigger_marion],0,
+            [LIBACT_QUOTE_RSC,barloquetailor_speech_016],16],
+         [[barloquetailor_trigger_miriana],0,
+            [LIBACT_QUOTE_RSC,barloquetailor_speech_017],17],
+         [[barloquetailor_trigger_node],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloquetailor_speech_018],18],
+         [[barloquetailor_trigger_node],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,barloquetailor_speech_019],19],
+         [[barloquetailor_trigger_node],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloquetailor_speech_020],20],
+         [[barloquetailor_trigger_princess],0,
+            [LIBACT_QUOTE_RSC,barloquetailor_speech_021],21],
+         [[barloquetailor_trigger_sex],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloquetailor_speech_022],22],
+         [[barloquetailor_trigger_sex],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,barloquetailor_speech_023],23],
+         [[barloquetailor_trigger_sex],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloquetailor_speech_024],24],
+         [[barloquetailor_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,barloquetailor_speech_025],25],
+         [[barloquetailor_trigger_venya_cyr],0,
+            [LIBACT_QUOTE_RSC,barloquetailor_speech_026],26]
+      ]],lLib);
+
+      lLib = Cons([&BarloqueVaultman,[
+         [[barloquevaultman_trigger_barloque],0,
+            [LIBACT_QUOTE_RSC,barloquevaultman_speech_001],1],
+         [[barloquevaultman_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,barloquevaultman_speech_002],2],
+         [[barloquevaultman_trigger_bye],0,
+            [LIBACT_QUOTE_RSC,barloquevaultman_speech_003,
+               [LIBPLUG_LORDLADY]],3],
+         [[barloquevaultman_trigger_bye],0,
+            [LIBACT_QUOTE_RSC,barloquevaultman_speech_004,
+               [LIBPLUG_LORDLADY]],4],
+         [[barloquevaultman_trigger_cor_noth],0,
+            [LIBACT_QUOTE_RSC,barloquevaultman_speech_005],5],
+         [[barloquevaultman_trigger_council],0,
+            [LIBACT_QUOTE_RSC,barloquevaultman_speech_006],6],
+         [[barloquevaultman_trigger_duke],0,
+            [LIBACT_QUOTE_RSC,barloquevaultman_speech_007],7],
+         [[barloquevaultman_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,barloquevaultman_speech_008,
+               [LIBPLUG_LORDLADY]],8],
+         [[barloquevaultman_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,barloquevaultman_speech_009,
+               [LIBPLUG_LORDLADY]],9],
+         [[barloquevaultman_trigger_help],0,
+            [LIBACT_QUOTE_RSC,barloquevaultman_speech_010],10],
+         [[barloquevaultman_trigger_jasper],0,
+            [LIBACT_QUOTE_RSC,barloquevaultman_speech_011],11],
+         [[barloquevaultman_trigger_marion],0,
+            [LIBACT_QUOTE_RSC,barloquevaultman_speech_012],12],
+         [[barloquevaultman_trigger_princess],0,
+            [LIBACT_QUOTE_RSC,barloquevaultman_speech_013],13],
+         [[barloquevaultman_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,barloquevaultman_speech_014],14],
+         [[barloquevaultman_trigger_tokens,
+            barloquevaultman_trigger_tokens_2],0,
+            [LIBACT_QUOTE_RSC,barloquevaultman_speech_015],15],
+         [[barloquevaultman_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,barloquevaultman_speech_016],16]
+      ]],lLib);
+
+      lLib = Cons([&GuildCreator,[
+         [[guildcreator_trigger_barloque],0,
+            [LIBACT_QUOTE_RSC,guildcreator_speech_001],1],
+         [[guildcreator_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,guildcreator_speech_002],2],
+         [[guildcreator_trigger_bye],0,
+            [LIBACT_QUOTE_RSC,guildcreator_speech_003],3],
+         [[guildcreator_trigger_cor_noth],0,
+            [LIBACT_QUOTE_RSC,guildcreator_speech_004],4],
+         [[guildcreator_trigger_council],0,
+            [LIBACT_QUOTE_RSC,guildcreator_speech_005],5],
+         [[guildcreator_trigger_duke],0,
+            [LIBACT_QUOTE_RSC,guildcreator_speech_006],6],
+         [[guildcreator_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,guildcreator_speech_007,[LIBPLUG_NAME]],7],
+         [[guildcreator_trigger_help],0,
+            [LIBACT_QUOTE_RSC,guildcreator_speech_008],8],
+         [[guildcreator_trigger_jaarba],0,
+            [LIBACT_QUOTE_RSC,guildcreator_speech_009],9],
+         [[guildcreator_trigger_jasper],0,
+            [LIBACT_QUOTE_RSC,guildcreator_speech_010],10],
+         [[guildcreator_trigger_marion],0,
+            [LIBACT_QUOTE_RSC,guildcreator_speech_011],11],
+         [[guildcreator_trigger_princess],0,
+            [LIBACT_QUOTE_RSC,guildcreator_speech_012],12],
+         [[guildcreator_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,guildcreator_speech_013],13],
+         [[guildcreator_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,guildcreator_speech_014],14],
+         [[guildcreator_trigger_wryn],0,
+            [LIBACT_QUOTE_RSC,guildcreator_speech_015],15]
+      ]],lLib);
+
+      lLib = Cons([&PrincessGuard,[
+         [[princessguard_trigger_barloque],0,
+            [LIBACT_QUOTE_RSC,princessguard_speech_001],1],
+         [[princessguard_trigger_blackstone],0,
+            [LIBACT_QUOTE_RSC,princessguard_speech_002],2],
+         [[princessguard_trigger_cor_noth],0,
+            [LIBACT_QUOTE_RSC,princessguard_speech_003],3],
+         [[princessguard_trigger_council],0,
+            [LIBACT_QUOTE_RSC,princessguard_speech_004],4],
+         [[princessguard_trigger_jasper],0,
+            [LIBACT_QUOTE_RSC,princessguard_speech_005],5],
+         [[princessguard_trigger_marion],0,
+            [LIBACT_QUOTE_RSC,princessguard_speech_006],6],
+         [[princessguard_trigger_princess],0,
+            [LIBACT_QUOTE_RSC,princessguard_speech_007],7],
+         [[princessguard_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,princessguard_speech_008],8]
+      ]],lLib);
+
+      return lLib;
+   }
+
+   GetRandomLibrary()
+   "Random library nodes: [class, [[percent, mood, action, key], ...]]"
+   {
+      local lLib;
+
+      lLib = $;
+
+      lLib = Cons([&BarloqueApothecary,[
+         [50,0,[LIBACT_QUOTE_RSC,barloqueapothecary_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueapothecary_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueapothecary_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueapothecary_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueapothecary_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueapothecary_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueapothecary_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueapothecary_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueapothecary_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueapothecary_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueapothecary_random_011],11],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloqueapothecary_random_012],12],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloqueapothecary_random_013],13]
+      ]],lLib);
+
+      lLib = Cons([&BarloqueBartender,[
+         [50,0,[LIBACT_QUOTE_RSC,barloquebartender_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,barloquebartender_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,barloquebartender_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,barloquebartender_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,barloquebartender_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,barloquebartender_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,barloquebartender_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,barloquebartender_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,barloquebartender_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,barloquebartender_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,barloquebartender_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,barloquebartender_random_012],12],
+         [50,0,[LIBACT_QUOTE_RSC,barloquebartender_random_013],13],
+         [50,0,[LIBACT_QUOTE_RSC,barloquebartender_random_014],14],
+         [50,0,[LIBACT_QUOTE_RSC,barloquebartender_random_015],15],
+         [50,0,[LIBACT_QUOTE_RSC,barloquebartender_random_016],16],
+         [50,0,[LIBACT_QUOTE_RSC,barloquebartender_random_017],17],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloquebartender_random_018],18],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloquebartender_random_019],19],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloquebartender_random_020],20],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloquebartender_random_021],21],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloquebartender_random_022],22],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloquebartender_random_023],23],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloquebartender_random_024],24],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,barloquebartender_random_025],25],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,barloquebartender_random_026],26],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,barloquebartender_random_027],27],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,barloquebartender_random_028],28],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloquebartender_random_029],29],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloquebartender_random_030],30],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloquebartender_random_031],31]
+      ]],lLib);
+
+      lLib = Cons([&BarloqueBlacksmith,[
+         [50,0,[LIBACT_QUOTE_RSC,barloqueblacksmith_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueblacksmith_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueblacksmith_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueblacksmith_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueblacksmith_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueblacksmith_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueblacksmith_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueblacksmith_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueblacksmith_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueblacksmith_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueblacksmith_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueblacksmith_random_012],12],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueblacksmith_random_013],13],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueblacksmith_random_014],14],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueblacksmith_random_015],15],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_random_016],16],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_random_017],17],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_random_018],18],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_random_019],19],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_random_020],20],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_random_021],21],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_random_022],22],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_random_023],23],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_random_024],24],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_random_025],25],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_random_026],26],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_random_027],27],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_random_028],28],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloqueblacksmith_random_029],29]
+      ]],lLib);
+
+      lLib = Cons([&BarloqueInnkeeper,[
+         [50,0,[LIBACT_QUOTE_RSC,barloqueinnkeeper_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueinnkeeper_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueinnkeeper_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueinnkeeper_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueinnkeeper_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueinnkeeper_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueinnkeeper_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueinnkeeper_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueinnkeeper_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueinnkeeper_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,barloqueinnkeeper_random_011],11],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_random_012],12],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_random_013],13],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_random_014],14],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_random_015],15],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_random_016],16],
+         [50,LIBRES_MOOD_NOT_GOOD,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_random_017],17],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_random_018],18],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloqueinnkeeper_random_019],19]
+      ]],lLib);
+
+      lLib = Cons([&BarloqueMerchant,[
+         [50,0,[LIBACT_QUOTE_RSC,barloquemerchant_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,barloquemerchant_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,barloquemerchant_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,barloquemerchant_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,barloquemerchant_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,barloquemerchant_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,barloquemerchant_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,barloquemerchant_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,barloquemerchant_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,barloquemerchant_random_010],10],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloquemerchant_random_011],11],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloquemerchant_random_012],12],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,barloquemerchant_random_013],13],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,barloquemerchant_random_014],14],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,barloquemerchant_random_015],15],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,barloquemerchant_random_016],16],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloquemerchant_random_017],17],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloquemerchant_random_018],18],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloquemerchant_random_019],19],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloquemerchant_random_020],20],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloquemerchant_random_021],21],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloquemerchant_random_022],22],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloquemerchant_random_023],23],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloquemerchant_random_024],24],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloquemerchant_random_025],25],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloquemerchant_random_026],26],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloquemerchant_random_027],27],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloquemerchant_random_028],28],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloquemerchant_random_029],29]
+      ]],lLib);
+
+      lLib = Cons([&Barloquetailor,[
+         [50,0,[LIBACT_QUOTE_RSC,barloquetailor_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,barloquetailor_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,barloquetailor_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,barloquetailor_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,barloquetailor_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,barloquetailor_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,barloquetailor_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,barloquetailor_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,barloquetailor_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,barloquetailor_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,barloquetailor_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,barloquetailor_random_012],12],
+         [50,0,[LIBACT_QUOTE_RSC,barloquetailor_random_013],13],
+         [50,0,[LIBACT_QUOTE_RSC,barloquetailor_random_014],14],
+         [50,0,[LIBACT_QUOTE_RSC,barloquetailor_random_015],15],
+         [50,0,[LIBACT_QUOTE_RSC,barloquetailor_random_016],16],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloquetailor_random_017],17],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloquetailor_random_018],18],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,barloquetailor_random_019],19],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,barloquetailor_random_020],20],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,barloquetailor_random_021],21],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,barloquetailor_random_022],22]
+      ]],lLib);
+
+      lLib = Cons([&BarloqueVaultman,[
+         [50,0,[LIBACT_QUOTE_RSC,barloquevaultman_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,barloquevaultman_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,barloquevaultman_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,barloquevaultman_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,barloquevaultman_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,barloquevaultman_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,barloquevaultman_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,barloquevaultman_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,barloquevaultman_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,barloquevaultman_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,barloquevaultman_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,barloquevaultman_random_012],12],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloquevaultman_random_013],13],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,barloquevaultman_random_014],14],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloquevaultman_random_015],15],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloquevaultman_random_016],16],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloquevaultman_random_017],17],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,barloquevaultman_random_018],18]
+      ]],lLib);
+
+      lLib = Cons([&GuildCreator,[
+         [50,0,[LIBACT_QUOTE_RSC,guildcreator_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,guildcreator_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,guildcreator_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,guildcreator_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,guildcreator_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,guildcreator_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,guildcreator_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,guildcreator_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,guildcreator_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,guildcreator_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,guildcreator_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,guildcreator_random_012],12],
+         [50,0,[LIBACT_QUOTE_RSC,guildcreator_random_013],13],
+         [50,0,[LIBACT_QUOTE_RSC,guildcreator_random_014],14],
+         [50,0,[LIBACT_QUOTE_RSC,guildcreator_random_015],15],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,guildcreator_random_016],16],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,guildcreator_random_017],17],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,guildcreator_random_018],18],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,guildcreator_random_019],19],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,guildcreator_random_020],20]
+      ]],lLib);
+
+      return lLib;
+   }
+
+end
+////////////////////////////////////////////////////////////////////////////////

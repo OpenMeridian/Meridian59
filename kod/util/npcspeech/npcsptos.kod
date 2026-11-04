@@ -1,0 +1,1986 @@
+// Meridian 59, Copyright 1994-2012 Andrew Kirmse and Chris Kirmse.
+// All rights reserved.
+//
+// This software is distributed under a license that is described in
+// the LICENSE file that accompanies it.
+//
+// Meridian is a registered trademark.
+
+
+////////////////////////////////////////////////////////////////////////////////
+NpcSpeechTos is NpcSpeech
+// NPC talk of Tos:
+// answers to trigger words and random lines.
+// Each line is a resource (EN here, DE in the .lkod); Library adds the
+// lists in CreateSpeechLibrary and CreateRandomLibrary.
+
+constants:
+
+   include blakston.khd
+
+resources:
+
+   include npcsptos.lkod
+
+   // BasicInnKeeper (Rycksher)
+   basicinnkeeper_speech_001 = \
+      "~kRycksher says, \"All hail the original design team, they put a "
+      "great many hours into this land.\""
+   basicinnkeeper_speech_002 = \
+      "~kRycksher says, \"You have a memory as long as mine, I see.\""
+   basicinnkeeper_speech_003 = \
+      "~kRycksher says, \"She makes things, lots of things. The world would "
+      "seem pretty empty without her stuff.\""
+   basicinnkeeper_speech_004 = \
+      "~kRycksher says, \"This isn't the only music they play, you know.\""
+   basicinnkeeper_speech_005 = \
+      "~kRycksher says, \"Oh, without them it surely wouldn't be half as "
+      "much fun around here.\""
+   basicinnkeeper_speech_006 = \
+      "~kRycksher says, \"Oh, don't get me started on Barloque. We hate "
+      "those guys. They, uh, they did something or other to us. So we hate "
+      "them.\""
+   basicinnkeeper_speech_007 = \
+      "~kRycksher says, \"We here in Tos hate Barloque. I'm not sure why, "
+      "but we probably have a pretty good reason. Those pompous people up "
+      "there, all snooty with all their money and riches and gold. They "
+      "aren't in need of a bartender, are they?\""
+   basicinnkeeper_speech_008 = \
+      "~kRycksher says, \"He's the Man. I mean it, he is the hook up man. "
+      "Anything I need, Tom can get.\""
+   basicinnkeeper_speech_009 = \
+      "~kRycksher says, \"Huh, you're leaving? But you hardly even danced. "
+      "Or tipped the bartender.\""
+   basicinnkeeper_speech_010 = \
+      "~kRycksher says, \"He's a big bully. He makes us say things we don't "
+      "want to say. Ran er'Hoth isn't really crazy, you know. Peter said he "
+      "would beat the old man up if he didn't act crazy. Well, I'm not going "
+      "to let him push me around. Freedom, I say, ~BFREEDOM!~B\""
+   basicinnkeeper_speech_011 = \
+      "~kRycksher says, \"Charles is an ass prodder. Oh, my bad. I mean "
+      "Associate Producer.\""
+   basicinnkeeper_speech_012 = \
+      "~kRycksher says, \"Nasty fellows, those. They belong in the debtors' "
+      "prison.\""
+   basicinnkeeper_speech_013 = \
+      "~kRycksher says, \"He always has a smile on his face. What does he "
+      "know that we don't?\""
+   basicinnkeeper_speech_014 = \
+      "~kRycksher says, \"That Ellis brother is a brave soul for signing up "
+      "for duty in this world!\""
+   basicinnkeeper_speech_015 = \
+      "~kRycksher says, \"He offered me a choice once. Join him or die. I "
+      "said I'd join and he didn't know what to do. Then I said I'll choose "
+      "to die, and he's even more confused. Wish he would make up his mind "
+      "on what he wants, damn Gemini.\""
+   basicinnkeeper_speech_016 = \
+      "~kRycksher says, \"Well... no comment on that... Thankfully that was "
+      "a long time ago.\""
+   basicinnkeeper_speech_017 = \
+      "~kRycksher says, \"Watch your back with this guy.\""
+   basicinnkeeper_speech_018 = \
+      "~kRycksher says, \"Cort is the Watcher of the Arena. He was appointed "
+      "by the Duke around the same time I got this job. We're old school "
+      "chums. So I'm a little older than he is... he was just a fast "
+      "learner.\""
+   basicinnkeeper_speech_019 = \
+      "~kRycksher says, \"I'll drink to the Council!\""
+   basicinnkeeper_speech_020 = "~kRycksher says, \"A pox on the Council!\""
+   basicinnkeeper_speech_021 = \
+      "~kRycksher says, \"She is on a mission. Beware!\""
+   basicinnkeeper_speech_022 = \
+      "~kRycksher says, \"Uprising, huh. Kind of ironic that they chose that "
+      "name, if you ask me.\""
+   basicinnkeeper_speech_023 = \
+      "~kRycksher says, \"I serve imported brew here. If you want the cheap "
+      "stuff, it's in pitchers in the feast hall next door.\""
+   basicinnkeeper_speech_024 = \
+      "~kRycksher says, \"Poor Kalior. He was the common man's ruler. His "
+      "death is a warning of the dark times to come.\""
+   basicinnkeeper_speech_025 = \
+      "~kRycksher says, \"There's TWO of them now?  Shal'ille help us.\""
+   basicinnkeeper_speech_026 = \
+      "~kRycksher says, \"Fehr'loi Qan is an imbecile. We used to make fun "
+      "of him. But he showed us. Up and moved his shop to Barloque. Making a "
+      "lot more money now, I hear. I think he was bribed to leave Tos.\""
+   basicinnkeeper_speech_027 = \
+      "~kRycksher says, \"This place needs a good artist like her.  I think "
+      "she'll do just fine.\""
+   basicinnkeeper_speech_028 = \
+      "~kRycksher says, \"Frisconar, he's a strange guy, always whining "
+      "about something. 'oh, I think I'm getting the Orc plague.', 'oh, why "
+      "did Madelia have to leave me, I'm so lonely and pitiful. Pity me.' or "
+      "'oh, Rycksher, why do you get all the ladies, I'm a little loser, I "
+      "don't get any of the ladies. The ladies don't like me. Wah-wah.'\""
+   basicinnkeeper_speech_029 = "~kRycksher says, \"Grumpf...\""
+   basicinnkeeper_speech_030 = \
+      "~kRycksher says, \"Sure, if you offer me something, I'll wrap it up "
+      "for you. It's part of my job, though I'll need something to cover my "
+      "expenses.\""
+   basicinnkeeper_speech_031 = \
+      "~kRycksher says, \"Is he here?! Damn, he's going to take my job as "
+      "bartender.\""
+   basicinnkeeper_speech_032 = \
+      "~kRycksher says, \"He's got two qualities I love, drunken AND surly.  "
+      "Runs a nice gathering place, too, I hear.\""
+   basicinnkeeper_speech_033 = \
+      "~kRycksher says, \"Tony is ~Iso money~I. He doesn't even know how "
+      "money he is.\""
+   basicinnkeeper_speech_034 = \
+      "~kRycksher says, \"Goes by Psychochild, right?  An apt name if I ever "
+      "saw one.\""
+   basicinnkeeper_speech_035 = \
+      "~kRycksher says, \"If you have a problem, talk to them. They will "
+      "help you.\""
+   basicinnkeeper_speech_036 = \
+      "~kRycksher says, \"Yeah, hackey sack, that's all they do. You didn't "
+      "really think they spent their time working, did you?\""
+   basicinnkeeper_speech_037 = \
+      "~kRycksher says, \"Don't mess with him. He's a big meany!\""
+   basicinnkeeper_speech_038 = \
+      "~kRycksher says, \"Just don't call him ~IJhankee~I.\""
+   basicinnkeeper_speech_039 = \
+      "~kRycksher says, \"Throw a problem at Asif and he will put his head "
+      "to it, just like a hackey sack.\""
+   basicinnkeeper_speech_040 = \
+      "~kRycksher says, \"What can I say, he once paid my salary.\""
+   basicinnkeeper_speech_041 = \
+      "~kRycksher says, \"What?... oh. Welcome to the Grand Ballroom of his "
+      "lordship, Akardius, Duke of Tos, Protectorate of the People, and, "
+      "er... um, oh yeah, future Sovereign of all Meridian.\""
+   basicinnkeeper_speech_042 = \
+      "~kRycksher says, \"I'm Rycksher, the bartender. The Duke appointed me "
+      "to make sure the Ballroom guests are having a good time. Are you "
+      "having a good time? Like the Music? Have a gift to be wrapped? Need a "
+      "drink?\""
+   basicinnkeeper_speech_043 = \
+      "~kRycksher says, \"What island? My brother Paddock mentioned there "
+      "was some newly discovered island.\""
+   basicinnkeeper_speech_044 = \
+      "~kRycksher says, \"He's just doing this in his spare time. He's "
+      "really a screen writer.\""
+   basicinnkeeper_speech_045 = \
+      "~kRycksher says, \"I wouldn't be here if not for those guys.\""
+   basicinnkeeper_speech_046 = \
+      "~kRycksher says, \"A spirited lass, she is, she is.\""
+   basicinnkeeper_speech_047 = \
+      "~kRycksher says, \"Call him Prego, everybody does.\""
+   basicinnkeeper_speech_048 = \
+      "~kRycksher says, \"Madelia makes clothes. She moved to the Bourgeois "
+      "Castle to make the big money. I think she had a thing for me.\""
+   basicinnkeeper_speech_049 = \
+      "~kRycksher says, \"Huzzah! A toast to the couple!\""
+   basicinnkeeper_speech_050 = \
+      "~kRycksher says, \"A work of Psychochild and Q. And our Arantis "
+      "brought this land here.\""
+   basicinnkeeper_speech_051 = \
+      "~kRycksher says, \"A great place to have fun. You should check it "
+      "out.\""
+   basicinnkeeper_speech_052 = \
+      "~kRycksher says, \"Haven't seen him around here in a while, but I owe "
+      "a lot to him.\""
+   basicinnkeeper_speech_053 = \
+      "~kRycksher says, \"The whole world would not be so moody if not for "
+      "that Andy character.\""
+   basicinnkeeper_speech_054 = \
+      "~kRycksher says, \"At the Bard's request, the orchestra may play a "
+      "different song. They know all the tunes in Meridian.\""
+   basicinnkeeper_speech_055 = \
+      "~kRycksher says, \"Truth be told, I like Near Death Studios a bit "
+      "more than my previous owners.  Hail NDS!\""
+   basicinnkeeper_speech_056 = \
+      "~kRycksher says, \"Never been to Xeen. I hear it's nice.\""
+   basicinnkeeper_speech_057 = \
+      "~kRycksher says, \"I don't like him. He makes me say things. In fact, "
+      "he makes everybody say things. You think we like being told what to "
+      "say? No! We want the freedom to say what's on our mind, not just what "
+      "Kevin tells us to say. That son of a... \""
+   basicinnkeeper_speech_058 = \
+      "~kRycksher says, \"My brother Paddock owns Familiars. He's the best "
+      "bartender in the world. In case you haven't guessed, I'm the second "
+      "best.\""
+   basicinnkeeper_speech_059 = \
+      "~kRycksher says, \"She's amazing. I ought to know, look at me.\""
+   basicinnkeeper_speech_060 = \
+      "~kRycksher says, \"What, you think I made it up?\""
+   basicinnkeeper_speech_061 = "~kRycksher says, \"A pox on the Princess!\""
+   basicinnkeeper_speech_062 = \
+      "~kRycksher says, \"She must be sitting smugly in her little castle. A "
+      "pox on her! A pox on her!\""
+   basicinnkeeper_speech_063 = \
+      "~kRycksher says, \"Have you seen the hours he keeps?  If that's not "
+      "crazy, what is?\""
+   basicinnkeeper_speech_064 = \
+      "~kRycksher says, \"Fehr'loi Qan is an imbecile. We used to make fun "
+      "of him. But he showed us. Up and moved his shop to Barloque. Making a "
+      "lot more money now, I hear. I think he was bribed to leave Tos.\""
+   basicinnkeeper_speech_065 = \
+      "~kRycksher says, \"Look around you, %s, this place wouldn't be here "
+      "if not for Rob. In fact, most of the world would not exist. You'd be "
+      "still stuck in the forests of Meridian.\""
+   basicinnkeeper_speech_066 = \
+      "~kRycksher says, \"That guy is nuts! He wants to rule the world by "
+      "changing the laws of physics.\""
+   basicinnkeeper_speech_067 = \
+      "~kRycksher says, \"Be nice to him, he's just here to help.\""
+   basicinnkeeper_speech_068 = \
+      "~kRycksher says, \"Steve, Mike, Chris or Charles?\""
+   basicinnkeeper_speech_069 = \
+      "~kRycksher says, \"Skivlat has the perfect job. He just sits around "
+      "counting money all day. I wish I were him.\""
+   basicinnkeeper_speech_070 = \
+      "~kRycksher says, \"That is an interesting game!\""
+   basicinnkeeper_speech_071 = \
+      "~kRycksher says, \"Don't you like the music?\""
+   basicinnkeeper_speech_072 = \
+      "~kRycksher says, \"I think he's part of the mafia.\""
+   basicinnkeeper_speech_073 = \
+      "~kRycksher says, \"He worked on Generations. At least that's what "
+      "they say.\""
+   basicinnkeeper_speech_074 = \
+      "~kThe room goes silent as %s mentions stunted dwarf."
+   basicinnkeeper_speech_075 = \
+      "~kRycksher says, \"It's good to be the King.\""
+   basicinnkeeper_speech_076 = \
+      "~kRycksher says, \"One day she'll take a relaxing vacation and get "
+      "away from it all. Yeah, right.\""
+   basicinnkeeper_speech_077 = \
+      "~kRycksher says, \"Tos is my home town. I know everybody here. Go "
+      "ahead, ask me about anyone in town.\""
+   basicinnkeeper_speech_078 = "~kRycksher says, \"Terrible!\""
+   basicinnkeeper_speech_079 = "~kRycksher says, \"Traitor!\""
+   basicinnkeeper_speech_080 = \
+      "~kRycksher says, \"Cort is the Watcher of the Arena. He was appointed "
+      "by the Duke around the same time I got this job. We're old school "
+      "chums. So I'm a little older than he is... so I helped him with his "
+      "studies. Really.\""
+   basicinnkeeper_speech_081 = \
+      "~kRycksher says, \"That guy just can't play a normal game of hackey "
+      "sack. Always has to make up new rules.\""
+   basicinnkeeper_speech_082 = \
+      "~kRycksher says, \"Watch out for this guy. There is a lot more to him "
+      "than you think. That quiet exterior is just an act, I tell you.\""
+   basicinnkeeper_speech_083 = \
+      "~kRycksher says, \"Sure, if you offer me something, I'll wrap it up "
+      "for you. It's part of my job. However the wrapping paper isn't free.\""
+   basicinnkeeper_speech_084 = \
+      "~kRycksher says, \"That guy keeps this place available for you to "
+      "visit.  Make sure to thank him if you get a chance.\""
+   basicinnkeeper_trigger_3do = "3do"
+   basicinnkeeper_trigger_mdo_games = "mdo games"
+   basicinnkeeper_trigger_archetype = "archetype"
+   basicinnkeeper_trigger_bacon = "bacon"
+   basicinnkeeper_trigger_band = "band"
+   basicinnkeeper_trigger_bards = "bards"
+   basicinnkeeper_trigger_barloque = "barloque"
+   basicinnkeeper_trigger_bazzano = "bazzano"
+   basicinnkeeper_trigger_bye = "bye"
+   basicinnkeeper_trigger_carlson = "carlson"
+   basicinnkeeper_trigger_charles = "charles"
+   basicinnkeeper_trigger_cheater = "cheater"
+   basicinnkeeper_trigger_chris = "chris"
+   basicinnkeeper_trigger_christopher = "christopher"
+   basicinnkeeper_trigger_cole = "cole"
+   basicinnkeeper_trigger_computec = "computec"
+   basicinnkeeper_trigger_corpuz = "corpuz"
+   basicinnkeeper_trigger_cort = "cort"
+   basicinnkeeper_trigger_council = "council"
+   basicinnkeeper_trigger_croddy = "croddy"
+   basicinnkeeper_trigger_cyclone = "cyclone"
+   basicinnkeeper_trigger_drink = "drink"
+   basicinnkeeper_trigger_beer = "beer"
+   basicinnkeeper_trigger_duke = "duke"
+   basicinnkeeper_trigger_ellis = "ellis"
+   basicinnkeeper_trigger_fehr_loi = "fehr'loi"
+   basicinnkeeper_trigger_ferloi = "ferloi"
+   basicinnkeeper_trigger_foley = "foley"
+   basicinnkeeper_trigger_frisconar = "frisconar"
+   basicinnkeeper_trigger_gameplay = "gameplay"
+   basicinnkeeper_trigger_gift = "gift"
+   basicinnkeeper_trigger_gilmer = "gilmer"
+   basicinnkeeper_trigger_gilroy = "gilroy"
+   basicinnkeeper_trigger_giovannini = "giovannini"
+   basicinnkeeper_trigger_green = "green"
+   basicinnkeeper_trigger_guides = "guides"
+   basicinnkeeper_trigger_hackey = "hackey"
+   basicinnkeeper_trigger_halley = "halley"
+   basicinnkeeper_trigger_hanke = "hanke"
+   basicinnkeeper_trigger_hassan = "hassan"
+   basicinnkeeper_trigger_hassan_2 = "hassan"
+   basicinnkeeper_trigger_hawkins = "hawkins"
+   basicinnkeeper_trigger_hello = "hello"
+   basicinnkeeper_trigger_help = "help"
+   basicinnkeeper_trigger_island = "island"
+   basicinnkeeper_trigger_kennedy = "kennedy"
+   basicinnkeeper_trigger_kirmse = "kirmse"
+   basicinnkeeper_trigger_laroche = "laroche"
+   basicinnkeeper_trigger_lencioni = "lencioni"
+   basicinnkeeper_trigger_madelia = "madelia"
+   basicinnkeeper_trigger_man_and_wife = "man and wife"
+   basicinnkeeper_trigger_meridian = "meridian"
+   basicinnkeeper_trigger_might_magic = "might & magic"
+   basicinnkeeper_trigger_mike = "mike"
+   basicinnkeeper_trigger_mitchell = "mitchell"
+   basicinnkeeper_trigger_music = "music"
+   basicinnkeeper_trigger_near_death_studios = "near death studios"
+   basicinnkeeper_trigger_new_world_computing = "new world computing"
+   basicinnkeeper_trigger_o_hara = "o'hara"
+   basicinnkeeper_trigger_paddock = "paddock"
+   basicinnkeeper_trigger_plotkin = "plotkin"
+   basicinnkeeper_trigger_prego = "prego"
+   basicinnkeeper_trigger_princess = "princess"
+   basicinnkeeper_trigger_psychochild = "psychochild"
+   basicinnkeeper_trigger_qan = "qan"
+   basicinnkeeper_trigger_rob = "rob"
+   basicinnkeeper_trigger_schubert = "schubert"
+   basicinnkeeper_trigger_schwein = "schwein"
+   basicinnkeeper_trigger_sellers = "sellers"
+   basicinnkeeper_trigger_skivlat = "skivlat"
+   basicinnkeeper_trigger_soldiers = "soldiers"
+   basicinnkeeper_trigger_songs = "songs"
+   basicinnkeeper_trigger_steve = "steve"
+   basicinnkeeper_trigger_stidolph = "stidolph"
+   basicinnkeeper_trigger_stunted_dwarf = "stunted dwarf"
+   basicinnkeeper_trigger_theige = "theige"
+   basicinnkeeper_trigger_toepfer = "toepfer"
+   basicinnkeeper_trigger_tos = "tos"
+   basicinnkeeper_trigger_uprising = "uprising"
+   basicinnkeeper_trigger_uprising_2 = "uprising"
+   basicinnkeeper_trigger_vogel = "vogel"
+   basicinnkeeper_trigger_watcher = "watcher"
+   basicinnkeeper_trigger_weissman = "weissman"
+   basicinnkeeper_trigger_wells = "wells"
+   basicinnkeeper_trigger_wrapped = "wrapped"
+   basicinnkeeper_trigger_wrapped_2 = "wrapped"
+   basicinnkeeper_trigger_wrapped_3 = "wrapped"
+   basicinnkeeper_trigger_zach = "zach"
+
+   // DukeGuard (Keep Guard)
+   dukeguard_speech_001 = \
+      "~kThe Duke's guard says, \"Haughty Barloque is on the north shore of "
+      "the great ocean.\""
+   dukeguard_speech_002 = \
+      "~kThe Duke's guard says, \"I'd never serve at Bourgeois Castle.\""
+   dukeguard_speech_003 = \
+      "~kThe Duke's guard says, \"Cor Noth lies between all other towns.\""
+   dukeguard_speech_004 = \
+      "~kThe Duke's guard says, \"Hail the Council of Five!\""
+   dukeguard_speech_005 = "~kThe Duke's guard says, \"Hail Duke Akardius!\""
+   dukeguard_speech_006 = \
+      "~kThe Duke's guard says, \"Jasper is west of the lake.\""
+   dukeguard_speech_007 = \
+      "~kThe Duke's guard says, \"Head west to find Marion.\""
+   dukeguard_speech_008 = "~kThe Duke's guard says, \"Hail Tos!\""
+   dukeguard_trigger_barloque = "barloque"
+   dukeguard_trigger_bourgeois = "bourgeois"
+   dukeguard_trigger_cor_noth = "cor noth"
+   dukeguard_trigger_council = "council"
+   dukeguard_trigger_council_2 = "council"
+   dukeguard_trigger_duke = "duke"
+   dukeguard_trigger_jasper = "jasper"
+   dukeguard_trigger_marion = "marion"
+   dukeguard_trigger_tos = "tos"
+
+   // TosApothecary (Frisconar)
+   tosapothecary_speech_001 = \
+      "~kFrisconar says, \"I don't want to talk about Barloque. That city "
+      "has been nothing but trouble for my love and me.\""
+   tosapothecary_speech_002 = \
+      "~kFrisconar says, \"Let me see your reagents. I may buy them if they "
+      "aren't spoiled.\""
+   tosapothecary_speech_003 = \
+      "~kFrisconar says, \"See you again, unless one of us dies first, which "
+      "is entirely likely to happen in this world.\""
+   tosapothecary_speech_004 = \
+      "~kFrisconar says, \"Cor Noth is a disgusting city. The last time I "
+      "was there I caught this terrible cold, lasted for months. It's "
+      "because they aren't sanitary at all there. Why, once I saw a slime "
+      "floating in their river. Yech!\""
+   tosapothecary_speech_005 = \
+      "~kFrisconar says, \"Oh the grand and mighty council. Those has-beens "
+      "don't know the first thing about government. Seems they're switching "
+      "their opinion on who should rule every day. They should get jobs.\""
+   tosapothecary_speech_006 = \
+      "~kFrisconar says, \"The cults have been plotting against me for "
+      "years. They think I'm not aware of them, but I know they are out "
+      "there.\""
+   tosapothecary_speech_007 = \
+      "~kFrisconar says, \"I think I can get along with Duke Akardius... At "
+      "least I hope I can.\""
+   tosapothecary_speech_008 = "~kFrisconar says, \"Do I know you, %s?\""
+   tosapothecary_speech_009 = \
+      "~kFrisconar says, \"I thought I wasn't going to see your face in here "
+      "again, %s.\""
+   tosapothecary_speech_010 = \
+      "~kFrisconar says, \"What do you want? You're not here to rob me, are "
+      "you?\""
+   tosapothecary_speech_011 = \
+      "~kFrisconar says, \"You need help? Always about what you need, is it. "
+      "I buy and sell ingredients for spell casting.\""
+   tosapothecary_speech_012 = \
+      "~kFrisconar says, \"Jasper.  That's a thriving town all right.  Going "
+      "up against the known ways, just asking for trouble.  It's suicide "
+      "they're asking for, if you ask me.\""
+   tosapothecary_speech_013 = \
+      "~kFrisconar says, \"Doomed, we're all doomed, doomed I tell you!!\""
+   tosapothecary_speech_014 = \
+      "~kFrisconar says, \"There's a temple or something down on an "
+      "underground lake in the dark caves. I wouldn't bother going if I were "
+      "you. First off, you need a key. And if you do get in, the chill is "
+      "just miserable.\""
+   tosapothecary_speech_015 = \
+      "~kFrisconar says, \"The fair Madelia is my true love. She used to "
+      "live here in Tos when we were together. Then that miserable Frular "
+      "told her that her cloth shop would do better near Barloque. And the "
+      "Princess commissioned her to make her royal gowns. The next thing I "
+      "know my dear Madelia has moved to the Bourgeois Castle. I'm sure she "
+      "is bewitched by some cruel Riija cult.\""
+   tosapothecary_speech_016 = \
+      "~kFrisconar says, \"The fair Madelia is my true love. She used to "
+      "live here in Tos when we were together. Then that miserable Frular "
+      "told her that her cloth shop would do better near Barloque. And the "
+      "Princess commissioned her to make her royal gowns. The next thing I "
+      "know my dear Madelia has moved to the Bourgeois Castle. I'm sure she "
+      "is bewitched by some cruel Riija cult.\""
+   tosapothecary_speech_017 = \
+      "~kFrisconar says, \"I don't see why anyone would want to spend time "
+      "in Marion. I wouldn't even call it a town. I don't understand why "
+      "blessed Shal'ille would drape her protection over such a backwater "
+      "village. And their wise man, ha, I've got more common sense in this "
+      "thumb.\""
+   tosapothecary_speech_018 = \
+      "~kFrisconar says, \"What, did Paddock tell you to see me? Seems I "
+      "have to give that thief a commission every time someone mentions his "
+      "name in here. And he's brought me nothing but trouble.\""
+   tosapothecary_speech_019 = \
+      "~kFrisconar says, \"Despite her faults, I'm probably the only one in "
+      "all of Tos who supports the Princess.\""
+   tosapothecary_speech_020 = \
+      "~kFrisconar cries, \"What are you waiting for?  It's rude to keep "
+      "death waiting.  Do I have a fever, I think I do, this is it, the end, "
+      "goodbye cruel world.  Aren't you going to buy anything?\""
+   tosapothecary_speech_021 = \
+      "~kFrisconar says, \"What do you think I would sell? This is a magic "
+      "reagent shop.\""
+   tosapothecary_speech_022 = \
+      "~kFrisconar says, \"I really should move from Tos. They say it's the "
+      "oldest town. That just means it's the drabbest place you'll find. I "
+      "think the fountain is beginning to smell.\""
+   tosapothecary_random_001 = \
+      "~kFrisconar says, \"We used to have a blacksmith in town, until he "
+      "moved away. I don't blame him wanting to leave this Shal'ille "
+      "forsaken town. Of course, the town's probably better off without his "
+      "sort in it. He was an odd one. For some unknown reason, he was "
+      "interested in buying wands. He was probably part of some cult.\""
+   tosapothecary_random_002 = \
+      "~kFrisconar says, \"If you don't want to be part of a school of magic "
+      "anymore, ask the Priestess for a ~Ipotion of forgetfulness~I. It will "
+      "clear your mind of their spells. Of course, drinking it may have bad "
+      "side effects. I've drunk several of them now. Each one left more than "
+      "a bad taste in my mouth.\""
+   tosapothecary_random_003 = \
+      "~kFrisconar says, \"I hear that some people are coming back from "
+      "another land with knowledge of the forgotten Riija spells. That's "
+      "just what we need, more spells of deception.\""
+   tosapothecary_random_004 = \
+      "~kFrisconar says, \"People don't realize that many of the things they "
+      "come across can be used by mages to help them cast spells. Maybe "
+      "that's why my shop is doing so poorly.\""
+   tosapothecary_random_005 = \
+      "~kFrisconar says, \"If you have nothing better to do, shop keepers "
+      "are often looking for someone to run errands for them.\""
+   tosapothecary_random_006 = \
+      "~kFrisconar says, \"You haven't been to Barloque recently by any "
+      "chance, have you? Did you see Madelia? How is she looking? Did she "
+      "mention me at all?\""
+   tosapothecary_random_007 = \
+      "~kFrisconar says, \"You know, the watcher only got his position "
+      "because of some behind the doors deal between the Priestess Qerti'nya "
+      "and the Duke.\""
+   tosapothecary_random_008 = \
+      "~kFrisconar says, \"Rycksher's an idiot. For some reason the Duke "
+      "gave him a job running the bar in the Royal Ballroom. Something's "
+      "wrong with that. I haven't figured out what the real deal is yet.\""
+   tosapothecary_random_009 = \
+      "~kFrisconar says, \"I wouldn't trust Skivlat with my money. He loves "
+      "money just a little too much. He may be part of a cult.\""
+   tosapothecary_random_010 = \
+      "~kFrisconar says, \"I know some spells. You know I could have been a "
+      "priest, but all the positions were filled. And the ~Igods~I always "
+      "pick their favorites to represent them.\""
+   tosapothecary_random_011 = \
+      "~kFrisconar says, \"Barloque and Jasper really need to do something "
+      "about their sewers. They are out of control. The rats have run out of "
+      "breeding room, that's why they are all over. They will probably start "
+      "spreading the black plague.\""
+   tosapothecary_random_012 = \
+      "~kFrisconar says, \"The world is such a crummy place. Monsters run "
+      "rampant everywhere. I know a spell to protect myself from them, but "
+      "sooner or later, they'll kill us all. It's only a matter of time.\""
+   tosapothecary_random_013 = \
+      "~kFrisconar says, \"Ah.. ~Bah.. AH-CHOOOO!!! ~B This cold will be the "
+      "death of me yet. A few months back, everybody got it. For some "
+      "reason, I'm the only one who can't shake it off. Always me.\""
+   tosapothecary_random_014 = \
+      "~kFrisconar says, \"I think I'm coming down with cholera.\""
+   tosapothecary_random_015 = \
+      "~kFrisconar says, \"I think I'm coming down with rubella.\""
+   tosapothecary_random_016 = \
+      "~kFrisconar says, \"I think I'm coming down with the consumption. My "
+      "mother was taken by the consumption.\""
+   tosapothecary_random_017 = \
+      "~kFrisconar says, \"I think I'm developing a goiter. I think that "
+      "could be fatal.\""
+   tosapothecary_random_018 = \
+      "~kFrisconar says, \"There's that itch again. Knowing my luck, it's "
+      "probably hives.\""
+   tosapothecary_random_019 = \
+      "~kFrisconar says, \"Do you smell smoke? Ever since I ate that spicy "
+      "food at Familiars, my nose has been off. If there is ever a fire, "
+      "I'll probably die because I won't be able to smell the smoke.\""
+   tosapothecary_random_020 = \
+      "~kFrisconar says, \"You don't have any grapes on you, do you? I'm "
+      "allergic to grapes.\""
+   tosapothecary_random_021 = "~kFrisconar says, \"My throat hurts.\""
+   tosapothecary_random_022 = \
+      "~kFrisconar says, \"What are the symptoms of an ulcer? I think I'm "
+      "coming down with one.\""
+   tosapothecary_random_023 = \
+      "~kFrisconar says, \"My feet ache. Oh, how I would like to sit down "
+      "right now, but my hemorrhoids, you know.\""
+   tosapothecary_random_024 = \
+      "~kFrisconar says, \"I think I feel nauseous. Is it too warm in here?\""
+   tosapothecary_random_025 = \
+      "~kFrisconar says, \"Ever since I tried that lightning spell, I "
+      "haven't been able to move my hand as much as I used to.\""
+   tosapothecary_random_026 = \
+      "~kFrisconar says, \"I have a feeling the weather is going to be just "
+      "abysmal tomorrow.\""
+   tosapothecary_random_027 = \
+      "~kFrisconar says, \"I feel awful. I should close up early today.\""
+   tosapothecary_random_028 = \
+      "~kFrisconar says, \"Are warts contagious? I heard that they were.\""
+   tosapothecary_random_029 = \
+      "~kFrisconar says, \"I had a dog once. He died of the black rot.\""
+   tosapothecary_random_030 = \
+      "~kFrisconar says, \"You aren't sick, are you? I hate being around "
+      "sick people. They always make it sound worse than it really is.\""
+   tosapothecary_random_031 = \
+      "~kFrisconar says, \"What's the difference between scarlet fever and "
+      "spotted fever? I know I have a fever of some sort.\""
+   tosapothecary_random_032 = \
+      "~kFrisconar says, \"Don't stand too close to me. You might get "
+      "infected.\""
+   tosapothecary_random_033 = \
+      "~kFrisconar says, \"I don't think Madelia is ever coming back to me. "
+      "Life is so disappointing. You never get what you want. And I have a "
+      "hard time meeting new women for some reason.\""
+   tosapothecary_random_034 = \
+      "~kFrisconar says, \"My hair is falling out. I've only seen thirty "
+      "winters. I may have leprosy.\""
+   tosapothecary_random_035 = \
+      "~kFrisconar says, \"Ow. There's that back pain again.\""
+   tosapothecary_random_036 = \
+      "~kFrisconar says, \"Did you eat at Familiars today? I think I have "
+      "food poisoning.\""
+   tosapothecary_random_037 = \
+      "~kFrisconar says, \"Actually, I'm not feeling too bad today.\""
+   tosapothecary_random_038 = \
+      "~kFrisconar coughs and clears his throat. Unsatisfied, he coughs some "
+      "more."
+   tosapothecary_random_039 = \
+      "~kMassaging his neck, Frisconar lets out a sigh of discomfort."
+   tosapothecary_random_040 = \
+      "~kFrisconar wipes his nose with a well worn rag."
+   tosapothecary_random_041 = \
+      "~kFrisconar lets out a long sigh, then starts scrunching his nose and "
+      "making a low honking noise."
+   tosapothecary_random_042 = \
+      "~kFrisconar snorts loudly. He says, \"Excuse me.\""
+   tosapothecary_random_043 = \
+      "~kFrisconar says, \"I think I'm coming down with foot-and-mouth "
+      "disease.\""
+   tosapothecary_random_044 = \
+      "~kFrisconar says, \"I think I'm coming down with mad cow disease.\""
+   tosapothecary_random_045 = \
+      "~kFrisconar says, \"Hard day, %s? Aren't they all.\""
+   tosapothecary_random_046 = \
+      "~kFrisconar says, \"What are you so happy about? There's nothing that "
+      "good going on in the world.\""
+   tosapothecary_trigger_barloque = "barloque"
+   tosapothecary_trigger_sell = "sell"
+   tosapothecary_trigger_bye = "bye"
+   tosapothecary_trigger_cor_noth = "cor noth"
+   tosapothecary_trigger_council = "council"
+   tosapothecary_trigger_cult = "cult"
+   tosapothecary_trigger_duke = "duke"
+   tosapothecary_trigger_hello = "hello"
+   tosapothecary_trigger_help = "help"
+   tosapothecary_trigger_jasper = "jasper"
+   tosapothecary_trigger_jonas = "jonas"
+   tosapothecary_trigger_lake = "lake"
+   tosapothecary_trigger_love = "love"
+   tosapothecary_trigger_madelia = "madelia"
+   tosapothecary_trigger_marion = "marion"
+   tosapothecary_trigger_paddock = "paddock"
+   tosapothecary_trigger_princess = "princess"
+   tosapothecary_trigger_rebels = "rebels"
+   tosapothecary_trigger_buy = "buy"
+   tosapothecary_trigger_tos = "tos"
+
+   // TosBanker (Skivlat)
+   tosbanker_speech_001 = \
+      "~kSkivlat says, \"They have lots of shillings up in Barloque. They "
+      "are all rich up there. I don't like Herbut though. He's snooty. I "
+      "sometimes ~Iguh~I-trade gems with him. Oh, but you shouldn't. I can "
+      "give a better deal here for your gems.\""
+   tosbanker_speech_002 = \
+      "~kSkivlat says, \"I will buy shillings off of you for a gem or two.\""
+   tosbanker_speech_003 = \
+      "~kSkivlat says, \"Good bye %s! Come back again. Say hello to whoever "
+      "you are going to see for me!\""
+   tosbanker_speech_004 = \
+      "~kSkivlat pulls out a coin, prepares to flip it, and says, \"Heads or "
+      "Stones?\""
+   tosbanker_speech_005 = \
+      "~kSkivlat says, \"I don't know how many shillings are in Cor Noth. "
+      "Probably more than Jasper.\""
+   tosbanker_speech_006 = \
+      "~kSkivlat says, \"There is one guy in the council I really admire. "
+      "His name is Bei Naq. He has a lot of shillings. More than anyone else "
+      "in the world.\""
+   tosbanker_speech_007 = \
+      "~kSkivlat says, \"The Duke lives in the Blackstone Keep on the north "
+      "end of Tos. He has a lot of Shillings because he can collect taxes. I "
+      "wish I could collect taxes. I also wish he wouldn't collect taxes "
+      "from me. But over all, he helps lower the cost of items so I can save "
+      "more of my money. He's nice.\""
+   tosbanker_speech_008 = \
+      "~kSkivlat pulls out a coin, prepares to flip it, and says, \"Heads or "
+      "Stones?\""
+   tosbanker_speech_009 = \
+      "~kSkivlat says, \"What did you say 'guh' for? You talk funny.\""
+   tosbanker_speech_010 = \
+      "~kSkivlat flips a shilling in the air, looks at the coin and says, "
+      "\"Heads it is! You're right!\""
+   tosbanker_speech_011 = \
+      "~kSkivlat flips a shilling in the air, looks at the coin and says, "
+      "\"Sorry, it's Stones.\""
+   tosbanker_speech_012 = \
+      "~kSkivlat flips a shilling in the air, looks at the coin and says, "
+      "\"The coin is Heads up! Good call!\""
+   tosbanker_speech_013 = \
+      "~kSkivlat flips a shilling in the air, looks at the coin and says, "
+      "\"Uh-uh, sorry. It's Stones.\""
+   tosbanker_speech_014 = \
+      "~kSkivlat flips a shilling in the air, looks at the coin and says, "
+      "\"It ~Iis~I Heads\""
+   tosbanker_speech_015 = \
+      "~kSkivlat flips a shilling in the air, looks at the coin and says, "
+      "\"Nope, it came up Stones.\""
+   tosbanker_speech_016 = \
+      "~kSkivlat says, \"Good %s, %s! What can I ~Iguh~I-do for you?\""
+   tosbanker_speech_017 = \
+      "~kSkivlat says, \"~IGuh~I-hello, %s, how are you on this beautiful "
+      "%s!\""
+   tosbanker_speech_018 = \
+      "~kSkivlat says, \"I can keep your money safe even if you die. I also "
+      "know a lot about money. I love money, actually.\""
+   tosbanker_speech_019 = \
+      "~kSkivlat says, \"Interest? Your money will be safe in my bank, they "
+      "won't have children though.\""
+   tosbanker_speech_020 = \
+      "~kSkivlat says, \"I like Jasper. I would live there because it is so "
+      "close to the mines, but Yevitan already beat me there.\""
+   tosbanker_speech_021 = \
+      "~kSkivlat says, \"The people of Marion don't have many shillings. "
+      "Those poor people.\""
+   tosbanker_speech_022 = \
+      "~kSkivlat says, \"The original official coins of Meridian had a "
+      "castle on one side and Prince Far'Nohl on the other. They don't exist "
+      "anymore these days.\""
+   tosbanker_speech_023 = \
+      "~kSkivlat says, \"The Princess has a lot of money. She's way up near "
+      "Barloque.\""
+   tosbanker_speech_024 = \
+      "~kSkivlat spits, \"Them rebels, shaking up the balance and all, "
+      "running amuck, and to think, Yevitan is wasting his own money on "
+      "them.\""
+   tosbanker_speech_025 = \
+      "~kSkivlat says, \"I have some gems to sell. I won't sell shillings "
+      "though, they are too valuable. Oh, and what would you buy them with? "
+      "It's kind of like a pair a ducks. When you can only buy one duck with "
+      "another. Huh huh he he.\""
+   tosbanker_speech_026 = \
+      "~kSkivlat says, \"I'll give ~Iguh~I-you a little known piece of "
+      "information. The princess depicted on the back of the coin was "
+      "Princess Demetia. If she were still alive, she would be 248 today, oh "
+      "no, wait, let me think, 249 years old.\""
+   tosbanker_speech_027 = \
+      "~kSkivlat says, \"I reckon that was a fine picture. ~IUh-huh~I.\""
+   tosbanker_speech_028 = \
+      "~kSkivlat flips a shilling in the air, looks at the coin and says, "
+      "\"Good ~IGuh~I guess, it is Stones.\""
+   tosbanker_speech_029 = \
+      "~kSkivlat flips a shilling in the air, looks at the coin and says, "
+      "\"Aww, too bad. It came up Heads.\""
+   tosbanker_speech_030 = \
+      "~kSkivlat flips a shilling in the air, looks at the coin and says, "
+      "\"You can't ~IGuh~I guess them all. It is Heads.\""
+   tosbanker_speech_031 = \
+      "~kSkivlat flips a shilling in the air, looks at the coin and says, "
+      "\"Yes. The coin came up Stones.\""
+   tosbanker_speech_032 = \
+      "~kSkivlat flips a shilling in the air, looks at the coin and says, "
+      "\"Stones!\""
+   tosbanker_speech_033 = \
+      "~kSkivlat flips a shilling in the air, looks at the coin and says, "
+      "\"Nope, the coin came Heads up.\""
+   tosbanker_speech_034 = \
+      "~kSkivlat says, \"Tos is a ~Iguh~I-great town to live in.\""
+   tosbanker_speech_035 = \
+      "~kSkivlat says, \"Yevitan runs the Bank in Jasper. My bank has more "
+      "money in it so he's jealous. I think he cheats his clients too. He "
+      "doesn't like me. He's like a, uh, like a creature that wouldn't like "
+      "me very much. Maybe a troll, they probably don't like me.  Not to "
+      "mention that he is wasting all his money on those rebels, the fool.\""
+   tosbanker_random_001 = \
+      "~kSkivlat says, \"Did you know this coin was made back during the "
+      "reign of King Zarcos II?\""
+   tosbanker_random_002 = \
+      "~kSkivlat says, \"Shillings, my wonderful friends, your golden "
+      "sparkle never ends. Huh huh he he.\""
+   tosbanker_random_003 = \
+      "~kSkivlat says, \"Most people say money is dirty. Not me, I "
+      "~Iguh~I-wash those shillings every day.\""
+   tosbanker_random_004 = "~kSkivlat polishes the same coin over and over."
+   tosbanker_random_005 = \
+      "~kSkivlat says, \"I bet you didn't know that shillings aren't pure "
+      "gold. They have copper and iron in them. Only a small part of the "
+      "coin is true gold.\""
+   tosbanker_random_006 = \
+      "~kSkivlat says, \"I love gems. Not as much as I love shillings. But "
+      "they are pretty. But not as pretty as shillings.\""
+   tosbanker_random_007 = \
+      "~kSkivlat counts a stack of shillings. After a few moments, he counts "
+      "the same stack again."
+   tosbanker_random_008 = \
+      "~kA weird grin crosses Skivlat's face as he shines a few shillings."
+   tosbanker_random_009 = \
+      "~kSkivlat incessantly shakes his pouch of coins. With each metallic "
+      "clink, his smile broadens. \"I love that sound,\" he says."
+   tosbanker_random_010 = \
+      "~kSkivlat says, \"I love flipping coins. Make a guess, Heads or "
+      "Stones?\""
+   tosbanker_random_011 = \
+      "~kSkivlat says, \"The original official coin of Meridian had a castle "
+      "on one side and Prince Far'Nohl on the other. You can't find those "
+      "around anymore.\""
+   tosbanker_random_012 = \
+      "~kSkivlat says, \"Here's a little known fact for ~Iguh~I-you. The "
+      "Princess depicted on the back of the shilling was Princess Demetia. "
+      "If she were still alive, she would be 248, uh no, wait, let me think, "
+      "249 years old.\""
+   tosbanker_random_013 = \
+      "~kSkivlat says, \"I don't think my ~Iguh~I-vault can hold much more. "
+      "I might have to rent the room next door for extra storage space.\""
+   tosbanker_random_014 = \
+      "~kSkivlat says, \"I'm so happy. If my bank were, um, a creature that "
+      "likes to eat a lot, it would be full. I mean because my vault has a "
+      "lot of ~Iguh~I-money in it right now. Like a troll. They like to eat "
+      "a lot.\""
+   tosbanker_random_015 = \
+      "~kSkivlat says, \"I'm not sure why those stupid rats scurry off with "
+      "shillings. I mean I know why I would ~Iguh~I-scurry off with "
+      "shillings. But they are so little, what do rats need with money.\""
+   tosbanker_random_016 = \
+      "~kSkivlat says, \"The Vault's getting a little lonely for my friends. "
+      "Do you want to deposit some shillings, please?\""
+   tosbanker_random_017 = \
+      "~kSkivlat says, \"What's going on out in the world? Too many people "
+      "are withdrawing their shillings. That's not fair, they were so "
+      "comfortable here with their friends.\""
+   tosbanker_trigger_barloque = "barloque"
+   tosbanker_trigger_sell = "sell"
+   tosbanker_trigger_bye = "bye"
+   tosbanker_trigger_coin = "coin"
+   tosbanker_trigger_cor_noth = "cor noth"
+   tosbanker_trigger_council = "council"
+   tosbanker_trigger_duke = "duke"
+   tosbanker_trigger_flip = "flip"
+   tosbanker_trigger_guh = "guh"
+   tosbanker_trigger_gumpf = "gumpf"
+   tosbanker_trigger_heads = "heads"
+   tosbanker_trigger_hello = "hello"
+   tosbanker_trigger_help = "help"
+   tosbanker_trigger_interest = "interest"
+   tosbanker_trigger_interest_2 = "interest"
+   tosbanker_trigger_jasper = "jasper"
+   tosbanker_trigger_marion = "marion"
+   tosbanker_trigger_money = "money"
+   tosbanker_trigger_princess = "princess"
+   tosbanker_trigger_rebels = "rebels"
+   tosbanker_trigger_buy = "buy"
+   tosbanker_trigger_shilling = "shilling"
+   tosbanker_trigger_sling_blade = "sling blade"
+   tosbanker_trigger_stones = "stones"
+   tosbanker_trigger_stones_2 = "stones"
+   tosbanker_trigger_tos = "tos"
+   tosbanker_trigger_yevitan = "yevitan"
+
+   // TosInnKeeper (Paddock)
+   tosinnkeeper_speech_001 = \
+      "~kPaddock says, \"Zhieu B'hob's a good friend of mine down in Jasper. "
+      "His general store has all the essentials.\""
+   tosinnkeeper_speech_002 = \
+      "~kPaddock says, \"Barloque. It's the most stuck up qordamned city "
+      "you'll ever see. They think they are the center of power. Ha. They do "
+      "have the office of the Justicar though.\""
+   tosinnkeeper_speech_003 = \
+      "~kPaddock says, \"Fehr'loi Qan was our local blacksmith. I think "
+      "being so close to the graveyard spooked him out of town.\""
+   tosinnkeeper_speech_004 = "~kPaddock says, \"See you tomorrow, %s.\""
+   tosinnkeeper_speech_005 = \
+      "~kPaddock says, \"Aw, get out of here already. Same time tomorrow?\""
+   tosinnkeeper_speech_006 = \
+      "~kPaddock says, \"See you later. Go kill an Orc.\""
+   tosinnkeeper_speech_007 = \
+      "~kPaddock says, \"Cheaters? Nasty rabble, that lot. Not good for "
+      "business at all.\""
+   tosinnkeeper_speech_008 = \
+      "~kPaddock says, \"Cor Noth is a nice town. We ought to get a clock "
+      "tower here.\""
+   tosinnkeeper_speech_009 = \
+      "~kPaddock says, \"King Zarcos left a council of five men in charge of "
+      "the land. Well actually they just advise the Duke and Princess. Most "
+      "of the time they try to figure out those weird tokens. That's "
+      "government for you.\""
+   tosinnkeeper_speech_010 = "~kPaddock says, \"Hail Duke Akardius!\""
+   tosinnkeeper_speech_011 = \
+      "~kPaddock says, \"I think I've heard of that before? Isn't that like "
+      "the Spinner, the Weaver and the Tailor? Well, it's just an old wives' "
+      "tale, just forget it again.\""
+   tosinnkeeper_speech_012 = \
+      "~kPaddock says, \"Fehr'loi Qan was our local blacksmith. I think "
+      "being so close to the graveyard spooked him out of town.\""
+   tosinnkeeper_speech_013 = \
+      "~kPaddock says, \"Oh, for the love of Shal'ille, go somewhere else, "
+      "%s! Your effusiveness makes me quite sick.\""
+   tosinnkeeper_speech_014 = \
+      "~kPaddock says, \"Frisconar owns the Magic Shop around the corner. "
+      "Don't get him started on the ills of the world though. You will "
+      "regret it if you do.\""
+   tosinnkeeper_speech_015 = \
+      "~kPaddock says, \"I'm a little uneasy about setting up shop so close "
+      "to the old graveyard. When night falls, the dead pull themselves out "
+      "of their graves. So far, the people of Tos have been pretty good "
+      "about keeping them contained, but I'm still uncomfortable.\""
+   tosinnkeeper_speech_016 = \
+      "~kPaddock says, \"The Guides? Oh, nice lads they are. Well, a bit "
+      "loud sometimes.\""
+   tosinnkeeper_speech_017 = \
+      "~kPaddock says, \"They always drink free brew here. Bad customers.\""
+   tosinnkeeper_speech_018 = "~kPaddock says, \"Hail, %s!\""
+   tosinnkeeper_speech_019 = \
+      "~kPaddock says, \"Welcome to Familiars, the best bar in all of "
+      "Meridian.\""
+   tosinnkeeper_speech_020 = \
+      "~kPaddock says, \"Well met traveler, can I get you a brew?\""
+   tosinnkeeper_speech_021 = \
+      "~kPaddock says, \"Maybe you should ask an administrator.\""
+   tosinnkeeper_speech_022 = \
+      "~kPaddock says, \"Go look up by Barloque. He knows better than to "
+      "show his face in or around Tos.\""
+   tosinnkeeper_speech_023 = \
+      "~kPaddock says, \"I was just in Jasper the other day to pick up some "
+      "general supplies from Zhieu B'hob. I must say that I am quite "
+      "impressed with the town's turnaround. Jonas and his rebels might just "
+      "be doing Jasper some good.\""
+   tosinnkeeper_speech_024 = \
+      "~kPaddock says, \"Up in Barloque, the common folk can elect their own "
+      "Justicar to hold trial. The Justicar can pass sentence or pardon law "
+      "breakers.\""
+   tosinnkeeper_speech_025 = \
+      "~kPaddock says, \"Poor, poor Kalior. May he rest in peace.\""
+   tosinnkeeper_speech_026 = \
+      "~kPaddock says, \"Look. There is enough trouble with Trolls, Orcs, "
+      "and the such. Why stir up more trouble?\""
+   tosinnkeeper_speech_027 = \
+      "~kPaddock says, \"Marion's a town full of peaceful yokels. A nice "
+      "place to live, but I wouldn't want to visit there.\""
+   tosinnkeeper_speech_028 = \
+      "~kPaddock says, \"You want a mend, go across the street. I'm sick of "
+      "those qordamn menders making a profit here and not paying me a "
+      "percentage. The least they could do is buy a drink now and again.\""
+   tosinnkeeper_speech_029 = \
+      "~kPaddock says, \"For the love of Shal'ille, will you guys go do your "
+      "mending business across the street.\""
+   tosinnkeeper_speech_030 = \
+      "~kPaddock says, \"I'm going to have to change the name of this place "
+      "to Familiars Mending Shop. For crying out loud, go do your business "
+      "across the street.\""
+   tosinnkeeper_speech_031 = \
+      "~kPaddock says, \"How about this, every time someone gets something "
+      "mended, they also buy a brew. Otherwise, take your mending across the "
+      "qordamn street.\""
+   tosinnkeeper_speech_032 = \
+      "~kPaddock says, \"You know, there is a perfectly good freelanced "
+      "mending shop across the street.\""
+   tosinnkeeper_speech_033 = \
+      "~kPaddock says, \"Psychochild and Q brought the world back to life. "
+      "And Arantis brought it here.\""
+   tosinnkeeper_speech_034 = \
+      "~kPaddock says, \"A strange little girl, that Miriana. Always "
+      "stirring up trouble. One wonders what she does all the time, alone "
+      "out there in the forest.\""
+   tosinnkeeper_speech_035 = \
+      "~kPaddock says, \"Maybe she just wants to be noticed, and this is the "
+      "way she can draw attention to herself.\""
+   tosinnkeeper_speech_036 = \
+      "~kPaddock shrugs, \"I really can't understand why the magic nodes "
+      "would call on someone like her of all people to protect them.\""
+   tosinnkeeper_speech_037 = \
+      "~kPaddock says, \"What else can you expect from someone who was cast "
+      "out of society and has lived in the wilderness for so long? She has "
+      "no idea of civilization, and so she tries to destroy it.\""
+   tosinnkeeper_speech_038 = \
+      "~kPaddock says, \"What, you have something to do with that little "
+      "nature freak? Out of my tavern.\""
+   tosinnkeeper_speech_039 = \
+      "~kPaddock says, \"Hold on, let me check... nope, no outgoing "
+      "letters.\""
+   tosinnkeeper_speech_040 = \
+      "~kPaddock says, \"Sorry, %s, I don't have any letters to be "
+      "delivered.\""
+   tosinnkeeper_speech_041 = \
+      "~kPaddock says, \"I'm working on writing a letter to the council. "
+      "Come back later after I've finished it.\""
+   tosinnkeeper_speech_042 = "~kPaddock says, \"No, %s.\""
+   tosinnkeeper_speech_043 = "~kPaddock says, \"I don't need any couriers.\""
+   tosinnkeeper_speech_044 = \
+      "~kPaddock says, \"I heard that the power of the nodes restores itself "
+      "after a while, as if it were refilled from a great reservoir.\""
+   tosinnkeeper_speech_045 = \
+      "~kPaddock shrugs, \"The councilors tell us that she is dangerous and "
+      "must be destroyed. I suppose we should believe them, shouldn't we?\""
+   tosinnkeeper_speech_046 = \
+      "~kPaddock says, \"I've heard enough of your comments now. This gloom "
+      "is bad for business. Drink up and get out of here!\""
+   tosinnkeeper_speech_047 = \
+      "~kPaddock says, \"I feel Akardius is more fit to rule Meridian than "
+      "the Princess.\""
+   tosinnkeeper_speech_048 = \
+      "~kPaddock says, \"Fehr'loi Qan was our local blacksmith. I think "
+      "being so close to the graveyard spooked him out of town.\""
+   tosinnkeeper_speech_049 = \
+      "~kPaddock says, \"You know this is exactly how the Duke's family came "
+      "into power, although they will never admit it.\""
+   tosinnkeeper_speech_050 = \
+      "~kPaddock says, \"Is my little brother in trouble again? Ever since I "
+      "got him the job working in the Duke's Banquet Room, he's been nothing "
+      "but trouble.\""
+   tosinnkeeper_speech_051 = \
+      "~kThe room goes silent as %s mentions stunted dwarf."
+   tosinnkeeper_speech_052 = \
+      "~kPaddock says, \"Tos is the place to be. It has it all, the Arena of "
+      "Kraanan, the old city crypt, Blackstone Keep, the best bank in the "
+      "land, and a great blacksmith. Actually, scratch that, we lost the "
+      "blacksmith to Barloque.\""
+   tosinnkeeper_speech_053 = \
+      "~kPaddock says, \"Zhieu B'hob's a good friend of mine down in Jasper. "
+      "His general store has all the essentials.\""
+   tosinnkeeper_random_001 = \
+      "~kPaddock says, \"Tos really isn't the oldest place. There's an "
+      "ancient castle beyond the land of trolls. The old kingdom used to be "
+      "centered there. Now it's abandoned and some say ~Ihaunted.~I\""
+   tosinnkeeper_random_002 = \
+      "~kPaddock says, \"If you want to know about those qordamned creatures "
+      "out there, go to Cor Noth. There's this guy named Rook. He knows it "
+      "all.\""
+   tosinnkeeper_random_003 = \
+      "~kPaddock says, \"Money, they say you can't take it with you when you "
+      "die. That's what banks are for.\""
+   tosinnkeeper_random_004 = \
+      "~kPaddock says, \"It's dangerous outside those city walls. If I were "
+      "you, I'd get myself some traveling companions. There's safety in "
+      "numbers.\""
+   tosinnkeeper_random_005 = \
+      "~kPaddock says, \"Frisconar says there is an underground lake "
+      "somewhere around these parts.\""
+   tosinnkeeper_random_006 = \
+      "~kPaddock says, \"Qordamn sewer rats are everywhere nowadays. Good "
+      "thing they're like baby spiders, easy to squash.\""
+   tosinnkeeper_random_007 = \
+      "~kPaddock says, \"Oh yeah, if you're interested Frisconar teaches a "
+      "spell or two. Shal'ille, I think. He pays me a commission if I refer "
+      "business to him.\""
+   tosinnkeeper_random_008 = \
+      "~kPaddock says, \"It's interesting to see all the different types "
+      "that frequent my place. Soldiers, masons, bards, and acolytes of the "
+      "Priestesses bring news. The acolytes usually have interesting stories "
+      "to tell about their pilgrimages to the temples.\""
+   tosinnkeeper_random_009 = \
+      "~kPaddock says, \"Before I forget, if you need reagents like "
+      "mushrooms and herbs for your spells, see Frisconar. Let him know I "
+      "referred you to him.\""
+   tosinnkeeper_random_010 = \
+      "~kPaddock says, \"I'm surprised that the Councilors haven't had much "
+      "to say about Jonas and his new faction.\""
+   tosinnkeeper_random_011 = \
+      "~kPaddock says, \"Our Arena in East Tos is a great place to take a "
+      "brew and watch a fight. I'm amazed at how good those guys get just "
+      "practicing in there.\""
+   tosinnkeeper_random_012 = \
+      "~kPaddock says, \"You look tired. Why don't you pull up a chair, buy "
+      "a drink, and get some rest. Familiars is one of the best places to "
+      "recuperate.\""
+   tosinnkeeper_random_013 = \
+      "~kPaddock says, \"My philosophy is ~Ithe better the customers, the "
+      "less I need to chew their ear off~I.\""
+   tosinnkeeper_random_014 = \
+      "~kPaddock leans behind the bar, cleaning out empty mugs."
+   tosinnkeeper_random_015 = "~kPaddock taps another keg of brew open."
+   tosinnkeeper_random_016 = \
+      "~kPaddock says, \"I'm a little uneasy about setting up shop so close "
+      "to the old graveyard. When night falls, the dead pull themselves out "
+      "of their graves. So far, the people of Tos have been pretty good "
+      "about keeping them contained, but I'm still uncomfortable.\""
+   tosinnkeeper_random_017 = \
+      "~kPaddock says, \"Ever since I renovated Familiars, more and more "
+      "guests seem to come here from all over the land.\""
+   tosinnkeeper_random_018 = \
+      "~kPaddock says, \"Rumor has it that at night the Seafarers' Lookout "
+      "is one of the most romantic places of all. Sadly, I've never been "
+      "there myself. But who needs romance when he has a cool stout to call "
+      "his own?\""
+   tosinnkeeper_random_019 = \
+      "~kPaddock says, \"Don't drink that stuff they sell on Ko'Catan. From "
+      "the taste of it, it contains ingredients that were still whimpering "
+      "for their lives when it was mixed.\""
+   tosinnkeeper_random_020 = \
+      "~kPaddock says, \"By Kraanan. Always all this riffraff loitering "
+      "about in here. Is this a tavern or a standing party?\""
+   tosinnkeeper_random_021 = \
+      "~kPaddock says, \"At this time of year it always gets a little "
+      "windier outside. Pity no snow falls in these parts.\""
+   tosinnkeeper_random_022 = \
+      "~kPaddock says, \"I'm all for you buying your comrades a proper "
+      "round.\""
+   tosinnkeeper_random_023 = \
+      "~kPaddock says, \"Have you heard? Over in Marion, the old crypt is "
+      "said to have reopened. So much for the city of rest and peace and all "
+      "that.\""
+   tosinnkeeper_random_024 = \
+      "~kPaddock says, \"If you see Frisconar, ask him for that wonderful "
+      "recipe for mushroom ragout. If I remember correctly, you chop up a "
+      "fungus beast together with fine herbs and stew it in a special white "
+      "wine sauce. But better ask him yourself, I'm a barkeep, not a cook.\""
+   tosinnkeeper_random_025 = \
+      "~kPaddock says, \"Want to earn a little money? Then do me a favor and "
+      "sweep up a bit around here.\""
+   tosinnkeeper_random_026 = \
+      "~kPaddock says, \"Do you know about the new back door yet? It leads "
+      "to a hidden alcove where undigested stout can be... well... disposed "
+      "of again unseen.\""
+   tosinnkeeper_random_027 = \
+      "~kPaddock says, \"I'm mighty glad and grateful that we're rid of that "
+      "rat plague once and for all. Now we just have to drive that rabble "
+      "out of Jasper.\""
+   tosinnkeeper_random_028 = \
+      "~kPaddock says, \"Around here they tell stories about fallen heroes "
+      "who creep across the graveyard at night. Be careful - perhaps you'll "
+      "soon be one of them too.\""
+   tosinnkeeper_random_029 = \
+      "~kPaddock says, \"Back in my younger days, I too tried my hand at the "
+      "teachings of Qor... until that terrible accident when.. oh, I'd "
+      "better not talk about it.\""
+   tosinnkeeper_random_030 = \
+      "~kPaddock says, \"Come in, sit down, make yourself comfortable, have "
+      "some cheese and drink a little glass. Nowhere else will you get drunk "
+      "for so little reason.\""
+   tosinnkeeper_random_031 = \
+      "~kPaddock says, \"If you knew what old Qesino puts in her soups, "
+      "you'd also know why she's a widow today.\""
+   tosinnkeeper_random_032 = \
+      "~kPaddock says, \"Just a few days ago I bought myself new trousers "
+      "from Hester Gilk in Cor Noth. You can say a lot about that woman, but "
+      "her clothes are simply of formidable quality.\""
+   tosinnkeeper_random_033 = \
+      "~kPaddock says, \"You should have seen that boozy roughneck earlier. "
+      "Comes in here, drinks the whole place dry and sidles up to every "
+      "female guest. If only I could remember his name...\""
+   tosinnkeeper_random_034 = \
+      "~kPaddock says, \"Is it actually true that somewhere, in a place "
+      "called Brakks or some such, there's a queen who feeds on souls? I'm "
+      "wondering whether it could be my long-lost mother.\""
+   tosinnkeeper_random_035 = \
+      "~kPaddock says, \"If you want some excitement, walk into an Avar "
+      "village provocatively holding up a bag of birdseed. I'm sure they'll "
+      "thank you for it.\""
+   tosinnkeeper_random_036 = \
+      "~kPaddock says, \"Hey, you! Next time, wipe your shoes before you "
+      "drag all the dirt back in.\""
+   tosinnkeeper_random_037 = \
+      "~kPaddock says, \"I wish I could offer you more to drink, but that "
+      "boozy troll, Grunk or something, regularly empties my stock and "
+      "vanishes without paying.\""
+   tosinnkeeper_random_038 = \
+      "~kPaddock says, \"Can you even imagine what it's like to stand around "
+      "your whole life in the same grubby apron? Sometimes I'd like to just "
+      "toss it in the corner and turn up all casual.\""
+   tosinnkeeper_random_039 = \
+      "~kPaddock says, \"Greetings, traveler. Try something new - stout at 3 "
+      "degrees. Ice-cold from the frosty Yeti caves for that fresh taste.\""
+   tosinnkeeper_random_040 = \
+      "~kPaddock tells you, \"Come on! Surely you can handle one more little "
+      "stout. Just one. Then that's it.\""
+   tosinnkeeper_random_041 = \
+      "~kPaddock wipes his hands on his apron, and faint scraping noises can "
+      "be heard."
+   tosinnkeeper_random_042 = \
+      "~kSometimes you remember what a lovely feeling it is to stand in "
+      "Familiars."
+   tosinnkeeper_random_043 = "~kA floorboard creaks under your foot."
+   tosinnkeeper_random_044 = \
+      "~kPaddock watches you secretly, but attentively."
+   tosinnkeeper_random_045 = \
+      "~kPaddock tells you, \"Come on, don't be stingy, order another "
+      "tankard!\""
+   tosinnkeeper_random_046 = \
+      "~kPaddock says, \"Sometimes you see shady figures disappearing into "
+      "the old smithy. I wonder what they're doing in there...\""
+   tosinnkeeper_random_047 = \
+      "~kPaddock says, \"Beware of the vampires. I've heard some have been "
+      "sighted again now and then.\""
+   tosinnkeeper_random_048 = \
+      "~kPaddock says, \"Well, look at that. You come here often too, huh?\""
+   tosinnkeeper_random_049 = \
+      "~kPaddock says, \"With some people I wonder whether they have no "
+      "home. They stand around here for hours, mumbling incantations and "
+      "enchanting every guest who comes in. I'm slowly starting to think "
+      "about gently beating some house rules into them.\""
+   tosinnkeeper_random_050 = \
+      "~kPaddock says, \"I am a very hard-working man. But sometimes it "
+      "seems to me that people only respect me because of the stout. And no "
+      "woman looks twice at a tavern keeper either.\""
+   tosinnkeeper_random_051 = \
+      "~kPaddock says, \"Sometimes I'd rather open a flower shop.\""
+   tosinnkeeper_random_052 = \
+      "~kPaddock says, \"Irony is when many oh-so-tough adventurers commit "
+      "suicide because they were a tiny bit too weak, instead of fighting "
+      "their way up.\""
+   tosinnkeeper_random_053 = \
+      "~kPaddock says, \"Hmmmm.. I seem to have lost my beautiful signet "
+      "ring somehow. If you find it, I'll gladly slip you a little "
+      "something, if you know what I mean..\""
+   tosinnkeeper_random_054 = \
+      "~kNow would be the best time for a little stout among friends."
+   tosinnkeeper_random_055 = \
+      "~kA soft murmur drifts through Familiars. It seems to you as if the "
+      "air itself were whispering with voices silent for years."
+   tosinnkeeper_random_056 = \
+      "~kPaddock says, \"I don't even know how long I've been running this "
+      "tavern and how many faces I've seen. But one thing I know for sure - "
+      "each of them held its own story, its own past, its own personality. "
+      "And I will never forget any of them.\""
+   tosinnkeeper_random_057 = \
+      "~kPaddock says, \"If those fey didn't fight each other all the time, "
+      "the Valley of Sorrow would be a nice spot for a little picnic.\""
+   tosinnkeeper_random_058 = \
+      "~kPaddock says, \"Sadly the crackers are out right now, but I can "
+      "gladly offer you a few pieces of cheese. It's fresh and tastes simply "
+      "splendid.\""
+   tosinnkeeper_random_059 = \
+      "~kPaddock says, \"Would you perhaps like a stout with your stout? "
+      "Together they're simply unbeatable.\""
+   tosinnkeeper_random_060 = \
+      "~kPaddock says, \"Sometimes I get the feeling that people take me for "
+      "a foolish chatterbox who forever babbles the same thing.\""
+   tosinnkeeper_random_061 = \
+      "~kPaddock says, \"Just between us: I don't know what to make of the "
+      "new Duke. He's not even old enough to order a stout, but he commands "
+      "the whole army.\""
+   tosinnkeeper_random_062 = \
+      "~kPaddock pauses for a brief moment, scratches himself in various "
+      "places, and goes on cleaning the beer mugs."
+   tosinnkeeper_random_063 = \
+      "~kPaddock gazes absent-mindedly at the Arena painting and sighs "
+      "inaudibly."
+   tosinnkeeper_random_064 = \
+      "~kPaddock mutters something to himself that you can't possibly "
+      "understand from this distance."
+   tosinnkeeper_random_065 = \
+      "~kPaddock says, \"They say you can bathe wonderfully in the lake "
+      "Jala's Song. Unfortunately those cursed little spiders know it too.\""
+   tosinnkeeper_random_066 = \
+      "~kPaddock says, \"I still remember exactly how I slew my first slime "
+      "in my youth. Then I sugared it and sold it as jelly.\""
+   tosinnkeeper_random_067 = \
+      "~kPaddock says, \"I don't know what smells worse - the unwashed feet "
+      "of some of the locals or my delicate hand cheese. They say many a "
+      "shining hero doesn't change his socks even once in 50 years.\""
+   tosinnkeeper_random_068 = \
+      "~kSomehow you always feel cozy and at home here."
+   tosinnkeeper_random_069 = \
+      "~kPaddock says, \"I'm not sure if I should take tomorrow off. Maybe "
+      "I'll go have Skivlat flip a coin for me. That's what I always do when "
+      "I've got a simple decision to make.\""
+   tosinnkeeper_random_070 = \
+      "~kPaddock says, \"If you find yourself in Marion, the best place, "
+      "well, the only place to take a load off your feet is the Limping Toad "
+      "Inn. The guy who owns it, Tova, is a pretty funny guy. I think he "
+      "holds a grudge against me for running a better tavern, though.\""
+   tosinnkeeper_random_071 = \
+      "~kPaddock says, \"Can I get anyone another round of brew?\""
+   tosinnkeeper_random_072 = \
+      "~kPaddock says, \"This is a bar. If you're not going to drink, "
+      "there's the door.\""
+   tosinnkeeper_random_073 = \
+      "~kPaddock says, \"I hear there's a new gambling house in North "
+      "Barloque. The owners would be making a big mistake if they don't "
+      "manage it right.\""
+   tosinnkeeper_random_074 = \
+      "~kPaddock says, \"Kraanan's Arena is a good place to get better at "
+      "fighting, but it's no replacement for the real thing. True warriors "
+      "only get stronger by taking on stronger beasts in the wilds.\""
+   tosinnkeeper_random_075 = \
+      "~kPaddock says, \"I was just thinking to myself, maybe I should give "
+      "brew away for free. You know, just open the keg to the house. It's "
+      "not like you cheap loafers are going to actually spend money to buy "
+      "it.\""
+   tosinnkeeper_random_076 = \
+      "~kPaddock says, \"It's a wonder I stay in business. So many people "
+      "come in here. But at the end of the night, my profits don't show it. "
+      "If people don't start drinking, I should charge a qordamn entrance "
+      "fee.\""
+   tosinnkeeper_random_077 = \
+      "~kPaddock says, \"What's the matter? Is everybody so qordamned cheap, "
+      "you can't buy a lousy brew?\""
+   tosinnkeeper_trigger_b_hob = "b'hob"
+   tosinnkeeper_trigger_bob = "bob"
+   tosinnkeeper_trigger_barloque = "barloque"
+   tosinnkeeper_trigger_blacksmith = "blacksmith"
+   tosinnkeeper_trigger_bye = "bye"
+   tosinnkeeper_trigger_bye_2 = "bye"
+   tosinnkeeper_trigger_bye_3 = "bye"
+   tosinnkeeper_trigger_cheater = "cheater"
+   tosinnkeeper_trigger_cor_noth = "cor noth"
+   tosinnkeeper_trigger_council = "council"
+   tosinnkeeper_trigger_duke = "duke"
+   tosinnkeeper_trigger_fate = "fate"
+   tosinnkeeper_trigger_fehr_loi = "fehr'loi"
+   tosinnkeeper_trigger_ferloi = "ferloi"
+   tosinnkeeper_trigger_forgiveness = "forgiveness"
+   tosinnkeeper_trigger_frisconar = "frisconar"
+   tosinnkeeper_trigger_graveyard = "graveyard"
+   tosinnkeeper_trigger_guides = "guides"
+   tosinnkeeper_trigger_hello = "hello"
+   tosinnkeeper_trigger_help = "help"
+   tosinnkeeper_trigger_izzio = "izzio"
+   tosinnkeeper_trigger_jasper = "jasper"
+   tosinnkeeper_trigger_justicar = "justicar"
+   tosinnkeeper_trigger_justicar_2 = "justicar"
+   tosinnkeeper_trigger_kalior = "kalior"
+   tosinnkeeper_trigger_kateriina = "kateriina"
+   tosinnkeeper_trigger_marion = "marion"
+   tosinnkeeper_trigger_mend = "mend"
+   tosinnkeeper_trigger_mend_2 = "mend"
+   tosinnkeeper_trigger_mending = "mending"
+   tosinnkeeper_trigger_mending_2 = "mending"
+   tosinnkeeper_trigger_meridian = "meridian"
+   tosinnkeeper_trigger_miriana = "miriana"
+   tosinnkeeper_trigger_need_a_courier = "need a courier?"
+   tosinnkeeper_trigger_nodes = "nodes"
+   tosinnkeeper_trigger_nodes_2 = "nodes"
+   tosinnkeeper_trigger_princess = "princess"
+   tosinnkeeper_trigger_qan = "qan"
+   tosinnkeeper_trigger_rebels = "rebels"
+   tosinnkeeper_trigger_rycksher = "rycksher"
+   tosinnkeeper_trigger_rulker = "rulker"
+   tosinnkeeper_trigger_stunted_dwarf = "stunted dwarf"
+   tosinnkeeper_trigger_tos = "tos"
+   tosinnkeeper_trigger_zhieu = "zhieu"
+   tosinnkeeper_trigger_zhieu_2 = "zhieu"
+
+   // TosWatcher (Watcher)
+   toswatcher_speech_001 = \
+      "~kThe Watcher says, \"General Cylill is a member of the Council and "
+      "he is my father. He resides on the River Ille.\""
+   toswatcher_speech_002 = \
+      "~kThe Watcher says, \"Hail the Memory of Kalior! Hail Duke Akardius!\""
+   toswatcher_speech_003 = "~kThe Watcher says, \"Hail %s!\""
+   toswatcher_speech_004 = \
+      "~kThe Watcher says, \"I judge all arena matches. Read my banners to "
+      "learn how to enter.\""
+   toswatcher_speech_005 = \
+      "~kThe Watcher says, \"Hail our lord and god, Kraanan of the Fist! "
+      "Fight in his name, and you will know true strength.\""
+   toswatcher_speech_006 = "~kThe Watcher says, \"Hail Princess Kateriina!\""
+   toswatcher_speech_007 = \
+      "~kThe Watcher says, \"You speak of the Priestess Qerti'nya, my "
+      "mother. She has taught me discipline and courage. You would be wise "
+      "to visit her out at the Temple of Kraanan beyond the Cragged "
+      "Mountains.\""
+   toswatcher_speech_008 = \
+      "~kThe Watcher says, \"Hail Tos, the oldest city in all of Meridian!\""
+   toswatcher_trigger_cylill = "cylill"
+   toswatcher_trigger_zylill = "zylill"
+   toswatcher_trigger_duke = "duke"
+   toswatcher_trigger_hello = "hello"
+   toswatcher_trigger_help = "help"
+   toswatcher_trigger_kraanan = "kraanan"
+   toswatcher_trigger_princess = "princess"
+   toswatcher_trigger_qerti_nya = "qerti'nya"
+   toswatcher_trigger_qertina = "qertina"
+   toswatcher_trigger_tos = "tos"
+
+messages:
+
+   GetSpeechLibrary()
+   "Speech library nodes: [class, [[triggers, mood, action, key], ...]]"
+   {
+      local lLib;
+
+      lLib = $;
+
+      lLib = Cons([&BasicInnKeeper,[
+         [[basicinnkeeper_trigger_weissman],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_081],81],
+         [[basicinnkeeper_trigger_wells],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_082],82],
+         [[basicinnkeeper_trigger_wrapped,
+            basicinnkeeper_trigger_wrapped_2,
+            basicinnkeeper_trigger_wrapped_3],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_083],83],
+         [[basicinnkeeper_trigger_zach],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_084],84]
+      ]],lLib);
+
+      lLib = Cons([&BasicInnKeeper,[
+         [[basicinnkeeper_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_041],41],
+         [[basicinnkeeper_trigger_help],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_042],42],
+         [[basicinnkeeper_trigger_island],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_043],43],
+         [[basicinnkeeper_trigger_kennedy],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_044],44],
+         [[basicinnkeeper_trigger_kirmse],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_045],45],
+         [[basicinnkeeper_trigger_laroche],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_046],46],
+         [[basicinnkeeper_trigger_lencioni],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_047],47],
+         [[basicinnkeeper_trigger_madelia],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_048],48],
+         [[basicinnkeeper_trigger_man_and_wife],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_049],49],
+         [[basicinnkeeper_trigger_meridian],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_050],50],
+         [[basicinnkeeper_trigger_might_magic],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_051],51],
+         [[basicinnkeeper_trigger_mike],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_052],52],
+         [[basicinnkeeper_trigger_mitchell],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_053],53],
+         [[basicinnkeeper_trigger_music],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_054],54],
+         [[basicinnkeeper_trigger_near_death_studios],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_055],55],
+         [[basicinnkeeper_trigger_new_world_computing],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_056],56],
+         [[basicinnkeeper_trigger_o_hara],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_057],57],
+         [[basicinnkeeper_trigger_paddock],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_058],58],
+         [[basicinnkeeper_trigger_plotkin],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_059],59],
+         [[basicinnkeeper_trigger_prego],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_060],60],
+         [[basicinnkeeper_trigger_princess],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_061],61],
+         [[basicinnkeeper_trigger_princess],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_062],62],
+         [[basicinnkeeper_trigger_psychochild],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_063],63],
+         [[basicinnkeeper_trigger_qan],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_064],64],
+         [[basicinnkeeper_trigger_rob],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_065,
+               [LIBPLUG_LADLASSIE]],65],
+         [[basicinnkeeper_trigger_schubert],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_066],66],
+         [[basicinnkeeper_trigger_schwein],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_067],67],
+         [[basicinnkeeper_trigger_sellers],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_068],68],
+         [[basicinnkeeper_trigger_skivlat],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_069],69],
+         [[basicinnkeeper_trigger_soldiers],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_070],70],
+         [[basicinnkeeper_trigger_songs],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_071],71],
+         [[basicinnkeeper_trigger_steve],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_072],72],
+         [[basicinnkeeper_trigger_stidolph],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_073],73],
+         [[basicinnkeeper_trigger_stunted_dwarf],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_074,[LIBPLUG_NAME]],74],
+         [[basicinnkeeper_trigger_theige],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_075],75],
+         [[basicinnkeeper_trigger_toepfer],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_076],76],
+         [[basicinnkeeper_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_077],77],
+         [[basicinnkeeper_trigger_uprising,
+            basicinnkeeper_trigger_uprising_2],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_078],78],
+         [[basicinnkeeper_trigger_vogel],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_079],79],
+         [[basicinnkeeper_trigger_watcher],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_080],80]
+      ]],lLib);
+
+      lLib = Cons([&BasicInnKeeper,[
+         [[basicinnkeeper_trigger_3do,basicinnkeeper_trigger_mdo_games],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_001],1],
+         [[basicinnkeeper_trigger_archetype],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_002],2],
+         [[basicinnkeeper_trigger_bacon],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_003],3],
+         [[basicinnkeeper_trigger_band],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_004],4],
+         [[basicinnkeeper_trigger_bards],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_005],5],
+         [[basicinnkeeper_trigger_barloque],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_006],6],
+         [[basicinnkeeper_trigger_barloque],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_007],7],
+         [[basicinnkeeper_trigger_bazzano],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_008],8],
+         [[basicinnkeeper_trigger_bye],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_009],9],
+         [[basicinnkeeper_trigger_carlson],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_010],10],
+         [[basicinnkeeper_trigger_charles],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_011],11],
+         [[basicinnkeeper_trigger_cheater],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_012],12],
+         [[basicinnkeeper_trigger_chris],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_013],13],
+         [[basicinnkeeper_trigger_christopher],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_014],14],
+         [[basicinnkeeper_trigger_cole],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_015],15],
+         [[basicinnkeeper_trigger_computec],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_016],16],
+         [[basicinnkeeper_trigger_corpuz],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_017],17],
+         [[basicinnkeeper_trigger_cort],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_018],18],
+         [[basicinnkeeper_trigger_council],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_019],19],
+         [[basicinnkeeper_trigger_council],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_020],20],
+         [[basicinnkeeper_trigger_croddy],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_021],21],
+         [[basicinnkeeper_trigger_cyclone],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_022],22],
+         [[basicinnkeeper_trigger_drink,basicinnkeeper_trigger_beer],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_023],23],
+         [[basicinnkeeper_trigger_duke],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_024],24],
+         [[basicinnkeeper_trigger_ellis],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_025],25],
+         [[basicinnkeeper_trigger_fehr_loi,basicinnkeeper_trigger_ferloi],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_026],26],
+         [[basicinnkeeper_trigger_foley],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_027],27],
+         [[basicinnkeeper_trigger_frisconar],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_028],28],
+         [[basicinnkeeper_trigger_gameplay],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_029],29],
+         [[basicinnkeeper_trigger_gift],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_030],30],
+         [[basicinnkeeper_trigger_gilmer],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_031],31],
+         [[basicinnkeeper_trigger_gilroy],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_032],32],
+         [[basicinnkeeper_trigger_giovannini],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_033],33],
+         [[basicinnkeeper_trigger_green],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_034],34],
+         [[basicinnkeeper_trigger_guides],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_035],35],
+         [[basicinnkeeper_trigger_hackey],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_036],36],
+         [[basicinnkeeper_trigger_halley],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_037],37],
+         [[basicinnkeeper_trigger_hanke],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_038],38],
+         [[basicinnkeeper_trigger_hassan,basicinnkeeper_trigger_hassan_2],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_039],39],
+         [[basicinnkeeper_trigger_hawkins],0,
+            [LIBACT_QUOTE_RSC,basicinnkeeper_speech_040],40]
+      ]],lLib);
+
+      lLib = Cons([&DukeGuard,[
+         [[dukeguard_trigger_barloque],0,
+            [LIBACT_QUOTE_RSC,dukeguard_speech_001],1],
+         [[dukeguard_trigger_bourgeois],0,
+            [LIBACT_QUOTE_RSC,dukeguard_speech_002],2],
+         [[dukeguard_trigger_cor_noth],0,
+            [LIBACT_QUOTE_RSC,dukeguard_speech_003],3],
+         [[dukeguard_trigger_council,dukeguard_trigger_council_2],0,
+            [LIBACT_QUOTE_RSC,dukeguard_speech_004],4],
+         [[dukeguard_trigger_duke],0,
+            [LIBACT_QUOTE_RSC,dukeguard_speech_005],5],
+         [[dukeguard_trigger_jasper],0,
+            [LIBACT_QUOTE_RSC,dukeguard_speech_006],6],
+         [[dukeguard_trigger_marion],0,
+            [LIBACT_QUOTE_RSC,dukeguard_speech_007],7],
+         [[dukeguard_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,dukeguard_speech_008],8]
+      ]],lLib);
+
+      lLib = Cons([&TosApothecary,[
+         [[tosapothecary_trigger_barloque],0,
+            [LIBACT_QUOTE_RSC,tosapothecary_speech_001],1],
+         [[tosapothecary_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,tosapothecary_speech_002],2],
+         [[tosapothecary_trigger_bye],0,
+            [LIBACT_QUOTE_RSC,tosapothecary_speech_003],3],
+         [[tosapothecary_trigger_cor_noth],0,
+            [LIBACT_QUOTE_RSC,tosapothecary_speech_004],4],
+         [[tosapothecary_trigger_council],0,
+            [LIBACT_QUOTE_RSC,tosapothecary_speech_005],5],
+         [[tosapothecary_trigger_cult],0,
+            [LIBACT_QUOTE_RSC,tosapothecary_speech_006],6],
+         [[tosapothecary_trigger_duke],0,
+            [LIBACT_QUOTE_RSC,tosapothecary_speech_007],7],
+         [[tosapothecary_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,tosapothecary_speech_008,[LIBPLUG_NAME]],8],
+         [[tosapothecary_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,tosapothecary_speech_009,[LIBPLUG_NAME]],9],
+         [[tosapothecary_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,tosapothecary_speech_010],10],
+         [[tosapothecary_trigger_help],0,
+            [LIBACT_QUOTE_RSC,tosapothecary_speech_011],11],
+         [[tosapothecary_trigger_jasper],0,
+            [LIBACT_QUOTE_RSC,tosapothecary_speech_012],12],
+         [[tosapothecary_trigger_jonas],0,
+            [LIBACT_QUOTE_RSC,tosapothecary_speech_013],13],
+         [[tosapothecary_trigger_lake],0,
+            [LIBACT_QUOTE_RSC,tosapothecary_speech_014],14],
+         [[tosapothecary_trigger_love],0,
+            [LIBACT_QUOTE_RSC,tosapothecary_speech_015],15],
+         [[tosapothecary_trigger_madelia],0,
+            [LIBACT_QUOTE_RSC,tosapothecary_speech_016],16],
+         [[tosapothecary_trigger_marion],0,
+            [LIBACT_QUOTE_RSC,tosapothecary_speech_017],17],
+         [[tosapothecary_trigger_paddock],0,
+            [LIBACT_QUOTE_RSC,tosapothecary_speech_018],18],
+         [[tosapothecary_trigger_princess],0,
+            [LIBACT_QUOTE_RSC,tosapothecary_speech_019],19],
+         [[tosapothecary_trigger_rebels],0,
+            [LIBACT_QUOTE_RSC,tosapothecary_speech_020],20],
+         [[tosapothecary_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,tosapothecary_speech_021],21],
+         [[tosapothecary_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,tosapothecary_speech_022],22]
+      ]],lLib);
+
+      lLib = Cons([&TosBanker,[
+         [[tosbanker_trigger_barloque],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_001],1],
+         [[tosbanker_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_002],2],
+         [[tosbanker_trigger_bye],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_003,[LIBPLUG_NAME]],3],
+         [[tosbanker_trigger_coin],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_004],4],
+         [[tosbanker_trigger_cor_noth],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_005],5],
+         [[tosbanker_trigger_council],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_006],6],
+         [[tosbanker_trigger_duke],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_007],7],
+         [[tosbanker_trigger_flip],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_008],8],
+         [[tosbanker_trigger_guh,tosbanker_trigger_gumpf],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_009],9],
+         [[tosbanker_trigger_heads],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_010],10],
+         [[tosbanker_trigger_heads],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_011],11],
+         [[tosbanker_trigger_heads],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_012],12],
+         [[tosbanker_trigger_heads],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_013],13],
+         [[tosbanker_trigger_heads],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_014],14],
+         [[tosbanker_trigger_heads],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_015],15],
+         [[tosbanker_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_016,
+               [LIBPLUG_DAYNIGHT,LIBPLUG_NAME]],16],
+         [[tosbanker_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_017,
+               [LIBPLUG_NAME,LIBPLUG_DAYNIGHT]],17],
+         [[tosbanker_trigger_help],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_018],18],
+         [[tosbanker_trigger_interest,tosbanker_trigger_interest_2],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_019],19],
+         [[tosbanker_trigger_jasper],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_020],20],
+         [[tosbanker_trigger_marion],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_021],21],
+         [[tosbanker_trigger_money],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_022],22],
+         [[tosbanker_trigger_princess],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_023],23],
+         [[tosbanker_trigger_rebels],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_024],24],
+         [[tosbanker_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_025],25],
+         [[tosbanker_trigger_shilling],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_026],26],
+         [[tosbanker_trigger_sling_blade],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_027],27],
+         [[tosbanker_trigger_stones,tosbanker_trigger_stones_2],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_028],28],
+         [[tosbanker_trigger_stones,tosbanker_trigger_stones_2],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_029],29],
+         [[tosbanker_trigger_stones,tosbanker_trigger_stones_2],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_030],30],
+         [[tosbanker_trigger_stones,tosbanker_trigger_stones_2],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_031],31],
+         [[tosbanker_trigger_stones,tosbanker_trigger_stones_2],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_032],32],
+         [[tosbanker_trigger_stones,tosbanker_trigger_stones_2],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_033],33],
+         [[tosbanker_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_034],34],
+         [[tosbanker_trigger_yevitan],0,
+            [LIBACT_QUOTE_RSC,tosbanker_speech_035],35]
+      ]],lLib);
+
+      lLib = Cons([&TosInnKeeper,[
+         [[tosinnkeeper_trigger_need_a_courier],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_041],41],
+         [[tosinnkeeper_trigger_need_a_courier],LIBRES_MOOD_NOT_GOOD,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_042,[LIBPLUG_NAME]],42],
+         [[tosinnkeeper_trigger_need_a_courier],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_043],43],
+         [[tosinnkeeper_trigger_nodes,
+            tosinnkeeper_trigger_nodes_2],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_044],44],
+         [[tosinnkeeper_trigger_nodes,
+            tosinnkeeper_trigger_nodes_2],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_045],45],
+         [[tosinnkeeper_trigger_nodes,
+            tosinnkeeper_trigger_nodes_2],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_046],46],
+         [[tosinnkeeper_trigger_princess],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_047],47],
+         [[tosinnkeeper_trigger_qan],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_048],48],
+         [[tosinnkeeper_trigger_rebels],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_049],49],
+         [[tosinnkeeper_trigger_rycksher,tosinnkeeper_trigger_rulker],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_050],50],
+         [[tosinnkeeper_trigger_stunted_dwarf],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_051,[LIBPLUG_NAME]],51],
+         [[tosinnkeeper_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_052],52],
+         [[tosinnkeeper_trigger_zhieu,tosinnkeeper_trigger_zhieu_2],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_053],53]
+      ]],lLib);
+
+      lLib = Cons([&TosInnKeeper,[
+         [[tosinnkeeper_trigger_b_hob,tosinnkeeper_trigger_bob],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_001],1],
+         [[tosinnkeeper_trigger_barloque],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_002],2],
+         [[tosinnkeeper_trigger_blacksmith],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_003],3],
+         [[tosinnkeeper_trigger_bye,
+            tosinnkeeper_trigger_bye_2,
+            tosinnkeeper_trigger_bye_3],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_004,[LIBPLUG_NAME]],4],
+         [[tosinnkeeper_trigger_bye,
+            tosinnkeeper_trigger_bye_2,
+            tosinnkeeper_trigger_bye_3],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_005],5],
+         [[tosinnkeeper_trigger_bye,
+            tosinnkeeper_trigger_bye_2,
+            tosinnkeeper_trigger_bye_3],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_006],6],
+         [[tosinnkeeper_trigger_cheater],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_007],7],
+         [[tosinnkeeper_trigger_cor_noth],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_008],8],
+         [[tosinnkeeper_trigger_council],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_009],9],
+         [[tosinnkeeper_trigger_duke],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_010],10],
+         [[tosinnkeeper_trigger_fate],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_011],11],
+         [[tosinnkeeper_trigger_fehr_loi,tosinnkeeper_trigger_ferloi],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_012],12],
+         [[tosinnkeeper_trigger_forgiveness],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_013,[LIBPLUG_NAME]],13],
+         [[tosinnkeeper_trigger_frisconar],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_014],14],
+         [[tosinnkeeper_trigger_graveyard],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_015],15],
+         [[tosinnkeeper_trigger_guides],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_016],16],
+         [[tosinnkeeper_trigger_guides],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_017],17],
+         [[tosinnkeeper_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_018,[LIBPLUG_NAME]],18],
+         [[tosinnkeeper_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_019],19],
+         [[tosinnkeeper_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_020],20],
+         [[tosinnkeeper_trigger_help],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_021],21],
+         [[tosinnkeeper_trigger_izzio],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_022],22],
+         [[tosinnkeeper_trigger_jasper],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_023],23],
+         [[tosinnkeeper_trigger_justicar,tosinnkeeper_trigger_justicar_2],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_024],24],
+         [[tosinnkeeper_trigger_kalior],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_025],25],
+         [[tosinnkeeper_trigger_kateriina],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_026],26],
+         [[tosinnkeeper_trigger_marion],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_027],27],
+         [[tosinnkeeper_trigger_mend,
+            tosinnkeeper_trigger_mend_2],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_028],28],
+         [[tosinnkeeper_trigger_mend,
+            tosinnkeeper_trigger_mend_2],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_029],29],
+         [[tosinnkeeper_trigger_mend,
+            tosinnkeeper_trigger_mend_2],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_030],30],
+         [[tosinnkeeper_trigger_mending],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_031],31],
+         [[tosinnkeeper_trigger_mending_2],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_032],32],
+         [[tosinnkeeper_trigger_meridian],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_033],33],
+         [[tosinnkeeper_trigger_miriana],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_034],34],
+         [[tosinnkeeper_trigger_miriana],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_035],35],
+         [[tosinnkeeper_trigger_miriana],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_036],36],
+         [[tosinnkeeper_trigger_miriana],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_037],37],
+         [[tosinnkeeper_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_038],38],
+         [[tosinnkeeper_trigger_need_a_courier],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_039],39],
+         [[tosinnkeeper_trigger_need_a_courier],0,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_speech_040,[LIBPLUG_NAME]],40]
+      ]],lLib);
+
+      lLib = Cons([&TosWatcher,[
+         [[toswatcher_trigger_cylill,toswatcher_trigger_zylill],0,
+            [LIBACT_QUOTE_RSC,toswatcher_speech_001],1],
+         [[toswatcher_trigger_duke],0,
+            [LIBACT_QUOTE_RSC,toswatcher_speech_002],2],
+         [[toswatcher_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,toswatcher_speech_003,[LIBPLUG_NAME]],3],
+         [[toswatcher_trigger_help],0,
+            [LIBACT_QUOTE_RSC,toswatcher_speech_004],4],
+         [[toswatcher_trigger_kraanan],0,
+            [LIBACT_QUOTE_RSC,toswatcher_speech_005],5],
+         [[toswatcher_trigger_princess],0,
+            [LIBACT_QUOTE_RSC,toswatcher_speech_006],6],
+         [[toswatcher_trigger_qerti_nya,toswatcher_trigger_qertina],0,
+            [LIBACT_QUOTE_RSC,toswatcher_speech_007],7],
+         [[toswatcher_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,toswatcher_speech_008],8]
+      ]],lLib);
+
+      return lLib;
+   }
+
+   GetRandomLibrary()
+   "Random library nodes: [class, [[percent, mood, action, key], ...]]"
+   {
+      local lLib;
+
+      lLib = $;
+
+      lLib = Cons([&TosApothecary,[
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_041],41],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_042],42],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_043],43],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_044],44],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,tosapothecary_random_045,[LIBPLUG_NAME]],45],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,tosapothecary_random_046],46]
+      ]],lLib);
+
+      lLib = Cons([&TosApothecary,[
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_012],12],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_013],13],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_014],14],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_015],15],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_016],16],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_017],17],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_018],18],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_019],19],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_020],20],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_021],21],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_022],22],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_023],23],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_024],24],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_025],25],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_026],26],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_027],27],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_028],28],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_029],29],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_030],30],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_031],31],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_032],32],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_033],33],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_034],34],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_035],35],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_036],36],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_037],37],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_038],38],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_039],39],
+         [50,0,[LIBACT_QUOTE_RSC,tosapothecary_random_040],40]
+      ]],lLib);
+
+      lLib = Cons([&TosBanker,[
+         [50,0,[LIBACT_QUOTE_RSC,tosbanker_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,tosbanker_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,tosbanker_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,tosbanker_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,tosbanker_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,tosbanker_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,tosbanker_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,tosbanker_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,tosbanker_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,tosbanker_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,tosbanker_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,tosbanker_random_012],12],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,tosbanker_random_013],13],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,tosbanker_random_014],14],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,tosbanker_random_015],15],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,tosbanker_random_016],16],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,tosbanker_random_017],17]
+      ]],lLib);
+
+      lLib = Cons([&TosInnKeeper,[
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_041],41],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_042],42],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_043],43],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_044],44],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_045],45],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_046],46],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_047],47],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_048],48],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_049],49],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_050],50],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_051],51],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_052],52],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_053],53],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_054],54],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_055],55],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_056],56],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_057],57],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_058],58],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_059],59],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_060],60],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_061],61],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_062],62],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_063],63],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_064],64],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_065],65],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_066],66],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_067],67],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_068],68],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,tosinnkeeper_random_069],69],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_random_070],70],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_random_071],71],
+         [50,LIBRES_MOOD_NOT_GOOD,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_random_072],72],
+         [50,LIBRES_MOOD_NOT_GOOD,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_random_073],73],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,tosinnkeeper_random_074],74],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,tosinnkeeper_random_075],75],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,tosinnkeeper_random_076],76],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,tosinnkeeper_random_077],77]
+      ]],lLib);
+
+      lLib = Cons([&TosInnKeeper,[
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_012],12],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_013],13],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_014],14],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_015],15],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_016],16],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_017],17],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_018],18],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_019],19],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_020],20],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_021],21],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_022],22],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_023],23],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_024],24],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_025],25],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_026],26],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_027],27],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_028],28],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_029],29],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_030],30],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_031],31],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_032],32],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_033],33],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_034],34],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_035],35],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_036],36],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_037],37],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_038],38],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_039],39],
+         [50,0,[LIBACT_QUOTE_RSC,tosinnkeeper_random_040],40]
+      ]],lLib);
+
+      return lLib;
+   }
+
+end
+////////////////////////////////////////////////////////////////////////////////

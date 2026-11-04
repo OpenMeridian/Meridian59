@@ -1,0 +1,612 @@
+// DukeLiege
+dukeliege_speech_001 = de \
+   "~kHerzog Akardius sagt, \"Du solltest eine solche Möglichkeit besser "
+   "nicht in Betracht ziehen, Deine Gesundheit hängt davon ab. Das "
+   "versichere ich Dir.\""
+dukeliege_speech_002 = de \
+   "~kHerzog Akardius sagt, \"Du solltest eine solche Möglichkeit besser "
+   "nicht in Betracht ziehen, Deine Gesundheit hängt davon ab. Das "
+   "versichere ich Dir.\""
+dukeliege_speech_003 = de \
+   "~kHerzog Akardius sagt, \"Barloque ist eine übermäßig hochmütige "
+   "Hauptstadt. Burg Schwarzstein wäre als königliches Zentrum eine viel "
+   "bessere Wahl.\""
+dukeliege_speech_004 = de \
+   "~kDer Herzog lächelt, \"Du darfst Dich jetzt erheben.\""
+dukeliege_speech_005 = de \
+   "~kDer Herzog lächelt, \"Du darfst Dich jetzt erheben.\""
+dukeliege_speech_006 = de \
+   "~kHerzog Akardius sagt, \"Du bist entlassen. Nun geh...\""
+dukeliege_speech_007 = de \
+   "~kHerzog Akardius sagt, \"Der Mut eines wahren Champions wird nicht nur "
+   "in der Arena des Kampfes geprüft, sondern auch in der Arena des "
+   "Geistes.\""
+dukeliege_speech_008 = de \
+   "~kHerzog Akardius sagt, \"Die Menschen von Cor Noth haben keine Ahnung, "
+   "auf welchem Juwel sie so gemütlich sitzen.\""
+dukeliege_speech_009 = de \
+   "~kHerzog Akardius sagt, \"König Zarcos berief einen Rat der Ältesten "
+   "ein, um die Prinzessin in ihrer Jugend zu beraten. Obwohl ihr Rat "
+   "willkommen ist, bezweifle ich, dass einer von uns beiden ihn noch "
+   "braucht.\""
+dukeliege_speech_010 = de \
+   "~kHerzog Akardius sagt, \"Du würdest gut daran tun, mich mit ~IMein "
+   "Lehnsherr~I anzusprechen. Ich könnte diesen Fehltritt vielleicht "
+   "vergeben.\""
+dukeliege_speech_011 = de \
+   "~kHerzog Akardius sagt, \"Sei gegrüßt, %s. Du kannst Deinen Platz unter "
+   "den anderen Bittstellern einnehmen.\""
+dukeliege_speech_012 = de \
+   "~kHerzog Akardius sagt, \"Ich bin hier der Herr. Solltest Du Dich würdig "
+   "erweisen, meiner Fraktion beizutreten, stünden Dir gewisse Vorteile zur "
+   "Verfügung.\""
+dukeliege_speech_013 = de \
+   "~kHerzog Akardius sagt, \"Alle Fraktionsmitglieder, die beim Kampf "
+   "untereinander erwischt werden, sollen ausgepeitscht und verbannt werden. "
+   "Es gibt mehr als genug würdige Gegner außerhalb unserer Reihen.\""
+dukeliege_speech_014 = de \
+   "~kHerzog Akardius sagt, \"Ich bin momentan nicht gewillt, weitere "
+   "Abzeichen zu vergeben.\""
+dukeliege_speech_015 = de \
+   "~kHerzog Akardius sagt, \"Die ganze Zeit hatte ich das Gefühl, dass "
+   "diese Leute gegen uns intrigierten, es war nur eine Frage der Zeit, bis "
+   "sie einen Dummen fanden, der ihre falschen Ziele anführt.\""
+dukeliege_speech_016 = de \
+   "~kHerzog Akardius mustert Dich und grinst, \"Keine Chance. Fort mit "
+   "Dir!\""
+dukeliege_speech_017 = de \
+   "~kHerzog Akardius sagt, \"Sei gegrüßt, %s. Du suchst also die Hilfe "
+   "Deines Herzogs, nicht wahr?\""
+dukeliege_speech_018 = de \
+   "~kHerzog Akardius sagt, \"Nun, %s, wie Du sehen kannst, habe ich zurzeit "
+   "keine Aufgabe für Dich.\""
+dukeliege_speech_019 = de \
+   "~kHerzog Akardius sagt, \"Marion ist ein Zentrum von friedensliebenden, "
+   "stumpfsinnigen Menschen, nicht einmal das Essen ist die Reise dorthin "
+   "wert.\""
+dukeliege_speech_020 = de \
+   "~kHerzog Akardius sagt, \"Der Mut eines wahren Champions wird nicht nur "
+   "in der Arena des Kampfes geprüft, sondern auch in der Arena des "
+   "Geistes.\""
+dukeliege_speech_021 = de \
+   "~kHerzog Akardius sagt, \"Bedenke, es gibt viele junge Krieger in diesem "
+   "Land, die noch nicht alt genug sind, um sich uns anzuschließen. Achte "
+   "auf sie und sei behutsam. Wir wollen nicht diejenigen vergraulen, die "
+   "unsere Verbündeten werden könnten.\""
+dukeliege_speech_022 = de \
+   "~kHerzog Akardius sagt, \"Meine Männer berichten mir, dass der "
+   "Ork-Grubenboss es mit jedem lebenden Mann und jeder lebenden Frau "
+   "aufnehmen kann. Sie behaupten, er sei übermenschlich schnell und "
+   "unheimlich stark. Ich werde in der Tat einen ganz besonderen Champion "
+   "brauchen.\""
+dukeliege_speech_023 = de \
+   "~kHerzog Akardius sagt, \"Meine Männer berichten mir, dass der "
+   "Ork-Grubenboss es mit jedem lebenden Mann und jeder lebenden Frau "
+   "aufnehmen kann. Sie behaupten, er sei übermenschlich schnell und "
+   "unheimlich stark. Ich werde in der Tat einen ganz besonderen Champion "
+   "brauchen.\""
+dukeliege_speech_024 = de \
+   "~kHerzog Akardius sagt, \"Die Prinzessin ist eine willensstarke Frau. "
+   "Feines königliches Blut fließt durch ihre zarten Adern. Sie würde eine "
+   "ausgezeichnete Gemahlin für einen würdigen König abgeben. Wäre sie "
+   "natürlich zu widerspenstig, würde ich sie hochkant hinauswerfen. Soll "
+   "sie doch den Weg zurück zu ihrem schäbigen Tempel finden.\""
+dukeliege_speech_025 = de \
+   "~kHerzog Akardius sagt, \"Ich prüfe derzeit keine Bewerber. Komm später "
+   "wieder.\""
+dukeliege_speech_026 = de \
+   "~kHerzog Akardius sagt, \"Ich genieße wirklich den kultivierten Geist "
+   "von Tos.\""
+dukeliege_speech_027 = de \
+   "~kHerzog Akardius sagt, \"Bedenke, es gibt viele junge Krieger in diesem "
+   "Land, die noch nicht alt genug sind, um sich uns anzuschließen. Achte "
+   "auf sie und sei behutsam. Wir wollen nicht diejenigen vergraulen, die "
+   "unsere Verbündeten werden könnten.\""
+dukeliege_random_001 = de \
+   "~kHerzog Akardius sagt, \"Meine Untertanen benötigen häufig einen Boten. "
+   "Solltest Du Dich würdig erweisen, könnte ich erwägen, Dir Aufmerksamkeit "
+   "zu schenken.\""
+dukeliege_random_002 = de \
+   "~kHerzog Akardius seufzt, \"Mein lieber Onkel hat beinahe die "
+   "Schatzkammer geleert, um dieses steinerne Gebilde von einer Arena "
+   "herzurichten. Und man bedenke, dass es dort immer noch keine "
+   "gepolsterten Sitze gibt.\""
+dukeliege_random_003 = de \
+   "~kHerzog Akardius sagt, \"Ich würde gern irgendwann ein weiteres Schloss "
+   "auf der Insel Ko'catan bauen. Burg Schwarzstein ist das zweitälteste "
+   "Schloss im Land und ziemlich zugig.\""
+dukeliege_random_004 = de \
+   "~kHerzog Akardius sagt, \"Gegenwärtig verwenden die Ratsmitglieder viel "
+   "zu viel Zeit mit dem Studium dieser Artefakte, aber wenn es das ist, was "
+   "sie... was die Ratsmitglieder glücklich macht, werde ich ihnen alle "
+   "verfügbaren Mittel zur Verfügung stellen, um ihnen zu helfen.\""
+dukeliege_random_005 = de \
+   "~kHerzog Akardius sagt, \"Die Prinzessin verbringt viel zu viel Zeit mit "
+   "ihrer Nase in diesen Büchern, der Platz in ihrer Bibliothek könnte viel "
+   "besser genutzt werden.\""
+dukeliege_random_006 = de \
+   "~kHerzog Akardius sagt, \"Ich vertraue darauf, dass Du die Wunder von "
+   "Tos genossen hast. Wenn nicht, musst Du unbedingt den Sonnenuntergang "
+   "vom alten Friedhof aus betrachten; der Anblick ist... unvergesslich.\""
+dukeliege_random_007 = de \
+   "~kHerzog Akardius sagt, \"Mein armer, lieber Onkel. Ist es nicht "
+   "merkwürdig, dass ihn unter ähnlich mysteriösen Umständen der Tod ereilte "
+   "wie König Zarcos IV.? Vielleicht ist die Burg verflucht.\""
+dukeliege_random_008 = de \
+   "~kHerzog Akardius sagt, \"Bis zum heutigen Tag frage ich mich, ob sich "
+   "der Geist von Königin Katria an ihrem großartigen Opfer erfreut, bei dem "
+   "sie ihr Leben für ihre Töchter gab.\""
+dukeliege_random_009 = de \
+   "~kHerzog Akardius sagt, \"Bei meinem Wort, der König ist wahnsinnig und "
+   "darf niemals wieder an die Macht gelangen!\""
+dukeliege_random_010 = de \
+   "~kHerzog Akardius gähnt, \"Warum noch gleich ersuchst Du eine Audienz "
+   "bei mir?\""
+dukeliege_random_011 = de \
+   "~kHerzog Akardius sagt, \"Die weniger Erfahrenen im ganzen Land blicken "
+   "auf unsere Fraktion und ihre Mitglieder, um von ihnen Führung und Rat zu "
+   "erhalten.\""
+dukeliege_random_012 = de \
+   "~kHerzog Akardius sagt, \"Von Zeit zu Zeit erwarte ich, dass meine "
+   "Anhänger mir ihre ~ILoyalität~I beweisen.\""
+dukeliege_random_013 = de \
+   "~kHerzog Akardius sagt, \"In diesem Königreich ist alles in Ordnung. Der "
+   "Rat erweist mir durch seine Unterstützung ganz vernünftigerweise den "
+   "Respekt, der meinem Stand gebührt.\""
+dukeliege_random_014 = de \
+   "~kHerzog Akardius sagt, \"Ich nehme an, Du kennst die angemessene "
+   "Etikette, wenn Du vor jemanden wie einen Herzog trittst.\""
+dukeliege_random_015 = de \
+   "~kHerzog Akardius sagt, \"Wenn Du gut trainierst, könnte ich in Erwägung "
+   "ziehen, Dich als meinen Champion antreten zu lassen, damit wir den "
+   "Häuptling der Orks bezwingen.\""
+dukeliege_random_016 = de \
+   "~kHerzog Akardius sagt, \"Obwohl ich verstehe, wie die Ratsmitglieder so "
+   "von der Prinzessin eingenommen sein können, werden sie gewiss bald "
+   "erkennen, wie unbedarft sie in Fragen der Politik und Macht ist.\""
+dukeliege_random_017 = de \
+   "~kHerzog Akardius sagt verbittert, \"Kateriina scheint zurzeit damit "
+   "beschäftigt, die Ratsmitglieder zu betören. Sehr interessant.\""
+dukeliege_trigger_back_stabbing = de "meuchelmord"
+dukeliege_trigger_backstabbing = de "meucheln"
+dukeliege_trigger_bow = de "verbeugen"
+dukeliege_trigger_bows = de "verbeugt"
+dukeliege_trigger_bye = de "tschüss"
+dukeliege_trigger_bye_2 = de "wiedersehen"
+dukeliege_trigger_bye_3 = de "ciao"
+dukeliege_trigger_council = de "ratsmitglied"
+dukeliege_trigger_duke = de "herzog"
+dukeliege_trigger_hello = de "hallo"
+dukeliege_trigger_help = de "hilfe"
+dukeliege_trigger_infighting = de "streit"
+dukeliege_trigger_insignia = de "abzeichen"
+dukeliege_trigger_insignia_2 = de "insignien"
+dukeliege_trigger_join = de "beitreten"
+dukeliege_trigger_liege = de "lehnsherr"
+dukeliege_trigger_liege_2 = de "führer"
+dukeliege_trigger_loyalty = de "loyalität"
+dukeliege_trigger_master = de "meister"
+dukeliege_trigger_nonfactioned = de "fraktionslos"
+dukeliege_trigger_orc_chieftain = de "häuptling"
+dukeliege_trigger_orc_pitboss = de "grubenboss"
+dukeliege_trigger_princess = de "prinzessin"
+dukeliege_trigger_soldier = de "soldat"
+dukeliege_trigger_unfactioned = de "fraktionslose"
+
+// PrincessLiege
+princessliege_speech_001 = de \
+   "~kPrinzessin Kateriina sagt, \"Solch ein handfester Beweis würde "
+   "sicherlich zeigen, dass mehr an der alten Geschichte dran ist, als "
+   "ursprünglich gedacht. Bringt mir einen dieser Anhänger.\""
+princessliege_speech_002 = de \
+   "~kPrinzessin Kateriina sagt, \"Bringt mir einen dieser Anhänger. Es ist "
+   "von größter Wichtigkeit für uns, die Gelegenheit zu haben, eines dieser "
+   "Artefakte zu untersuchen.\""
+princessliege_speech_003 = de \
+   "~kPrinzessin Kateriina sagt, \"Das schöne Barloque ist die königliche "
+   "Stadt des Landes. Die treuen Bürger verdienen den Respekt, der den Damen "
+   "und Herren des Hofes gebührt.\""
+princessliege_speech_004 = de \
+   "~kPrinzessin Kateriina sagt, \"Der König hat mir immer erzählt, dass die "
+   "Blutlinie meiner Familie in Brax ihren Anfang nahm. Es war mein Vorfahr "
+   "Zarrus, der aus jenem Land floh, um sich in Tos niederzulassen.\""
+princessliege_speech_005 = de \
+   "~kPrinzessin Kateriina sagt, \"Natürlich habe ich die Geschichte gehört, "
+   "wie die Stadt durch die Magie Tendraths im Erdreich versank. Ich glaube, "
+   "die genaue historische Stelle liegt ein wenig südwestlich von hier.\""
+princessliege_speech_006 = de \
+   "~kPrinzessin Kateriina sagt, \"Gehabt Euch wohl. Reist mit meinem "
+   "Segen.\""
+princessliege_speech_007 = de \
+   "~kPrinzessin Kateriina sagt, \"Ich war noch nicht in Cor Noth, aber "
+   "eines Tages gehe ich vielleicht dorthin, um an seiner großen Universität "
+   "zu lernen.\""
+princessliege_speech_008 = de \
+   "~kPrinzessin Kateriina sagt, \"Mein lieber Vater hat fünf Weise ernannt, "
+   "die mich während seiner Abwesenheit beraten sollen. Sie sind alle recht "
+   "alt, aber weise. Soll ich Euch ihre Namen nennen?\""
+princessliege_speech_009 = de \
+   "~kPrinzessin Kateriina sagt, \"Obwohl ich Herzog Akardius liebenswürdig "
+   "finde, verstehe ich immer noch nicht, warum dieser dumme Streit mit ihm "
+   "andauern muss, denn ich bin die rechtmäßige Thronfolgerin.\""
+princessliege_speech_010 = de \
+   "~kPrinzessin Kateriina sagt, \"Willkommen, %s, mein treuer Untertan.\""
+princessliege_speech_011 = de \
+   "~kPrinzessin Kateriina sagt, \"Ich bin die Herrscherin über Barloque. "
+   "Ich erweise jenen meine Gunst, die meiner Gefolgschaft ~Ibeitreten~I.\""
+princessliege_speech_012 = de \
+   "~kPrinzessin Kateriina sagt, \"Sollten die Nekromanten wirklich dort "
+   "draußen sein, lasst uns hoffen, dass dort ebenfalls ein paar Jäger "
+   "sind.\""
+princessliege_speech_013 = de \
+   "~kPrinzessin Kateriina sagt, \"Die Geschichte erzählt, dass Kara'set die "
+   "allererste Jägerin dieser Art war. Die Geschichte erwähnt auch, dass sie "
+   "ein magisches Schwert besaß, das von Venya'cyr an sich genommen wurde.\""
+princessliege_speech_014 = de \
+   "~kPrinzessin Kateriina sagt, \"Ich habe gehört, dass ihre Schwerter von "
+   "magischer Energie erfüllt sind, die besonders wirkungsvoll gegen jene "
+   "ist, deren Seelen schwarz wie eine mondlose Nacht sind.\""
+princessliege_speech_015 = de \
+   "~kPrinzessin Kateriina sagt, \"Mord und Verrat in unseren Reihen sind "
+   "nicht hinnehmbar, obwohl es ein ehrenhafter Dienst ist, einen Verbrecher "
+   "seiner gerechten Strafe zuzuführen.\""
+princessliege_speech_016 = de \
+   "~kPrinzessin Kateriina sagt, \"Ihr habet keinen Grund, meine Insignien "
+   "zu tragen.\""
+princessliege_speech_017 = de \
+   "~kPrinzessin Kateriina sagt, \"Jasper produziert so wunderschöne "
+   "Edelsteine. Es ist eine Schande, dass sie sich entschlossen haben, gegen "
+   "die Ordnung und Stabilität zu rebellieren, aber ich bin mir sicher, sie "
+   "werden mit der Zeit ihr falsches Handeln erkennen.\""
+princessliege_speech_018 = de \
+   "~kPrinzessin Kateriina sagt, \"Es gibt kaum einen Grund, jetzt "
+   "beizutreten.\""
+princessliege_speech_019 = de \
+   "~kPrinzessin Kateriina sagt, \"Die bösen Mächte der Urne verwandelten "
+   "Venya'cyr in ein Wesen, das Lich genannt wird. Die Legenden besagen, "
+   "dass Lichs nicht getötet werden können.\""
+princessliege_speech_020 = de \
+   "~kPrinzessin Kateriina sagt, \"Heil Euch, %s %s. Wie kann ich Euch "
+   "helfen? \""
+princessliege_speech_021 = de \
+   "~kPrinzessin Kateriina sagt, \"Ich danke Euch, aber ich habe keine "
+   "Botengänge für Euch.\""
+princessliege_speech_022 = de \
+   "~kPrinzessin Kateriina sagt, \"Marion ist eine angenehme Stadt. Ich "
+   "würde gern in ihren Obstgärten spielen, wie ich es als Mädchen tat.\""
+princessliege_speech_023 = de \
+   "~kPrinzessin Kateriina sagt, \"Meinem lieben Vater am nächsten steht "
+   "Alzahakar, der Allmagier, niemand ist bewanderter in den Wegen der Magie "
+   "als er. Den gütigen Esseldi und den ruhigen Drex darf ich mit Freuden "
+   "meine Freunde nennen. Der abgehärtete Zylill und der geizige Bei Naq "
+   "sind mir ebenfalls nicht gänzlich fremd.\""
+princessliege_speech_024 = de \
+   "~kPrinzessin Kateriina sagt, \"Viele haben mir erzählt, dass sie "
+   "wirklich die Welt durchstreifen. Ich denke, wir müssen herausfinden, wo "
+   "und warum?\""
+princessliege_speech_025 = de \
+   "~kPrinzessin Kateriina sagt, \"Es gibt viele junge Frauen und Männer im "
+   "Land, die bei uns Schutz suchen; achtet darauf, sie wie Eure eigenen "
+   "Geschwister zu behandeln, denn mit der Zeit könnten sie unserer Sache "
+   "eine große Hilfe werden.\""
+princessliege_speech_026 = de \
+   "~kPrinzessin Kateriina sagt, \"Nun denn, gütig und sanft.\""
+princessliege_speech_027 = de \
+   "~kPrinzessin Kateriina sagt, \"Wir sind uns so nahe wie jede Familie, "
+   "und wie in einer Familie üblich wird jeder, der daran denkt, einen "
+   "anderen zu schädigen, bestraft und ausgeschlossen.\""
+princessliege_speech_028 = de \
+   "~kPrinzessin Kateriina sagt, \"Ich bin es müde, Leute für den Eintritt "
+   "in meine Armee zu prüfen. Bitte lasst mich vorerst in Frieden.\""
+princessliege_speech_029 = de \
+   "~kPrinzessin Kateriina sagt, \"Er ist der alte Magier, der die Stadt "
+   "Brax im Erdreich versinken ließ. Auch die Jägerschwerter wurden von ihm "
+   "angefertigt. Seine Geschichte ist eine traurige.\""
+princessliege_speech_030 = de \
+   "~kPrinzessin Kateriina sagt, \"Tos scheint nicht die Loyalität zu haben, "
+   "wie sie die Krone verlangt, dennoch ist es eine gute Stadt.\""
+princessliege_speech_031 = de \
+   "~kPrinzessin Kateriina sagt, \"Es gibt viele junge Frauen und Männer im "
+   "Land, die bei uns Schutz suchen; achtet darauf, sie wie Eure eigenen "
+   "Geschwister zu behandeln, denn mit der Zeit könnten sie unserer Sache "
+   "eine große Hilfe werden.\""
+princessliege_speech_032 = de \
+   "~kPrinzessin Kateriina sagt, \"Nun, wie die Geschichte erzählt, endete "
+   "ihre Herrschaft, als ihr gesamter Palast von der Erde verschlungen "
+   "wurde. Legenden besagen, dass sie einen Pakt geschlossen hat, um ewig zu "
+   "leben.\""
+princessliege_speech_033 = de \
+   "~kPrinzessin Kateriina sagt, \"Ja, er ist einer meiner ältesten "
+   "Vorfahren. Ein Gerücht besagt, dass er, als er am Hof von Venya'cyr "
+   "diente, das Unglück hatte, ein Gefäß großer Verderbtheit zu berühren. "
+   "Viele in meiner Familie glauben, dass seit jenem Tag ein Fluch auf uns "
+   "lastet.\""
+princessliege_random_001 = de \
+   "~kPrinzessin Kateriina sagt, \"Viele meiner treuen Untertanen benötigen "
+   "von Zeit zu Zeit jemanden für Botengänge. Wenn Ihr ihnen helfen könnt, "
+   "werden sie Eure Mühen angemessen belohnen.\""
+princessliege_random_002 = de \
+   "~kPrinzessin Kateriina sagt, \"Wahrlich, die Erlösung liegt in der "
+   "Magie. Es wäre klug, einen der vielen Tempel in unserem Lande "
+   "aufzusuchen.\""
+princessliege_random_003 = de \
+   "~kPrinzessin Kateriina sagt, \"Wenn Ihr Euch im Dickicht befindet, nehmt "
+   "Euch die Zeit, den uralten Alzahakar in seinem Heim zu besuchen. Er ist "
+   "ein höchst wundersamer Zauberer.\""
+princessliege_random_004 = de \
+   "~kPrinzessin Kateriina sagt, \"Es ist mir in letzter Zeit die größte "
+   "Freude, die schöne Madelia hier in meinem eigenen Schloss zu haben, "
+   "damit sie meine Kleider näht. Wie froh ich doch bin.\""
+princessliege_random_005 = de \
+   "~kPrinzessin Kateriina sagt, \"Im Gegensatz zum Herzog ist mein Festsaal "
+   "jederzeit für alle meine Untertanen zugänglich. Vielleicht werde ich "
+   "eines Tages auch gute Küchenchefs zur Verfügung haben.\""
+princessliege_random_006 = de \
+   "~kPrinzessin Kateriina sagt, \"Der Tempel unserer Herrin Shal'ille liegt "
+   "zwischen dem freundlichen Marion und dem Wald der Fey.\""
+princessliege_random_007 = de \
+   "~kPrinzessin Kateriina sagt, \"Ich vermisse meine Mutter. Obwohl ich sie "
+   "außer im Moment meiner Geburt nie gesehen habe, sind meine Gefühle für "
+   "sie genauso stark wie die anderer Kinder für ihre Eltern.\""
+princessliege_random_008 = de \
+   "~kPrinzessin Kateriina sagt, \"Meinem lieben Vater geht es nicht "
+   "sonderlich gut. Nach dem Tod meiner Mutter war er in ständiger Trauer, "
+   "doch seit neuestem verliert sein Geist den Bezug zur Welt um ihn.\""
+princessliege_random_009 = de \
+   "~kPrinzessin Kateriina sagt, \"Habt Ihr Hauptmann Roluk in letzter Zeit "
+   "gesehen? Ich hielt ihn für galant, doch vielleicht habe ich mich in "
+   "seinem Gemüt geirrt. Wie es ihm wohl geht, frage ich mich.\""
+princessliege_random_010 = de \
+   "~kPrinzessin Kateriina sagt, \"~ILoyalität~I muss immer wieder bewiesen "
+   "werden, nicht nur ein einziges Mal.\""
+princessliege_random_011 = de \
+   "~kPrinzessin Kateriina sagt, \"Ich gewähre Euch meine Erlaubnis und "
+   "meinen Segen, meine Bibliotheken zu erkunden. Ihr werdet dort Wissen in "
+   "großem Maße finden.\""
+princessliege_random_012 = de \
+   "~kPrinzessin Kateriina sagt, \"Die Stimmung an diesem Hof ist gut. Ich "
+   "möchte erklären, dass ich mit den Staatsgeschäften höchst zufrieden "
+   "bin.\""
+princessliege_random_013 = de \
+   "~kPrinzessin Kateriina sagt, \"Im Königreich ist alles in Ordnung. "
+   "Vielleicht sollte ich einen Feiertag ausrufen oder ein Bauwerk "
+   "einweihen.\""
+princessliege_random_014 = de \
+   "~kPrinzessin Kateriina sagt, \"Bin ich nicht vom Blut meines eigenen "
+   "Vaters? Ist er nicht der König? Obwohl der junge Herzog intelligent ist, "
+   "ist er nicht vom königlichen Blut. Ich bin zutiefst ungehalten.\""
+princessliege_random_015 = de \
+   "~kPrinzessin Kateriina sagt, \"Ich bin derzeit sehr unzufrieden, bitte "
+   "entfernt Euch aus meinem Audienzzimmer.\""
+princessliege_trigger_amulet = de "amulett"
+princessliege_trigger_bye = de "ciao"
+princessliege_trigger_council = de "ratsmitglied"
+princessliege_trigger_duke = de "herzog"
+princessliege_trigger_hello = de "hallo"
+princessliege_trigger_help = de "hilfe"
+princessliege_trigger_hunter = de "jäger"
+princessliege_trigger_hunter_sword = de "jagdschwert"
+princessliege_trigger_hunter_sword_2 = de "jägerschwert"
+princessliege_trigger_infighting = de "streit"
+princessliege_trigger_insignia = de "insignien"
+princessliege_trigger_join = de "beitreten"
+princessliege_trigger_liege = de "gebieterin"
+princessliege_trigger_loyalty = de "loyalität"
+princessliege_trigger_loyalty_2 = de "botschaft"
+princessliege_trigger_names = de "namen"
+princessliege_trigger_necromancers = de "nekromanten"
+princessliege_trigger_nonfactioned = de "fraktionslos"
+princessliege_trigger_princess = de "prinzessin"
+princessliege_trigger_ranks = de "ränge"
+princessliege_trigger_soldier = de "soldat"
+princessliege_trigger_unfactioned = de "fraktionslose"
+
+// RebelLiege
+rebelliege_speech_001 = de \
+   "~kJonas sagt, \"Du willst Dich der kämpfenden Elite anschließen?\""
+rebelliege_speech_002 = de "~kJonas sagt, \"Du taugst nicht zum Soldaten!\""
+rebelliege_speech_003 = de \
+   "~kJonas sagt, \"Ich bin nicht auf Einkaufstour, Du Idiot.\""
+rebelliege_speech_004 = de \
+   "~kJonas sagt, \"Manche sagen, Konima führe noch immer tief in den "
+   "Eingeweiden dieser Höhlen Krieg. Andere sagen, Shal'ille weine noch "
+   "immer um den verlorenen Krieger. So oder so, er hat die Menschheit vor "
+   "den widerwärtigen Orks gerettet.\""
+rebelliege_speech_005 = de \
+   "~kJonas sagt, \"Das ist ein Zaubertrick, mit dem das Auge eines "
+   "realistischen Kriegers alle vorgetäuschten Tricks durchschaut.\""
+rebelliege_speech_006 = de \
+   "~kJonas sagt, \"Kannst Du es glauben, dass die Prinzessin mit diesem "
+   "Hanswurst wetteifert? Er hat kein Recht auf den Thron! Er ist unfähig zu "
+   "führen! Er macht die Krone lächerlich, und doch lässt Kateriina sich das "
+   "gefallen?\""
+rebelliege_speech_007 = de \
+   "~kJonas sagt, \"Meridian kann nicht ewig zwischen den Königshäusern "
+   "gespalten bleiben! Jemand muss die Führung übernehmen, und ich denke, "
+   "ich weiß, wer...\""
+rebelliege_speech_008 = de \
+   "~kJonas sagt, \"Die Würfel sind gefallen! Wenn die Königin den Thron "
+   "nicht besteigt, dann werde ich es tun!\""
+rebelliege_speech_009 = de \
+   "~kJonas sagt, \"Der Gilliz-Pass liegt viele Meilen südlich von Jasper in "
+   "den Bergen. Bei Gilliz vernichteten wir die Karawane des Ork-Häuptlings "
+   "Huibin und steckten den Rest in Brand.\""
+rebelliege_speech_010 = de \
+   "~kJonas sagt, \"Man sollte meinen, man fühlte sich sehr geehrt, Teil "
+   "eines so großartigen Anfangs wie diesem zu sein.\""
+rebelliege_speech_011 = de \
+   "~kJonas sagt, \"Eile gibt Dir Ausdauer für einen Gewaltmarsch.\""
+rebelliege_speech_012 = de \
+   "~kJonas nickt Dir knapp zu und sagt, \"Rührt euch.\""
+rebelliege_speech_013 = de \
+   "~kJonas sagt, \"Vielleicht gibt es doch noch Hilfe für Dich. Der Wind "
+   "der Veränderung weht in Richtung Jasper. Vielleicht kannst Du Deine "
+   "Dienste dort anbieten.\""
+rebelliege_speech_014 = de \
+   "~kJonas sagt, \"Dieser Spruch verleiht Wissen über Waffen und zeigt dem "
+   "Anwender die wahren Eigenschaften einer Waffe.\""
+rebelliege_speech_015 = de \
+   "~kJonas sagt, \"Die beste leichte Freischärler-Infanterie im Land ist "
+   "das Volk aus Jasper. Im Feld habe ich sie immer als Späher und Führer "
+   "eingesetzt. Nun dienen sie mir gut als Rückgrat der neuen Rebellion.\""
+rebelliege_speech_016 = de \
+   "~kJonas sagt, \"Konima war der größte Held, den die Menschheit kennt. "
+   "Sein Kriegstrupp führte einen erbitterten Angriff auf die Ork-Höhlen "
+   "jenseits des westlichen Verwunschenen Waldes. Sechzig Krieger gingen in "
+   "diese Höhlen, keiner kam zurück.\""
+rebelliege_speech_017 = de \
+   "~kJonas sagt, \"Ich wäre über den Ozean selbst gegangen, um ihr zu Hilfe "
+   "zu eilen.\""
+rebelliege_speech_018 = de \
+   "~kJonas sagt, \"Zieh' den Namen dieses Mädchens nicht in den Dreck oder "
+   "Du wirst meinen Zorn verspüren. Und das wäre kein beneidenswerter "
+   "Zustand - da kannst Du die Orks vom Gilliz-Pass fragen. Wenn Du noch "
+   "einen lebenden findest.\""
+rebelliege_speech_019 = de "~kJonas sagt, \"Hinfort, ~ISchurke~I.\""
+rebelliege_speech_020 = de \
+   "~kJonas sagt, \"Der Zauber Gift widerstehen bedeutet für einen Krieger "
+   "ein bisschen zusätzlichen Schutz gegen Giftstoffe.\""
+rebelliege_speech_021 = de \
+   "~kJonas sagt, \"Enthüllung hält länger an als Identifizieren und macht "
+   "die wahre Natur einer Waffe für alle sichtbar.\""
+rebelliege_speech_022 = de \
+   "~kJonas sagt, \"Er ist wirklich ein bemerkenswerter Schwertkämpfer. "
+   "Fantastisch.\""
+rebelliege_speech_023 = de \
+   "~kJonas sagt, \"Ein kleiner Mann. Klein, sozusagen. Weißt Du, ein "
+   "richtiger Wicht von einem Kerl, der seinen Mangel an ~IKörpergröße~I mit "
+   "kunstvollem Schwertkampf wettzumachen versucht. Ich würde sagen, er ist "
+   "ein guter Mann an Deiner Seite im Kampf, wenn er nicht dieses Gehabe "
+   "eines kleinen Kerls hätte.\""
+rebelliege_speech_024 = de \
+   "~kJonas sagt, \"Ich soll vor der kleinen Ratte Angst haben? DER KERL IST "
+   "EINE KÜCHENSCHABE!!\""
+rebelliege_speech_025 = de \
+   "~kJonas sagt, \"Ich spiele als Nummer acht für Marion beim jährlichen "
+   "Testspiel. Erstklassiges Team.\""
+rebelliege_speech_026 = de \
+   "~kJonas sagt, \"Vielleicht könnte ich Dir ein paar Tricks beibringen, "
+   "die ich unterwegs aufgeschnappt habe.\""
+rebelliege_speech_027 = de \
+   "~kJonas sagt, \"Schutzhülle ist ein mächtiger Zauber, der, auf eine "
+   "Waffe gewirkt, diese Waffe vor magischer Manipulation schützt.\""
+rebelliege_speech_028 = de \
+   "~kJonas sagt, \"Ich habe heute genug Soldaten für die Rebellenmiliz "
+   "begutachtet.\""
+rebelliege_random_001 = de \
+   "~kJonas D'Accor beobachtet sorgfältig die Umgebung, so als würde er "
+   "Ärger erwarten."
+rebelliege_random_002 = de \
+   "~kJonas ist in jeder Beziehung ein respekteinflößender Mann."
+rebelliege_random_003 = de \
+   "~kJonas hält seine Rüstung fleckenlos sauber, er ist das Ebenbild eines "
+   "Berufssoldaten."
+rebelliege_random_004 = de "~kJonas scheint mit sich sehr zufrieden zu sein."
+rebelliege_random_005 = de \
+   "~kJonas sagt, \"Ich liebe dieses ehrenvolle Land.\""
+rebelliege_random_006 = de \
+   "~kJonas sagt, \"Es gibt nur eine Sache, für die es wert ist zu kämpfen - "
+   "und das ist Ehre. Für einen Soldaten bedeutet das die Ehre seines "
+   "Landes.\""
+rebelliege_random_007 = de \
+   "~kJonas sagt, \"Du solltest Dir besser darüber im Klaren sein, wofür Du "
+   "kämpfst. Denn nichts ist es wert, dafür zu kämpfen, wenn es nicht auch "
+   "wert ist, dafür zu sterben.\""
+rebelliege_random_008 = de \
+   "~kJonas sagt, \"Würdest Du mal ein bisschen Platz machen, bitte?\""
+rebelliege_random_009 = de \
+   "~kJonas sagt, \"Das ist also der Lohn für den vielversprechendsten "
+   "Offizier, den dieses Land jemals hervorgebracht hat. Von den Politikern "
+   "in den Ruhestand versetzt, und das in einem Alter, in dem meine Karriere "
+   "am stärksten sein sollte.\""
+rebelliege_random_010 = de \
+   "~kJonas sagt, \"Du möchtest also einer richtigen Armee angehören?\""
+rebelliege_random_011 = de \
+   "~kJonas sagt, \"Ich denke, ich verzichte darauf, ein politischer "
+   "Speichellecker zu sein. Ich möchte mehr sein als das; ich werde mehr "
+   "sein als das.\""
+rebelliege_random_012 = de "~kJonas sagt, \"Wovon sprichst Du eigentlich?\""
+rebelliege_random_013 = de "~kJonas sagt, \"Lass mich in Ruhe und geh.\""
+rebelliege_random_014 = de \
+   "~kJonas sagt, \"Die Politik hat mich in meiner ganzen militärischen "
+   "Laufbahn immer wieder zurückgedrängt. Jetzt ist es an der Zeit, dass ich "
+   "dagegenhalte.\""
+rebelliege_random_015 = de \
+   "~kJonas sagt, \"Ich merke, dass sich eine Armee bildet. Wann hatten wir "
+   "hier zuletzt eine anständige Armee?\""
+rebelliege_random_016 = de \
+   "~kJonas sagt, \"Ich nehme an, Zylill ist qualifiziert, das Militär im "
+   "Rat von Meridian zu vertreten, falls man an dieser Stelle einen "
+   "vertrockneten alten Mann haben will. Trotz seiner Senilität scheint er "
+   "aber klar genug im Kopf zu sein.\""
+rebelliege_random_017 = de \
+   "~kJonas sagt, \"Die Zustände in diesem Land sind erschreckend, seit die "
+   "Regierung zweigeteilt ist zwischen dem rechtmäßigen Königshaus und einem "
+   "armseligen Hund, der sich in teure Kaufmannsgewänder kleidet und sich "
+   "selbst Herzog nennt. Ich habe nicht übel Lust, selbst nach der Krone zu "
+   "greifen.\""
+rebelliege_random_018 = de "~kJonas blickt versonnen in die Ferne."
+rebelliege_random_019 = de "~kJonas sieht müde aus."
+rebelliege_random_020 = de \
+   "~kJonas hat noch immer die kerzengerade Haltung eines Berufssoldaten."
+rebelliege_random_021 = de "~kJonas ist ein sehr stolzer Mann."
+rebelliege_random_022 = de \
+   "~kJonas blickt starr durch die Gegend, bedrohlich und streng."
+rebelliege_random_023 = de \
+   "~kJonas schaut Dir direkt in die Augen, unerschrocken und mit eiskalter "
+   "Präzision."
+rebelliege_random_024 = de "~kJonas lächelt in sich hinein."
+rebelliege_random_025 = de \
+   "~kJonas reibt gedankenverloren die lange Narbe, die längs durch seine "
+   "rechte Gesichtshälfte verläuft."
+rebelliege_random_026 = de \
+   "~kJonas genießt den Ruf, ein brillanter Taktiker zu sein."
+rebelliege_random_027 = de \
+   "~kJonas sagt, \"Wenn Du ausziehst, den Lupoggkönig zu bekämpfen, dann "
+   "halte Dich an diesen taktischen Rat, denn er ist vernünftig. Nimm eine "
+   "große Schar Krieger mit, denn er ist dafür bekannt, fünf oder mehr mit "
+   "Leichtigkeit zu zerfetzen. Außerdem sollte jeweils nur ein Krieger den "
+   "Angriff anführen und sich zurückziehen, sobald er schwere Verletzungen "
+   "davonträgt.\""
+rebelliege_random_028 = de \
+   "~kJonas sagt, \"Wenn der Kampf direkt bevorsteht, sollte Dein erstes "
+   "Gebot sein, die Verbündeten zu verteidigen. Denn die Gegner werden es "
+   "garantiert tun, egal ob Mensch oder Bestie.\""
+rebelliege_random_029 = de \
+   "~kJonas sagt, \"Die wirkungsvollste Art, wie ein Krieger die Extreme "
+   "seines Karmas erreichen kann, ist, einen anderen vom entgegengesetzten "
+   "Extrem zu töten.\""
+rebelliege_random_030 = de \
+   "~kJonas rückt demonstrativ und mit einigem Geschepper seine Rüstung "
+   "zurecht."
+rebelliege_random_031 = de \
+   "~kJonas sagt, \"Ich habe die alten Konima-Legenden erforscht. Du kennst "
+   "doch die Geschichten des großen Konima, oder?\""
+rebelliege_random_032 = de \
+   "~kJonas ist im Grunde nur ein müder alter Mann. Das sieht man jetzt."
+rebelliege_random_033 = de "~kJonas grummelt vor sich hin."
+rebelliege_random_034 = de "~kJonas sagt, \"Pah.\""
+rebelliege_random_035 = de \
+   "~kJonas sagt, \"Ich denke, es ist an der Zeit, den Leuten zu zeigen, wie "
+   "wichtig ich sein kann.\""
+rebelliege_random_036 = de \
+   "~kJonas sagt, \"Euer ganzer Haufen sollte in die Unterwelt versinken.\""
+rebelliege_random_037 = de "~kJonas sagt, \"Lachst Du über mich?\""
+rebelliege_trigger_army = de "armee"
+rebelliege_trigger_sell = de "verkauf"
+rebelliege_trigger_caves = de "höhlen"
+rebelliege_trigger_dispel_illusion = de "illusionen auflösen"
+rebelliege_trigger_duke = de "herzog"
+rebelliege_trigger_grumbles = de "murrt"
+rebelliege_trigger_uprising = de "aufstand"
+rebelliege_trigger_haste = de "eile"
+rebelliege_trigger_hello = de "hallo"
+rebelliege_trigger_help = de "hilfe"
+rebelliege_trigger_identify = de "identifizieren"
+rebelliege_trigger_princess = de "prinzessin"
+rebelliege_trigger_resist_poison = de "gift widerstehen"
+rebelliege_trigger_reveal = de "enthüllung"
+rebelliege_trigger_reveal_2 = de "einblick"
+rebelliege_trigger_buy = de "kaufen"
+rebelliege_trigger_shroud = de "schutzhülle"
+rebelliege_trigger_soldier = de "soldat"

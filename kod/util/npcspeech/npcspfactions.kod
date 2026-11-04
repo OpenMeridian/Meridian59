@@ -1,0 +1,906 @@
+// Meridian 59, Copyright 1994-2012 Andrew Kirmse and Chris Kirmse.
+// All rights reserved.
+//
+// This software is distributed under a license that is described in
+// the LICENSE file that accompanies it.
+//
+// Meridian is a registered trademark.
+
+
+////////////////////////////////////////////////////////////////////////////////
+NpcSpeechFactions is NpcSpeech
+// NPC talk of the faction leaders:
+// answers to trigger words and random lines.
+// Each line is a resource (EN here, DE in the .lkod); Library adds the
+// lists in CreateSpeechLibrary and CreateRandomLibrary.
+
+constants:
+
+   include blakston.khd
+
+resources:
+
+   include npcspfactions.lkod
+
+   // DukeLiege (Duke Akardius)
+   dukeliege_speech_001 = \
+      "~kDuke Akardius says, \"You'd best not consider such an option, your "
+      "health depends upon it. I assure you.\""
+   dukeliege_speech_002 = \
+      "~kDuke Akardius says, \"You'd best not consider such an option, your "
+      "health depends upon it. I assure you.\""
+   dukeliege_speech_003 = \
+      "~kDuke Akardius says, \"Barloque is an overly haughty capital.  "
+      "Blackstone Keep is a far better choice as the Royal center.\""
+   dukeliege_speech_004 = "~kThe Duke smiles, \"You may rise now.\""
+   dukeliege_speech_005 = "~kThe Duke smiles, \"You may rise now.\""
+   dukeliege_speech_006 = \
+      "~kDuke Akardius says, \"You are dismissed. Now go...\""
+   dukeliege_speech_007 = \
+      "~kDuke Akardius says, \"The mettle of a true champion is tested not "
+      "only in the Arena of combat, but also in the arena of the mind.\""
+   dukeliege_speech_008 = \
+      "~kDuke Akardius says, \"The people of Cor Noth have not a clue as to "
+      "the gem they so casually sit upon.\""
+   dukeliege_speech_009 = \
+      "~kDuke Akardius says, \"King Zarcos appointed a council of elders to "
+      "assist the Princess in her youth.  Although their advice is welcome I "
+      "doubt either of us have such need for them anymore.\""
+   dukeliege_speech_010 = \
+      "~kDuke Akardius says, \"You would do well to address me as ~IMy "
+      "Liege~I. I may forgive this transgression.\""
+   dukeliege_speech_011 = \
+      "~kDuke Akardius says, \"Hello to you %s. You may take your place "
+      "among the other petitioners at this time.\""
+   dukeliege_speech_012 = \
+      "~kDuke Akardius says, \"I am lord here. Should you prove worthy to "
+      "join my faction certain benefits would be at your disposal.\""
+   dukeliege_speech_013 = \
+      "~kDuke Akardius says, \"Any faction members caught fighting amongst "
+      "themselves shall be flogged and exiled.  There are more than enough "
+      "worthy foes outside our ranks.\""
+   dukeliege_speech_014 = \
+      "~kDuke Akardius says, \"I do not wish to hand out another insignia at "
+      "this time.\""
+   dukeliege_speech_015 = \
+      "~kDuke Akardius says, \"I had a feeling all along that those people "
+      "were plotting against us, it was just a matter of time until they "
+      "suckered someone into leading their fictitious cause.\""
+   dukeliege_speech_016 = \
+      "~kDuke Akardius looks you over and smirks, \"Not a chance. Be gone!\""
+   dukeliege_speech_017 = \
+      "~kDuke Akardius says, \"Hail %s. So you seek the help of your Duke do "
+      "you?\""
+   dukeliege_speech_018 = \
+      "~kDuke Akardius says, \"Good %s, as you can see, I don't have a task "
+      "for you at this time.\""
+   dukeliege_speech_019 = \
+      "~kDuke Akardius says, \"Marion is a center of peace loving bores, not "
+      "even the food is worth the trip.\""
+   dukeliege_speech_020 = \
+      "~kDuke Akardius says, \"The mettle of a true champion is tested not "
+      "only in the arena of combat, but also in the arena of the mind.\""
+   dukeliege_speech_021 = \
+      "~kDuke Akardius says, \"Remember, there are many young warriors in "
+      "the land who have yet to come of age to join us, watch out for them "
+      "and have care.  We do not wish to alienate those who might become our "
+      "allies.\""
+   dukeliege_speech_022 = \
+      "~kDuke Akardius says, \"My men tell me the Orc Pitboss is a match for "
+      "any man or woman alive. They purport it to be inhumanly fast and "
+      "ungodly strong. I shall need a very special Champion indeed.\""
+   dukeliege_speech_023 = \
+      "~kDuke Akardius says, \"My men tell me the Orc Pitboss is a match for "
+      "any man or woman alive. They purport it to be inhumanly fast and "
+      "ungodly strong. I shall need a very special Champion indeed.\""
+   dukeliege_speech_024 = \
+      "~kDuke Akardius says, \"A willful woman is the Princess. Fine royal "
+      "blood courses through her delicate veins. She would make an excellent "
+      "consort to a worthy King. Of course, if she were too unruly, I would "
+      "toss her out on her ear. Let her find her way back to her threadbare "
+      "temple.\""
+   dukeliege_speech_025 = \
+      "~kDuke Akardius says, \"I am not reviewing applicants right now.  "
+      "Come back later.\""
+   dukeliege_speech_026 = \
+      "~kDuke Akardius says, \"I do so enjoy the cultured presence of Tos.\""
+   dukeliege_speech_027 = \
+      "~kDuke Akardius says, \"Remember, there are many young warriors in "
+      "the land who have yet to come of age to join us, watch out for them "
+      "and have care.  We do not wish to alienate those who might become our "
+      "allies.\""
+   dukeliege_random_001 = \
+      "~kDuke Akardius says, \"My subjects have often need of couriers.  "
+      "Should you prove your worth to them, I may be inclined to pay you "
+      "attention.\""
+   dukeliege_random_002 = \
+      "~kDuke Akardius sighs, \"My dear uncle almost emptied the coffers to "
+      "refurbish that stone creation of an Arena. And to think that there "
+      "still aren't padded seats.\""
+   dukeliege_random_003 = \
+      "~kDuke Akardius says, \"I'd like to build another castle on the "
+      "island of Ko'catan someday.  Blackstone Keep is the second oldest "
+      "castle in the land, and quite drafty.\""
+   dukeliege_random_004 = \
+      "~kDuke Akardius says, \"Presently the council spends far too much "
+      "time studying those tokens, but if that is what makes her...them "
+      "happy then I shall lend whatever resources available to help them.\""
+   dukeliege_random_005 = \
+      "~kDuke Akardius says, \"The Princess spends far too much time with "
+      "her nose in those books, the space from her library could be put to "
+      "much better use.\""
+   dukeliege_random_006 = \
+      "~kDuke Akardius says, \"I trust you have indulged in the marvels of "
+      "Tos. If not, then you must take in the sunset from the old graveyard; "
+      "the view is...unforgettable.\""
+   dukeliege_random_007 = \
+      "~kDuke Akardius says, \"My poor, dear uncle. Is it not odd how he met "
+      "his death under mysterious circumstances similar to King Zarcos IV?  "
+      "Maybe the keep is cursed.\""
+   dukeliege_random_008 = \
+      "~kDuke Akardius says, \"To this day, I do wonder if the spirit of "
+      "Queen Katria revels in her most marvellous sacrifice of life for her "
+      "daughters.\""
+   dukeliege_random_009 = \
+      "~kDuke Akardius says, \"By my word the King is mad and must never "
+      "again regain power!\""
+   dukeliege_random_010 = \
+      "~kDuke Akardius yawns, \"Why again is it that you seek an audience "
+      "with me?\""
+   dukeliege_random_011 = \
+      "~kDuke Akardius says, \"The more inexperienced look to our faction "
+      "and members for leadership and guidance throughout this land.\""
+   dukeliege_random_012 = \
+      "~kDuke Akardius says, \"Periodically, I ask that my followers display "
+      "their ~Iloyalty~I.\""
+   dukeliege_random_013 = \
+      "~kDuke Akardius says, \"All is well in this kingdom. The council "
+      "quite reasonably accords me the respect due my station through their "
+      "support of me.\""
+   dukeliege_random_014 = \
+      "~kDuke Akardius says, \"I assume you are aware of proper etiquette "
+      "when presented before one such as a Duke.\""
+   dukeliege_random_015 = \
+      "~kDuke Akardius says, \"If you train well, I might consider you to "
+      "Champion me so that we might best the Chieftain of the Orcs.\""
+   dukeliege_random_016 = \
+      "~kDuke Akardius says, \"Although I can see how the council could be "
+      "so taken with the Princess, surely they shall come to realize her "
+      "innocence in matters of politics and power.\""
+   dukeliege_random_017 = \
+      "~kDuke Akardius says sourly, \"Kateriina appears to be busy beguiling "
+      "the council at present. Quite interesting.\""
+   dukeliege_trigger_back_stabbing = "back stabbing"
+   dukeliege_trigger_backstabbing = "backstabbing"
+   dukeliege_trigger_barloque = "barloque"
+   dukeliege_trigger_bow = "bow"
+   dukeliege_trigger_bows = "bows"
+   dukeliege_trigger_bye = "bye"
+   dukeliege_trigger_bye_2 = "bye"
+   dukeliege_trigger_bye_3 = "bye"
+   dukeliege_trigger_champion = "champion"
+   dukeliege_trigger_cor_noth = "cor noth"
+   dukeliege_trigger_council = "council"
+   dukeliege_trigger_duke = "duke"
+   dukeliege_trigger_hello = "hello"
+   dukeliege_trigger_help = "help"
+   dukeliege_trigger_infighting = "infighting"
+   dukeliege_trigger_insignia = "insignia"
+   dukeliege_trigger_insignia_2 = "insignia"
+   dukeliege_trigger_jasper = "jasper"
+   dukeliege_trigger_join = "join"
+   dukeliege_trigger_liege = "liege"
+   dukeliege_trigger_liege_2 = "liege"
+   dukeliege_trigger_loyalty = "loyalty"
+   dukeliege_trigger_marion = "marion"
+   dukeliege_trigger_master = "master"
+   dukeliege_trigger_nonfactioned = "nonfactioned"
+   dukeliege_trigger_orc_chieftain = "orc chieftain"
+   dukeliege_trigger_orc_pitboss = "orc pitboss"
+   dukeliege_trigger_princess = "princess"
+   dukeliege_trigger_soldier = "soldier"
+   dukeliege_trigger_tos = "tos"
+   dukeliege_trigger_unfactioned = "unfactioned"
+
+   // PrincessLiege (Princess Kateriina)
+   princessliege_speech_001 = \
+      "~kPrincess Kateriina says, \"Such tangible evidence would surely "
+      "prove that there is more to the old story than first thought. Bring "
+      "me one of these pendants.\""
+   princessliege_speech_002 = \
+      "~kPrincess Kateriina says, \"Bring me one of these pendants. It is "
+      "vital for us to have the chance to study one of these artifacts.\""
+   princessliege_speech_003 = \
+      "~kPrincess Kateriina says, \"Fair Barloque, 'tis the royal city of "
+      "the land. The loyal citizens merit the respect befitting of the "
+      "gentlemen and ladies of the court.\""
+   princessliege_speech_004 = \
+      "~kPrincess Kateriina says, \"The King always told me Brax is where my "
+      "family's bloodlines began.  It was my ancestor, Zarrus, who fled that "
+      "land to settle in Tos.\""
+   princessliege_speech_005 = \
+      "~kPrincess Kateriina says, \"Of course I have heard the story of how "
+      "the city fell beneath the earth by the magic of Tendrath.  I believe "
+      "the exact historical location is somewhat southwest of here.\""
+   princessliege_speech_006 = \
+      "~kPrincess Kateriina says, \"Fare thee well. Travel with my "
+      "blessings.\""
+   princessliege_speech_007 = \
+      "~kPrincess Kateriina says, \"I have been not to Cor Noth, but one day "
+      "I may go to learn from its grand university.\""
+   princessliege_speech_008 = \
+      "~kPrincess Kateriina says, \"Dear father hath sent five elders to "
+      "advise me in his own absence. All are tolerably old but wise. Shall I "
+      "tell thee their names?\""
+   princessliege_speech_009 = \
+      "~kPrincess Kateriina says, \"Although I find Duke Akardius amiable, I "
+      "still don't see as to why this silly contention with him must "
+      "persist, for I am rightful heir to the throne.\""
+   princessliege_speech_010 = \
+      "~kPrincess Kateriina says, \"Welcome %s, my loyal subject.\""
+   princessliege_speech_011 = \
+      "~kPrincess Kateriina says, \"I am the ruler of Barloque. I show favor "
+      "to those who ~Ijoin~I my faction.\""
+   princessliege_speech_012 = \
+      "~kPrincess Kateriina says, \"Should the necromancers truly be out "
+      "there, let us hope that there are a few hunters out there as well.\""
+   princessliege_speech_013 = \
+      "~kPrincess Kateriina says, \"The story tells that Kara'set was the "
+      "very first huntress of this kind. The story also mentions that she "
+      "possessed a magic sword which was taken by Venya'cyr.\""
+   princessliege_speech_014 = \
+      "~kPrincess Kateriina says, \"I have heard that their swords are "
+      "filled with magical energy that is especially effective against those "
+      "whose souls are black as a moonless night.\""
+   princessliege_speech_015 = \
+      "~kPrincess Kateriina says, \"Murder and treachery within the ranks is "
+      "unacceptable, although bringing a criminal to their due justice is an "
+      "honorable service.\""
+   princessliege_speech_016 = \
+      "~kPrincess Kateriina says, \"Thou hath no reason to carry my "
+      "insignia.\""
+   princessliege_speech_017 = \
+      "~kPrincess Kateriina says, \"Jasper produces such pretty gems.  It is "
+      "a shame that they have chosen to rebel against order and stability, "
+      "but I am sure in time they shall recognize the error of their "
+      "actions.\""
+   princessliege_speech_018 = \
+      "~kPrincess Kateriina says, \"There is little reason to join at this "
+      "time.\""
+   princessliege_speech_019 = \
+      "~kPrincess Kateriina says, \"The evil powers of the Urn transformed "
+      "Venya'cyr into a being called a Lich. The legends say that Liches "
+      "cannot be killed.\""
+   princessliege_speech_020 = \
+      "~kPrincess Kateriina says, \"Hail %s %s. How may I give help to thee? "
+      "\""
+   princessliege_speech_021 = \
+      "~kPrincess Kateriina says, \"I thank thee, but I have no errands for "
+      "thee.\""
+   princessliege_speech_022 = \
+      "~kPrincess Kateriina says, \"A pleasant town is Marion. I should wish "
+      "to play in her orchards as I did as a girl.\""
+   princessliege_speech_023 = \
+      "~kPrincess Kateriina says, \"Closest to my dear father is Alzahakar "
+      "the All-Mage, there is none more learned in the ways of magic as he. "
+      "Kind Esseldi and calm Drechx, I have pleasure to call friends. "
+      "Hardened Cylill and stingy Bei Naq are not entirely foreign to me as "
+      "well.\""
+   princessliege_speech_024 = \
+      "~kPrincess Kateriina says, \"Many have told me that they truly roam "
+      "the world. I think we must find out where and why?\""
+   princessliege_speech_025 = \
+      "~kPrincess Kateriina says, \"There are many young men and women among "
+      "the land who look to us for protection, make sure to treat them as "
+      "you would your own sibling, for in time they could grow to be of much "
+      "help to our cause.\""
+   princessliege_speech_026 = \
+      "~kPrincess Kateriina says, \"How now, kind and gentle.\""
+   princessliege_speech_027 = \
+      "~kPrincess Kateriina says, \"We are as close as any family, and like "
+      "a family any member who would think to harm another will be punished "
+      "and cast out.\""
+   princessliege_speech_028 = \
+      "~kPrincess Kateriina says, \"I am weary from evaluating people to "
+      "join my army.  Please, leave me in peace for now.\""
+   princessliege_speech_029 = \
+      "~kPrincess Kateriina says, \"He is the old mage who made the city of "
+      "Brax sink into the earth. The hunter swords were crafted by him as "
+      "well. His is a sad story.\""
+   princessliege_speech_030 = \
+      "~kPrincess Kateriina says, \"Yonder Tos seems not to have the loyalty "
+      "that the crown requires, yet still, 'tis a goodly town.\""
+   princessliege_speech_031 = \
+      "~kPrincess Kateriina says, \"There are many young men and women among "
+      "the land who look to us for protection, make sure to treat them as "
+      "you would your own sibling, for in time they could grow to be of much "
+      "help to our cause.\""
+   princessliege_speech_032 = \
+      "~kPrincess Kateriina says, \"Well, as the story goes, her reign ended "
+      "when her entire palace was eaten by the earth.  Legends say that she "
+      "made a pact to live forever.\""
+   princessliege_speech_033 = \
+      "~kPrincess Kateriina says, \"Yes he is one of my oldest ancestors.  "
+      "One rumor states that when he served in the court of Venya'cyr he had "
+      "the misfortune of touching a vessel of great corruption.  Many of my "
+      "family believe that we have been cursed from that day forward.\""
+   princessliege_random_001 = \
+      "~kPrincess Kateriina says, \"Many of my loyal subjects require "
+      "errands run from time to time. If thou could help them, they may "
+      "reward thy efforts accordingly.\""
+   princessliege_random_002 = \
+      "~kPrincess Kateriina says, \"In faith, salvation rests in magic. It "
+      "would behoove thee to seek one of the several temples spread about "
+      "our land.\""
+   princessliege_random_003 = \
+      "~kPrincess Kateriina says, \"If thou finds thyself in yonder Twisted "
+      "Forest, take time to visit ancient Alzahakar in his home. He is a "
+      "most wondrous sorcerer.\""
+   princessliege_random_004 = \
+      "~kPrincess Kateriina says, \"It is my greatest pleasure of late to "
+      "have the fair lady Madelia here within mine own castle to sew my "
+      "dresses. How gleeful am I indeed.\""
+   princessliege_random_005 = \
+      "~kPrincess Kateriina says, \"Unlike the Duke, my banquet room remains "
+      "ever accessible to all of my subjects. Mayhap one day I shall have "
+      "fine chefs in waiting as well.\""
+   princessliege_random_006 = \
+      "~kPrincess Kateriina says, \"Yonder temple of our lady, Shal'ille, "
+      "lies betwixt gentle Marion and the forest of the Fey.\""
+   princessliege_random_007 = \
+      "~kPrincess Kateriina says, \"I miss mine mother. Though I have never "
+      "met her but for a moment on birth, my feelings for her are as strong "
+      "as any child for their parent.\""
+   princessliege_random_008 = \
+      "~kPrincess Kateriina says, \"My dear father is not at all well. He "
+      "was ever in mourning with the passing of my mother, yet of late, his "
+      "mind loses hold of the tangible world around him.\""
+   princessliege_random_009 = \
+      "~kPrincess Kateriina says, \"Hath thou seen Captain Rook of late? I "
+      "took him to be gallant, yet perchance my judgment hath mistook his "
+      "temper. How doth he fare, I do wonder.\""
+   princessliege_random_010 = \
+      "~kPrincess Kateriina says, \"~ILoyalty~I must be continually shown, "
+      "not merely proven but once.\""
+   princessliege_random_011 = \
+      "~kPrincess Kateriina says, \"I grant thee my permission and blessing "
+      "to explore mine libraries. Thou will find knowledge of great measure "
+      "within.\""
+   princessliege_random_012 = \
+      "~kPrincess Kateriina says, \"Spirits are high in hither court. I "
+      "would to declare that I am most pleased with the affairs of state.\""
+   princessliege_random_013 = \
+      "~kPrincess Kateriina says, \"All is well with the kingdom. Mayhap I "
+      "should declare a holiday or dedicate a structure.\""
+   princessliege_random_014 = \
+      "~kPrincess Kateriina says, \"Am I not the blood of mine own father? "
+      "Is he not the King? Although the young Duke is quite intelligent he "
+      "is still not of the royal line.  I am most displeased.\""
+   princessliege_random_015 = \
+      "~kPrincess Kateriina says, \"I am most displeased at present, please "
+      "remove thyself from mine audience room.\""
+   princessliege_trigger_amulet = "amulet"
+   princessliege_trigger_barloque = "barloque"
+   princessliege_trigger_brax = "brax"
+   princessliege_trigger_bye = "bye"
+   princessliege_trigger_cor_noth = "cor noth"
+   princessliege_trigger_council = "council"
+   princessliege_trigger_duke = "duke"
+   princessliege_trigger_hello = "hello"
+   princessliege_trigger_help = "help"
+   princessliege_trigger_hunter = "hunter"
+   princessliege_trigger_hunter_sword = "hunter sword"
+   princessliege_trigger_hunter_sword_2 = "hunter sword"
+   princessliege_trigger_infighting = "infighting"
+   princessliege_trigger_insignia = "insignia"
+   princessliege_trigger_jasper = "jasper"
+   princessliege_trigger_join = "join"
+   princessliege_trigger_lich = "lich"
+   princessliege_trigger_liege = "liege"
+   princessliege_trigger_loyalty = "loyalty"
+   princessliege_trigger_loyalty_2 = "loyalty"
+   princessliege_trigger_marion = "marion"
+   princessliege_trigger_names = "names"
+   princessliege_trigger_necromancers = "necromancers"
+   princessliege_trigger_nonfactioned = "nonfactioned"
+   princessliege_trigger_princess = "princess"
+   princessliege_trigger_ranks = "ranks"
+   princessliege_trigger_soldier = "soldier"
+   princessliege_trigger_tendrath = "tendrath"
+   princessliege_trigger_tos = "tos"
+   princessliege_trigger_unfactioned = "unfactioned"
+   princessliege_trigger_venya_cyr = "venya'cyr"
+   princessliege_trigger_zarrus = "zarrus"
+
+   // RebelLiege (Jonas D'Accor)
+   rebelliege_speech_001 = \
+      "~kJonas says, \"You wanna join the fighting elite?\""
+   rebelliege_speech_002 = \
+      "~kJonas says, \"You are not fit to be a soldier!\""
+   rebelliege_speech_003 = \
+      "~kJonas says, \"I am not out on a shopping trip, you idiot.\""
+   rebelliege_speech_004 = \
+      "~kJonas says, \"Some say Konima still rages a war deep in the bowels "
+      "of those caves.  Others say Shal'ille still cries for the lost "
+      "warrior.  Either way, he saved humankind from the foul orcs.\""
+   rebelliege_speech_005 = \
+      "~kJonas says, \"This is a trick to reveal all illusionary tricks to "
+      "the pragmatic warrior's eye.\""
+   rebelliege_speech_006 = \
+      "~kJonas says, \"Can you believe that the Princess contends with that "
+      "fool? He has no claim to the throne! He is incapable of leadership! "
+      "He makes a mockery of the crown, and yet Kateriina puts up with it?\""
+   rebelliege_speech_007 = \
+      "~kJonas says, \"Meridian can't go on forever split between the Royal "
+      "Houses! Some one must take charge, and I think I know who...\""
+   rebelliege_speech_008 = \
+      "~kJonas says, \"The axe has fallen! If the queen does not take the "
+      "throne, then I shall!\""
+   rebelliege_speech_009 = \
+      "~kJonas says, \"Gilliz Pass is away in the mountains south of Jasper "
+      "many leagues. It was at Gilliz that we slaughtered the caravan under "
+      "the orc chieftain Huibin, and put the rest to the torch.\""
+   rebelliege_speech_010 = \
+      "~kJonas says, \"One would think that one would be greatly honored to "
+      "be a part of such a grand beginning such as this.\""
+   rebelliege_speech_011 = \
+      "~kJonas says, \"Haste will give you stamina for a forced march.\""
+   rebelliege_speech_012 = \
+      "~kJonas crisply nods at you and says, \"At ease.\""
+   rebelliege_speech_013 = \
+      "~kJonas says, \"There may be help for you yet. The winds of change "
+      "blow toward Jasper. Maybe your services can be rendered there.\""
+   rebelliege_speech_014 = \
+      "~kJonas says, \"This spell grants knowledge of weapons and shows the "
+      "caster the true properties of a weapon.\""
+   rebelliege_speech_015 = \
+      "~kJonas says, \"The best irregular light infantry in the land, the "
+      "Jasper folk. When on the campaign I have always used them as scouts "
+      "and guides. Now they serve me well as the backbone of the new "
+      "rebellion.\""
+   rebelliege_speech_016 = \
+      "~kJonas says, \"Konima was the greatest hero known to man.  His war "
+      "party led a vicious assault on the Orc caves beyond the Western "
+      "Twisted Forest.  Sixty warriors went in those caves, none came back.\""
+   rebelliege_speech_017 = \
+      "~kJonas says, \"I would have walked across the ocean itself to come "
+      "to her aid.\""
+   rebelliege_speech_018 = \
+      "~kJonas says, \"Do not sully the name of that maiden or you shall "
+      "incur my wrath. And that is not an enviable position, you may ask the "
+      "orcs of Gilliz Pass about that. If you can find one living.\""
+   rebelliege_speech_019 = "~kJonas says, \"Be gone, ~Iknave~I.\""
+   rebelliege_speech_020 = \
+      "~kJonas says, \"Resist poison is a little extra protection for the "
+      "warrior against toxins.\""
+   rebelliege_speech_021 = \
+      "~kJonas says, \"Reveal is more lasting than identify, and will reveal "
+      "the nature of a weapon for all to see.\""
+   rebelliege_speech_022 = \
+      "~kJonas says, \"He really is a remarkable swordsman. Fantastic.\""
+   rebelliege_speech_023 = \
+      "~kJonas says, \"A little man. Small, like. You know, a regular runt "
+      "of a guy, trying to make up for his lack of ~Istature~I with fancy "
+      "swordplay. I would say that he's a good man to have along in a fight "
+      "if it weren't for his little guy attitude.\""
+   rebelliege_speech_024 = \
+      "~kJonas says, \"Like I'm scared of that little rodent? THAT MAN IS A "
+      "COCKROACH!!\""
+   rebelliege_speech_025 = \
+      "~kJonas says, \"I play number eight for Marion in the annual test. "
+      "First rate team.\""
+   rebelliege_speech_026 = \
+      "~kJonas says, \"I might be able to show you a few tricks, things I've "
+      "picked up along the way.\""
+   rebelliege_speech_027 = \
+      "~kJonas says, \"Shroud is a powerful incantation that when cast upon "
+      "a weapon, will protect that weapon from magical tampering.\""
+   rebelliege_speech_028 = \
+      "~kJonas says, \"I have evaluated enough soldiers for the rebel "
+      "militia today.\""
+   rebelliege_random_001 = \
+      "~kJonas D'Accor watches the area carefully, as if expecting trouble."
+   rebelliege_random_002 = "~kJonas is a formidable man by any reckoning."
+   rebelliege_random_003 = \
+      "~kJonas keeps his armor spotless, the very picture of a professional "
+      "soldier."
+   rebelliege_random_004 = "~kJonas seems quite pleased with himself."
+   rebelliege_random_005 = "~kJonas says, \"I love this honorable land.\""
+   rebelliege_random_006 = \
+      "~kJonas says, \"There is only one thing worth fighting for, and "
+      "that's honor. For a soldier that means the honor of their country.\""
+   rebelliege_random_007 = \
+      "~kJonas says, \"You better make sure that you understand what it is "
+      "you're fighting over. Because nothing is worth fighting over, unless "
+      "it's also worth dying for too.\""
+   rebelliege_random_008 = \
+      "~kJonas says, \"Will you give me a little room, please?\""
+   rebelliege_random_009 = \
+      "~kJonas says, \"This is the reward for the most promising military "
+      "officer this country has ever produced. Retired by the politicians, "
+      "and at an age when my career should be the strongest.\""
+   rebelliege_random_010 = \
+      "~kJonas says, \"You looking to join a real army?\""
+   rebelliege_random_011 = \
+      "~kJonas says, \"I think I'll pass on being a political toady. I "
+      "desire to be more than that; I will be more than that.\""
+   rebelliege_random_012 = "~kJonas says, \"What are you talking about?\""
+   rebelliege_random_013 = "~kJonas says, \"Get away from me.\""
+   rebelliege_random_014 = \
+      "~kJonas says, \"Politics have been pushing me back my entire military "
+      "career. Now is the time that I started pushing back.\""
+   rebelliege_random_015 = \
+      "~kJonas says, \"I smell the makings of an army. How long has it been "
+      "since we had a decent army around here?\""
+   rebelliege_random_016 = \
+      "~kJonas says, \"Cylill is qualified to represent the military on the "
+      "Meridian Council, I suppose, if you want a dried up old man in that "
+      "spot. He seems lucid enough, though, despite his senility.\""
+   rebelliege_random_017 = \
+      "~kJonas says, \"The state of leadership in this land has become quite "
+      "shocking when governing is split between the rightful Royal house and "
+      "some beggard dog dressed in expensive merchant's clothing and calling "
+      "himself a Duke. I have a mind to seek the crown myself.\""
+   rebelliege_random_018 = \
+      "~kJonas stares off into the distance with a faraway gaze."
+   rebelliege_random_019 = "~kJonas looks tired."
+   rebelliege_random_020 = \
+      "~kJonas still retains the ramrod straight posture of a professional "
+      "soldier."
+   rebelliege_random_021 = "~kJonas is a very proud man."
+   rebelliege_random_022 = "~kJonas stares about, menacing and stern."
+   rebelliege_random_023 = \
+      "~kJonas looks straight into your eyes, undaunted and with icy "
+      "precision."
+   rebelliege_random_024 = "~kJonas smiles to himself."
+   rebelliege_random_025 = \
+      "~kJonas absently rubs the long scar that runs the length of his face "
+      "on the right hand side."
+   rebelliege_random_026 = \
+      "~kJonas has the reputation of being a brilliant tactician."
+   rebelliege_random_027 = \
+      "~kJonas says, \"If you venture to battle the Lupogg King, then follow "
+      "this tactical advice for it is sound. Take a large band of warriors "
+      "to the task, for indeed he has been known to shred five or more with "
+      "ease. Also, one warrior should lead the attack at a time, retiring as "
+      "they receive grievous wounds.\""
+   rebelliege_random_028 = \
+      "~kJonas says, \"When in the face of battle, your first order must be "
+      "to defend your allies. For your opponents will certainly do so, "
+      "whether man or beast.\""
+   rebelliege_random_029 = \
+      "~kJonas says, \"The most effective of ways for a warrior to reach the "
+      "extremes of their karma is to slay another at the opposite extreme.\""
+   rebelliege_random_030 = \
+      "~kJonas makes a show of shifting his armor around, making some noise."
+   rebelliege_random_031 = \
+      "~kJonas says, \"I've been researching the old Konima legends.  You "
+      "know the stories of the great Konima, don't you?\""
+   rebelliege_random_032 = \
+      "~kJonas is mostly just a tired old man. You can see that now."
+   rebelliege_random_033 = "~kJonas grumbles to himself."
+   rebelliege_random_034 = "~kJonas says, \"Bah.\""
+   rebelliege_random_035 = \
+      "~kJonas says, \"I think it is time I showed the people how important "
+      "I can be.\""
+   rebelliege_random_036 = \
+      "~kJonas says, \"To the underworld with the lot of you.\""
+   rebelliege_random_037 = "~kJonas says, \"Are you laughing at me?\""
+   rebelliege_trigger_army = "army"
+   rebelliege_trigger_sell = "sell"
+   rebelliege_trigger_caves = "caves"
+   rebelliege_trigger_dispel_illusion = "dispel illusion"
+   rebelliege_trigger_duke = "duke"
+   rebelliege_trigger_gilliz_pass = "gilliz pass"
+   rebelliege_trigger_grumbles = "grumbles"
+   rebelliege_trigger_uprising = "uprising"
+   rebelliege_trigger_haste = "haste"
+   rebelliege_trigger_hello = "hello"
+   rebelliege_trigger_help = "help"
+   rebelliege_trigger_identify = "identify"
+   rebelliege_trigger_jasper = "jasper"
+   rebelliege_trigger_konima = "konima"
+   rebelliege_trigger_princess = "princess"
+   rebelliege_trigger_resist_poison = "resist poison"
+   rebelliege_trigger_reveal = "reveal"
+   rebelliege_trigger_reveal_2 = "reveal"
+   rebelliege_trigger_rook = "rook"
+   rebelliege_trigger_roluk = "roluk"
+   rebelliege_trigger_rugby = "rugby"
+   rebelliege_trigger_buy = "buy"
+   rebelliege_trigger_shroud = "shroud"
+   rebelliege_trigger_soldier = "soldier"
+
+messages:
+
+   GetSpeechLibrary()
+   "Speech library nodes: [class, [[triggers, mood, action, key], ...]]"
+   {
+      local lLib;
+
+      lLib = $;
+
+      lLib = Cons([&DukeLiege,[
+         [[dukeliege_trigger_back_stabbing],0,
+            [LIBACT_QUOTE_RSC,dukeliege_speech_001],1],
+         [[dukeliege_trigger_backstabbing],0,
+            [LIBACT_QUOTE_RSC,dukeliege_speech_002],2],
+         [[dukeliege_trigger_barloque],0,
+            [LIBACT_QUOTE_RSC,dukeliege_speech_003],3],
+         [[dukeliege_trigger_bow],0,
+            [LIBACT_QUOTE_RSC,dukeliege_speech_004],4],
+         [[dukeliege_trigger_bows],0,
+            [LIBACT_QUOTE_RSC,dukeliege_speech_005],5],
+         [[dukeliege_trigger_bye,
+            dukeliege_trigger_bye_2,
+            dukeliege_trigger_bye_3],0,
+            [LIBACT_QUOTE_RSC,dukeliege_speech_006],6],
+         [[dukeliege_trigger_champion],0,
+            [LIBACT_QUOTE_RSC,dukeliege_speech_007],7],
+         [[dukeliege_trigger_cor_noth],0,
+            [LIBACT_QUOTE_RSC,dukeliege_speech_008],8],
+         [[dukeliege_trigger_council],0,
+            [LIBACT_QUOTE_RSC,dukeliege_speech_009],9],
+         [[dukeliege_trigger_duke],0,
+            [LIBACT_QUOTE_RSC,dukeliege_speech_010],10],
+         [[dukeliege_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,dukeliege_speech_011,[LIBPLUG_NAME]],11],
+         [[dukeliege_trigger_help],0,
+            [LIBACT_QUOTE_RSC,dukeliege_speech_012],12],
+         [[dukeliege_trigger_infighting],0,
+            [LIBACT_QUOTE_RSC,dukeliege_speech_013],13],
+         [[dukeliege_trigger_insignia,dukeliege_trigger_insignia_2],0,
+            [LIBACT_QUOTE_RSC,dukeliege_speech_014],14],
+         [[dukeliege_trigger_jasper],0,
+            [LIBACT_QUOTE_RSC,dukeliege_speech_015],15],
+         [[dukeliege_trigger_join],0,
+            [LIBACT_QUOTE_RSC,dukeliege_speech_016],16],
+         [[dukeliege_trigger_liege,dukeliege_trigger_liege_2],0,
+            [LIBACT_QUOTE_RSC,dukeliege_speech_017,[LIBPLUG_SIRMADAM]],17],
+         [[dukeliege_trigger_loyalty],0,
+            [LIBACT_QUOTE_RSC,dukeliege_speech_018,[LIBPLUG_SIRMADAM]],18],
+         [[dukeliege_trigger_marion],0,
+            [LIBACT_QUOTE_RSC,dukeliege_speech_019],19],
+         [[dukeliege_trigger_master],0,
+            [LIBACT_QUOTE_RSC,dukeliege_speech_020],20],
+         [[dukeliege_trigger_nonfactioned],0,
+            [LIBACT_QUOTE_RSC,dukeliege_speech_021],21],
+         [[dukeliege_trigger_orc_chieftain],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,dukeliege_speech_022],22],
+         [[dukeliege_trigger_orc_pitboss],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,dukeliege_speech_023],23],
+         [[dukeliege_trigger_princess],0,
+            [LIBACT_QUOTE_RSC,dukeliege_speech_024],24],
+         [[dukeliege_trigger_soldier],0,
+            [LIBACT_QUOTE_RSC,dukeliege_speech_025],25],
+         [[dukeliege_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,dukeliege_speech_026],26],
+         [[dukeliege_trigger_unfactioned],0,
+            [LIBACT_QUOTE_RSC,dukeliege_speech_027],27]
+      ]],lLib);
+
+      lLib = Cons([&PrincessLiege,[
+         [[princessliege_trigger_amulet],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_001],1],
+         [[princessliege_trigger_amulet],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_002],2],
+         [[princessliege_trigger_barloque],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_003],3],
+         [[princessliege_trigger_brax],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_004],4],
+         [[princessliege_trigger_brax],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_005],5],
+         [[princessliege_trigger_bye],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_006],6],
+         [[princessliege_trigger_cor_noth],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_007],7],
+         [[princessliege_trigger_council],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_008],8],
+         [[princessliege_trigger_duke],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_009],9],
+         [[princessliege_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_010,[LIBPLUG_NAME]],10],
+         [[princessliege_trigger_help],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_011],11],
+         [[princessliege_trigger_hunter],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_012],12],
+         [[princessliege_trigger_hunter],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_013],13],
+         [[princessliege_trigger_hunter_sword,
+            princessliege_trigger_hunter_sword_2],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_014],14],
+         [[princessliege_trigger_infighting],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_015],15],
+         [[princessliege_trigger_insignia],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_016],16],
+         [[princessliege_trigger_jasper],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_017],17],
+         [[princessliege_trigger_join],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_018],18],
+         [[princessliege_trigger_lich],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_019],19],
+         [[princessliege_trigger_liege],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_020,
+               [LIBPLUG_SIRMADAM,LIBPLUG_NAME]],20],
+         [[princessliege_trigger_loyalty,princessliege_trigger_loyalty_2],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_021],21],
+         [[princessliege_trigger_marion],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_022],22],
+         [[princessliege_trigger_names],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_023],23],
+         [[princessliege_trigger_necromancers],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_024],24],
+         [[princessliege_trigger_nonfactioned],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_025],25],
+         [[princessliege_trigger_princess],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_026],26],
+         [[princessliege_trigger_ranks],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_027],27],
+         [[princessliege_trigger_soldier],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_028],28],
+         [[princessliege_trigger_tendrath],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_029],29],
+         [[princessliege_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_030],30],
+         [[princessliege_trigger_unfactioned],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_031],31],
+         [[princessliege_trigger_venya_cyr],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_032],32],
+         [[princessliege_trigger_zarrus],0,
+            [LIBACT_QUOTE_RSC,princessliege_speech_033],33]
+      ]],lLib);
+
+      lLib = Cons([&RebelLiege,[
+         [[rebelliege_trigger_army],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,rebelliege_speech_001],1],
+         [[rebelliege_trigger_army],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,rebelliege_speech_002],2],
+         [[rebelliege_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,rebelliege_speech_003],3],
+         [[rebelliege_trigger_caves],0,
+            [LIBACT_QUOTE_RSC,rebelliege_speech_004],4],
+         [[rebelliege_trigger_dispel_illusion],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,rebelliege_speech_005],5],
+         [[rebelliege_trigger_duke],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,rebelliege_speech_006],6],
+         [[rebelliege_trigger_duke],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,rebelliege_speech_007],7],
+         [[rebelliege_trigger_duke],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,rebelliege_speech_008],8],
+         [[rebelliege_trigger_gilliz_pass],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,rebelliege_speech_009],9],
+         [[rebelliege_trigger_grumbles,rebelliege_trigger_uprising],0,
+            [LIBACT_QUOTE_RSC,rebelliege_speech_010],10],
+         [[rebelliege_trigger_haste],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,rebelliege_speech_011],11],
+         [[rebelliege_trigger_hello],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,rebelliege_speech_012],12],
+         [[rebelliege_trigger_help],0,
+            [LIBACT_QUOTE_RSC,rebelliege_speech_013],13],
+         [[rebelliege_trigger_identify],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,rebelliege_speech_014],14],
+         [[rebelliege_trigger_jasper],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,rebelliege_speech_015],15],
+         [[rebelliege_trigger_konima],0,
+            [LIBACT_QUOTE_RSC,rebelliege_speech_016],16],
+         [[rebelliege_trigger_princess],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,rebelliege_speech_017],17],
+         [[rebelliege_trigger_princess],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,rebelliege_speech_018],18],
+         [[rebelliege_trigger_princess],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,rebelliege_speech_019],19],
+         [[rebelliege_trigger_resist_poison],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,rebelliege_speech_020],20],
+         [[rebelliege_trigger_reveal,
+            rebelliege_trigger_reveal_2],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,rebelliege_speech_021],21],
+         [[rebelliege_trigger_rook,rebelliege_trigger_roluk],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,rebelliege_speech_022],22],
+         [[rebelliege_trigger_rook,
+            rebelliege_trigger_roluk],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,rebelliege_speech_023],23],
+         [[rebelliege_trigger_rook,rebelliege_trigger_roluk],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,rebelliege_speech_024],24],
+         [[rebelliege_trigger_rugby],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,rebelliege_speech_025],25],
+         [[rebelliege_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,rebelliege_speech_026],26],
+         [[rebelliege_trigger_shroud],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,rebelliege_speech_027],27],
+         [[rebelliege_trigger_soldier],0,
+            [LIBACT_QUOTE_RSC,rebelliege_speech_028],28]
+      ]],lLib);
+
+      return lLib;
+   }
+
+   GetRandomLibrary()
+   "Random library nodes: [class, [[percent, mood, action, key], ...]]"
+   {
+      local lLib;
+
+      lLib = $;
+
+      lLib = Cons([&DukeLiege,[
+         [50,0,[LIBACT_QUOTE_RSC,dukeliege_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,dukeliege_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,dukeliege_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,dukeliege_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,dukeliege_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,dukeliege_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,dukeliege_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,dukeliege_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,dukeliege_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,dukeliege_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,dukeliege_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,dukeliege_random_012],12],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,dukeliege_random_013],13],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,dukeliege_random_014],14],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,dukeliege_random_015],15],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,dukeliege_random_016],16],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,dukeliege_random_017],17]
+      ]],lLib);
+
+      lLib = Cons([&PrincessLiege,[
+         [50,0,[LIBACT_QUOTE_RSC,princessliege_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,princessliege_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,princessliege_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,princessliege_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,princessliege_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,princessliege_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,princessliege_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,princessliege_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,princessliege_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,princessliege_random_010],10],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,princessliege_random_011],11],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,princessliege_random_012],12],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,princessliege_random_013],13],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,princessliege_random_014],14],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,princessliege_random_015],15]
+      ]],lLib);
+
+      lLib = Cons([&RebelLiege,[
+         [50,0,[LIBACT_QUOTE_RSC,rebelliege_random_001],1],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,rebelliege_random_002],2],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,rebelliege_random_003],3],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,rebelliege_random_004],4],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,rebelliege_random_005],5],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,rebelliege_random_006],6],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,rebelliege_random_007],7],
+         [50,LIBRES_MOOD_NEUTRAL,[LIBACT_QUOTE_RSC,rebelliege_random_008],8],
+         [50,LIBRES_MOOD_NEUTRAL,[LIBACT_QUOTE_RSC,rebelliege_random_009],9],
+         [50,LIBRES_MOOD_NEUTRAL,[LIBACT_QUOTE_RSC,rebelliege_random_010],10],
+         [50,LIBRES_MOOD_NEUTRAL,[LIBACT_QUOTE_RSC,rebelliege_random_011],11],
+         [50,LIBRES_MOOD_NEUTRAL,[LIBACT_QUOTE_RSC,rebelliege_random_012],12],
+         [50,LIBRES_MOOD_NEUTRAL,[LIBACT_QUOTE_RSC,rebelliege_random_013],13],
+         [50,LIBRES_MOOD_NEUTRAL,[LIBACT_QUOTE_RSC,rebelliege_random_014],14],
+         [50,LIBRES_MOOD_NEUTRAL,[LIBACT_QUOTE_RSC,rebelliege_random_015],15],
+         [50,LIBRES_MOOD_NEUTRAL,[LIBACT_QUOTE_RSC,rebelliege_random_016],16],
+         [50,LIBRES_MOOD_NEUTRAL,[LIBACT_QUOTE_RSC,rebelliege_random_017],17],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,rebelliege_random_018],18],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,rebelliege_random_019],19],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,rebelliege_random_020],20],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,rebelliege_random_021],21],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,rebelliege_random_022],22],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,rebelliege_random_023],23],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,rebelliege_random_024],24],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,rebelliege_random_025],25],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,rebelliege_random_026],26],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,rebelliege_random_027],27],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,rebelliege_random_028],28],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,rebelliege_random_029],29],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,rebelliege_random_030],30],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,rebelliege_random_031],31],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,rebelliege_random_032],32],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,rebelliege_random_033],33],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,rebelliege_random_034],34],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,rebelliege_random_035],35],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,rebelliege_random_036],36],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,rebelliege_random_037],37]
+      ]],lLib);
+
+      return lLib;
+   }
+
+end
+////////////////////////////////////////////////////////////////////////////////

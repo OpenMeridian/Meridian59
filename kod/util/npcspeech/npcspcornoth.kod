@@ -1,0 +1,2761 @@
+// Meridian 59, Copyright 1994-2012 Andrew Kirmse and Chris Kirmse.
+// All rights reserved.
+//
+// This software is distributed under a license that is described in
+// the LICENSE file that accompanies it.
+//
+// Meridian is a registered trademark.
+
+
+////////////////////////////////////////////////////////////////////////////////
+NpcSpeechCorNoth is NpcSpeech
+// NPC talk of Cor Noth:
+// answers to trigger words and random lines.
+// Each line is a resource (EN here, DE in the .lkod); Library adds the
+// lists in CreateSpeechLibrary and CreateRandomLibrary.
+
+constants:
+
+   include blakston.khd
+
+resources:
+
+   include npcspcornoth.lkod
+
+   // CornothGrocer (Solomon)
+   cornothgrocer_speech_001 = \
+      "~kSolomon says, \"Why do you ask me questions about these words? I "
+      "don't trust you with understanding anything, siidhika, and especially "
+      "not the words of an ancient and venerable tongue such as whagzii. But "
+      "do not despair, for no good can come of it! It is not your fault that "
+      "you were born a buffalo among men. Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_002 = \
+      "~kSolomon says, \"This is a whagzii phrase that we say to only the "
+      "stupidest people which means 'go and put your head into the oatmeal "
+      "pot'. Yes, only the stupidest people!! Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_003 = \
+      "~kSolomon says, \"Bagab? Ha, ha ha ha ha, why a bagab is a person who "
+      "hasn't the sense to wear shoes! Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_004 = \
+      "~kSolomon says, \"Why do you ask me questions about these words? I "
+      "don't trust you with understanding anything, siidhika, and especially "
+      "not the words of an ancient and venerable tongue such as whagzii. But "
+      "do not despair, for no good can come of it! It is not your fault that "
+      "you were born a buffalo among men. Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_005 = \
+      "~kSolomon says, \"When you are in Barloque, all of the best is "
+      "available! And I might know, as they all come to see Solomon for "
+      "their most exquisite fancies! Ha, ha ha ha ha!! When you are in "
+      "Barloque, Tabu, see the shop of my very dear friend Herbutte! A very "
+      "refined gentleman! Be sure to give him my kindest regards.\""
+   cornothgrocer_speech_006 = \
+      "~kSolomon says, \"It is the city of Meridian's old Kings, and very, "
+      "very wealthy! Yes, I travel there often for my business and know the "
+      "people well, and I tell you, noble one, that there is unimaginable "
+      "wealth in Barloque. And such refined taste! The best business.\""
+   cornothgrocer_speech_007 = \
+      "~kSolomon says, \"Well, they stop indigents and farm animals at the "
+      "front gate of Barloque, so either way you will have no luck, 'O "
+      "No-Mannered One'. Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_008 = \
+      "~kSolomon says, \"Baszoo means only that there is nothing more that "
+      "we can say on the subject, that it is now in the hands of time and in "
+      "the hands of the gods.\""
+   cornothgrocer_speech_009 = \
+      "~kSolomon says, \"Binghi ghaloob? Binghi ghaloob does not precisely "
+      "translate to your language. The meaning of binghi ghaloob is quite "
+      "complicated.\""
+   cornothgrocer_speech_010 = \
+      "~kSolomon says, \"Binghi ghaloob means 'you have terrible manners "
+      "like a donkey with gas, and I hope you rot in your own bile'. Ha, ha "
+      "ha ha ha!!!\""
+   cornothgrocer_speech_011 = \
+      "~kSolomon says, \"What would you like it to mean, my friend?\""
+   cornothgrocer_speech_012 = \
+      "~kSolomon says, \"Keep the fair wind at your heels, my friend. I am "
+      "missing you already.\""
+   cornothgrocer_speech_013 = \
+      "~kSolomon says, \"Blessings upon you. I am counting the days until "
+      "you come back to see us.\""
+   cornothgrocer_speech_014 = \
+      "~kSolomon says, \"Avoid the wrath of your own ignorance, my friend. "
+      "Ha, ha ha ha ha! Aebu sikal gah tamaal! Good bye, siidhika! Baszoo!!\""
+   cornothgrocer_speech_015 = \
+      "~kSolomon says, \"You should consider this your second home, Tabu. "
+      "Come back and see us often.\""
+   cornothgrocer_speech_016 = \
+      "~kSolomon says, \"I call this my home that is away from my home, for "
+      "although my homeland is so very far away, and nothing will replace my "
+      "homeland in my heart, Cor Noth is the most precious and free jewel in "
+      "all of Meridian.\""
+   cornothgrocer_speech_017 = \
+      "~kSolomon says, \"How did you get past the front gate? All these "
+      "taxes I pay, I really must speak with the constable. Ha, ha ha ha "
+      "ha!! No, really I don't believe that. This is a free city, where "
+      "everyone is afforded free access and freedom to speak. Even "
+      "blockheads, and hamsters such as yourself!! Ha, ha ha ha ha!\""
+   cornothgrocer_speech_018 = \
+      "~kSolomon says, \"They are a very wise number of men, very wise "
+      "indeed. And entrusted to make decisions over all the land! Sometimes, "
+      "though, I think that they could use the advice of a woman...\""
+   cornothgrocer_speech_019 = \
+      "~kSolomon says, \"A group of very fine gentlemen, Tabu, very fine! "
+      "Entrusted by the King, no less! And always willing to teach and share "
+      "wisdom, I hear.\""
+   cornothgrocer_speech_020 = \
+      "~kSolomon says, \"Bah!! What do you know of the council, siidhika?\""
+   cornothgrocer_speech_021 = \
+      "~kSolomon says, \"Why do you ask me questions about these words? I "
+      "don't trust you with understanding anything, siidhika, and especially "
+      "not the words of an ancient and venerable tongue such as whagzii. But "
+      "do not despair, for no good can come of it! It is not your fault that "
+      "you were born a buffalo among men. Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_022 = \
+      "~kSolomon says, \"Why do you ask me questions about these words? I "
+      "don't trust you with understanding anything, siidhika, and especially "
+      "not the words of an ancient and venerable tongue such as whagzii. But "
+      "do not despair, for no good can come of it! It is not your fault that "
+      "you were born a buffalo among men. Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_023 = \
+      "~kSolomon says, \"Ha, ha ha ha ha!! Dinki padarapoomy is a word from "
+      "the Maldive language which means 'carpenter who has nailed his own "
+      "feet to the doorjamb'. Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_024 = \
+      "~kSolomon says, \"Yes, Tabu, diwesafi means... how do you say it? "
+      "Comprehension. Like a divine comprehension. Like that, but a little "
+      "different too.\""
+   cornothgrocer_speech_025 = \
+      "~kSolomon says, \"Why do you ask me questions about these words? I "
+      "don't trust you with understanding anything, siidhika, and especially "
+      "not the words of an ancient and venerable tongue such as whagzii. But "
+      "do not despair, for no good can come of it! It is not your fault that "
+      "you were born a buffalo among men. Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_026 = \
+      "~kSolomon says, \"A sad state of affairs. I am still reeling from the "
+      "news of our Duke's death. I do hope that the taxes are not further "
+      "increased.\""
+   cornothgrocer_speech_027 = "~kSolomon says, \"Aebu sikal gah tamaal!\""
+   cornothgrocer_speech_028 = \
+      "~kSolomon says, \"Always sick, that man, just as his business is! "
+      "Unhealthy. He lives with a broken heart from Madelia, no other "
+      "ailment! Haga dhami zeet!! Baszoo!!\""
+   cornothgrocer_speech_029 = \
+      "~kSolomon says, \"That is good, siidhika, take your business to that "
+      "cretin!! Bah!! You will get exactly what you seek! Baszoo!!\""
+   cornothgrocer_speech_030 = \
+      "~kSolomon says, \"Why do you ask me questions about these words? I "
+      "don't trust you with understanding anything, siidhika, and especially "
+      "not the words of an ancient and venerable tongue such as whagzii. But "
+      "do not despair, for no good can come of it! It is not your fault that "
+      "you were born a buffalo among men. Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_031 = \
+      "~kSolomon says, \"Yes, that ghazzabu is a large and stupid animal "
+      "that we hunt in my homeland with large stones, which we drop upon "
+      "their heads from the greatest height imaginable. Splat!! Everywhere "
+      "brains. But for all those brains the stupid ghazzabu still cannot "
+      "think like a clever animal!! Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_032 = \
+      "~kSolomon says, \"Why do you ask me questions about these words? I "
+      "don't trust you with understanding anything, siidhika, and especially "
+      "not the words of an ancient and venerable tongue such as whagzii. But "
+      "do not despair, for no good can come of it! It is not your fault that "
+      "you were born a buffalo among men. Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_033 = \
+      "~kSolomon says, \"This means morning of large breakfast, and is a "
+      "great compliment in whagzii.\""
+   cornothgrocer_speech_034 = \
+      "~kSolomon says, \"Why do you ask me questions about these words? I "
+      "don't trust you with understanding anything, siidhika, and especially "
+      "not the words of an ancient and venerable tongue such as whagzii. But "
+      "do not despair, for no good can come of it! It is not your fault that "
+      "you were born a buffalo among men. Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_035 = \
+      "~kSolomon says, \"Ah, yes, ghum dikka! Well that is a thing from my "
+      "far home that we use to clean the baby after he has eaten too much "
+      "kaab farlu.\""
+   cornothgrocer_speech_036 = \
+      "~kSolomon says, \"Why do you ask me questions about these words? I "
+      "don't trust you with understanding anything, siidhika, and especially "
+      "not the words of an ancient and venerable tongue such as whagzii. But "
+      "do not despair, for no good can come of it! It is not your fault that "
+      "you were born a buffalo among men. Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_037 = \
+      "~kSolomon says, \"This means simply 'it is my pleasure'.\""
+   cornothgrocer_speech_038 = \
+      "~kSolomon says, \"Why do you ask me questions about these words? I "
+      "don't trust you with understanding anything, siidhika, and especially "
+      "not the words of an ancient and venerable tongue such as whagzii. But "
+      "do not despair, for no good can come of it! It is not your fault that "
+      "you were born a buffalo among men. Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_039 = \
+      "~kSolomon says, \"Ah, those are words from my native tongue that mean "
+      "'a man with water running through the spaces in his head'. Funny, "
+      "yes? Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_040 = \
+      "~kSolomon says, \"From my homeland, this is a great beast with "
+      "terrible teeth and a terrible roar that flees from sudden movements "
+      "or the smallest noises!\""
+   cornothgrocer_speech_041 = \
+      "~kSolomon says, \"Solomon is at your service, noble one. Ghiza Tabu, "
+      "haatik.\""
+   cornothgrocer_speech_042 = \
+      "~kSolomon says, \"Come in, Tabu, come in. It has been so long since "
+      "you came to see us!\""
+   cornothgrocer_speech_043 = \
+      "~kSolomon says, \"Yes? Exactly what does siidhika precisely want, "
+      "exactly?\""
+   cornothgrocer_speech_044 = \
+      "~kSolomon says, \"Why do you ask me questions about these words? I "
+      "don't trust you with understanding anything, siidhika, and especially "
+      "not the words of an ancient and venerable tongue such as whagzii. But "
+      "do not despair, for no good can come of it! It is not your fault that "
+      "you were born a buffalo among men. Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_045 = \
+      "~kSolomon says, \"I believe that he is related to royalty! Yes, I "
+      "think that it is true!!\""
+   cornothgrocer_speech_046 = \
+      "~kSolomon says, \"A very fine gentleman, and also... my friend! "
+      "Herbutte has a shop full of beautiful things in Barloque.\""
+   cornothgrocer_speech_047 = \
+      "~kSolomon says, \"I wonder would such a gentleman as Herbutte have "
+      "you in his shop? No, I do not think so. I am too tolerant in so many "
+      "ways!\""
+   cornothgrocer_speech_048 = \
+      "~kSolomon says, \"Did you know that Jasper was once a separate "
+      "kingdom, and stayed in rebellion long after the King in Meridian "
+      "declared that they must surrender? That will tell you something about "
+      "Jasper. A very terrible war followed. The fortress of the old Jasper "
+      "Warlords, Wryn's Keep, stands to this day as testament. The people of "
+      "Jasper, I believe, still want their independence to this time! There "
+      "are many secrets in Jasper, even today. Especially today.\""
+   cornothgrocer_speech_049 = \
+      "~kSolomon says, \"Although the mines in Jasper have run dry and the "
+      "miners moved away, there are still a considerable number of gems that "
+      "come out of the western Cragged Mountains, and Jasper in particular. "
+      "Of course with the rebellion centered there, many more means to "
+      "acquire wealth are available now.\""
+   cornothgrocer_speech_050 = \
+      "~kSolomon says, \"I hear that Jasper is the center of the unrest that "
+      "threatens to send the land into chaos.\""
+   cornothgrocer_speech_051 = \
+      "~kSolomon says, \"That is from my native tongue of whagzii. Jhonee "
+      "means, approximately, little squirrel.\""
+   cornothgrocer_speech_052 = \
+      "~kSolomon says, \"Why do you ask me questions about these words? I "
+      "don't trust you with understanding anything, siidhika, and especially "
+      "not the words of an ancient and venerable tongue such as whagzii. But "
+      "do not despair, for no good can come of it! It is not your fault that "
+      "you were born a buffalo among men. Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_053 = \
+      "~kSolomon says, \"I would not even bother to make comment on this "
+      "simple merchant. Like the hagzjaffe, with big teeth that never bites. "
+      "Chat, chat, but the quality of his merchandise? Below standard.\""
+   cornothgrocer_speech_054 = \
+      "~kSolomon says, \"That is good, siidhika, take your business to that "
+      "cretin!! Bah!! You will get exactly what you seek! Baszoo!!\""
+   cornothgrocer_speech_055 = \
+      "~kSolomon says, \"Kaab farlu? Ah, Tabu, a delicious mixture of beans "
+      "and fermented lettuce! It is very delicious, but a dish one must "
+      "always remember to never feed the baby. That is very bad.\""
+   cornothgrocer_speech_056 = \
+      "~kSolomon says, \"Why do you ask me questions about these words? I "
+      "don't trust you with understanding anything, siidhika, and especially "
+      "not the words of an ancient and venerable tongue such as whagzii. But "
+      "do not despair, for no good can come of it! It is not your fault that "
+      "you were born a buffalo among men. Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_057 = \
+      "~kSolomon says, \"Kagdur is a word from the whagzii which means "
+      "something like 'absurd clarity of vision', or something like that. "
+      "Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_058 = \
+      "~kSolomon says, \"Why do you ask me questions about these words? I "
+      "don't trust you with understanding anything, siidhika, and especially "
+      "not the words of an ancient and venerable tongue such as whagzii. But "
+      "do not despair, for no good can come of it! It is not your fault that "
+      "you were born a buffalo among men. Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_059 = \
+      "~kSolomon says, \"Yes, Tabu, the very definition of a Lady. So "
+      "generous and kind, Lady Aftyn, that she now has opened a Sanctuary in "
+      "Marion where she cares for the sick and the unfortunate! And with her "
+      "own money! Yes, Tabu, her children are most upset by her actions "
+      "since the death of her husband, a very wealthy Lord that I knew so "
+      "very well, may the gods smile at his soul... The children are still "
+      "in Barloque, such scandal, making many noises about their mother "
+      "squandering their inheritance on her charitable work and on the "
+      "workings of Shal'ille! Goodness me, Tabu, goodness me.\""
+   cornothgrocer_speech_060 = \
+      "~kSolomon says, \"Yes, she is a very desirable sort, a terrible "
+      "heartbreaker! Poor jhonee!! She scorned Frisconar, and rightfully so, "
+      "for he is dumma, unhealthy. Now I hear she has a great love affair "
+      "with Frular the Guildmaster! But noble one, you did not hear that "
+      "from me, for he is a married man! Oh dear, such scandal! Baszoo!!\""
+   cornothgrocer_speech_061 = \
+      "~kSolomon says, \"She is in Barloque, and what an accomplished "
+      "dressmaker. She makes all of the clothing for the royalty, and it is "
+      "said that she has great influence!! Yes, great influence!! It is just "
+      "as well that she spurned the love of that dinki padarapoomy "
+      "Frisconar!\""
+   cornothgrocer_speech_062 = \
+      "~kSolomon says, \"Marion is so very stable, and the people so funny "
+      "in their ways!! But the forests surrounding Marion are deep, and hold "
+      "many secrets! I have seen some incredible things that have been "
+      "brought out of these forests. I believe that the discovery of the "
+      "Vale of Sorrow is just the beginning of incredible things that future "
+      "explorers might find! Imagine the trade then, Tabu, the commercial "
+      "opportunities!!\""
+   cornothgrocer_speech_063 = \
+      "~kSolomon says, \"A simple town of simple folk. Farmers! The very "
+      "stones of the earth! An honest town, my friend. We must all thank the "
+      "farmer and the farm!!\""
+   cornothgrocer_speech_064 = \
+      "~kSolomon says, \"You will be in good company there, siidhika, "
+      "amongst the swine, Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_065 = \
+      "~kSolomon says, \"That ghazzabu does not know a dragon scale from an "
+      "orc tooth! Ha, ha ha ha ha!! One of my customers sold him three dozen "
+      "edible mushrooms at great profit, for Morrigan thought that he was "
+      "buying purple mushrooms!! Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_066 = \
+      "~kSolomon says, \"That is good, siidhika, take your business to that "
+      "cretin!! Bah!! You will get exactly what you seek! Baszoo!!\""
+   cornothgrocer_speech_067 = \
+      "~kSolomon says, \"Why do you ask me questions about these words? I "
+      "don't trust you with understanding anything, siidhika, and especially "
+      "not the words of an ancient and venerable tongue such as whagzii. But "
+      "do not despair, for no good can come of it! It is not your fault that "
+      "you were born a buffalo among men. Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_068 = \
+      "~kSolomon says, \"Why do you ask me questions about these words? I "
+      "don't trust you with understanding anything, siidhika, and especially "
+      "not the words of an ancient and venerable tongue such as whagzii. But "
+      "do not despair, for no good can come of it! It is not your fault that "
+      "you were born a buffalo among men. Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_069 = \
+      "~kSolomon says, \"With the fall of the Duke and the maturing of our "
+      "Princess, Kateriina shall soon have the crown on her head.\""
+   cornothgrocer_speech_070 = \
+      "~kSolomon says, \"Many laugh at that man, but he is a prophet, and "
+      "has visions and premonitions that tell many tales of our tomorrows. "
+      "Baszoo!!\""
+   cornothgrocer_speech_071 = \
+      "~kSolomon says, \"Ran er'Hoth is without knowing, as the wind is "
+      "without knowing. Baszoo!!\""
+   cornothgrocer_speech_072 = \
+      "~kSolomon says, \"Ah yes, Rook indeed! The sad tale of Rook is a sad "
+      "tale of impossible love! We cannot know if it is a love of duty or of "
+      "the woman herself, but his love for the Princess came to complicate "
+      "his duty to her as the Major of the Royal Guards, and he was forced "
+      "to leave the court! Dueling for her honor! Tragic, eh? Now he spends "
+      "his days taking students at the weapon school and waiting for a "
+      "message from her that it is time to return to her side. Just waiting "
+      "and waiting, for a message that may never arrive. But he is a hard "
+      "man and will wait until he dies. Baszoo.\""
+   cornothgrocer_speech_073 = \
+      "~kSolomon says, \"Rook, yes Rook? Ahhh, Rook! Yes Rook is a great "
+      "weapon master, who once served as the Major of the Royal Guards "
+      "before retiring to this fine city and opening the weapon school. He "
+      "is a stern man, but he is understanding, and we in Cor Noth are "
+      "honored to have him here. They say that in his years at court he was "
+      "a fierce duelist when his temper flared, but he is not this way "
+      "anymore. Baszoo.\""
+   cornothgrocer_speech_074 = \
+      "~kSolomon says, \"What do you ask me of Rook for, silly siidhika? "
+      "Don't get any ideas, you don't need to challenge Rook to impress us! "
+      "We are already impressed with your dim wits, dinki padarapoomy. "
+      "Baszoo.\""
+   cornothgrocer_speech_075 = \
+      "~kSolomon says, \"I wonder what he'll do now.\""
+   cornothgrocer_speech_076 = \
+      "~kSolomon says, \"Oh, he is a terrible gossip! Always ready to speak "
+      "on any other person! I frown upon gossip.\""
+   cornothgrocer_speech_077 = \
+      "~kSolomon says, \"Go find him in the Duke's castle, siidhika, and "
+      "chat with him! And when you are there, tell him to come around my "
+      "shop so I can box his ears for him!!\""
+   cornothgrocer_speech_078 = \
+      "~kSolomon says, \"The sepkas? You don't know what the sepkas are? Ha, "
+      "ha ha ha, you are so funny!!\""
+   cornothgrocer_speech_079 = \
+      "~kSolomon says, \"Why do you ask me questions about these words? I "
+      "don't trust you with understanding anything, siidhika, and especially "
+      "not the words of an ancient and venerable tongue such as whagzii. But "
+      "do not despair, for no good can come of it! It is not your fault that "
+      "you were born a buffalo among men. Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_080 = \
+      "~kSolomon says, \"Siidhika is a word from my home, very far away, "
+      "which means 'a dimwit possessing only the outlook of a vacant manure "
+      "heap'. Ha, ha ha ha ha!\""
+   cornothgrocer_speech_081 = \
+      "~kSolomon says, \"Tabu is a word from my people meaning 'treasured "
+      "and well-disposed friend'.\""
+   cornothgrocer_speech_082 = \
+      "~kSolomon says, \"Why do you ask me questions about these words? I "
+      "don't trust you with understanding anything, siidhika, and especially "
+      "not the words of an ancient and venerable tongue such as whagzii. But "
+      "do not despair, for no good can come of it! It is not your fault that "
+      "you were born a buffalo among men. Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_083 = \
+      "~kSolomon says, \"Why do you ask me questions about these words? I "
+      "don't trust you with understanding anything, siidhika, and especially "
+      "not the words of an ancient and venerable tongue such as whagzii. But "
+      "do not despair, for no good can come of it! It is not your fault that "
+      "you were born a buffalo among men. Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_084 = \
+      "~kSolomon says, \"Tos is the financial center of Meridian. Many "
+      "business people are loath to say that aloud, but I will tell you that "
+      "it is true.\""
+   cornothgrocer_speech_085 = \
+      "~kSolomon says, \"The memory of Kalior shall forever stay with Tos. "
+      "It was he who made it the grand city that it is. I wonder if it shall "
+      "all fall into decay?\""
+   cornothgrocer_speech_086 = \
+      "~kSolomon says, \"Is this where you have come from, little dried fish "
+      "person, have you come from Tos? Well it is a short trip back, and I "
+      "think that you should make it soon. You should go home and study hard "
+      "before you come back out among the rest of us, siidhika.\""
+   cornothgrocer_speech_087 = \
+      "~kSolomon says, \"Why do you ask me questions about these words? I "
+      "don't trust you with understanding anything, siidhika, and especially "
+      "not the words of an ancient and venerable tongue such as whagzii. But "
+      "do not despair, for no good can come of it! It is not your fault that "
+      "you were born a buffalo among men. Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_088 = \
+      "~kSolomon says, \"This is the man, in my home country, who must stand "
+      "in the market and collect spare sepkas from the farmers and their "
+      "families. Ha, ha ha ha ha!!\""
+   cornothgrocer_speech_089 = \
+      "~kSolomon says, \"That is the native tongue of my homeland, many "
+      "miles from here.\""
+   cornothgrocer_speech_090 = \
+      "~kSolomon says, \"Why do you ask me questions about these words? I "
+      "don't trust you with understanding anything, siidhika, and especially "
+      "not the words of an ancient and venerable tongue such as whagzii. But "
+      "do not despair, for no good can come of it! It is not your fault that "
+      "you were born a buffalo among men. Ha, ha ha ha ha!!\""
+   cornothgrocer_random_001 = \
+      "~kSolomon says, \"I have a few small apartments upstairs, which will "
+      "occasionally come up for rent. There are no vacancies now, but check "
+      "with me later if you are interested.\""
+   cornothgrocer_random_002 = \
+      "~kSolomon says, \"You have definitely come to the right place for "
+      "your magical reagent requirements!! Although I may not carry "
+      "everything that you need, but what I have is the best quality! Just "
+      "between the two of us, I feel quite sorry for those customers of mine "
+      "that must do business with Joguer.\""
+   cornothgrocer_random_003 = \
+      "~kSolomon says, \"Oh, that Rook! What a sad friend that I have in "
+      "that man Rook. He hides from his lost love as though it were a "
+      "forgotten love, yes? Oh yes, he is in love, but his love is for the "
+      "Princess and may never be realized. Ah, so tragic and so "
+      "complicated!\""
+   cornothgrocer_random_004 = \
+      "~kSolomon says, \"And what has happened to the merchant Qesino of "
+      "Jasper? Yes, an innkeeper from Jasper, perhaps you knew him for he "
+      "was a prosperous man. Generous? No! Prosperous? Yes! But now he has "
+      "gone missing, and with a large amount of ~Igold~I.\""
+   cornothgrocer_random_005 = "~kSolomon says, \"Bung dabba!\""
+   cornothgrocer_random_006 = \
+      "~kSolomon says, \"Think of my shop as though it were your own, noble "
+      "one. As your own.\""
+   cornothgrocer_random_007 = \
+      "~kSolomon says, \"Relax, and enjoy my hospitality, my dear friend. "
+      "Although it is modest I offer you every comfort that I possess.\""
+   cornothgrocer_random_008 = \
+      "~kSolomon says, \"Look around, Tabu, take all of my time that you "
+      "wish to take. When you are in my shop you may leave time and trouble "
+      "together at the door, where they may be occupied with each other "
+      "while you are my guest.\""
+   cornothgrocer_random_009 = \
+      "~kSolomon says, \"Providence has truly blessed me today with your "
+      "presence, Tabu. I am blessed every way.\""
+   cornothgrocer_random_010 = \
+      "~kSolomon says, \"I have heard from travelers of an ancient building "
+      "out in the forest that was a dwarven hall. This makes me very "
+      "curious.\""
+   cornothgrocer_random_011 = \
+      "~kSolomon says, \"If you are traveling from city to town, I believe "
+      "you will find that people may have errands for you to deliver to "
+      "their remote destinations! Oh, the countryside is hardly safe for an "
+      "unarmed messenger!\""
+   cornothgrocer_random_012 = \
+      "~kSolomon says, \"It is a strange and bountiful land, noble one. Many "
+      "of the exotic items that you come across in your wanderings will have "
+      "a market when you reach the towns, so preserve what you can. There "
+      "are some items that I am always looking for, and will draw a fine "
+      "price in gold.\""
+   cornothgrocer_random_013 = \
+      "~kSolomon says, \"Many of the things in my shop must come across the "
+      "southern passes in the Cragged Mountains. It is a perilous journey, "
+      "Tabu, for these passes are the home of the most fearsome trolls. And "
+      "for the past few years now I hear reports of orcs and mutated ants "
+      "there as well. It's no wonder our import prices rise!\""
+   cornothgrocer_random_014 = \
+      "~kSolomon says, \"Cor Noth is the center of trade and other "
+      "activities of culture in this land, noble one. You must take the time "
+      "to enjoy this fine city while you are here. I am certain you will "
+      "find it to your liking!\""
+   cornothgrocer_random_015 = \
+      "~kSolomon says, \"I have an extensive collection of magical reagents "
+      "here, many of them quite rare. I offer the best prices for quality "
+      "goods as well, my friend, so see me before you go to Tos, Barloque or "
+      "Marion. We can reach an agreement, jhonee tabu, because we are old "
+      "friends.\""
+   cornothgrocer_random_016 = \
+      "~kSolomon says, \"My friends come from every part of this world to "
+      "visit me and enjoy the hospitality, Tabu. I am blessed by their "
+      "presence, by the generosity of the gods, and by the many, many "
+      "stories of my guests!! Oh, I hear stories from every part of the "
+      "kingdom.\""
+   cornothgrocer_random_017 = \
+      "~kSolomon says, \"Yes, and have you been to see the madman in Marion? "
+      "Ah Tabu, what ravings! What diwesafi! What kagdur! Many years ago he "
+      "walked the land and I knew him then, and I believe that he is a "
+      "prophet. Yes, truly!\""
+   cornothgrocer_random_018 = \
+      "~kSolomon says, \"My dear friend Herbutte has a very fine shop in "
+      "Barloque. And what a gentleman he is, of the most regal bearing!! And "
+      "his shop also is full of beautiful things, perhaps if I do not have "
+      "what you need he will. Be sure to tell him that I sent you!!\""
+   cornothgrocer_random_019 = \
+      "~kSolomon says, \"Yes, beautiful things. Exotic, beautiful things.\""
+   cornothgrocer_random_020 = \
+      "~kSolomon says, \"I am sure, noble one, that I must have something "
+      "here that you have been living without for much too long.\""
+   cornothgrocer_random_021 = \
+      "~kSolomon says, \"What happiness that you are here today, Tabu. I "
+      "have just received merchandise that I am sure you will appreciate.\""
+   cornothgrocer_random_022 = \
+      "~kSolomon says, \"It is my tremendous fortune to have you here to "
+      "visit, Tabu. May I show you anything in particular? Or have you come "
+      "today to sell?\""
+   cornothgrocer_random_023 = \
+      "~kSolomon says, \"Please, you are my guest. Be comfortable and enjoy "
+      "the modest jewel that is my shop.\""
+   cornothgrocer_random_024 = \
+      "~kSolomon says, \"Binghi ghaloob, my friend, binghi ghaloob.\""
+   cornothgrocer_random_025 = \
+      "~kSolomon says, \"How happy I am to see you, noble one.\""
+   cornothgrocer_random_026 = \
+      "~kSolomon says, \"I am your humble servant, Tabu, honored to count "
+      "you among my friends. Please be kind enough to pass the time with "
+      "me.\""
+   cornothgrocer_random_027 = \
+      "~kSolomon says, \"It is my understanding that the uncut seraphym, "
+      "found around Konima's Island, can be worked by a jeweler into a "
+      "polished state. And how beautiful it is then, Tabu. And for the "
+      "jewelers, it is but a hobby!\""
+   cornothgrocer_random_028 = \
+      "~kSolomon says, \"Only flawless reagents are useful for the casting "
+      "of spells, Tabu. There are some orc teeth, plus the more rare "
+      "dragonfly eyes and kriipa claws that simply are inferior!\""
+   cornothgrocer_random_029 = \
+      "~kSolomon says, \"Everyone is talking about this new school of magic, "
+      "the Riija school. From what I can understand, Tabu, it is "
+      "characterized by extreme power at high cost, but that ultimately it "
+      "is quite frail. Flawed, overall.\""
+   cornothgrocer_random_030 = \
+      "~kSolomon says, \"Perhaps you would be able to better get along with "
+      "those that you have dealings with, siidhika, if you would pay closer "
+      "attention to what the other party wants! Every transaction, every "
+      "conversation has two sides, but how would I expect a wagzidi herak to "
+      "understand that!\""
+   cornothgrocer_random_031 = \
+      "~kSolomon says, \"Ah, prattlemouth! How you remind me of the fool of "
+      "Tos, Rycksher. Always talking. Gossip and talking, and the business "
+      "of everyone else. Ha, ha ha ha!! Well you won't get any gossip in my "
+      "shop!\""
+   cornothgrocer_random_032 = \
+      "~kSolomon says, \"What is that stench? Oh, it's you, my friend! I am "
+      "so sorry, so sorry, I would have completely overlooked you in all of "
+      "your insignificance if it were not for that terrible smell you "
+      "exude!! Ha, ha ha ha ha! Oh, siidhika bagab, I am so sorry but you "
+      "are repulsive, like fried liver and stink grass! Ha, ha ha ha ha!\""
+   cornothgrocer_random_033 = \
+      "~kSolomon says, \"Be careful siidhika, that you do not drop some of "
+      "your fleas on my carpeting and tapestry work, I will have to get a "
+      "Kraanan mender in to de-louse the shop. Ha, ha ha ha ha!! No offense, "
+      "ghazzabu, but indeed you are a pathetic specimen, ha, ha ha ha ha! "
+      "What can I do for you? I am afraid that I do not sell soap or ghum "
+      "dikka!!\""
+   cornothgrocer_random_034 = \
+      "~kSolomon says, \"Do you continue to befoul my modest and humble "
+      "shop, beetle stain? Ah, that is truly the trouble with leaving the "
+      "door open, siidhika, one never knows what offending debris may waft "
+      "in with the next breeze! Ha, ha ha ha ha!\""
+   cornothgrocer_random_035 = \
+      "~kSolomon says, \"Ah, be sure to scrape off your feet before coming "
+      "in to my shop next time, dung boy! This is a shop where nice people "
+      "wish to pass time, not the barnyard you frequent, billy goat! Haga "
+      "dhami zeet, siidhika.\""
+   cornothgrocer_trigger_aebu_sikal = "aebu sikal"
+   cornothgrocer_trigger_aebu_sikal_gah_tamaal = "aebu sikal gah tamaal"
+   cornothgrocer_trigger_bagab = "bagab"
+   cornothgrocer_trigger_barloque = "barloque"
+   cornothgrocer_trigger_baszoo = "baszoo"
+   cornothgrocer_trigger_binghi_ghaloob = "binghi ghaloob"
+   cornothgrocer_trigger_bung = "bung"
+   cornothgrocer_trigger_bye = "bye"
+   cornothgrocer_trigger_cor_noth = "cor noth"
+   cornothgrocer_trigger_council = "council"
+   cornothgrocer_trigger_dhami_zeet = "dhami zeet"
+   cornothgrocer_trigger_dinki = "dinki"
+   cornothgrocer_trigger_dinki_padarapoomy = "dinki padarapoomy"
+   cornothgrocer_trigger_diwesafi = "diwesafi"
+   cornothgrocer_trigger_duke = "duke"
+   cornothgrocer_trigger_duke_princess = "duke princess"
+   cornothgrocer_trigger_frisconar = "frisconar"
+   cornothgrocer_trigger_gah = "gah"
+   cornothgrocer_trigger_ghazzabu = "ghazzabu"
+   cornothgrocer_trigger_ghiza = "ghiza"
+   cornothgrocer_trigger_ghiza_haga = "ghiza haga"
+   cornothgrocer_trigger_ghum_dikka = "ghum dikka"
+   cornothgrocer_trigger_haatik = "haatik"
+   cornothgrocer_trigger_haga_dhami_zeet = "haga dhami zeet"
+   cornothgrocer_trigger_hagzjaffe = "hagzjaffe"
+   cornothgrocer_trigger_hello = "hello"
+   cornothgrocer_trigger_herak = "herak"
+   cornothgrocer_trigger_herbutte = "herbutte"
+   cornothgrocer_trigger_herbut = "herbut"
+   cornothgrocer_trigger_jasper = "jasper"
+   cornothgrocer_trigger_jhonee = "jhonee"
+   cornothgrocer_trigger_joguer = "joguer"
+   cornothgrocer_trigger_koldor = "koldor"
+   cornothgrocer_trigger_kaab_farlu = "kaab farlu"
+   cornothgrocer_trigger_kagdur = "kagdur"
+   cornothgrocer_trigger_lady_aftyn = "lady aftyn"
+   cornothgrocer_trigger_madelia = "madelia"
+   cornothgrocer_trigger_marion = "marion"
+   cornothgrocer_trigger_morrigan = "morrigan"
+   cornothgrocer_trigger_my_baszoo = "my baszoo"
+   cornothgrocer_trigger_padarapoo = "padarapoo"
+   cornothgrocer_trigger_princess = "princess"
+   cornothgrocer_trigger_ran_er_hoth = "ran er'hoth"
+   cornothgrocer_trigger_ran_er_zen = "ran'er zen"
+   cornothgrocer_trigger_ran_er_zen_2 = "ran er'zen"
+   cornothgrocer_trigger_rook = "rook"
+   cornothgrocer_trigger_roluk = "roluk"
+   cornothgrocer_trigger_rycksher = "rycksher"
+   cornothgrocer_trigger_rulker = "rulker"
+   cornothgrocer_trigger_sepkas = "sepkas"
+   cornothgrocer_trigger_siidhika = "siidhika"
+   cornothgrocer_trigger_tabu = "tabu"
+   cornothgrocer_trigger_tamaal = "tamaal"
+   cornothgrocer_trigger_tos = "tos"
+   cornothgrocer_trigger_wagzidi = "wagzidi"
+   cornothgrocer_trigger_wagzidi_herak = "wagzidi herak"
+   cornothgrocer_trigger_whagzii = "whagzii"
+
+   // CorNothInnkeeper (CorNothInnkeeper)
+   cornothinnkeeper_speech_001 = \
+      "~kD'Franco says, \"Probably get a whole feather bed out of just one "
+      "of those beasts, if what I hear is true. I think we don't have the "
+      "luxury of time on this one, we march an army right through that human "
+      "settlement and take the whole damned island with one move. Simple "
+      "like, just like that.\""
+   cornothinnkeeper_speech_002 = \
+      "~kD'Franco says, \"I say hit them before they hit us, and hit them "
+      "hard.\""
+   cornothinnkeeper_speech_003 = \
+      "~kD'Franco says, \"Go on, you. That's enough with your prying.\""
+   cornothinnkeeper_speech_004 = \
+      "~kD'Franco says, \"A complete waste of space. A blemish on the face "
+      "of this land. The entire city ought to be ~Iburned~I to the ground, "
+      "and its inhabitants sent off into the wilderness to fend for "
+      "themselves. Snobs and thieves, the lot of them.\""
+   cornothinnkeeper_speech_005 = \
+      "~kD'Franco says, \"A nice place, I guess. If you like all the "
+      "trappings of the royalty, or if you need the sort of artificial "
+      "solace that a royal family provides. I don't need it, and I wouldn't "
+      "live there. Not on a bet.\""
+   cornothinnkeeper_speech_006 = \
+      "~kD'Franco says, \"Is that where you hail from, stranger? What a "
+      "joke. It's a cesspool of corruption and royal dogma.\""
+   cornothinnkeeper_speech_007 = \
+      "~kD'Franco says, \"Come back and see us soon, %s!\""
+   cornothinnkeeper_speech_008 = \
+      "~kD'Franco says, \"Goodbye. Be careful now.\""
+   cornothinnkeeper_speech_009 = "~kD'Franco says, \"Good riddance. Humpf.\""
+   cornothinnkeeper_speech_010 = \
+      "~kD'Franco says, \"Cor Noth is a great town, loyal and patriotic to "
+      "this kingdom. I think it has become a bit ~Itoo~I tolerant, if you "
+      "know what I mean. An awful lot of foreigners here, most of them "
+      "suspicious.\""
+   cornothinnkeeper_speech_011 = \
+      "~kD'Franco says, \"I love this town. Great place. I served in her "
+      "forces, and would put my life forward to defend her without "
+      "hesitation.\""
+   cornothinnkeeper_speech_012 = \
+      "~kD'Franco says, \"Mind your own business, you. Don't go disturbing "
+      "honest folk in here with your sniveling.\""
+   cornothinnkeeper_speech_013 = \
+      "~kD'Franco says, \"Not a bad bunch of guys, if you enjoy conversation "
+      "with impotent old men. Myself, I've got no time for it.\""
+   cornothinnkeeper_speech_014 = \
+      "~kD'Franco says, \"You're full of questions, aren't you? Well, the "
+      "Council is kind of a hold-over from the days when the King still "
+      "ruled from Barloque. It's mostly a ceremonial position now, a kind of "
+      "honorary entitlement.\""
+   cornothinnkeeper_speech_015 = \
+      "~kD'Franco says, \"Don't you go sticking your nose into my business, "
+      "stranger. I don't know you from Konima.\""
+   cornothinnkeeper_speech_016 = "~kD'Franco says, \"An honorable man.\""
+   cornothinnkeeper_speech_017 = \
+      "~kD'Franco says, \"Akardius had better do something with the army. "
+      "Kalior spent the better part of his years making it the best in the "
+      "land.\""
+   cornothinnkeeper_speech_018 = \
+      "~kD'Franco says, \"I salute Kalior, even in death!\""
+   cornothinnkeeper_speech_019 = \
+      "~kD'Franco says, \"I have heard stories, but only stories, of a power "
+      "that was divided among three faces. The story goes that the power "
+      "must find guardians in order to manifest itself to others. The story "
+      "was old, and hardly anyone remembers it anymore. That is all I can "
+      "tell you about it.\""
+   cornothinnkeeper_speech_020 = \
+      "~kD'Franco says, \"There were three shooters.\""
+   cornothinnkeeper_speech_021 = \
+      "~kD'Franco says, \"Hail, %s! Come in and make yourself comfortable.\""
+   cornothinnkeeper_speech_022 = \
+      "~kD'Franco says, \"Hello! Welcome to the Cibilo Creek Inn.\""
+   cornothinnkeeper_speech_023 = "~kD'Franco says, \"Humpf.\""
+   cornothinnkeeper_speech_024 = \
+      "~kD'Franco says, \"Yea, I've seen him. That sorry excuse for a "
+      "peddler has been in here. I hope he is not polluting the King's way "
+      "with his presence again. That man needs to get a real job and stop "
+      "forcing his wares on the weary travelers coming into town.\""
+   cornothinnkeeper_speech_025 = \
+      "~kD'Franco says, \"Traitors! The people of Jasper are traitors! Duke "
+      "Akardius will take care of them, in good time...\""
+   cornothinnkeeper_speech_026 = \
+      "~kD'Franco says, \"Stay away from Jasper, if you want my advice. That "
+      "is a dangerous, deceptive place.\""
+   cornothinnkeeper_speech_027 = \
+      "~kD'Franco says, \"What are you doing snooping around my inn? Be on "
+      "your way, you.\""
+   cornothinnkeeper_speech_028 = \
+      "~kD'Franco says, \"Kill Zarcos, and people I know will reward you "
+      "beyond your wildest fantasies.\""
+   cornothinnkeeper_speech_029 = \
+      "~kD'Franco pretends you didn't say anything."
+   cornothinnkeeper_speech_030 = "~kD'Franco ignores you."
+   cornothinnkeeper_speech_031 = \
+      "~kD'Franco says, \"Watch your back in Marion. Royalists, you know.\""
+   cornothinnkeeper_speech_032 = \
+      "~kD'Franco says, \"Marion's a great town, if you like sitting around "
+      "and watching the corn grow.\""
+   cornothinnkeeper_speech_033 = \
+      "~kD'Franco says, \"I don't like the looks of you, not the least "
+      "little bit.\""
+   cornothinnkeeper_speech_034 = \
+      "~kD'Franco shudders imperceptibly, \"Travelers have told me of the "
+      "impudent words and deeds of this ~Ichild~I. I fear she has not told "
+      "us the truth about her intentions.\""
+   cornothinnkeeper_speech_035 = \
+      "~kD'Franco says, \"I trust that our good Duke has plans to rid us of "
+      "her threat. But in the name of learning, I worry about what effects "
+      "that could have.\""
+   cornothinnkeeper_speech_036 = \
+      "~kD'Franco says, \"Even if she has gathered an army of capable "
+      "fighters around her, which I do not really believe, I see no reason "
+      "to worry about this child.\""
+   cornothinnkeeper_speech_037 = \
+      "~kD'Franco says, \"I must admit, the thought of all that power in her "
+      "hands makes me quite nervous. I shudder to think what she could do "
+      "with it. No doubt she could raze an entire city to the ground if she "
+      "wanted to.\""
+   cornothinnkeeper_speech_038 = \
+      "~kD'Franco says, \"What is it with you and this reckless child? Are "
+      "you allied with her?\""
+   cornothinnkeeper_speech_039 = \
+      "~kD'Franco says, \"Word of her utterances has reached me, she is "
+      "surely mad. Do not bring such madness into my house, lest it be "
+      "contagious.\""
+   cornothinnkeeper_speech_040 = \
+      "~kD'Franco says, \"Forget it. I don't loan money out.\""
+   cornothinnkeeper_speech_041 = \
+      "~kD'Franco says, \"Not right now, %s. Perhaps later.\""
+   cornothinnkeeper_speech_042 = \
+      "~kD'Franco says, \"I wonder what the reason for Miriana's deeds is. "
+      "Is it madness? Is it loneliness? Or could it be something we wish we "
+      "had never guessed?\""
+   cornothinnkeeper_speech_043 = \
+      "~kD'Franco shudders, \"These creatures that Miriana summons, perhaps "
+      "they are her only friends? Wouldn't that be sad?\""
+   cornothinnkeeper_speech_044 = \
+      "~kD'Franco says, \"I don't have time to chat with you. Go and talk to "
+      "Hester Gilk, she surely knows more than she admits, and perhaps she "
+      "can tell you more about what you want to know.\""
+   cornothinnkeeper_speech_045 = \
+      "~kD'Franco says, \"We should flood the warrens.\""
+   cornothinnkeeper_speech_046 = \
+      "~kD'Franco says, \"Those awful beasts should be exterminated. We "
+      "tried, some years back, and I lost a lot of friends in the campaign. "
+      "Slowed them down for a while, checked their advance but you can bet "
+      "they'll be back in all their force and fury.\""
+   cornothinnkeeper_speech_047 = \
+      "~kD'Franco says, \"What do you know about fighting orcs? Mind your "
+      "own business.\""
+   cornothinnkeeper_speech_048 = \
+      "~kD'Franco says, \"She should stand trial for her family's crimes "
+      "against this country... that is, if she purports to be the "
+      "representative of the Zarcos family. And if she isn't, why then she "
+      "should get out of the palace and make an honest living like the rest "
+      "of us.\""
+   cornothinnkeeper_speech_049 = \
+      "~kD'Franco says, \"Princess Kateriina Zarcos? I don't abide by her "
+      "right to succession, or with the manner that her family has run this "
+      "land into the ground over the last up-teen generations. That's right, "
+      "~Igenerations~I.\""
+   cornothinnkeeper_speech_050 = \
+      "~kD'Franco says, \"You've got to be kidding if you call that pathetic "
+      "wench the heir to any throne.\""
+   cornothinnkeeper_speech_051 = \
+      "~kD'Franco says, \"Who are you poking around other peoples business "
+      "like some kind of a Royal spy? Get out of here, you. I've got nothing "
+      "to say to you.\""
+   cornothinnkeeper_speech_052 = "~kD'Franco says, \"Hang the rich.\""
+   cornothinnkeeper_speech_053 = \
+      "~kThe room goes silent as %s mentions stunted dwarf."
+   cornothinnkeeper_speech_054 = \
+      "~kD'Franco says, \"I don't know what happened... it was... hey, so I "
+      "kind of lost it, okay? So I didn't know what to do, I couldn't make "
+      "sense of anything, I panicked, okay? But you just don't know what "
+      "you'll do at a moment like that until you're there, you know that? Do "
+      "you know that?\""
+   cornothinnkeeper_speech_055 = \
+      "~kD'Franco says, \"We were marching all day in the sun, climbing a "
+      "rocky trail about two days south of Jasper. It was hot, and we hadn't "
+      "seen a thing since we set out. Gotta give the orcs that, if they "
+      "don't want you to see them then you won't see them. But they hit us "
+      "just before sundown, in from both sides. Squeezed the scouts out, "
+      "isolated them and slaughtered them to the man. They came in three "
+      "waves, and by the end of an hour they were gone. We lost half the "
+      "battalion, all Cor Noth men, about two hundred and twenty. We turned "
+      "around that night, and dragged the wounded home back through the "
+      "pass.\""
+   cornothinnkeeper_speech_056 = \
+      "~kD'Franco says, \"I'm not talking to you about that.\""
+   cornothinnkeeper_speech_057 = \
+      "~kD'Franco says, \"Tos is truly the capital of Meridian, and those "
+      "that say differently can hang. I consider it to be the center of "
+      "government, the seat of real power.\""
+   cornothinnkeeper_speech_058 = \
+      "~kD'Franco says, \"Cor Noth may be the best place to come for "
+      "interesting conversation and ideas, but Tos is the business center of "
+      "Meridian. I try to get over there as often as possible.\""
+   cornothinnkeeper_speech_059 = \
+      "~kD'Franco says, \"Don't you have anything better to do than disturb "
+      "an honest businessman with your prattle? You annoy me.\""
+   cornothinnkeeper_speech_060 = "~kD'Franco says, \"Tova is an idiot.\""
+   cornothinnkeeper_speech_061 = \
+      "~kD'Franco says, \"They are demons, warbeast slaves to the orcs when "
+      "their armies march because of some ancient malevolent pact. I have "
+      "seen it with my own eyes, in the battle at Tangee Bluff.\""
+   cornothinnkeeper_speech_062 = \
+      "~kD'Franco says, \"Take your questions somewhere else.\""
+   cornothinnkeeper_random_001 = \
+      "~kD'Franco says, \"Two words, and two words only. Civil war. Think "
+      "about that.\""
+   cornothinnkeeper_random_002 = \
+      "~kD'Franco says, \"Descendants of Konima or not, I say we jump on "
+      "those militaristic people on the island with both feet. Wipe them "
+      "out, and now. Or should we just wait around for them to do the same "
+      "to us?\""
+   cornothinnkeeper_random_003 = \
+      "~kD'Franco says, \"The Royals are building support, secret-like. I'm "
+      "not so young that I don't remember what it's like under a corrupt "
+      "King's rule, and no way am I going back to that. They'll have to bury "
+      "me first.\""
+   cornothinnkeeper_random_004 = \
+      "~kD'Franco says, \"The King lives yet, although he is in hiding. I "
+      "don't know where he is or when he'll resurface, but you can bet he "
+      "will. Crazy? Crazy like a fox, that old man.\""
+   cornothinnkeeper_random_005 = \
+      "~kD'Franco says, \"I hear that there's a ~Isubstantial~I bounty for "
+      "the loyal citizen who finds the old fox King Zarcos. That's not "
+      "public knowledge now. I also suspect that if someone were to find him "
+      "and he met with some kind of accident, that person would make some "
+      "~Iinfluential~I friends indeed.\""
+   cornothinnkeeper_random_006 = \
+      "~kD'Franco says, \"The Princess is a ~Itraitor~I. Akardius needs to "
+      "pull the troops together, as this land is in a state of emergency. "
+      "Orc Warrens! Armies of bird-beast men! We need strong leadership, and "
+      "as for the Princess? Throw her to the dogs!\""
+   cornothinnkeeper_random_007 = \
+      "~kD'Franco says, \"After we take care of the orcs and the avar and "
+      "the so-called human settlement at Ko'catan, something needs to be "
+      "done about Jasper. They are a rebellious people, prone to violence "
+      "and insubordination. Their history shows that quite clearly.\""
+   cornothinnkeeper_random_008 = \
+      "~kD'Franco says, \"That Yevitan up in Jasper is a man to watch. "
+      "Scheming and clever, I know he's up to ~Isomething~I.\""
+   cornothinnkeeper_random_009 = \
+      "~kD'Franco says, \"The time when we needed a Royal Family for "
+      "anything in this land is ~Iover~I. It's just sentimental nonsense. "
+      "Nostalgia and schlock. Bah!\""
+   cornothinnkeeper_random_010 = \
+      "~kD'Franco says, \"I haven't been over to Konima's Island, and I'll "
+      "tell you the truth I don't think I want to go. But I've seen some of "
+      "the goods from those ~Ipeople~I and I'm here to say that their "
+      "workmanship doesn't hold up to what we have here in Meridian.\""
+   cornothinnkeeper_random_011 = \
+      "~kD'Franco says, \"Always great to see you.\""
+   cornothinnkeeper_random_012 = \
+      "~kD'Franco says, \"Far'Nohl was a great man that turned to evil. He "
+      "ruled this kingdom many years ago before his treachery met with an "
+      "evil demise. But now his restless spirit wanders the earth again. He "
+      "is evil incarnate.\""
+   cornothinnkeeper_random_013 = \
+      "~kD'Franco says, \"I have heard from a traveler that there is a "
+      "dictator that rules those island people. She claims to have seen "
+      "him... she says that he is old and decrepit, but a direct descendant "
+      "of Konima himself!\""
+   cornothinnkeeper_random_014 = \
+      "~kD'Franco says, \"Oh dear! Who shall raise the army to stop the "
+      "orcs? We know where they are; but is there a force that can stop "
+      "them?\""
+   cornothinnkeeper_random_015 = \
+      "~kD'Franco says, \"You know, with all the changes in the land, the "
+      "new faction, Jonas leading the rebels, these attacks on the nodes, "
+      "one starts to wonder just what lies ahead for us.\""
+   cornothinnkeeper_random_016 = \
+      "~kD'Franco says, \"I pray that Kalior's military does not "
+      "disintegrate in his absence. It will take a strong leader to fill "
+      "those boots. Who is going to stop this civil unrest?\""
+   cornothinnkeeper_random_017 = \
+      "~kD'Franco says, \"I lament at the fall of Kalior. He may have been "
+      "the only one capable of stopping the threats imposed upon this land. "
+      "Hail Kalior! May his memory live forever!\""
+   cornothinnkeeper_random_018 = \
+      "~kD'Franco says, \"These island people, the so-called followers of "
+      "Konima... who is to say that they're our allies? What do we really "
+      "know about them? They are an unknown element, and we need to treat "
+      "them accordingly. Keep them at an arm's length.\""
+   cornothinnkeeper_random_019 = \
+      "~kD'Franco says, \"These tokens that the Meridian Council carries are "
+      "mysterious items indeed. I have even heard that those that carry such "
+      "a token are immune to the effects of death!\""
+   cornothinnkeeper_random_020 = \
+      "~kD'Franco says, \"To improve your abilities as a warrior, go and "
+      "talk to Rook. His house is here in Cor Noth, right up the street. He "
+      "is one of the finest swordsmen that ever lived, and is certainly the "
+      "finest teaching his craft today. Even if his allegiances are... "
+      "suspect, at best.\""
+   cornothinnkeeper_random_021 = \
+      "~kD'Franco says, \"To regain your strength from your journeys and "
+      "from fighting, an inn is the best place to rest. You're safe here, "
+      "and we'll see to all of your needs.\""
+   cornothinnkeeper_random_022 = \
+      "~kD'Franco says, \"When you're just beginning the path of the "
+      "warrior, stick to fighting creatures that are not ~Itoo~I powerful. I "
+      "started with giant rats and baby spiders before I went into the army "
+      "and really learned the business of fighting.\""
+   cornothinnkeeper_random_023 = \
+      "~kD'Franco says, \"Often the townspeople in Meridian need errands run "
+      "for them, or favors. If you can help them out it is a good way to "
+      "receive a reward of one type or another. We've all got to make a "
+      "living.\""
+   cornothinnkeeper_random_024 = \
+      "~kD'Franco says, \"Many of the townsfolk in these parts have spent "
+      "some time adventuring themselves, and have ~Ispecial~I knowledge "
+      "themselves that you may profit from. The trick is in getting on the "
+      "right side of them to learn their minds.\""
+   cornothinnkeeper_random_025 = \
+      "~kD'Franco says, \"There is now a fifth temple where the dedicated "
+      "may go to study in their school of magic, from my understanding. That "
+      "is the Riija temple, thought for many, many years to be lost and now "
+      "rumored to be on a remote and mysterious island.\""
+   cornothinnkeeper_random_026 = \
+      "~kD'Franco says, \"I don't know about you, but I'm getting fed up "
+      "with all this superfluous magic use in the towns. Some spellcaster "
+      "makes it dark, and then it's too light from someone else's trickery, "
+      "maces and apples lying all over the place... I won't stand for it in "
+      "my place, and you can bet the Duke is looking into it. It's "
+      "harassment, plain and simple.\""
+   cornothinnkeeper_random_027 = \
+      "~kD'Franco says, \"When business was good, everybody was happy. Duke "
+      "Kalior kept the wheels turning and the money changing hands. He was "
+      "and still is a great man.\""
+   cornothinnkeeper_random_028 = \
+      "~kD'Franco says, \"Brigands and thieves running all over the land... "
+      "what next? Someone has to keep those murdering, thieving swine in "
+      "check. Thank Faren for the courage of those who do.\""
+   cornothinnkeeper_random_029 = \
+      "~kD'Franco says, \"I have heard that at the heart of these orc "
+      "warrens is a huge amount of treasure, should any party of adventurers "
+      "be valiant and persistent enough to make it there.\""
+   cornothinnkeeper_random_030 = \
+      "~kD'Franco says, \"Not all opinions are of equal value. Some opinions "
+      "are better than other opinions. Since this is my establishment, my "
+      "opinion is the best opinion available.\""
+   cornothinnkeeper_random_031 = \
+      "~kD'Franco says, \"Check out the news globe there in the corner, "
+      "there are some interesting posts.\""
+   cornothinnkeeper_random_032 = \
+      "~kD'Franco says, \"The Bards are a great addition to this town. "
+      "Always helpful, full of information.\""
+   cornothinnkeeper_random_033 = \
+      "~kD'Franco says, \"These red sky days are a curious event. I stay "
+      "inside the inn here when they occur, where it's safe.\""
+   cornothinnkeeper_random_034 = \
+      "~kD'Franco says, \"Some strange reports coming from the mysterious "
+      "island. They say there is a race of bird-like men there with a deadly "
+      "magic all their own.\""
+   cornothinnkeeper_random_035 = \
+      "~kD'Franco says, \"I served with Duke Kalior's Army when the call to "
+      "duty came. Cor Noth Light Infantry, Third Battalion under General "
+      "D'Accor. I was at Tangee Bluff, no doubt you've heard of the battle "
+      "there.\""
+   cornothinnkeeper_random_036 = \
+      "~kD'Franco says, \"Anyone can speak their mind freely in my inn. You "
+      "are free to express yourself here, provided you use good manners.\""
+   cornothinnkeeper_random_037 = \
+      "~kD'Franco says, \"I could tell you stories about the Third Orc "
+      "Campaign that would make your hair stand on end... but I don't like "
+      "to talk about it. I saw too much, I tell you, too much.\""
+   cornothinnkeeper_random_038 = \
+      "~kD'Franco says, \"I am proud to be from Cor Noth. Fourth generation, "
+      "and my family has a long record of service and patriotism.\""
+   cornothinnkeeper_random_039 = \
+      "~kD'Franco says, \"Business keeps this country up and on its feet.\""
+   cornothinnkeeper_random_040 = \
+      "~kD'Franco says, \"Money. You may not like it, but you have got to "
+      "have some.\""
+   cornothinnkeeper_random_041 = \
+      "~kD'Franco says, \"All are welcome at the Cibilo Creek Inn, and all "
+      "may speak their minds freely. We only ask that you keep a civil "
+      "tongue for the benefit of our other patrons.\""
+   cornothinnkeeper_random_042 = \
+      "~kD'Franco says, \"Come in and make yourself comfortable. What is the "
+      "news from outside these walls?\""
+   cornothinnkeeper_random_043 = \
+      "~kD'Franco says, \"Can I get you anything?\""
+   cornothinnkeeper_random_044 = "~kD'Franco says, \"What?\""
+   cornothinnkeeper_random_045 = "~kD'Franco says, \"Ouch.\""
+   cornothinnkeeper_random_046 = \
+      "~kD'Franco says, \"Must have been something I ate.\""
+   cornothinnkeeper_random_047 = \
+      "~kD'Franco says, \"Darned heartburn is acting up.\""
+   cornothinnkeeper_random_048 = \
+      "~kD'Franco belches loudly and says, \"Excuse me.\""
+   cornothinnkeeper_random_049 = \
+      "~kD'Franco says, \"An innkeeper couldn't ask for a better town to set "
+      "up shop in than Cor Noth. Between the university here, and all the "
+      "travelers passing through, this place is always busy. Cor Noth is the "
+      "crossroads of Meridian, no doubt about it.\""
+   cornothinnkeeper_random_050 = \
+      "~kD'Franco says, \"It's nice to be alive, here and now.\""
+   cornothinnkeeper_random_051 = "~kD'Franco says, \"Nice to have you here.\""
+   cornothinnkeeper_random_052 = "~kD'Franco pointedly yawns."
+   cornothinnkeeper_random_053 = "~kD'Franco absently picks his nose."
+   cornothinnkeeper_random_054 = "~kD'Franco wipes his brow and scowls."
+   cornothinnkeeper_random_055 = \
+      "~kD'Franco just looks at you, shaking his head."
+   cornothinnkeeper_random_056 = \
+      "~kD'Franco doesn't let you out of his sight."
+   cornothinnkeeper_random_057 = \
+      "~kD'Franco wipes his hands on his shirt and scowls at you."
+   cornothinnkeeper_random_058 = "~kD'Franco mumbles to himself distractedly."
+   cornothinnkeeper_random_059 = "~kD'Franco eyes you and spits."
+   cornothinnkeeper_random_060 = "~kD'Franco clears his throat noisily."
+   cornothinnkeeper_random_061 = \
+      "~kD'Franco says, \"Humpf. I think you should be going.\""
+   cornothinnkeeper_random_062 = \
+      "~kD'Franco bangs dishes around as he cleans up, clearly annoyed."
+   cornothinnkeeper_random_063 = "~kD'Franco sneers at you."
+   cornothinnkeeper_random_064 = \
+      "~kD'Franco says, \"You're a liberal, aren't you!?!\""
+   cornothinnkeeper_trigger_avar = "avar"
+   cornothinnkeeper_trigger_barloque = "barloque"
+   cornothinnkeeper_trigger_bye = "bye"
+   cornothinnkeeper_trigger_cor_noth = "cor noth"
+   cornothinnkeeper_trigger_council = "council"
+   cornothinnkeeper_trigger_duke = "duke"
+   cornothinnkeeper_trigger_fate = "fate"
+   cornothinnkeeper_trigger_grassy_knoll = "grassy knoll"
+   cornothinnkeeper_trigger_hello = "hello"
+   cornothinnkeeper_trigger_izzio = "izzio"
+   cornothinnkeeper_trigger_jasper = "jasper"
+   cornothinnkeeper_trigger_king = "king"
+   cornothinnkeeper_trigger_marion = "marion"
+   cornothinnkeeper_trigger_miriana = "miriana"
+   cornothinnkeeper_trigger_money = "money"
+   cornothinnkeeper_trigger_need_a_courier = "need a courier?"
+   cornothinnkeeper_trigger_node_attack = "node attack"
+   cornothinnkeeper_trigger_orc = "orc"
+   cornothinnkeeper_trigger_princess = "princess"
+   cornothinnkeeper_trigger_stunted_dwarf = "stunted dwarf"
+   cornothinnkeeper_trigger_tangee_bluff = "tangee bluff"
+   cornothinnkeeper_trigger_tos = "tos"
+   cornothinnkeeper_trigger_tova = "tova"
+   cornothinnkeeper_trigger_troll = "troll"
+
+   // CorNothSergeant (Rook)
+   cornothsergeant_speech_001 = \
+      "~kRook says, \"They are very dangerous, from the tales I have heard. "
+      "I understand that the Avar can field armies, as we can! I do not "
+      "think that you will ever see such a force in these parts, though.\""
+   cornothsergeant_speech_002 = \
+      "~kRook says, \"I wish I'd never left, curse the day that I first set "
+      "foot in this dry place, but the choice was not mine to make, don't "
+      "you see. In time we must all obey our masters. And as importantly, "
+      "those that advise our masters.\""
+   cornothsergeant_speech_003 = \
+      "~kRook says, \"'Tis not a fairer place in the world than the royal "
+      "Barloque. By my life there is not.\""
+   cornothsergeant_speech_004 = \
+      "~kRook says, \"Thou art unfit to bespeak the name at all, knave. Go "
+      "on, be about your business.\""
+   cornothsergeant_speech_005 = \
+      "~kRook says, \"Fare well to you, my friend.\""
+   cornothsergeant_speech_006 = "~kRook says, \"Good day.\""
+   cornothsergeant_speech_007 = "~kRook watches you leave, very carefully."
+   cornothsergeant_speech_008 = \
+      "~kRook says, \"I have not yet encountered a Cave Orc, though you can "
+      "be sure that they are as formidable as their mountainous counterparts "
+      "to the south of here.\""
+   cornothsergeant_speech_009 = \
+      "~kRook says, \"Cor Noth is in a strong position strategically, in a "
+      "flanking position for any attack on Barloque that might come from "
+      "Tos, or the mountains beyond. It is no accident that I have chosen "
+      "this place for my ~Itemporary~I exile.\""
+   cornothsergeant_speech_010 = \
+      "~kRook says, \"It is a fair, provincial town. Suitable enough for my "
+      "academy, though I must say it is dominated by bookworms and "
+      "squidheads.\""
+   cornothsergeant_speech_011 = "~kRook says, \"Go out and see it, knave.\""
+   cornothsergeant_speech_012 = \
+      "~kRook says, \"Old men. What position is there for a lame panel of "
+      "toothless half-wits in our current situation? Take them for a long "
+      "walk, and come back alone, I'd be happier for it.\""
+   cornothsergeant_speech_013 = \
+      "~kRook says, \"Once respected, certainly, but my view is that it is "
+      "time that they move to a strictly advisory role and are replaced with "
+      "younger, more aggressive thinking citizens.\""
+   cornothsergeant_speech_014 = "~kRook says, \"Flee, fool. Scatter.\""
+   cornothsergeant_speech_015 = \
+      "~kRook says, \"An honorable officer, and a veteran with an impeccable "
+      "career. He is on the wrong side though, serving with the Duke's Army, "
+      "and I fear that we may someday meet across the field from one "
+      "another.\""
+   cornothsergeant_speech_016 = \
+      "~kRook says, \"Most remarkable, if what one hears is true! You will "
+      "not encounter Dragonfly on the Meridian mainland, however. They are "
+      "confined to Konima's Island.\""
+   cornothsergeant_speech_017 = \
+      "~kRook says, \"I guess I have lost the chance to kill the pig "
+      "myself.\""
+   cornothsergeant_speech_018 = \
+      "~kRook says, \"This Akardius makes the hairs on the back of my neck "
+      "rise. Someone ought to watch him.\""
+   cornothsergeant_speech_019 = \
+      "~kRook says, \"What a waste. All these years competing for the "
+      "throne. Why couldn't he have died years ago and made Kateriina's "
+      "rightful ascension to the throne easier?\""
+   cornothsergeant_speech_020 = \
+      "~kRook says, \"Come in. It is a pleasure to see you again.\""
+   cornothsergeant_speech_021 = "~kRook says, \"Good day, %s.\""
+   cornothsergeant_speech_022 = \
+      "~kRook watches you, slowly running his fingertips back and forth "
+      "across his upper lip."
+   cornothsergeant_speech_023 = \
+      "~kRook says, \"A thorn in the side of this kingdom since the "
+      "beginning of time, the people of Jasper have launched more campaigns "
+      "against the throne than all the orc hordes combined.\""
+   cornothsergeant_speech_024 = \
+      "~kRook says, \"A rebellious place, and a tough people, natural "
+      "irregulars. Fine soldiers.\""
+   cornothsergeant_speech_025 = \
+      "~kRook says, \"I have no time for this talk.\""
+   cornothsergeant_speech_026 = \
+      "~kRook snorts contemptuously, \"Humph, what next?  King Jonas?  HAH!  "
+      "That blubbering buffoon couldn't lead an army of brain dead trolls, "
+      "let alone his own faction.\""
+   cornothsergeant_speech_027 = \
+      "~kRook says, \"He has been a little more tight-lipped. I've also "
+      "heard he has been wandering a bit more frequently.... Wonder what "
+      "he's up to.\""
+   cornothsergeant_speech_028 = \
+      "~kRook says, \"Even now his forces gather, in anticipation of coming "
+      "battle.\""
+   cornothsergeant_speech_029 = \
+      "~kRook says, \"I have not yet seen this monster, for they live far "
+      "off in the jungles on Konima's Island.\""
+   cornothsergeant_speech_030 = \
+      "~kRook says, \"There is but one way to attack the Lupogg King, and "
+      "that is with numbers. Send in different leads to engage him, and pull "
+      "those warriors back when they become wounded.\""
+   cornothsergeant_speech_031 = \
+      "~kRook says, \"The Royalists have many loyal allies in Marion. The "
+      "rank and file of every King's Army throughout every war in this "
+      "lands' history has marched from Marion under the banner of the Zarcos "
+      "family. The people of Marion stand by the King even now.\""
+   cornothsergeant_speech_032 = \
+      "~kRook says, \"A fine town. Ever loyal, ever valiant, ever strong.\""
+   cornothsergeant_speech_033 = "~kRook says, \"Bah.\""
+   cornothsergeant_speech_034 = "~kRook says, \"An utter fool.\""
+   cornothsergeant_speech_035 = "~kRook says, \"A loyal ally to the King.\""
+   cornothsergeant_speech_036 = \
+      "~kRook says, \"Only the mightiest warrior should pit their skills "
+      "against the Orc Pitboss in solo combat, for he is incomprehensibly "
+      "fast and stronger than two men.\""
+   cornothsergeant_speech_037 = \
+      "~kRook says, \"Only the mightiest warrior should pit their skills "
+      "against the Orc Pitboss in solo combat, for he is incomprehensibly "
+      "fast and stronger than two men.\""
+   cornothsergeant_speech_038 = \
+      "~kRook says, \"The Orc Wizard is found in the caves and underground "
+      "passages of the Orc Warrens. They possess powerful magic, but I "
+      "cannot say their strength.\""
+   cornothsergeant_speech_039 = \
+      "~kRook says, \"To this maiden I have pledged mine life, and now await "
+      "the chance to hold my strength to the test. I know that she had to "
+      "send me away, just as I know that the time will come when she shall "
+      "require my loyal service again. I await that time, and practice my "
+      "skills.\""
+   cornothsergeant_speech_040 = \
+      "~kRook says, \"How now! What news of this fair lady do you bring?\""
+   cornothsergeant_speech_041 = \
+      "~kRook says, \"Thou hast not the honor to speak such a noble name "
+      "without besmirching it by proxy. Leave mine sight, patch, ere I run "
+      "you through the guts and leave you to die like the dog you are.\""
+   cornothsergeant_speech_042 = \
+      "~kRook says, \"Do I think they are a threat?  Don't make me laugh, I "
+      "mean their headquarters is located in a bar.\""
+   cornothsergeant_speech_043 = \
+      "~kRook says, \"In truth this Regifan is not a threat to man or beast, "
+      "he is a rodent with ideas. I have but little use for academics, "
+      "intellectuals, and the like, for I have heard enough of their "
+      "theories on why this land suffers.\""
+   cornothsergeant_speech_044 = \
+      "~kRook says, \"I played when I was younger, of course... stand-off, "
+      "in the academy and for Barloque. I cannot play any more, however, as "
+      "those hooligans from Marion fractured my spine in a dirty tackle.\""
+   cornothsergeant_speech_045 = \
+      "~kRook says, \"I have heard that the shadowbeast has the ability to "
+      "darken the area around itself. I have never seen such a beast, but I "
+      "know it to be a formidable opponent.\""
+   cornothsergeant_speech_046 = \
+      "~kRook says, \"I take students on an as-necessary basis.\""
+   cornothsergeant_speech_047 = \
+      "~kRook says, \"A den of iniquity. We will live to see Tos burned to "
+      "the ground, sieged and put to the sword. You have my word as a "
+      "gentleman on that.\""
+   cornothsergeant_speech_048 = \
+      "~kRook says, \"The business center of Meridian. Need I say more? "
+      "Naturally I don't have much occasion to travel there.\""
+   cornothsergeant_speech_049 = \
+      "~kRook says, \"Moron. Go and bother someone else, or I'll have one of "
+      "my understudies dispatch you.\""
+   cornothsergeant_speech_050 = \
+      "~kRook says, \"Ha ha ha ha ha! What's this? Where? Ultra what?\""
+   cornothsergeant_random_001 = \
+      "~kRook says, \"King Zarcos lives, but is in hiding somewhere in "
+      "Barloque. The time is right for him to return.\""
+   cornothsergeant_random_002 = \
+      "~kRook says, \"I live by the code of honor and that of the blade. "
+      "There is no question that cannot be resolved within these sacred "
+      "laws.\""
+   cornothsergeant_random_003 = \
+      "~kRook is so clearly a little man with an over-active ego."
+   cornothsergeant_random_004 = \
+      "~kRook says, \"'Tis a swordsman that thou fancies thyself? Mayhap I "
+      "could show thee some guidance in your discipline, if thou art "
+      "practiced enough and ready to progress.\""
+   cornothsergeant_random_005 = \
+      "~kRook says, \"Dost thou work then with the battle axe, to master its "
+      "finer points? I too have dedicated my life to the combative skills "
+      "and their perfection, and now earn my fortunes by teaching what I "
+      "can. When thou art ready to learn more skills, perhaps I will help "
+      "thee for a price.\""
+   cornothsergeant_random_006 = \
+      "~kRook says, \"If thou art following the path of the archer, then "
+      "thou hast come to the wrong place, for I know nothing of that weapon "
+      "except that those that fight by bow do so without honor. If thou art "
+      "following the path of the archer, then get thee gone to the company "
+      "of rogues and ambushers, for that is who would use such a weapon.\""
+   cornothsergeant_random_007 = \
+      "~kRook says, \"Dost thou use the mace as thy weapon of preference? "
+      "'Tis an honorable weapon, and deadly in the hands of one versed in "
+      "its mastery.\""
+   cornothsergeant_random_008 = \
+      "~kRook says, \"Of the traditional weapons, I would take the long "
+      "sword above all others. It is the mainstay of the King's Army, and as "
+      "such I have spent the best of my life dedicated to the perfection of "
+      "its art.\""
+   cornothsergeant_random_009 = \
+      "~kRook says, \"The ways of magic are the ways of priests, the weak, "
+      "the blind. Forsooth the ways of magic are the ways of those without "
+      "the mettle to fight with honor, and distinction.\""
+   cornothsergeant_random_010 = \
+      "~kRook says, \"For the enterprising traveler, there are often "
+      "messages that must be carried back and forth between parties across "
+      "the land. Thou will'st certainly gain favor and often profit by "
+      "playing the envoy.\""
+   cornothsergeant_random_011 = \
+      "~kRook says, \"The short sword is an honorable weapon, the weapon of "
+      "the ancient gladiators of Tos. It is no match for the long sword in "
+      "its reach, but it is deadly close-in.\""
+   cornothsergeant_random_012 = \
+      "~kRook says, \"There will be trouble soon between the factions. "
+      "Fighting trouble.\""
+   cornothsergeant_random_013 = \
+      "~kRook says, \"If you wish to improve your skills as a warrior, you "
+      "must fight against opponents that are worthy, nay, even beyond your "
+      "abilities.\""
+   cornothsergeant_random_014 = \
+      "~kRook says, \"You will not advance your abilities if you are not "
+      "willing to take risks. If you want to grow stronger, you must face "
+      "great danger, and be willing to take wounds.\""
+   cornothsergeant_random_015 = \
+      "~kRook says, \"Kateriina needs to take the throne now. All things "
+      "point to it. She is of age, Kalior is no more, and that fledgling "
+      "politician, Akardius, is not fit to rule.\""
+   cornothsergeant_random_016 = \
+      "~kRook says, \"Thou hast come seeking the finest master swordsman to "
+      "ever grace this land, and thou stands now before him. What dost thou "
+      "humbly ask?\""
+   cornothsergeant_random_017 = \
+      "~kRook says, \"There are some warriors that seek solace in the mighty "
+      "Kraanan. They have developed spells, potions and wands in his "
+      "powerful name... I feel certain that Kraanan himself is angered at "
+      "these weaklings, and at their inability to wield a blade. A warrior "
+      "hasn't time to pray in battle.\""
+   cornothsergeant_random_018 = \
+      "~kRook says, \"On what side dost thou stand, friend? Barloque or Tos? "
+      "If thou com'st from the Duke's camp, why then state thy business and "
+      "we shall see to it now. But if thou dost side with the Princess, why "
+      "then thou art most welcome, and consider my house as your own.\""
+   cornothsergeant_random_019 = \
+      "~kRook says, \"If a man is not afraid to die, then it is of no avail "
+      "to threaten him.\""
+   cornothsergeant_random_020 = \
+      "~kRook says, \"The ultimate honor for a warrior is to pick the time "
+      "and the place of his own death.\""
+   cornothsergeant_random_021 = \
+      "~kRook says, \"Training, training, training. That is the way behind "
+      "the greatest warriors, every one.\""
+   cornothsergeant_random_022 = \
+      "~kRook says, \"The shield is a useful tool, and if thou will fight "
+      "with one, choose yours carefully.\""
+   cornothsergeant_random_023 = \
+      "~kRook says, \"The great yetis of the ice caves to the west are a "
+      "challenge even to fighters of the most developed ability.\""
+   cornothsergeant_random_024 = \
+      "~kRook says, \"The orcs are powerful swordsmen, though certainly "
+      "lacking in the subtlety that comes with study. But do not "
+      "underestimate them. You may end up paying for that mistake with your "
+      "life.\""
+   cornothsergeant_random_025 = \
+      "~kRook says, \"Yes, I am the greatest swordsman who has ever lived. "
+      "The greatest.\""
+   cornothsergeant_random_026 = \
+      "~kRook says, \"Pick your battles carefully. You will retain your "
+      "enemies forever, for the most powerful of them will never forgive, or "
+      "forget.\""
+   cornothsergeant_random_027 = \
+      "~kRook says, \"You must never back down from ~Iany~I fight, against "
+      "~Iany~I foe. Never concede, nor surrender an inch of ground. Even if "
+      "you are killed, it will be with your pride.\""
+   cornothsergeant_random_028 = \
+      "~kRook says, \"Keep your wits sharp, and your strategy two steps "
+      "before the strategy of your foe. Strategy and skill will prevail over "
+      "even the most powerful enemy who fights with skill alone.\""
+   cornothsergeant_random_029 = \
+      "~kRook says, \"You stand before a master. Bow.\""
+   cornothsergeant_random_030 = \
+      "~kRook says, \"Gather together the ten most gifted sword fighters of "
+      "the land, and send them at me in a single wave.  I will deliver to "
+      "thee ten bodies, ten headless peasants, and would be without a "
+      "scratch.\""
+   cornothsergeant_random_031 = \
+      "~kRook is a man with a legendary temper, with the reputation as the "
+      "greatest duelist of the age."
+   cornothsergeant_random_032 = \
+      "~kRook has the mannerisms of a well-groomed military officer, "
+      "although beneath his impeccable manners lies the temper of a gut-shot "
+      "troll."
+   cornothsergeant_random_033 = \
+      "~kRook says, \"What can I do for you today?\""
+   cornothsergeant_random_034 = \
+      "~kRook taps a little rhythmic patter out with his fingers against the "
+      "back of his left hand."
+   cornothsergeant_random_035 = "~kRook eyes you coolly."
+   cornothsergeant_random_036 = \
+      "~kRook stands very, very straight and watches your every movement."
+   cornothsergeant_random_037 = \
+      "~kRook is possessed with a sense of grace and agility that is evident "
+      "immediately to any in his presence."
+   cornothsergeant_random_038 = \
+      "~kStanding before this little man it isn't hard to see that his "
+      "reputation as the deadliest swordsman alive is believable. His every "
+      "move is careful, smooth."
+   cornothsergeant_random_039 = \
+      "~kRook says, \"If thou will dedicate thyself with equal ardor to the "
+      "combative arts as thou dedicates thyself to meaningless prattle, you "
+      "will surely be a giant.\""
+   cornothsergeant_random_040 = \
+      "~kRook says, \"The orc scimitar is an ungainly weapon, heavy and off "
+      "balance. Certainly not the weapon for an officer, though it is quite "
+      "fearsome in the hands of those practiced in the skill. There are "
+      "those around that would be able to teach a warrior those skills. Not "
+      "myself, mind you.\""
+   cornothsergeant_random_041 = \
+      "~kRook says, \"Look straight into the eyes of your enemy, as your "
+      "battle approaches and when battle is engaged. Do not shift your gaze "
+      "to their hands, their sword, or any distraction that they might "
+      "encourage. The battle will be won or lost through their eyes.\""
+   cornothsergeant_random_042 = \
+      "~kRook says, \"The swordsman rules the day. Or swordswoman, for many "
+      "of the finest warriors in this land are female, as I should know, for "
+      "they all pass through these doors seeking the advice of the "
+      "~Imaster~I.\""
+   cornothsergeant_random_043 = \
+      "~kRook says, \"I am to understand that there is a great teacher on "
+      "the faraway land at Ko'catan who teaches the bow. A fantastic weapon "
+      "for the hunting, but forsooth I cannot say that a warrior would use "
+      "it with honor in the field of battle.\""
+   cornothsergeant_random_044 = \
+      "~kRook says, \"If thou might wish to dedicate thyself to the "
+      "scimitar, then I have heard that there is a man in Jasper that might "
+      "be persuaded to help thee with that. I have heard that there is a "
+      "teacher there who has great skills at the orc weapon.\""
+   cornothsergeant_random_045 = \
+      "~kRook says, \"The future of this land is as a map is, where the "
+      "mileposts will instead be swords. It is a map where the piled corpses "
+      "of the enemies of the crown will lie as thick road lines to mark the "
+      "passage of the valiant forces of the Princess Kateriina.\""
+   cornothsergeant_random_046 = \
+      "~kRook says, \"I am loyal to none save the crown and to the lineage "
+      "of the Zarcos line, a family of most royal bearing. Their direct "
+      "bloodline has ruled this fair land for two centuries and half "
+      "another, a bloodline that now sustains in the rightful heiress "
+      "Kateriina. No others will ever challenge this right by sword as long "
+      "as I stand.\""
+   cornothsergeant_random_047 = \
+      "~kRook says, \"I have killed twenty-four men in duels alone. Do you "
+      "think you live by honor? By chivalry? It is up to you how you want to "
+      "live, and how you die. If you live with dignity and honor then death "
+      "is of no consequence.\""
+   cornothsergeant_random_048 = "~kRook seems easily offended."
+   cornothsergeant_random_049 = \
+      "~kRook says, \"Thy karma is much more profoundly affected when thou "
+      "dost kill another person than when thou dost kill a beast.\""
+   cornothsergeant_random_050 = \
+      "~kRook says, \"A large foe like the Lupogg King should only be "
+      "attacked in sufficient numbers to deal many blows, or thou art doomed "
+      "indeed.\""
+   cornothsergeant_random_051 = \
+      "~kRook says, \"Keep this in mind: that when one is attacked with "
+      "magic, the power of thine weapons and thine armor will protect thee "
+      "if thy gear be strong enough.\""
+   cornothsergeant_random_052 = "~kRook says, \"Leave me.\""
+   cornothsergeant_random_053 = \
+      "~kRook says, \"I haven't time for you. Leave this place.\""
+   cornothsergeant_random_054 = \
+      "~kRook says, \"Our conversation is over. Leave me now.\""
+   cornothsergeant_random_055 = \
+      "~kRook mumbles, \"Impudent upstart, power is so important to him now "
+      "that he is determined to take others down with him.\""
+   cornothsergeant_random_056 = "~kRook pointedly ignores you."
+   cornothsergeant_random_057 = \
+      "~kRook says, \"Get thee gone. I am weary from the burden of your "
+      "company, and my patience grows thin.\""
+   cornothsergeant_random_058 = \
+      "~kRook says, \"I have no more time to waste with your like. Be gone.\""
+   cornothsergeant_random_059 = \
+      "~kRook says, \"Thou dost not want to anger me, be certain of that. "
+      "Go, before you err beyond mine temper, knave.\""
+   cornothsergeant_random_060 = \
+      "~kRook says, \"Go back to your Duke and tell him to keep his servants "
+      "about his own house, where they won't get hurt. If you stay here I "
+      "cannot promise your safety, slave. Get thee along to thy mommy.\""
+   cornothsergeant_random_061 = \
+      "~kRook's eyes become narrow slits, as he watches you with calculated "
+      "venom."
+   cornothsergeant_random_062 = \
+      "~kRook nods his head slowly, watching you move about the room."
+   cornothsergeant_random_063 = "~kRook is fuming mad."
+   cornothsergeant_trigger_avar = "avar"
+   cornothsergeant_trigger_barloque = "barloque"
+   cornothsergeant_trigger_bye = "bye"
+   cornothsergeant_trigger_cave_orc = "cave orc"
+   cornothsergeant_trigger_cor_noth = "cor noth"
+   cornothsergeant_trigger_council = "council"
+   cornothsergeant_trigger_council_2 = "council"
+   cornothsergeant_trigger_cylill = "cylill"
+   cornothsergeant_trigger_zylill = "zylill"
+   cornothsergeant_trigger_dragonfly = "dragonfly"
+   cornothsergeant_trigger_duke = "duke"
+   cornothsergeant_trigger_hello = "hello"
+   cornothsergeant_trigger_jasper = "jasper"
+   cornothsergeant_trigger_jonas = "jonas"
+   cornothsergeant_trigger_jonas_d_accor = "jonas d'accor"
+   cornothsergeant_trigger_king_zarcos = "king zarcos"
+   cornothsergeant_trigger_kriipa = "kriipa"
+   cornothsergeant_trigger_lupogg_king = "lupogg king"
+   cornothsergeant_trigger_lupogg_king_2 = "lupogg king"
+   cornothsergeant_trigger_marion = "marion"
+   cornothsergeant_trigger_meidei = "meidei"
+   cornothsergeant_trigger_morrigan = "morrigan"
+   cornothsergeant_trigger_orc_chieftain = "orc chieftain"
+   cornothsergeant_trigger_orc_pitboss = "orc pitboss"
+   cornothsergeant_trigger_orc_wizard = "orc wizard"
+   cornothsergeant_trigger_princess = "princess"
+   cornothsergeant_trigger_rebels = "rebels"
+   cornothsergeant_trigger_regifan_du_bukise = "regifan du bukise"
+   cornothsergeant_trigger_hagen = "hagen"
+   cornothsergeant_trigger_rugby = "rugby"
+   cornothsergeant_trigger_shadowbeast = "shadowbeast"
+   cornothsergeant_trigger_teach = "teach"
+   cornothsergeant_trigger_tos = "tos"
+   cornothsergeant_trigger_ultima = "ultima"
+
+   // CorNothTailor (Hester Gilk)
+   cornothtailor_speech_001 = \
+      "~kHester Gilk says, \"Barloque is a, ah, a sort of a shell of a city, "
+      "almost a perfect metaphor for the state of governmental affairs here "
+      "in Meridian. Nothing left but the trappings of royalty. Some, ah, "
+      "some pieces of decaying grandeur. So what.\""
+   cornothtailor_speech_002 = \
+      "~kHester Gilk says, \"The sea is very beautiful at Barloque. I think "
+      "the city itself is a bit, ah, a bit dry.\""
+   cornothtailor_speech_003 = \
+      "~kHester Gilk says, \"I don't have occasion to travel, ah, to "
+      "Barloque with frequency.\""
+   cornothtailor_speech_004 = "~kHester Gilk says, \"Good bye. Be careful.\""
+   cornothtailor_speech_005 = "~kHester Gilk says, \"Ah yes, goodbye.\""
+   cornothtailor_speech_006 = \
+      "~kHester Gilk watches you briefly, and then goes back to her sewing."
+   cornothtailor_speech_007 = \
+      "~kHester Gilk says, \"Cor Noth is the city of my exile. Of all the "
+      "cities in Meridian, I believe that Cor Noth is the most palatable, "
+      "but it is not the home that I have left behind. I have much work to "
+      "do here.\""
+   cornothtailor_speech_008 = \
+      "~kHester Gilk says, \"Yes, this is, ah, this is a lovely place, my "
+      "new home. It has been very welcoming toward me. You could say that I "
+      "am grateful.\""
+   cornothtailor_speech_009 = \
+      "~kHester Gilk says, \"Well, I haven't been here long enough to form a "
+      "strong opinion one way or the other.\""
+   cornothtailor_speech_010 = \
+      "~kHester Gilk says, \"Change is overdue. Our current system of "
+      "government is outdated and waning. And their plans to improve this "
+      "state of affairs are worse than you can even imagine.\""
+   cornothtailor_speech_011 = \
+      "~kHester Gilk says, \"The Council? I understand that they are, ah, "
+      "very wise and venerable men.\""
+   cornothtailor_speech_012 = \
+      "~kHester Gilk says, \"Nonsense, what gives them the right to believe "
+      "they could govern the people better than the people themselves. "
+      "Arrogant players in a game they did not create themselves. They fear "
+      "change, mark my words.\""
+   cornothtailor_speech_013 = \
+      "~kHester Gilk says, \"I send my thread away to be cut by others. My "
+      "craft is weaving; the cutting I leave to someone else, someone better "
+      "suited to it.\""
+   cornothtailor_speech_014 = \
+      "~kHester Gilk says, \"D'Franco is surely abashed at the death of Duke "
+      "Kalior.\""
+   cornothtailor_speech_015 = \
+      "~kHester Gilk says, \"It appears that even without Kalior, his plans "
+      "to earn the throne may still throw Meridian into civil war.\""
+   cornothtailor_speech_016 = \
+      "~kHester Gilk says, \"Which one? The dead or the living?\""
+   cornothtailor_speech_017 = \
+      "~kHester Gilk gives you a strange look, \"Hmm, and what do ~Iyou~I "
+      "know about fate, dear child?\""
+   cornothtailor_speech_018 = \
+      "~kHester Gilk says, \"Who can say what lies beyond the borders of "
+      "what we know. The great libraries do not have all the answers either. "
+      "Can you even begin to imagine what we are not told in these stories?\""
+   cornothtailor_speech_019 = \
+      "~kHester Gilk says, \"One must never forget that history is written "
+      "by the victors and that memories are distorted by feelings.\""
+   cornothtailor_speech_020 = \
+      "~kHester Gilk says, \"Always remember that history is written by the "
+      "victors. If the current gods were the victors, what tale do you think "
+      "they would want to keep hidden?\""
+   cornothtailor_speech_021 = \
+      "~kHester Gilk says, \"Hello. Is there something I can show you?\""
+   cornothtailor_speech_022 = "~kHester Gilk says, \"Yes, hello.\""
+   cornothtailor_speech_023 = \
+      "~kHester Gilk nods without looking up from her sewing."
+   cornothtailor_speech_024 = \
+      "~kHester Gilk says, \"You could say that I have an, ah, an affinity "
+      "for Jasper, and the people of Jasper. Like me, the people of Jasper "
+      "have borne the abuses of power on their spirits, and on, ah, on their "
+      "independence. You might also say that I am involved with their "
+      "struggle, and with their future.\""
+   cornothtailor_speech_025 = \
+      "~kHester Gilk says, \"I have many recent friends in Jasper. The "
+      "people there have many troubles to overcome, many hurdles.\""
+   cornothtailor_speech_026 = \
+      "~kHester Gilk says, \"I have many old friends in Jasper. The people "
+      "there have many troubles, many hurdles to overcome.\""
+   cornothtailor_speech_027 = \
+      "~kHester Gilk says, \"I don't know anything about this place.\""
+   cornothtailor_speech_028 = \
+      "~kHester Gilk says, \"I understand that it is a quaint city, although "
+      "I must admit that I have not yet visited the town. I am looking "
+      "forward to that time.\""
+   cornothtailor_speech_029 = \
+      "~kHester Gilk says, \"People often seem to become strange when they "
+      "come to know themselves.\""
+   cornothtailor_speech_030 = \
+      "~kHester Gilk says, \"Poor thing, it simply isn't fair that she is "
+      "abused like this for her beliefs.\""
+   cornothtailor_speech_031 = \
+      "~kHester Gilk says, \"The yarn she spins was all tangled. Now she is "
+      "only smoothing out the knots.\""
+   cornothtailor_speech_032 = \
+      "~kHester Gilk says, \"Why do you think the priestesses fear the child "
+      "so? Think about it and then come back to me.\""
+   cornothtailor_speech_033 = \
+      "~kHester Gilk says, \"Have you looked into the reasons for her "
+      "behavior? The answer might surprise you.\""
+   cornothtailor_speech_034 = \
+      "~kHester Gilk says, \"Those who are determined to change something "
+      "are the ones who get the attention.\""
+   cornothtailor_speech_035 = \
+      "~kHester Gilk says, \"Would you learn more about the power or about "
+      "her deeds? Both, otherwise I cannot help you further and teach you. "
+      "Perhaps you should seek out the authorities in this field, they could "
+      "tell you more.\""
+   cornothtailor_speech_036 = \
+      "~kHester Gilk says, \"She is a fool, and, ah, and must step down in "
+      "the face of progress. I fear, though, that she will continue to "
+      "resist our evolution toward progress. Don't we have the right to "
+      "self-determination? Yes, we do. There is no room for sentimentality "
+      "or nostalgia in the present. Life is pressing.\""
+   cornothtailor_speech_037 = \
+      "~kHester Gilk says, \"Yes, the Princess Kateriina. A fascinating "
+      "woman, I understand. Yes, the people seem most fond of her.\""
+   cornothtailor_speech_038 = \
+      "~kHester Gilk says, \"I think I have heard something about her.\""
+   cornothtailor_speech_039 = \
+      "~kHester Gilk says, \"I trust Solomon implicitly. He has been, ah, a "
+      "good friend.\""
+   cornothtailor_speech_040 = \
+      "~kHester Gilk says, \"When I first arrived in Meridian, of course I "
+      "went to Tos. But I couldn't settle there, I will say that it is far "
+      "too busy for me. Cor Noth is much more to my liking.\""
+   cornothtailor_speech_041 = \
+      "~kHester Gilk says, \"I have not been to Twitannia and honestly, I, "
+      "ah, I would not care to go.\""
+   cornothtailor_speech_042 = \
+      "~kHester Gilk says, \"Is it not strange that the moment of her death, "
+      "which seemed to most to be her most triumphant, was in truth her "
+      "weakest?\""
+   cornothtailor_speech_043 = \
+      "~kHester Gilk smiles and you sense she is hiding something from you, "
+      "\"Would you like to see some of my woven goods? One never knows what "
+      "one might discover. Perhaps you will discover something about "
+      "yourself that you did not yet know.\""
+   cornothtailor_speech_044 = \
+      "~kHester Gilk says, \"Yevitan is a very interesting man, ah, he has "
+      "certainly survived a great deal. He is an enemy to be respected, and "
+      "a powerful ally to his friends.\""
+   cornothtailor_random_001 = \
+      "~kHester Gilk says, \"Children often see the truth or the future in "
+      "their dreams. Most people forget that as time goes by, though.\""
+   cornothtailor_random_002 = \
+      "~kHester Gilk says, \"Are you prepared for what is to come?\""
+   cornothtailor_random_003 = \
+      "~kHester Gilk says, \"There are, ah, people that will help those in "
+      "need and, ah, that have the resources to afford such help. People "
+      "that I am connected with, that I trust regardless of their motives.\""
+   cornothtailor_random_004 = \
+      "~kHester Gilk says, \"Be especially careful in Tos. They have two "
+      "dukes, one dead, one alive, both equally dangerous.\""
+   cornothtailor_random_005 = \
+      "~kHester Gilk says, \"The Royalists too have their means... spies, "
+      "soldiers, secrets. Beware the princess's followers, and be not taken "
+      "in by her charm.\""
+   cornothtailor_random_006 = \
+      "~kHester Gilk says, \"Most of the business leaders in this land are "
+      "in collaboration, attempting to establish an ideological stronghold "
+      "to defend their interests. Do not believe whatever information you "
+      "may receive to the contrary, for there is also an enormous amount of "
+      "misinformation.\""
+   cornothtailor_random_007 = \
+      "~kHester Gilk says, \"You must be very careful what you say to others "
+      "about your political views in Meridian, especially in Tos. You never "
+      "know where that information will, ah, will end up.\""
+   cornothtailor_random_008 = \
+      "~kHester Gilk says, \"For a price, you can receive any sort of help "
+      "that you might need, help with ~Iany~I circumstances.\""
+   cornothtailor_random_009 = \
+      "~kHester Gilk says, \"Please take all the time that you need to look, "
+      "ah, look around the shop. We shall talk when you are done.\""
+   cornothtailor_random_010 = \
+      "~kHester Gilk says, \"We look out for each other. I keep, ah, an eye "
+      "out for you, and you keep an eye out, ah, out for me.\""
+   cornothtailor_random_011 = \
+      "~kHester Gilk says, \"There seems to be quite a lot of, ah, "
+      "excitement that has been stirred up between the factions of the Duke "
+      "and the Princess. Seems to be very serious.\""
+   cornothtailor_random_012 = \
+      "~kHester Gilk says, \"We must stand up for each other, the common "
+      "people.\""
+   cornothtailor_random_013 = \
+      "~kHester Gilk says, \"No one knows what is the origin of the famous "
+      "tokens of the Councilors. That they are great sources of power, there "
+      "can be no doubt, for I have heard that they are capable of "
+      "teleporting themselves around!\""
+   cornothtailor_random_014 = \
+      "~kHester Gilk says, \"This land does not need a strong King to get "
+      "it, ah, back onto its feet, it needs a strong Queen. The men in this "
+      "land have had their chances to straighten things out, and have "
+      "continually failed.\""
+   cornothtailor_random_015 = \
+      "~kHester Gilk says, \"I understand that there is a lot of trouble in "
+      "Tos after dark, that it is not safe to be on the streets near the "
+      "graveyard. No one has yet explained why the dead rise in that city "
+      "and attack the citizens.\""
+   cornothtailor_random_016 = \
+      "~kHester Gilk says, \"I have heard something about an ancient Dwarven "
+      "Hall somewhere out in the wild lands. What do you suppose that is?\""
+   cornothtailor_random_017 = \
+      "~kHester Gilk says, \"I have heard that a large black market is "
+      "springing up around that new green mineral from the Island of the "
+      "Illusionist.\""
+   cornothtailor_random_018 = \
+      "~kHester Gilk says, \"Can I help you find some thing in particular? "
+      "I've got something here, ah, I've... \""
+   cornothtailor_random_019 = \
+      "~kHester Gilk says, \"Have you heard why the blacksmith Fehr'loi Qan "
+      "moved his shop from Tos to Barloque? Do you suppose it has anything "
+      "to do with the forces of the Princess and the Royals building up a "
+      "large, ah, large stockpile of weapons and armor?\""
+   cornothtailor_random_020 = \
+      "~kHester Gilk says, \"You may judge for yourself the quality of my "
+      "work, but if I may say so the clothing I have here is without "
+      "parallel.\""
+   cornothtailor_random_021 = \
+      "~kHester Gilk says, \"Are you looking for a particular, ah, a "
+      "particular style or color of garment?\""
+   cornothtailor_random_022 = \
+      "~kHester Gilk stitches adeptly at a silk blouse."
+   cornothtailor_random_023 = \
+      "~kHester Gilk seems to follow your progress around the shop while she "
+      "returns to work on her sewing."
+   cornothtailor_random_024 = \
+      "~kYou see that the excellent reputation that this shop has earned is "
+      "well deserved. It is exceedingly well-organized, tidy, and "
+      "comfortable."
+   cornothtailor_random_025 = \
+      "~kHester Gilk ties a neat knot at the end of a stitch and nips it off "
+      "neatly with her teeth."
+   cornothtailor_random_026 = \
+      "~kHester Gilk prophesies, \"I can feel that the east wind brings "
+      "change with it. How will you face the events to come?\""
+   cornothtailor_random_027 = \
+      "~kHester Gilk says, \"There is more. It is said that Joguer has been "
+      "making regular trips to Tos, where each time he makes huge deposits "
+      "in the bank. Yes, ah, very large sums. And this is told to me "
+      "directly from a person who has heard it from Skivlat, the banker. "
+      "That makes it as good as true.\""
+   cornothtailor_random_028 = \
+      "~kHester Gilk says, \"Caramo has much more influence over the office "
+      "of the Justicar than you might imagine. In fact, she not only counts "
+      "the votes, but is responsible for implementing the Justicar's "
+      "decisions. That is, ah, however she interprets them to be.\""
+   cornothtailor_random_029 = \
+      "~kHester Gilk says, \"There has been quite a bit of talk about "
+      "Frisconar lately. Have you heard? It seems that he has been connected "
+      "with the recent rise in the dubious activities of the Necromancers! "
+      "Fantastic! What do you suppose his motives would be, ah, if it were "
+      "true, that is.\""
+   cornothtailor_random_030 = \
+      "~kHester Gilk says, \"Have you heard any new news of the affair "
+      "between Herbutte and the Princess?\""
+   cornothtailor_random_031 = \
+      "~kHester Gilk says, \"I have heard that Frular and Rook are going "
+      "into, ah, business together. I have heard that they are raising an "
+      "army, with Frular's funds and, ah, Rook's expertise.\""
+   cornothtailor_random_032 = \
+      "~kHester Gilk says, \"Word is out that Madelia has become the "
+      "Princess's closest confidante. Who knows what effect this will have "
+      "on court politics?\""
+   cornothtailor_random_033 = \
+      "~kHester Gilk says, \"The rumors continue that Akardius and Alzahakar "
+      "keep the deal made with Kalior, and are now conspiring together for "
+      "the throne. They are surely a force if this is true.\""
+   cornothtailor_random_034 = \
+      "~kYou get the feeling that Hester Gilk is pointedly ignoring you."
+   cornothtailor_random_035 = \
+      "~kThere is something about this shop that makes you decidedly "
+      "~Iuncomfortable~I."
+   cornothtailor_random_036 = \
+      "~kHester Gilk looks at you searchingly, as if peering into the depths "
+      "of your soul."
+   cornothtailor_trigger_barloque = "barloque"
+   cornothtailor_trigger_bye = "bye"
+   cornothtailor_trigger_bye_2 = "bye"
+   cornothtailor_trigger_cor_noth = "cor noth"
+   cornothtailor_trigger_council = "council"
+   cornothtailor_trigger_cut = "cut"
+   cornothtailor_trigger_duke = "duke"
+   cornothtailor_trigger_fate = "fate"
+   cornothtailor_trigger_god = "god"
+   cornothtailor_trigger_gods = "gods"
+   cornothtailor_trigger_gods_2 = "gods"
+   cornothtailor_trigger_hello = "hello"
+   cornothtailor_trigger_jasper = "jasper"
+   cornothtailor_trigger_marion = "marion"
+   cornothtailor_trigger_miriana = "miriana"
+   cornothtailor_trigger_node_attack = "node attack"
+   cornothtailor_trigger_princess = "princess"
+   cornothtailor_trigger_solomon = "solomon"
+   cornothtailor_trigger_tos = "tos"
+   cornothtailor_trigger_ultima = "ultima"
+   cornothtailor_trigger_venya_cyr = "venya'cyr"
+   cornothtailor_trigger_weave = "weave"
+   cornothtailor_trigger_yevitan = "yevitan"
+
+messages:
+
+   GetSpeechLibrary()
+   "Speech library nodes: [class, [[triggers, mood, action, key], ...]]"
+   {
+      local lLib;
+
+      lLib = $;
+
+      lLib = Cons([&CornothGrocer,[
+         [[cornothgrocer_trigger_tabu],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_081],81],
+         [[cornothgrocer_trigger_tabu],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_082],82],
+         [[cornothgrocer_trigger_tamaal],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_083],83],
+         [[cornothgrocer_trigger_tos],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_084],84],
+         [[cornothgrocer_trigger_tos],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_085],85],
+         [[cornothgrocer_trigger_tos],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_086],86],
+         [[cornothgrocer_trigger_wagzidi],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_087],87],
+         [[cornothgrocer_trigger_wagzidi_herak],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_088],88],
+         [[cornothgrocer_trigger_whagzii],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_089],89],
+         [[cornothgrocer_trigger_whagzii],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_090],90]
+      ]],lLib);
+
+      lLib = Cons([&CornothGrocer,[
+         [[cornothgrocer_trigger_hello],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_041],41],
+         [[cornothgrocer_trigger_hello],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_042],42],
+         [[cornothgrocer_trigger_hello],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_043],43],
+         [[cornothgrocer_trigger_herak],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_044],44],
+         [[cornothgrocer_trigger_herbutte,
+            cornothgrocer_trigger_herbut],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_045],45],
+         [[cornothgrocer_trigger_herbutte,
+            cornothgrocer_trigger_herbut],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_046],46],
+         [[cornothgrocer_trigger_herbutte,
+            cornothgrocer_trigger_herbut],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_047],47],
+         [[cornothgrocer_trigger_jasper],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_048],48],
+         [[cornothgrocer_trigger_jasper],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_049],49],
+         [[cornothgrocer_trigger_jasper],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_050],50],
+         [[cornothgrocer_trigger_jhonee],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_051],51],
+         [[cornothgrocer_trigger_jhonee],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_052],52],
+         [[cornothgrocer_trigger_joguer,
+            cornothgrocer_trigger_koldor],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_053],53],
+         [[cornothgrocer_trigger_joguer,
+            cornothgrocer_trigger_koldor],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_054],54],
+         [[cornothgrocer_trigger_kaab_farlu],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_055],55],
+         [[cornothgrocer_trigger_kaab_farlu],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_056],56],
+         [[cornothgrocer_trigger_kagdur],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_057],57],
+         [[cornothgrocer_trigger_kagdur],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_058],58],
+         [[cornothgrocer_trigger_lady_aftyn],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_059],59],
+         [[cornothgrocer_trigger_madelia],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_060],60],
+         [[cornothgrocer_trigger_madelia],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_061],61],
+         [[cornothgrocer_trigger_marion],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_062],62],
+         [[cornothgrocer_trigger_marion],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_063],63],
+         [[cornothgrocer_trigger_marion],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_064],64],
+         [[cornothgrocer_trigger_morrigan],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_065],65],
+         [[cornothgrocer_trigger_morrigan],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_066],66],
+         [[cornothgrocer_trigger_my_baszoo],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_067],67],
+         [[cornothgrocer_trigger_padarapoo],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_068],68],
+         [[cornothgrocer_trigger_princess],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_069],69],
+         [[cornothgrocer_trigger_ran_er_hoth,
+            cornothgrocer_trigger_ran_er_zen,
+            cornothgrocer_trigger_ran_er_zen_2],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_070],70],
+         [[cornothgrocer_trigger_ran_er_hoth,
+            cornothgrocer_trigger_ran_er_zen,
+            cornothgrocer_trigger_ran_er_zen_2],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_071],71],
+         [[cornothgrocer_trigger_rook,
+            cornothgrocer_trigger_roluk],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_072],72],
+         [[cornothgrocer_trigger_rook,
+            cornothgrocer_trigger_roluk],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_073],73],
+         [[cornothgrocer_trigger_rook,
+            cornothgrocer_trigger_roluk],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_074],74],
+         [[cornothgrocer_trigger_rycksher,
+            cornothgrocer_trigger_rulker],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_075],75],
+         [[cornothgrocer_trigger_rycksher,
+            cornothgrocer_trigger_rulker],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_076],76],
+         [[cornothgrocer_trigger_rycksher,
+            cornothgrocer_trigger_rulker],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_077],77],
+         [[cornothgrocer_trigger_sepkas],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_078],78],
+         [[cornothgrocer_trigger_sepkas],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_079],79],
+         [[cornothgrocer_trigger_siidhika],0,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_080],80]
+      ]],lLib);
+
+      lLib = Cons([&CornothGrocer,[
+         [[cornothgrocer_trigger_aebu_sikal],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_001],1],
+         [[cornothgrocer_trigger_aebu_sikal_gah_tamaal],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_002],2],
+         [[cornothgrocer_trigger_bagab],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_003],3],
+         [[cornothgrocer_trigger_bagab],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_004],4],
+         [[cornothgrocer_trigger_barloque],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_005],5],
+         [[cornothgrocer_trigger_barloque],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_006],6],
+         [[cornothgrocer_trigger_barloque],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_007],7],
+         [[cornothgrocer_trigger_baszoo],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_008],8],
+         [[cornothgrocer_trigger_binghi_ghaloob],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_009],9],
+         [[cornothgrocer_trigger_binghi_ghaloob],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_010],10],
+         [[cornothgrocer_trigger_bung],0,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_011],11],
+         [[cornothgrocer_trigger_bye],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_012],12],
+         [[cornothgrocer_trigger_bye],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_013],13],
+         [[cornothgrocer_trigger_bye],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_014],14],
+         [[cornothgrocer_trigger_cor_noth],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_015],15],
+         [[cornothgrocer_trigger_cor_noth],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_016],16],
+         [[cornothgrocer_trigger_cor_noth],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_017],17],
+         [[cornothgrocer_trigger_council],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_018],18],
+         [[cornothgrocer_trigger_council],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_019],19],
+         [[cornothgrocer_trigger_council],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_020],20],
+         [[cornothgrocer_trigger_dhami_zeet],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_021],21],
+         [[cornothgrocer_trigger_dinki],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_022],22],
+         [[cornothgrocer_trigger_dinki_padarapoomy],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_023],23],
+         [[cornothgrocer_trigger_diwesafi],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_024],24],
+         [[cornothgrocer_trigger_diwesafi],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_025],25],
+         [[cornothgrocer_trigger_duke],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_026],26],
+         [[cornothgrocer_trigger_duke_princess],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_027],27],
+         [[cornothgrocer_trigger_frisconar],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_028],28],
+         [[cornothgrocer_trigger_frisconar],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_029],29],
+         [[cornothgrocer_trigger_gah],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_030],30],
+         [[cornothgrocer_trigger_ghazzabu],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_031],31],
+         [[cornothgrocer_trigger_ghazzabu],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_032],32],
+         [[cornothgrocer_trigger_ghiza],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_033],33],
+         [[cornothgrocer_trigger_ghiza_haga],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_034],34],
+         [[cornothgrocer_trigger_ghum_dikka],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_035],35],
+         [[cornothgrocer_trigger_ghum_dikka],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_036],36],
+         [[cornothgrocer_trigger_haatik],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_037],37],
+         [[cornothgrocer_trigger_haatik],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_038],38],
+         [[cornothgrocer_trigger_haga_dhami_zeet],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_039],39],
+         [[cornothgrocer_trigger_hagzjaffe],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_speech_040],40]
+      ]],lLib);
+
+      lLib = Cons([&CorNothInnkeeper,[
+         [[cornothinnkeeper_trigger_need_a_courier],0,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_041,[LIBPLUG_NAME]],41],
+         [[cornothinnkeeper_trigger_node_attack],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_042],42],
+         [[cornothinnkeeper_trigger_node_attack],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_043],43],
+         [[cornothinnkeeper_trigger_node_attack],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_044],44],
+         [[cornothinnkeeper_trigger_orc],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_045],45],
+         [[cornothinnkeeper_trigger_orc],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_046],46],
+         [[cornothinnkeeper_trigger_orc],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_047],47],
+         [[cornothinnkeeper_trigger_princess],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_048],48],
+         [[cornothinnkeeper_trigger_princess],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_049],49],
+         [[cornothinnkeeper_trigger_princess],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_050],50],
+         [[cornothinnkeeper_trigger_princess],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_051],51],
+         [[cornothinnkeeper_trigger_princess],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_052],52],
+         [[cornothinnkeeper_trigger_stunted_dwarf],0,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_053,[LIBPLUG_NAME]],53],
+         [[cornothinnkeeper_trigger_tangee_bluff],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_054],54],
+         [[cornothinnkeeper_trigger_tangee_bluff],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_055],55],
+         [[cornothinnkeeper_trigger_tangee_bluff],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_056],56],
+         [[cornothinnkeeper_trigger_tos],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_057],57],
+         [[cornothinnkeeper_trigger_tos],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_058],58],
+         [[cornothinnkeeper_trigger_tos],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_059],59],
+         [[cornothinnkeeper_trigger_tova],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_060],60],
+         [[cornothinnkeeper_trigger_troll],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_061],61],
+         [[cornothinnkeeper_trigger_troll],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_062],62]
+      ]],lLib);
+
+      lLib = Cons([&CorNothInnkeeper,[
+         [[cornothinnkeeper_trigger_avar],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_001],1],
+         [[cornothinnkeeper_trigger_avar],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_002],2],
+         [[cornothinnkeeper_trigger_avar],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_003],3],
+         [[cornothinnkeeper_trigger_barloque],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_004],4],
+         [[cornothinnkeeper_trigger_barloque],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_005],5],
+         [[cornothinnkeeper_trigger_barloque],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_006],6],
+         [[cornothinnkeeper_trigger_bye],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_007,[LIBPLUG_NAME]],7],
+         [[cornothinnkeeper_trigger_bye],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_008],8],
+         [[cornothinnkeeper_trigger_bye],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_009],9],
+         [[cornothinnkeeper_trigger_cor_noth],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_010],10],
+         [[cornothinnkeeper_trigger_cor_noth],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_011],11],
+         [[cornothinnkeeper_trigger_cor_noth],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_012],12],
+         [[cornothinnkeeper_trigger_council],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_013],13],
+         [[cornothinnkeeper_trigger_council],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_014],14],
+         [[cornothinnkeeper_trigger_council],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_015],15],
+         [[cornothinnkeeper_trigger_duke],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_016],16],
+         [[cornothinnkeeper_trigger_duke],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_017],17],
+         [[cornothinnkeeper_trigger_duke],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_018],18],
+         [[cornothinnkeeper_trigger_fate],0,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_019],19],
+         [[cornothinnkeeper_trigger_grassy_knoll],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_020],20],
+         [[cornothinnkeeper_trigger_hello],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_021,[LIBPLUG_NAME]],21],
+         [[cornothinnkeeper_trigger_hello],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_022],22],
+         [[cornothinnkeeper_trigger_hello],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_023],23],
+         [[cornothinnkeeper_trigger_izzio],0,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_024],24],
+         [[cornothinnkeeper_trigger_jasper],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_025],25],
+         [[cornothinnkeeper_trigger_jasper],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_026],26],
+         [[cornothinnkeeper_trigger_jasper],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_027],27],
+         [[cornothinnkeeper_trigger_king],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_028],28],
+         [[cornothinnkeeper_trigger_king],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_029],29],
+         [[cornothinnkeeper_trigger_king],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_030],30],
+         [[cornothinnkeeper_trigger_marion],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_031],31],
+         [[cornothinnkeeper_trigger_marion],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_032],32],
+         [[cornothinnkeeper_trigger_marion],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_033],33],
+         [[cornothinnkeeper_trigger_miriana],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_034],34],
+         [[cornothinnkeeper_trigger_miriana],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_035],35],
+         [[cornothinnkeeper_trigger_miriana],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_036],36],
+         [[cornothinnkeeper_trigger_miriana],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_037],37],
+         [[cornothinnkeeper_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_038],38],
+         [[cornothinnkeeper_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_039],39],
+         [[cornothinnkeeper_trigger_money],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_speech_040],40]
+      ]],lLib);
+
+      lLib = Cons([&CorNothSergeant,[
+         [[cornothsergeant_trigger_princess],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_041],41],
+         [[cornothsergeant_trigger_rebels],0,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_042],42],
+         [[cornothsergeant_trigger_regifan_du_bukise,
+            cornothsergeant_trigger_hagen],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_043],43],
+         [[cornothsergeant_trigger_rugby],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_044],44],
+         [[cornothsergeant_trigger_shadowbeast],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_045],45],
+         [[cornothsergeant_trigger_teach],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_046],46],
+         [[cornothsergeant_trigger_tos],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_047],47],
+         [[cornothsergeant_trigger_tos],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_048],48],
+         [[cornothsergeant_trigger_tos],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_049],49],
+         [[cornothsergeant_trigger_ultima],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_050],50]
+      ]],lLib);
+
+      lLib = Cons([&CorNothSergeant,[
+         [[cornothsergeant_trigger_avar],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_001],1],
+         [[cornothsergeant_trigger_barloque],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_002],2],
+         [[cornothsergeant_trigger_barloque],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_003],3],
+         [[cornothsergeant_trigger_barloque],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_004],4],
+         [[cornothsergeant_trigger_bye],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_005],5],
+         [[cornothsergeant_trigger_bye],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_006],6],
+         [[cornothsergeant_trigger_bye],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_007],7],
+         [[cornothsergeant_trigger_cave_orc],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_008],8],
+         [[cornothsergeant_trigger_cor_noth],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_009],9],
+         [[cornothsergeant_trigger_cor_noth],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_010],10],
+         [[cornothsergeant_trigger_cor_noth],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_011],11],
+         [[cornothsergeant_trigger_council,
+            cornothsergeant_trigger_council_2],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_012],12],
+         [[cornothsergeant_trigger_council],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_013],13],
+         [[cornothsergeant_trigger_council],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_014],14],
+         [[cornothsergeant_trigger_cylill,
+            cornothsergeant_trigger_zylill],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_015],15],
+         [[cornothsergeant_trigger_dragonfly],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_016],16],
+         [[cornothsergeant_trigger_duke],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_017],17],
+         [[cornothsergeant_trigger_duke],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_018],18],
+         [[cornothsergeant_trigger_duke],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_019],19],
+         [[cornothsergeant_trigger_hello],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_020],20],
+         [[cornothsergeant_trigger_hello],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_021,
+               [LIBPLUG_SIRMADAM]],21],
+         [[cornothsergeant_trigger_hello],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_022],22],
+         [[cornothsergeant_trigger_jasper],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_023],23],
+         [[cornothsergeant_trigger_jasper],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_024],24],
+         [[cornothsergeant_trigger_jasper],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_025],25],
+         [[cornothsergeant_trigger_jonas],0,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_026],26],
+         [[cornothsergeant_trigger_jonas_d_accor],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_027],27],
+         [[cornothsergeant_trigger_king_zarcos],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_028],28],
+         [[cornothsergeant_trigger_kriipa],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_029],29],
+         [[cornothsergeant_trigger_lupogg_king,
+            cornothsergeant_trigger_lupogg_king_2],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_030],30],
+         [[cornothsergeant_trigger_marion],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_031],31],
+         [[cornothsergeant_trigger_marion],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_032],32],
+         [[cornothsergeant_trigger_marion],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_033],33],
+         [[cornothsergeant_trigger_meidei],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_034],34],
+         [[cornothsergeant_trigger_morrigan],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_035],35],
+         [[cornothsergeant_trigger_orc_chieftain],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_036],36],
+         [[cornothsergeant_trigger_orc_pitboss],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_037],37],
+         [[cornothsergeant_trigger_orc_wizard],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_038],38],
+         [[cornothsergeant_trigger_princess],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_039],39],
+         [[cornothsergeant_trigger_princess],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_speech_040],40]
+      ]],lLib);
+
+      lLib = Cons([&CorNothTailor,[
+         [[cornothtailor_trigger_ultima],0,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_041],41],
+         [[cornothtailor_trigger_venya_cyr],0,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_042],42],
+         [[cornothtailor_trigger_weave],0,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_043],43],
+         [[cornothtailor_trigger_yevitan],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_044],44]
+      ]],lLib);
+
+      lLib = Cons([&CorNothTailor,[
+         [[cornothtailor_trigger_barloque],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_001],1],
+         [[cornothtailor_trigger_barloque],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_002],2],
+         [[cornothtailor_trigger_barloque],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_003],3],
+         [[cornothtailor_trigger_bye,
+            cornothtailor_trigger_bye_2],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_004],4],
+         [[cornothtailor_trigger_bye,
+            cornothtailor_trigger_bye_2],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_005],5],
+         [[cornothtailor_trigger_bye,
+            cornothtailor_trigger_bye_2],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_006],6],
+         [[cornothtailor_trigger_cor_noth],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_007],7],
+         [[cornothtailor_trigger_cor_noth],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_008],8],
+         [[cornothtailor_trigger_cor_noth],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_009],9],
+         [[cornothtailor_trigger_council],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_010],10],
+         [[cornothtailor_trigger_council],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_011],11],
+         [[cornothtailor_trigger_council],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_012],12],
+         [[cornothtailor_trigger_cut],0,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_013],13],
+         [[cornothtailor_trigger_duke],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_014],14],
+         [[cornothtailor_trigger_duke],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_015],15],
+         [[cornothtailor_trigger_duke],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_016],16],
+         [[cornothtailor_trigger_fate],0,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_017],17],
+         [[cornothtailor_trigger_god],0,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_018],18],
+         [[cornothtailor_trigger_gods,cornothtailor_trigger_gods_2],0,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_019],19],
+         [[cornothtailor_trigger_gods,cornothtailor_trigger_gods_2],0,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_020],20],
+         [[cornothtailor_trigger_hello],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_021],21],
+         [[cornothtailor_trigger_hello],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_022],22],
+         [[cornothtailor_trigger_hello],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_023],23],
+         [[cornothtailor_trigger_jasper],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_024],24],
+         [[cornothtailor_trigger_jasper],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_025],25],
+         [[cornothtailor_trigger_jasper],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_026],26],
+         [[cornothtailor_trigger_jasper],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_027],27],
+         [[cornothtailor_trigger_marion],0,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_028],28],
+         [[cornothtailor_trigger_miriana],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_029],29],
+         [[cornothtailor_trigger_miriana],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_030],30],
+         [[cornothtailor_trigger_miriana],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_031],31],
+         [[cornothtailor_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_032],32],
+         [[cornothtailor_trigger_node_attack],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_033],33],
+         [[cornothtailor_trigger_node_attack],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_034],34],
+         [[cornothtailor_trigger_node_attack],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_035],35],
+         [[cornothtailor_trigger_princess],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_036],36],
+         [[cornothtailor_trigger_princess],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_037],37],
+         [[cornothtailor_trigger_princess],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_038],38],
+         [[cornothtailor_trigger_solomon],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_039],39],
+         [[cornothtailor_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,cornothtailor_speech_040],40]
+      ]],lLib);
+
+      return lLib;
+   }
+
+   GetRandomLibrary()
+   "Random library nodes: [class, [[percent, mood, action, key], ...]]"
+   {
+      local lLib;
+
+      lLib = $;
+
+      lLib = Cons([&CornothGrocer,[
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,cornothgrocer_random_001],1],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,cornothgrocer_random_002],2],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,cornothgrocer_random_003],3],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,cornothgrocer_random_004],4],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,cornothgrocer_random_005],5],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,cornothgrocer_random_006],6],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,cornothgrocer_random_007],7],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,cornothgrocer_random_008],8],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,cornothgrocer_random_009],9],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_random_010],10],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_random_011],11],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_random_012],12],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_random_013],13],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_random_014],14],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_random_015],15],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_random_016],16],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_random_017],17],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_random_018],18],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_random_019],19],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_random_020],20],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_random_021],21],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_random_022],22],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_random_023],23],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_random_024],24],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_random_025],25],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothgrocer_random_026],26],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_random_027],27],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_random_028],28],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothgrocer_random_029],29],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,cornothgrocer_random_030],30],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,cornothgrocer_random_031],31],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,cornothgrocer_random_032],32],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,cornothgrocer_random_033],33],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,cornothgrocer_random_034],34],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,cornothgrocer_random_035],35]
+      ]],lLib);
+
+      lLib = Cons([&CorNothInnkeeper,[
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_041],41],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_042],42],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_043],43],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_044],44],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_045],45],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_046],46],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_047],47],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_048],48],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_049],49],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_050],50],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_051],51],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_052],52],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_053],53],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_054],54],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_055],55],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_056],56],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_057],57],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_058],58],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_059],59],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_060],60],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_061],61],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_062],62],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_063],63],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_064],64]
+      ]],lLib);
+
+      lLib = Cons([&CorNothInnkeeper,[
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_001],1],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_002],2],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_003],3],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_004],4],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_005],5],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_006],6],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_007],7],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_008],8],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_009],9],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_010],10],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_011],11],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_012],12],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_013],13],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_014],14],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_015],15],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_016],16],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_017],17],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_018],18],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_019],19],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_020],20],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_021],21],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_022],22],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_023],23],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_024],24],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_025],25],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_026],26],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_027],27],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_028],28],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_029],29],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_030],30],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_031],31],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_032],32],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_033],33],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_034],34],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_035],35],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_036],36],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_037],37],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_038],38],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_039],39],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothinnkeeper_random_040],40]
+      ]],lLib);
+
+      lLib = Cons([&CorNothSergeant,[
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_041],41],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_042],42],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_043],43],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_044],44],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_045],45],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_046],46],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_047],47],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_048],48],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_049],49],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_050],50],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_051],51],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_052],52],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_053],53],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_054],54],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_055],55],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_056],56],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_057],57],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_058],58],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_059],59],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_060],60],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_061],61],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_062],62],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,cornothsergeant_random_063],63]
+      ]],lLib);
+
+      lLib = Cons([&CorNothSergeant,[
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_001],1],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_002],2],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_003],3],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_004],4],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_005],5],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_006],6],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_007],7],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_008],8],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_009],9],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_010],10],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_011],11],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_012],12],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_013],13],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_014],14],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_015],15],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_016],16],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_017],17],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_018],18],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_019],19],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_020],20],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_021],21],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_022],22],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_023],23],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_024],24],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_025],25],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_026],26],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_027],27],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_028],28],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_029],29],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_030],30],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_031],31],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_032],32],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_033],33],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_034],34],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_035],35],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_036],36],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_037],37],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_038],38],
+         [50,LIBRES_MOOD_NOT_GOOD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_039],39],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,cornothsergeant_random_040],40]
+      ]],lLib);
+
+      lLib = Cons([&CorNothTailor,[
+         [50,0,[LIBACT_QUOTE_RSC,cornothtailor_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,cornothtailor_random_002],2],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,cornothtailor_random_003],3],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,cornothtailor_random_004],4],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,cornothtailor_random_005],5],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,cornothtailor_random_006],6],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,cornothtailor_random_007],7],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,cornothtailor_random_008],8],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,cornothtailor_random_009],9],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,cornothtailor_random_010],10],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothtailor_random_011],11],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothtailor_random_012],12],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothtailor_random_013],13],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothtailor_random_014],14],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothtailor_random_015],15],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothtailor_random_016],16],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothtailor_random_017],17],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothtailor_random_018],18],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothtailor_random_019],19],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothtailor_random_020],20],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothtailor_random_021],21],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothtailor_random_022],22],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothtailor_random_023],23],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothtailor_random_024],24],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothtailor_random_025],25],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,cornothtailor_random_026],26],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,cornothtailor_random_027],27],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,cornothtailor_random_028],28],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,cornothtailor_random_029],29],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,cornothtailor_random_030],30],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,cornothtailor_random_031],31],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,cornothtailor_random_032],32],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,cornothtailor_random_033],33],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,cornothtailor_random_034],34],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,cornothtailor_random_035],35],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,cornothtailor_random_036],36]
+      ]],lLib);
+
+      return lLib;
+   }
+
+end
+////////////////////////////////////////////////////////////////////////////////

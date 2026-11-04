@@ -1,0 +1,1656 @@
+// Meridian 59, Copyright 1994-2012 Andrew Kirmse and Chris Kirmse.
+// All rights reserved.
+//
+// This software is distributed under a license that is described in
+// the LICENSE file that accompanies it.
+//
+// Meridian is a registered trademark.
+
+
+////////////////////////////////////////////////////////////////////////////////
+NpcSpeechWanderer is NpcSpeech
+// NPC talk of wandering NPCs, the Lich and all towns:
+// answers to trigger words and random lines.
+// Each line is a resource (EN here, DE in the .lkod); Library adds the
+// lists in CreateSpeechLibrary and CreateRandomLibrary.
+
+constants:
+
+   include blakston.khd
+
+resources:
+
+   include npcspwanderer.lkod
+
+   // DarkWizard (Maleval)
+   darkwizard_speech_001 = \
+      "~kMaleval says, \"A toy for children who wish they could live forever "
+      "and lose their souls in doing so. A most remarkable experience.\""
+   darkwizard_speech_002 = \
+      "~kMaleval says, \"Why don't you ask the priestesses about them. I "
+      "would be interested to hear their response.\""
+   darkwizard_speech_003 = \
+      "~kMaleval says, \"Please, do not demean your intellect by believing "
+      "that the only powers in our world are those of some glorified "
+      "heroes.\""
+   darkwizard_speech_004 = \
+      "~kMaleval says, \"I remember the people of Brax as very "
+      "industrious... perhaps too narrow in their vision... or perhaps "
+      "merely very unlucky.\""
+   darkwizard_speech_005 = \
+      "~kMaleval says, \"I have means of getting all that I desire. Keep "
+      "your precious little items.\""
+   darkwizard_speech_006 = \
+      "~kMaleval says, \"Crafting a spell requires concentration, practice "
+      "and special reagents.\""
+   darkwizard_speech_007 = \
+      "~kMaleval says, \"If there was no Faren would the winds cease to "
+      "blow? The winds have been blowing for longer than people have "
+      "believed in the thunder god.\""
+   darkwizard_speech_008 = \
+      "~kMaleval glares at you, then flashes a dark smile, \"Greetings.\""
+   darkwizard_speech_009 = \
+      "~kMaleval says, \"I can help you better understand magic and how you "
+      "learn it.\""
+   darkwizard_speech_010 = \
+      "~kMaleval says, \"They will be no match for the dark forces they "
+      "hunt. Their swords will be their downfall.\""
+   darkwizard_speech_011 = \
+      "~kMaleval says, \"Please consider that the hunters and the "
+      "necromancers serve the same function. Their methods and ideologies "
+      "may differ, but make no mistake, both feed on souls.\""
+   darkwizard_speech_012 = \
+      "~kMaleval says, \"How is it that a god can die? Legend says by a "
+      "dagger. Ha, what poppycock indeed.\""
+   darkwizard_speech_013 = \
+      "~kMaleval says, \"Kraanan is merely an excuse to get drunk and fight "
+      "and feel good about doing so.\""
+   darkwizard_speech_014 = \
+      "~kMaleval says, \"The lich was the first incarnation of the Ancient "
+      "one in this realm. It is a child of darkness that will bring others "
+      "into this land. It is a herald of doom for this world. The Ancient "
+      "one has awakened.\""
+   darkwizard_speech_015 = \
+      "~kMaleval says, \"They are the proof that things are not as pure as "
+      "the priestesses would have you believe. Of course they are forces of "
+      "incredible power in our world.\""
+   darkwizard_speech_016 = \
+      "~kMaleval smiles, \"There is no goddess of evil. Just evil people who "
+      "cannot take ownership of their own guilt.\""
+   darkwizard_speech_017 = \
+      "~kMaleval says, \"Reagents are items that store a concentrated amount "
+      "of energy that you can channel through a spell. Some are very "
+      "difficult to acquire. Others can be found easily. Then there is "
+      "Solagh.\""
+   darkwizard_speech_018 = \
+      "~kMaleval says, \"Ah, the ultimate illusion. Riija does not exist! "
+      "How simple it is to play tricks on the human mind.\""
+   darkwizard_speech_019 = "~kMaleval says, \"I am not a peddler, cretin.\""
+   darkwizard_speech_020 = \
+      "~kMaleval says, \"If she is so powerful, then why does she let good "
+      "people die?! Are you telling me a goddess does not have the power to "
+      "protect her children?!\""
+   darkwizard_speech_021 = \
+      "~kMaleval says, \"Solagh. Ha. The apothecaries of the land are wise "
+      "to guard their secret else they will lose the monopoly on this "
+      "substance.\""
+   darkwizard_speech_022 = \
+      "~kMaleval says, \"Long ago the Ancient one created instruments "
+      "through which he could manipulate his surroundings. He did this to "
+      "prepare for his rebirth. The urn is one such instrument.\""
+   darkwizard_speech_023 = \
+      "~kMaleval says, \"She was a child when she encountered one of the "
+      "most powerful forces in the universe. When the Ancient one opened his "
+      "eyes and saw her, her soul became a toy.\""
+   darkwizard_speech_024 = \
+      "~kMaleval says, \"You must give the man credit for escaping the "
+      "destruction of his homeland. He was a shameless survivor.\""
+   darkwizard_random_001 = "~kMaleval practices bizarre incantations."
+   darkwizard_random_002 = \
+      "~kMaleval says, \"There is no power in religion. None whatsoever.\""
+   darkwizard_random_003 = \
+      "~kMaleval says, \"Two sorcerers may employ the same spell, but it "
+      "will be vastly different depending on their own skill.\""
+   darkwizard_random_004 = \
+      "~kMaleval says, \"Spells do not come from the gods. They come from "
+      "within. Anyone can employ the mystic arts if they have the "
+      "inclination to learn the proper components.\""
+   darkwizard_random_005 = \
+      "~kMaleval says, \"The wild girl Miriana is so young and innocent, yet "
+      "her untamed mind speaks volumes of truth.\""
+   darkwizard_random_006 = \
+      "~kMaleval says, \"There are times and places where magic grows "
+      "stronger.\""
+   darkwizard_random_007 = \
+      "~kMaleval says, \"The gods are merely a convenient way to describe "
+      "that which cannot be explained by simple minds.\""
+   darkwizard_random_008 = \
+      "~kMaleval grumbles, \"I am in no mood to be trifled with.\""
+   darkwizard_random_009 = \
+      "~kMaleval smiles, \"I sense an awakening. Someone has learned a new "
+      "spell.\""
+   darkwizard_random_010 = "~kMaleval says, \"Which god do you believe in?\""
+   darkwizard_random_011 = \
+      "~kMaleval says, \"You need to expand your horizons. However, "
+      "expanding your horizon will mean limiting someone else's.\""
+   darkwizard_random_012 = \
+      "~kMaleval waves his hands as if caressing a floating animal. You "
+      "sense magic in the air."
+   darkwizard_random_013 = \
+      "~kMaleval winks an eye at you. You feel as though he has looked into "
+      "your very soul. He shakes his head and grunts."
+   darkwizard_random_014 = \
+      "~kMaleval waves a hand and says some ancient word. The room suddenly "
+      "smells better."
+   darkwizard_random_015 = \
+      "~kMaleval begins coughing violently. He wiggles his fingers slightly "
+      "and the coughing subsides."
+   darkwizard_random_016 = \
+      "~kMaleval says, \"My liege, I have done the research that you have "
+      "requested. She is not in touch with the needs of her followers. It "
+      "may be the key.\""
+   darkwizard_random_017 = \
+      "~kMaleval says, \"I require reimbursement for my efforts, Akardius. "
+      "Much of my time was lost doing your work.\""
+   darkwizard_random_018 = \
+      "~kMaleval says, \"I have scried the counselors meeting, my liege. For "
+      "the appropriate price, I can tell you their minds with regards to the "
+      "Princess.\""
+   darkwizard_random_019 = \
+      "~kMaleval says, \"My magic tells me of a new agent of the Bourgeois "
+      "Castle. When you ascend to the throne, I wish not to be forgotten, my "
+      "liege.\""
+   darkwizard_random_020 = \
+      "~kDuke Akardius says, \"Good, Maleval. You will be paid as promised "
+      "for your information.\""
+   darkwizard_random_021 = \
+      "~kDuke Akardius says, \"Remember that we have renegotiated the price, "
+      "Maleval, so you would do well to hold your tongue.\""
+   darkwizard_random_022 = \
+      "~kDuke Akardius says, \"Maleval, I will remember your station when I "
+      "become King. You will get what you deserve.\""
+   darkwizard_random_023 = "~kMaleval bows to Duke Akardius."
+   darkwizard_random_024 = \
+      "~kThe Duke nods to Maleval, \"That will be all for now, wizard.\""
+   darkwizard_random_025 = \
+      "~kMaleval whispers something softly and the Duke grins."
+   darkwizard_random_026 = \
+      "~kMaleval says to the Duke, \"Will there be anything else, my liege?\""
+   darkwizard_random_027 = "~kThe Duke says to Maleval, \"You may leave.\""
+   darkwizard_random_028 = \
+      "~kMaleval says, \"I do not wish to be disturbed.\""
+   darkwizard_random_029 = \
+      "~kMaleval says, \"Justice is blind, would you not agree?\""
+   darkwizard_random_030 = \
+      "~kMaleval's ring glows for a moment. The dark wizard laughs to "
+      "himself."
+   darkwizard_random_031 = \
+      "~kMaleval says, \"I grow hungry.\" He then waves his hand and smiles "
+      "contently, \"That's better.\""
+   darkwizard_random_032 = \
+      "~kMaleval says, \"That old wizard Alzahakar believes that the Tokens "
+      "have great power. Reunite the tokens. Ha! He and his followers are on "
+      "a fool's errand.\""
+   darkwizard_random_033 = \
+      "~kMaleval begins to make some guttural sounds. All of the dust near "
+      "him vanishes."
+   darkwizard_random_034 = \
+      "~kMaleval speaks an ancient three word incantation. The last word "
+      "sounds something like \"necktie.\""
+   darkwizard_random_035 = \
+      "~kMaleval bows to Zuxana, \"My lady, I have information for you.\""
+   darkwizard_random_036 = "~kMaleval says to the priestess, \"As you wish.\""
+   darkwizard_random_037 = \
+      "~kPriestess Zuxana says, \"~I~rAh, Maleval, what news do you have for "
+      "me?~I~k\""
+   darkwizard_random_038 = \
+      "~kPriestess Zuxana says, \"~I~rWe shall finish our discussion later, "
+      "Maleval.~I~k\""
+   darkwizard_random_039 = \
+      "~kMaleval and Priestess Zuxana begin to laugh together."
+   darkwizard_random_040 = \
+      "~kMaleval says to Priestess Zuxana, \"I have ~Ispoken~I with the "
+      "Duke.\""
+   darkwizard_random_041 = \
+      "~kPriestess Zuxana says to the dark wizard, \"~I~rIs all going as I "
+      "planned?~I~k\""
+   darkwizard_random_042 = \
+      "~kMaleval grins, \"Zuxana, the one that you spoke of before, is now "
+      "dead.\""
+   darkwizard_random_043 = \
+      "~kSensing that you are listening, Maleval abruptly ends his "
+      "conversation with the Priestess."
+   darkwizard_trigger_amulet = "amulet"
+   darkwizard_trigger_ancient_one = "ancient one"
+   darkwizard_trigger_ancient_ones = "ancient ones"
+   darkwizard_trigger_brax = "brax"
+   darkwizard_trigger_sell = "sell"
+   darkwizard_trigger_components = "components"
+   darkwizard_trigger_components_2 = "components"
+   darkwizard_trigger_faren = "faren"
+   darkwizard_trigger_hello = "hello"
+   darkwizard_trigger_help = "help"
+   darkwizard_trigger_hunter = "hunter"
+   darkwizard_trigger_hunter_sword = "hunter sword"
+   darkwizard_trigger_jala = "jala"
+   darkwizard_trigger_kraanan = "kraanan"
+   darkwizard_trigger_lich = "lich"
+   darkwizard_trigger_necromancer = "necromancer"
+   darkwizard_trigger_qor = "qor"
+   darkwizard_trigger_reagents = "reagents"
+   darkwizard_trigger_riija = "riija"
+   darkwizard_trigger_buy = "buy"
+   darkwizard_trigger_shal_ille = "shal'ille"
+   darkwizard_trigger_sha_lill = "sha-lill"
+   darkwizard_trigger_solagh = "solagh"
+   darkwizard_trigger_urn = "urn"
+   darkwizard_trigger_venya_cyr = "venya'cyr"
+   darkwizard_trigger_zarrus = "zarrus"
+
+   // Heretic (Miriana)
+   heretic_speech_001 = \
+      "~kMiriana says, \"Oh, pretty, pretty pendant! Ouch! Hey, leave my "
+      "soul alone! I only wanted... I only wanted... I only wanted to be "
+      "pretty too.\""
+   heretic_speech_002 = \
+      "~kMiriana looks at you sadly. \"This innocent little magic node never "
+      "did anything to anyone. It will not hurt anyone and it never has.\""
+   heretic_speech_003 = \
+      "~kMiriana says, \"Cows go to heaven, Goats go to the Underworld.\""
+   heretic_speech_004 = "~kMiriana says, \"I don't like towns.\""
+   heretic_speech_005 = \
+      "~kMiriana says, \"Brax, Brax, Brax, you will never get the facts.\""
+   heretic_speech_006 = "~kMiriana says, \"I don't have hardly any money.\""
+   heretic_speech_007 = "~kMiriana says, \"I don't like towns.\""
+   heretic_speech_008 = \
+      "~kMiriana says, \"Not all things seem as they are, if you want to "
+      "learn something about the truth, then perhaps you should try to talk "
+      "seriously with Madelia.\""
+   heretic_speech_009 = \
+      "~kMiriana shrieks shrilly, \"Bad, bad, bad people. All because of "
+      "him. They know, they know what they are doing, do you?\""
+   heretic_speech_010 = \
+      "~kMiriana sighs, \"How can you take ~Ime~I for a necromancer?\""
+   heretic_speech_011 = \
+      "~kMiriana jumps up and down clapping her hands and says, \"Very glad "
+      "to meet you!\""
+   heretic_speech_012 = \
+      "~kMiriana says, \"Hello, do you want to play with me? I can fetch all "
+      "my friends and then we'll play tag! Tag, you're it!\""
+   heretic_speech_013 = "~kMiriana says, \"I know some magic. I really do.\""
+   heretic_speech_014 = \
+      "~kMiriana smiles, \"She uses pretty yarn to weave her wares, such "
+      "pretty yarn. I hope she makes me something just as pretty.\""
+   heretic_speech_015 = \
+      "~kMiriana approaches you menacingly, \"What do you want? Are you "
+      "trying to steal my powers? Oh, surely not, silly me.\""
+   heretic_speech_016 = \
+      "~kMiriana says, \"What do they do with their prey, these hunters? Do "
+      "they eat their prey? Do they make coats from their skin? Do they hang "
+      "their stuffed heads in a room? I just wonder.\""
+   heretic_speech_017 = \
+      "~kMiriana says, \"Those swords are more dangerous than their "
+      "victims.\""
+   heretic_speech_018 = \
+      "~kMiriana says, \"She's not dead and never was. Parrin can prove it!\""
+   heretic_speech_019 = "~kMiriana says, \"I don't like towns.\""
+   heretic_speech_020 = \
+      "~kMiriana says, \"The lich is a hungry mouth that feeds the mother. "
+      "The mother sleeps while the children feed her. Ha! Imagine that. "
+      "Shhhh.\""
+   heretic_speech_021 = \
+      "~kMiriana says, \"She believes me, she knows, but I don't know how "
+      "she knows. She knows, ask her and she will tell you.\""
+   heretic_speech_022 = "~kMiriana says, \"I don't like towns.\""
+   heretic_speech_023 = \
+      "~kMiriana says, \"I have seen them. They reminded me of cows. I tried "
+      "to make one some soup, and he started screaming.\""
+   heretic_speech_024 = \
+      "~kMiriana says, \"You want to stop me? Then see that you get the "
+      "answer from your trusted advisor, the councilor.\""
+   heretic_speech_025 = \
+      "~kMiriana says, \"Would you like to know what the power is good for? "
+      "Is that what you are asking, little bird?\""
+   heretic_speech_026 = \
+      "~kMiriana's eyes light up brightly, \"You want the power back? You "
+      "really want to try to wrest it from me? Poor little birds, running "
+      "around with their little nodes.\""
+   heretic_speech_027 = \
+      "~kMiriana whispers, \"Old mean wizard Maleval does believe in the "
+      "gods. Well, one of them anyway.\""
+   heretic_speech_028 = \
+      "~kMiriana says, \"There's a dress maker in the Castle who owns "
+      "slaves.\""
+   heretic_speech_029 = \
+      "~kMiriana whispers, \"Faren and Shal'ille are one and the same.\""
+   heretic_speech_030 = \
+      "~kMiriana whispers, \"There's a monster behind you.\""
+   heretic_speech_031 = \
+      "~kMiriana says, \"Nevermind. I don't want to tell you.\""
+   heretic_speech_032 = \
+      "~kMiriana says, \"If I like you, and I'm not saying I do, I'll teach "
+      "you some magic.\""
+   heretic_speech_033 = \
+      "~kMiriana says, \"He is still around somewhere. I saw him. Where did "
+      "I see him? I can not remember.\""
+   heretic_speech_034 = "~kMiriana says, \"I don't like towns.\""
+   heretic_speech_035 = \
+      "~kMiriana says, \"The dreams of children. The dreams of children can "
+      "be very dangerous. I wonder if she knows about my dreams.\""
+   heretic_speech_036 = \
+      "~kMiriana giggles, \"Her death was her undoing, in more ways than "
+      "one.\""
+   heretic_speech_037 = \
+      "~kMiriana looks thoughtful, \"Cut the thread, snip snap. Measure the "
+      "thread, cut the thread, snip snap. I wonder if she ever gets tired of "
+      "it?\""
+   heretic_speech_038 = \
+      "~kMiriana giggles, \"Not me, silly little bird, I don't look like "
+      "Hester Gilk... do I?\""
+   heretic_random_001 = "~kMiriana laughs to herself as she dances."
+   heretic_random_002 = \
+      "~kMiriana sings, \"~IShal'ille and Faren, Shal'ille and Faren, both "
+      "are women, both are barren.~I\""
+   heretic_random_003 = \
+      "~kMiriana says, \"The gods are Gods. Not man nor mortal, nor were "
+      "they ever.\""
+   heretic_random_004 = \
+      "~kMiriana says, \"Yes? I hear you, but I don't understand. Please "
+      "help me understand, no don't go away, don't leave me alone.\""
+   heretic_random_005 = \
+      "~kMiriana giggles, \"They shall see, yes they will. We will prove "
+      "them all wrong won't we?\""
+   heretic_random_006 = \
+      "~kMiriana looks at you shyly, \"Do you ever scare yourself, and have "
+      "to run away inside your head?\""
+   heretic_random_007 = \
+      "~kMiriana whispers to you, \"Do you ever hear voices? Do the voices "
+      "call to you? Do you answer the voices?\""
+   heretic_random_008 = \
+      "~kMiriana sings, \"~ILady Faren and Lord Shal'ille, together in love, "
+      "apart not real.~I\""
+   heretic_random_009 = \
+      "~kMiriana says, \"Kraanan is old and gray and mean.\""
+   heretic_random_010 = \
+      "~kMiriana says, \"Qor was never a woman. He was a man. And he didn't "
+      "kill Jala, he seduced her.\""
+   heretic_random_011 = \
+      "~kMiriana says, \"Riija makes me think of goats. I don't know why.\""
+   heretic_random_012 = \
+      "~kMiriana whispers, \"I have a secret. Come closer.\""
+   heretic_random_013 = \
+      "~kMiriana sings, \"~IThe gods made the land and sky, the priests "
+      "wondered how and why, but to look smart they had to lie, and what a "
+      "lie, oh my, oh my.~I\""
+   heretic_random_014 = \
+      "~kMiriana whistles a song that you can't quite place."
+   heretic_random_015 = \
+      "~kMiriana sobs while she dances, \"Oh why won't they believe me?! I "
+      "speak only the truth.\""
+   heretic_random_016 = \
+      "~kMiriana sings, \"~IOh, at a time not night, not day, when the "
+      "stones stand up and dance and play, with wicked grins of the hardest "
+      "gray, gods take revenge on those who slay.~I\""
+   heretic_random_017 = \
+      "~kMiriana giggles scornfully. \"You can't hear their calling, can "
+      "you? I feel sorry for you.\""
+   heretic_random_018 = \
+      "~kMiriana dances about playfully. A magical field appears, a force "
+      "seems to flow out of her. The force flows back, and the field "
+      "disappears again."
+   heretic_random_019 = \
+      "~kMiriana says, \"Resurrection is important, just wait and you will "
+      "see.\""
+   heretic_random_020 = \
+      "~kMiriana whispers, \"Did you hear the call too? It is sort of "
+      "whirling and hissing.\""
+   heretic_random_021 = \
+      "~kMiriana dances around in circles and suddenly falls down. \"The "
+      "voice won't leave me alone. It is all so unclear, but it won't go "
+      "away. Make it go away.\""
+   heretic_random_022 = \
+      "~kMiriana hops up and down, her eyes flashing, \"Have you seen the "
+      "big monster? It goes boom and bang and has that funny thing in its "
+      "middle. Look out, there's one behind you!\""
+   heretic_random_023 = \
+      "~kMiriana suddenly flinches, \"The gods are not pleased. Oh no, they "
+      "are not happy about all this at all.\""
+   heretic_random_024 = \
+      "~kMiriana plucks at her dress. You wonder whether she wants to make a "
+      "new one out of the threads."
+   heretic_random_025 = \
+      "~kMiriana suddenly screams, \"Have, have, have, that is all you care "
+      "about. But now I want to have something too!\""
+   heretic_random_026 = \
+      "~kMiriana sings softly, \"~IHave you heard the true story of the "
+      "gods, have you heard of the downfall of the One?~I\""
+   heretic_random_027 = \
+      "~kMiriana says, \"I wonder whether the gods feel guilty about their "
+      "lies?\""
+   heretic_random_028 = \
+      "~kMiriana stares into the sun, \"Sometimes the light that guides us "
+      "is too strong and you are swallowed up by it.\""
+   heretic_random_029 = \
+      "~kMiriana says, \"You know, Hester Gilk could help you, she helped me "
+      "once too... or was that someone else? Hmmm...\""
+   heretic_random_030 = \
+      "~kMiriana looks around fearfully, then disappears among the trees."
+   heretic_random_031 = \
+      "~kMiriana screams, \"No, no, NO! Mean, mean, MEAN! No, no, I DON'T "
+      "WANT TO!!!\""
+   heretic_random_032 = \
+      "~kMiriana's eyes shine brightly through her tears, \"Did you see it "
+      "collapse? I saw it. It was so empty, so pointless and sad. I don't "
+      "like being sad, it makes me cry.\""
+   heretic_random_033 = \
+      "~kMiriana whispers into the wind, \"Just a few days, just a few days "
+      "and they will see the truth and you will be free and roam the land, "
+      "yes, you will.\""
+   heretic_random_034 = \
+      "~kMiriana dances gleefully, \"It was me! Me, do you hear me? I stole "
+      "the power and now it is mine.\""
+   heretic_random_035 = \
+      "~kMiriana shrieks, \"Go away! I won't cut the thread, don't make me. "
+      "GO AWAY!!\""
+   heretic_random_036 = \
+      "~kMiriana abruptly sits down and gasps, \"Spinning, spinning, "
+      "spinning, I do it day in, day out. Sometimes it makes me all muddled. "
+      "It would be no different for you.\""
+   heretic_random_037 = \
+      "~kMiriana dances in a circle, \"Time, time, soon it is time. Then "
+      "they will all see. No one will doubt me anymore.\""
+   heretic_random_038 = \
+      "~kMiriana looks down at her feet, \"Was I bad? I didn't want to be "
+      "bad. I only did what I ~Bhad~B to do, you understand that, don't "
+      "you?\""
+   heretic_random_039 = \
+      "~kMiriana suddenly takes a threatening step toward you and you know "
+      "that getting any closer to her would be sheer suicide."
+   heretic_random_040 = \
+      "~kMiriana growls wildly, then claps a hand over her mouth, \"Oh my "
+      "god, ~Iwhere~I did that come from? Was that you? Did ~Iyou~I give me "
+      "that?\""
+   heretic_random_041 = \
+      "~kMiriana innocently taps you, \"Excuse me, but did you want to kill "
+      "the giant monster that is leaning over you?\""
+   heretic_random_042 = \
+      "~kMiriana exclaims softly, \"You do believe me, don't you? It was not "
+      "supposed to be like this. You little birds can still stop it, but "
+      "first you must search for the truth. Do you think you can do that, "
+      "little bird? Can you hear the truth?\""
+   heretic_random_043 = "~kMiriana says, \"Have you heard about Jala?\""
+   heretic_trigger_amulet = "amulet"
+   heretic_trigger_attack = "attack"
+   heretic_trigger_aythya = "aythya"
+   heretic_trigger_barloque = "barloque"
+   heretic_trigger_brax = "brax"
+   heretic_trigger_sell = "sell"
+   heretic_trigger_cor_noth = "cor noth"
+   heretic_trigger_council = "council"
+   heretic_trigger_cut = "cut"
+   heretic_trigger_hello = "hello"
+   heretic_trigger_help = "help"
+   heretic_trigger_hester_gilk = "hester gilk"
+   heretic_trigger_hi = "hi"
+   heretic_trigger_hunter = "hunter"
+   heretic_trigger_hunter_sword = "hunter sword"
+   heretic_trigger_jala = "jala"
+   heretic_trigger_jasper = "jasper"
+   heretic_trigger_lich = "lich"
+   heretic_trigger_madelia = "madelia"
+   heretic_trigger_marion = "marion"
+   heretic_trigger_necromancer = "necromancer"
+   heretic_trigger_node_attack = "node attack"
+   heretic_trigger_secret = "secret"
+   heretic_trigger_buy = "buy"
+   heretic_trigger_tendrath = "tendrath"
+   heretic_trigger_tos = "tos"
+   heretic_trigger_venya_cyr = "venya'cyr"
+   heretic_trigger_weave = "weave"
+
+   // HunterGhost (Tendrath)
+   hunterghost_speech_001 = \
+      "~kTendrath says, \"I have only ever seen the pendants on the rotting "
+      "disciples of the Lich. Their magic is strange and alien. It is not "
+      "the power of death that dwells within them. Death is a natural thing. "
+      "They are the veins that turn life into UNDEATH.\""
+   hunterghost_speech_002 = \
+      "~kTendrath says, \"I know little of the story of the ancients.  I "
+      "have heard many versions.  All of them make reference to a being that "
+      "is not from this world but who 'sleeps' within our world.  The end of "
+      "the world arrives when this creature fully wakes from its slumber.\""
+   hunterghost_speech_003 = \
+      "~kTendrath says, \"It was my city.  I am told that the people of Brax "
+      "are no more.  That the purity of our people has been mingled with the "
+      "blood of inferiors.  What is there to say?  Shall I tell you of how "
+      "each person in Brax was born with magic within them.  That each "
+      "person's magic was unique.  That their characters were strong and "
+      "honest.  They are no more and to speak of them gives me great pain.\""
+   hunterghost_speech_004 = \
+      "~kTendrath says, \"The King of Brax had a curved spine and towards "
+      "the end of his reign, had no voice whatsoever.\""
+   hunterghost_speech_005 = \
+      "~kTendrath says, \"I hope this man is a strong leader.  If he is not "
+      "we shall all feel the power of the ancients.\""
+   hunterghost_speech_006 = \
+      "~kTendrath says, \"He was the last man to travel the Nexus.  His "
+      "authority and influence with the people came from his link to the "
+      "Nexus.  The Nexus would take him to other worlds.  He would return "
+      "from these other worlds with treasures and devices and knowledge.  "
+      "The people worshipped him until the Nexus disappeared.  Castle "
+      "Victoria was his home.\""
+   hunterghost_speech_007 = \
+      "~kTendrath says, \"He is your god of nature.  I know him then.  Or "
+      "rather I know of his kind.  Let us hope he still wields great power.\""
+   hunterghost_speech_008 = \
+      "~kTendrath says, \"Before the King was murdered by Venya'cyr, "
+      "Kara'set had come to the princess and voiced her disapproval of the "
+      "King.  There were certain military groups that felt his deformity "
+      "could give their enemies the idea that the country was weak.  I know "
+      "it sounds foolish.  You must understand the people of Brax to "
+      "understand why Kara'set felt this way.  In some way Kara'set felt "
+      "like she helped convince her closest friend to murder her brother.\""
+   hunterghost_speech_009 = \
+      "~kTendrath says, \"While I was buried beneath the earth, I discovered "
+      "that my spirit did not leave this world as I had thought it would. "
+      "For many years I could not find the reason for it. I existed only in "
+      "my grief and my loneliness. Then, slowly, the stones began to give "
+      "way and I saw that the Lich was not dead. It was certainly no longer "
+      "human in any way. Now I knew why I had not yet left this place. My "
+      "task was not yet fulfilled.\""
+   hunterghost_speech_010 = \
+      "~kTendrath says, \"While the army besieged Brax I sacrificed months "
+      "to summon the magic of the earth. Never before had I used my magic on "
+      "weapons. But I transformed the swords of the bravest into instruments "
+      "of death. The spirit of the sword was bound to that of its wielder. "
+      "The bond was strongest when they took revenge. The swords bring "
+      "retribution.\""
+   hunterghost_speech_011 = \
+      "~kTendrath says, \"She was the most ferocious warrior Brax ever had.  "
+      "She was Venya'cyr's close friend.  When Venya'cyr murdered the King, "
+      "her own brother, Kara'set knew that her friend was no more. I "
+      "personally saw Kara'set slay nearly three score necromancers on her "
+      "way towards the palace and the Lich.  If anyone ever had the magic to "
+      "kill the Lich it was her.  To face such things the soul must be pure. "
+      " Within Kara'set, the Lich saw a blemish.  Deep within the warrior "
+      "there was guilt.\""
+   hunterghost_speech_012 = \
+      "~kTendrath says, \"He was my King.  His sister murdered him.  His "
+      "sister was Venya'cyr.  It was the powers of the Urn that originally "
+      "corrupted the soul of the young princess.  It was this power which "
+      "enabled the princess to sacrifice her own brother and leave a people "
+      "without a leader.\""
+   hunterghost_speech_013 = \
+      "~kTendrath says, \"These are your gods.  I suggest you pray to them.\""
+   hunterghost_speech_014 = \
+      "~kTendrath says, \"The Lich is the first manifestation in this world "
+      "of an ancient thing. There is a story of a creature that is older "
+      "than the world and that rests within it. I believe that the powers of "
+      "the Lich come from this creature. I understand that you have many "
+      "gods. It would be best if they helped us now. Let us hope that they "
+      "hear your prayers. Be that as it may, whether they hear them or not, "
+      "you can be sure that I will not rest until the Lich is no more. I "
+      "have learned not to count on the gods.\""
+   hunterghost_speech_015 = \
+      "~kTendrath says, \"They must be destroyed at any cost. These evil "
+      "monsters desire nothing other than the total consumption of all life "
+      "energy here in Meridian. They are wretched servants of their queen. "
+      "If you destroy them, you weaken the Lich. If you destroy the Lich, "
+      "you also destroy the necromancers. Of course Venya'cyr can never be "
+      "killed. You must find a way to hold back her infectious powers. "
+      "Defeating her gives you a short reprieve, but we are all doomed to "
+      "watch her rise again.\""
+   hunterghost_speech_016 = \
+      "~kTendrath says, \"My grandfather remembers the Nexus.  It was a "
+      "portal.  King Fahr'nohl would travel through the Nexus.  He brought "
+      "many fine things to our world but I am sure he also brought many "
+      "things that were dangerous.  When the Nexus disappeared, Fahr'nohl "
+      "was finished. His power lay in his ability to travel the nexus and "
+      "return.  His majesty faded and Castle Victoria was all but "
+      "abandoned.\""
+   hunterghost_speech_017 = \
+      "~kTendrath says, \"I hope the lessons of the past do not escape this "
+      "child.\""
+   hunterghost_speech_018 = \
+      "~kTendrath says, \"This dark god may have ties to the ancients. "
+      "Beware this one. She is the youngest child of an old family.\""
+   hunterghost_speech_019 = \
+      "~kTendrath says, \"These are your gods. I suggest you pray to them.\""
+   hunterghost_speech_020 = \
+      "~kTendrath says, \"These are your gods.  Let us hope they will help "
+      "their followers.\""
+   hunterghost_speech_021 = \
+      "~kTendrath says, \"These devilish things are only shadows that plague "
+      "the living and drive them toward their own dark purposes.\""
+   hunterghost_speech_022 = \
+      "~kTendrath says, \"They were timid warriors.  Let us hope that has at "
+      "least changed.\""
+   hunterghost_speech_023 = \
+      "~kTendrath says, \"When Kara'set was slain by the lich, all was lost. "
+      " Our greatest warrior was defeated.  The army had suffered many "
+      "losses and retreated.  We had lost the swords within the walls of "
+      "Brax.  The murderer of my son would go unpunished.  I sat alone.  I "
+      "heard a sound and looked around.  A small animal was running into a "
+      "large fissure in the ground.  Inside that fissure I found caves that "
+      "led deep into the ground.  For days I traveled.  A huge cavern lay "
+      "beneath our city.  There were ancient artifacts there from some "
+      "forgotten people.  It was then that I knew what to do.\""
+   hunterghost_speech_024 = \
+      "~kTendrath says, \"I know little of the Urn. I have never seen it. I "
+      "only know that it was discovered by a craftsman who was working on "
+      "the foundation of the new palace. Within the Urn lurked the Three of "
+      "the Urn.\""
+   hunterghost_speech_025 = \
+      "~kTendrath says, \"I was told long after my eldest son's murder that "
+      "it was, indeed, the Three of the Urn who first brought my name to the "
+      "ears of Venya'cyr.  Her spirit was so foul.  Upon the words of demons "
+      "she sent those men to my house!  To ensure her own immortality, she "
+      "destroyed the bloodline that was my family.  She murdered my son, "
+      "thinking it was me.  I was a simple man.  I would have suffered many "
+      "things for our leader.  I asked for none of this.  But now... Now I "
+      "will never rest until I see that creature gone from this world "
+      "forever.\""
+   hunterghost_random_001 = \
+      "~kTendrath says, \"Oh my son.  I shall avenge you.  I shall never "
+      "stop until she is dead.\""
+   hunterghost_random_002 = \
+      "~kTendrath says, \"Where has the sun gone?  It has been a thousand "
+      "years since I have seen the sun.\""
+   hunterghost_random_003 = \
+      "~kTendrath says, \"Tordos is that you?  Oh, I thought my son had come "
+      "to get me.  He was killed by Venya'cyr you know.  For that, she will "
+      "pay.\""
+   hunterghost_random_004 = \
+      "~kTendrath says, \"Beware the necromancers. They live here. Take "
+      "care!\""
+   hunterghost_random_005 = \
+      "~kTendrath says, \"Shhh.  The Lich lives here. It will hunger for the "
+      "life within you. You must destroy it if you want your children to "
+      "grow up safely.\""
+   hunterghost_trigger_amulet = "amulet"
+   hunterghost_trigger_ancients = "ancients"
+   hunterghost_trigger_brax = "brax"
+   hunterghost_trigger_deformity = "deformity"
+   hunterghost_trigger_deformity_2 = "deformity"
+   hunterghost_trigger_duke = "duke"
+   hunterghost_trigger_duke_2 = "duke"
+   hunterghost_trigger_far_nohl = "far nohl"
+   hunterghost_trigger_fahr_nohl = "fahr nohl"
+   hunterghost_trigger_fahr_nohl_2 = "fahr'nohl"
+   hunterghost_trigger_faren = "faren"
+   hunterghost_trigger_guilt = "guilt"
+   hunterghost_trigger_hunter = "hunter"
+   hunterghost_trigger_hunter_sword = "hunter sword"
+   hunterghost_trigger_hunter_sword_2 = "hunter sword"
+   hunterghost_trigger_kara_set = "kara set"
+   hunterghost_trigger_kara_set_2 = "kara'set"
+   hunterghost_trigger_ker_toth = "ker'toth"
+   hunterghost_trigger_kraanan = "kraanan"
+   hunterghost_trigger_lich = "lich"
+   hunterghost_trigger_necromancer = "necromancer"
+   hunterghost_trigger_nexus = "nexus"
+   hunterghost_trigger_princess = "princess"
+   hunterghost_trigger_qor = "qor"
+   hunterghost_trigger_riija = "riija"
+   hunterghost_trigger_shal_ille = "shal'ille"
+   hunterghost_trigger_sha_lill = "sha-lill"
+   hunterghost_trigger_three_of_the_urn = "three of the urn"
+   hunterghost_trigger_tos = "tos"
+   hunterghost_trigger_caves = "caves"
+   hunterghost_trigger_urn = "urn"
+   hunterghost_trigger_venya_cyr = "venya'cyr"
+
+   // Izzio (Izzio)
+   izzio_speech_001 = \
+      "~kIzzio says, \"I bet that would fetch a pretty penny.\""
+   izzio_speech_002 = \
+      "~kIzzio almost stops smiling, \"Well you know that really isn't my "
+      "kinda place.\""
+   izzio_speech_003 = \
+      "~kIzzio says, \"I wish it weren't so but I have nothing for you "
+      "today.\""
+   izzio_speech_004 = \
+      "~kIzzio says, \"For all the world he seems a nice enough chap.\""
+   izzio_speech_005 = "~kIzzio says, \"Poor boy.\""
+   izzio_speech_006 = \
+      "~kIzzio says, \"From my experience I have found it unwise to swear "
+      "allegiance to anyone above your own self, but that's just my "
+      "opinion.\""
+   izzio_speech_007 = \
+      "~kIzzio says, \"Politics really don't pique my interest.\""
+   izzio_speech_008 = \
+      "~kIzzio says, \"That isn't for me, I like my limbs where they are.\""
+   izzio_speech_009 = \
+      "~kIzzio says, \"Now there is a school worthy of attention.  Faren at "
+      "least recognizes the power and wonder of nature itself.\""
+   izzio_speech_010 = \
+      "~kIzzio says, \"I'm not quite sure what you're getting at. But I warn "
+      "you, you are treading on thin ice.\""
+   izzio_speech_011 = \
+      "~kIzzio says, \"Hmm, strange. There seems to be more to that old "
+      "woman. She still keeps silent about everything she reminds me of, but "
+      "she is somehow involved in all this.\""
+   izzio_speech_012 = "~kIzzio says, \"It is not my place to judge others.\""
+   izzio_speech_013 = \
+      "~kIzzio says, \"Minstrels are the most delightful folk.\""
+   izzio_speech_014 = \
+      "~kIzzio sighs, \"A man with his eyes to power, 'tis sad.\""
+   izzio_speech_015 = \
+      "~kIzzio says, \"I can respect the owner of such a thing.\""
+   izzio_speech_016 = \
+      "~kIzzio says, \"Some people call me a junk dealer, I prefer to think "
+      "of myself as a procurer of unwanted memories.\""
+   izzio_speech_017 = \
+      "~kIzzio says, \"Ah, I do believe I smell love in the air.\""
+   izzio_speech_018 = \
+      "~kIzzio says, \"Well, fighting has never been my strong suit, but I "
+      "hear it is a worthwhile school for some.\""
+   izzio_speech_019 = \
+      "~kIzzio says, \"You know that I would never seek to offend, but there "
+      "is something odd about that lass that bears watching.  If I were you, "
+      "I would keep my eyes and ears open around her.\""
+   izzio_speech_020 = \
+      "~kIzzio sighs, \"I warned you as often as I could. Those who ignored "
+      "these warnings have only themselves to blame.\""
+   izzio_speech_021 = \
+      "~kIzzio says, \"I would like to help you, but I fear I can't tell you "
+      "much about that. Besides, you would then feel obliged to look after "
+      "the girl.\""
+   izzio_speech_022 = \
+      "~kIzzio says, \"Nature does not lie, and nature did not lie to me "
+      "about Miriana's true intentions.\""
+   izzio_speech_023 = \
+      "~kIzzio says, \"Try talking to Hester Gilk about it. Perhaps she can "
+      "tell you more.\""
+   izzio_speech_024 = \
+      "~kIzzio gives you a strange look, \"You are not one with nature. I "
+      "should not answer any of your questions.\""
+   izzio_speech_025 = \
+      "~kIzzio says, \"Well, folk is folk, no matter whom they worship.\""
+   izzio_speech_026 = \
+      "~kIzzio seems to ponder, \"I have thought about it. The only thing "
+      "that really bothers me is that Miriana is always there before "
+      "everyone else. I know she says the mana nodes call to her, but don't "
+      "you find that a little strange too?\""
+   izzio_speech_027 = \
+      "~kIzzio says, \"Mother, these things just don't add up. Is the child "
+      "evil, or is she protecting something else from evil?\""
+   izzio_speech_028 = \
+      "~kIzzio says, \"Don't get me wrong. I think the child is a threat, "
+      "although I'm not sure she is the greatest threat to the land.\""
+   izzio_speech_029 = \
+      "~kIzzio says, \"Do you want to see a ruined land? If not, you should "
+      "find a way to stop Miriana and her plans.\""
+   izzio_speech_030 = \
+      "~kIzzio says, \"Aye, and a sweet young lass she is, with a refreshing "
+      "outlook on the world.\""
+   izzio_speech_031 = \
+      "~kIzzio says, \"A useful school to study if you have the stomach for "
+      "it.\""
+   izzio_speech_032 = "~kIzzio says, \"Well personally I love a good prank.\""
+   izzio_speech_033 = \
+      "~kIzzio says, \"A wonderful path to take for those thus inclined.\""
+   izzio_speech_034 = "~kIzzio says, \"I once knew a mime with that name.\""
+   izzio_speech_035 = "~kIzzio says, \"You might want to ask Miriana.\""
+   izzio_random_001 = \
+      "~kIzzio says, \"That is a matter I would need to think on.\""
+   izzio_random_002 = \
+      "~kIzzio mumbles, \"Twelve minus three, divided by two, carry the "
+      "one... Oh hello there, beautiful day, isn't it?\""
+   izzio_random_003 = \
+      "~kIzzio says, \"I hear some talk of beautiful cities, I don't see how "
+      "they could compare with nature's own majesty.\""
+   izzio_random_004 = \
+      "~kIzzio whistles happily, although slightly out of tune."
+   izzio_random_005 = \
+      "~kIzzio perfectly imitates the call of the forest birds."
+   izzio_random_006 = \
+      "~kIzzio closes his eyes and sighs contentedly, \"This is living.\""
+   izzio_random_007 = \
+      "~kIzzio spreads his arms wide and takes a deep breath, \"Ah, I love "
+      "the night, so peaceful and quiet.  It gives me such pleasure to enjoy "
+      "nature as it was meant to be.\""
+   izzio_random_008 = \
+      "~kIzzio eyes you suspiciously and grumbles sleepily, \"No darned "
+      "person in their right mind awakens this early.\""
+   izzio_trigger_amulet = "amulet"
+   izzio_trigger_brax = "brax"
+   izzio_trigger_buy = "buy"
+   izzio_trigger_sell = "sell"
+   izzio_trigger_duke = "duke"
+   izzio_trigger_faction = "faction"
+   izzio_trigger_faction_troops = "faction troops"
+   izzio_trigger_faren = "faren"
+   izzio_trigger_god = "god"
+   izzio_trigger_hester_gilk = "hester gilk"
+   izzio_trigger_hunter = "hunter"
+   izzio_trigger_jala = "jala"
+   izzio_trigger_jonas = "jonas"
+   izzio_trigger_js = "js"
+   izzio_trigger_junk = "junk"
+   izzio_trigger_kateriina = "kateriina"
+   izzio_trigger_akardius = "akardius"
+   izzio_trigger_kraanan = "kraanan"
+   izzio_trigger_miriana = "miriana"
+   izzio_trigger_necromancer = "necromancer"
+   izzio_trigger_necromancer_2 = "necromancer"
+   izzio_trigger_node = "node"
+   izzio_trigger_nodes = "nodes"
+   izzio_trigger_princess = "princess"
+   izzio_trigger_qor = "qor"
+   izzio_trigger_riija = "riija"
+   izzio_trigger_shal_ille = "shal'ille"
+   izzio_trigger_sha_lill = "sha-lill"
+   izzio_trigger_tendrath = "tendrath"
+   izzio_trigger_venya_cyr = "venya'cyr"
+
+   // JealousGeneral (Jonas D'Accor)
+   jealousgeneral_speech_001 = \
+      "~kJonas says, \"Some say that Konima is still fighting a fierce "
+      "battle inside those caves. Others say that Shal'ille still weeps for "
+      "the lost warriors. But whatever the truth may be, he saved mankind "
+      "from the vile orcs.\""
+   jealousgeneral_speech_002 = \
+      "~kJonas says, \"Konima was the greatest hero mankind has ever seen. "
+      "His troop led a shameful attack on the orc caves beyond the western "
+      "deep woods. Sixty warriors went into the caves and none came back "
+      "out.\""
+   jealousgeneral_random_001 = \
+      "~kJonas says, \"I have been researching the old legends of Konima. "
+      "You know the stories of the great Konima, don't you?\""
+   jealousgeneral_trigger_caves = "caves"
+   jealousgeneral_trigger_konima = "konima"
+
+   // Lich (Queen Venya'cyr)
+   lich_speech_001 = \
+      "~kQueen Venya'cyr gets a strange glow in her eyes, \"Would you like "
+      "to join them?\""
+   lich_speech_002 = \
+      "~kQueen Venya'cyr says, \"Do you fear that the children's words are "
+      "true? If not, perhaps you should.\""
+   lich_speech_003 = \
+      "~kQueen Venya'cyr says, \"The child has guidance. If one cannot bear "
+      "the elemental force of that guidance, one should not investigate it.\""
+   lich_speech_004 = \
+      "~kQueen Venya'cyr says, \"Our time has come! Those who do not accept "
+      "the truth shall be destroyed.\""
+   lich_speech_005 = \
+      "~kQueen Venya'cyr says, \"Which side are you on? Is it time to live "
+      "or time to ~rdie~k?\""
+   lich_speech_006 = \
+      "~kQueen Venya'cyr gets a bloodthirsty look, \"Such a delicious "
+      "situation. Blood, death and chaos. I only wonder why the child didn't "
+      "do it sooner.\""
+   lich_speech_007 = \
+      "~kQueen Venya'cyr says, \"Why should the loss of someone upset you "
+      "so? Join the ranks of my necromancers and you will no longer be "
+      "troubled by such shallow opinions. We should stop the course of our "
+      "enemies' lives.\""
+   lich_speech_008 = \
+      "~kQueen Venya'cyr says, \"Would you like me to suck the life force "
+      "out of you, just as Miriana sucked the power out of the magical "
+      "nodes?\""
+   lich_random_001 = \
+      "~kQueen Venya'cyr smiles bloodthirstily, \"So much death and pain, I "
+      "expect great opportunities.\""
+   lich_trigger_fate = "fate"
+   lich_trigger_miriana = "miriana"
+   lich_trigger_nodes = "nodes"
+
+   // Minstrel (Parrin Aragone)
+   minstrel_speech_001 = "~kParrin says, \"I will gladly take donations.\""
+   minstrel_speech_002 = "~kParrin says, \"That place makes me a sad panda.\""
+   minstrel_speech_003 = \
+      "~kParrin sings, \"~IThe Duke is grand if you're a pompous jerk, I'm "
+      "sure you'll find he's grand, and he'll like you too, you can be sure, "
+      "when your money's in his hand! Because we know the Duke, he's a "
+      "selfish puke, he's got shillings in his head. We've seen the Duke, "
+      "that crazy kook, but we'd rather see him dead.~I Now that one is a "
+      "classic!\""
+   minstrel_speech_004 = "~kParrin says, \"Wait a minute, is this a trick?\""
+   minstrel_speech_005 = \
+      "~kParrin Aragone sings, \"~IAnd a merry, merry, mer~Bry~B~I... hail "
+      "to you!\""
+   minstrel_speech_006 = "~kParrin says, \"What can I do for thee?\""
+   minstrel_speech_007 = \
+      "~kParrin says, \"You like my instrument? It is a fine one, isn't it?\""
+   minstrel_speech_008 = \
+      "~kParrin says, \"Jala bards should find themselves an instrument that "
+      "they love.\""
+   minstrel_speech_009 = \
+      "~kParrin says, \"Ah, you are interested in learning the ways of the "
+      "minstrel. Wonderful! I may be able to teach you what I have learned "
+      "of Jala, such as the spell of truth.\""
+   minstrel_speech_010 = \
+      "~kParrin says, \"It is not for me to judge, only to capture deeds in "
+      "songs and verses! Still, I must admit that I am delighted at how long "
+      "this escapade has lasted.\""
+   minstrel_speech_011 = \
+      "~kParrin says, \"I am now working on a 15-part ballad about her "
+      "escapades.\""
+   minstrel_speech_012 = \
+      "~kParrin sings, \"~I~rShe used paths that no one wanted to walk, she "
+      "used nodes that no one could crack. Through the day, through the "
+      "night, Miriana will spoil it, Miriana will ruin it.~n~k\""
+   minstrel_speech_013 = \
+      "~kParrin says, \"Incompetent fool, can't you see that I am working "
+      "right now? Shhhhh, yes, go, shhh, go away!\""
+   minstrel_speech_014 = \
+      "~kParrin says, \"Were you caught up in an attack? Tell me about it, "
+      "feelings, sounds, taste, smell... everything you can remember. That "
+      "should make an excellent ballad.\""
+   minstrel_speech_015 = \
+      "~kParrin says, \"Describe these creatures that Miriana summoned. What "
+      "exactly did they look like? How big were they? Did they have an "
+      "otherworldly aura? Oh, I must write this down, oh yes, this is good.\""
+   minstrel_speech_016 = \
+      "~kParrin says, \"Can't you read the sign on the door that says: No "
+      "entry? Ohh, my goodness, there is no door here, how strange, I could "
+      "swear there was a door here.\""
+   minstrel_speech_017 = \
+      "~kParrin sings, \"~IOh the Princess, the product of incest, for the "
+      "Royal genepool's scope is small! Oh, the Princess, but what of the "
+      "inquest, who lived to see your uncle fall? And what will you do now "
+      "maiden, since the poor old King does run and hide? And what will you "
+      "do now maiden, as the kingdom slowly rots and dies?~I\""
+   minstrel_speech_018 = \
+      "~kParrin says, \"I heard someone use it a few times. Catchy, isn't "
+      "it?\""
+   minstrel_speech_019 = \
+      "~kParrin says, \"I can offer nothing but my art... music and poetry, "
+      "friend.\""
+   minstrel_speech_020 = \
+      "~kParrin says, \"It is a powerful song for seeing beyond illusions.\""
+   minstrel_random_001 = "~kParrin Aragone gingerly plucks at his lyre."
+   minstrel_random_002 = "~kParrin Aragone struggles to tune his lyre."
+   minstrel_random_003 = \
+      "~kParrin sings a truly beautiful a cappella hymn in a haunting "
+      "language that is foreign to your ear. It sounds something like this. "
+      "\"~IHa na oka-chi, ha na hey, jan-do apas-i, apas-i wa apas-i wa, ha "
+      "na hey... \""
+   minstrel_random_004 = \
+      "~kParrin says, \"I know a couple of ~Ichoice~I songs about Akardius, "
+      "but I have to be careful about where and when I sing them.\""
+   minstrel_random_005 = \
+      "~kParrin says, \"We both know that satire is sacred, and that no one "
+      "should hold themselves above humorous comment. Nevertheless, there "
+      "are some thin-skinned people around here that might get downright "
+      "uptight over the latest song I wrote about the Princess.\""
+   minstrel_random_006 = \
+      "~kParrin says, \"I... well, I LOVE the world!! I do!! I just LOVE "
+      "you, big old world!!!\""
+   minstrel_random_007 = "~kParrin screams, \"Yeeeeee, haw!!\""
+   minstrel_random_008 = \
+      "~kParrin sings, \"~IJala, Jala, beloved Jala, I can't find a word "
+      "that rhymes with Jala! Jala, Jala, glorious Jala, I could sing all "
+      "day if your name was Fay! I'd sing let's stay and pray and we'll be "
+      "okay, and your glorious song would be a glorious ray, I'd sing well "
+      "what the hay forget the pay and every day would be Jala day~I!\""
+   minstrel_random_009 = \
+      "~kParrin warbles, \"~IWay up in Barloque, one day the sewers did "
+      "choke, and spit rats out all over like loogies! Now they skitter "
+      "around, in the forests and towns, and kill the occasional newbie! Oh, "
+      "the Barloque Rats, the Barloque Rats, where are the Marion Cats? Oh, "
+      "the Barloque Rats, the Barloque Rats, where are the Marion Cats?~I\""
+   minstrel_random_010 = \
+      "~kParrin twitters, \"~ILong ago, in days of yore, the year was "
+      "three-fifteen, Tos and Barloque went to war, to settle the difference "
+      "between! Was it over land, or the right to rule, or who won the big "
+      "chess game? No one remembers why they started the war, but they're "
+      "still fighting it just the same! Just the same, just the same, just "
+      "the same, just the same, they're still fighting it just the same! "
+      "Just the same, just the same, just the same, just the same, though "
+      "the reasons don't pertain!~I\""
+   minstrel_random_011 = \
+      "~kParrin suddenly bursts into song, \"~IWogga wogga wogga wheeee, "
+      "wogga wogga wogga wogga! Wheeee wogga wheeeeeee wogga "
+      "woggawoggawogga! Wheeeeeeeeeeee!~I\""
+   minstrel_random_012 = "~kParrin looks around hopefully."
+   minstrel_random_013 = "~kParrin says, \"Ah, the life of a celebrity.\""
+   minstrel_random_014 = \
+      "~kParrin says, \"Naturally, I have an artistic temperament. I am... "
+      "prone to creative rages, and fits of fancy.\""
+   minstrel_random_015 = \
+      "~kParrin obviously doesn't have much sense of rhythm."
+   minstrel_random_016 = \
+      "~kParrin croons, \"~IOh, have you heard the story of the lonely Yeti, "
+      "who lives off in his icy cave, his hair is all nappy like white "
+      "confetti, and he waits to send weaklings to their grave! Oh, the "
+      "yeti, the yeti, the lonesome yeti, guards that node with a monstrous "
+      "pride, oh, the yeti, the yeti, the lonesome yeti, lays in wait for a "
+      "hairy bride!~I\""
+   minstrel_random_017 = \
+      "~kParrin trills, \"~IIf I were an Orc, I wouldn't get to eat the "
+      "Feast Hall pork, yes if I were an Orc, the Duke wouldn't let me in! "
+      "And if I were a Troll, I wouldn't have Skivlat to keep my bankroll, "
+      "yes if I were a Troll, the Duke wouldn't let me in! Because the Duke "
+      "doesn't like monsters at his parties, in his bank or wandering Tos, "
+      "yes the Duke won't have them over for drinks, and everyone knows that "
+      "the Duke's the boss~I!\""
+   minstrel_random_018 = \
+      "~kParrin says, \"You've got a face for show business!\""
+   minstrel_random_019 = \
+      "~kParrin says, \"I want everyone to hold their applause until I "
+      "finish the song, please.\""
+   minstrel_random_020 = "~kParrin says, \"And for my next number... \""
+   minstrel_random_021 = \
+      "~kParrin sings, \"~IWell the Tos Arena's five leagues long, doo dah, "
+      "doo dah... ~I\""
+   minstrel_random_022 = \
+      "~kParrin tries his best to do a primitive tap dance. It's kind of "
+      "pathetic."
+   minstrel_random_023 = \
+      "~kParrin Aragone hums a few bars of something or other, trying to "
+      "remember the words."
+   minstrel_random_024 = "~kParrin Aragone whistles a sea shanty."
+   minstrel_random_025 = "~kParrin Aragone dances a little jig."
+   minstrel_random_026 = \
+      "~kParrin sings, \"~IThe PKer's took my baby away, and she is here no "
+      "more, I'm a-going up to the Barloque Sewers, to even up the score. "
+      "I'm hunting PKer's today, I'm hunting PKer's today, I'm going to find "
+      "that red named so-and-so and I'm going to make him pay.~I\""
+   minstrel_random_027 = \
+      "~kParrin croons, \"~IThe song of the fungus beast is wooo, wooo, "
+      "wooo! The song of the fungus beast is wooo, wooo, wooo! Everyone "
+      "knows that the fungus beast sings, and when it sings it sings about "
+      "you. Because we all have to live with the fungus beast, and the "
+      "fungus beast lives with you and me! Yes we all have to live with the "
+      "fungus beast, and the fungus beast, and the fungus beast just wants "
+      "to be free!~I\""
+   minstrel_random_028 = \
+      "~kParrin sings, \"~IThrough the forest, through the forest, looking "
+      "for the Spider Queen! Underground and all around, when I find her "
+      "I'll stab her in the spleen! She's got treasure, ooooh, yeah! "
+      "Treasure treasure ooooh, yeah! Whooo, we'll be rich, we'll be so "
+      "rich, we'll retire and hang out at Fams! We'll eat and get fat, "
+      "that's where it's at, we'll be rich and fat and that's where it's "
+      "at!~I\""
+   minstrel_random_029 = \
+      "~kParrin sings, \"~IOoh la la, ooh la lay, I'm going out near Marion, "
+      "and looking for the fey! Ooh la la, ooh la lee, they say that some "
+      "are evil, but I'll just wait and see! Well have you seen the little "
+      "fey, so beautiful to me? With their gossamer wings to hover on, how "
+      "could they be bad? Ooh, how could they be mean?~I\""
+   minstrel_random_030 = "~kParrin says, \"I want to be alone now.\""
+   minstrel_random_031 = \
+      "~kParrin slumps into a state of artistic ennui and makes sure that "
+      "everyone knows it."
+   minstrel_random_032 = "~kParrin broods and looks miserable."
+   minstrel_random_033 = \
+      "~kParrin says, \"Look, you think it'd be easy being a musician? "
+      "Pouring out my soul to you people day after day, night after night, "
+      "struggling with every artistic fiber in my being to reach you, to get "
+      "inside you and tenderly pluck some chord or some memory? WELL, IT'S "
+      "NOT!!! I don't know if I can take this anymore! You're bumming me "
+      "out.\""
+   minstrel_random_034 = "~kParrin visibly sulks."
+   minstrel_random_035 = \
+      "~kParrin says, \"I am a tortured soul! Cannot you people see that?\""
+   minstrel_random_036 = \
+      "~kParrin sighs heavily and does his best petulant sneer."
+   minstrel_random_037 = \
+      "~kParrin sings, \"~IQ is a mighty creator of lands, more than half of "
+      "these were made by his mighty mighty hands, and when Zjiria says Yay, "
+      "he says a mighty Nay, and saves us from her wackiest of plans.~I\""
+   minstrel_random_038 = \
+      "~kParrin sings, \"~IArantis is the guardian of this great land, he "
+      "watches over it with his mighty hand. Gronkh came with crazy plans, "
+      "but drew only a weary yawn from him. He put him in his place at once, "
+      "and so saved us from silly ideas~I.\""
+   minstrel_trigger_sell = "sell"
+   minstrel_trigger_crypt = "crypt"
+   minstrel_trigger_crypt_2 = "crypt"
+   minstrel_trigger_duke = "duke"
+   minstrel_trigger_freebird = "freebird"
+   minstrel_trigger_freebird_2 = "freebird"
+   minstrel_trigger_hello = "hello"
+   minstrel_trigger_help = "help"
+   minstrel_trigger_instrument = "instrument"
+   minstrel_trigger_jala = "jala"
+   minstrel_trigger_learn = "learn"
+   minstrel_trigger_miriana = "miriana"
+   minstrel_trigger_node = "node"
+   minstrel_trigger_node_2 = "node"
+   minstrel_trigger_princess = "princess"
+   minstrel_trigger_sad_panda = "sad panda"
+   minstrel_trigger_sad_panda_2 = "sad panda"
+   minstrel_trigger_buy = "buy"
+   minstrel_trigger_truth = "truth"
+   minstrel_trigger_illusions = "illusions"
+
+   // Towns (Towns)
+   towns_speech_001 = \
+      "~kThe room falls silent as %s speaks of a stunted dwarf."
+   towns_trigger_stunted_dwarf = "stunted dwarf"
+   towns_trigger_stunted_dwarf_2 = "stunted dwarf"
+   towns_trigger_stunted_dwarf_3 = "stunted dwarf"
+
+messages:
+
+   GetSpeechLibrary()
+   "Speech library nodes: [class, [[triggers, mood, action, key], ...]]"
+   {
+      local lLib;
+
+      lLib = $;
+
+      lLib = Cons([&DarkWizard,[
+         [[darkwizard_trigger_amulet],0,
+            [LIBACT_QUOTE_RSC,darkwizard_speech_001],1],
+         [[darkwizard_trigger_ancient_one],0,
+            [LIBACT_QUOTE_RSC,darkwizard_speech_002],2],
+         [[darkwizard_trigger_ancient_ones],0,
+            [LIBACT_QUOTE_RSC,darkwizard_speech_003],3],
+         [[darkwizard_trigger_brax],0,
+            [LIBACT_QUOTE_RSC,darkwizard_speech_004],4],
+         [[darkwizard_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,darkwizard_speech_005],5],
+         [[darkwizard_trigger_components,darkwizard_trigger_components_2],0,
+            [LIBACT_QUOTE_RSC,darkwizard_speech_006],6],
+         [[darkwizard_trigger_faren],0,
+            [LIBACT_QUOTE_RSC,darkwizard_speech_007],7],
+         [[darkwizard_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,darkwizard_speech_008],8],
+         [[darkwizard_trigger_help],0,
+            [LIBACT_QUOTE_RSC,darkwizard_speech_009],9],
+         [[darkwizard_trigger_hunter],0,
+            [LIBACT_QUOTE_RSC,darkwizard_speech_010],10],
+         [[darkwizard_trigger_hunter_sword],0,
+            [LIBACT_QUOTE_RSC,darkwizard_speech_011],11],
+         [[darkwizard_trigger_jala],0,
+            [LIBACT_QUOTE_RSC,darkwizard_speech_012],12],
+         [[darkwizard_trigger_kraanan],0,
+            [LIBACT_QUOTE_RSC,darkwizard_speech_013],13],
+         [[darkwizard_trigger_lich],0,
+            [LIBACT_QUOTE_RSC,darkwizard_speech_014],14],
+         [[darkwizard_trigger_necromancer],0,
+            [LIBACT_QUOTE_RSC,darkwizard_speech_015],15],
+         [[darkwizard_trigger_qor],0,
+            [LIBACT_QUOTE_RSC,darkwizard_speech_016],16],
+         [[darkwizard_trigger_reagents],0,
+            [LIBACT_QUOTE_RSC,darkwizard_speech_017],17],
+         [[darkwizard_trigger_riija],0,
+            [LIBACT_QUOTE_RSC,darkwizard_speech_018],18],
+         [[darkwizard_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,darkwizard_speech_019],19],
+         [[darkwizard_trigger_shal_ille,darkwizard_trigger_sha_lill],0,
+            [LIBACT_QUOTE_RSC,darkwizard_speech_020],20],
+         [[darkwizard_trigger_solagh],0,
+            [LIBACT_QUOTE_RSC,darkwizard_speech_021],21],
+         [[darkwizard_trigger_urn],0,
+            [LIBACT_QUOTE_RSC,darkwizard_speech_022],22],
+         [[darkwizard_trigger_venya_cyr],0,
+            [LIBACT_QUOTE_RSC,darkwizard_speech_023],23],
+         [[darkwizard_trigger_zarrus],0,
+            [LIBACT_QUOTE_RSC,darkwizard_speech_024],24]
+      ]],lLib);
+
+      lLib = Cons([&Heretic,[
+         [[heretic_trigger_amulet],0,
+            [LIBACT_QUOTE_RSC,heretic_speech_001],1],
+         [[heretic_trigger_attack],0,
+            [LIBACT_QUOTE_RSC,heretic_speech_002],2],
+         [[heretic_trigger_aythya],0,
+            [LIBACT_QUOTE_RSC,heretic_speech_003],3],
+         [[heretic_trigger_barloque],0,
+            [LIBACT_QUOTE_RSC,heretic_speech_004],4],
+         [[heretic_trigger_brax],0,
+            [LIBACT_QUOTE_RSC,heretic_speech_005],5],
+         [[heretic_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,heretic_speech_006],6],
+         [[heretic_trigger_cor_noth],0,
+            [LIBACT_QUOTE_RSC,heretic_speech_007],7],
+         [[heretic_trigger_council],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,heretic_speech_008],8],
+         [[heretic_trigger_council],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,heretic_speech_009],9],
+         [[heretic_trigger_cut],0,
+            [LIBACT_QUOTE_RSC,heretic_speech_010],10],
+         [[heretic_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,heretic_speech_011],11],
+         [[heretic_trigger_hello],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,heretic_speech_012],12],
+         [[heretic_trigger_help],0,
+            [LIBACT_QUOTE_RSC,heretic_speech_013],13],
+         [[heretic_trigger_hester_gilk],0,
+            [LIBACT_QUOTE_RSC,heretic_speech_014],14],
+         [[heretic_trigger_hi],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,heretic_speech_015],15],
+         [[heretic_trigger_hunter],0,
+            [LIBACT_QUOTE_RSC,heretic_speech_016],16],
+         [[heretic_trigger_hunter_sword],0,
+            [LIBACT_QUOTE_RSC,heretic_speech_017],17],
+         [[heretic_trigger_jala],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,heretic_speech_018],18],
+         [[heretic_trigger_jasper],0,
+            [LIBACT_QUOTE_RSC,heretic_speech_019],19],
+         [[heretic_trigger_lich],0,
+            [LIBACT_QUOTE_RSC,heretic_speech_020],20],
+         [[heretic_trigger_madelia],0,
+            [LIBACT_QUOTE_RSC,heretic_speech_021],21],
+         [[heretic_trigger_marion],0,
+            [LIBACT_QUOTE_RSC,heretic_speech_022],22],
+         [[heretic_trigger_necromancer],0,
+            [LIBACT_QUOTE_RSC,heretic_speech_023],23],
+         [[heretic_trigger_node_attack],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,heretic_speech_024],24],
+         [[heretic_trigger_node_attack],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,heretic_speech_025],25],
+         [[heretic_trigger_node_attack],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,heretic_speech_026],26],
+         [[heretic_trigger_secret],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,heretic_speech_027],27],
+         [[heretic_trigger_secret],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,heretic_speech_028],28],
+         [[heretic_trigger_secret],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,heretic_speech_029],29],
+         [[heretic_trigger_secret],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,heretic_speech_030],30],
+         [[heretic_trigger_secret],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,heretic_speech_031],31],
+         [[heretic_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,heretic_speech_032],32],
+         [[heretic_trigger_tendrath],0,
+            [LIBACT_QUOTE_RSC,heretic_speech_033],33],
+         [[heretic_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,heretic_speech_034],34],
+         [[heretic_trigger_venya_cyr],0,
+            [LIBACT_QUOTE_RSC,heretic_speech_035],35],
+         [[heretic_trigger_venya_cyr],0,
+            [LIBACT_QUOTE_RSC,heretic_speech_036],36],
+         [[heretic_trigger_venya_cyr],0,
+            [LIBACT_QUOTE_RSC,heretic_speech_037],37],
+         [[heretic_trigger_weave],0,
+            [LIBACT_QUOTE_RSC,heretic_speech_038],38]
+      ]],lLib);
+
+      lLib = Cons([&HunterGhost,[
+         [[hunterghost_trigger_amulet],0,
+            [LIBACT_QUOTE_RSC,hunterghost_speech_001],1],
+         [[hunterghost_trigger_ancients],0,
+            [LIBACT_QUOTE_RSC,hunterghost_speech_002],2],
+         [[hunterghost_trigger_brax],0,
+            [LIBACT_QUOTE_RSC,hunterghost_speech_003],3],
+         [[hunterghost_trigger_deformity,hunterghost_trigger_deformity_2],0,
+            [LIBACT_QUOTE_RSC,hunterghost_speech_004],4],
+         [[hunterghost_trigger_duke,hunterghost_trigger_duke_2],0,
+            [LIBACT_QUOTE_RSC,hunterghost_speech_005],5],
+         [[hunterghost_trigger_far_nohl,
+            hunterghost_trigger_fahr_nohl,
+            hunterghost_trigger_fahr_nohl_2],0,
+            [LIBACT_QUOTE_RSC,hunterghost_speech_006],6],
+         [[hunterghost_trigger_faren],0,
+            [LIBACT_QUOTE_RSC,hunterghost_speech_007],7],
+         [[hunterghost_trigger_guilt],0,
+            [LIBACT_QUOTE_RSC,hunterghost_speech_008],8],
+         [[hunterghost_trigger_hunter],0,
+            [LIBACT_QUOTE_RSC,hunterghost_speech_009],9],
+         [[hunterghost_trigger_hunter_sword,
+            hunterghost_trigger_hunter_sword_2],0,
+            [LIBACT_QUOTE_RSC,hunterghost_speech_010],10],
+         [[hunterghost_trigger_kara_set,hunterghost_trigger_kara_set_2],0,
+            [LIBACT_QUOTE_RSC,hunterghost_speech_011],11],
+         [[hunterghost_trigger_ker_toth],0,
+            [LIBACT_QUOTE_RSC,hunterghost_speech_012],12],
+         [[hunterghost_trigger_kraanan],0,
+            [LIBACT_QUOTE_RSC,hunterghost_speech_013],13],
+         [[hunterghost_trigger_lich],0,
+            [LIBACT_QUOTE_RSC,hunterghost_speech_014],14],
+         [[hunterghost_trigger_necromancer],0,
+            [LIBACT_QUOTE_RSC,hunterghost_speech_015],15],
+         [[hunterghost_trigger_nexus],0,
+            [LIBACT_QUOTE_RSC,hunterghost_speech_016],16],
+         [[hunterghost_trigger_princess],0,
+            [LIBACT_QUOTE_RSC,hunterghost_speech_017],17],
+         [[hunterghost_trigger_qor],0,
+            [LIBACT_QUOTE_RSC,hunterghost_speech_018],18],
+         [[hunterghost_trigger_riija],0,
+            [LIBACT_QUOTE_RSC,hunterghost_speech_019],19],
+         [[hunterghost_trigger_shal_ille,hunterghost_trigger_sha_lill],0,
+            [LIBACT_QUOTE_RSC,hunterghost_speech_020],20],
+         [[hunterghost_trigger_three_of_the_urn],0,
+            [LIBACT_QUOTE_RSC,hunterghost_speech_021],21],
+         [[hunterghost_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,hunterghost_speech_022],22],
+         [[hunterghost_trigger_caves],0,
+            [LIBACT_QUOTE_RSC,hunterghost_speech_023],23],
+         [[hunterghost_trigger_urn],0,
+            [LIBACT_QUOTE_RSC,hunterghost_speech_024],24],
+         [[hunterghost_trigger_venya_cyr],0,
+            [LIBACT_QUOTE_RSC,hunterghost_speech_025],25]
+      ]],lLib);
+
+      lLib = Cons([&Izzio,[
+         [[izzio_trigger_amulet],0,
+            [LIBACT_QUOTE_RSC,izzio_speech_001],1],
+         [[izzio_trigger_brax],0,
+            [LIBACT_QUOTE_RSC,izzio_speech_002],2],
+         [[izzio_trigger_buy,izzio_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,izzio_speech_003],3],
+         [[izzio_trigger_duke],0,
+            [LIBACT_QUOTE_RSC,izzio_speech_004],4],
+         [[izzio_trigger_duke],0,
+            [LIBACT_QUOTE_RSC,izzio_speech_005],5],
+         [[izzio_trigger_faction],0,
+            [LIBACT_QUOTE_RSC,izzio_speech_006],6],
+         [[izzio_trigger_faction],0,
+            [LIBACT_QUOTE_RSC,izzio_speech_007],7],
+         [[izzio_trigger_faction_troops],0,
+            [LIBACT_QUOTE_RSC,izzio_speech_008],8],
+         [[izzio_trigger_faren],0,
+            [LIBACT_QUOTE_RSC,izzio_speech_009],9],
+         [[izzio_trigger_god],0,
+            [LIBACT_QUOTE_RSC,izzio_speech_010],10],
+         [[izzio_trigger_hester_gilk],0,
+            [LIBACT_QUOTE_RSC,izzio_speech_011],11],
+         [[izzio_trigger_hunter],0,
+            [LIBACT_QUOTE_RSC,izzio_speech_012],12],
+         [[izzio_trigger_jala],0,
+            [LIBACT_QUOTE_RSC,izzio_speech_013],13],
+         [[izzio_trigger_jonas],0,
+            [LIBACT_QUOTE_RSC,izzio_speech_014],14],
+         [[izzio_trigger_js],0,
+            [LIBACT_QUOTE_RSC,izzio_speech_015],15],
+         [[izzio_trigger_junk],0,
+            [LIBACT_QUOTE_RSC,izzio_speech_016],16],
+         [[izzio_trigger_kateriina,izzio_trigger_akardius],0,
+            [LIBACT_QUOTE_RSC,izzio_speech_017],17],
+         [[izzio_trigger_kraanan],0,
+            [LIBACT_QUOTE_RSC,izzio_speech_018],18],
+         [[izzio_trigger_miriana],0,
+            [LIBACT_QUOTE_RSC,izzio_speech_019],19],
+         [[izzio_trigger_miriana],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,izzio_speech_020],20],
+         [[izzio_trigger_miriana],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,izzio_speech_021],21],
+         [[izzio_trigger_miriana],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,izzio_speech_022],22],
+         [[izzio_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,izzio_speech_023],23],
+         [[izzio_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,izzio_speech_024],24],
+         [[izzio_trigger_necromancer,izzio_trigger_necromancer_2],0,
+            [LIBACT_QUOTE_RSC,izzio_speech_025],25],
+         [[izzio_trigger_node],0,
+            [LIBACT_QUOTE_RSC,izzio_speech_026],26],
+         [[izzio_trigger_nodes],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,izzio_speech_027],27],
+         [[izzio_trigger_nodes],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,izzio_speech_028],28],
+         [[izzio_trigger_nodes],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,izzio_speech_029],29],
+         [[izzio_trigger_princess],0,
+            [LIBACT_QUOTE_RSC,izzio_speech_030],30],
+         [[izzio_trigger_qor],0,
+            [LIBACT_QUOTE_RSC,izzio_speech_031],31],
+         [[izzio_trigger_riija],0,
+            [LIBACT_QUOTE_RSC,izzio_speech_032],32],
+         [[izzio_trigger_shal_ille,izzio_trigger_sha_lill],0,
+            [LIBACT_QUOTE_RSC,izzio_speech_033],33],
+         [[izzio_trigger_tendrath],0,
+            [LIBACT_QUOTE_RSC,izzio_speech_034],34],
+         [[izzio_trigger_venya_cyr],0,
+            [LIBACT_QUOTE_RSC,izzio_speech_035],35]
+      ]],lLib);
+
+      lLib = Cons([&JealousGeneral,[
+         [[jealousgeneral_trigger_caves],0,
+            [LIBACT_QUOTE_RSC,jealousgeneral_speech_001],1],
+         [[jealousgeneral_trigger_konima],0,
+            [LIBACT_QUOTE_RSC,jealousgeneral_speech_002],2]
+      ]],lLib);
+
+      lLib = Cons([&Lich,[
+         [[lich_trigger_fate],0,
+            [LIBACT_QUOTE_RSC,lich_speech_001],1],
+         [[lich_trigger_miriana],0,
+            [LIBACT_QUOTE_RSC,lich_speech_002],2],
+         [[lich_trigger_miriana],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,lich_speech_003],3],
+         [[lich_trigger_miriana],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,lich_speech_004],4],
+         [[lich_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,lich_speech_005],5],
+         [[lich_trigger_nodes],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,lich_speech_006],6],
+         [[lich_trigger_nodes],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,lich_speech_007],7],
+         [[lich_trigger_nodes],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,lich_speech_008],8]
+      ]],lLib);
+
+      lLib = Cons([&Minstrel,[
+         [[minstrel_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,minstrel_speech_001],1],
+         [[minstrel_trigger_crypt,minstrel_trigger_crypt_2],0,
+            [LIBACT_QUOTE_RSC,minstrel_speech_002],2],
+         [[minstrel_trigger_duke],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,minstrel_speech_003],3],
+         [[minstrel_trigger_freebird,minstrel_trigger_freebird_2],0,
+            [LIBACT_QUOTE_RSC,minstrel_speech_004],4],
+         [[minstrel_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,minstrel_speech_005],5],
+         [[minstrel_trigger_help],0,
+            [LIBACT_QUOTE_RSC,minstrel_speech_006],6],
+         [[minstrel_trigger_instrument],0,
+            [LIBACT_QUOTE_RSC,minstrel_speech_007],7],
+         [[minstrel_trigger_jala],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,minstrel_speech_008],8],
+         [[minstrel_trigger_learn],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,minstrel_speech_009],9],
+         [[minstrel_trigger_miriana],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,minstrel_speech_010],10],
+         [[minstrel_trigger_miriana],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,minstrel_speech_011],11],
+         [[minstrel_trigger_miriana],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,minstrel_speech_012],12],
+         [[minstrel_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,minstrel_speech_013],13],
+         [[minstrel_trigger_node,minstrel_trigger_node_2],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,minstrel_speech_014],14],
+         [[minstrel_trigger_node,minstrel_trigger_node_2],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,minstrel_speech_015],15],
+         [[minstrel_trigger_node,minstrel_trigger_node_2],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,minstrel_speech_016],16],
+         [[minstrel_trigger_princess],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,minstrel_speech_017],17],
+         [[minstrel_trigger_sad_panda,minstrel_trigger_sad_panda_2],0,
+            [LIBACT_QUOTE_RSC,minstrel_speech_018],18],
+         [[minstrel_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,minstrel_speech_019],19],
+         [[minstrel_trigger_truth,minstrel_trigger_illusions],0,
+            [LIBACT_QUOTE_RSC,minstrel_speech_020],20]
+      ]],lLib);
+
+      lLib = Cons([&Towns,[
+         [[towns_trigger_stunted_dwarf,
+            towns_trigger_stunted_dwarf_2,
+            towns_trigger_stunted_dwarf_3],0,
+            [LIBACT_QUOTE_RSC,towns_speech_001,[LIBPLUG_NAME]],1]
+      ]],lLib);
+
+      return lLib;
+   }
+
+   GetRandomLibrary()
+   "Random library nodes: [class, [[percent, mood, action, key], ...]]"
+   {
+      local lLib;
+
+      lLib = $;
+
+      lLib = Cons([&DarkWizard,[
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,darkwizard_random_041],41],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,darkwizard_random_042],42],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,darkwizard_random_043],43]
+      ]],lLib);
+
+      lLib = Cons([&DarkWizard,[
+         [50,0,[LIBACT_QUOTE_RSC,darkwizard_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,darkwizard_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,darkwizard_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,darkwizard_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,darkwizard_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,darkwizard_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,darkwizard_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,darkwizard_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,darkwizard_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,darkwizard_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,darkwizard_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,darkwizard_random_012],12],
+         [50,0,[LIBACT_QUOTE_RSC,darkwizard_random_013],13],
+         [50,0,[LIBACT_QUOTE_RSC,darkwizard_random_014],14],
+         [50,0,[LIBACT_QUOTE_RSC,darkwizard_random_015],15],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,darkwizard_random_016],16],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,darkwizard_random_017],17],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,darkwizard_random_018],18],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,darkwizard_random_019],19],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,darkwizard_random_020],20],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,darkwizard_random_021],21],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,darkwizard_random_022],22],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,darkwizard_random_023],23],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,darkwizard_random_024],24],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,darkwizard_random_025],25],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,darkwizard_random_026],26],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,darkwizard_random_027],27],
+         [50,LIBRES_MOOD_NEUTRAL,[LIBACT_QUOTE_RSC,darkwizard_random_028],28],
+         [50,LIBRES_MOOD_NEUTRAL,[LIBACT_QUOTE_RSC,darkwizard_random_029],29],
+         [50,LIBRES_MOOD_NOT_GOOD,
+            [LIBACT_QUOTE_RSC,darkwizard_random_030],30],
+         [50,LIBRES_MOOD_NOT_GOOD,
+            [LIBACT_QUOTE_RSC,darkwizard_random_031],31],
+         [50,LIBRES_MOOD_NOT_GOOD,
+            [LIBACT_QUOTE_RSC,darkwizard_random_032],32],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,darkwizard_random_033],33],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,darkwizard_random_034],34],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,darkwizard_random_035],35],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,darkwizard_random_036],36],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,darkwizard_random_037],37],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,darkwizard_random_038],38],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,darkwizard_random_039],39],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,darkwizard_random_040],40]
+      ]],lLib);
+
+      lLib = Cons([&Heretic,[
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_041],41],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_042],42],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,heretic_random_043],43]
+      ]],lLib);
+
+      lLib = Cons([&Heretic,[
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_012],12],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_013],13],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_014],14],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_015],15],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_016],16],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_017],17],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_018],18],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_019],19],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_020],20],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_021],21],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_022],22],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_023],23],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_024],24],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_025],25],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_026],26],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_027],27],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_028],28],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_029],29],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_030],30],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_031],31],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_032],32],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_033],33],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_034],34],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_035],35],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_036],36],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_037],37],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_038],38],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_039],39],
+         [50,0,[LIBACT_QUOTE_RSC,heretic_random_040],40]
+      ]],lLib);
+
+      lLib = Cons([&HunterGhost,[
+         [50,0,[LIBACT_QUOTE_RSC,hunterghost_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,hunterghost_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,hunterghost_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,hunterghost_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,hunterghost_random_005],5]
+      ]],lLib);
+
+      lLib = Cons([&Izzio,[
+         [50,0,[LIBACT_QUOTE_RSC,izzio_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,izzio_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,izzio_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,izzio_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,izzio_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,izzio_random_006],6],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,izzio_random_007],7],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,izzio_random_008],8]
+      ]],lLib);
+
+      lLib = Cons([&JealousGeneral,[
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,jealousgeneral_random_001],1]
+      ]],lLib);
+
+      lLib = Cons([&Lich,[
+         [50,0,[LIBACT_QUOTE_RSC,lich_random_001],1]
+      ]],lLib);
+
+      lLib = Cons([&Minstrel,[
+         [50,0,[LIBACT_QUOTE_RSC,minstrel_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,minstrel_random_002],2],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,minstrel_random_003],3],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,minstrel_random_004],4],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,minstrel_random_005],5],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,minstrel_random_006],6],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,minstrel_random_007],7],
+         [50,LIBRES_MOOD_NEUTRAL,[LIBACT_QUOTE_RSC,minstrel_random_008],8],
+         [50,LIBRES_MOOD_NEUTRAL,[LIBACT_QUOTE_RSC,minstrel_random_009],9],
+         [50,LIBRES_MOOD_NEUTRAL,[LIBACT_QUOTE_RSC,minstrel_random_010],10],
+         [50,LIBRES_MOOD_NEUTRAL,[LIBACT_QUOTE_RSC,minstrel_random_011],11],
+         [50,LIBRES_MOOD_NEUTRAL,[LIBACT_QUOTE_RSC,minstrel_random_012],12],
+         [50,LIBRES_MOOD_NOT_GOOD,[LIBACT_QUOTE_RSC,minstrel_random_013],13],
+         [50,LIBRES_MOOD_NOT_GOOD,[LIBACT_QUOTE_RSC,minstrel_random_014],14],
+         [50,LIBRES_MOOD_NOT_GOOD,[LIBACT_QUOTE_RSC,minstrel_random_015],15],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,minstrel_random_016],16],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,minstrel_random_017],17],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,minstrel_random_018],18],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,minstrel_random_019],19],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,minstrel_random_020],20],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,minstrel_random_021],21],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,minstrel_random_022],22],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,minstrel_random_023],23],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,minstrel_random_024],24],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,minstrel_random_025],25],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,minstrel_random_026],26],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,minstrel_random_027],27],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,minstrel_random_028],28],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,minstrel_random_029],29],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,minstrel_random_030],30],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,minstrel_random_031],31],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,minstrel_random_032],32],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,minstrel_random_033],33],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,minstrel_random_034],34],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,minstrel_random_035],35],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,minstrel_random_036],36],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,minstrel_random_037],37],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,minstrel_random_038],38]
+      ]],lLib);
+
+      return lLib;
+   }
+
+end
+////////////////////////////////////////////////////////////////////////////////
