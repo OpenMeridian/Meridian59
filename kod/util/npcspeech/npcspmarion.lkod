@@ -1,0 +1,1321 @@
+// MarionBartender
+marionbartender_speech_001 = de \
+   "~kTova sagt, \"Barloque liegt im Norden und nennt sich die Königliche "
+   "Stadt von Meridian. Aber ich will mich nicht mit den Reichen anlegen. "
+   "Ich habe noch nie einen Job von einer armen Person bekommen, wenn Du "
+   "verstehst!\""
+marionbartender_speech_002 = de \
+   "~kTova sagt, ohne Dich anzusehen, \"Was, bist Du immer noch hier?\""
+marionbartender_speech_003 = de \
+   "~kTova sagt, \"Ich habe gehört, dass sich ~ISeine Majestät der König~I "
+   "~Iin der Zuflucht~I in der Pflege von ~ILady Aftyn~I befindet!! Man "
+   "sagt, dass er bald wieder fit für die Regierungsgeschäfte sein wird, "
+   "%s!! Oh, gesegnete Heilige, oh glorreicher Tag!!\""
+marionbartender_speech_004 = de "~kTova sagt, \"Mach's gut, %s.\""
+marionbartender_speech_005 = de \
+   "~kTova sagt, \"Mach Dir nicht die Mühe, wiederzukommen.\""
+marionbartender_speech_006 = de \
+   "~kTova sagt, \"Cor Noth ist einen kleinen Schritt hinter allen zurück. "
+   "Was man verstehen kann, denn die Leute haben den Kopf in den Wolken, die "
+   "Füße aber nicht auf dem Boden. Jau, aber es ist ein netter Ort und die "
+   "Leute dort lieben es zu reden, %s! Kennst Du den schon? Vor etlichen "
+   "Jahren war Tos mit Barloque im Krieg. Es gab dort einen albernen Streit, "
+   "und jeder sah seinen Stolz verletzt. Und da keine der beiden Städte "
+   "einlenken wollte und Verhandlungen somit aussichtslos gewesen wären, "
+   "dachten sie sich, dass es an der Zeit für einen Krieg sei. Am nächsten "
+   "Tag hat sich Cor Noth ergeben! Ha, ha, ha, ha!!\""
+marionbartender_speech_007 = de \
+   "~kTova sagt, ohne Dich anzusehen, \"Was, bist Du immer noch hier?\""
+marionbartender_speech_008 = de \
+   "~kTova sagt, \"Nun ja, der Rat... Du wirst viel Gerede über den Rat "
+   "hören, aber nicht hier in Marion. Wir halten uns hier aus der Politik "
+   "und den Intrigen heraus, %s.\""
+marionbartender_speech_009 = de \
+   "~kTova sagt, \"Pass auf Dich auf! Ich habe gehört, dass dort jene jagen, "
+   "die anderen nachstellen.\""
+marionbartender_speech_010 = de \
+   "~kTova sagt, \"Wer war der Narr, der diese heilige Ruhestätte geöffnet "
+   "hat? Wahrscheinlich irgendein Trottel auf Schatzsuche.\""
+marionbartender_speech_011 = de \
+   "~kTova sagt, \"Ich habe gehört, Akardius hat die Pflichten seines Onkels "
+   "bereitwillig übernommen. Wie praktisch.\""
+marionbartender_speech_012 = de \
+   "~kTova sagt, \"Ich schätze, er hat bekommen, was er...\""
+marionbartender_speech_013 = de \
+   "~kTova sagt, \"Ich will Dich nicht kränken, aber meine Religion befindet "
+   "sich in diesem Becher, %s. Wie wär's, wenn ich Dir ein Viertel "
+   "Seelenheil eingieße?\""
+marionbartender_speech_014 = de \
+   "~kTova sagt, \"Ah Schicksal, jaja das Schicksal spielt eine große Rolle "
+   "in jedem Leben, von Geburt an.\""
+marionbartender_speech_015 = de \
+   "~kTova sagt, \"Jau, diese Dinger sind in der Tat ein Anblick. Morrigan "
+   "und ich sind selbst mal nach Norden gegangen, um einen Blick zu "
+   "riskieren, stimmt's, Morrigan? Sie sind etwas unberechenbar und ich "
+   "schäme mich nicht zu sagen, dass wir beide Beine in die Hände genommen "
+   "haben, als die kleinen Biester garstig zu uns wurden! Du hättest uns "
+   "sehen sollen, wie wir aus dem Wald rannten!\""
+marionbartender_speech_016 = de \
+   "~kTova ruft, \"Komm herein, mein Freund. Was hat Dich so lange "
+   "aufgehalten?\""
+marionbartender_speech_017 = de \
+   "~kTova sagt, \"Ah, guten Abend, %s. Schau mal, wer da ist, Morrigan!\""
+marionbartender_speech_018 = de \
+   "~kTova sagt, \"Jau, komm rein, komm rein, wir holen Dir erstmal etwas, "
+   "das Deine Knochen aufwärmt.\""
+marionbartender_speech_019 = de \
+   "~kTova sagt, \"Ein schöner Abend, %s, wahrlich.\""
+marionbartender_speech_020 = de \
+   "~kTova sagt, \"Und auch Dir einen guten Tag, %s! Kann ich Dir etwas zu "
+   "trinken oder vielleicht sogar einen warmen Bissen bringen?\""
+marionbartender_speech_021 = de \
+   "~kTova sagt, \"Guten Tag. Was darf's sein, %s?\""
+marionbartender_speech_022 = de "~kTova sagt, \"Ah, hallo, %s.\""
+marionbartender_speech_023 = de \
+   "~kTova höhnt, \"Was spülen sie denn jetzt aus der Kanalisation von "
+   "Barloque heraus, Morrigan? Schau mal, was die Katze angeschleppt hat.\""
+marionbartender_speech_024 = de \
+   "~kTova sagt, \"Und wer bist Du? Raus hier, wir haben nicht, was Du "
+   "brauchst.\""
+marionbartender_speech_025 = de \
+   "~kTova sagt, \"Ich wollte Dich nicht kränken, aber meine Religion "
+   "befindet sich in diesem Becher, %s. Wie wär's, wenn ich Dir ein Viertel "
+   "Seelenheil eingieße?\""
+marionbartender_speech_026 = de \
+   "~kTova sagt, \"Oh ja, das liegt südlich von hier in den Bergen. Die "
+   "Leute dort sind ein eigener Schlag, wild und unabhängig, %s. Nicht "
+   "unbedingt die Art, mit der man einen Streit anfangen sollte.\""
+marionbartender_speech_027 = de \
+   "~kTova sagt, ohne Dich anzusehen, \"Was, bist Du immer noch hier?\""
+marionbartender_speech_028 = de \
+   "~kTova sagt, \"Still jetzt, Morrigan, das solltest Du doch besser "
+   "wissen. Mit all den Leuten hier sollte man lieber nicht so reden.\""
+marionbartender_speech_029 = de \
+   "~kTova sagt, \"Ich wollte Dich nicht kränken, aber meine Religion "
+   "befindet sich in diesem Becher, %s. Wie wär's, wenn ich Dir ein Viertel "
+   "Seelenheil eingieße?\""
+marionbartender_speech_030 = de \
+   "~kTova sagt, \"Man sagt, dass sie zum Adel von Barloque gehört und dass "
+   "ihr Ehemann ihr nach seinem Ableben ein Vermögen hinterlassen hat, %s. "
+   "Jau, und man sagt auch, dass sich dieses Vermögen zusammen mit ihr im "
+   "Heim von Marion befindet.\""
+marionbartender_speech_031 = de \
+   "~kTova sagt, \"Sie ist eine Heilige. Eine wahre Heilige. Gesegnet sei "
+   "sie.\""
+marionbartender_speech_032 = de \
+   "~kTova sagt, \"Marion? Nun, Du siehst es direkt vor Dir, mein Freund, "
+   "außer Du willst eine Schaufel repariert haben oder benötigst den Rat "
+   "eines alten Verrückten.\""
+marionbartender_speech_033 = de \
+   "~kTova sagt, \"Wenn Du eine Farbe sehen willst, die noch bleicher als "
+   "weiß ist, schau einfach auf ihre Haut! HAHA.\""
+marionbartender_speech_034 = de \
+   "~kTova sagt, \"Ich habe Dir das nicht erzählt, aber sie hat einen "
+   "winzigen Gott, den sie in ihren Taschen hält.\""
+marionbartender_speech_035 = de \
+   "~kTova sagt, \"Spaß beiseite, mir wäre es lieber, jemand würde etwas "
+   "gegen das Mädchen unternehmen. Mir läuft es einfach eiskalt den Rücken "
+   "runter, wenn ich daran denke, was sie mit der ganzen Macht anrichten "
+   "könnte.\""
+marionbartender_speech_036 = de \
+   "~kTova sagt, \"Ich weiß ja nicht, wie es Dir geht, aber dieses "
+   "Mädchenkind verursacht bei mir Gänsehaut. Es ist einfach etwas nicht in "
+   "Ordnung mit ihr.\""
+marionbartender_speech_037 = de \
+   "~kTova sagt, \"Sie ist schlicht und ergreifend eine Gefahr, man kann's "
+   "nicht anders ausdrücken, ganz egal was die anderen sagen.\""
+marionbartender_speech_038 = de \
+   "~kTova sagt, \"Was ist so voll wie es nur sein kann, aber nicht so voll, "
+   "wie es sein könnte? Dein Mana, nachdem Du mit Miriana aneinandergeraten "
+   "bist! Hah, haha...\""
+marionbartender_speech_039 = de \
+   "~kTova sagt, \"Was ist bleicher als bleich? Dein Gesicht, nachdem Du "
+   "eine von Mirianas Kreaturen gesehen hast. HAH!\""
+marionbartender_speech_040 = de \
+   "~kTova mustert Dich, \"Bist Du ein- oder zweimal mit Miriana oder einer "
+   "ihrer Kreaturen aneinandergeraten? Du schaust aus wie der Tod von "
+   "Forchheim.\""
+marionbartender_speech_041 = de \
+   "~kTova sagt, \"Ich wollte Dich nicht kränken, aber meine Religion "
+   "befindet sich in diesem Becher, %s. Wie wär's, wenn ich Dir ein Viertel "
+   "Seelenheil eingieße?\""
+marionbartender_speech_042 = de \
+   "~kTova sagt, \"Alles zu seiner Zeit, mein Freund. Wenn uns der König "
+   "ruft, wird Marion angemessen antworten.\""
+marionbartender_speech_043 = de \
+   "~kTova sagt, \"Ich wollte Dich nicht kränken, aber meine Religion "
+   "befindet sich in diesem Becher, %s. Wie wär's, wenn ich Dir ein Viertel "
+   "Seelenheil eingieße?\""
+marionbartender_speech_044 = de \
+   "~kTova sagt, \"Ich spiele immer noch in der vordersten Reihe, als "
+   "Stürmer für Marion. Ich stehe auf ein gutes Gedränge mehr als auf sonst "
+   "etwas, besonders, wenn einer der Centers von Tos am Boden liegt. Was auf "
+   "dem Feld ist, kann abgegrast werden, sage ich immer. Ha, ha ha ha ha "
+   "ha!\""
+marionbartender_speech_045 = de \
+   "~kTova sagt, \"Ich hörte, dass ~ISeine Majestät der König~I sich ~Iin "
+   "der Zuflucht~I befindet, unter dem Schutz der ~ILady Aftyn~I!! Man sagt, "
+   "dass er bald wieder imstande sein wird zu regieren, %s!! Oh, "
+   "gnadenreiche Heilige, oh glorreicher Tag!!\""
+marionbartender_speech_046 = de \
+   "~kTova sagt, \"Dies ist eine Kneipe, mein Freund. Die Dinge sind hier "
+   "nicht so kompliziert.\""
+marionbartender_speech_047 = de \
+   "~kTova sagt, \"Frag lieber die gute Lady Aftyn nach Shal'ille. Sie kennt "
+   "sich in ihren Lehren aus und ist so eine gütige Seele.\""
+marionbartender_speech_048 = de \
+   "~kEs wird still im Raum, als %s den verkümmerten Zwerg erwähnt."
+marionbartender_speech_049 = de \
+   "~kTova sagt, \"Bei den heiligen Märtyrern, das ist ein erbärmlicher Ort. "
+   "Jau, höre auf meinen Rat, %s. Ich habe einen großen Teil meiner Jugend "
+   "dort verbracht, und ich werde nie mehr zurückkehren. Die Leute von Tos "
+   "sind so faul, dass sie sich nicht einmal zur Diskretion aufraffen "
+   "können!\""
+marionbartender_speech_050 = de \
+   "~kTova sagt, \"Tos ist eine recht trostlose Stadt, und lass Dich vor dem "
+   "dortigen Gasthaus warnen, %s. Der Wirt Paddock ist ein wirrköpfiger "
+   "Lügner, der Dich ebenso gern übers Ohr haut, wie er Dir ein Bier "
+   "anbietet. Er ist die Art Mensch, die ihre Leistungen niemals übertreibt, "
+   "aber er gibt sein Bestes. Du weißt schon, die Art Mensch, die auf ihre "
+   "Untergebenen herabsehen würde, wenn sie denn welche fände. Ha, ha, ha, "
+   "ha!!!\""
+marionbartender_speech_051 = de \
+   "~kTova sagt, \"Mögen die Pocken diese Stadt heimsuchen. Warum erledigst "
+   "Du Deine Geschäfte nicht anderswo, Fremder? Du bist hier nicht "
+   "willkommen. Raus jetzt!\""
+marionbartender_speech_052 = de \
+   "~kTova sagt, ohne Dich anzusehen, \"Was, bist Du immer noch hier?\""
+marionbartender_speech_053 = de \
+   "~kTova sagt, \"Ja, es gibt Waldschrate in dieser Gegend, eine Art "
+   "legendäre Kreatur, die sehr zurückgezogen lebt. Die Alten von Marion "
+   "sprechen von ihrer Weisheit und Intelligenz, aber sie meiden jeden "
+   "Kontakt. Man sagt, dass ihnen in der Vergangenheit etwas Schreckliches "
+   "widerfahren ist, das sie bis in die heutigen Tage isoliert.\""
+marionbartender_speech_054 = de \
+   "~kTova sagt, \"Troll-Whiskey? Du hast welchen? He, Morrigan, hole die "
+   "guten Gläser aus dem Regal und staube sie ab!\""
+marionbartender_speech_055 = de \
+   "~kTova sagt, \"Frage doch die Leute von Jasper, was sie von der "
+   "Würms-Feste halten, die dieser Dieb Frular aus Barloque wie eine gemeine "
+   "Scheune vermietet. Immerhin ist es ihr altes Kapitol und liegt jedem in "
+   "Jasper am Herzen!\""
+marionbartender_speech_056 = de \
+   "~kTova sagt, \"Jau, es ist eine alte Festung außerhalb von Jasper und "
+   "die traditionelle Hauptstadt des alten Bergkönigreiches. Man sagt, dass "
+   "ein halbes Hundert guter Kämpfer die Zerklüfteten Berge halten könnte, "
+   "wenn sie nur die Würms-Feste halten.\""
+marionbartender_speech_057 = de \
+   "~kTova sagt, \"Wulfgang? Du wirst denselben Wulfgang meinen, den ich "
+   "kenne. Ich trinke auf diesen Teufel.\""
+marionbartender_speech_058 = de \
+   "~kTova sagt freundlich, \"Also, ich weiß nicht, wovon Du da redest.\""
+marionbartender_speech_059 = de \
+   "~kTova zischt, \"Diese hinterhältigen Spione, die herumschleichen und "
+   "die unschuldigen Leute aushorchen... Sie sollten gejagt werden wie "
+   "tollwütige Hunde und neben ihrem Herrn und Meister, dem Herzog, am "
+   "Galgen baumeln.\""
+marionbartender_speech_060 = de \
+   "~kTova sagt, \"Einige Dinge bleiben besser ungesagt, und ich gebe Dir "
+   "beim Verlassen der Bar den Rat, dass dieser düstere Name auch dazu "
+   "gehört.\""
+marionbartender_random_001 = de \
+   "~kTova sagt, \"Natürlich wirken die Hotelzimmer in Barloque sehr klein, "
+   "aber das liegt nur daran, dass die Ratten so groß sind. Das scheint an "
+   "der reichhaltigen Kost zu liegen, oder was meinst Du, Morrigan?\""
+marionbartender_random_002 = de \
+   "~kTova sagt, \"Lady Aftyn ist neu in dieser Stadt. Sie ist eine "
+   "wirkliche Lady und ich möchte hier nichts Schlechtes über sie hören. Sie "
+   "hilft den Bedürftigen ... den Kranken, den Elenden, den Verletzten und "
+   "den Verarmten.\""
+marionbartender_random_003 = de \
+   "~kTova sagt, \"Paddock ist jene Art von Mensch, die ihr Leben ganz unten "
+   "beginnt... und dann weiter sinkt.\""
+marionbartender_random_004 = de \
+   "~kTova rezitiert, \"Wanderer, kommst Du nach Tos - Meide tunlichst "
+   "Kneipe und Schloss - Dort ist's nicht erbaulich - Und nur wenig "
+   "beschaulich - Denn der Dorftrottel spielt dort den Boss!\""
+marionbartender_random_005 = de \
+   "~kTova sagt, \"Ach, mit Paddock ist nichts verkehrt, was eine "
+   "Reinkarnation nicht beheben könnte.\""
+marionbartender_random_006 = de \
+   "~kTova sagt, \"Dieser Paddock hat in seinem Leben nichts zustande "
+   "gebracht, und selbst das hat er nicht gut gemacht.\""
+marionbartender_random_007 = de \
+   "~kTova sagt, \"Ein Kumpel von mir hat Paddock mal geraten, ganz einfach "
+   "er selbst zu sein. Gibt es einen schlechteren Rat? Ha, ha, ha, ha!!\""
+marionbartender_random_008 = de \
+   "~kTova sagt, \"Natürlich, jedermann liebt Paddock, und er sich selbst "
+   "auch.\""
+marionbartender_random_009 = de \
+   "~kTova sagt, \"Ich habe gehört, dass Paddock einen Zwerg als Aushilfe an "
+   "der Theke einstellen will... er glaubt, dass seine Drinks so größer "
+   "wirken!\""
+marionbartender_random_010 = de \
+   "~kTova sagt, \"Hast Du von dem Kerl in Marion gehört, aus dem inzwischen "
+   "ein ehrenwerter Bauer geworden ist und der mit 35 Stichwunden zuhause "
+   "gefunden wurde? Jau, er hatte nur versucht, mit Messer und Gabel zu "
+   "essen!\""
+marionbartender_random_011 = de \
+   "~kTova hält einen Krug und nimmt gelegentlich einen Schluck."
+marionbartender_random_012 = de \
+   "~kTova sagt, \"Also kommt dieser Abenteurer in die Kneipe und möchte "
+   "wissen, wo er einen Troll finden kann. Und ich sage ihm, das käme ganz "
+   "darauf an, wo er ihn liegengelassen habe! Ha, ha, ha, ha!!\""
+marionbartender_random_013 = de \
+   "~kTova sagt, \"Nein, aber fairerweise muss man sagen: Wenn Du Deine "
+   "Fähigkeiten im Kampf verbessern willst, solltest Du Dir einen Kampf "
+   "suchen, den Du nur mit ~I einiger ~I Mühe zu Ende bringst.\""
+marionbartender_random_014 = de \
+   "~kTova sagt, \"Wenn Du Dich etwas erschöpft fühlst, dann bist Du "
+   "natürlich jederzeit in der Kneipe zur Lahmen Kröte willkommen, %s. Du "
+   "wirst schnell herausfinden, dass eine Kneipe oder ein Gasthaus der beste "
+   "Ort ist, um sich zu erholen.\""
+marionbartender_random_015 = de \
+   "~kTova sagt, \"Wenn Du unerfahren bist im Kampf gegen Monster, solltest "
+   "Du Dich zunächst an Monster halten, die Deinen Fähigkeiten angemessen "
+   "sind. Jau, viele junge Abenteurer jagen Ratten und Baby-Spinnen.\""
+marionbartender_random_016 = de \
+   "~kTova sagt, \"In Marion geht es vielleicht etwas gemächlich zu, aber "
+   "wir erinnern uns daran, was wichtig ist und halten unsere Häuser in "
+   "Ordnung. Es lohnt sich immer, respektvoll gegenüber jenen aufzutreten, "
+   "die Du triffst. Du kannst so manche hilfreiche Weisheit für Deinen "
+   "Lebensweg lernen.\""
+marionbartender_random_017 = de \
+   "~kTova sagt, \"Ich habe gehört, dass die Tempel der vier Gottheiten zwar "
+   "abgelegen, aber den Gläubigen zugänglich sind. Tatsächlich liegt der "
+   "Shal'ille-Tempel nahe bei dieser Stadt und viele Pilger legen in meiner "
+   "Kneipe eine kleine... Stärkung... auf ihrem Weg zur Priesterin ein.\""
+marionbartender_random_018 = de \
+   "~kTova sagt, \"Sammle alle interessanten Gegenstände auf dem Weg ein - "
+   "man kann nie wissen, ob sie nicht den einen oder anderen Schilling "
+   "einbringen, %s. Selbst Morrigan da drüben mag sich für das eine oder "
+   "andere Ding interessieren, denn er verhökert dort in seiner Ecke "
+   "allerlei seltsames Zeug. Stimmt's, Morrigan?\""
+marionbartender_random_019 = de \
+   "~kTova sagt, \"Wenn Du Dich für's Kämpfen interessierst, dann besuche "
+   "doch Roluk in Cor Noth. Er war ein großartiger Offizier in der Armee des "
+   "Königs, %s, und ein Held für viele von uns. Er verdient seinen "
+   "Lebensunterhalt nun damit, jene zu trainieren, die mit dem Kämpfen ihr "
+   "Auskommen verdienen.\""
+marionbartender_random_020 = de \
+   "~kTova sagt, \"Achte auf die Waldschrate in dieser Gegend, denn sie sind "
+   "ein wahres Wunder. Aber tue ihnen nichts, denn das könnte Unglück "
+   "bedeuten.\""
+marionbartender_random_021 = de \
+   "~kTova sagt, \"Achte in den Bergen darauf, wo Du hintrittst. Die "
+   "dortigen Pfade sind trügerisch und wimmeln von bösen Monstern, %s.\""
+marionbartender_random_022 = de \
+   "~kTova sagt, \"Kolhorr, also, fairerweise muss man sagen ... er ist ein "
+   "fähiger Schmied, %s, und hat vielleicht ein paar Gegenstände, die Dein "
+   "Interesse wecken könnten. Jau, aber er ist taub wie ein Zaunpfahl, denn "
+   "er klopft schon länger auf den Amboss, als Du und ich Hosen tragen. Also "
+   "sprich deutlich, wenn Du mit ihm redest.\""
+marionbartender_random_023 = de \
+   "~kTova sagt, \"Es ist ein tolles Leben in Marion, %s, ich lerne mehr von "
+   "den Einwohnern und Durchreisenden, als man erwarten kann. Jau, und "
+   "manchmal gönne ich mir auch das eine oder andere Glas.\""
+marionbartender_random_024 = de \
+   "~kTova sagt, \"Kennst Du das Rezept, nach dem man in Jasper Hühnersuppe "
+   "zubereitet? Also: Als erstes stehle man zwei Hühner...\""
+marionbartender_random_025 = de \
+   "~kTova sagt, \"An der anderen Hand hast Du andere Finger. Ha, ha, ha, "
+   "ha!! Andere Finger!! Verstehst Du, Morrigan? Ha, ha, ha, ha, ha!!\""
+marionbartender_random_026 = de \
+   "~kTova sagt, \"%s, wusstest Du schon, dass die Bewohner von Marion den "
+   "Schubkarren erfunden haben? Jau, und dann haben sie den Entwurf an die "
+   "Leute von Jasper weitergegeben, damit diese lernen, aufrecht zu "
+   "gehen...\""
+marionbartender_random_027 = de \
+   "~kTova sagt, \"Ein Bauer aus Marion liegt neben seiner Frau im Bett. Er "
+   "sagt zu ihr: 'Liebe Frau, ich leide unter furchtbarer Schlaflosigkeit.' "
+   "'Nun', sagt sie, 'wenn Du einschläfst, wird sie Dich nicht stören.' Ha, "
+   "ha, ha, ha!!\""
+marionbartender_random_028 = de \
+   "~kTova sagt, \"Ich kenne einen Typ in Jasper, der nie einen Schilling "
+   "auf seinen Namen hatte... also hat er seinen Namen geändert!\""
+marionbartender_random_029 = de \
+   "~kTova sagt, \"Jau, und ich kenne noch einen Typen aus Tos, der so faul "
+   "ist, dass er 24 Stunden am Tag schlafen könnte. Dummerweise schläft er "
+   "30 Stunden am Tag.\""
+marionbartender_random_030 = de \
+   "~kTova sagt, \"Und da ist noch diese Frau aus Tos, die ich schon mein "
+   "Leben lang kenne, das schwöre ich bei allen Heiligen. Sie ist ~Iso~I "
+   "faul, dass sie zur Sehenswürdigkeit werden könnte. Und bei allen "
+   "Göttern, es gibt an diesem elenden Ort nichts anderes, was sehenswürdig "
+   "ist! Ha, ha, ha, ha, ha!!\""
+marionbartender_random_031 = de \
+   "~kTova sagt, \"%s, ich habe von einem Typ in Tos gehört, der so faul "
+   "war, dass er mit 25 starb und keiner es gemerkt hat, bis er 50 war!\""
+marionbartender_random_032 = de \
+   "~kTova sagt, \"Ich habe diesen Schwager, der absolut kein Geld hat. Er "
+   "leiht sich so viel von mir, dass meine Frau in der Nacht SEINE Taschen "
+   "durchwühlt!\""
+marionbartender_random_033 = de \
+   "~kTova sagt, \"%s, weißt Du schon von der Dame in Barloque, bei der die "
+   "Männer ständig um ihre Hand anhielten? Das einzige Problem war, dass sie "
+   "auch den Rest nehmen mussten! Ha, ha, ha, ha!!\""
+marionbartender_random_034 = de \
+   "~kTova sagt, \"Ich kenne einen alten Mann hier in Marion, etwas "
+   "einfältig wie so viele andere in dieser Gegend. Doch eines muss man ihm "
+   "zugute halten: Er wird niemals zu alt sein, um neue Arten der Dummheit "
+   "zu lernen!\""
+marionbartender_random_035 = de \
+   "~kTova sagt, \"Der Typ kam vor einiger Zeit in die Kneipe und Morrigan "
+   "erzählte mir im Nachhinein, dass er ein Gesetzloser ist. Er sagte, dass "
+   "er in Barloque gesucht wird. Also frage ich Morrigan: 'Warum glaubst Du, "
+   "dass sie in Barloque noch mehr Diebe suchen?' Ha, ha, ha, ha!!\""
+marionbartender_random_036 = de \
+   "~kTova sagt, \"Vor unserer Hochzeit beschwerte sich meine Frau ständig: "
+   "'Du willst immer nur das eine.' Jau, und jetzt habe ich vergessen, was "
+   "es war. Ha, ha, ha, ha!!\""
+marionbartender_random_037 = de \
+   "~kTova sagt, \"Unterhalten sich zwei Damen aus Barloque. Sagt die eine "
+   "zur anderen: 'Wie erhaltet Ihr Euch Eure Jugend?' Sagt die andere: "
+   "'Naja, ich schließe ihn im Schrank ein!' Ha, ha, ha, ha!\""
+marionbartender_random_038 = de \
+   "~kTova sagt, \"Einen habe ich noch. Was ist der Unterschied zwischen "
+   "einer Frau aus Cor Noth und einem Ork? Ungefähr 40 Pfund und ein Säbel!\""
+marionbartender_random_039 = de \
+   "~kTova sagt, \"Ein Mann von hier ging zur Heilerin, nur um zu erfahren, "
+   "dass er gerade noch sechs Monate zu leben hätte. Die Heilerin schlug "
+   "vor, er solle sein Haus in Marion verkaufen und nach Cor Noth ziehen. "
+   "Und der Mann fragte: 'Verlängert das mein Leben?' 'Nein', sagte die "
+   "Heilerin, 'aber es wird Dir sicher länger vorkommen!'\""
+marionbartender_random_040 = de "~kTova zwinkert Morrigan gutmütig zu."
+marionbartender_random_041 = de \
+   "~kTova sagt, \"Ich habe gehört, dass die Prinzessin gesagt hat, die "
+   "Zivilisation von Barloque würde 10 000 Jahre überdauern. Leider hat sie "
+   "nicht erwähnt, wann sie beginnt. Ha, ha, ha, ha!\""
+marionbartender_random_042 = de \
+   "~kTova sagt, \"Und da kommt dieser Bauer in diese Kneipe und fragt mich, "
+   "wie spät es ist. Ich sage ihm, es wäre Viertel nach vier. Da schaut er "
+   "mich ganz komisch an und sagt: 'Ich glaube, ich werde verrückt, Tova. "
+   "Den ganzen Tag bekomme ich schon unterschiedliche Antworten!' Ha, ha, "
+   "ha, ha!\""
+marionbartender_random_043 = de \
+   "~kTova sagt, \"Einen habe ich noch. Was ist der Unterschied zwischen "
+   "einer Frau aus Cor Noth und einer Kuh? Kühe tragen keine Kopftücher! Ha "
+   "ha ha!\""
+marionbartender_random_044 = de \
+   "~kTova sagt, \"Magische Quellen? Ich quäle mich nicht mit Quellen herum. "
+   "Und Du, Morrigan? Quälst Du Dich mit Quellen? Ha, ha, ha, ha!!\""
+marionbartender_random_045 = de \
+   "~kTova sagt, \"Habt ihr auf dem Weg in die Stadt Ran'er Zen getroffen? "
+   "Verrückt wie ein Märzhase, dieser Typ, aber das ist eine völlig andere "
+   "Geschichte. Viele der Leute, die durch Marion kommen, halten bei ihm an "
+   "und suchen seine, nun ja, Weisheit.\""
+marionbartender_random_046 = de \
+   "~kTova sagt, \"Ich habe etwas Zeit in Tos verbracht, und ich sage Dir, "
+   "diese Stadt versteckt sich vor ihren eigenen bösen Absichten. "
+   "Unwissende, faule Leute. Sogar die Toten finden keine Ruhe und kommen "
+   "aus den Gräbern, um auf dem Friedhof zu spuken! Jau, das ist wahr!\""
+marionbartender_random_047 = de \
+   "~kTova sagt, \"Ruhe dahinten, oder ihr findet euch auf der Straße "
+   "wieder!\""
+marionbartender_random_048 = de \
+   "~kTova murmelt etwas und beschäftigt sich mit dem Säubern der Gläser."
+marionbartender_trigger_blessed = de "gesegnet"
+marionbartender_trigger_bye = de "tschüss"
+marionbartender_trigger_council = de "ratsmitglied"
+marionbartender_trigger_crypt = de "gruft"
+marionbartender_trigger_duke = de "herzog"
+marionbartender_trigger_fate = de "schicksal"
+marionbartender_trigger_hello = de "hallo"
+marionbartender_trigger_node_attack = de "quellenangriff"
+marionbartender_trigger_sanctuary = de "zuflucht"
+marionbartender_trigger_king = de "könig"
+marionbartender_trigger_sell = de "verkauf"
+marionbartender_trigger_buy = de "kaufen"
+marionbartender_trigger_shal_ille = de "sha-lill"
+marionbartender_trigger_sha_lill = de "shal'ille"
+marionbartender_trigger_stunted_dwarf = de "verkümmerter zwerg"
+marionbartender_trigger_treefolk = de "waldschra"
+marionbartender_trigger_wryn_s = de "würms"
+marionbartender_trigger_wryn_s_3 = de "feste"
+
+// MarionBlacksmith
+marionblacksmith_speech_001 = de \
+   "~kKolhorr sagt, \"Kaputt? Was ist kaputt? Lass mich mal einen Blick "
+   "drauf werfen, vielleicht kann ich es reparieren.\""
+marionblacksmith_speech_002 = de \
+   "~kKolhorr sagt, \"Oh ja, es ist eine ordentliche Stadt, in der Tat eine "
+   "schöne, sehr schöne und große Stadt. Ja, eine große Stadt, die "
+   "Hauptstadt von Meridian.\""
+marionblacksmith_speech_003 = de \
+   "~kKolhorr sagt, \"Ja, nun, dann auf Wiedersehen.\""
+marionblacksmith_speech_004 = de "~kKolhorr murmelt etwas vor sich hin."
+marionblacksmith_speech_005 = de \
+   "~kKolhorr sagt, \"Tausendfüßler? Na ja, ich weiß, dass sie ziemlich übel "
+   "aussehen, allerdings sind sie recht harmlos, wenn man sie in Ruhe "
+   "lässt.\""
+marionblacksmith_speech_006 = de \
+   "~kKolhorr sagt, \"Was? Ost-Tos? Ost-Tos, äh, ja, nun, Tos liegt östlich "
+   "von hier, durch Ilerien, in einem Tal. Im Osten. Tatsächlich einfach "
+   "östlich. Natürlich liegt es im Osten. Osten. Und dort gibt es eine Bank, "
+   "klar.\""
+marionblacksmith_speech_007 = de \
+   "~kKolhorr sagt, \"Rat? Äh, das sagt mir gar nichts.\""
+marionblacksmith_speech_008 = de \
+   "~kKolhorr schaudert und sagt, \"Diese Gruft macht mir eine Heidenangst.\""
+marionblacksmith_speech_009 = de \
+   "~kKolhorr sagt, \"In Marion? Nein, nein, es gibt keinen Herzog in "
+   "Marion. Aber es gibt hier eine Lady, und was für eine gütige Seele sie "
+   "ist, wirklich. Eine echte Lady. Sie lebt dafür, den Unglücklichen zu "
+   "helfen, sie ist Marions eigene Heilige.\""
+marionblacksmith_speech_010 = de \
+   "~kKolhorr sagt, \"Ja? Oh, hallo, hallo... \""
+marionblacksmith_speech_011 = de "~kKolhorr sagt, \"Ja?\""
+marionblacksmith_speech_012 = de \
+   "~kKolhorr sagt, \"Häh? Ich dachte, ich hätte Dir gesagt, dass Du hier "
+   "nicht willkommen bist.\""
+marionblacksmith_speech_013 = de \
+   "~kKolhorr sagt, \"Wobei brauchst Du meine Hilfe? Dies ist ein einfacher "
+   "Ort, in dem man sich recht leicht zurechtfindet und so sehe ich nicht, "
+   "wie ich Dir helfen könnte. Natürlich gibt es einiges, was ich Dir "
+   "beibringen kann, aber Du benötigst ganz bestimmt keine Hilfe, um Dich in "
+   "Marion umzusehen.\""
+marionblacksmith_speech_014 = de \
+   "~kKolhorr sagt, \"Natürlich ist es heiß. Denkst Du etwa, ich weiß nicht, "
+   "dass es hier drin heiß ist? Ich WEISS, dass es hier heiß ist. Das "
+   "brauchst Du mir nicht zu sagen, denn nach 35 Jahren in dieser Schmiede "
+   "weiß ich, wie heiß es hier ist. Pah. Heiß.\""
+marionblacksmith_speech_015 = de \
+   "~kKolhorr sagt, \"Jasper? Nein, Du musst Dich verirrt haben, %s. Du bist "
+   "in MARION...genau, MARION, M-A-R-I-O-N.\""
+marionblacksmith_speech_016 = de \
+   "~kKolhorr sagt, \"Ja, dies ist tatsächlich Marion. Genau dort bist Du. "
+   "Was kann ich für Dich tun, %s?\""
+marionblacksmith_speech_017 = de \
+   "~kKolhorr sagt, \"Was? Mimen? Wo? Und wie viele?\""
+marionblacksmith_speech_018 = de \
+   "~kKolhorr sagt, \"Was? Mimen? Wo? Und wie viele?\""
+marionblacksmith_speech_019 = de \
+   "~kKolhorr sagt, \"Um Himmels willen, bleibe lieber fern von allen Orks. "
+   "Üble Kreaturen, entschiedene Feinde aller Menschen. Ich erinnere mich an "
+   "die Tage, an denen Armeen aufgestellt wurden, um sie zu jagen und "
+   "niederzumetzeln. Ja, ich habe einige der Waffen gesehen, die die Orks "
+   "fertigen. Junge, Junge. Sehr beeindruckend. Krummsäbel mit Klingen so "
+   "lang wie Dein Arm.\""
+marionblacksmith_speech_020 = de \
+   "~kKolhorr sagt, \"Ohne Hemd? Nein, ich weiß, dass es nicht angemessen "
+   "ist, und daher ziehe ich mein Hemd jedes Mal an, wenn ich den Laden "
+   "verlasse! Es ist die Hitze der Schmiede, verstehst Du? Vielleicht hast "
+   "Du schon gemerkt, dass es hier drin ziemlich heiß ist. Sehr heiß, um "
+   "genau zu sein. Verteufelt heiß.\""
+marionblacksmith_speech_021 = de \
+   "~kKolhorr sagt, \"Ran'er Zen? Er... nun ja, ich nehme an, Du wirst das "
+   "auch anderweitig hören, also kann ich es auch freundlich sagen. Er ist "
+   "ein wenig seltsam. Ja, das ist er.\""
+marionblacksmith_speech_022 = de \
+   "~kKolhorr schreit, \"Ran'er Zen? Nun ja, es ist nicht sonderlich "
+   "höflich, über die Kretins und Schwachköpfe dieser Welt zu lästern, also "
+   "halte ich lieber meinen Mund.\""
+marionblacksmith_speech_023 = de \
+   "~kKolhorr kreischt, \"Dieser Mann ist ein Idiot, und man braucht sich "
+   "nicht mit Troll-Whiskey vollaufen zu lassen, um das zu erkennen. Er "
+   "macht die Leute von Marion schon seit zehn Jahren lächerlich und wagt es "
+   "nun, zurückzukehren und auch noch Almosen von uns zu erwarten. Von mir "
+   "kann er nichts erwarten. Und nun scher Dich fort!\""
+marionblacksmith_speech_024 = de \
+   "~kKolhorr sagt, \"Zu meiner Zeit war ich ein recht guter Stürmer, erste "
+   "Reihe rechts. Ich spiele immer noch im Herbst beim jährlichen "
+   "Vergleichsspiel zwischen Marion und Barloque, nicht weil ich so fit bin, "
+   "sondern weil ich so gemein wie ein Waschbär bin. Ich ziehe diese reichen "
+   "Kerle, die halb so alt sind wie ich, in den Dreck.\""
+marionblacksmith_speech_025 = de \
+   "~kKolhorr sagt, \"Nun, schauen wir mal. Ich mache verschiedene Waffen, "
+   "und die sind zu verkaufen. Ansonsten bin ich damit beschäftigt, Dinge "
+   "für die Bauern in Marion zu reparieren.\""
+marionblacksmith_speech_026 = de \
+   "~kKolhorr sagt, \"Ich hätte vielleicht die eine oder andere Sache, die "
+   "Du Dir gerne anschauen möchtest.\""
+marionblacksmith_speech_027 = de \
+   "~kKolhorr sagt, \"Etwas beibringen? Nun ja... Ich weiß einige Dinge, das "
+   "stimmt. Ich weiß ein wenig über die alten Wege, denn meine Leute kamen "
+   "zu Zeiten meines Urgroßvaters aus den Zerklüfteten Bergen und brachten "
+   "die Wege von Kraanan mit sich. Sie machten ihre Waffen aus den Äthern, "
+   "einfach so. Ja, ich könnte Dir einiges beibringen, doch um Kraanans "
+   "Magie nutzen zu können, musst Du sein Wesen verstehen.\""
+marionblacksmith_speech_028 = de \
+   "~kKolhorr sagt, \"Ich mag den Kerl. Er spielte ein paar Jahre als Hakler "
+   "im Rugbyteam von Marion, hart wie ein Hammer.\""
+marionblacksmith_speech_029 = de \
+   "~kKolhorr sagt, \"Oh, Tos. Ja nun, in Tos gibt es eine Arena, in der die "
+   "Krieger mit großartigen Waffen kämpfen. Großartige Waffen aus Stahl, "
+   "Eisen und anderem.\""
+marionblacksmith_speech_030 = de \
+   "~kKolhorr sagt, \"Ja, ein wirklich übles Zeug.\""
+marionblacksmith_random_001 = de \
+   "~k~IDie Hitze in diesem Laden ist beinahe unerträglich.~I"
+marionblacksmith_random_002 = de \
+   "~k~IIm Laden des Schmiedes ist es höllisch heiß.~I"
+marionblacksmith_random_003 = de \
+   "~kKolhorr sagt, \"Wenn Du alte Waffen hast, die Du loswerden möchtest, "
+   "dann hätte ich vielleicht Interesse. Natürlich kann ich nicht zu viel "
+   "Eisenschrott hier aufbewahren.\""
+marionblacksmith_random_004 = de \
+   "~kKolhorr sagt, \"Hast Du schon unsere örtliche Kneipe besucht? Dieser "
+   "Tova ist ein echter Spaßvogel. Jau, ein echter Brüller, %s.\""
+marionblacksmith_random_005 = de \
+   "~kKolhorr sagt, \"Dies ist ein ruhiger Ort. Gute Leute, fleißige Leute - "
+   "na ja, mit einer Ausnahme.\""
+marionblacksmith_random_006 = de \
+   "~kKolhorr sagt, \"Du hast vielleicht schon die verfallene Hütte in der "
+   "Nähe der Ställe gesehen. Immerhin hebt sie sich vom stolzen und sauberen "
+   "Rest der Stadt deutlich ab. Ja, das ist die Hütte von Ran'er Zen, %s. "
+   "Ich könnte Dir Geschichten erzählen ...\""
+marionblacksmith_random_007 = de \
+   "~kKolhorr sagt, \"Du siehst aus, als wüsstest Du das handwerkliche "
+   "Geschick, das in einer gut gemachten Waffe steckt, zu schätzen, und das "
+   "tue ich auch. Das tue ich wirklich. Ja, ich habe auch eine ordentliche "
+   "Sammlung, aber die bewahre ich an einem sicheren Ort auf.\""
+marionblacksmith_random_008 = de \
+   "~kKolhorr kreischt, \"Hast Du irgendwas von Stricknadeln gesagt?\""
+marionblacksmith_random_009 = de "~kKolhorr sagt, \"Häh?\""
+marionblacksmith_random_010 = de \
+   "~kKolhorr sagt, \"Oh, hast Du etwas gesagt?\""
+marionblacksmith_random_011 = de "~k~IKolhorr schwitzt mächtig.~I"
+marionblacksmith_random_012 = de "~kKolhorr sagt, \"Was ist das?\""
+marionblacksmith_random_013 = de \
+   "~kKolhorr schreit, \"Ja, nun, sprich bitte etwas lauter.\""
+marionblacksmith_random_014 = de "~kKolhorr kratzt sich geistesabwesend."
+marionblacksmith_random_015 = de "~kKolhorr sagt, \"Was hast Du da?\""
+marionblacksmith_random_016 = de \
+   "~kKolhorr schreit, \"WAS DAS KARMA BETRIFFT, GLAUBE ICH, DASS DU DICH "
+   "MEIST IN DIE ENTGEGENGESETZTE RICHTUNG DESSEN BEWEGST, WAS DU TÖTEST.\""
+marionblacksmith_random_017 = de \
+   "~kKolhorr sagt, \"Ich höre mehr, als sie glauben, da kannst Du sicher "
+   "sein.\""
+marionblacksmith_random_018 = de "~kKolhorr schreit, \"WAS WAR DAS?\""
+marionblacksmith_random_019 = de "~kKolhorr funkelt Dich wütend an."
+marionblacksmith_random_020 = de \
+   "~kKolhorr sagt, \"Der Laden ist geschlossen, das Tageswerk getan. "
+   "Verschwinde nun lieber.\""
+marionblacksmith_trigger_broke = de "kaputt"
+marionblacksmith_trigger_broke_2 = de "stadt"
+marionblacksmith_trigger_bye = de "tschüss"
+marionblacksmith_trigger_bye_2 = de "wiedersehen"
+marionblacksmith_trigger_centipede = de "tausendfüßler"
+marionblacksmith_trigger_centipede_2 = de "tausendfüssler"
+marionblacksmith_trigger_council = de "ratsmitglied"
+marionblacksmith_trigger_crypt = de "gruft"
+marionblacksmith_trigger_duke = de "herzog"
+marionblacksmith_trigger_hello = de "hallo"
+marionblacksmith_trigger_help = de "hilfe"
+marionblacksmith_trigger_hot = de "heiß"
+marionblacksmith_trigger_mine = de "minen"
+marionblacksmith_trigger_mining = de "schürfen"
+marionblacksmith_trigger_mining_2 = de "bergbau"
+marionblacksmith_trigger_orc = de "ork"
+marionblacksmith_trigger_princess = de "prinzessin"
+marionblacksmith_trigger_ran_er_hoth = de "ran'er zen"
+marionblacksmith_trigger_ran_er_zen = de "ran er'hoth"
+marionblacksmith_trigger_buy = de "kaufen"
+marionblacksmith_trigger_sell = de "verkauf"
+marionblacksmith_trigger_teach = de "lernen"
+marionblacksmith_trigger_teach_2 = de "beibringen"
+marionblacksmith_trigger_teach_3 = de "lehren"
+
+// MarionElder
+marionelder_speech_001 = de \
+   "~kRan'er Zen sagt, \"Suche ihn auf. Geh in die Berge und finde ihn.\""
+marionelder_speech_002 = de \
+   "~kRan'er Zen sagt, \"Ein sehr intelligenter und fleißiger, aber naiver "
+   "Zauberer, der törichterweise glaubte, er könne die Mächte der Magie "
+   "beherrschen. Er hat sein Leben mit dem Streben nach Meisterschaft und "
+   "Verständnis vieler Disziplinen verbracht, darunter Shal'ille, Kraanan, "
+   "Qor, glaube ich, und Faren. Beeindruckend, aber fehlgeleitet, denn die "
+   "Macht dieser verschiedenen Kräfte hat seinen Verstand so verdreht, dass "
+   "er paranoid und wahnhaft ist.\""
+marionelder_speech_003 = de \
+   "~kRan'er Zen sagt, \"Fass diese Dinger nicht an. Schon die leichteste "
+   "Berührung damit kann jenen, die noch unter den Lebenden wandeln, "
+   "schaden.\""
+marionelder_speech_004 = de \
+   "~kRan'er Zen sagt, \"Babyspinnen sind ein potentiell tödliches Ärgernis, "
+   "also solltest Du in den Wäldern vorsichtig sein. Allerdings sollten sie "
+   "Dir keine größeren Probleme bereiten, denn selbst der unerfahrenste "
+   "Abenteurer kann mit ihnen fertig werden. Die größte Gefahr, die von "
+   "ihnen ausgeht, ist, dass sie einmal ausgewachsene Spinnen sein werden.\""
+marionelder_speech_005 = de \
+   "~kRan'er Zen sagt, \"Barloque ist ein korrupter Vulkan voller Abschaum, "
+   "der sich als Geisterstadt verkleidet. Begib Dich dorthin, mein Kind. Du "
+   "wirst schon sehen, was ich meine. Sie vertreiben die Armen aus der Stadt "
+   "und sonnen sich im Überfluss.\""
+marionelder_speech_006 = de \
+   "~kRan'er Zen sagt, \"Bei Naq war einst ein genialer Gelehrter, ein sehr "
+   "gebildeter Mann. Er lernte alles so schnell und hatte solch ein "
+   "Gedächtnis ... Ich erinnere mich, ihn als jungen Mann getroffen zu "
+   "haben, und die Kräfte seines Intellekts waren unbeschreiblich. Der Blick "
+   "seiner brennenden Augen war durchdringend und verstehend. Doch sein "
+   "Hunger richtete sich auf Reichtum und Besitz und wurde mit zunehmendem "
+   "Alter immer stärker. Nun ist er besessen von dem, was er angehäuft hat. "
+   "Das hat ihn von allen anderen abgeschottet und ihn misstrauisch und "
+   "klein gemacht.\""
+marionelder_speech_007 = de \
+   "~kRan'er Zen sagt, \"Eine alte Stadt, zerstört durch die dummen Wünsche "
+   "eines Kindes.\""
+marionelder_speech_008 = de "~kRan'er Zen sagt, \"Ja...\""
+marionelder_speech_009 = de \
+   "~kRan'er Zen sagt, \"Cor Noth ist eine sehr junge Stadt östlich von "
+   "Marion. Ich erinnere mich noch daran, als die Stadt nichts anderes als "
+   "eine Raststelle war, aber sie ist gewachsen und hat es sogar zu einer "
+   "respektablen Universität gebracht. Da ist noch etwas anderes an dieser "
+   "Stadt...\""
+marionelder_speech_010 = de \
+   "~kRan'er Zen sagt, \"Es gibt einen Rat der Fünf, zuletzt ernannt vom "
+   "Vater der Prinzessin, König Zarcos V, bevor er abdankte und den Verstand "
+   "verlor. Oder habe ich die Reihenfolge durcheinandergebracht? Wie dem "
+   "auch sei, es sind fünf Weise aus dem ganzen Land, kluge und in ihren "
+   "Grenzen mächtige Leute, doch als Regierung sind sie zahnlos und lahm, "
+   "ganz ohne Exekutive. Ich kenne sie. Sie sind ein Rat ohne König, den sie "
+   "beraten könnten, und hüten sich vor jeder raschen Bewegung, weil sie "
+   "fürchten, die Aufmerksamkeit einer der politischen Gruppen auf sich zu "
+   "ziehen, die sie über Nacht entmachten könnten. So sitzen sie ihre Zeit "
+   "ab und nicken, während sie auf nichts warten. Der Rat ist gelähmt und "
+   "sollte sich auflösen.\""
+marionelder_speech_011 = de \
+   "~kRan'er Zen sagt, \"Rat. Eine Versammlung, die zur Beratung, "
+   "Beschlussfassung usw. einberufen wird; ein verwaltendes, gesetzgebendes "
+   "oder beratendes Gremium. Siehst Du, wer behauptet, mein Gedächtnis sei "
+   "nicht mehr das, was es einmal war?\""
+marionelder_speech_012 = de \
+   "~kRan'er Zen sagt, \"Der Rat ist ein Zusammenschluss der Weisesten des "
+   "Landes und berät dessen Führung.\""
+marionelder_speech_013 = de \
+   "~kRan'er Zen sagt, \"Der Rat? Zwischen dem Rat und dem, was er sagt, "
+   "wächst Unkraut, mein Kind. Alte Männer mit verfaulten Zähnen und "
+   "verschlossenen Geistern, jeder von ihnen lebt in einem selbst "
+   "auferlegten Exil. In philosophischer Hinsicht sind sie bankrott, denn "
+   "man kann ein Volk nicht aus einem Versteck heraus beherrschen.\""
+marionelder_speech_014 = de \
+   "~kRan'er Zen schreit, \"Meine Mutter ruht dort drin, die Götter mögen "
+   "sie beschützen. Manche Nächte besuche ich sie.\""
+marionelder_speech_015 = de \
+   "~kRan'er Zen schreit, \"Lass meine Mutter in Ruhe!\""
+marionelder_speech_016 = de \
+   "~kRan'er Zen sagt, \"Drex ist ein brillanter Arzt, vielleicht der "
+   "großartigste, den dieses Land je gekannt hat. Allerdings hat er "
+   "irgendeinen Punkt überschritten und hat aufgehört, Patienten mit seinen "
+   "Talenten zu heilen. In den letzten Jahren hat er sich anscheinend nur um "
+   "sich selbst gekümmert. Er verbringt seine Zeit allein und in tiefer "
+   "Meditation. Ich vermute, dass sein Verständnis für den Körper und seine "
+   "Energien seinen eigenen Alterungsprozess vollständig angehalten oder "
+   "womöglich sogar umgekehrt hat. Politisch ist er der Klügste des Rates, "
+   "und er glaubt, dass sich das Volk selbst regieren muss und die falschen "
+   "Beweggründe des Königshauses, des Militärs und der Parteiführer ablehnen "
+   "muss. Doch seine Stimme geht unter den anderen im Rat verloren.\""
+marionelder_speech_017 = de \
+   "~kRan'er Zen sagt, \"Der Herzog ist tot. Warum gibt es dann einen "
+   "anderen Herzog?\""
+marionelder_speech_018 = de \
+   "~kRan'er Zen sagt, \"Herzog. Ein nobler Mann von höchster Adelsherkunft "
+   "und Rang, ein Prinz, der ein unabhängiges Herzogtum beherrscht. "
+   "Herzogtum. Das Gebiet, das von einem Herzog oder einer Herzogin "
+   "beherrscht wird; Herzogsland.\""
+marionelder_speech_019 = de \
+   "~kRan'er Zen sagt, \"Es geht ein Reim herum... Wegen eines gift'gen "
+   "Dolches geriet einer ins Taumeln und Schwanken... Dann... Lag dort der "
+   "Herzog, der Gute, hingestreckt in seinem Blute...\""
+marionelder_speech_020 = de \
+   "~kRan'er Zen sagt, \"Frag Xor nach Faren, denn er versteht sich auf "
+   "diese Wege.\""
+marionelder_speech_021 = de \
+   "~kRan'er Zen sagt, \"Die Religion der natürlichen Ordnung und die am "
+   "schwersten zu begreifende. Aus diesem Grund ist es sehr gefährlich, mit "
+   "ihrer Magie zu spielen, denn man kann nie genau sehen, welche Mächte man "
+   "mit den Sprüchen anzapft oder wohin sich die Magie dieser Sprüche "
+   "verteilt.\""
+marionelder_speech_022 = de "~kRan'er Zen sagt, \"Was ist das?\""
+marionelder_speech_023 = de \
+   "~kRan'er Zen sagt, \"Sie sind Mörder. Die Frage, die sich dabei stellt, "
+   "ist, 'Gibt es einen Platz für erlaubte Mörder in unserem Land?' Meine "
+   "Antwort lautet ja.\""
+marionelder_speech_024 = de \
+   "~kRan'er Zen sagt, \"Sie ernähren sich von Seelen.\""
+marionelder_speech_025 = de \
+   "~kRan'er Zen sagt, \"Die Magien von Jala sind eine verlorene Schule. Die "
+   "Mächte dieser Energien sind zufällig und nur schwer zu fokussieren, und "
+   "ohne diesen Fokus gerät die Natur selbst aus dem Gleichgewicht, denn "
+   "alle anderen Kräfte haben ihn im Überfluss. Doch die Macht ist nicht "
+   "verloren. Sie wartet darauf, wieder an die Oberfläche zu treten, egal ob "
+   "mit oder ohne jene, die sie ausüben. Es gibt jene, die genügend von den "
+   "alten Wegen verstehen, dass vielleicht ...\""
+marionelder_speech_026 = de \
+   "~kRan'er Zen sagt, \"In Richtung Süden und versteckt in den Bergen. Die "
+   "Leute von Jasper sind Steine der Berge, und jeder von ihnen ist ein Teil "
+   "der Berge selbst, trügerische kleine Steine und Felsen, die die "
+   "Geheimnisse dieses rauen Ortes in sich tragen. Sie sind ein reges, "
+   "freies Volk, einst vollkommen unabhängig, und sie haben ihre eigene "
+   "Sprache. Doch die hört man heute nicht mehr.\""
+marionelder_speech_027 = de \
+   "~kRan'er Zen sagt, \"Zarcos V war schon immer ein gerissener Mann. "
+   "Soweit ich weiß, versteckt er sich jetzt und klagt, sein Verstand sei "
+   "ihm abhandengekommen, wie man so sagt. Aber ich würde mich nicht "
+   "unbedingt darauf verlassen... er ist ein gerissener Mann. Halte Ausschau "
+   "nach ihm, denn er ist näher an der Oberfläche, als er es in fast "
+   "fünfzehn Jahren war. Und wenn er kann, sobald er kann, wird er seinen "
+   "Zug machen. Ja, und er ist ganz nahe, denn ich habe diesen alten "
+   "Ziegenbock Alzahakar herumlungern sehen...\""
+marionelder_speech_028 = de \
+   "~kRan'er Zen sagt, \"Es gibt sechs Schulen, sechs Ordnungen in dieser "
+   "und allen anderen Welten. Alle sechs sind notwendig, um den Machtfluss "
+   "im Gleichgewicht zu halten. Unsere Welt gleicht inzwischen einem Mann, "
+   "der ertrinkt und gegen das Wasser kämpft, weil dieses Gleichgewicht "
+   "verloren ist. Kraanan ist für das Andauern der Teilung verantwortlich... "
+   "und ich werde jetzt nichts weiter dazu sagen.\""
+marionelder_speech_029 = de \
+   "~kRan'er Zen sagt, \"In meinem Traum habe ich Kraanan gesehen, doch er "
+   "ist kein Gott, sondern ein einfacher Handwerker, der Schuhe repariert "
+   "und mittelmäßige Kleider aus rauer Wolle herstellt. In meinem Traum sind "
+   "die Gegenstände, die er produziert, schäbig und die Leute kaufen sie, "
+   "weil sie nostalgisch sind und mit einem alten Veteranen Mitleid haben, "
+   "der von den Almosen anderer abhängig ist. In meinem Traum hat er nur "
+   "einen Arm und nur ein Bein.\""
+marionelder_speech_030 = de \
+   "~kRan'er Zen sagt, \"Es wird berichtet, dass diese Kreatur nicht sterben "
+   "kann. Das ist natürlich ein großes Hindernis für jene, die gerne ihre "
+   "Herrschaft enden sehen würden.\""
+marionelder_speech_031 = de \
+   "~kRan'er Zen sagt, \"Die Leute hier sind passiv, freundlich und "
+   "unkritisch, aber betrachte das nicht als einen Mangel an "
+   "Wahrnehmungsfähigkeit. Dies sind meine Leute und ich gehöre zu ihnen, "
+   "doch sie haben den Weg der Jahreszeiten gewählt und werden bestehen.\""
+marionelder_speech_032 = de \
+   "~kRan'er Zen sagt, \"Das sind die schmutzigen Zähne, die den Mund "
+   "nähren, der niemals satt wird. Sie dienen nur dem Lich und seinen "
+   "verdorbenen Zielen.\""
+marionelder_speech_033 = de \
+   "~kRan'er Zen sagt, \"Taschenspielerei. Weißt Du, was das bedeutet? Es "
+   "bedeutet Fingerfertigkeit. Weiter bringt es die Prinzessin nicht, glaub "
+   "mir, mit diesem ganzen Gerede von ~IMagie~I und der Förderung von "
+   "~IMagie~I. Sie fördert die Magie mit ungefähr so viel Wahrhaftigkeit und "
+   "Verständnis, wie ein steinerner Sockel das Buch des Wissens trägt. Sie "
+   "ist eine Stümperin und wird nicht überleben; denn die Schulen der Magie "
+   "fordern einen hohen Preis, nicht die schwärmerische Beschäftigung eines "
+   "unreifen Leichtgewichts. Hüte Dich vor der Magie, mein Kind. Sie "
+   "verdirbt für ihre eigenen Zwecke und zerstört am Ende.\""
+marionelder_speech_034 = de \
+   "~kRan'er Zen sagt, \"Sie ist eine Quasseltante und wird sich auf dem "
+   "politischen Parkett nicht behaupten können.\""
+marionelder_speech_035 = de \
+   "~kRan'er Zen sagt, \"Prinzessin. Ein weibliches Mitglied der königlichen "
+   "Familie; die Gemahlin eines Prinzen. Familie. Eine Gruppe von Personen, "
+   "die durch Blut oder Heirat verbunden sind; eine Gruppe von Dingen mit "
+   "gemeinsamen Merkmalen. Blut. Verwandtschaft; Temperament; Leben; "
+   "Lebenssaft; Blutvergießen; Mord.\""
+marionelder_speech_036 = de \
+   "~kRan'er Zen sagt, \"Sie ist eine Hexe, also dürfen wir ihren Namen "
+   "nicht mehr aussprechen, denn sonst findet sie einen Weg in unsere "
+   "Seelen. Psst, mein Kind.\""
+marionelder_speech_037 = de \
+   "~kRan'er Zen sagt, \"Sprich diesen Namen nicht in meiner Gegenwart aus, "
+   "denn Du verstehst nichts von den Mächten, die Du mit Deinen Worten in "
+   "Bewegung setzt. Du musst jetzt gehen. Erforsche Deine Seele und denke "
+   "über das nach, was Du findest.\""
+marionelder_speech_038 = de \
+   "~kRan'er Zen sagt, \"Die Spinnenkönigin ist die übelste von allen und "
+   "die Mutter der ganzen Spinnenplage in diesem Land. In der Mitte ihres "
+   "gut geschützten Nestes brütet sie diese giftigen und bösartigen "
+   "Geschöpfe aus. Sie ist extrem mächtig und hat schon so manche gut "
+   "gerüstete Gruppe von Abenteurern ausradiert. Wenn Du sie findest, tust "
+   "Du dem ganzen Land einen Gefallen, wenn Du sie in Stücke schlägst.\""
+marionelder_speech_039 = de \
+   "~kRan'er Zen sagt, \"Hier ist eine Tatsache, die Du nicht anders als "
+   "durch die Rasereien eines alten Verrückten, der sich vor nichts "
+   "fürchtet, lernen kannst. Die Wahrheit führt Dich und mich über uns "
+   "selbst hinaus. Als ich ein junger Mann war, zur Zeit meines Vaters und "
+   "der Brüder seines Vaters, folgte und huldigte man Riija, und diese Wege "
+   "waren stark und für alle offen, die sie lernen oder ihnen huldigen "
+   "wollten. Nur drei Jahrzehnte waren vergangen, und die Hohepriester und "
+   "-priesterinnen von Kraanan beschlossen, die Gefolgschaft von Riija "
+   "auszulöschen, jede arme Seele zu verfolgen und zu töten, die den "
+   "Chroniken folgte. Und das taten sie. Nach zwei siegreichen Jahren des "
+   "Mordens waren selbst die Familien derer spurlos verschwunden, die Riija "
+   "folgten. Die Büchereien brannten lichterloh, die Tempel waren "
+   "ausgeraubt. Ab diesem Zeitpunkt sprach niemand mehr darüber. Sie wurden "
+   "aus diesem Land entfernt, während Faren schlief und Shal'ille ihren "
+   "Gemahl nicht verurteilte. Doch so etwas lässt sich nicht auf ewig "
+   "verschweigen, und wenn Riija zurückkehrt, sagt mir meine Vision, wird "
+   "wieder Blut fließen.\""
+marionelder_speech_040 = de \
+   "~kRan'er Zen sagt, \"Nun, vor ein paar Spielzeiten bin ich "
+   "ausgeschieden, und jetzt betreue ich das Marion-Team. Amtierende "
+   "Meister.\""
+marionelder_speech_041 = de \
+   "~kRan'er Zen sagt, \"Shal'ille verkörpert den Pfad des Lichtes und der "
+   "Rechtschaffenheit und gleicht die dunkleren Kräfte unserer Natur aus, "
+   "wenn wir täglich während des Aufbaus unseres Lebens an Shal'ille denken. "
+   "Sie ist gleichzeitig auch eine Religion der Heuchler, da es viele "
+   "falsche Anhänger gibt, die sich und andere an den unerreichbaren "
+   "Maßstäben ihrer frommen Lehren als Regeln der Herrschaft messen. "
+   "Religiöse Gesetze sind als Richtlinien für ein besseres Leben gedacht "
+   "und nicht als Gesetze, durch die wir uns und unsere Zivilisation "
+   "einengen und die Welt um uns verurteilen.\""
+marionelder_speech_042 = de \
+   "~kRan'er Zen sagt, \"Spinnen sind tödliche Gegner, und selbst jene, die "
+   "auf jahrelange Erfahrung in der Wildnis von Meridian zurückblicken "
+   "können, treten ihnen mit Vorsicht gegenüber, denn die Spinnen haben "
+   "einen tödlichen Biss, der oft auch giftig sein kann.\""
+marionelder_speech_043 = de \
+   "~kRan'er Zen sagt, \"In seiner Situation hätte ich das Gleiche getan wie "
+   "er. Es wird erzählt, dass sein Geist noch immer in der Welt unter der "
+   "Erde umherwandert. Finde ihn und Du wirst eine Antwort auf viele Fragen "
+   "finden.\""
+marionelder_speech_044 = de \
+   "~kRan'er Zen sagt, \"Tos ist eine alte Stadt und sollte es eigentlich "
+   "besser wissen, aber Stolz und Habgier der Stadt haben von der "
+   "Bevölkerung Besitz ergriffen. Sie lebt hinter verschlossenen Türen, die "
+   "Bevölkerung von Tos.\""
+marionelder_speech_045 = de \
+   "~kRan'er Zen sagt, \"Ich habe weder Nachsicht noch Mitleid mit ihr. Sie "
+   "hat Entscheidungen gefällt, die Tausenden von Leuten geschadet haben. "
+   "Ihren Fehler bezahlen wir, Du und ich, noch heute. Und was haben wir "
+   "gelernt? Was Gutes hat sich aus ihren Taten ergeben? Es ist zu schade, "
+   "dass sie nicht vor tausend Jahren zerstört wurde.\""
+marionelder_speech_046 = de \
+   "~kRan'er Zen zischt, \"~IGib ihn mir, Du Narr.~I\""
+marionelder_random_001 = de \
+   "~k~IEtwas flattert in der Dunkelheit der Hütte. Ein Vogel vielleicht, "
+   "oder ein Stück Pergament.~I"
+marionelder_random_002 = de \
+   "~k~IDiese Hütte riecht, als hätte jemand ein Feuer aus Zimt und "
+   "schmutzigen Socken angezündet.~I"
+marionelder_random_003 = de "~kRan'er Zen scheint zu dösen."
+marionelder_random_004 = de \
+   "~k~IDu hörst ein kratzendes Geräusch auf dem Dach, wie von kleinen "
+   "Pfoten.~I"
+marionelder_random_005 = de \
+   "~kRan'er Zen scheint tief in Gedanken versunken zu sein."
+marionelder_random_006 = de "~kRan'er Zen starrt Dich wütend an."
+marionelder_random_007 = de "~kRan'er Zen kichert."
+marionelder_random_008 = de \
+   "~kRan'er Zen sagt, \"Höre zu. Es gibt andere, Weise wie ich, die immer "
+   "noch leben und in ihren Herzen Teile der zerbrochenen Vergangenheit "
+   "tragen. Merke Dir ihre Namen. Drex, der sucht. Alzahakar, der königliche "
+   "Speichellecker, heute durch seine Magie wahnsinnig. Der Aasgeier Bei "
+   "Naq. Und Xor, merke Dir diesen Namen, Afiera Xor. Während die anderen "
+   "Staatsämter innehaben, hat er sich der Klarheit verschrieben, der Suche "
+   "nach haltbaren Lösungen und der Philosophie. Finde ihn, sprich mit ihm, "
+   "Kind. Wenn er mit Dir sprechen möchte, höre ihm zu.\""
+marionelder_random_009 = de \
+   "~kRan'er Zen sagt, \"Was suchst Du in den zerbrochenen Rasereien eines "
+   "Verrückten, mein Kind?\""
+marionelder_random_010 = de \
+   "~kRan'er Zen sagt, \"Was hast Du da, mein Kind?\""
+marionelder_random_011 = de \
+   "~kRan'er Zen sagt, \"Du willst meine Weisheit? Ignoriere alle Uhren. Du "
+   "spielst nur ihr Spiel.\""
+marionelder_random_012 = de \
+   "~kRan'er Zen sagt, \"Es ist der Verfall des Alters, mein liebes Kind, "
+   "nicht mehr, nicht weniger. Aber es gibt immer noch einige Dinge, die Du "
+   "von einem verrückten alten Mann lernen kannst. Ich habe mein Leben lang "
+   "von dem gelebt, was das Land hergibt, ein Wesen des Friedens.\""
+marionelder_random_013 = de \
+   "~kRan'er Zen sagt, \"Ich sah die Nacht, und es gibt viel Bewegung am "
+   "Himmel. Du bist ein Narr, weil Du hier bist. Gehe nun nach draußen. So "
+   "habe ich mich verirrt.\""
+marionelder_random_014 = de \
+   "~kRan'er Zen sagt, \"Wir haben keinen bedeutsamen Kontakt mit unserer "
+   "großen Großmutter draußen im Meer. Und sie leidet an gebrochenem Herzen, "
+   "denn wo sind ihre Kinder, wo sind ihre Enkel? Es gibt sechs Götter, "
+   "nicht nur vier, und ihre Kinder kämpfen, als hätten sie etwas zu "
+   "bestimmen, als wären wir harte Männer. Du siehst mich an, als wäre die "
+   "Wahrheit schwer zu fassen, doch Du wirst sehen. Es gibt nur einen "
+   "Tempel, und wir alle sind in ihm. Jetzt, Kind. Jetzt.\""
+marionelder_random_015 = de \
+   "~kRan'er Zen sagt, \"Sieh, wie die Korruption in Barloque Blasen schlägt "
+   "und schäumt, kocht und kocht und kocht, bis nichts mehr übrig ist. Sieh, "
+   "wie die Ratten als Boten über das Land kommen. Das Ungeziefer stellt "
+   "letztendlich den verrotteten Kern bloß und unsere lächerlichen "
+   "Vorstellungen von Adel. ADEL. Wir sind so eifrig dabei, ihn anderen "
+   "aufzuzwängen, doch in uns selbst finden wir ihn nicht. Würdest Du das "
+   "gern einem Fremden erklären, oder einem Kind? Verstehst Du, was ich "
+   "meine?\""
+marionelder_random_016 = de \
+   "~kRan'er Zen sagt, \"Das Gift der verwirrten Wälder existiert, eine "
+   "Abscheulichkeit der Natur!! Unter diesen Monstern kreist ein Gift, das "
+   "für Menschen tödlich ist. Es brennt sich durch Dein Blut und schwächt "
+   "Deinen Willen.\""
+marionelder_random_017 = de \
+   "~kRan'er Zen sagt, \"WAS, SKELETTE!?! Skelette!?! SKELETTE IN "
+   "MARION!!??!!\""
+marionelder_random_018 = de \
+   "~kRan'er Zen sagt, \"In meinem Traum gibt es einen Raum am Ende einer "
+   "langen Halle, und der Raum ist riesig, umgeben von Gittern wie ein "
+   "Käfig. Wie ein Käfig, in dem die Leute von Cor Noth Singvögel halten. "
+   "Und dort gibt es Steine mit den Gesichtern von Männern, und ein kleines "
+   "Mädchen, das sich mit Lügen umgibt.\""
+marionelder_random_019 = de "~kRan'er Zen sagt, \"Hmmmm...\""
+marionelder_random_020 = de \
+   "~kRan'er Zen sagt, \"Leer. Leer leer leer leer leer.\""
+marionelder_random_021 = de \
+   "~kRan'er Zen sagt, \"Und so geht es, und so geht es. Immer weiter, in "
+   "die infantile Absurdität.\""
+marionelder_random_022 = de \
+   "~kRan'er Zen sagt, \"Mein Geist ist zerrissen, vielleicht wie ein "
+   "zerstörtes Netz. Ein Faden hier, ein Faden dort. In diesen Tagen fallen "
+   "sie übereinander und stapeln sich in den Ecken dieser Hütte. Treibgut, "
+   "Schutt, unschöne Dinge. Sieh Dich um, mein Kind. Siehst Du, was Du "
+   "findest?\""
+marionelder_random_023 = de \
+   "~kRan'er Zen sagt, \"Ich habe einen anderen Traum, in dem ein Zauberer "
+   "jedermann blendet. Wir können nicht sehen und müssen unseren Weg "
+   "ertasten, Familien werden getrennt, Bänder werden zertrennt und jeder "
+   "ist dem anderen fremd. Was einst unser Leben war, erkennen wir nicht "
+   "mehr. Wir verbringen unsere Zeit damit, uns unter den Wurzeln eines "
+   "riesigen Baumes zu verstecken.\""
+marionelder_random_024 = de \
+   "~kRan'er Zen sagt, \"Komme näher und lasse Dich anschauen.\""
+marionelder_random_025 = de \
+   "~kRan'er Zen sagt, \"Hier ein weiterer Traum. Das Meer beginnt zu husten "
+   "und teilt das Land in sechs Stücke. Als das Wasser abläuft, folgen ihm "
+   "die Menschen und ich bin allein zwischen den Inseln. Es gibt eine große "
+   "Festung, von deren Spitze ich sehen kann, wie sich die Wildnis in alle "
+   "Richtungen erstreckt. Mein Vater erscheint, und wir folgen den anderen "
+   "Leuten ins Meer.\""
+marionelder_random_026 = de \
+   "~kRan'er Zen sagt, \"Verfaulte Äpfel. Verfaulte, wurmstichige Äpfel "
+   "voller Löcher...\""
+marionelder_random_027 = de \
+   "~kRan'er Zen sagt, \"LEG MICH NICHT REIN. Verstehst Du das? Verstehst "
+   "Du? LEG MICH NICHT REIN.\""
+marionelder_random_028 = de "~kRan'er Zen sagt, \"Ich kann mich ändern.\""
+marionelder_random_029 = de \
+   "~kRan'er Zen sagt, \"ICH SCHAUE IMMER NOCH!!! KANNST DU NICHT SEHEN, "
+   "DASS ICH IMMER NOCH SCHAUE!?!\""
+marionelder_random_030 = de \
+   "~kRan'er Zen sagt, \"Dein Kopf ist zu klein. Ein Scherz von Mutter "
+   "Natur.\""
+marionelder_random_031 = de \
+   "~kRan'er Zen fängt an, heftig zu zittern, spuckt ein ekliges Insekt aus "
+   "und sagt, \"Pfui, wann hab ich ~Idas~I denn gegessen?\""
+marionelder_random_032 = de \
+   "~kRan'er Zen sagt, \"Wenn Du dumm und eingebildet genug bist, den "
+   "Lupoggkönig anzugreifen, finde erstmal ein paar andere, die genauso dumm "
+   "sind wie Du und hoffentlich genauso eingebildet, und nimm die "
+   "erbärmlichen Gestalten mit. Kein Krieger kann ihm allein entgegentreten, "
+   "sei es mit Magie oder Waffengewalt.\""
+marionelder_random_033 = de \
+   "~kRan'er Zen sagt, \"Noch ein Traum. In diesem hielt ein Krieger mit "
+   "einem Paviangesicht eine blutige Faust hoch in die Luft, und ich bewegte "
+   "mich neugierig auf ihn zu, schwebend. Er schien mich nicht zu sehen. Ich "
+   "blickte in seine Faust, und er umklammerte einen makellosen "
+   "Seraphym-Edelstein, und seine Lippen bewegten sich. Er wiederholte es "
+   "immer wieder: 'Nutze den Edelstein, um die Seelen des geschlagenen "
+   "Feindes einzufangen und sie zu ewiger Qual zu verdammen', und in diesem "
+   "Moment wusste ich, dass es wahr ist.\""
+marionelder_random_034 = de \
+   "~kRan'er Zen sagt, \"Ich hatte wieder diese schrecklichen Alpträume.\""
+marionelder_random_035 = de \
+   "~kRan'er Zen schreit, \"Aaaaarrrrrgh!! Vollgelaufen!! Verschwinde!!!!!!\""
+marionelder_random_036 = de \
+   "~kRan'er Zen sagt, \"In einem anderen Traum öffnen sich die Berge für "
+   "das verirrte Waisenkind, es gibt Leute, die Straßen aus Musik bauen. "
+   "Dann verfärbt sich der Himmel dunkel wie ein Bluterguss, und statt "
+   "zerstört zu werden, entstehen Städte aus dem Krieg. Zwei Städte, jede "
+   "das Gegenteil der anderen, die sich aber ein Tor teilen. Wenn der Himmel "
+   "wieder klar ist, ist er weiß statt schwarz und blau, und die Städte sind "
+   "fort.\""
+marionelder_random_037 = de \
+   "~kRan'er Zen sagt, \"Singen, gesungen. Klingen, geklungen. Alarm! "
+   "Alarm!\""
+marionelder_random_038 = de \
+   "~kRan'er Zen sagt, \"Ich bin der König der Goblins.\""
+marionelder_trigger_afiera_d_xor = de "afiera xor"
+marionelder_trigger_afiera_xor = de "afiera d'xor"
+marionelder_trigger_amulet = de "amulett"
+marionelder_trigger_baby_spider = de "babyspinne"
+marionelder_trigger_baby_spider_2 = de "baby-spinne"
+marionelder_trigger_baby_spider_3 = de "baby spinne"
+marionelder_trigger_bye = de "ciao"
+marionelder_trigger_council = de "ratsmitglied"
+marionelder_trigger_crypt = de "gruft"
+marionelder_trigger_drechx = de "drex"
+marionelder_trigger_drex = de "drechx"
+marionelder_trigger_duke = de "herzog"
+marionelder_trigger_hello = de "hallo"
+marionelder_trigger_hunter = de "jäger"
+marionelder_trigger_hunter_sword = de "jagdschwert"
+marionelder_trigger_king = de "könig"
+marionelder_trigger_necromancer = de "nekro"
+marionelder_trigger_princess = de "prinzessin"
+marionelder_trigger_queen_spider = de "spinnen"
+marionelder_trigger_shal_ille = de "sha-lill"
+marionelder_trigger_sha_lill = de "shal'ille"
+marionelder_trigger_spider = de "spinne"
+
+// MarionHealer
+marionhealer_speech_001 = de \
+   "~kLady Aftyn sagt, \"Barloque war einstmals meine Heimat, fern von "
+   "dieser Zeit und diesem Ort. Ich denke nicht mehr an diese Stadt, außer "
+   "als Heimat meiner Kinder.\""
+marionhealer_speech_002 = de \
+   "~kLady Aftyn sagt, \"Shal'ille wird Euren Pfad und Euer Herz "
+   "erleuchten.\""
+marionhealer_speech_003 = de \
+   "~kLady Aftyn sagt, \"Eine verurteilte Stadt, aber nicht wegen ihrer "
+   "Natur oder ihrer Sünden. In Cor Noth gibt es einen entweihten Tempel, oh "
+   "Tränen von Shal'ille! Unsere zärtliche Herrin Shal'ille errichtete einen "
+   "Tempel in der Mitte von Cor Noth, an der Stelle einer uralten, heiligen "
+   "Stätte. Es ist die Elfenbeinkapelle, die in den heiligsten aller "
+   "Schriften erwähnt wird.\""
+marionhealer_speech_004 = de \
+   "~kLady Aftyn sagt, \"Der Rat wird sehr verehrt, gehören seine Mitglieder "
+   "doch größtenteils zu den gelehrtesten Männern des Landes. Doch ohne den "
+   "König, der sie eingesetzt hat, fehlt ihrer Autorität die Grundlage, und "
+   "ihre große Weisheit ist verloren gegangen.\""
+marionhealer_speech_005 = de \
+   "~kLady Aftyn sagt, \"Ich höre, dass eine üble Macht die uralten Toten in "
+   "der Gruft wandeln lässt. Durch die Macht von Shal'ille müssen sie wieder "
+   "zur Ruhe gebettet werden!\""
+marionhealer_speech_006 = de \
+   "~kLady Aftyn sagt, \"Kalior ist tot, und ich fürchte, dass Akardius "
+   "genauso korrupt ist wie sein Vorgänger es war.\""
+marionhealer_speech_007 = de \
+   "~kLady Aftyn sagt, \"Möge Shal'ille Euch und Eure Familie segnen.\""
+marionhealer_speech_008 = de \
+   "~kLady Aftyn sagt, \"Schurkische Händler haben sie gestohlen und den Ort "
+   "entweiht, indem sie ihn an Gruppen jeden beliebigen Glaubens vermieten, "
+   "als wäre er ein Marktstand oder die Scheune eines Bauern! Es ist eine "
+   "große Schande für unsere Herrin des Mitgefühls und ihre Güte. Doch noch "
+   "gibt es Abhilfe. Wir vom Gesegneten Heim des Sanften Regens sammeln "
+   "Geld, um den Besitz wenn nötig für den Gildenmeister Frular von Barloque "
+   "zurückzukaufen.\""
+marionhealer_speech_009 = de \
+   "~kLady Aftyn sagt, \"Es gibt in Jasper viel Arbeit zu tun, denn sie sind "
+   "dort gottlose Leute.\""
+marionhealer_speech_010 = de \
+   "~kLady Aftyn sagt, \"Jonas ist ein guter Mann, er erkannte, dass sich "
+   "die Dinge ändern müssen. Das ist bedeutend mehr, als andere in letzter "
+   "Zeit getan haben.\""
+marionhealer_speech_011 = de \
+   "~kLady Aftyn sagt, \"Was soll das? Was ist mit Seiner Majestät?\""
+marionhealer_speech_012 = de \
+   "~kLady Aftyn sagt, \"Marion ist meine neue Heimat und hat sich als "
+   "idealer Ort für unsere Arbeit für Das Gesegnete Heim des Sanften Regens "
+   "erwiesen. Die Leute sind freundlich, denn die Armut schafft Mitgefühl "
+   "unter ihnen.\""
+marionhealer_speech_013 = de \
+   "~kLady Aftyn sagt, \"Es ist eine falsche Maske von Shal'ille, die dieser "
+   "Mann anbetet, eine, die er selbst erfunden hat. Ich hatte Gelegenheit, "
+   "mit ihm darüber zu sprechen, aber er will seinen Irrtum weder einsehen "
+   "noch seine gottlosen Wege ändern. Betet für ihn, wenn Ihr an ihn denkt, "
+   "denn er ist verloren.\""
+marionhealer_speech_014 = de \
+   "~kLady Aftyn sagt, \"Die Prinzessin ist zu einer wahren Schönheit "
+   "herangewachsen und sollte in der Lage sein, die neuen Herausforderungen "
+   "zu meistern, auf die sie trifft.\""
+marionhealer_speech_015 = de \
+   "~kLady Aftyn sagt, \"Tja, gewöhnlich gebe ich nach und erlaube den "
+   "Jungs, hier im Heim ihre Fassparty zu feiern, aber spielen würde ich "
+   "gewiss nicht!\""
+marionhealer_speech_016 = de \
+   "~kLady Aftyn sagt, \"In Tos, wo das Gleichgewicht der Natur beiseite "
+   "geworfen wurde, herrscht großes Übel. Wäre ich eine große Heilerin und "
+   "zu einer solchen Tat fähig, würde ich ganz Tos umarmen und die Stadt "
+   "selbst heilen.\""
+marionhealer_speech_017 = de \
+   "~kLady Aftyn sagt, \"Was soll das? Was ist mit Seiner Majestät?\""
+marionhealer_random_001 = de \
+   "~kLady Aftyn sagt, \"Wir bieten unsere Dienste allen bedürftigen "
+   "Personen an. Nur so bringen wir die guten Taten von Shal'ille zu allen "
+   "Leuten im ganzen Land. In diesen Mauern sind alle willkommen, %s.\""
+marionhealer_random_002 = de \
+   "~kLady Aftyn sagt, \"Shal'ille ist eine Göttin, die rigorose Anbetung "
+   "verlangt. Hütet Euch vor ihren fehlgeleiteten Anhängern, die "
+   "Rechtschaffenheit ohne Mitgefühl predigen! Viele von ihnen würden ihre "
+   "Wege nur zur persönlichen Bereicherung und für ihr eigenes Fortkommen "
+   "nutzen.\""
+marionhealer_random_003 = de \
+   "~kLady Aftyn sagt, \"In diesen Landen wurden Tempel zu Ehren der vier "
+   "Götter und Göttinnen errichtet. Dort studieren die Anhänger ihre Lehren, "
+   "ja sogar die Fehlgeleiteten gehen dorthin, um zu beten.\""
+marionhealer_random_004 = de \
+   "~kLady Aftyn sagt, \"Wir helfen den Verwundeten und Kranken, reinigen "
+   "die Vergifteten und Verfluchten. Kommt näher, damit ich sehen kann, was "
+   "Euch plagt.\""
+marionhealer_random_005 = de \
+   "~kLady Aftyn sagt, \"Widersteht der Versuchung von Qor, der mächtigen "
+   "Verführerin. Die gesegnete Shal'ille wird uns fort von ihren Ränken und "
+   "dem falschen Geflüster auf den wahren Pfad zu einer harmonischen Natur "
+   "führen.\""
+marionhealer_random_006 = de \
+   "~kLady Aftyn sagt, \"Dies ist ein heiliges Haus, das der gesegneten "
+   "Shal'ille und ihren guten Taten geweiht ist, und in dem Ihr etwas Trost "
+   "finden könnt.\""
+marionhealer_random_007 = de \
+   "~kLady Aftyn sagt, \"Um unsere Arbeit hier fortsetzen zu können, sind "
+   "wir auf wohltätige Spenden, so bescheiden sie auch sein mögen, von jenen "
+   "angewiesen, die unsere Hilfe suchen und großzügig sein können.\""
+marionhealer_random_008 = de \
+   "~kLady Aftyn sagt, \"Zu geben heißt, großzügig zu unserer gesegneten "
+   "Shal'ille zu sein, und es geziemt sich, dass Ihr es tut, denn jeder "
+   "Schilling, den Ihr so gebt, wird Euch zwanzigfach zurückgegeben.\""
+marionhealer_random_009 = de \
+   "~kLady Aftyn sagt, \"Es herrscht eine Krankheit im ganzen Land, die "
+   "Shal'ille durch ihre mitfühlenden Wege heilen möchte. Doch jetzt "
+   "herrschen vier Götter, wo einst sechs waren, und die Ordnung der Natur "
+   "selbst wurde gestört.\""
+marionhealer_random_010 = de \
+   "~kLady Aftyn sagt, \"Wir haben die große Verantwortung, herauszufinden, "
+   "woran das Land krankt und das Gleichgewicht wieder herzustellen, bevor "
+   "alles verloren ist. Die Führung von Shal'ille ist die Antwort auf unsere "
+   "stummen Gebete.\""
+marionhealer_random_011 = de \
+   "~kLady Aftyn sagt, \"Das Gesegnete Heim des Sanften Regens ist das erste "
+   "Haus, das völlig dem Heilen und dem Mitgefühl von Shal'ille, unserer "
+   "Herrin der Zärtlichkeit, gewidmet ist. Wir hoffen, unsere Arbeit bald "
+   "mit vielen anderen solchen Häusern und jenen, die in ihnen arbeiten, ins "
+   "Land hinauszutragen.\""
+marionhealer_random_012 = de \
+   "~kLady Aftyn sagt, \"Wir haben noch viel zu tun, um die im ganzen Land "
+   "aufgerissenen Wunden zu heilen.\""
+marionhealer_random_013 = de \
+   "~kLady Aftyn sagt, \"Wie Ihr sehen könnt, ist unsere Arbeit hier sehr "
+   "erfolgreich und wir werden unter der strengen Führung unserer Herrin des "
+   "Friedens weiterarbeiten, und natürlich dank der Großzügigkeit so vieler, "
+   "die durch ihre Freundlichkeit gesegnet sind.\""
+marionhealer_random_014 = de "~kLady Aftyn sagt, \"Woran leidet Ihr, %s?\""
+marionhealer_random_015 = de \
+   "~kLady Aftyn sagt, \"Wir sind nur hier, um zu dienen.\""
+marionhealer_random_016 = de \
+   "~kLady Aftyn sagt, \"Nun geht mit dem Segen unsrer sanften Herrin "
+   "Shal'ille.\""
+marionhealer_random_017 = de \
+   "~kLady Aftyn sagt, \"Shal'ille neigt sich Euch zu wegen Eurer "
+   "Freundlichkeit und aus dankbarer Liebe zu allen ihren Wohltätern.\""
+marionhealer_random_018 = de \
+   "~kLady Aftyn sagt, \"Hütet Euch vor der Nacht, denn dann sind die "
+   "Zauberkräfte von Qor am stärksten ausgeprägt!\""
+marionhealer_trigger_bye = de "ciao"
+marionhealer_trigger_council = de "ratsmitglied"
+marionhealer_trigger_crypt = de "gruft"
+marionhealer_trigger_duke = de "herzog"
+marionhealer_trigger_hello = de "hallo"
+marionhealer_trigger_ivory_chapel = de "elfenbeinkapelle"
+marionhealer_trigger_king = de "könig"
+marionhealer_trigger_princess = de "prinzessin"
+
+// MarionInnkeeper
+marioninnkeeper_speech_001 = de "~kMorrigan sagt, \"Mach's gut!\""
+marioninnkeeper_speech_002 = de "~kMorrigan räuspert sich."
+marioninnkeeper_speech_003 = de "~kMorrigan macht ein finsteres Gesicht."
+marioninnkeeper_speech_004 = de \
+   "~kMorrigan sagt, \"Oh ja, das ist doch das Spiel, das Meidei in seiner "
+   "Kneipe betreibt, oder nicht? Oh, ist es nicht? Hmm, nun ja, dann weiß "
+   "ich nicht, wovon Du sprichst.\""
+marioninnkeeper_speech_005 = de \
+   "~kMorrigan sagt, \"Hallo, willkommen zurück!\""
+marioninnkeeper_speech_006 = de "~kMorrigan sagt, \"Äh, hallo!\""
+marioninnkeeper_speech_007 = de "~kMorrigan sagt, \"Komm herein!\""
+marioninnkeeper_speech_008 = de "~kMorrigan sagt, \"Guten Abend!\""
+marioninnkeeper_speech_009 = de "~kMorrigan sagt, \"Hallo!\""
+marioninnkeeper_speech_010 = de "~kMorrigan sagt, \"Guten Tag!\""
+marioninnkeeper_speech_011 = de "~kMorrigan blickt missmutig zu Boden."
+marioninnkeeper_speech_012 = de \
+   "~kMorrigan macht sich unter dem Tresen an irgendetwas zu schaffen."
+marioninnkeeper_speech_013 = de \
+   "~kMorrigan sagt, \"Ich bin mir nicht sicher, was dieser Kerl eigentlich "
+   "macht. Ich denke, er ist meistens damit beschäftigt, mit irgendwelchem "
+   "Kram zu handeln. Ich habe ihn in der Nähe der westlichen Handelsroute "
+   "gesehen, nur ein Stück südlich von hier. Aber ihn hält es nicht lange an "
+   "einem Ort.\""
+marioninnkeeper_speech_014 = de \
+   "~kMorrigan sagt, \"Der tollwütige Köter ist endlich eingeschläfert "
+   "worden.\""
+marioninnkeeper_speech_015 = de \
+   "~kMorrigan sagt, \"Sein Schicksal wurde von einer höheren Macht "
+   "entschieden. Er wird Meridian nicht länger heimsuchen.\""
+marioninnkeeper_speech_016 = de \
+   "~kMorrigan sagt, \"Der König ist mein Lehnsherr und ich warte auf die "
+   "Gelegenheit, seine Wünsche zu erfüllen.\""
+marioninnkeeper_speech_017 = de \
+   "~kMorrigan sagt, \"Ich frag mich, wie es dazu kam, dass sie ganz allein "
+   "im Wald war, ich mein', ist schon ein bisschen seltsam, welche Eltern "
+   "würden schon ihr Kind so ganz allein in einem Wald tanzen lassen? "
+   "Würdest Du Dein Kind ganz allein in einem Wald tanzen lassen?\""
+marioninnkeeper_speech_018 = de \
+   "~kMorrigan nickt so heftig, dass Du Angst bekommst, sein Kopf könnte "
+   "herunterfallen, \"Ran'er Zen schwört, dass sie älter als alt ist, aber "
+   "wie kommt es dann, dass sie immer noch wie ein kleines Mädchen aussieht "
+   "und sich wie ein kleines Mädchen benimmt... Nun ja, manchmal benimmt sie "
+   "sich so, aber wie kann nur jemand für immer so bleiben? Ist Dir das noch "
+   "nie aufgefallen? Seltsam, was könnte nur der Grund dafür sein?\""
+marioninnkeeper_speech_019 = de \
+   "~kMorrigan sagt, \"Böse Hexe... nun, das ist es, was ich vor kurzem "
+   "Leute über sie habe sagen hören.\""
+marioninnkeeper_speech_020 = de \
+   "~kMorrigan läuft knallrot im Gesicht an, als ob er im nächsten "
+   "Augenblick explodieren könnte, \"WIE BITTE?!!!\""
+marioninnkeeper_speech_021 = de "~kMorrigan sagt, \"Stimmt, Tova, stimmt.\""
+marioninnkeeper_speech_022 = de "~kMorrigan sagt, \"Ja, Tova.\""
+marioninnkeeper_speech_023 = de "~kMorrigan sagt, \"Jau, Tova!!\""
+marioninnkeeper_speech_024 = de "~kMorrigan sagt, \"Pilze? Ich kaufe Pilze!\""
+marioninnkeeper_speech_025 = de \
+   "~kMorrigan sagt, \"Nein, nein. Im Moment muss nichts verschickt werden.\""
+marioninnkeeper_speech_026 = de \
+   "~kMorrigan sagt, \"Es ist recht außergewöhnlich, was Miriana da getan "
+   "hat. Nicht, dass ich es gutheißen würde, denn das tu ich nicht, aber wie "
+   "sie die magischen Quellen ausgesaugt hat. Ich meine, wer hat denn schon "
+   "gewusst, dass so etwas machbar ist, also ich nicht, und Tova sagt, er "
+   "hat's auch nicht gewusst, und Tova weiß alles. Wusstest Du, dass es "
+   "möglich ist? Wahrlich außergewöhnlich, ~bPOP~k, alles weg, einfach "
+   "so...\""
+marioninnkeeper_speech_027 = de \
+   "~kMorrigan sagt, \"Oh, tut mir leid. Warst Du auch mit einer der "
+   "magischen Quellen, die Miriana an sich gerissen hat, verbunden, oder mit "
+   "einer, bei der sie es versucht hat? Hat's wehgetan? Hat sich Dein Kopf "
+   "wie Wackelpudding angefühlt? Hast Du Sterne vor den Augen gesehen, als "
+   "ob Dir jemand einen Schlag auf den Hinterkopf versetzt hätte? Hast Du "
+   "versucht, die magische Quelle zu schützen? NEIN, oh nein, bitte schlag "
+   "mich nicht, tut mir leid!\""
+marioninnkeeper_speech_028 = de \
+   "~kMorrigan reibt sich seine Hände und schaut für einen Augenblick recht "
+   "gereizt drein, \"Mmm-aaaaaaaacht... all diese Macht... so viel Macht. "
+   "Oh, verzeih, ich hab' Dich da nicht stehen sehen. Kann ich Dir helfen? "
+   "Brauchst Du ein Zimmer?\""
+marioninnkeeper_speech_029 = de \
+   "~kMorrigan sagt, \"Wir haben hier drüben Hosen zu verkaufen! Und noch "
+   "dazu aus gutem Marion-Leinen, dem besten, das man für Geld kaufen kann!\""
+marioninnkeeper_speech_030 = de \
+   "~kMorrigan schnarrt, \"Dieser verräterische Kalior! Noch im Tode greift "
+   "er den Thron an. Und jetzt dieser unverschämte Balg von einem Neffen!\""
+marioninnkeeper_speech_031 = de \
+   "~kMorrigan sagt, \"Das stimmt, und ich spiele hinten, auf dem Flügel. "
+   "Wir haben hier ein ziemlich gutes Team, stimmt's, Tova?\""
+marioninnkeeper_random_001 = de \
+   "~k~IIrgendwo außerhalb der Kneipe kräht ein Hahn.~I"
+marioninnkeeper_random_002 = de \
+   "~kMorrigan sagt, \"Ha ha, oh Tova, Du bringst mich noch um!\""
+marioninnkeeper_random_003 = de \
+   "~kMorrigan sagt, \"Ha haha, hahahahah, hahahahah, ha ha ha!!\""
+marioninnkeeper_random_004 = de \
+   "~kMorrigan sagt, \"Ha ha ha ha, hahaha, ha hee hee!!\""
+marioninnkeeper_random_005 = de "~kMorrigan lacht laut!"
+marioninnkeeper_random_006 = de "~kMorrigan sagt, \"Ha, ha, ha, ha, ha!!!!\""
+marioninnkeeper_random_007 = de \
+   "~kMorrigan sagt, \"Hee, hee, Tova, hee hee heeheehee!!!\""
+marioninnkeeper_random_008 = de \
+   "~kMorrigan sagt, \"Ha ha, ha ha, ha ha, ha ha, ha ha, ha ha, ha ha!\""
+marioninnkeeper_random_009 = de \
+   "~kMorrigan sagt, \"Tee hee, tee heeheehee, tee hee!!\""
+marioninnkeeper_random_010 = de \
+   "~kMorrigan bricht in hysterisches Gelächter aus, das in einem "
+   "Hustenanfall endet."
+marioninnkeeper_random_011 = de \
+   "~kMorrigan hält sich die Seiten und Lachtränen rollen über seine Wangen."
+marioninnkeeper_random_012 = de \
+   "~kMorrigan schnappt nach Luft und lacht und lacht und lacht."
+marioninnkeeper_random_013 = de "~kMorrigan lacht unkontrolliert."
+marioninnkeeper_trigger_bye = de "tschüss"
+marioninnkeeper_trigger_bye_2 = de "wiedersehen"
+marioninnkeeper_trigger_duke = de "herzog"
+marioninnkeeper_trigger_fate = de "schicksal"
+marioninnkeeper_trigger_hello = de "hallo"
+marioninnkeeper_trigger_king = de "könig"
+marioninnkeeper_trigger_mushroom = de "pilz"
+marioninnkeeper_trigger_need_a_courier = de "brauchst du einen boten?"
+marioninnkeeper_trigger_node_attack = de "quellenangriff"
+marioninnkeeper_trigger_pants = de "hosen"
+marioninnkeeper_trigger_princess = de "prinzessin"

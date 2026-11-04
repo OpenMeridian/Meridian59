@@ -1,0 +1,42 @@
+// Meridian 59, Copyright 1994-2012 Andrew Kirmse and Chris Kirmse.
+// All rights reserved.
+//
+// This software is distributed under a license that is described in
+// the LICENSE file that accompanies it.
+//
+// Meridian is a registered trademark.
+
+
+////////////////////////////////////////////////////////////////////////////////
+NpcSpeech is UtilityFunctions
+// NPC talk (answers to trigger words and random lines), one subclass per town
+// or group in npcspeech/. Library creates each subclass when it builds its
+// speech and random library and adds the lists the subclass returns.
+// New lines: add the resource (EN in the .kod, DE in the .lkod) and its entry
+// in GetSpeechLibrary or GetRandomLibrary of the subclass.
+
+constants:
+
+   include blakston.khd
+
+messages:
+
+   Constructor()
+   {
+      return;
+   }
+
+   GetSpeechLibrary()
+   "Speech library nodes: [class, [[triggers, mood, action, key], ...]]"
+   {
+      return $;
+   }
+
+   GetRandomLibrary()
+   "Random library nodes: [class, [[percent, mood, action, key], ...]]"
+   {
+      return $;
+   }
+
+end
+////////////////////////////////////////////////////////////////////////////////

@@ -1,0 +1,1262 @@
+// FarenPriestess
+farenpriestess_speech_001 = de \
+   "~kPriesterin Tenuval sagt, \"Sie sind Instrumente des Todes und des "
+   "Verfalls. Sie sollten bei der erstbesten Gelegenheit vernichtet werden.\""
+farenpriestess_speech_002 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gBarloque ist ein Frevel an der "
+   "Heiligkeit der Ufer. Ich sehe voraus, dass es von einer noch nie "
+   "dagewesenen Rattenplage zerstört wird.~B~k\""
+farenpriestess_speech_003 = de \
+   "~kPriesterin Tenuval sagt, \"Eine uralte Stadt. Sie wurde zerstört, weil "
+   "sie die Kräfte des Landes missachtet haben. Sie haben die Zivilisation "
+   "über die Natur gestellt. Beurteile das Ergebnis selbst.\""
+farenpriestess_speech_004 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gFaren benötigt nichts als die Erde und "
+   "den Himmel.~B~k\""
+farenpriestess_speech_005 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gVerschwinde!~B~k\""
+farenpriestess_speech_006 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gFaren ist sehr ärgerlich darüber, wie "
+   "diese lästige kleine Stadt Cor Noth den Fluss verseucht, der durch sie "
+   "fließt. Cor Noth wird an seinem eigenen Abfall zugrunde gehen. Selbst "
+   "jetzt speit es lebendigen Schleim aus.~B~k\""
+farenpriestess_speech_007 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gPolitik, was interessiert mich "
+   "Politik?!~B~k\""
+farenpriestess_speech_008 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gEinmal alle sechs Jahre müssen alle im "
+   "Land die rohe Macht von Faren anerkennen. Während dieser Zeit darfst Du "
+   "nichts essen außer dem, was Du selbst sammeln kannst, darfst Du keine "
+   "Magie außer der von Faren anwenden und musst Dich vor allem von allen "
+   "Städten fernhalten. Die Bremsen werden dafür sorgen.~B~k\""
+farenpriestess_speech_009 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gPah! Sprich nicht zu mir von der "
+   "Politik der Sterblichen!~B~k\""
+farenpriestess_speech_010 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gFaren gab sein Leben der Erde. Man "
+   "fühlt seine Macht in jedem Beben, hört sie in jeder Donnerwolke, riecht "
+   "sie in jedem Feuer, sieht sie in jeder Welle und schmeckt sie in jedem "
+   "essbaren Ding, das aus der Erde kommt.~B~k\""
+farenpriestess_speech_011 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gIch betrachte Dich hiermit als Mitglied "
+   "der Bremsen von Faren. Zeige diesen Namen an Dir, auf dass ihn alle "
+   "sehen. Faren erwartet, dass Du die Wege der Zivilisation untergräbst, um "
+   "die Menschheit zu den Wegen der Natur zurückzuführen.~B~k\""
+farenpriestess_speech_012 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gVerspotte mich nicht mit Deinen "
+   "nutzlosen Höflichkeitsfloskeln.~B~k\""
+farenpriestess_speech_013 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gIch kann die Mächte von Faren "
+   "verleihen, dem Gott der Stürme.~B~k\""
+farenpriestess_speech_014 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gDie Bremsen von Faren sind eine "
+   "wichtige Sekte, die sich der Aufgabe verschrieben hat, die Leute aus den "
+   "gotteslästerlichen Städten zu vertreiben, insbesondere während der "
+   "Gottestage. Wenn Du den Wegen von Faren treu bist, dann sage einfach, "
+   "dass Du Dich unserem Herrn unterwirfst, und ich werde Dich als Mitglied "
+   "unserer Sekte ansehen.~B~k\""
+farenpriestess_speech_015 = de \
+   "~kPriesterin Tenuval sagt, \"Sie sind eine edle Gruppe. Sie haben "
+   "Weitblick und einen Respekt vor der Natur, der erfrischend ist. Können "
+   "sie die Nekromanten aufhalten? Das ist die große Frage.\""
+farenpriestess_speech_016 = de \
+   "~kPriesterin Tenuval sagt, \"Eine edle Waffe für einen edlen Zweck. Das "
+   "Jägerschwert ist eine einzigartige Schöpfung. Ein bewundernswertes "
+   "Symbol für einen wahren Helden.\""
+farenpriestess_speech_017 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gDie Schönheit der süßen und "
+   "unschuldigen Jala glänzte heller als das Licht der Sonne. Es gab keinen "
+   "größeren Schmerz als den, den mein Meister erlitt, als ihr Glanz durch "
+   "den Abscheulichen ausgelöscht wurde.~B~k\""
+farenpriestess_speech_018 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gSo wie Jasper das Land um sein "
+   "Wohlergehen gebracht hat, so schürt Faren Angst und Verwirrung in ihren "
+   "Herzen!~B~k\""
+farenpriestess_speech_019 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gWarum sprichst Du Kraanans Namen im "
+   "Tempel Farens aus?!~B~k\""
+farenpriestess_speech_020 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gIch kann die Mächte von Faren "
+   "verleihen, dem Gott der Stürme.~B~k\""
+farenpriestess_speech_021 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gSprich mich nicht auf diesen "
+   "Zauberspruch an! Er ist der Schlüssel zum Bösen!~B~k\""
+farenpriestess_speech_022 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gFaren toleriert Marion nur, weil es "
+   "unter dem Schutz der Schwester seiner verlorenen Liebe steht.~B~k\""
+farenpriestess_speech_023 = de \
+   "~kTenuval lacht zittrig, \"~B~gWenn irgendjemand überhaupt noch ein "
+   "wenig Verstand hätte, würde er direkt in den Wald laufen und sie "
+   "vernichten, bevor es zu spät ist.~n~k\""
+farenpriestess_speech_024 = de \
+   "~kTenuval lacht laut, \"~B~gDie Leute nennen mich verrückt, leugne es "
+   "nicht, ich weiß, dass sie es tun. Und wie nennen sie diese Kreatur aus "
+   "Chaos und Lügen, geistig gesund?~n~k\""
+farenpriestess_speech_025 = de \
+   "~kTenuval sagt, \"~B~gLord Faren, was ist Dein Wunsch? Werde ich für "
+   "immer von dieser Missgeburt eines Kindes verfolgt werden?~n~k\""
+farenpriestess_speech_026 = de \
+   "~kTenuval sagt, \"~B~bVERNICHTE SIE! BEFREIE DAS LAND VON IHREN LÜGEN "
+   "UND IHREM CHAOS!! ES IST DIE EINZIGE MÖGLICHKEIT!!! TU ES, TU ES "
+   "JETZT!!!!~n~k\""
+farenpriestess_speech_027 = de \
+   "~kTenuval sieht Dich durchdringend an und plötzlich merkst Du, dass sie "
+   "gerade dabei ist, Dir aus erster Hand die Kraft der Farenmagie zu zeigen."
+farenpriestess_speech_028 = de \
+   "~kTenuval schreit sich die Lunge aus dem Leib und Du fragst Dich, ob sie "
+   "jetzt die Grenze ihrer geistigen Gesundheit überschritten hat."
+farenpriestess_speech_029 = de \
+   "~kPriesterin Tenuval sagt, \"Ihre Existenz ist eine Abnormalität der "
+   "Natur. Sie muss vernichtet werden.\""
+farenpriestess_speech_030 = de \
+   "~kTenuval sagt, \"~B~gIch habe schon vor langer Zeit gesagt, dass "
+   "Miriana nichts Gutes im Schilde führt, aber haben die auf mich gehört? "
+   "Nein, haben sie nicht, und nun sucht sie nach der Macht der Quellen. "
+   "Diese Narren hätten das schon viel früher verhindern können, hätten sie "
+   "auf mich gehört.~n~k\""
+farenpriestess_speech_031 = de \
+   "~kTenuval schreit, \"~B~gWie kann sie es wagen, Farens Macht für ihre "
+   "kleinen Spiele anzurufen. Farens Wille wird sie überwältigen und sie "
+   "wird vernichtet werden.~n~k\""
+farenpriestess_speech_032 = de \
+   "~kTenuval sagt, \"~B~gSie beschwört die schlimmsten Perversitäten der "
+   "Natur, um sie in diesen fruchtlosen Attacken zu unterstützen. Sie muss "
+   "VERNICHTET werden!~n~k\""
+farenpriestess_speech_033 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gKateriina lernt die Wege von Shal'ille "
+   "sehr gut. Sie sollte die Politik der Sterblichen aufgeben.~B~k\""
+farenpriestess_speech_034 = de \
+   "~kPriesterin Tenuval kreischt, \"~B~gSPRICH NIEMALS IHREN NAMEN "
+   "AUS!~B~k\""
+farenpriestess_speech_035 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gRiija? Riija hat keine echte "
+   "Macht.~B~k\""
+farenpriestess_speech_036 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gWie kannst Du es wagen, mir mit Deinem "
+   "lächerlichen Gold zu kommen!~B~k\""
+farenpriestess_speech_037 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gShal'ille ist die friedliche Schwester "
+   "der unschuldigen Jala.~B~k\""
+farenpriestess_speech_038 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gDie Zeit für einen Zögling hängt nicht "
+   "von uns ab.~B~k\""
+farenpriestess_speech_039 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gIch betrachte Dich hiermit als Mitglied "
+   "der Bremsen von Faren. Zeige diesen Namen an Dir, auf dass ihn alle "
+   "sehen. Faren erwartet, dass Du die Wege der Zivilisation untergräbst, um "
+   "die Menschheit zu den Wegen der Natur zurückzuführen.~B~k\""
+farenpriestess_speech_040 = de \
+   "~kPriesterin Tenuval sagt, \"Niemals zuvor oder danach ist ein "
+   "gerechterer Mann über die Erde gewandelt. Ich verstehe seine Motive und "
+   "seine Handlungen nur allzu gut. Er verkörperte alles Anständige in "
+   "dieser korrupten Gesellschaft.\""
+farenpriestess_speech_041 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gSchon zu lange stehen die Mauern von "
+   "Tos, um Faren zu verhöhnen. Doch die Natur wird sich ihre Bastionen noch "
+   "zurückholen.~B~k\""
+farenpriestess_speech_042 = de \
+   "~kPriesterin Tenuval sagt, \"Das ist die Wurzel der unnatürlichen "
+   "Vorkommnisse im Land. Wenn sie nicht vollständig vernichtet werden kann, "
+   "sollte sie in die tiefste Schlucht verbannt werden.\""
+farenpriestess_speech_043 = de \
+   "~kPriesterin Tenuval sagt, \"Wenn es eine Person gäbe, die ich "
+   "vernichten könnte, bevor sie überhaupt geboren wurde, dann wäre es diese "
+   "Scheußlichkeit.\""
+farenpriestess_speech_044 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gDie Legenden sagen, dass einer der "
+   "Yrx'l-Bäume auf einer Insel der Täuschung überlebt hat.~B~k\""
+farenpriestess_speech_045 = de \
+   "~kPriesterin Tenuval sagt, \"Ein unbedeutendes Mitglied der "
+   "Zarcos-Blutlinie, aber die meisten aus ihrer Blutlinie sind ohnehin "
+   "alles andere als bemerkenswert. Aristokraten neigen zur Inzucht. Das ist "
+   "nicht der Weg der Natur.\""
+farenpriestess_random_001 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gDie Natur ist mächtiger als jeder "
+   "Mensch. Sogar die Waldschrate können sich mit Blitzen verteidigen.~B~k\""
+farenpriestess_random_002 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gVor langer Zeit wurde die Natur von den "
+   "Menschen verwüstet, als sie die Yrx'l-Bäume ausbluten ließen. Alle sind "
+   "inzwischen aus dem Land verschwunden. Bis auf einen vielleicht.~B~k\""
+farenpriestess_random_003 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gDie schreckliche Schleimkreatur stammt "
+   "nicht aus der Natur. Sie kommt aus dem Abfall der menschlichen "
+   "Zivilisation.~B~k\""
+farenpriestess_random_004 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gHüte Dich vor der Hexe namens Miriana, "
+   "denn sie will das Gleichgewicht stören.~B~k\""
+farenpriestess_random_005 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gFür das Verbreiten seiner Lügen wird "
+   "dieser Narr Maleval den Zorn Farens spüren.~B~k\""
+farenpriestess_random_006 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gDeine Waffen sind armselige Stöcke im "
+   "Vergleich zur unbändigen Macht von Farens Zauberei!~B~k\""
+farenpriestess_random_007 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gVerweigere Nahrung, die von "
+   "menschlicher Hand verdorben wurde. Es gibt viele Pilze, die Dich "
+   "ernähren können.~B~k\""
+farenpriestess_random_008 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gEin Trank des Vergessens kann Deine "
+   "Seele von den wertlosen Sprüchen befreien, die Du von den anderen "
+   "Priesterinnen gelernt hast. Sei aber gewarnt, dass Faren eine solche "
+   "Gunst nur gegen einen Preis gewährt, den Dein ganzes Wesen bezahlt.~B~k\""
+farenpriestess_random_009 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gDie Gesellschaft hat einige von Farens "
+   "Magien für ungesetzlich erklärt. Diese Narren! Wie können sie es wagen, "
+   "den Willen eines Gottes für ungesetzlich zu erklären!~B~k\""
+farenpriestess_random_010 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gQertina ist so stolz darauf, wie lange "
+   "ihr Tempel schon steht. Dass ich nicht lache! Mein Tempel ist alles, was "
+   "draußen ist. Der ihre ist ein unbedeutender Zweig im Vergleich zum "
+   "riesigen Wald meines Tempels.~B~k\""
+farenpriestess_random_011 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gIch habe geschworen, Zuxana zu "
+   "vernichten, sobald ich sie sehe. Sie kann ihren Tempel nicht auf ewig "
+   "verbergen.~B~k\""
+farenpriestess_random_012 = de \
+   "~kPriesterin Tenuval kreischt, \"~B~gHa ha ha ha ha ha! Ja! Ja! Die "
+   "Macht!~B~k\""
+farenpriestess_random_013 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gDie Winde... Sie sprechen zu mir!~B~k\""
+farenpriestess_random_014 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gRiechst Du das? Klee. Es ist ein "
+   "Zeichen. Veränderung liegt in der Luft.~B~k\""
+farenpriestess_random_015 = de \
+   "~kPriesterin Tenuval schreit ohne ersichtlichen Grund."
+farenpriestess_random_016 = de \
+   "~kPriesterin Tenuval sagt, \"~g~BDie lebenden Bäume von Faronath sind "
+   "gewalttätige Wesen. Sie dienen Faren.~B~k\""
+farenpriestess_random_017 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gDer Kräuterkundige folgt den Wegen von "
+   "Faren und weiß sogar ein wenig von der Macht der Hitze.~B~k\""
+farenpriestess_random_018 = de \
+   "~kPriesterin Tenuval sagt, \"~B~gMiriana muss vernichtet werden. Sie "
+   "macht sich über die natürliche Ordnung der Dinge lustig.~B~k\""
+farenpriestess_trigger_amulet = de "amulett"
+farenpriestess_trigger_sell = de "verkauf"
+farenpriestess_trigger_bye = de "ciao"
+farenpriestess_trigger_council = de "ratsmitglied"
+farenpriestess_trigger_days = de "tage"
+farenpriestess_trigger_duke = de "herzog"
+farenpriestess_trigger_gadfly = de "bremse"
+farenpriestess_trigger_hello = de "hallo"
+farenpriestess_trigger_help = de "hilfe"
+farenpriestess_trigger_holiday = de "ferien"
+farenpriestess_trigger_holiday_2 = de "feiertag"
+farenpriestess_trigger_hunter = de "jäger"
+farenpriestess_trigger_hunter_sword = de "jägerschwert"
+farenpriestess_trigger_hunter_sword_2 = de "jagdschwert"
+farenpriestess_trigger_learn = de "lernen"
+farenpriestess_trigger_lightning_wall = de "blitzwand"
+farenpriestess_trigger_necromancer = de "nekro"
+farenpriestess_trigger_node = de "quelle"
+farenpriestess_trigger_princess = de "prinzessin"
+farenpriestess_trigger_buy = de "kaufen"
+farenpriestess_trigger_shal_ille = de "sha-lill"
+farenpriestess_trigger_sha_lill = de "shal'ille"
+farenpriestess_trigger_student = de "schüler"
+farenpriestess_trigger_supplicate = de "unterwerfe"
+farenpriestess_trigger_urn = de "urne"
+
+// JalaPriestess
+jalapriestess_random_001 = de \
+   "~kPriesterin Themala sagt, \"Musik kann Dich auf so viele Arten "
+   "beeinflussen. Ein Lied kann Deine Stimmung verändern, sogar Deinen "
+   "ganzen Tag.\""
+jalapriestess_random_002 = de \
+   "~kPriesterin Themala sagt, \"Golems sind belebte Diener, weder lebendig "
+   "noch tot. Sie sind mächtige Werkzeuge Jalas.\""
+jalapriestess_random_003 = de \
+   "~kPriesterin Themala sagt, \"Diejenigen, die gegangen sind, können "
+   "unsere Lieder immer noch hören. Denk daran, sie mit einer sanften "
+   "Melodie zu ehren.\""
+jalapriestess_random_004 = de \
+   "~kPriesterin Themala sagt, \"Ein Prisma ist ein praktisches Werkzeug. "
+   "Man weiß nie, wo es nützlich sein könnte.\""
+jalapriestess_random_005 = de \
+   "~kPriesterin Themala sagt, \"Ein großartiges Lied ist eines, das bleibt, "
+   "auch wenn ich nicht da bin.\""
+jalapriestess_random_006 = de \
+   "~kPriesterin Themala sagt, \"Musik schenkt uns Erinnerungen. Je länger "
+   "eine Melodie existiert, desto mehr Erinnerungen trägt sie.\""
+jalapriestess_random_007 = de \
+   "~kPriesterin Themala sagt, \"Wenn unser König Musik liebt, dann ist "
+   "wenig im Land verkehrt.\""
+jalapriestess_random_008 = de \
+   "~kPriesterin Themala sagt, \"Ich glaube nicht, dass Gut und Böse "
+   "Gegensätze sind. Alles, was aus Liebe getan wird, geht über beides "
+   "hinaus.\""
+jalapriestess_random_009 = de \
+   "~kPriesterin Themala sagt, \"Musik lügt nie – sie lässt Dich etwas "
+   "fühlen. Ein Lied lässt Dich einen Gedanken spüren.\""
+jalapriestess_random_010 = de \
+   "~kPriesterin Themala sagt, \"So unermesslich ist die Kunst, so begrenzt "
+   "der menschliche Verstand.\""
+jalapriestess_random_011 = de \
+   "~kPriesterin Themala sagt, \"Wahre Leichtigkeit in den Texten kommt von "
+   "Kunst, nicht vom Zufall. Diejenigen, die das Tanzen gelernt haben, "
+   "bewegen sich am anmutigsten.\""
+
+// KraananPriestess
+kraananpriestess_speech_001 = de \
+   "~kPriesterin Qertina sagt, \"Es ist häufig so, dass Schwächlinge "
+   "versuchen, ihre Fähigkeiten mit magischen Dingen zu verbessern. "
+   "Natürlich brauchen die Nekromanten solche Dinge.\""
+kraananpriestess_speech_002 = de \
+   "~kPriesterin Qertina sagt, \"~B~bAlle diese Stellen sind zurzeit "
+   "besetzt.~B~k\""
+kraananpriestess_speech_003 = de \
+   "~kPriesterin Qertina sagt, \"~B~bVor Jahren kam der ehrenwerte Schmied "
+   "Ferloi Qan zu mir und lernte die Wege des mächtigen Kraanan der Faust. "
+   "Er wohnt nun in Barloque. Suche ihn auf, wenn Du gute Waffen "
+   "willst.~B~k\""
+kraananpriestess_speech_004 = de \
+   "~kPriesterin Qertina sagt, \"Die Kämpfer von Brax waren undiszipliniert "
+   "und faul. Deswegen haben sie auch ihre Stadt verloren.\""
+kraananpriestess_speech_005 = de \
+   "~kPriesterin Qertina sagt, \"~B~bIch brauche nichts.~B~k\""
+kraananpriestess_speech_006 = de \
+   "~kPriesterin Qertina sagt, \"~B~bReise voller Kraft, Krieger.~B~k\""
+kraananpriestess_speech_007 = de \
+   "~kPriesterin Qertina sagt, \"~B~bDu kannst viel über die Kunst des "
+   "Kämpfens vom Waffenmeister in Cor Noth lernen.~B~k\""
+kraananpriestess_speech_008 = de \
+   "~kPriesterin Qertina sagt, \"~B~bMein Sohn Cort dient Kraanan der Faust, "
+   "indem er die Turniere in der Arena beaufsichtigt. Ich bin stolz auf "
+   "seine Arbeit, und ich bin sicher, Kraanan ist es auch.~B~k\""
+kraananpriestess_speech_009 = de \
+   "~kPriesterin Qertina sagt, \"~B~bSeitdem Zarcos die Macht unter fünf "
+   "verschiedene Männer aufgeteilt hat, befindet sich das Königreich im "
+   "Zustand der Verwirrung. Das Königreich braucht einen starken "
+   "Regenten.~B~k\""
+kraananpriestess_speech_010 = de \
+   "~kPriesterin Qertina sagt, \"~B~bPah, belästige mich nicht mit Zylill. "
+   "Er war mal ein fähiger General und ist der Vater meines Sohnes. Das ist "
+   "alles, was ich zu diesem unerträglichen Mann zu sagen habe.~B~k\""
+kraananpriestess_speech_011 = de \
+   "~kPriesterin Qertina sagt, \"~B~bKraanans Gottestage finden einmal alle "
+   "sechs Jahre statt. Es ist die Zeit, in der die Krieger ihren Wert im "
+   "Kampf und an der Theke beweisen. Keine Person darf eine Herausforderung "
+   "in der Arena ablehnen. Um unsere Entschlossenheit zu prüfen, hat unser "
+   "Herr Kraanan schon mächtige Bestien in diesen Tempel gebracht, damit wir "
+   "sie vernichten konnten.~B~k\""
+kraananpriestess_speech_012 = de \
+   "~kPriesterin Qertina sagt, \"~B~bAkardius folgt Riija? Bah! Kalior war "
+   "der wahre Herzog. Er folgte dem mächtigen Kraanan!~B~k\""
+kraananpriestess_speech_013 = de \
+   "~kPriesterin Qertina sagt, \"~B~bFaren ist eins mit der Erde. Seine "
+   "Magie taugt für Tiere, nicht für Menschen.~B~k\""
+kraananpriestess_speech_014 = de \
+   "~kPriesterin Qertina sagt, \"~B~bPah, belästige mich nicht mit Zylill. "
+   "Er war mal ein fähiger General und ist der Vater meines Sohnes. Das ist "
+   "alles, was ich zu diesem unerträglichen Mann zu sagen habe.~B~k\""
+kraananpriestess_speech_015 = de \
+   "~kPriesterin Qertina sagt, \"~B~bSei gegrüßt, %s! Du bist weit gereist, "
+   "um zu meinem Tempel zu gelangen. Sei willkommen.~B~k\""
+kraananpriestess_speech_016 = de \
+   "~kPriesterin Qertina sagt, \"~B~bDurch mich wirst Du die Wege Kraanans "
+   "lernen, des Gottes der Macht.~B~k\""
+kraananpriestess_speech_017 = de \
+   "~kPriesterin Qertina sagt, \"~B~bKraanans Gottestage finden einmal alle "
+   "sechs Jahre statt. Es ist die Zeit, in der die Krieger ihren Wert im "
+   "Kampf und an der Theke beweisen. Keine Person darf eine Herausforderung "
+   "in der Arena ablehnen. Um unsere Entschlossenheit zu prüfen, hat unser "
+   "Herr Kraanan schon mächtige Bestien in diesen Tempel gebracht, damit wir "
+   "sie vernichten konnten.~B~k\""
+kraananpriestess_speech_018 = de \
+   "~kPriesterin Qertina sagt, \"Sie sind eine anständige und mächtige "
+   "Gruppe. Sie sind im Haus der Faust willkommen.\""
+kraananpriestess_speech_019 = de \
+   "~kPriesterin Qertina sagt, \"Eine nützliche Waffe. Ich erachte es für "
+   "gefährlich, sich im Kampf auf solche Dinge zu verlassen, um zu siegen.\""
+kraananpriestess_speech_020 = de \
+   "~kPriesterin Qertina sagt, \"~B~bJala starb in Schwäche. Der mächtige "
+   "Kraanan hätte ihren Tod verhindert, wenn er sich nicht schon Meridian "
+   "verschrieben hätte.~B~k\""
+kraananpriestess_speech_021 = de \
+   "~kPriesterin Qertina sagt, \"~B~bDie Leute von Jasper sind stark, aber "
+   "sie verschwenden ihre Zeit mit der Suche nach Juwelen. Wertvoll ist nur "
+   "das Erz, das sie abbauen und zu Waffen schmieden.~B~k\""
+kraananpriestess_speech_022 = de \
+   "~kPriesterin Qertina sagt, \"~B~bGepriesen sei die heilige Macht von "
+   "Kraanan der Faust, Kraanan I., Schutzherr der Krieger!~B~k\""
+kraananpriestess_speech_023 = de \
+   "~kPriesterin Qertina sagt, \"~B~bDurch mich wirst Du die Wege Kraanans "
+   "lernen, des Gottes der Macht.~B~k\""
+kraananpriestess_speech_024 = de \
+   "~kPriesterin Qertina sagt, \"~B~bMarion gehört zu Shal'illes Gebiet. "
+   "Eine Stadt des heiligen Friedens. Ein guter Ort, aber nicht für einen "
+   "wahren Krieger von Kraanan.~B~k\""
+kraananpriestess_speech_025 = de \
+   "~kPriesterin Qertina sagt, \"~B~bIst es nicht seltsam, dass nur sie es "
+   "hören kann, wenn sie die magischen Quellen zu ihrer Verteidigung "
+   "anrufen?~n~k\""
+kraananpriestess_speech_026 = de \
+   "~kPriesterin Qertina sagt, \"~B~bKraanans Faust soll die Gerechtigkeit "
+   "sein, mit der ihren üblen, hinterlistigen Machenschaften begegnet "
+   "wird.~n~k\""
+kraananpriestess_speech_027 = de \
+   "~kPriesterin Qertina sagt, \"~B~bIhre Sicht der Götter ist komplett "
+   "verdreht. Ihr zuzuhören bedeutet, irregeleiteten Lügengeschichten zu "
+   "lauschen.~n~k\""
+kraananpriestess_speech_028 = de \
+   "~kPriesterin Qertina sagt, \"~B~bSie will sich selbst zu einem Gott "
+   "machen; ihre Ignoranz und ihr Betrug werden in diesem heiligen Tempel "
+   "der Gerechtigkeit nicht geduldet. Ihr Ende soll schnell und schmerzlos "
+   "sein, jedoch ist es eine Notwendigkeit.~n~k\""
+kraananpriestess_speech_029 = de \
+   "~kPriesterin Qertina sagt, \"~B~bDiese kleine Hexe verfolgt nur ihre "
+   "eigennützigen Ziele. Man kann ihr nicht trauen.~n~k\""
+kraananpriestess_speech_030 = de \
+   "~kPriesterin Qertina sagt, \"~B~bDiese Dämonin muss aufgehalten werden, "
+   "bevor sie nicht nur das Land zerstört, sondern auch den Glauben, auf dem "
+   "unsere Grundmauern gebaut sind. Ihre Lügen sind für die Ohren der wahren "
+   "Gläubigen unerträglich.~n~k\""
+kraananpriestess_speech_031 = de \
+   "~kPriesterin Qertina sagt, \"Der Weg der Nekromanten ist ein Weg der "
+   "Schwäche. Ein echter Kämpfer sollte keine Angst vor diesen Kreaturen "
+   "haben. Sie sterben durch das Schwert, genauso wie die Lebenden.\""
+kraananpriestess_speech_032 = de \
+   "~kPriesterin Qertina sagt, \"~B~bUm Miriana und ihre Kreaturen "
+   "aufzuhalten, musst Du die Stärke Kraanans erflehen.~n~k\""
+kraananpriestess_speech_033 = de \
+   "~kPriesterin Qertina sagt, \"~B~bKraanan geht nicht sanft mit Leuten um, "
+   "die Lügen und Chaos benutzen, um andere in die Irre zu führen, wie "
+   "Miriana bald feststellen wird.~n~k\""
+kraananpriestess_speech_034 = de \
+   "~kPriesterin Qertina sagt, \"~B~bKraanans Gerechtigkeit muss ihr "
+   "eingehämmert werden, bevor sie genug Macht sammeln kann, um ihre dunklen "
+   "Wünsche zu erfüllen.~n~k\""
+kraananpriestess_speech_035 = de \
+   "~kPriesterin Qertina sagt, \"~B~bVielleicht sollte Kateriina gekrönt "
+   "werden... Wenn es da keinen anderen gibt...vielleicht einen, der Kraanan "
+   "folgt.~B~k\""
+kraananpriestess_speech_036 = de \
+   "~kPriesterin Qertina sagt, \"~B~bKraanan kümmert sich wenig um die "
+   "erbärmliche Qor und ihre Lakaien.~B~k\""
+kraananpriestess_speech_037 = de \
+   "~kPriesterin Qertina sagt, \"~B~bErwähne in meiner Gegenwart nicht den "
+   "Namen des Gauners, wenn Du nicht meine Hand spüren willst!~B~k\""
+kraananpriestess_speech_038 = de \
+   "~kPriesterin Qertina sagt, \"~B~bSuche die Schmiede wegen Deiner "
+   "Ausrüstung auf.~B~k\""
+kraananpriestess_speech_039 = de \
+   "~kPriesterin Qertina sagt, \"~B~bGepriesen sei Shal'ille, die als treue "
+   "Ehefrau an Kraanans Seite steht.~B~k\""
+kraananpriestess_speech_040 = de \
+   "~kPriesterin Qertina sagt, \"~B~bMein Sohn Cort dient Kraanan der Faust, "
+   "indem er die Turniere in der Arena beaufsichtigt. Ich bin stolz auf "
+   "seine Arbeit, und ich bin sicher, Kraanan ist es auch.~B~k\""
+kraananpriestess_speech_041 = de \
+   "~kPriesterin Qertina sagt, \"Was willst Du von mir hören? Er war ein "
+   "alter Mann, der Magie benutzte. Ansonsten weiß ich nichts über ihn.\""
+kraananpriestess_speech_042 = de \
+   "~kPriesterin Qertina sagt, \"~B~bVerbessere Deine Künste in der Arena, "
+   "die meinem Herrn Kraanan geweiht ist. Mein Sohn überwacht die "
+   "verschiedenen Kämpfe im Namen der Faust.~B~k\""
+kraananpriestess_speech_043 = de \
+   "~kPriesterin Qertina sagt, \"Sie hat bekommen, was sie verdiente.\""
+kraananpriestess_speech_044 = de \
+   "~kPriesterin Qertina sagt, \"~B~bMein Sohn Cort dient Kraanan der Faust, "
+   "indem er die Turniere in der Arena beaufsichtigt. Ich bin stolz auf "
+   "seine Arbeit, und ich bin sicher, Kraanan ist es auch.~B~k\""
+kraananpriestess_speech_045 = de \
+   "~kPriesterin Qertina sagt, \"Wie ist Deine Meinung über einen Mann, der "
+   "sein Land in der dunkelsten Stunde verlässt, um sich selbst zu retten?\""
+kraananpriestess_random_001 = de \
+   "~kPriesterin Qertina sagt, \"~B~bEin Krieger muss wohlgenährt sein, denn "
+   "mit leerem Magen wurden noch keine Schlachten gewonnen. Selbst ein armer "
+   "Krieger kann Pilze finden, um sich zu ernähren.~B~k\""
+kraananpriestess_random_002 = de \
+   "~kPriesterin Qertina sagt, \"~B~bAnhänger von Kraanan müssen ihm und nur "
+   "ihm allein ergeben sein. Ein Trank des Vergessens wird Deinen Geist von "
+   "jeglicher armseligen Magie der anderen Schulen befreien.~B~k\""
+kraananpriestess_random_003 = de \
+   "~kPriesterin Qertina sagt, \"~B~bBesuche die Arena in Tos und kämpfe im "
+   "Namen von Kraanan. Wenn Du Deinen Mut beweist, könnte mein Junge Dir "
+   "seine Gunst erweisen.~B~k\""
+kraananpriestess_random_004 = de \
+   "~kPriesterin Qertina sagt, \"~B~bKraanans Gottestage wurden erstmals zu "
+   "Zeiten von Priester Alexand gefeiert. Auch heute noch begehen mächtige "
+   "Krieger diese Feiertage.~B~k\""
+kraananpriestess_random_005 = de \
+   "~kPriesterin Qertina sagt, \"~B~bTos hat keinen Schmied mehr. Das ist "
+   "ein Vorteil für Barloque.~B~k\""
+kraananpriestess_random_006 = de \
+   "~kPriesterin Qertina sagt, \"~B~bDu stehst im ältesten Tempel des ganzen "
+   "Landes. Und trotz all dieser Jahre ist er immer noch das stabilste "
+   "Gebäude.~B~k\""
+kraananpriestess_random_007 = de \
+   "~kPriesterin Qertina sagt, \"~B~bSchau die wunderbaren Waffen um Dich "
+   "herum an. Sie alle wurden verwendet, um den Namen Kraanans zu "
+   "verbreiten.~B~k\""
+kraananpriestess_random_008 = de \
+   "~kPriesterin Qertina sagt, \"~B~bMögest Du im Kampf sterben oder "
+   "überhaupt nicht.~B~k\""
+kraananpriestess_random_009 = de \
+   "~kPriesterin Qertina sagt, \"~B~bEinem Tag harter Kämpfe sollte eine "
+   "Nacht langen Trinkens folgen.~B~k\""
+kraananpriestess_random_010 = de \
+   "~kPriesterin Qertina sagt, \"~B~bEine Anhängerin von Kraanan spricht "
+   "ihre Gedanken immer offen aus. Täuschungen und Andeutungen gehören nicht "
+   "zu den Waffen eines wahren Kriegers.~B~k\""
+kraananpriestess_random_011 = de \
+   "~kPriesterin Qertina sagt, \"~B~bJeder mit echter Ehre wird seine "
+   "Absicht zu kämpfen kundtun und bis zum Tod oder zur Niederlage kämpfen. "
+   "Niemals würde ein Krieger von Kraanan vor einem Gegner weglaufen.~B~k\""
+kraananpriestess_random_012 = de \
+   "~kPriesterin Qertina sagt, \"~B~bErbärmlich sind jene, die sich an einen "
+   "Krieger anschleichen, angreifen und dann verschwinden. Ein feiger "
+   "Angriff ist nicht ehrenvoll.~B~k\""
+kraananpriestess_random_013 = de \
+   "~kPriesterin Qertina sagt, \"~B~bEs ist die heilige Pflicht der starken "
+   "Krieger von Kraanan, die Schwachen und Hilflosen zu beschützen.~B~k\""
+kraananpriestess_random_014 = de \
+   "~kPriesterin Qertina sagt, \"~B~bDie Unehrlichen und Unehrenhaften "
+   "werden von einem Krieger Kraanans wenig Gnade erfahren.~B~k\""
+kraananpriestess_random_015 = de \
+   "~kPriesterin Qertina steht entschlossen hinter ihrem Altar. Es scheint, "
+   "als wäre sie bereit, sich jeden Augenblick in einen Kampf zu stürzen."
+kraananpriestess_random_016 = de \
+   "~kWährend Du vor den heiligen Waffen von Kraanan stehst, überkommt Dich "
+   "ein tiefes Gefühl der Ehrfurcht."
+kraananpriestess_random_017 = de \
+   "~kPriesterin Qertina sagt, \"~B~bWenn Du die Wege Kraanans nicht "
+   "anerkennen willst, so hast Du hier nichts zu suchen. Tatsächlich hättest "
+   "Du kaum das Recht zu leben.~B~k\""
+kraananpriestess_trigger_amulet = de "amulett"
+kraananpriestess_trigger_apprentice = de "schüler"
+kraananpriestess_trigger_apprentice_2 = de "lehrling"
+kraananpriestess_trigger_sell = de "verkauf"
+kraananpriestess_trigger_bye = de "tschüss"
+kraananpriestess_trigger_bye_2 = de "ciao"
+kraananpriestess_trigger_bye_3 = de "wiedersehen"
+kraananpriestess_trigger_council = de "ratsmitglied"
+kraananpriestess_trigger_cylill = de "zylill"
+kraananpriestess_trigger_zylill = de "cylill"
+kraananpriestess_trigger_days = de "gottestage"
+kraananpriestess_trigger_days_2 = de "ferien"
+kraananpriestess_trigger_duke = de "herzog"
+kraananpriestess_trigger_father = de "vater"
+kraananpriestess_trigger_hello = de "hallo"
+kraananpriestess_trigger_help = de "hilfe"
+kraananpriestess_trigger_holiday = de "feiertag"
+kraananpriestess_trigger_hunter = de "jäger"
+kraananpriestess_trigger_hunter_sword = de "jagdschwert"
+kraananpriestess_trigger_learn = de "lernen"
+kraananpriestess_trigger_necromancer = de "nekro"
+kraananpriestess_trigger_node = de "quelle"
+kraananpriestess_trigger_princess = de "prinzessin"
+kraananpriestess_trigger_buy = de "kaufen"
+kraananpriestess_trigger_shal_ille = de "sha-lill"
+kraananpriestess_trigger_sha_lill = de "shal'ille"
+kraananpriestess_trigger_son = de "sohn"
+kraananpriestess_trigger_watcher = de "wächter"
+
+// QorPriestess
+qorpriestess_speech_001 = de \
+   "~kPriesterin Zuxana sagt, \"Das ist ein interessantes Artefakt. Ich bin "
+   "sicher, wenn ich genügend Zeit hätte, eines davon zu studieren, würde "
+   "ich seine Fähigkeiten und seine Zusammensetzung herausbekommen. "
+   "Unglücklicherweise habe ich niemanden, der mir einen dieser Anhänger "
+   "bringen könnte. Schade.\""
+qorpriestess_speech_002 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IUnter den schimmernden Straßen von "
+   "Barloque wirst Du einen meiner tüchtigsten Diener finden.~I~k\""
+qorpriestess_speech_003 = de \
+   "~kPriesterin Zuxana sagt, \"Eine alte Stadt, die durch die chaotische "
+   "und unvorhersehbare Kraft der Natur zerstört wurde. Wie können nun so "
+   "viele dieser Kraft vertrauen und glauben, dass sie durch sie Erlösung "
+   "finden? Die Natur kümmert sich wenig um die Taten oder Gedanken der "
+   "Menschen.\""
+qorpriestess_speech_004 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IIch brauche nichts. Qor sorgt gut genug "
+   "für ihre Kinder.~I~k\""
+qorpriestess_speech_005 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IDu wirst wiederkommen.~I~k\""
+qorpriestess_speech_006 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IEs ist kein Zufall, dass die "
+   "Elfenbeinkapelle in Cor Noth nicht länger Shal'ille dient. Ich glaube, "
+   "sie ist inzwischen nur noch... ein Versammlungsort für Banditen.~I~k\""
+qorpriestess_speech_007 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IDer Rat. Ich würde nicht zu viel "
+   "Vertrauen in den Rat als Regenten dieses Landes setzen. Es sind alles "
+   "stümperhafte Narren, die keine Ahnung davon haben, was wirklich vor sich "
+   "geht.~I~k\""
+qorpriestess_speech_008 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IAlle sechs Jahre treffen sich die Diener "
+   "hier, um uralte Rituale durchzuführen. Wenn die Sterne günstig stehen "
+   "und das Blut geopfert ist, werden die Nekromanten die Toten aus ihren "
+   "tiefen Gräbern erwecken.~I~k\""
+qorpriestess_speech_009 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IFürst Faren will sich an meiner Herrin "
+   "rächen. Er ahnt nicht, wie sehr sein blinder Zorn der Sache von Qor "
+   "hilft.~I~k\""
+qorpriestess_speech_010 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IWillkommen im dunklen Tempel, %s.~I~k\""
+qorpriestess_speech_011 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IIch kann Dich in die süße Dunkelheit von "
+   "Qor führen, der Göttin der schwarzen Magie.~I~k\""
+qorpriestess_speech_012 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IAlle sechs Jahre treffen sich die Diener "
+   "hier, um uralte Rituale durchzuführen. Wenn die Sterne günstig stehen "
+   "und das Blut geopfert ist, werden die Nekromanten die Toten aus ihren "
+   "tiefen Gräbern erwecken.~I~k\""
+qorpriestess_speech_013 = de \
+   "~kPriesterin Zuxana sagt, \"Jeder scheint diese Jäger zu akzeptieren, "
+   "wie sie sind. Ich sehe eine Gruppe von Mördern, die Menschen mit "
+   "Erlaubnis der Regierung jagen. In welcher Gesellschaft leben wir? Ich "
+   "sehe eine fürchterliche Heuchelei darin. Was ist der Unterschied "
+   "zwischen den Jägern und den Nekromanten? Eine dieser Gruppen hat eine "
+   "gute Verbindung zu unserem Herrscher.\""
+qorpriestess_speech_014 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IWie sehr doch die Herrin der Nacht die "
+   "kleine Jala und ihre quiekenden Lieder vermisst. Sie bereut es fast "
+   "schon, dass sie ihren Dolch am nackten Rücken des Mädchens beschmutzt "
+   "hat.~I~k\""
+qorpriestess_speech_015 = de \
+   "~kPriesterin Zuxana sagt, \"~r~ITraurig, dass Jasper stirbt, nachdem es "
+   "seine Venen aufgeschlitzt und das gesamte Blut der Erde aus seinem "
+   "Inneren abgelassen hat. Selbstmord würde ich sagen. Obwohl einige sagen "
+   "würden, diese neue 'Rebellion' sei der Damm, der ein weiteres Ausbluten "
+   "verhindert.~I~k\""
+qorpriestess_speech_016 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IKalior ist Qor begegnet, und Qor ist "
+   "zufrieden mit ihrem neuen Diener.~I~k\""
+qorpriestess_speech_017 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IKraanan, der perfekte Krieger, ein "
+   "Übermaß an Kraft mit einem kaum nennenswerten Gehirn. Er war der Erste, "
+   "der sein Leben im Chaos wegwarf.~I~k\""
+qorpriestess_speech_018 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IIch kann Dich in die süße Dunkelheit von "
+   "Qor führen, der Göttin der schwarzen Magie.~I~k\""
+qorpriestess_speech_019 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IMalumnea ist der Idealzustand von "
+   "Einheit, in der Qor die anderen Gottheiten mit offenen Armen aufnimmt, "
+   "damit sie ein Teil von ihr werden. Anschließend wird sie das Universum "
+   "vereinen und in eine dunkle Harmonie versetzen.~I~k\""
+qorpriestess_speech_020 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IZisch! Marion ist der letzte übrig "
+   "gebliebene Fleck der Unschuld.~I~k\""
+qorpriestess_speech_021 = de \
+   "~kZuxana sagt, \"~I~rDas Chaos, das sie schafft, kann nur mit Führung "
+   "toleriert werden - nicht wie dieses alles verschlingende Gräuel, das "
+   "derzeit existiert~n~k.\""
+qorpriestess_speech_022 = de \
+   "~kZuxana lächelt sinnlich, \"~I~rNun, beschäftigt euch nicht mit ihr und "
+   "ihren offensichtlichen Lügen. Darum wird man sich sehr bald "
+   "kümmern.~n~k\""
+qorpriestess_speech_023 = de \
+   "~kZuxana sagt, \"~I~rNatürlich muss sie vernichtet werden. Lasst sie "
+   "ihre kleinen Geschichten verbreiten, sie kann damit die Wahrheit nicht "
+   "zerstören.~n~k\""
+qorpriestess_speech_024 = de \
+   "~kZuxana sagt, \"~I~rIch kann jetzt nicht mit derart unwichtigen "
+   "Angelegenheiten gestört werden. Geh hinfort!~n~k\""
+qorpriestess_speech_025 = de \
+   "~kZuxana sagt, \"~I~rDas unverschämte Frauenzimmer, sogar ich muss "
+   "zugeben, dass sie zu weit gegangen ist. Sie muss vernichtet werden, und "
+   "als Diener Qors wird von Dir verlangt, dass Du ihren Willen "
+   "ausführst.~n~k\""
+qorpriestess_speech_026 = de \
+   "~kZuxana lächelt rücksichtslos, \"~I~rDenke an die böswillige "
+   "Zerstörung, die wir mit dieser Macht ausüben können. Du sollst sie für "
+   "mich zurückbringen, mein Lieber. Natürlich wird das Mirianas Tod zur "
+   "Folge haben, aber so sei es.~n~k\""
+qorpriestess_speech_027 = de \
+   "~kZuxana sagt, \"~I~rHa, wenn Tenuval vorher schon besorgt war, dann, "
+   "denke ich, hat sie sich jetzt von den Felsen gestürzt.~n~k\""
+qorpriestess_speech_028 = de \
+   "~kZuxana sagt, \"~I~rDiese Macht gehört rechtmäßig Qor und ihren "
+   "Anhängern, welche Frechheit von ihr, uns diese zu stehlen. Unsere Rache "
+   "wird der Tod sein.~n~k\""
+qorpriestess_speech_029 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IKateriina ist dumm, Shal'ille zu folgen. "
+   "Ich könnte ihr den richtigen Weg zeigen, um die magischen Künste zu "
+   "meistern.~I~k\""
+qorpriestess_speech_030 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IDu siehst vielversprechend aus, %s, aber "
+   "ich bin noch nicht bereit, Dich als Zögling aufzunehmen.~I~k\""
+qorpriestess_speech_031 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IHerrin Qor, die Böse! Ich opfere Blut zu "
+   "Ehren Deines Namens.~I~k\""
+qorpriestess_speech_032 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IAh, der kleine Gauner Riija. Qor "
+   "vermisst seine gespaltene Zunge und seine täuschende Art.~I~k\""
+qorpriestess_speech_033 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IKaufe nicht, was Du benötigst. Nimm "
+   "es.~I~k\""
+qorpriestess_speech_034 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IZisch! Die Herrin Shal'ille lehrt tote "
+   "Ideale und unmöglichen Frieden. Ihr weiches Herz wird ihr Ende "
+   "sein.~I~k\""
+qorpriestess_speech_035 = de \
+   "~kPriesterin Zuxana sagt, \"Ich empfinde Mitleid mit ihm. Venya'cyr "
+   "wurde verrückt, tötete seine Familie, und er ließ sich mit den "
+   "chaotischen Kräften der Natur ein. Er war ein Werkzeug! Ich bin mir "
+   "sicher, dass seine Beweggründe edel waren. Fakt ist jedoch, dass er sich "
+   "mit Kräften eingelassen hat, die er nicht kontrollieren konnte, und eine "
+   "ganze Stadt vernichtete. Seinetwegen haben wir eine ganze Kultur "
+   "verloren.\""
+qorpriestess_speech_036 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IDas öde Tos wird jeden Tag korrupter. "
+   "Schon bald werden sie die Armee der Toten auf dem Friedhof nicht mehr "
+   "zurückhalten können.~I~k\""
+qorpriestess_speech_037 = de \
+   "~kPriesterin Zuxana sagt, \"Ich habe begonnen, die uralten Relikte zu "
+   "studieren, um die Welt, in der wir uns entwickelt haben, besser zu "
+   "verstehen. Ich könnte auch sagen, dass ich solche Dinge sammle, und "
+   "würde einen fairen Preis für ein solches Fossil zahlen. Wenn es zu sonst "
+   "nichts taugt, kann es wenigstens als Schmuck im Tempel dienen.\""
+qorpriestess_speech_038 = de "~kPriesterin Zuxana sagt, \"Armes Ding.\""
+qorpriestess_speech_039 = de \
+   "~kPriesterin Zuxana sagt, \"Die Probleme unserer Gesellschaft können bis "
+   "zu diesem Mann und seinen Taten zurückverfolgt werden. Als es schlecht "
+   "für ihn lief, drehte er sich um und floh. Wegen seiner kindischen Ängste "
+   "konnten Vorurteile viele Denkschulen zerstören. Das ist Deine Welt. "
+   "Willst Du die Dinge so haben?\""
+qorpriestess_random_001 = de \
+   "~kPriesterin Zuxana sagt, \"~r~ITenuval fürchtet die kleine Miriana, "
+   "weil das junge Mädchen sie eines Tages ersetzen wird. Wie köstlich, eine "
+   "Meisterin Farens fürchtet sich vor einem kleinen Mädchen.~I~k\""
+qorpriestess_random_002 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IDie magischen Quellen sind über die Welt "
+   "verteilt. Wir müssen sie alle finden und erobern, um sie allein für "
+   "unsere Sache zu besitzen.~I~k\""
+qorpriestess_random_003 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IDas dunkle Schloss des schon lange toten "
+   "Far'Nohl liegt jenseits des Lands der Trolle. In seinen uralten Gängen "
+   "wandeln alle Arten von Untoten. Betrachte es gut, denn es zeigt das "
+   "Schicksal von Schloss Bourgeois und Burg Schwarzstein.~I~k\""
+qorpriestess_random_004 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IEs gibt eine Quelle der Magie jenseits "
+   "der Regionen des Lebens. Es könnte keinen einfacheren Weg dorthin geben, "
+   "wenn Du bereit bist, den Preis mit Deinem Leben zu bezahlen.~I~k\""
+qorpriestess_random_005 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IIch spüre, dass eine neue Spinnenkönigin "
+   "das Spinnennest übernommen hat. Wie köstlich.~I~k\""
+qorpriestess_random_006 = de \
+   "~kPriesterin Zuxana sagt, \"~r~ISei vorsichtig. Unschuldiges Blut ruft "
+   "oft die hartnäckigsten Geister herauf, die auf Rache aus sind. Gib acht, "
+   "denn die Stärke dieser Wiedergänger gleicht der des Mörders, und sie "
+   "werden nicht aufgeben, bis sie ihre Beute in die Unterwelt hinabgezogen "
+   "haben!~I~k\""
+qorpriestess_random_007 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IMeine Gefolgsleute sind zahlreich, und "
+   "sie haben heimtückische Wege gefunden, sich mit so gewöhnlichen "
+   "Verkleidungen wie der eines Bankiers oder Kräuterkundigen wieder in die "
+   "ahnungslose Gesellschaft einzugliedern.~I~k\""
+qorpriestess_random_008 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IBefreie Deine Gedanken vom Wissen aller "
+   "anderen Götter, da sie nur Lügen verbreiten. Um die absolute Wahrheit zu "
+   "erkennen und noch stärker in Deinem Dienst an Qor zu werden, trinke den "
+   "Trank des Vergessens. Hab keine Furcht vor den Nebenwirkungen, die "
+   "dieser Trank haben könnte, sie sind bedeutungslos im Vergleich zu der "
+   "Macht, die Qor Dir geben kann.~I~k\""
+qorpriestess_random_009 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IManche Leute empfinden den Tod als ein "
+   "tragisches Ereignis, ich jedoch nicht. Es gibt so viele "
+   "Verwendungszwecke für die Toten: als Leibwächter, als kleine magische "
+   "Quelle oder sogar als Lieferant von Gebrauchsgegenständen.~I~k\""
+qorpriestess_random_010 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IVor langer Zeit, als die Fey nichts "
+   "anderes als Shal'ille kannten, verirrte sich einer der Elhai auf dem Weg "
+   "durch Quilicia und traf auf unsere dunkle Herrin. Sie nahm ihn auf und "
+   "pflegte ihn viele Wochen. Als er sich besser fühlte, schickte Qor ihn zu "
+   "seinen Brüdern und Schwestern zurück und bat nur darum, dass er sie "
+   "mitnehme, damit sie noch mehr der fehlgeleiteten Fey helfen könne.~I~k\""
+qorpriestess_random_011 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IBereitet euch auf die Zeremonien des "
+   "alten Feiertags vor.~I~k\""
+qorpriestess_random_012 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IVor vielen Jahren wurde dieser Tempel "
+   "aus dem Gewebe der räumlichen Wirklichkeit entfernt, um unseren "
+   "verfolgten Ahnen die Freiheit zur Anbetung zu verschaffen. Sobald Qor "
+   "die Welt wieder verführt hat, wird sich unser Tempel wieder mit der Erde "
+   "vereinen.~I~k\""
+qorpriestess_random_013 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IWenn sich die Neun aus ihrer dunklen "
+   "Hölle erheben, werden im Land des Lebens die Untoten wohnen.~I~k\""
+qorpriestess_random_014 = de \
+   "~kPriesterin Zuxana blickt tief in Deine Augen. Du fühlst Kälte und "
+   "Hitze zugleich."
+qorpriestess_random_015 = de \
+   "~kAus der Lava unter Dir kommen Geräusche, die irgendwo zwischen "
+   "Schreien und Gelächter liegen."
+qorpriestess_random_016 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IWahlloses Töten ist nicht der Weg von "
+   "Qor. Mord ist ein ernsthaftes Geschäft, das mit Bedacht auf die Folgen "
+   "durchgeführt werden muss. Man muss diskret und umsichtig sein.~I~k\""
+qorpriestess_random_017 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IQor billigt kein wahlloses Gemetzel. So "
+   "etwas ist die Arbeit von Tieren. Ein elegantes Verbrechen muss sowohl "
+   "von Leidenschaft als auch Vernunft zeugen.~I~k\""
+qorpriestess_random_018 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IIch sehe ein starkes Potential in Dir. "
+   "So stark, dass Du es nicht erkennst.~I~k\""
+qorpriestess_random_019 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IHöre den anderen Priesterinnen zu, wenn "
+   "es sein muss. In Deinem Herzen wirst Du erkennen, dass sie lügen und "
+   "dass Qor die einzige Göttin ist, die sich wirklich um Dich kümmert.~I~k\""
+qorpriestess_random_020 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IIch spüre, dass Du jemanden kennst, der "
+   "sich unserer Gemeinschaft anschließen könnte. Bringe diese Person bei "
+   "Deinem nächsten Besuch mit.~I~k\""
+qorpriestess_random_021 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IIch habe viele Wege, Dir die Liebe Qors "
+   "zu zeigen. Besuche diesen Tempel, und Du wirst ihre Macht wie einen "
+   "heißen Atem auf Deiner Haut spüren.~I~k\""
+qorpriestess_random_022 = de \
+   "~kPriesterin Zuxana sagt, \"~r~INun bete mit mir, und fühle die Reinheit "
+   "von Qors Liebe.~I~k\""
+qorpriestess_random_023 = de \
+   "~kPriesterin Zuxana sagt, \"~r~IDu hast gut daran getan, mich "
+   "aufzusuchen. Deine Hingabe wird nicht unbelohnt bleiben. Lerne die Wege "
+   "meiner Herrin, und erkenne die Wahrheit.~I~k\""
+qorpriestess_random_024 = de \
+   "~kPriesterin Zuxana sagt, \"~r~ITrinke vom dunklen Wissen Qors. Sie "
+   "begehrt Dich und kann Dir ungeahnte Macht verschaffen.~I~k\""
+qorpriestess_trigger_amulet = de "amulett"
+qorpriestess_trigger_sell = de "verkauf"
+qorpriestess_trigger_bye = de "ciao"
+qorpriestess_trigger_council = de "ratsmitglied"
+qorpriestess_trigger_days = de "tage"
+qorpriestess_trigger_hello = de "hallo"
+qorpriestess_trigger_help = de "hilfe"
+qorpriestess_trigger_holiday = de "feiertag"
+qorpriestess_trigger_holiday_2 = de "ferien"
+qorpriestess_trigger_hunter_sword = de "jagdschwert"
+qorpriestess_trigger_learn = de "lernen"
+qorpriestess_trigger_node = de "quelle"
+qorpriestess_trigger_princess = de "prinzessin"
+qorpriestess_trigger_pupil = de "schüler"
+qorpriestess_trigger_buy = de "kaufen"
+qorpriestess_trigger_shal_ille = de "sha-lill"
+qorpriestess_trigger_sha_lill = de "shal'ille"
+qorpriestess_trigger_urn = de "urne"
+
+// RiijaMonk
+riijamonk_speech_001 = de \
+   "~kDer Mönch von Riija sagt, \"Stell Dir vor zu essen und niemals satt zu "
+   "werden.\""
+riijamonk_speech_002 = de \
+   "~kDer Mönch von Riija sagt, \"Wenn das Fundament Deines Hauses nur aus "
+   "Luft besteht, wird es sicherlich zusammenstürzen.\""
+riijamonk_speech_003 = de \
+   "~kDer Mönch von Riija sagt, \"~I~bIch wäre ~I~B~knur~B~I~g daran "
+   "interessiert, ~I~kDeine Seele~I~g zu kaufen~n~k.\""
+riijamonk_speech_004 = de \
+   "~kDer Mönch von Riija sagt, \"~gDas Schicksal ~B~rwird~B ~bDich "
+   "~I~kzurück~I ~rbringen.`n~k\""
+riijamonk_speech_005 = de "~kDer Mönch von Riija sagt, \"Du bist weise.\""
+riijamonk_speech_006 = de \
+   "~kDer Mönch von Riija sagt, \"~I~gDas stärkste Gefühl ist ~I~rANGST.~I~g "
+   "Hass ist überhaupt kein Gefühl. ~bHass ist nur die ANGST davor, was "
+   "andere sind ~roder genauer gesagt, was wir nicht sind, %s~n~k.\""
+riijamonk_speech_007 = de \
+   "~kDer Mönch von Riija intoniert, \"~I~rDu ~I~B~bbist ~I~gunter "
+   "`n~kvielen ~b~IGefahren~I ~B~ggereist, ~B~rum ~I~bmich ~kzu "
+   "treffen.~n~k\""
+riijamonk_speech_008 = de \
+   "~kDer Mönch von Riija sagt, \"~BDu ~I~bbist~n~g jenseits des "
+   "~B~rPunktes,~g~B an dem man ~kHilfe braucht ~I~boder verdient~n~k.\""
+riijamonk_speech_009 = de \
+   "~kDer Mönch von Riija sagt, \"Es gab eine Zeit, in der der Prinz und die "
+   "Prinzessin glücklich zusammen lebten.\""
+riijamonk_speech_010 = de \
+   "~kDer Mönch von Riija sagt, \"Was sagtest Du, das Hungerschwert?\""
+riijamonk_speech_011 = de \
+   "~kDer Mönch von Riija sagt, \"~BKonima~B~I~r war ein ~bNarr,~g als er "
+   "sein ~bVolk ~I~B~rauf diese Insel~B~I~b brachte~n~k.\""
+riijamonk_speech_012 = de \
+   "~kDer Mönch von Riija sagt, \"~I~bDas stärkste Gefühl ist ~I~rANGST. "
+   "~I~bLiebe ist überhaupt kein Gefühl, %s. ~rLiebe ist nur ANGST vor "
+   "Einsamkeit~n~k.\""
+riijamonk_speech_013 = de \
+   "~kDer Mönch von Riija kichert, \"~b~bSind ihre ~B ~I~gWorte Worte der "
+   "~I~bWahrheit oder ~B~kWorte der ~B~I~rLügen. ~I~gWer sind wir, ~B~rum "
+   "das zu ~B~kbeurteilen.\""
+riijamonk_speech_014 = de \
+   "~kDer Mönch von Riija hält sich die Hände vor die Ohren und brüllt, "
+   "\"~B~gICH ~bKANN ~rDICH ~B~I~bNICHT HÖREN~k!~I ~rLA~gLA~bLA~kLA.\""
+riijamonk_speech_015 = de \
+   "~kDer Mönch von Riija scheint mit den Schultern zu zucken, \"~BWahrheit, "
+   "~I~rLügen~I, ~g....der ~beinzige ~I~gUnterschied liegt ~I~B~rin der "
+   "Wahrnehmung.~B~k\""
+riijamonk_speech_016 = de \
+   "~kDer Mönch von Riija sagt, \"Ich habe einen Parasiten, der in mir lebt. "
+   "Um den Parasiten zu töten, muss ich mich selbst umbringen.\""
+riijamonk_speech_017 = de \
+   "~kDer Mönch von Riija sagt, \"Jene, die ~I~rdenken, ~gsie ~kwären normal "
+   "~bin ~reiner ~bWelt ~bwie ~runserer, ~rsind ~b~I~Bwahnsinnig~n~k.\""
+riijamonk_speech_018 = de \
+   "~kDer Mönch von Riija ruft, \"~B~bKomm herein, ~B~I~kes ist offen... "
+   "~I~rOhhh, Du, ~I~gvielleicht ~Bdoch ~B~bnicht.~n~k\""
+riijamonk_speech_019 = de \
+   "~kDer Mönch von Riija sagt, \"~I~bWenn Du ~I~B~kMiriana ~B~rund ihre "
+   "~gKreaturen ~B~rbesiegen willst, ~B~Imusst Du ~I~gviel lernen!~n~k\""
+riijamonk_speech_020 = de \
+   "~kDer Mönch von Riija predigt, \"~B~rRiija der Wanderer, ~bist der Gott "
+   "~k~Ides Bewusstseins. ~BUnd nichts ist wichtiger ~I~gals das "
+   "BEWUSSTSEIN.~n~k\""
+riijamonk_speech_021 = de \
+   "~kDer Mönch von Riija sagt, \"~IIch ~rverkaufe ~I~BWahrheit~n~k.\""
+riijamonk_speech_022 = de \
+   "~kDer Mönch von Riija sagt, \"~BIch kann Dir ~rdie Augen~k für ~rso~k "
+   "vieles öffnen~n~k.\""
+riijamonk_speech_023 = de \
+   "~kDer Mönch von Riija sagt, \"Wenn der Prinz vor dem König stirbt, ist "
+   "das wahrlich ein Tag zum Weinen.\""
+riijamonk_speech_024 = de "~kDer Mönch von Riija sagt, \"Sie war ein Mann.\""
+riijamonk_speech_025 = de \
+   "~kDer Mönch von Riija sagt, \"~B~gFrüher, als Du denkst~n~k.\""
+riijamonk_speech_026 = de \
+   "~kDer Mönch von Riija sagt, \"~BJemand, ~gder ~rwirklich ~kwahnsinnig "
+   "~gist, ~bhätte ~kdoch ~rkeine ~gKenntnis ~gvon ~bseinem ~rWahnsinn~n~k.\""
+riijamonk_speech_027 = de \
+   "~kDer Mönch von Riija sagt, \"Der echte Zarrus starb in Brax.\""
+riijamonk_random_001 = de \
+   "~kDer Mönch von Riija gluckst, \"~BRIIJA ~I~bist ~gMacht.~n~k\""
+riijamonk_random_002 = de \
+   "~kDer Mönch von Riija verfolgt jede Deiner Bewegungen."
+riijamonk_random_003 = de \
+   "~kDer Mönch von Riija sagt, \"~BWahnsinn ist ein falsch benutztes "
+   "~bAttribut. ~I~kBist Du wahnsinnig? ~I~n~rSag \"~Bja~I\" und Du bist es "
+   "nicht. `n~g Sag \"~Bnein~B\" und Du musst es sein~n~k.\""
+riijamonk_random_004 = de \
+   "~kDer Mönch von Riija sagt, \"~rManche ~Iwerden Dir sagen~I, dass Sehen "
+   "Glauben ist. ~bSie sind ~B~kblind~n~k.\""
+riijamonk_random_005 = de \
+   "~kDer Mönch von Riija sagt, \"~B~bAm Himmel ~B~rgibt es manchmal einen "
+   "~B~gF~bI`n~BSC~kH,~B~r er fliegt ~Ihöher als der ~bRegenbogen ~gund kann "
+   "mit keinem Gift getötet werden. ~I~kWenn Du seine Schuppen berühren "
+   "könntest, ~bwürdest Du ~Iwissen, was hinter der Nacht liegt. "
+   "~I~B~rDoch~B~g der Fisch kann nicht gefangen werden, weil er nicht "
+   "~Bexistiert~n~k.\""
+riijamonk_random_006 = de \
+   "~kDer Mönch von Riija sagt, \"~rDie Farbe der Tränen ist nicht ~brot~r, "
+   "sollte es aber sein~n~k.\""
+riijamonk_random_007 = de \
+   "~kDer Mönch von Riija sagt, \"Wenn Du ins ~B~rFeuer~B~k schaust, siehst "
+   "Du kein ~B~rFeuer~B~k. ~B~rFeuer~B~k ist niemals an einem genauen Punkt. "
+   "Du nimmst nur wahr, wo das ~B~rFeuer~B~k gewesen ist~n~k.\""
+riijamonk_random_008 = de \
+   "~kDer Mönch von Riija sagt, \"~B~bTief ~rin ~gder ~bLeber ~kder "
+   "~rMenschen ~ggibt es ~beinen~r Beutel. ~kDort ~bdrinnen ~gwerden ~rdie "
+   "~kÄngste ~baufbewahrt~n~k.\""
+riijamonk_random_009 = de \
+   "~kDer Mönch von Riija sagt, \"~g~IDu kannst Hitze nicht schmecken. "
+   "~bAber ich kann es~n~k.\""
+riijamonk_random_010 = de \
+   "~kDer Mönch von Riija sagt, \"~IWenn Dich ~bein Schwert ~rberührt, "
+   "~gkönntest Du sterben, ~bdoch ~kwenn Dich ~rniemals ein ~ganderer Mensch "
+   "~rberührt, ~bstirbst Du bestimmt~n~k.\""
+riijamonk_random_011 = de \
+   "~kDer Mönch von Riija sagt, \"~IIch weiß, warum Du hier bist.~I Wenn "
+   "diese Person Dir mehr Aufmerksamkeit geschenkt hätte, ~bwärst Du dort. "
+   "~rStattdessen bist Du bei mir. ~B~kHA HA HA HA HA HA HA HA~n~k!\""
+riijamonk_random_012 = de \
+   "~kDer Mönch von Riija sagt, \"~B~gDu weißt, wenn jemand ~rDich~g hasst. "
+   "~kDas ist REALITÄT. ~gAber Du weißt nie, ob jemand ~bDich~g liebt. Immer "
+   "ist genug Raum für Zweifel. ~I~bOh, sie werden Dir sagen, dass sie Dich "
+   "aus ~n~b~Bganzem~B~I Herzen lieben. ~n~B~kDas ist "
+   "~rPH~gA~kN~bT~rA~gS~bIE~n~k.\""
+riijamonk_random_013 = de \
+   "~kDer Mönch von Riija sagt, \"Ich weiß, was Du denkst. ~bDu fragst Dich "
+   "oft, ob Du allein hier bist. ~I Du fragst Dich, ob jede Person, der Du "
+   "begegnest, nur ein Hirngespinst Deiner Einbildung ist. ~gDort "
+   "hingestellt, um Dich irgendwie zu prüfen. ~I~rDu fragst Dich, ob "
+   "irgendwer sonst wirklich eine ~I~B~gS~be~ke~gle~r hat oder außerhalb "
+   "Deines Gesichtsfeldes existiert. `n~kDu hast recht. ~IAußer, dass Du "
+   "auch nicht existierst~n~k.\""
+riijamonk_random_014 = de \
+   "~kDer Mönch von Riija sagt, \"~B~g'Warum?'~B~k Du hast dem Leben zu oft "
+   "diese Frage gestellt, wenn Du eigentlich hättest fragen sollen: "
+   "~B~r'Wann?' ~n~k\""
+riijamonk_random_015 = de \
+   "~kDer Mönch von Riija sagt, \"~B~gSag ~bmir, ~rmein ~gGast, ~I~rwelches "
+   "ist das stärkste ~kGefühl~n~k?\""
+riijamonk_trigger_amulet = de "amulett"
+riijamonk_trigger_sell = de "verkauf"
+riijamonk_trigger_bye = de "tschüss"
+riijamonk_trigger_fear = de "angst"
+riijamonk_trigger_hate = de "hass"
+riijamonk_trigger_hello = de "hallo"
+riijamonk_trigger_help = de "hilfe"
+riijamonk_trigger_hunter = de "jäger"
+riijamonk_trigger_hunter_sword = de "jagdschwert"
+riijamonk_trigger_love = de "liebe"
+riijamonk_trigger_necromancer = de "nekro"
+riijamonk_trigger_no = de "nein"
+riijamonk_trigger_node = de "quelle"
+riijamonk_trigger_buy = de "kaufen"
+riijamonk_trigger_teach = de "lehren"
+riijamonk_trigger_when = de "wann"
+riijamonk_trigger_yes = de "ja"
+
+// ShalillePriestess
+shalillepriestess_speech_001 = de \
+   "~kPriesterin Xiana sagt, \"Diese Dinge sollten nicht einmal angefasst "
+   "werden. Ihre Macht zu verderben wirkt fast augenblicklich und ist nicht "
+   "wieder umkehrbar. Überlasse ihre Zerstörung den höheren Gewalten.\""
+shalillepriestess_speech_002 = de \
+   "~kPriesterin Xiana sagt, \"~bUnser... ergebenster Anhänger wohnt in "
+   "Barloque. Vielleicht hast Du ja schon von dem Herrn Meidei gehört.~k\""
+shalillepriestess_speech_003 = de \
+   "~kPriesterin Xiana sagt, \"Es waren Leute ohne die Führung von "
+   "Shal'ille.\""
+shalillepriestess_speech_004 = de \
+   "~kPriesterin Xiana sagt, \"~bDie heilige Shal'ille versorgt mich mit "
+   "allem, was ich benötige.~k\""
+shalillepriestess_speech_005 = de \
+   "~kPriesterin Xiana sagt, \"~bFriede sei mit Dir, %s.~k\""
+shalillepriestess_speech_006 = de \
+   "~kPriesterin Xiana sagt, \"~bIch war noch nicht in Cor Noth. Ist es "
+   "schön dort?~k\""
+shalillepriestess_speech_007 = de \
+   "~kPriesterin Xiana sagt, \"~bIch verstehe die Rolle nicht, die der Rat "
+   "jetzt am Hof spielt.~k\""
+shalillepriestess_speech_008 = de \
+   "~kPriesterin Xiana sagt, \"~bAlle sechs Jahre begehen wir die Feiertage "
+   "unserer Herrin Shal'ille. Es ist eine Zeit des Friedens und des Gebens. "
+   "Fast jeder hat etwas, das er anderen geben kann, die weniger haben oder "
+   "neu im Land sind.~k\""
+shalillepriestess_speech_009 = de \
+   "~kPriesterin Xiana sagt, \"~bIch habe gehört, dass er gestorben ist. Wie "
+   "traurig.~k\""
+shalillepriestess_speech_010 = de \
+   "~kPriesterin Xiana sagt, \"~bFaren wurde vom Zorn über die Taten Qors "
+   "geblendet. Hoffentlich lässt er unsere Herrin eines Tages seine Augen "
+   "heilen.~k\""
+shalillepriestess_speech_011 = de \
+   "~kPriesterin Xiana sagt, \"~bSei gegrüßt, %s. Was führt Dich zum Tempel "
+   "von Shal'ille?~k\""
+shalillepriestess_speech_012 = de \
+   "~kPriesterin Xiana sagt, \"~bIch lehre die Magie von Shal'ille, der "
+   "Göttin des Friedens.~k\""
+shalillepriestess_speech_013 = de \
+   "~kPriesterin Xiana sagt, \"~bAlle sechs Jahre begehen wir die Feiertage "
+   "unserer Herrin Shal'ille. Es ist eine Zeit des Friedens und des Gebens. "
+   "Fast jeder hat etwas, das er anderen geben kann, die weniger haben oder "
+   "neu im Land sind.~k\""
+shalillepriestess_speech_014 = de \
+   "~kPriesterin Xiana sagt, \"Leute zu töten ist falsch, egal was es für "
+   "rechtfertigende Gründe geben mag. Es muss eine Lösung unserer Probleme "
+   "ohne Blutvergießen geben.\""
+shalillepriestess_speech_015 = de \
+   "~kPriesterin Xiana sagt, \"Was ist der Unterschied zwischen einer "
+   "Giftschlange und einer Boa constrictor? Bleib allem fern, was mit den "
+   "Jägern zu tun hat.\""
+shalillepriestess_speech_016 = de \
+   "~kPriesterin Xiana sagt, \"~bIch trauere um die arme Jala. Sie war die "
+   "Schwester unserer Herrin und die schönste Dichterin und Künstlerin im "
+   "ganzen Land. Unsere Herrin vermisst den süßen Klang von Jalas "
+   "Liedern.~k\""
+shalillepriestess_speech_017 = de \
+   "~kPriesterin Xiana sagt, \"~bIch weiß nur wenig über die Städte.~k\""
+shalillepriestess_speech_018 = de \
+   "~kPriesterin Xiana sagt, \"~bKraanan ist der Ehemann und Herr meiner "
+   "Herrin Shal'ille. Er ist der erste der Sechs. Gepriesen sei Kraanan die "
+   "Faust.~k\""
+shalillepriestess_speech_019 = de \
+   "~kPriesterin Xiana sagt, \"~bIch lehre die Magie von Shal'ille, der "
+   "Göttin des Friedens.~k\""
+shalillepriestess_speech_020 = de \
+   "~kPriesterin Xiana sagt, \"~bVor langer Zeit, während der Kriege "
+   "zwischen Barloque und Tos, kam eine Legion von Soldaten aus Tos durch "
+   "Marion und wollte die Stadt als Basis für ihre Truppen verwenden, bis "
+   "sie den großen Ozean überqueren und Barloque überraschend von Norden her "
+   "einnehmen konnten. Die Priesterin und alle Dorfbewohner beteten zu "
+   "Shal'ille, dass sie ihre schützenden Arme um das Dorf legen möge, damit "
+   "es unter den Unbillen des Krieges nicht zu leiden hätte. Die Gebete "
+   "wurden erhört, und bis heute wacht Shal'ille über sie.~k\""
+shalillepriestess_speech_021 = de \
+   "~kPriesterin Xiana sagt, \"~bMeidei ist sicherlich ein Enthusiast, aber "
+   "ich glaube, er übertreibt. Unsere Göttin verlangt keine Anbetung, wie er "
+   "meint.~k\""
+shalillepriestess_speech_022 = de \
+   "~kPriesterin Xiana sagt, \"~bDurch die Augen Shal'illes sehe ich, wie "
+   "einsam ihre Existenz ist, obwohl ich weder ihre Worte noch ihre Taten "
+   "deuten kann.~k\""
+shalillepriestess_speech_023 = de \
+   "~kPriesterin Xiana sagt, \"~bNimm meine Hände, wir werden zu Shal'ille "
+   "beten, damit sie uns Stärke gibt, um das zu tun, was notwendig ist, was "
+   "richtig ist.~k\""
+shalillepriestess_speech_024 = de \
+   "~kPriesterin Xiana sagt, \"~bIhre Lügen haben einige Unruhe "
+   "hervorgerufen? Lass Dich nicht durch ihre gottlosen Wege "
+   "beeinflussen.~k\""
+shalillepriestess_speech_025 = de \
+   "~kPriesterin Xiana sagt, \"~bUnglücklicherweise haben wir alle Tenuvals "
+   "Warnungen als paranoides Gefasel abgetan. Nun, da Miriana ihre wahren "
+   "Absichten gezeigt hat, wissen wir, dass Tenuval nicht paranoid genug "
+   "war.~k\""
+shalillepriestess_speech_026 = de \
+   "~kPriesterin Xiana sagt, \"~bSprich nicht ihren verfluchten Namen in "
+   "diesem Tempel des Friedens und des guten Willens.~k\""
+shalillepriestess_speech_027 = de \
+   "~kPriesterin Xiana sagt, \"~bHerrin Shal'ille sieht die Notwendigkeit "
+   "ihres Ablebens, und obwohl sie Tränen über die Gewalttätigkeit dieser "
+   "Tat vergießen muss, weiß sie, dass dies der einzige Weg ist, uns von "
+   "Mirianas Wahnsinn zu befreien.~k\""
+shalillepriestess_speech_028 = de \
+   "~kPriesterin Xiana sagt, \"Diese Kreaturen kennen keine Gnade oder "
+   "Menschlichkeit. Sie existieren, um Leben zu zerstören. Sie sind völlig "
+   "blind, was die Wege Shal'illes betrifft.\""
+shalillepriestess_speech_029 = de \
+   "~kPriesterin Xiana sagt, \"~bDie Quellen haben sich offensichtlich "
+   "selbst gegen ihre Angriffe verteidigt, sonst würden sie nicht mehr "
+   "existieren.~k\""
+shalillepriestess_speech_030 = de \
+   "~kPriesterin Xiana sagt, \"~bDie schlimmsten Konsequenzen ergeben sich "
+   "aus den Handlungen, die zufällig erscheinen.~k\""
+shalillepriestess_speech_031 = de \
+   "~kPriesterin Xiana sagt, \"~bSie muss aufgehalten werden. Die Quellen "
+   "scheinen in Ordnung zu sein, aber man kann nie wissen, wann Miriana "
+   "genug hat. Wir können nicht das Risiko eingehen, sie weitermachen zu "
+   "lassen.~k\""
+shalillepriestess_speech_032 = de \
+   "~kPriesterin Xiana senkt den Kopf und sagt, \"~bLass uns zusammen beten. "
+   "Herrin Shal'ille, erhöre unsere Gebete um Frieden und Wohlstand für alle "
+   "guten Leute auf dieser Welt.~k\""
+shalillepriestess_speech_033 = de \
+   "~kPriesterin Xiana sagt, \"~bWie geht es Kati? Manchmal besucht sie "
+   "mich, wenn sie sich ihren königlichen Pflichten entziehen kann.~k\""
+shalillepriestess_speech_034 = de \
+   "~kPriesterin Xiana sagt, \"~bAch, Qor ist die Gefallene. Sie bräuchte "
+   "nur die Vergebung unserer Herrin Shal'ille zu suchen, und ich bin "
+   "sicher, sie würde sie empfangen.~k\""
+shalillepriestess_speech_035 = de \
+   "~kPriesterin Xiana sagt, \"~bIch weiß nicht, was aus Riija wurde. "
+   "Wahrscheinlich spielt er irgendwo den Ahnungslosen Streiche.~k\""
+shalillepriestess_speech_036 = de \
+   "~kPriesterin Xiana sagt, \"~bErlösung ist nicht käuflich. Shal'ille "
+   "schenkt sie aus freien Stücken.~k\""
+shalillepriestess_speech_037 = de \
+   "~kPriesterin Xiana sagt, \"~bUnsere Herrin Shal'ille ist die Göttin von "
+   "allem, das gut und friedlich ist. Sie wohnt im murmelnden Bach, im "
+   "ruhigen Wind und im sanften Regen. Gepriesen sei ihr Name.~k\""
+shalillepriestess_speech_038 = de \
+   "~kPriesterin Xiana sagt, \"~bIch fürchte, Shal'ille benötigt zurzeit "
+   "keine Schüler.~k\""
+shalillepriestess_speech_039 = de \
+   "~kPriesterin Xiana sagt, \"Jedes Mal, wenn ich an seine Tragödie denke, "
+   "bete ich für seine Seele.\""
+shalillepriestess_speech_040 = de \
+   "~kPriesterin Xiana sagt, \"~bHerr Kraanan hat viele Anhänger in Tos, "
+   "daher muss es eine großartige Stadt sein.~k\""
+shalillepriestess_speech_041 = de \
+   "~kPriesterin Xiana sagt, \"Ohne Vertrauen in die Harmonie aller Dinge "
+   "neigen wir eher dazu, uns dem zuzuwenden, was die leichte Lösung "
+   "verspricht. Venya'cyr nahm den leichten Pfad zu ihren Wünschen, und es "
+   "kostete sie ihre unsterbliche Seele.\""
+shalillepriestess_speech_042 = de \
+   "~kPriesterin Xiana sagt, \"Wenn er nicht überlebt hätte, wäre die "
+   "Geschichte sicher ganz anders verlaufen.\""
+shalillepriestess_random_001 = de \
+   "~kPriesterin Xiana sagt, \"~bDie Waldschrate von Faronath sind "
+   "friedliche Wesen. Sie dienen Shal'ille.~k\""
+shalillepriestess_random_002 = de \
+   "~kPriesterin Xiana sagt, \"~bDie kleine Miriana verbreitet Lügen über "
+   "unsere Herrin. Sie sollte besser gemieden werden.~k\""
+shalillepriestess_random_003 = de \
+   "~kPriesterin Xiana sagt, \"~bMaleval ist ein Monster. Er verbreitet "
+   "nichts als Lügen.~k\""
+shalillepriestess_random_004 = de \
+   "~kPriesterin Xiana sagt, \"~bEs gibt kaum Gründe, gute Kreaturen zu "
+   "fürchten, solange Du selbst gut bist.~k\""
+shalillepriestess_random_005 = de \
+   "~kPriesterin Xiana sagt, \"~bMonster zu töten ist wesentlich akzeptabler "
+   "als Menschen zu töten. Mord ist der schnellste Weg, um in Ungnade zu "
+   "fallen.~k\""
+shalillepriestess_random_006 = de \
+   "~kPriesterin Xiana sagt, \"~bViele bemerken nicht, dass das Töten nicht "
+   "ohne Folgen bleibt. Oft manifestiert sich ein schrecklicher Geist, der "
+   "das unschuldige Opfer rächen will.~k\""
+shalillepriestess_random_007 = de \
+   "~kPriesterin Xiana sagt, \"~bJene, die guter Natur sind, werden mit "
+   "einem Geschenk belohnt, sollten sie ein Opfer der Unterwelt werden.~k\""
+shalillepriestess_random_008 = de \
+   "~kPriesterin Xiana sagt, \"~bDas Meistern der Lehren von Shal'ille ist "
+   "einfacher, wenn Dein Geist von den Einflüssen anderer Götter befreit "
+   "ist. Ein Trank des Vergessens kann dabei helfen, hat aber oft böse "
+   "Nebenwirkungen.~k\""
+shalillepriestess_random_009 = de \
+   "~kPriesterin Xiana sagt, \"~bIn Tos gibt es eine Arena, die dem Ehemann "
+   "unserer Herrin geweiht ist. Dort gibt es nur Schaukämpfe, Du brauchst "
+   "also keine Angst vor dem Tod zu haben.~k\""
+shalillepriestess_random_010 = de \
+   "~kPriesterin Xiana sagt, \"~bDie Gottestage von Shal'ille sind wahrlich "
+   "fröhliche und friedliche Feiertage im ganzen Land.~k\""
+shalillepriestess_random_011 = de \
+   "~kPriesterin Xiana sagt, \"~bIn der nördlichen Ecke des Tempels befindet "
+   "sich der Teich der Heiterkeit. Bade in seinen Wassern und finde den "
+   "Frieden in Dir. Nimm Dir ein paar Augenblicke, um den Ärger des Tages "
+   "loszulassen und zu erkennen, dass Du nur zur Entspannung auf dieser Welt "
+   "bist. Kein Problem hier ist es wert, sich wirklich darüber "
+   "aufzuregen.~k\""
+shalillepriestess_random_012 = de \
+   "~kPriesterin Xiana sagt, \"~bIn der südlichen Ecke des Tempels findest "
+   "Du das Becken der Vergebung. Knie davor nieder und vergib dem Menschen, "
+   "den Du am wenigsten magst, denn er will Dir nicht wirklich Schmerz "
+   "zufügen; er sieht die Dinge nur von einem anderen Standpunkt aus. Trage "
+   "nicht die Last eines nutzlosen Grolls, sonst bist Du allein es, der "
+   "leidet.~k\""
+shalillepriestess_random_013 = de \
+   "~kPriesterin Xiana sagt, \"~bManche werfen mir vor, dass ich mich den "
+   "Wünschen Kraanans beuge. Männer verfügen über große körperliche Kraft "
+   "und müssen respektiert werden, aber die Macht von Frieden und "
+   "Wiedergeburt liegt in der Seele der Frauen.~k\""
+shalillepriestess_random_014 = de \
+   "~kPriesterin Xiana sagt, \"~bGepriesen sei Shal'ille, die Ruhige!~k\""
+shalillepriestess_random_015 = de \
+   "~kPriesterin Xiana sagt, \"~bUnsere Herrin schenkt Dir ein sanftes "
+   "Lächeln.~k\""
+shalillepriestess_random_016 = de \
+   "~kPriesterin Xiana sagt, \"~bMöge Shal'ille Deinen Feldern sanften Regen "
+   "schenken.~k\""
+shalillepriestess_random_017 = de \
+   "~kPriesterin Xiana sagt, \"~bMögest Du Frieden in der Betrachtung "
+   "unserer Herrin finden.~k\""
+shalillepriestess_random_018 = de \
+   "~kPriesterin Xiana sagt, \"~bJene, die sich als die Würdigsten erweisen, "
+   "werden von unserer Herrin mit zusätzlicher Hilfe bei ihren Zaubern "
+   "gesegnet.~k\""
+shalillepriestess_random_019 = de \
+   "~kPriesterin Xiana sagt, \"~bDer Legende nach opferten sich die Götter "
+   "im Heiligen Land der Trolle, als der Nexus vor Hunderten von Jahren "
+   "zusammenbrach.~k\""
+shalillepriestess_random_020 = de \
+   "~kPriesterin Xiana sagt, \"~bDie Toten sollten geehrt werden. Blumen an "
+   "einer Gedenkstätte niederzulegen dient eher dem spirituellen Wohl der "
+   "Lebenden als dem der Verstorbenen.~k\""
+shalillepriestess_random_021 = de \
+   "~kPriesterin Xiana sagt, \"~bIch bin entsetzt über die "
+   "gotteslästerlichen Dinge, die Miriana über Shal'ille und Faren "
+   "verbreitet. Das Mädchen sollte ausgepeitscht werden. Oh, vergib mir, "
+   "Shal'ille, dass ich solche abscheulichen Sachen sage.~k\""
+shalillepriestess_trigger_amulet = de "amulett"
+shalillepriestess_trigger_sell = de "verkauf"
+shalillepriestess_trigger_bye = de "ciao"
+shalillepriestess_trigger_council = de "ratsmitglied"
+shalillepriestess_trigger_days = de "gottestage"
+shalillepriestess_trigger_duke = de "herzog"
+shalillepriestess_trigger_hello = de "hallo"
+shalillepriestess_trigger_help = de "hilfe"
+shalillepriestess_trigger_holiday = de "ferien"
+shalillepriestess_trigger_holiday_2 = de "feiertag"
+shalillepriestess_trigger_hunter = de "jäger"
+shalillepriestess_trigger_hunter_sword = de "jagdschwert"
+shalillepriestess_trigger_learn = de "lernen"
+shalillepriestess_trigger_necromancer = de "nekro"
+shalillepriestess_trigger_node = de "quelle"
+shalillepriestess_trigger_prayer = de "beten"
+shalillepriestess_trigger_prayer_2 = de "gebet"
+shalillepriestess_trigger_princess = de "prinzessin"
+shalillepriestess_trigger_buy = de "kaufen"
+shalillepriestess_trigger_shal_ille = de "sha-lill"
+shalillepriestess_trigger_sha_lill = de "shal'ille"
+shalillepriestess_trigger_student = de "schüler"
+
+// Temples
+temples_speech_001 = de "~k%ss Bitte um Insignien wird überhört."
+temples_trigger_insignia = de "insignien"

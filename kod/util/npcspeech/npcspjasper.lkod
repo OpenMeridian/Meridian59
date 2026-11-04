@@ -1,0 +1,2307 @@
+// JasperBanker
+jasperbanker_speech_001 = de \
+   "~kYevitan sagt, \"Deswegen solltest Du vielleicht mit Jonas sprechen.\""
+jasperbanker_speech_002 = de \
+   "~kYevitan sagt, \"Ah ja, Barloque war viele Jahre lang mein Zuhause, "
+   "während ich im Dienste des Königs stand. Einst war es der Sitz der "
+   "imperialen Macht in Meridian, doch jetzt steht an seiner Stelle nur noch "
+   "das Gespenst einer Stadt. Geisterhafte Überreste. Es ist nicht mehr das "
+   "Zentrum von irgendetwas, außer von Meridians eigener Kanalisation.\""
+jasperbanker_speech_003 = de \
+   "~kYevitan sagt, \"Ich habe jahrelang in Barloque gewohnt, aber jetzt bin "
+   "ich sehr froh, wieder unter meinen eigenen Leuten zu leben. Ich war nie "
+   "der Meinung, dass ich dort hinpasste, habe mich dort nie zugehörig "
+   "gefühlt. Vielleicht liegt es daran, wie sie dort sprechen, sie haben "
+   "eine eigenartige Art zu sprechen - elitär. Wie auch immer, es ist nicht "
+   "sehr einladend.\""
+jasperbanker_speech_004 = de \
+   "~kYevitan sagt, \"Es ist ein goldener Käfig, diese gottverlassene Stadt. "
+   "Ein Gefängnis aus Samt, bewacht von einer Bande aus Dieben und durch "
+   "Inzucht verblödeten Schwachköpfen, wo Verstand ein Nachteil ist und eine "
+   "ehrliche Meinung demjenigen, der sie äußert, gefährlich wird. Geh jetzt, "
+   "ich sage nichts mehr. Ich habe genug von Dir.\""
+jasperbanker_speech_005 = de \
+   "~kYevitan sagt, \"Sag mir, ist das etwas, für das Du die Hingabe "
+   "besitzt, es weiter zu verfolgen? Ist das etwas, das Du mit Zuxana "
+   "besprochen hast? Du musst in dieser Angelegenheit äußerst vorsichtig "
+   "vorgehen.\""
+jasperbanker_speech_006 = de "~kYevitan sagt, \"Auf Wiedersehen.\""
+jasperbanker_speech_007 = de \
+   "~kYevitan sagt, \"Um ehrlich zu sein, gehe ich aus keinem Grund jemals "
+   "dorthin, aber die Gründe sind ganz und gar persönlich. Weißt Du, ich "
+   "kann nicht nach Cor Noth gehen, ohne dieser kleinen Ratte Parrin Aragone "
+   "über den Weg zu laufen, einem Mann, den ich noch nie auch nur im "
+   "Geringsten ertragen konnte.\""
+jasperbanker_speech_008 = de \
+   "~kYevitan sagt, \"Um ehrlich zu sein, gehe ich nie dorthin. Das ist aber "
+   "eine persönliche Geschichte.\""
+jasperbanker_speech_009 = de \
+   "~kYevitan sagt, \"Nun, persönlich nicht gerade meine Lieblingsstadt.\""
+jasperbanker_speech_010 = de \
+   "~kYevitan sagt, \"Was ist damit? Du gehst mir mit Deinen albernen Fragen "
+   "auf die Nerven.\""
+jasperbanker_speech_011 = de "~kYevitan sagt, \"Machtlose alte Männer.\""
+jasperbanker_speech_012 = de \
+   "~kYevitan sagt, \"Eine Art Übergangsregierung, nehme ich an.\""
+jasperbanker_speech_013 = de \
+   "~kYevitan sagt, \"Was denn jetzt? Rat? Los, Schurke, raus!\""
+jasperbanker_speech_014 = de \
+   "~kYevitan sagt, \"Ah ja, die große Schlacht an der Denthan-Furt. Sie ist "
+   "ein Wendepunkt in unserer Geschichte, das heißt in der Geschichte des "
+   "Volkes von Jasper, denn sie markiert das Ende unserer Unabhängigkeit, "
+   "als das Heer der Wryn dort von den Truppen Zarcos' II. besiegt wurde. "
+   "Doch ganz im Geiste des Volkes von Jasper markierte sie auch das Ende "
+   "von Zarcos II. Dafür hat mein Volk gesorgt. Er hat dieses Feld nie "
+   "wieder verlassen.\""
+jasperbanker_speech_015 = de \
+   "~kYevitan sagt, \"Ah, ja, die große Schlacht von Denthan. Sie war ein "
+   "Wendepunkt in unserer Geschichte. \""
+jasperbanker_speech_016 = de \
+   "~kYevitan sagt, \"Du willst über diesen nutzlosen, angeberischen, "
+   "wichtigtuerischen Narren sprechen? Den Mann interessieren dieses Land "
+   "und dessen Bewohner nicht mehr, als Dich oder mich das Schicksal eines "
+   "Spinnenbabys interessiert. Er wird auf jeden Fall niemals König werden. "
+   "Und falls es da doch noch Zweifel geben sollte, werde ich, im Namen der "
+   "Götter, selber die Initiative ergreifen. Wenn der Tag kommt, werde ich "
+   "mich selber um ihn kümmern... \""
+jasperbanker_speech_017 = de \
+   "~kYevitan sagt, \"Ja. Was ist mit dem albernen kleinen Sabberer?\""
+jasperbanker_speech_018 = de \
+   "~kYevitan knurrt, \"Was? Ich schulde dem kleinen Riija-Hündchen gar "
+   "nichts. Ich hab meine Schulden an seinen Onkel bezahlt, und ich hab "
+   "Aufzeichnungen, die das beweisen.\""
+jasperbanker_speech_019 = de \
+   "~kYevitan sagt, \"Es gibt in diesem Königreich viele Leute, die Frular "
+   "von Barloque kritisch betrachten. Und ich werde mich nicht hinstellen "
+   "und sagen, dass das nicht gerechtfertigt wäre. Aber man kann über ihn "
+   "sagen, was man will, er ist ein Genie, wenn es darum geht, Investitionen "
+   "zu tätigen, die dann zu Geld werden. Ein Genie. Ich habe noch nie einen "
+   "solchen Mann erlebt, nicht einmal Bei Naq in seinen besten Zeiten, und "
+   "die waren natürlich Jahre, bevor Du überhaupt geboren wurdest... \""
+jasperbanker_speech_020 = de \
+   "~kYevitan sagt, \"Ja, der Baron von Cor Noth oder ähnlicher Firlefanz. "
+   "Ein weiterer von vielen am Königlichen Hof, die nichts zu tun haben, als "
+   "ihre Langeweile in die Öffentlichkeit zu tragen. Doch ihre Zeit wird "
+   "kommen, Du wirst es sehen.\""
+jasperbanker_speech_021 = de \
+   "~kYevitan sagt, \"Ja bitte? Was kann ich für Dich tun?\""
+jasperbanker_speech_022 = de \
+   "~kYevitan sagt, \"Herbut? Der wichtigtuerische Spinner. Der königliche "
+   "Hof ist voll von Seinesgleichen, angeberische Speichellecker, die sich "
+   "auf der Suche nach Tischabfällen miteinander balgen. Und ich weiß, wovon "
+   "ich rede, denn während all meiner Jahre bei Hofe und all meiner "
+   "ergebenen Dienste für Seine Majestät Zarcos V. waren es Leute wie dieser "
+   "Herbut, die es stets darauf angelegt haben, mich daran zu erinnern, dass "
+   "ich nur aus Jasper war. ~INur~I aus Jasper und darum lediglich geeignet "
+   "für eine vorübergehende Stellung im Kreise der sogenannten Elite.\""
+jasperbanker_speech_023 = de \
+   "~kYevitan sagt, \"Nun, es ist ein merkwürdiger Ort für Außenstehende... "
+   "aber es ist ein Ort mit großem Potential. Häh? Großes ~IPotential~I. "
+   "Nirgendwo sonst gibt es härtere Menschen. Oder loyalere. Und Loyalität "
+   "bedeutet alles in dieser Welt bei dem ständigen Hin und Her und den "
+   "Umschwüngen. Diese Menschen kommen aus den Bergen und bestimmen die "
+   "politische Zukunft dieses Landes.\""
+jasperbanker_speech_024 = de \
+   "~kYevitan sagt, \"Habe ihn viele Jahre nicht gesehen. Oh, das muss "
+   "mindestens zehn Jahre her sein. Er war immer ein wenig, na ja, Du weißt "
+   "schon, affektiert.\""
+jasperbanker_speech_025 = de \
+   "~kYevitan sagt, \"Ah, ich hatte noch nie das Vergnügen, einen so feinen "
+   "Menschen zu treffen. Starker Wille, klarer Verstand und eine so "
+   "glorreiche Vision. Er hat meine volle Unterstützung.\""
+jasperbanker_speech_026 = de \
+   "~kYevitan sagt, \"Nun, das ist ein neues System seit meiner Zeit bei "
+   "Hofe. Aber es ist zum Lachen. Eine Position ohne jede Macht, die dem "
+   "höchsten Bieter offensteht. Das soll unsere Gerichtsbarkeit sein? Na, in "
+   "Ordnung, dann... \""
+jasperbanker_speech_027 = de \
+   "~kYevitan sagt, \"Na ja, Du musst verstehen, dass er ein sehr alter "
+   "Freund ist, egal, wie er als Herrscher dieses Königreiches war. Es war "
+   "nie besonders passend für ihn, König zu sein. Zu sensibel, zu leicht "
+   "verwundbar. Er hält sich jetzt an einem sicheren Ort auf. Es ist Dir "
+   "sicher klar, dass das auch besser so ist, denn würde er sich hier "
+   "zeigen, wäre er ein toter Mann. In diesem Land gibt es mächtige Leute, "
+   "die es sich nicht leisten könnten, dass er unerwartet auftaucht.\""
+jasperbanker_speech_028 = de \
+   "~kYevitan sagt, \"Der König ist untergetaucht. Im Exil, versteckt sich, "
+   "wie auch immer Du das nennen möchtest. Aber das weißt Du sicher sowieso "
+   "schon, da das allgemein bekannt ist.\""
+jasperbanker_speech_029 = de \
+   "~kYevitan sagt, \"Du fragst mich, wo der König ist? Ist es das, was Du "
+   "wissen möchtest? Bah! Selbst wenn ich es wüsste, wie kommst Du darauf, "
+   "dass ich es Dir erzählen würde? Hinfort mit Dir, Du Narr! Ich habe nicht "
+   "genügend Energie für Dich und Dein Geschwätz.\""
+jasperbanker_speech_030 = de \
+   "~kYevitan sagt, \"Lady Aftyn ist eine treue Freundin von Zarcos, und ich "
+   "muss sagen, trotz ihrer Ansichten ist ein Freund meines Verbündeten auch "
+   "mein Freund. Ich behalte sie sorgfältig im Auge.\""
+jasperbanker_speech_031 = de \
+   "~kYevitan sagt, \"Marion spielt eine Schlüsselrolle in der politischen "
+   "Landschaft Meridians, obwohl man das bei dem verschlafenen Eindruck, den "
+   "es erweckt, nicht erwarten würde. Marion ist eine royalistische "
+   "Hochburg, dem König treu ergeben.\""
+jasperbanker_speech_032 = de \
+   "~kYevitan sagt, \"Eine sehr bescheidene Gegend, mit eher bescheidenen "
+   "Ambitionen und Mitteln.\""
+jasperbanker_speech_033 = de \
+   "~kYevitan sagt, \"Was? Marion? Warum vergeudest Du meine Zeit mit Deinem "
+   "unaufhörlichen Geschwätz? Ich versuche hier eine Bank zu leiten.\""
+jasperbanker_speech_034 = de \
+   "~kYevitan sagt, \"Ein komischer Kauz. Ich habe gehört, dass er von einer "
+   "Art Fieber des religiösen Fanatismus besessen ist. In den Jahren, als "
+   "ich mit ihm bekannt war, servierte er Getränke und wusste immer den "
+   "neusten Klatsch. Hat selber auch gerne mal einen über den Durst "
+   "getrunken. Und jetzt hat er Shal'ille gefunden? Na ja, das sollte Dir "
+   "etwas sagen.\""
+jasperbanker_speech_035 = de \
+   "~kYevitan sagt, \"Meister Cair'bre ist ein wahrer Gentleman, und seit "
+   "einigen Jahren ein persönlicher Freund von mir. Ich würde ihm ohne zu "
+   "zögern meinen gesamten Besitz anvertrauen, und wäre er noch so "
+   "wertvoll.\""
+jasperbanker_speech_036 = de \
+   "~kYevitan sagt, \"Obwohl sie viele liebenswerte Qualitäten hat, kann ich "
+   "Dir mit Sicherheit sagen, dass Führungsqualitäten nicht darunter sind. "
+   "Sicherlich hat das Königtum seinen Platz in diesem Reich, aber ich "
+   "beharre darauf, dass die Zeit reif ist für eine dynamischere Führung. "
+   "Ganz unter uns - wenn die Zeit gekommen ist und eine Armee diese Hügel "
+   "hinuntermarschiert, um eine neue Königin oder einen neuen König auf den "
+   "Thron zu setzen, wo wirst Du dann sein, mein Freund?\""
+jasperbanker_speech_037 = de \
+   "~kYevitan sagt, \"Äußerst höflich und verständnisvoll, Qualitäten, die "
+   "sie von ihrer verstorbenen Mutter geerbt hat, der seligen Königin "
+   "Katria.\""
+jasperbanker_speech_038 = de \
+   "~kYevitan sagt, \"Ein nettes Mädchen, aber ein Mädchen ist alles, was "
+   "sie ist. Sie wird niemals das Rückgrat oder den Verstand haben, um eine "
+   "fähige Herrscherin zu sein.\""
+jasperbanker_speech_039 = de \
+   "~kYevitan sagt, \"Es gibt Gründe dafür, dass all unsere Götter ihre "
+   "jeweilige Stellung einnehmen. Wenn Du mehr über Qor herausfinden willst, "
+   "würde ich vorschlagen, dass Du Priesterin Zuxana aufsuchst. Sie wird Dir "
+   "aufzeigen, wo Du Deine Ausbildung beginnen solltest.\""
+jasperbanker_speech_040 = de \
+   "~kYevitan sagt, \"Nun ja... Tos ist eine eher altmodische Stadt mit "
+   "einem eher modischen politischen Klima, wenn Du verstehst, was ich "
+   "meine. Den Leuten von Tos ist es wichtiger, dass es so aussieht, als "
+   "würden Aktionen unternommen, als die Durchführung von Aktionen selber, "
+   "oder deren Auswirkungen. Es ist ein recht einfacher Ort, wirklich. Voll "
+   "von ... na ja, Einfaltspinseln.\""
+jasperbanker_speech_041 = de \
+   "~kYevitan sagt, \"Hmmm? Tos? Letztes Mal als ich durch die Tore ging, "
+   "lebte es noch und schlecht ging es ihm auch nicht.\""
+jasperbanker_speech_042 = de \
+   "~kYevitan sagt, \"Du stellst zu viele Fragen, das ist nicht gut für "
+   "Dich.\""
+jasperbanker_speech_043 = de \
+   "~kYevitan sagt, \"Ein bemerkenswerter Mann... Ganz anders als der "
+   "Anschein, den er erweckt, das kann ich Dir versichern.\""
+jasperbanker_speech_044 = de \
+   "~kYevitan sagt, \"Troll-Whiskey? Hör mir zu - hör mir genau zu! Du "
+   "solltest hier jetzt wirklich lieber verschwinden, bevor es Ärger gibt.\""
+jasperbanker_speech_045 = de "~kYevitan sieht Dich sehr genau an."
+jasperbanker_speech_046 = de \
+   "~kYevitan sagt, \"Sie ist ein Geheimnis. Ein höchst mächtiges Geheimnis. "
+   "Denn was bewegt Qor und ihre Diener? Das ist eine Frage, die, ich "
+   "befürchte es, keiner beantworten kann.\""
+jasperbanker_random_001 = de \
+   "~kYevitan sagt, \"Ein alter Mann lernt Überlebensmöglichkeiten kennen, "
+   "oder er wird gar nicht erst ein alter Mann. Wenn Du einen Mord "
+   "vertuschen musst, und in diese Lage kommt jeder irgendwann einmal, ist "
+   "es das Beste, wenn Dich keiner sieht. Dafür kenne ich einen Trick. Aber "
+   "dabei handelt es sich um Qor-Magie und man benötigt ein gewisses "
+   "Verständnis des Betrügers, um ihn anzuwenden.\""
+jasperbanker_random_002 = de \
+   "~kYevitan sagt, \"Du wirst feststellen, dass jeder einen anderen Aspekt "
+   "der Geschichte kennt. Für einen gewieften politischen Strategen sind all "
+   "diese Informationen von Bedeutung, vorausgesetzt, Du katalogisierst sie "
+   "für den späteren Gebrauch. Der Schlüssel, mein Freund, liegt darin, wie "
+   "Du Deine Fragen stellst und wie die Laune der befragten Person ist. Und "
+   "selbstverständlich ist alles, was Du unternehmen kannst, um diese Laune "
+   "zu verbessern, von größter Wichtigkeit... \""
+jasperbanker_random_003 = de \
+   "~kYevitan sagt, \"All dieser politische Tumult zwischen Herzog Kalior "
+   "und der jungen Prinzessin scheint viele Bürger verärgert zu haben. Und "
+   "zu Recht! Die Leute brauchen eine anständige Regierung, zu der sie "
+   "aufblicken, die sie bewundern und respektieren können. Genau das, was "
+   "Jonas und ich nun dem Land zu geben versuchen.\""
+jasperbanker_random_004 = de \
+   "~kYevitan sagt, \"Es ist eine unsichere Welt, aber Du kannst Deinen "
+   "finanziellen Status ziemlich gut absichern, wenn Du Dein Geld in dieser "
+   "Institution aufbewahrst.\""
+jasperbanker_random_005 = de \
+   "~kYevitan sagt, \"Abenteuertum ist gut und schön, aber letzten Endes "
+   "musst Du an Deine finanzielle Situation denken! Geld regiert die Welt, "
+   "in der wir leben, mein Freund. Die ~Ifunktionierende~I Welt.\""
+jasperbanker_random_006 = de \
+   "~kYevitan sagt, \"Ein junger, umtriebiger Mensch wie Du kann sich "
+   "Wohlwollen verdienen, indem er Botengänge übernimmt, also indem er für "
+   "bestimmte Leute Mitteilungen und ähnliches zwischen den Städten "
+   "Meridians befördert.\""
+jasperbanker_random_007 = de \
+   "~kYevitan sagt, \"Hast Du schon mit Hester Gilk in Cor Noth gesprochen? "
+   "Sie kennt Quellen, die Du im Laufe Deiner Reise vielleicht für nützlich "
+   "erachten könntest... \""
+jasperbanker_random_008 = de \
+   "~kYevitan sagt, \"Es wird zu viel Wirbel um den Herzog und die "
+   "Prinzessin gemacht. Die Leute erkennen die tatsächliche Situation nicht "
+   "mehr, die darin besteht, dass keine der beiden Seiten in der Lage ist zu "
+   "regieren! Stimmt genau - nicht in der Lage. Ich bin ein alter Mann, der "
+   "den Mut hat, das zuzugeben. Ich weiß, dass unseren Leuten das auch klar "
+   "ist, aber keiner traut sich, die Wahrheit zu sehen und schon gar nicht, "
+   "etwas zu sagen. Was für eine Art von politischer Situation ist das "
+   "denn?\""
+jasperbanker_random_009 = de \
+   "~kYevitan sagt, \"Es gibt noch mehr Ärger als zuvor, jetzt, wo Akardius "
+   "Herzog ist. Er und die Prinzessin - es sieht so aus, als stünden sie "
+   "wieder ganz am Anfang. Der Konflikt beginnt von vorne. Die perfekte Zeit "
+   "für einen neuen Mitspieler, was?\""
+jasperbanker_random_010 = de \
+   "~kYevitan sagt, \"Wer wird die nächste Königin oder der nächste König "
+   "dieses Landes sein? Schau Dich um, mein Freund. Du? Wenn Dein Land nach "
+   "Dir ruft, würdest Du es dann anführen? Na gut, ich erzähl Dir was: ICH "
+   "werde es nicht sein, das kann ich Dir sagen, denn ich bin ein alter Mann "
+   "und meine Stärke ist es, aus dem Hintergrund zu agieren und nicht zu "
+   "regieren ... aber ich sage Dir Folgendes: Ich habe eine Menge Einfluss "
+   "darauf, wer es sein wird, das kannst Du mir glauben! Und denke daran, "
+   "dass Jonas meine volle Unterstützung hat.\""
+jasperbanker_random_011 = de \
+   "~kYevitan sagt, \"Wie mein guter Freund König Zarcos V. immer zu sagen "
+   "pflegte: 'Entsage dem Luxus, um das Gesparte zu verwöhnen'. Das ist "
+   "königlicher Rat, %s, aber habe ich ihn nicht gut erzogen?\""
+jasperbanker_random_012 = de \
+   "~kYevitan sagt, \"Jasper wird größer als je zuvor sein ... sehr bald "
+   "schon.\""
+jasperbanker_random_013 = de \
+   "~kYevitan sagt, \"Qor lächelt Geschäftsleuten und Rebellen zu, denn es "
+   "gibt sogar ein System, um das System zu brechen... \""
+jasperbanker_random_014 = de \
+   "~kYevitan sagt, \"Wie schön, Dich wiederzusehen, %s! Ich hoffe zutiefst, "
+   "dass Du in der Zwischenzeit erfolgreich warst und es Dir gelungen ist, "
+   "dem Herzog und seiner Horde Halsabschneider aus dem Weg zu gehen.\""
+jasperbanker_random_015 = de \
+   "~kYevitan sagt, \"Jede Einzahlung, die Du tätigst, verbleibt sicher in "
+   "meinen Safes, egal was dem Kontoinhaber auch passieren mag. Das ist die "
+   "gültige Regel hier in der königlichen Bank von Jasper und darauf hast Du "
+   "mein Wort als Geschäftsmann.\""
+jasperbanker_random_016 = de \
+   "~kYevitan sagt, \"Es ist eine harte Welt, mein Freund, eine Welt, in "
+   "der, so leid es mir tut, das sagen zu müssen, Deine Bedeutung für die "
+   "herrschenden Kräfte genauso gerechnet wird, wie Bohnen gezählt werden. "
+   "Eins, zwei, drei, vier usw., usw. Das ist nun mal die Realität in einem "
+   "politischen System, das ausschließlich auf wirtschaftlichen Konstrukten "
+   "basiert. Wir werden nicht gefragt, ob es uns so gefällt, aber so müssen "
+   "wir leben, bis wir die Kraft aufbringen, um eine Veränderung "
+   "herbeizuführen.\""
+jasperbanker_random_017 = de \
+   "~kYevitan sagt, \"Es stimmt, dass ich viele Jahre im Dienste unseres "
+   "letzten Königs, Zarcos V., stand, bevor ich mich in diesem Geschäft "
+   "niedergelassen habe. Jetzt glaube ich, dass mir ein privates Leben "
+   "besser zusagt als die Atmosphäre am Königlichen Hof. All dieses Getue um "
+   "Abstammung und Privilegien bei Hofe!\""
+jasperbanker_random_018 = de \
+   "~kYevitan sagt, \"Selbst heutzutage gibt es immer noch Leute, die in dem "
+   "sentimentalen Glauben leben, dass Konima in dieses Königreich "
+   "zurückkehren wird, um uns von unseren derzeitigen Heimsuchungen zu "
+   "befreien! Seit gut zweihundertzwanzig Jahren ist er verschwunden, und er "
+   "soll wiederkommen, um uns aus diesem Schlamassel herauszuholen, in den "
+   "wir uns hineingeritten haben! Kannst Du Dir das vorstellen?\""
+jasperbanker_random_019 = de \
+   "~kYevitan sagt, \"Es wäre klug, all Deine notwendigen Vorräte "
+   "aufzustocken, bevor Du Jasper verlässt, um so eine sichere Reise durch "
+   "diese Berge zu gewährleisten. Jasper ist zwar beileibe keine große "
+   "Stadt, aber die Qualität unserer Waren ist unübertroffen!\""
+jasperbanker_random_020 = de \
+   "~kYevitan sagt, \"Es gibt so viele neue Reisende in unserem Land, so "
+   "viele neue Möglichkeiten. Wir befinden uns am Rande einer sich ändernden "
+   "Welt, mein Freund.\""
+jasperbanker_random_021 = de \
+   "~kYevitan sagt, \"Wenn Du Dein Geld hier in der Königlichen Bank "
+   "anlegst, kannst Du auch bei der Ersten Königlichen Bank in Tos über Dein "
+   "Konto verfügen, denn obwohl dem Herzog nicht mehr beide Institutionen "
+   "gehören, finde ich es für meine Kunden viel beruhigender, wenn die "
+   "Banken zusammenarbeiten.\""
+jasperbanker_random_022 = de \
+   "~kYevitan sagt, \"Ich hoffe wirklich sehr, dass Du die zögerliche Natur "
+   "der Leute hier in Jasper nicht als Unfreundlichkeit missverstehst. Im "
+   "Gegenteil, dies hier sind gute, starke Menschen, die sehr gut darin "
+   "sind, das Beste und das Schlechteste in einem Außenstehenden zu "
+   "erkennen.\""
+jasperbanker_random_023 = de \
+   "~kYevitan sagt, \"Du solltest immer Dein Eigenkapital im Auge behalten, "
+   "mein Freund.\""
+jasperbanker_random_024 = de \
+   "~kYevitan sagt, \"Ja, kann ich Dir helfen? Vielleicht mit einem "
+   "finanziellen Rat?\""
+jasperbanker_random_025 = de \
+   "~kYevitan sagt, \"Hast Du heute eine Einzahlung zu machen, %s?\""
+jasperbanker_random_026 = de \
+   "~kYevitan sagt, \"Was kann ich für Dich tun, %s?\""
+jasperbanker_random_027 = de \
+   "~kYevitan sagt, \"Zauberwirker von Qor wie von Shal'ille werden "
+   "feststellen, dass ihre Fähigkeiten umso stärker werden, je extremer ihr "
+   "Karma ist.\""
+jasperbanker_random_028 = de \
+   "~kYevitan sagt, \"Bringst Du Neuigkeiten? Ist es das, was Du hier tust, "
+   "kleine Botenmücke? Neuigkeiten aus dem Königreich? Bah, Du langweilst "
+   "mich. Zieh Leine, Wicht.\""
+jasperbanker_random_029 = de \
+   "~kYevitan sagt, \"Hat Dich der Herzog geschickt, um mich zu Tode zu "
+   "nerven, bist Du deswegen noch hier? Er ist ein Mann von so bescheidenen "
+   "Talenten, dass es mich wundern würde, wenn ich herausfände, dass er "
+   "irgendeinen Dorftrottel angeheuert hat, um meine Zeit in Beschlag zu "
+   "nehmen, jetzt wo ich keine Verbindung mehr zu ihm habe. Er kann es "
+   "einfach nicht ertragen, dass sich jemand aus seinem schleimigen kleinen "
+   "Griff befreit hat, nicht wahr?\""
+jasperbanker_random_030 = de \
+   "~kYevitan sagt, \"Wenn Du mich um Rat fragst, was Du zu tun scheinst, "
+   "%s, würde ich Dir raten, Deine Bankgeschäfte auf diese vier Wände zu "
+   "beschränken. Du kannst Dir natürlich Deine eigene Meinung dazu bilden, "
+   "aber ich habe das Gefühl, dass Skivlat bei der Ersten Königlichen Bank "
+   "von Tos nicht so ~Igewissenhaft~I ist, wie er es sein könnte. Er scheint "
+   "mir ein etwas komischer Typ zu sein, weißt Du. Ziemlich komisch, genau "
+   "genommen.\""
+jasperbanker_random_031 = de \
+   "~kYevitan sagt, \"Als ob es nicht genug wäre, dass mich die Gerah "
+   "Springers und Herbuts dieser Welt plagen, jetzt belegst auch Du noch "
+   "meine Zeit und mein Geschäft, aus welch unsinnigem Grund auch immer. Nun "
+   "geh schon. Ich bin ein alter Mann in Jasper, um Qors willen, und ich "
+   "habe wirklich keine Zeit für Dich.\""
+jasperbanker_random_032 = de \
+   "~kYevitan sagt, \"Verschwendest Du meine Zeit? Geh und unterhalt Dich "
+   "mit Koldor, ich habe nicht die Geduld für Dich und Deinesgleichen.\""
+jasperbanker_random_033 = de \
+   "~kYevitan sagt, \"Du bist hier in einer Bank, nicht bei einem "
+   "Fischhöker. Trag Deinen Tratsch woanders hin - ich habe mich um die "
+   "Geschäfte zu kümmern.\""
+jasperbanker_random_034 = de "~kYevitan sagt, \"Was brauchst Du, Fremder?\""
+jasperbanker_random_035 = de \
+   "~kYevitan sagt, \"Wenn Du heute Geschäfte mit der Bank zu machen hast, "
+   "dann lass uns die jetzt erledigen, so dass wir uns beide wieder unseren "
+   "anderen Verpflichtungen zuwenden können.\""
+jasperbanker_random_036 = de \
+   "~kYevitan sagt, \"Also, ich habe wirklich keine Zeit, mich mit Dir zu "
+   "unterhalten. Außerdem liegt mir auch nichts daran, also verschwinde. "
+   "Mach schon. Na los.\""
+jasperbanker_trigger_army = de "armee"
+jasperbanker_trigger_blindness = de "blindheit"
+jasperbanker_trigger_bye = de "tschüss"
+jasperbanker_trigger_bye_2 = de "ciao"
+jasperbanker_trigger_bye_3 = de "wiedersehen"
+jasperbanker_trigger_council = de "ratsmitglied"
+jasperbanker_trigger_duke = de "herzog"
+jasperbanker_trigger_hello = de "hallo"
+jasperbanker_trigger_herbutte = de "herbut"
+jasperbanker_trigger_herbut = de "herbutte"
+jasperbanker_trigger_joguer = de "koldor"
+jasperbanker_trigger_koldor = de "joguer"
+jasperbanker_trigger_justicar = de "justikar"
+jasperbanker_trigger_justicar_2 = de "justiziar"
+jasperbanker_trigger_king = de "könig"
+jasperbanker_trigger_princess = de "prinzessin"
+
+// JasperBartender
+jasperbartender_speech_001 = de \
+   "~kPietro sagt, \"Verrückter alter Kerl. ~IDu~I solltest ihn besser "
+   "meiden, wenn ~IDu~I weißt, was gut für ~IDich~I ist!! Kein Wort mehr "
+   "über dieses Thema, kein verrücktes WORT!\""
+jasperbartender_speech_002 = de \
+   "~kPietro sagt, \"Ich weiß nicht, von wem Du redest.\""
+jasperbartender_speech_003 = de \
+   "~kPietro sagt, \"Was ist mit Dir, kannst Du Dich nicht um Deine eigenen "
+   "Angelegenheiten kümmern!?! ~IWer~I BIST Du überhaupt?\""
+jasperbartender_speech_004 = de \
+   "~kPietro sagt, \"~IBarloque~I ist der GRUND des Flusses, verstehst Du, "
+   "was ich meine?? Na, sagen wir einfach, Du tust es ~Inicht~I, obwohl "
+   "~Iich~I mir da nicht so sicher bin, ~Iwas das angeht~I. Ich bin mir da "
+   "~Ikein~I bisschen sicher, ~Iüberhaupt nicht~I. Aber hör trotzdem zu. Die "
+   "~Ialten Leute~I in dieser Stadt erzählen von einem ~ISchyschtem von "
+   "Kanälen~I, das unter GANZ Meridian verläuft, nicht nur unter Barloque, "
+   "wo die ~IRatten~I herkommen... diese Kanäle ~Iverbinden~I TOS, JASPER, "
+   "COR NOTH ~Iund Barloque~I, und dieses System mündet in ~IBARLOQUE~I. Das "
+   "heißt, Barloque, die ~IKönigliche Hauptstadt~I dieses Landes, ist das "
+   "Ende der Leitung für ~Iall das~I ABWASSER, ist ein einziger ~IGROSSER~I "
+   "Kanal... \""
+jasperbartender_speech_005 = de "~kPietro sagt, \"Ich reise nicht viel.\""
+jasperbartender_speech_006 = de \
+   "~kPietro sagt, \"Pocken über Dich, Pocken über Barloque, Pocken über "
+   "Deine Vorfahren, Pocken über Deine verrückten Gefäfte. Verpiff Dich!!\""
+jasperbartender_speech_007 = de \
+   "~kPietro sagt, \"Besen? Was für ein verrückter ~IBesen~I?\""
+jasperbartender_speech_008 = de \
+   "~kPietro sagt, \"Was, stottere ich etwa? Bar ischt GESCHLOSSEN, also "
+   "~Iverschwinde~I, hicks, ~IVERSCHWINDE~I endlich!\""
+jasperbartender_speech_009 = de \
+   "~kPietro sagt, \"Ich ~Ispucke~I Dich lieber an, als Dir einen DRINK zu "
+   "~Ischervieren~I, Esel.\""
+jasperbartender_speech_010 = de \
+   "~kPietro blickt kurz auf und sieht Dir beim Gehen zu."
+jasperbartender_speech_011 = de "~kPietro sagt, \"Humpf.\""
+jasperbartender_speech_012 = de \
+   "~kPietro sagt, \"Genau, raus mit Dir. Los. RAUS!!!\""
+jasperbartender_speech_013 = de \
+   "~kPietro sagt, \"In Cor Noth sind die ~IAnarchisten~I, Verschwörer und "
+   "~ISabotageexperten~I. GENAU. Humpf. Gut für sie, sag ich, wen ~Izum "
+   "Teufel~I interessiert's. Verbrennt den Rest von Meridian, und Jasper "
+   "wird immer noch da sein. ~ILasst~I sie doch machen, was sie wollen, den "
+   "ganzen verrückten Eintopf niederbrennen, bis auf die verrückte flache "
+   "Prärie, auf der er hockt.\""
+jasperbartender_speech_014 = de \
+   "~kPietro sagt, \"Soll ziemlich nett dort sein.\""
+jasperbartender_speech_015 = de \
+   "~kPietro sagt, \"Ich ~Ivermute~I, dass Du VON DORT kommst, Hund, und ich "
+   "vermute, dass ~Idiese Stadt~I einfach nicht Deinen verrückten "
+   "~IStandards~I entspricht.\""
+jasperbartender_speech_016 = de \
+   "~kPietro sagt, \"Ratsmitglieder? Die haben Artefakte, un' ez ~Iwird "
+   "gesagt~I, daz die Artefakte sich BEWEGEN können, ~Iganz von allein~I!! "
+   "Isch frag mich, waz in denen Artefakten drin iz, daz sie sich so bewegen "
+   "können.\""
+jasperbartender_speech_017 = de \
+   "~kPietro sagt, \"Behalte Deine verrückte Politik für Dich, Fremder. "
+   "~INiemand~I hier interessiert sich dafür, was Du über den Rat zu sagen "
+   "hast.\""
+jasperbartender_speech_018 = de \
+   "~kPietro sagt, \"Hör zu. Nimm Deine POLITIK und ~ISCHTOPF~I sie Dir ins "
+   "~IMaul~I.\""
+jasperbartender_speech_019 = de \
+   "~kPietro sagt, \"VERSCHWINDE, ~IFlachzange~I.\""
+jasperbartender_speech_020 = de \
+   "~kPietro sagt, \"Dieser verrückte Herzog ~Ihasst~I Jasper, und er hasst "
+   "auch die Leute von Jasper. Und weißt Du, warum? ~IWeil~I er uns nicht "
+   "~IKONTROLLIEREN~I kann, oder diese Stadt oder auch nur einen Teil davon. "
+   "Mögen ihn die ~IPocken~I heimsuchen. Und seine Armeen auch. Soll er "
+   "seine Armee in unsere Hügel bringen und es uns zeigen. WIR werden IHM "
+   "etwas zeigen können. Jawohl. ~IGENAU~I. Überall in den Bergen ~Iwerden~I "
+   "ihre Leichen liegen.\""
+jasperbartender_speech_021 = de \
+   "~kPietro sagt, \"Ich verfolge die Politik nicht.\""
+jasperbartender_speech_022 = de \
+   "~kPietro sagt, \"Geht Dich 'nen verrückten Dreck an, was ich denke, "
+   "Kotzbrocken.\""
+jasperbartender_speech_023 = de \
+   "~kPietro murmelt, \"Zu nichts gut, die Idioten, wenn das Leben ihnen "
+   "übel mitspielt, müssen sie immer gleich das Schicksal dafür "
+   "verantwortlich machen und nicht sich selbst.\""
+jasperbartender_speech_024 = de "~kPietro sagt barsch, \"Ja, WAS?!?\""
+jasperbartender_speech_025 = de "~kPietro sagt, \"Was willst Du?\""
+jasperbartender_speech_026 = de \
+   "~kPietro spuckt aus, die Spucke landet nahe bei Jonas' Stiefel, und er "
+   "wendet sich ab."
+jasperbartender_speech_027 = de \
+   "~kPietro sagt, \"Hab' ihn nur ein oder zweimal gesehen. Er treibt sich "
+   "hier in der Gegend rum... klar, was ich meine, oder? Er versucht nur "
+   "ständig, irgendwelchen Dreck zu verscherbeln.\""
+jasperbartender_speech_028 = de \
+   "~kPietro sagt, \"Diese Stadt hat mehr ~IGeheimnisse~I als eine Hure in "
+   "Barloque. Und das ist ~Ialles~I, was ich dazu sage. Das war's, verrückt "
+   "noch mal. Kein WEITERES ~IWort~I. Nein. Kein ~IWORT~I.\""
+jasperbartender_speech_029 = de \
+   "~kPietro sagt, \"Du bist hier offensichtlich fremd, also gebe ich Dir "
+   "einen kleinen Rat: Kümmere Dich in dieser Stadt um Deine eigenen "
+   "verrückten Geschäfte, wie alle anderen auch.\""
+jasperbartender_speech_030 = de \
+   "~kPietro sagt, \"Hier in diescher Schtadt gibt'z nix für Dich.\""
+jasperbartender_speech_031 = de \
+   "~kPietro sagt, \"Wir ~Ihassen~I diesche Leute.\""
+jasperbartender_speech_032 = de \
+   "~kPietro sagt, \"Weiß nicht. Sieh selbst nach.\""
+jasperbartender_speech_033 = de \
+   "~kPietro sagt, \"Bar ischt geschlossen. ~IVERSCHWINDE~I.\""
+jasperbartender_speech_034 = de \
+   "~kPietro sagt, \"Gerüchte besagen, dass sie nicht von einem Gott, "
+   "sondern von sich selbst redet.\""
+jasperbartender_speech_035 = de \
+   "~kPietro sagt, \"Sie ist bloß ein kleines Mädchen und jeder weiß, dass "
+   "Kinder von nichts eine Ahnung haben.\""
+jasperbartender_speech_036 = de \
+   "~kPietro sagt, \"~IHick~I Ift sie nicht das kleine, tanfende Mädchen, "
+   "daf denkt, die magifen Quellen rufen fie?\""
+jasperbartender_speech_037 = de \
+   "~kPietro sagt, \"Rausss ~Ihicks~I rausss aus meiner Bar und ~Ihicks~I, "
+   "kümmer Dich um Deine eigenen Sachen.\""
+jasperbartender_speech_038 = de \
+   "~kPietro sagt, \"Was ich gehört habe, ist: ...sie saugt die Quellen "
+   "nicht ganz aus, sie nimmt bloß immer ein bisschen und es dauert eine "
+   "Weile, bis sich das wieder regeneriert hat.\""
+jasperbartender_speech_039 = de \
+   "~kPietro sagt, \"Die Leute regen sich alle auf und es ist bloß'n Kind. "
+   "Was kann ein Kind schon so Schlimmes anstellen?\""
+jasperbartender_speech_040 = de \
+   "~kPietro sagt, \"~IHicks~I, blöde, ssuuu nix gute Kinder. Immer "
+   "schhhhmutzige Windeln, kannssssst se gar nix allein' machen lasssen.\""
+jasperbartender_speech_041 = de \
+   "~kPietro sagt, \"Die Prinzessin? Nun, ~Inett~I und ~Iordentlich~I, wie "
+   "sie ihren Vater VERSCHWINDEN ließ, nicht wahr? Ich weiß, man ~Isagt~I, "
+   "der König habe den ~IVerstand~I verloren, und glaub mir, das ~Ihat~I er. "
+   "Aber der Verstand der Leute kann auch manipu... sie können manipula... "
+   "der Verstand der Leute kann auch durch Magie und Hexerei ~Imanipuliert~I "
+   "werden, und mit wem umgibt sich die Prinzessin denn, wenn nicht mit "
+   "Leuten der ~IMagie~I, Zauberern und Magiern. Ich sage nicht, dass es die "
+   "Prinzessin selbst war, aber ihre Leute sind ~ISEHR GUT~I dabei "
+   "weggekommen, seit der alte Herr aus dem Weg ist. Wenn Du mich fragst, "
+   "was ~IDu ja getan hast~I, ist es dieser Alzahakar, der das dem König "
+   "angetan hat. Er weiß mehr über Riija, als irgendwer ahnt... \""
+jasperbartender_speech_042 = de \
+   "~kPietro sagt, \"Sie verkehrt hier nicht sonderlich oft, wie Du "
+   "vielleicht schon bemerkt hast.\""
+jasperbartender_speech_043 = de \
+   "~kPietro sagt, \"Was bist Du, ein ~ISpion~I? Bist Du ein ~ISPION~I? Raus "
+   "aus meiner Kneipe, Du verrückter ~ISpion~I der Prinzessin!\""
+jasperbartender_speech_044 = de \
+   "~kPietro sagt, \"Verschwunden auf dem Weg nach Tos. In Luft aufgelöst, "
+   "in der dünnen Luft der Berge. Wenn Du mich fragst, was Du ja getan hast, "
+   "dann haben ihn die verrückte Witwe und ihr verrückter Freund, der "
+   "Schmied, umgebracht und den Körper in den Bergen gelassen. Sie haben all "
+   "das Geld genommen, mit dem er nach Tos unterwegs war. Er hatte einen "
+   "Sack dabei, und der ist auch verschwunden. HA!\""
+jasperbartender_speech_045 = de \
+   "~kPietro sagt, \"Er hat die Stadt verlassen.\""
+jasperbartender_speech_046 = de \
+   "~kPietro sieht Dich einen langen Moment an und schüttelt den Kopf."
+jasperbartender_speech_047 = de \
+   "~kPietro sagt, \"Es geht ihm besser als je zuvor, besser als allen "
+   "anderen in der Stadt wenn Du verstehst, was ich meine. Aber das tuft Du "
+   "wohl nicht, sonst hättest Du nicht gefragt. Also sag ich es Dir klipp "
+   "und klar. Es sollte ihm recht gut gehen, da er den alten Qesino ermordet "
+   "und sich seine Frau geschnappt hat! Meinst Du nicht auch, dass es ihm "
+   "gutgehen sollte, wenn er den alten Qesino ermordet und sich seine Frau "
+   "geschnappt hat!?!\""
+jasperbartender_speech_048 = de \
+   "~kPietro sagt, \"Er ist der örtliche Schmied. Er wohnt gleich gegenüber, "
+   "und wenn Du Geschäfte mit ihm hast, solltest Du sie direkt mit ihm "
+   "besprechen.\""
+jasperbartender_speech_049 = de \
+   "~kPietro sagt, \"Ich will es nicht wissen, und wenn Du weißt, was gut "
+   "für Dich ist, dann willst Du es auch nicht. Aber wenn Du die wahre "
+   "Geschichte über Quintor wissen willst, dann such seine verrückte "
+   "Ex-Frau! HA! Du findest sie sicher bei dem Bergarbeiter, mit dem sie "
+   "abgehauen ist, wenn Du sie finden kannst. Nimm eine Schaufel mit, wenn "
+   "Du nach ihnen suchst, denn Du wirst den halben Berg umgraben müssen, um "
+   "sie beide zu finden. Musst vielleicht auch Deine Vorstellungskraft "
+   "benutzen, da die Stücke vielleicht nicht so gut zusammenpassen... das "
+   "meine ich mit, wenn Du weißt, was gut für Dich ist... \""
+jasperbartender_speech_050 = de \
+   "~kPietro sagt, \"Viele GEHEIMNISSE in den Bergen. Du solltest ~Iauf "
+   "Deine Schritte achten~I, oder Du könntest selbst ~Ieines~I von ihnen "
+   "werden.\""
+jasperbartender_speech_051 = de \
+   "~kIm Raum wird es still, als %s den verkümmerten Zwerg erwähnt."
+jasperbartender_speech_052 = de \
+   "~kPietro sagt, \"Tos ist wirklich ~Idie Stätte des alten BÖSEN~I. Man "
+   "fagt, dass nachts in Tos ~Idie Toten aufstehen und sich erheben~I, dass "
+   "sie ~Iauf Erden wandeln~I. Die Stadt selbst wurde auf ~Ider alten "
+   "Festung der Qor~I erbaut. GENAU!! ~IDAS ALTE BÖSE~I!! Und ~Ibald schon~I "
+   "wird sich dieses Böse Meridian zu erkennen geben, und dieses Land wird "
+   "nicht mehr dasselbe sein!! Die Körper dieser Flachländer werden in "
+   "großen Haufen gestapelt, ~IOpfer~I für die ~IBÖSE QOR~I und für ihre "
+   "eigene ~IIgnoranz~I. ~IHumpf~I. HUMPH!\""
+jasperbartender_speech_053 = de "~kPietro sagt, \"War nie dort.\""
+jasperbartender_speech_054 = de \
+   "~kPietro sagt, \"Verschwinde. NIEMAND hier ist, ~Ihick~I, ist "
+   "~Iinteressiert~I an der Güllegrube Tos, oder an ~Iirgendwem~I von dort.\""
+jasperbartender_speech_055 = de \
+   "~kPietro sagt, \"Troll-Whiskey ist illegal, wusstest Du das nicht? Ich "
+   "weiß nichts von Troll-Whiskey, ich verkaufe hier nur Bier. Bier, das ist "
+   "alles. Punkt.\""
+jasperbartender_speech_056 = de \
+   "~kPietro sagt, \"Oh ja, die trauernde Witwe. Sie ist so verrückt "
+   "betroffen vom Verschwinden ihres Mannes, dass sie sich mit dem Schmied "
+   "zusammengetan hat!! Ein Herz und eine Seele, die beiden, genau, ein "
+   "verrücktes Herz und eine Seele. Aber das hast Du nicht von mir... \""
+jasperbartender_speech_057 = de \
+   "~kPietro sagt, \"Sie führt die Herberge, gleich die Straße runter.\""
+jasperbartender_speech_058 = de \
+   "~kPietro sagt, \"Du stellst zu viele Fragen, Fremder, steckst Deine Nase "
+   "in Dinge, die Dich nichts angehen. Verschwinde aus Jasper, solange Du "
+   "noch eine Nase in Deinem verrückten Gesicht hast.\""
+jasperbartender_speech_059 = de \
+   "~kPietro sagt, \"Der alte Mann hat seine eigenen Pläne, das weiß ich. "
+   "Wusstest Du, dass er in jüngeren, ~Ihicks~I, jüngeren Jahren "
+   "~IFinanzminischter~I des ~IKönigs~I war? GENAU. ~IMächtiger~I Mann. Sie "
+   "haben ihn auch rausgeworfen, als der, hicks, als der König den Verstand "
+   "verlor. Wollten ihn ~ITÖTEN~I, er ist ein mächtiger Mann ~Iund~I "
+   "obendrein aus Jasper. ~IAber~I... er ist entkommen, und hierher würden "
+   "sie sich nicht trauen, um ihn zu holen. Ich ~Iwette mit Dir~I, dass er "
+   "eines Tages ~Ibald~I wieder dorthin zurückgeht und sich holt, was ihm "
+   "zusteht. Und GUT SO!!\""
+jasperbartender_speech_060 = de \
+   "~kPietro sagt, \"Ja, der Bankier. Königliche Bank von Jasper.\""
+jasperbartender_speech_061 = de \
+   "~kPietro sagt, \"Hier in diescher Gegend gibt'z ~Iniemanden~I mit dem "
+   "Namen, ~IFREMDER~I.\""
+jasperbartender_speech_062 = de \
+   "~kPietro sagt, \"Blöder... Idiot... blöder Idiot. Und ~Igierig~I... \""
+jasperbartender_random_001 = de \
+   "~kPietro sagt, \"Trink! Iss! Raste hier, solange Du kannst, Du wirst "
+   "Deine Kraft zum Kampf gegen Monschter und SCHLECHTE Menschen in "
+   "ihrer..da draußen ~Ibrauchen~I! ~Ihicks~I!\""
+jasperbartender_random_002 = de \
+   "~kPietro sagt, \"Ich habe GEHÖRT, ~Ihick~I, daf ein grofer Krieger in "
+   "Cor Noth lebt, ein Waffenmeifter, weift Du. Er war der ~IHauptmann der "
+   "Königlichen Garde~I, ja? Er foll alles über die Kämpfe gegen Monfter, "
+   "Dämonen und dergleichen wiffen... \""
+jasperbartender_random_003 = de \
+   "~kPietro sagt, \"Barloque ist die königliche Hauptstadt der Länder "
+   "außerhalb von Jasper und ein Ort, der im Reichtum ertrinkt. Frag Yevitan "
+   "danach, der hat dort mal GELEBT.\""
+jasperbartender_random_004 = de \
+   "~kPietro sagt, \"Halte Dich von den Trollen in diesen Hügeln fern, sie "
+   "sind tödlich. TÖDLICH. Die Orks auch, denn manchmal bilden sie "
+   "~IKRIEGERGRUPPEN~I und ~Iüberfallen~I die menschlichen Städte! Ja! "
+   "~ISehr~I gefährlich!\""
+jasperbartender_random_005 = de \
+   "~kPietro sagt, \"Ich könnte Dir ein paar Dinge über diese Stadt "
+   "~Ierzählen~I, die Dir die Haare zu Berge ~Istehen~I lassen würden. "
+   "Genau. Verrückt zu Berge.\""
+jasperbartender_random_006 = de \
+   "~kPietro sagt, \"Stell hier mal Fragen, und Du weißt nie, was dabei "
+   "herauskommt. Wahrscheinlich ~Iwürdest~I Du es gar nicht wissen WOLLEN.\""
+jasperbartender_random_007 = de \
+   "~kPietro sagt, \"Du solltest hier auf Deine Schritte ~Iachten~I, "
+   "Fremder. Jemand könnte Dir einen verrückten Schlag auf Deinen verrückten "
+   "KOPF verpassen und Dein Geld stehlen. Das ~Ipassiert sogar "
+   "Einheimischen~I, das kannst Du mir glauben. Also denke nicht, dass DU "
+   "irgendwas BESONDERES BIST!\""
+jasperbartender_random_008 = de \
+   "~kPietro sagt, \"Sogar ~IJafper~I hat feinen Teil an IDIOTEN abgekriegt. "
+   "Keine Namen ~Igenannt~I, aber diefer Bob ift ein verrückter "
+   "Pferdehintern. Dumm wie ein verrückter Zedernpfoften.\""
+jasperbartender_random_009 = de \
+   "~kPietro sagt, \"Yevitan, der iz'n weiser alter Schlawiner. Er hat "
+   "Pläne, GROSSE Pläne, aber er hat nix gesacht, bis dieser Jonz, Jonarc, "
+   "wie-heiszt-er-noch daherkam. Schlaues Kerlchen.\""
+jasperbartender_random_010 = de \
+   "~kPietro sagt, \"Wähle Deinen Weg aus Jasper sorgfältig, Fremder. Die "
+   "Straße nach Osten wimmelt von einer Armee aus Trollen und Orks, groß "
+   "genug, um es mit jeder verrückten Armee aufzunehmen, die das Flachland "
+   "aufstellen kann.\""
+jasperbartender_random_011 = de \
+   "~kPietro sagt, \"Menschen in dieser Gegend sind nicht wie andere "
+   "Meridianer. Es ist ein eigener Menschenschlag und Du solltest am besten "
+   "immer die Unterschiede bedenken. Besonders Jonas und seine Bande mögen "
+   "es nicht, wenn man schlecht über sie spricht.\""
+jasperbartender_random_012 = de \
+   "~kPietro sagt, \"Früher kamen nicht so viele Fremde hier zu uns in die "
+   "Berge. Ich wünschte, dieser verdammte Jonas und seine Anhänger wären nie "
+   "auf die Idee gekommen, hierher zu kommen.\""
+jasperbartender_random_013 = de "~kPietro wartet auf Deine Bestellung."
+jasperbartender_random_014 = de \
+   "~kPietro sagt, \"Es gibt hier in Jasper gleich um die Ecke eine Bank. "
+   "Sie stammt noch aus der Zeit, in der die verrückten Minen blühten.\""
+jasperbartender_random_015 = de \
+   "~kPietro sagt, \"He, willst Du nun ein Bier kaufen, oder was? Das hier "
+   "ist keine verrückte Absteige!!!\""
+jasperbartender_random_016 = de \
+   "~kPietro sagt, \"Wenn Du hier bist, um zu essen und zu trinken, dann iss "
+   "und trink. Ich habe keine Zeit für Dein verdammtes Gerede.\""
+jasperbartender_random_017 = de \
+   "~kPietro sagt, \"In diesen Gegenden sollte man nicht zu viele Fragen "
+   "stellen. Wir bestehen auf unserer Privatsphäre.\""
+jasperbartender_random_018 = de \
+   "~kPietro sagt, \"In diesem Land regiert das verrückte Geld, also finde "
+   "besser heraus, wie Du an welches kommst.\""
+jasperbartender_random_019 = de \
+   "~kPietro sagt, \"Es dürfte Dich überraschen, was Du allein durch Zuhören "
+   "so alles herausfinden kannst.\""
+jasperbartender_random_020 = de \
+   "~kPietro sagt, \"Mir ist es egal, wo Du schläfst, aber Du schläfst nicht "
+   "hier.\""
+jasperbartender_random_021 = de \
+   "~kPietro grummelt, \"Früher war es schön und ruhig in dieser Gegend. So "
+   "viele Herumtreiber gab es hier nicht mehr, seit die Minen versiegt "
+   "sind.\""
+jasperbartender_random_022 = de \
+   "~kPietro sagt, \"Hierzulande mögen wir die Dinge, wie sie sind.\""
+jasperbartender_random_023 = de \
+   "~kPietro sagt, \"Du willst hier doch keinen verrückten Ärger anfangen, "
+   "oder?\""
+jasperbartender_random_024 = de "~kPietro sagt, \"~IHicks~I.\""
+jasperbartender_random_025 = de "~kPietro sagt, \"Was brauchst Du?\""
+jasperbartender_random_026 = de \
+   "~kPietro sagt, \"~ISchieb'~I Dich vom ACKER.\""
+jasperbartender_random_027 = de \
+   "~kPietro sagt, \"Wolltest Du etwas? Nein? Nein? Dann verzieh Dich "
+   "lieber.\""
+jasperbartender_random_028 = de \
+   "~kPietro sagt, \"An Deiner Stelle würde ich hier rausmarschieren, "
+   "solange Du es noch kannst, Mistgesicht.\""
+jasperbartender_random_029 = de \
+   "~kPietro sagt, \"Zurück auf die Straße, Du verrückter Straßenabfall. "
+   "Pietros ist G-E-S-C-H-L-O-S-S-E-N.\""
+jasperbartender_random_030 = de "~kPietro schreit, \"WAS!?!\""
+jasperbartender_random_031 = de \
+   "~kPietro brüllt, \"RAUS! RAUS mit euch Verrückten!\""
+jasperbartender_random_032 = de \
+   "~kPietro grummelt, \"Stinkendes Rebellenpack, ~IHicks~I, verrückte "
+   "Nichtsnutze, ~IHicks~I, kommen rein un' übernehmen meine Bar. Fragen "
+   "nich' mal, ob ich überhaupt will.\""
+jasperbartender_random_033 = de \
+   "~kPietro ruft, \"Die Bar ist geschlossen. Verschwinde.\""
+jasperbartender_trigger_broom = de "besen"
+jasperbartender_trigger_buy = de "kaufen"
+jasperbartender_trigger_sell = de "verkauf"
+jasperbartender_trigger_bye = de "ciao"
+jasperbartender_trigger_council = de "ratsmitglied"
+jasperbartender_trigger_council_2 = de "hof"
+jasperbartender_trigger_drunk = de "betrunken"
+jasperbartender_trigger_duke = de "herzog"
+jasperbartender_trigger_fate = de "schicksal"
+jasperbartender_trigger_hello = de "hallo"
+jasperbartender_trigger_honored = de "geehrt"
+jasperbartender_trigger_node = de "quelle"
+jasperbartender_trigger_princess = de "prinzessin"
+jasperbartender_trigger_secret = de "geheim"
+jasperbartender_trigger_stunted_dwarf = de "verkümmerter zwerg"
+jasperbartender_trigger_widow = de "witwe"
+
+// JasperBlacksmith
+jasperblacksmith_speech_001 = de "~kQuintor sagt, \"Raus aus meinem Laden.\""
+jasperblacksmith_speech_002 = de \
+   "~kQuintor sagt, \"Du unterhältst Dich am besten direkt mit Afiera Xor, "
+   "wenn es der ist, über den Du sprechen willst.\""
+jasperblacksmith_speech_003 = de \
+   "~kQuintor sagt, \"Es ist eine gute Sache, wenn man Feuerholz sammeln "
+   "möchte, aber als Waffe? Die Friedhöfe in diesen Hügeln sind überfüllt "
+   "mit axttragenden Narren aus dem Tiefland, die damit gegen den Säbel der "
+   "Orks angehen wollten.\""
+jasperblacksmith_speech_004 = de "~kQuintor sagt, \"Raus aus meinem Laden.\""
+jasperblacksmith_speech_005 = de \
+   "~kQuintor sagt, \"Die extravaganten Kleider und Umgangsformen von "
+   "Barloque haben mit denen von Jasper nichts zu tun, das kann ich Dir "
+   "versichern.\""
+jasperblacksmith_speech_006 = de \
+   "~kQuintor sagt, \"Ich war noch nie in der Stadt Barloque, also bin ich "
+   "der Falsche, den Du fragen solltest.\""
+jasperblacksmith_speech_007 = de \
+   "~kQuintor sagt, \"Hier ist Jasper. Wenn Du was über Barloque wissen "
+   "möchtest, Bettler, gehe nach Norden, bis Du zur Küste kommst, und wende "
+   "Dich dann nach Osten, bis Du auf von Mauern umgebene Abwassergräben "
+   "stößt. Du kannst es nicht verfehlen.\""
+jasperblacksmith_speech_008 = de \
+   "~kQuintor sagt, \"Komm zurück und schau bei mir vorbei, wenn Du Dich in "
+   "der Gegend aufhältst.\""
+jasperblacksmith_speech_009 = de "~kQuintor sagt, \"Verschwinde.\""
+jasperblacksmith_speech_010 = de \
+   "~kQuintor sagt, \"Sie haben ihren Kopf ganz fest in den Sand gesteckt in "
+   "Cor Noth, da kannst Du Dir sicher sein. ~IUniversität~I. In diesen "
+   "Bergen würdest Du innerhalb einer Woche mehr lernen als ein Leben lang "
+   "an ihrer sogenannten ~IUniversität~I.\""
+jasperblacksmith_speech_011 = de \
+   "~kQuintor sagt, \"Ich bin zwar schon mal in Cor Noth gewesen, allerdings "
+   "nur als Besucher. Ich weiß nur wenig über die Leute dort und wie sie so "
+   "sind.\""
+jasperblacksmith_speech_012 = de \
+   "~kQuintor sagt, \"Cor Noth? Tja, also ich würde sagen, das wäre ein ganz "
+   "netter Ort für ~Ijemanden~I wie Dich.\""
+jasperblacksmith_speech_013 = de \
+   "~kQuintor sagt, \"Ich würde lieber nicht über Politik reden.\""
+jasperblacksmith_speech_014 = de \
+   "~kQuintor sagt, \"Ich habe zu viel zu tun, als dass ich mich ständig "
+   "über die Politik auf dem Laufenden halten könnte.\""
+jasperblacksmith_speech_015 = de \
+   "~kQuintor sagt, \"Und was ist mit denen? Ich habe Dir nichts zu sagen!\""
+jasperblacksmith_speech_016 = de "~kQuintor sagt, \"Ein Spielzeug.\""
+jasperblacksmith_speech_017 = de \
+   "~kQuintor sagt, \"Dieser Herzog Akardius ist genauso ein Narr wie "
+   "Kalior. Meridian braucht einen edlen Krieger, wie Jonas, der den Thron "
+   "besteigt.\""
+jasperblacksmith_speech_018 = de \
+   "~kQuintor sagt, \"Ich weiß nicht viel über ihn.\""
+jasperblacksmith_speech_019 = de \
+   "~kQuintor sagt, \"Ich finde, Du solltest Dich mit Deinen politischen "
+   "Ansichten aus meinem Geschäft entfernen - JETZT!\""
+jasperblacksmith_speech_020 = de \
+   "~kQuintor sagt, \"Dieser Mann, Frular von Barloque, lebt ohne eine Seele "
+   "oder bedeutende Vorfahren. Er kauft Grundbesitz und Gebäude überall im "
+   "Land, um sie dann gewinnbringend zu vermieten. ABER... dieser besagte "
+   "Frular von Barloque will insbesondere solche Gebäude kaufen, die den "
+   "Gemeinden, zu denen sie gehören, heilig sind, um sie dann mit seinen "
+   "Geschäftsgebaren zu schänden. Soweit ich weiß, hat er die Würms-Feste "
+   "hier in Jasper, die traditionelle Festung des Kriegsherrn der Berge, und "
+   "einen Shal'ille-Tempel in Cor Noth gekauft. Eines Tages werde ich ihm "
+   "zeigen, wie falsch das ist.\""
+jasperblacksmith_speech_021 = de \
+   "~kQuintor sagt, \"Ich würde keinen Hammer als Waffe herstellen, und ich "
+   "kenne auch keinen angesehenen Krieger, der damit kämpfen würde. Mal "
+   "ehrlich, ein Hammer! Ich kenne einige Bauern, die versuchen würden, mit "
+   "dem Hammer zu kämpfen - aber kein Krieger! Und ich habe einige der "
+   "besten Krieger gekannt.\""
+jasperblacksmith_speech_022 = de \
+   "~kQuintor sagt, \"Ja, kann ich Dir helfen?\""
+jasperblacksmith_speech_023 = de "~kQuintor sagt, \"Guten %s, Fremder.\""
+jasperblacksmith_speech_024 = de "~kQuintor sagt, \"Was willst Du, Bettler?\""
+jasperblacksmith_speech_025 = de \
+   "~kQuintor sagt, \"Ich sag Dir, es war ein anderer Ort, bevor die Minen "
+   "versiegten und alle diese Fremden die Stadt verließen, und bevor Jonas "
+   "mit seiner sogenannten ~IFraktion~I hier aufgetaucht ist. Aber die Leute "
+   "von Jasper waren schon immer hier und werden auch immer hier sein. Du "
+   "könntest Dein ganzes Leben in Jasper verbringen und trotzdem nicht viel "
+   "darüber herausfinden, Fremder. Manchmal ist es besser, schlafende Hunde "
+   "nicht zu wecken.\""
+jasperblacksmith_speech_026 = de \
+   "~kQuintor sagt, \"Glaub einfach das, was Du siehst, Fremder. Nur eine "
+   "verschlafene Gemeinde in den Bergen, die ein ziemlich einfaches Leben "
+   "führt.\""
+jasperblacksmith_speech_027 = de \
+   "~kQuintor sagt, \"Das passt Dir nicht, was? Zum Glück hast Du's auf die "
+   "schmerzlose Art herausgefunden.\""
+jasperblacksmith_speech_028 = de \
+   "~kQuintor sagt, \"Ein Streitkolben ist die Waffe eines Kindes - sie "
+   "eignet sich besser zum Zertrümmern von Weintrauben als zum ernsthaften "
+   "Kämpfen.\""
+jasperblacksmith_speech_029 = de \
+   "~kQuintor sagt, \"Die Leute von Marion sind selbstgefällig und stur. Das "
+   "liegt wahrscheinlich daran, dass sie da unten im Flachland mit nichts "
+   "anderem als jungen Spinnen und Riesenratten zu kämpfen haben. Keine "
+   "Trolle, keine Orks. Das Leben muss dort ziemlich leicht sein.\""
+jasperblacksmith_speech_030 = de \
+   "~kQuintor sagt, \"Marion? Darüber gibt's nicht viel zu sagen. Es liegt "
+   "nördlich von hier, wo das Land flacher wird.\""
+jasperblacksmith_speech_031 = de \
+   "~kQuintor sagt, \"Mir ist Marion egal, genauso wie seine Probleme oder "
+   "was Du darüber denkst. Wolltest Du nicht gerade gehen?\""
+jasperblacksmith_speech_032 = de \
+   "~kQuintor sagt, \"Aus welchem Grund willst Du ins Bergwerk gehen, "
+   "Fremdling?\""
+jasperblacksmith_speech_033 = de \
+   "~kQuintor sagt, \"Viele halten sie für ein zurückgebliebenes Volk, aber "
+   "das ist reine Ignoranz derjenigen, die noch nie direkt mit ihnen zu tun "
+   "hatten. Wenn Du in diesen Bergen einem Ork begegnest, ist das "
+   "wahrscheinlich ein einzelner Krieger, aber selbst allein sind Orks "
+   "gewaltige Kämpfer, und Du musst Dich vorsehen. Niemand weiß, wo ihre "
+   "Hauptfestung ist oder was dort geschieht, aber Du kannst sicher sein, "
+   "dass sie auf den Moment warten, in voller Stärke hervorzubrechen, denn "
+   "sie sind fähig, große Armeen aufzustellen und ins Feld zu führen. Wenn "
+   "dieser Tag kommt, werden wir es alle merken.\""
+jasperblacksmith_speech_034 = de \
+   "~kQuintor sagt, \"Die Orks sind furchterregende Geschöpfe, die in diesen "
+   "Bergen leben. Ich habe gehört, dass es noch eine weitere Art von ihnen "
+   "geben soll, die fast ausschließlich unterirdisch lebt, aber beide Arten "
+   "sind sowohl bluts- als auch geistesverwandt.\""
+jasperblacksmith_speech_035 = de \
+   "~kQuintor sagt, \"Ich bin ein Schmied und nicht irgendein Soldat. "
+   "Kümmere Dich um Deine Angelegenheiten und lass mich damit in Ruhe.\""
+jasperblacksmith_speech_036 = de \
+   "~kQuintor sagt, \"Wenn Du mit Pietro Geschäfte zu machen hast, warum "
+   "wendest Du Dich dann nicht direkt an ihn?\""
+jasperblacksmith_speech_037 = de "~kQuintor sagt, \"Raus aus meinem Laden.\""
+jasperblacksmith_speech_038 = de \
+   "~kQuintor sagt, \"Ich würde mich lieber über etwas anderes unterhalten, "
+   "wenn es Dir recht ist.\""
+jasperblacksmith_speech_039 = de \
+   "~kQuintor sagt, \"Ich habe überhaupt keine Meinung über sie.\""
+jasperblacksmith_speech_040 = de \
+   "~kQuintor brüllt, \"Die Angelegenheiten der Prinzessin haben absolut "
+   "keinen Einfluss in dieser Gegend, wenn Du also eine Meinung dazu hast, "
+   "warum behältst Du sie nicht für Dich!\""
+jasperblacksmith_speech_041 = de \
+   "~kQuintor sagt, \"Ich brauche jetzt keinen Schüler. Am besten machst Du "
+   "Dich wieder auf den Weg, Fremder.\""
+jasperblacksmith_speech_042 = de \
+   "~kQuintor sagt, \"Der Säbel ist das Schwert der Orkhorden, eine große "
+   "Waffe mit gebogener Klinge, die in den Händen derer, die das Geschick "
+   "dazu haben, furchterregend ist. Ich habe beim Führen einer solchen "
+   "Klinge einiges gelernt. Hin und wieder nehme ich einen Schüler unter "
+   "meine Fittiche und bringe ihm die Grundlagen bei.\""
+jasperblacksmith_speech_043 = de \
+   "~kQuintor sagt, \"Der Säbel ist die Klinge der Orks, die in ihrem Design "
+   "sehr fortschrittlich ist. Er sollte diejenigen zum Schweigen bringen, "
+   "die die Orks wenig kennen und sie für ein rückständiges Volk halten.\""
+jasperblacksmith_speech_044 = de \
+   "~kQuintor sagt, \"Ich weiß nichts über den Säbel.\""
+jasperblacksmith_speech_045 = de \
+   "~kQuintor sagt, \"Ich habe etwas, das Du unbedingt sehen musst.\""
+jasperblacksmith_speech_046 = de \
+   "~kQuintor sagt, \"Ich hätte vielleicht etwas, das Dich interessieren "
+   "könnte.\""
+jasperblacksmith_speech_047 = de \
+   "~kQuintor sagt, \"Ich habe nichts, was Dich interessieren würde!\""
+jasperblacksmith_speech_048 = de \
+   "~kQuintor sagt, \"Das Schwert ist die Waffe eines Kriegers, und ich habe "
+   "eine ganze Menge davon hergestellt.\""
+jasperblacksmith_speech_049 = de \
+   "~kQuintor sagt, \"Ich könnte Dir eventuell einige Dinge über den Säbel "
+   "beibringen. In seiner Ausgewogenheit und seinem Gewicht ist er eine "
+   "einzigartige Waffe, und man benötigt viel Hingabe, um seine Feinheiten "
+   "zu meistern. Vielleicht kann ich Dir helfen, mit Deinen Studien zu "
+   "beginnen.\""
+jasperblacksmith_speech_050 = de \
+   "~kQuintor sagt, \"Es stimmt, dass ich hin und wieder einen Schüler "
+   "nehme.\""
+jasperblacksmith_speech_051 = de \
+   "~kQuintor sagt wütend, \"Ich nehme keine Schüler!\""
+jasperblacksmith_speech_052 = de \
+   "~kQuintor sagt, \"Ich habe für die Leute aus Tos nicht viel übrig. Es "
+   "sind blinde Mitläufer, die nicht richtig in der Lage sind, für sich "
+   "selbst zu denken.\""
+jasperblacksmith_speech_053 = de \
+   "~kQuintor sagt, \"Tos liegt im Zentrum der Untätigkeit und Faulheit, die "
+   "dieses Land heimsuchen. Du weißt darüber wahrscheinlich besser Bescheid "
+   "als ich.\""
+jasperblacksmith_speech_054 = de \
+   "~kQuintor sagt, \"Ich habe nichts über Tos zu sagen. Wenn Du so "
+   "neugierig bist, solltest Du vielleicht hingehen und es Dir ~Iselbst~I "
+   "ansehen.\""
+jasperblacksmith_speech_055 = de \
+   "~kQuintor sagt gereizt, \"Also, ich weiß nichts von irgendeinem "
+   "Troll-Whiskey.\""
+jasperblacksmith_speech_056 = de "~kQuintor sagt, \"Raus aus meinem Laden.\""
+jasperblacksmith_speech_057 = de "~kQuintor sagt, \"Raus aus meinem Laden.\""
+jasperblacksmith_speech_058 = de \
+   "~kQuintor sagt, \"Du solltest lieber damit aufhören, Gerüchte in die "
+   "Welt zu setzen, und statt dessen Dein Anliegen vortragen.\""
+jasperblacksmith_speech_059 = de \
+   "~kQuintor sagt, \"Meine Frau hat dieses Gebiet vor Jahren verlassen, als "
+   "die Minen versiegten. Ich... naja, ich habe sie seit langem nicht "
+   "gesehen.\""
+jasperblacksmith_speech_060 = de \
+   "~kQuintor sagt, \"Das ist meine Sache und geht Dich nichts an.\""
+jasperblacksmith_speech_061 = de \
+   "~kQuintor sagt, \"Fragst Du mich über meine Angelegenheiten aus? Mit wem "
+   "hast Du gesprochen? Ich denke, Du gehst jetzt besser.\""
+jasperblacksmith_speech_062 = de \
+   "~kQuintor sagt, \"Ich weiß nicht, was Du willst, aber Yevitan kümmert "
+   "sich um seine Sachen, ich mich um meine, und es wäre sicher am besten, "
+   "wenn Du Dich um Deine kümmern würdest.\""
+jasperblacksmith_speech_063 = de "~kQuintor sagt, \"Raus aus meinem Laden.\""
+jasperblacksmith_speech_064 = de \
+   "~kQuintor sagt, \"Du bist hier in einer Schmiede, nicht auf einem "
+   "Kaffeeklatsch. Aber Du wirst es schon noch lernen, Dich in dieser Stadt "
+   "um Deine eigenen Angelegenheiten zu kümmern.\""
+jasperblacksmith_random_001 = de \
+   "~kQuintor sagt, \"Warst Du schon in Tos, Fremder? In Tos gibt es eine "
+   "große Arena, in der die größten Kämpfer von Meridian untereinander oft "
+   "ihre Kräfte in einem Wettkampf messen.\""
+jasperblacksmith_random_002 = de \
+   "~kQuintor sagt, \"Wenn ich Dir etwas raten darf - Du solltest nicht mal "
+   "die Hälfte von dem, was Du in dieser Stadt hörst, glauben. Und pass auf, "
+   "was Du unternimmst. Wenn Du schon glaubst, die Kreaturen in diesen "
+   "Hügeln seien heimtückisch, dann warte erst einmal ab, was passiert, wenn "
+   "Du es Dir mit den Leuten von Jasper verscherzt.\""
+jasperblacksmith_random_003 = de \
+   "~kQuintor sagt, \"Mein Ruf als Waffenschmied spricht für sich. Hör Dich "
+   "nur um, Du wirst feststellen, der beste Schwertstahl des Landes kommt "
+   "aus dieser Schmiede.\""
+jasperblacksmith_random_004 = de \
+   "~kQuintor sagt, \"Die Leute in diesen Hügeln besitzen eine andere Art "
+   "von Weisheit als die übrigen Völker von Meridian. Du wirst nie ihr "
+   "Vertrauen gewinnen, um dies herauszufinden, aber die Leute der "
+   "Zerklüfteten Berge wissen, wie man überlebt. Afiera Xor ist ein weiser "
+   "Mann. Du solltest ihn aufsuchen, Fremder.\""
+jasperblacksmith_random_005 = de \
+   "~kQuintor sagt, \"Ich habe kürzlich von einem Reisenden erfahren, dass "
+   "eine neue Spinnenkönigin im Dickicht aktiv ist. Eine Abenteurerin, die "
+   "ich kannte, hat wegen der Preise der Dinger mal Jagd auf ihre Eier "
+   "gemacht. Sie ist jedoch nie zurückgekehrt, und damit endete die "
+   "Geschichte.\""
+jasperblacksmith_random_006 = de \
+   "~kQuintor sagt, \"Ich glaube fest, dass eines Tages in nicht zu ferner "
+   "Zukunft die Würms-Feste ihren rechtmäßigen Eigentümern, den Bewohnern "
+   "von Jasper, zurückgegeben werden wird. Bald wird dieser Kretin Frular "
+   "sein... \""
+jasperblacksmith_random_007 = de \
+   "~kQuintor sagt, \"Wenn Du Deine Kampfkünste verbessern willst, solltest "
+   "Du Dir Gegner suchen, die eines guten Kampfes würdig sind. Es bringt Dir "
+   "gar nichts, gegen Gegner zu kämpfen, die schlechter sind als Du.\""
+jasperblacksmith_random_008 = de \
+   "~kQuintor sagt, \"Kann ich Dir etwas Spezielles zeigen?\""
+jasperblacksmith_random_009 = de \
+   "~kQuintor sagt, \"Die Leute von Jasper waren einmal völlig unabhängig "
+   "vom Rest Meridians, mit eigenen Gesetzen und eigener Regierung. Zur Zeit "
+   "meines Urgroßvaters waren wir ein eigener Staat mit einem ernannten "
+   "Kriegsherrn, den man Wryn nannte. Die Festung des Kriegsherrn, die "
+   "Würms-Feste, kannst Du noch immer am Rand der Stadt sehen, auch wenn sie "
+   "jetzt von irgendeinem Geschäftsmann in ~IBarloque~I an Fremde vermietet "
+   "wird.\""
+jasperblacksmith_random_010 = de \
+   "~kQuintor sagt, \"Ich lebe davon, schmiedeeiserne Gegenstände zu "
+   "verkaufen. Gibt es etwas Bestimmtes, das Du wissen möchtest?\""
+jasperblacksmith_random_011 = de "~kQuintor sagt, \"Du musst neu hier sein.\""
+jasperblacksmith_random_012 = de \
+   "~kQuintor sagt, \"Du siehst ein bisschen zu leicht bewaffnet aus, um "
+   "durch diese Berge zu reisen, Fremder. Selbst die Dümmsten in dieser "
+   "Stadt wissen, dass diese Hügel gefährlich sind und dass man keine zweite "
+   "Chance erhält.\""
+jasperblacksmith_random_013 = de "~kQuintor sagt, \"Was brauchst Du?\""
+jasperblacksmith_random_014 = de \
+   "~kQuintor sagt, \"Bist Du aus einem bestimmten Grund hier, Fremder?\""
+jasperblacksmith_random_015 = de \
+   "~kQuintor sagt, \"Wenn eine Waffe durch Zauberkraft repariert wird, "
+   "verringert sich die Lebensdauer dieser Waffe. Schieb' die Reparaturen so "
+   "lange es geht auf.\""
+jasperblacksmith_random_016 = de \
+   "~kQuintor sagt, \"Die besseren Zauberer werden Deine Waffen bei der "
+   "Reparatur weniger beschädigen, aber jede Reparatur ist für den Bestand "
+   "einer Waffe im Allgemeinen sehr nachteilig.\""
+jasperblacksmith_random_017 = de \
+   "~kQuintor sagt, \"Einige Kreaturen, wie etwa der Skorpion, kriegen beim "
+   "Kampf ein Verlangen nach Deinem Blut. Sie werden nicht ruhen, bis Du "
+   "Dich entweder aus dem Staub machst oder bis einer von euch beiden "
+   "vernichtet ist.\""
+jasperblacksmith_random_018 = de \
+   "~kQuintor zischt, \"Bist Du wirklich so dumm? Ich habe Dich gebeten, zu "
+   "verschwinden.\""
+jasperblacksmith_random_019 = de \
+   "~kQuintor sagt, \"Ich bin zu beschäftigt, um noch mehr Zeit mit Dir zu "
+   "vergeuden. Geh jetzt besser.\""
+jasperblacksmith_random_020 = de \
+   "~kQuintor sagt, \"Du vergeudest meine Zeit, Bettler. Zieh ab!\""
+jasperblacksmith_trigger_afiera_d_xor = de "afiera xor"
+jasperblacksmith_trigger_afiera_xor = de "afiera d'xor"
+jasperblacksmith_trigger_axe = de "axt"
+jasperblacksmith_trigger_bye = de "ciao"
+jasperblacksmith_trigger_council = de "ratsmitglied"
+jasperblacksmith_trigger_dagger = de "dolch"
+jasperblacksmith_trigger_duke = de "herzog"
+jasperblacksmith_trigger_hello = de "hallo"
+jasperblacksmith_trigger_mace = de "streitkolben"
+jasperblacksmith_trigger_mining = de "schürfen"
+jasperblacksmith_trigger_orc = de "ork"
+jasperblacksmith_trigger_princess = de "prinzessin"
+jasperblacksmith_trigger_pupil = de "schüler"
+jasperblacksmith_trigger_scimitar = de "säbel"
+jasperblacksmith_trigger_buy = de "kaufen"
+jasperblacksmith_trigger_sell = de "verkauf"
+jasperblacksmith_trigger_sword = de "schwert"
+jasperblacksmith_trigger_teach = de "lernen"
+jasperblacksmith_trigger_learn = de "lehre"
+jasperblacksmith_trigger_learn_2 = de "beibringen"
+jasperblacksmith_trigger_widow = de "witwe"
+jasperblacksmith_trigger_widow_qesino = de "witwe qesino"
+jasperblacksmith_trigger_witwe_qesino = de "widow qesino"
+jasperblacksmith_trigger_wife = de "frau"
+jasperblacksmith_trigger_zhieu_b_hob = de "bob"
+jasperblacksmith_trigger_bob = de "zhieu b'hob"
+
+// JasperElder
+jasperelder_speech_001 = de \
+   "~kAfiera Xor sagt, \"Eine sanfte Kreatur, wenn man ihr ganz aus dem Weg "
+   "geht.\""
+jasperelder_speech_002 = de \
+   "~kAfiera Xor sagt, \"Lebwohl. Komm ein anderes Mal wieder.\""
+jasperelder_speech_003 = de \
+   "~kAfiera Xor sagt, \"Ich führe hier ein einfaches Leben mit meinen "
+   "Leuten und meiner Kunst.\""
+jasperelder_speech_004 = de \
+   "~kAfiera Xor sagt, \"Eine wunderschöne Stadt, obwohl ich seit ein paar "
+   "Jahren nicht mehr da gewesen bin.\""
+jasperelder_speech_005 = de \
+   "~kAfiera Xor sagt, \"Mit diesem Ort kann ich nichts anfangen.\""
+jasperelder_speech_006 = de \
+   "~kAfiera Xor sagt, \"Wir haben viel aus den Fehlern unserer "
+   "Vergangenheit zu lernen. Brax war ein fürchterlicher Fehler, aber was "
+   "haben wir daraus gelernt?\""
+jasperelder_speech_007 = de \
+   "~kAfiera Xor sagt, \"Du musst bald wiederkommen und mich besuchen.\""
+jasperelder_speech_008 = de "~kAfiera Xor sagt, \"Ja, lebwohl.\""
+jasperelder_speech_009 = de \
+   "~kAfiera Xor scheint ganz vergessen zu haben, dass Du überhaupt hier "
+   "bist."
+jasperelder_speech_010 = de "~kAfiera Xor sagt, \"Einfache Kreaturen.\""
+jasperelder_speech_011 = de \
+   "~kAfiera Xor sagt, \"Übernimm etwas Verantwortung und finde es selbst "
+   "heraus.\""
+jasperelder_speech_012 = de \
+   "~kAfiera Xor sagt, \"Ein schöner Ort, wenn ich mich recht erinnere.\""
+jasperelder_speech_013 = de \
+   "~kAfiera Xor sagt, \"Als Errungenschaft dieser Zivilisation ist sie "
+   "keine schlechte.\""
+jasperelder_speech_014 = de "~kAfiera Xor sagt, \"Kommst Du von dort?\""
+jasperelder_speech_015 = de \
+   "~kAfiera Xor sagt, \"Ein Haufen ziemlich schlauer Leute. Aber das sind "
+   "auch Ziegendiebe, Barmixer und Straßenbälger.\""
+jasperelder_speech_016 = de \
+   "~kAfiera Xor sagt, \"In Wahrheit gibt es nur ein Becken, in dem der "
+   "Zauber vereint ist und das von allen Seiten angezapft wird, ganz "
+   "einfach. Sobald man das begriffen hat, ist es nicht übermäßig schwer, "
+   "diese Verbindungen zu zerschlagen, indem man einfach dieses Becken "
+   "stört. Plansche einfach ein bisschen herum ... \""
+jasperelder_speech_017 = de \
+   "~kAfiera Xor sagt, \"Komm ein anderes Mal wieder, und wir werden "
+   "miteinander reden. Jetzt kann ich Dir leider nicht helfen.\""
+jasperelder_speech_018 = de \
+   "~kAfiera Xor sagt, \"Jene, die einem solchen Thronanwärter folgen, "
+   "stärken seinen Entschluss, die Krone zu erlangen, und bestätigen ebenso "
+   "seinen Anspruch darauf.\""
+jasperelder_speech_019 = de \
+   "~kAfiera Xor sagt, \"Politiker kommen und gehen wie die Jahreszeiten. "
+   "Was ist denn der Herzog schon anderes als ein Mann unter seinen "
+   "Mitbürgern?\""
+jasperelder_speech_020 = de \
+   "~kAfiera Xor sagt, \"Er ist ein guter Politiker, aber würde er wirklich "
+   "einen guten König abgeben?\""
+jasperelder_speech_021 = de \
+   "~kAfiera Xor sagt, \"Faren ist die Gottheit, die der Quelle aller Macht "
+   "am nächsten ist, und er ist auf dem Vormarsch. Ich weiß das. Unter allem "
+   "ist Chaos und unter dem Chaos Faren. Das ist alles, was ich dazu sage.\""
+jasperelder_speech_022 = de \
+   "~kAfiera Xor sagt, \"Ich habe einen großen Teil meines Lebens damit "
+   "verbracht, den Gang der Welt und die Zusammenhänge der Natur zu "
+   "studieren. Und dabei habe ich ein paar kleine und insgesamt "
+   "bedeutungslose Tricks gelernt, die mir helfen zu überleben. Viele "
+   "schreiben die Meisterung dieser Tricks Faren und der Faren-Magie zu, "
+   "doch ich weiß es besser, verstehst Du? Es gibt nur eine Magie. Nur eine, "
+   "aus der alle Quellen schöpfen.\""
+jasperelder_speech_023 = de \
+   "~kAfiera Xor sagt, \"Du musst jetzt gehen. Unser Gespräch ist für heute "
+   "beendet.\""
+jasperelder_speech_024 = de "~kAfiera Xor sagt, \"Komm herein, %s.\""
+jasperelder_speech_025 = de \
+   "~kAfiera Xor sagt, \"Ja? Wer ist da? Komm näher, damit ich Dich sehen "
+   "kann.\""
+jasperelder_speech_026 = de \
+   "~kAfiera Xor scheint gar nicht bemerkt zu haben, dass Du hier bist."
+jasperelder_speech_027 = de \
+   "~kAfiera Xor sagt, \"Sie sind ein wenig besser als die Nekromanten, wenn "
+   "Du mich fragst.\""
+jasperelder_speech_028 = de \
+   "~kAfiera Xor sagt, \"Das ist ein Werkzeug des Todes. Lass uns hoffen, "
+   "dass den Jägern wenigstens ein wenig Moral geblieben ist.\""
+jasperelder_speech_029 = de \
+   "~kAfiera Xor sagt, \"Jalas wahres Geheimnis muss noch enthüllt werden. "
+   "Ich habe mein Leben mit Überlegungen und Meditation über das Schicksal "
+   "von Jala und den Werdegang von Kunst und Musik verbracht... Ich kann Dir "
+   "aus tiefster Überzeugung sagen, dass Jala nicht tot ist. Ich kann nicht "
+   "vorgeben, dass ich wüsste, wo sie ist, da sie die geheimnisvollste und "
+   "am schwersten fassbare unserer Gottheiten ist ... aber ich kann Dir "
+   "sagen, dass sie mir gezeigt hat, dass sie zurückkehren wird, wenn die "
+   "Zeit reif ist.\""
+jasperelder_speech_030 = de \
+   "~kAfiera Xor sagt, \"Wenn Du den Gang der Erde in Bezug auf die Wege der "
+   "Götter studieren willst, dann musst Du alle Götter sorgfältig "
+   "einbeziehen, denn alle sind gleich wichtig, um ein vollständiges Bild zu "
+   "erhalten. Vergiss Jala nicht, von der viele sagen, sie sei tot. Wie kann "
+   "Kunst tot sein? Musik? Glaube nicht mal die Hälfte von diesem Gerede. "
+   "Sieh Dich um und sag mir, was wahr ist.\""
+jasperelder_speech_031 = de \
+   "~kAfiera Xor sagt, \"Ich bin jetzt müde. Bitte geh.\""
+jasperelder_speech_032 = de "~kAfiera Xor sagt, \"Hier hast Du es.\""
+jasperelder_speech_033 = de "~kAfiera Xor sagt, \"Sieh Dich selbst um.\""
+jasperelder_speech_034 = de \
+   "~kAfiera Xor sagt, \"Nun, was meinst Du? Geh raus, schau Dich um und Du "
+   "wirst Deine eigenen Schlüsse ziehen können.\""
+jasperelder_speech_035 = de \
+   "~kAfiera Xor sagt, \"Ein Mann mit reinem Herzen, wenn auch ein wenig zu "
+   "sehr entschlossen. Aber er würde einen guten Herrscher abgeben, wenn er "
+   "sein Streben nach Rache überwinden könnte.\""
+jasperelder_speech_036 = de \
+   "~kAfiera Xor sagt, \"Seid ihr beide einander schon vorgestellt worden?\""
+jasperelder_speech_037 = de \
+   "~kAfiera Xor sagt, \"Er ist wahrscheinlich in der Bar und erläutert "
+   "seine Strategien, geh' ihn suchen und frag ihn.\""
+jasperelder_speech_038 = de \
+   "~kAfiera Xor sagt, \"Möglicherweise kommt ein Punkt, an dem wir uns dem "
+   "Lich im Kampf stellen müssen. Jetzt ist der Zeitpunkt, wo wir soviel wie "
+   "möglich über unseren Feind herausfinden müssen.\""
+jasperelder_speech_039 = de \
+   "~kAfiera Xor sagt, \"Einen Blitzeinschlag zu beschwören ist eine Kraft, "
+   "die ich in den vielen Jahren, die ich mit den Waldschraten verbrachte, "
+   "erlernte. Ich habe nichts dagegen, dieses Wissen an diejenigen "
+   "weiterzugeben, die das Verständnis dafür besitzen und die die Kraft "
+   "richtig einzusetzen wissen.\""
+jasperelder_speech_040 = de \
+   "~kAfiera Xor sagt, \"Dafür habe ich jetzt keine Zeit.\""
+jasperelder_speech_041 = de \
+   "~kAfiera Xor sagt, \"Ich bin schon sehr lange nicht mehr in Marion "
+   "gewesen.\""
+jasperelder_speech_042 = de \
+   "~kAfiera Xor sagt, \"Sag mir, wie ist es in Marion heutzutage?\""
+jasperelder_speech_043 = de "~kAfiera Xor scheint an etwas anderes zu denken."
+jasperelder_speech_044 = de \
+   "~kAfiera Xor sagt, \"Der Anhänger ist ein Zentrum der Kraft für den "
+   "Nekromanten. Er könnte auch ein Punkt seiner Verwundbarkeit sein. "
+   "Verstehe das, und es gibt möglicherweise einen Weg, sie zu vernichten. "
+   "Täusche Dich nicht, denn sie wollen dasselbe.\""
+jasperelder_speech_045 = de \
+   "~kAfiera Xor sagt, \"Vernichte sie um jeden Preis.\""
+jasperelder_speech_046 = de \
+   "~kAfiera Xor sagt, \"Eine alte und ehrwürdige Zivilisation, die aufgrund "
+   "unseres begrenzten Einfühlungsvermögens völlig missverstanden wurde. "
+   "Doch sie haben diese Mythen auch fortbestehen lassen. Ich fürchte, wir "
+   "werden niemals die Wahrheit herausfinden, die nicht darin besteht, dass "
+   "die Orks böse und wir gut sind oder recht haben, sondern dass wir uns zu "
+   "Tode fürchten, unsere Welt könnte morgen etwas Neues werden. Auch wenn "
+   "sie es muss.\""
+jasperelder_speech_047 = de "~kAfiera Xor sagt, \"Lass mich jetzt allein.\""
+jasperelder_speech_048 = de "~kAfiera Xor sagt, \"Na ja.\""
+jasperelder_speech_049 = de \
+   "~kAfiera Xor sagt, \"Ja, ich sprach einmal vor langer Zeit mit ihr. Ich "
+   "zweifle nicht an ihren ehrenhaften Absichten, doch ich glaube nicht, "
+   "dass sie den Willen besitzt, die Führung zu übernehmen.\""
+jasperelder_speech_050 = de \
+   "~kAfiera Xor sagt, \"Dann stell Deine Fragen doch ihr.\""
+jasperelder_speech_051 = de \
+   "~kAfiera Xor sagt, \"Vergib mir, aber ich habe jetzt keine Zeit für "
+   "Schüler. Du musst gehen.\""
+jasperelder_speech_052 = de \
+   "~kAfiera Xor sagt, \"Die Ratten liegen mit uns Menschen vor allem im "
+   "Streit, weil wir beide Aasfresser sind, die um die begrenzten Mengen an "
+   "Abfall und Müll wetteifern.\""
+jasperelder_speech_053 = de "~kAfiera Xor sagt, \"Ratte?\""
+jasperelder_speech_054 = de \
+   "~kAfiera Xor sagt, \"Die Spinnen verfolgen ihre eigenen Absichten. "
+   "Kannst Du ihnen ihre scheinbare Feindseligkeit wirklich übelnehmen, wenn "
+   "Du für sie wie eine wandelnde Fleischpastete aussiehst? Sie sind "
+   "großartige Jäger.\""
+jasperelder_speech_055 = de \
+   "~kAfiera Xor sagt, \"Ich kann jetzt nicht mehr reden. Bitte lass mich "
+   "allein.\""
+jasperelder_speech_056 = de \
+   "~kAfiera Xor sagt, \"Ich wünschte, der arme Mann hätte damals vor all "
+   "den Jahren sein Ziel erreicht. Dann müssten wir uns heute nicht mit "
+   "diesen Drangsalen herumschlagen.\""
+jasperelder_speech_057 = de "~kAfiera Xor sagt, \"Ja, Tos.\""
+jasperelder_speech_058 = de \
+   "~kAfiera Xor sagt, \"Tos? Ich fürchte, ich weiß nicht sehr viel über die "
+   "Stadt selbst.\""
+jasperelder_speech_059 = de \
+   "~kAfiera Xor sagt, \"Der Mittelpunkt allen Unsinns in diesem Land.\""
+jasperelder_speech_060 = de \
+   "~kAfiera Xor sagt, \"Die Waldschrate sind seit vielen Jahrtausenden in "
+   "diesem Land und haben Wege gefunden, Frieden zu erhalten und ein Leben "
+   "nach ihren eigenen Vorstellungen zu führen.\""
+jasperelder_speech_061 = de \
+   "~kAfiera Xor sagt, \"Ich werde heute nicht weiter mit Dir sprechen. Ich "
+   "muss an meine Arbeit zurückkehren.\""
+jasperelder_speech_062 = de \
+   "~kAfiera Xor sagt, \"Kennst Du jemanden, der jemals mit einem Troll "
+   "gesprochen hätte? Es ist nicht sehr wahrscheinlich. Denn sie sind ja "
+   "nicht das, was wir, wo wir hier so sitzen, als einen gewandten "
+   "Unterhalter bezeichnen würden. Sie sind nach unseren Maßstäben nicht "
+   "besonders schnell oder gewitzt. Der Punkt ist, dass wir es noch nicht "
+   "einmal versuchen. Und sogar diejenigen, die vorgeben, sich mit Shal'ille "
+   "und den Wegen der Heilung zu identifizieren, sind nur zu bereit zu "
+   "kämpfen statt zu versuchen zu verstehen. Wir wollen ihre Antworten nicht "
+   "hören und deshalb bemühen wir uns noch nicht einmal, mit ihnen zu "
+   "sprechen.\""
+jasperelder_speech_063 = de \
+   "~kAfiera Xor sagt, \"Ich habe Dir überhaupt nichts zu sagen.\""
+jasperelder_speech_064 = de "~kAfiera Xor sagt, \"Was ist mit ihr?\""
+jasperelder_speech_065 = de \
+   "~kAfiera Xor sagt, \"Ich glaube, dass der Yeti sowohl Wächter als auch "
+   "Bote ist. Aber welche Botschaft? Sie sind einzelgängerische Kreaturen.\""
+jasperelder_speech_066 = de \
+   "~kAfiera Xor sagt, \"Yeti? Vergib mir, aber meine Gedanken sind "
+   "woanders. Du musst jetzt gehen.\""
+jasperelder_random_001 = de \
+   "~kAfiera Xor sagt, \"Diese Ratsmitglieder versuchen, mit den Artefakten "
+   "den alten Nexus wieder zu öffnen. Ich bin mir nicht sicher, ob das eine "
+   "gute Idee ist. Wer weiß schon, was passieren wird, wenn diese Artefakte "
+   "zusammengebracht werden? Sie sollten bereit sein, die Aufmerksamkeit der "
+   "Götter auf sich zu ziehen, wenn das geschieht.\""
+jasperelder_random_002 = de \
+   "~kAfiera Xor sagt, \"Der alte Alzahakar ist ein weiser Mann. Ein großer "
+   "Magier und ein Gelehrter vieler, vieler Bücher. Vielleicht kann er Dir "
+   "helfen, einen Weg zu Deinen eigenen geheimen Reserven zu finden. In Dir "
+   "ruht ein Potential, das sogar jetzt darauf wartet, dass der Dich "
+   "umgebende Winter zurückweicht.\""
+jasperelder_random_003 = de \
+   "~kAfiera Xor sagt, \"Jala ist nicht tot, außer sie gerät völlig in "
+   "Vergessenheit. Sie ist solange nicht tot, wie wir sie lebendig "
+   "erhalten.\""
+jasperelder_random_004 = de "~kAfiera Xor sagt, \"Amüsier Dich gut.\""
+jasperelder_random_005 = de \
+   "~kAfiera Xor sagt, \"Sei der, der Du sein möchtest. Dies, all dies ist "
+   "nur ein Spiel. Nur ein Spiel. Es ist so wichtig, wie Du es nimmst.\""
+jasperelder_random_006 = de \
+   "~kAfiera Xor sagt, \"Finde Deinen Platz und gehe dorthin. Nimm Dir Zeit "
+   "und denke darüber nach, was in Deinem Leben geschieht. Es ist wirklich "
+   "ganz einfach.\""
+jasperelder_random_007 = de \
+   "~kAfiera Xor sagt, \"Riechst Du irgend etwas Komisches?\""
+jasperelder_random_008 = de \
+   "~kAfiera Xor sagt, \"Die Waldschrate haben ein altes Sprichwort für die, "
+   "die ihre Sprache sprechen. Sie sagen 'Heute der Waldbrand und morgen die "
+   "Asche.' Sie lebten nur in Alpträumen und Visionen. So wird es auch eine "
+   "Zeit geben, wo auch all dies vergangen ist und unsere jetzigen Träume "
+   "dann diesen Traum ersetzen, und immer so fort.\""
+jasperelder_random_009 = de \
+   "~kAfiera Xor sagt, \"Sei vorsichtig in der Wahl Deiner Feinde, wenn sich "
+   "Dir die Gelegenheit dazu bietet. Wenn Du nie die Wahl hast, dann stell "
+   "sicher, dass die Feinde, die Du hast, Dich nicht vergessen, bis sie tot "
+   "sind.\""
+jasperelder_random_010 = de \
+   "~kAfiera Xor sagt, \"Ich hatte nie Geld und auch nie Interesse daran. "
+   "Ich kenne zu viele, die Geld über alles stellen, überzeugt, dass nur ein "
+   "bisschen mehr sie für immer und ewig retten wird... \""
+jasperelder_random_011 = de \
+   "~kAfiera Xor sagt, \"Häufig ist es besser, Ärger auszuweichen, wenn er "
+   "auftaucht. Umgehe ihn, lass ihn vorbei. Das ist die Weisheit eines alten "
+   "Mannes, aber eines, der weiterlebt und älter wird.\""
+jasperelder_random_012 = de \
+   "~kAfiera Xor sagt, \"Du könntest Dein Leben dem Studium der Artefakte "
+   "widmen. Viele haben das getan. Du könntest Dein Leben aber auch damit "
+   "verbringen, sozusagen Deinen eigenen Schweif zu jagen. Es ist ein Fehler "
+   "anzunehmen, dass wir etwas nur durch unsere Erfahrungen verstehen "
+   "können, ohne die dahinterliegenden Strukturen, die große Ordnung zu "
+   "ergründen. Vorstellungskraft. Bedeutung.\""
+jasperelder_random_013 = de \
+   "~kAfiera Xor sagt, \"Es ist nicht so, als ob wir eine Wahl in Bezug auf "
+   "die Kunst oder die Musik hätten. Sie sind einfach genauso Bestandteile "
+   "unserer Existenz wie das Sprechen und das Hören.\""
+jasperelder_random_014 = de \
+   "~kAfiera Xor sagt, \"Ich erkenne, dass Du einen weiten Weg zurückgelegt "
+   "hast, um hierher zu kommen.\""
+jasperelder_random_015 = de \
+   "~kAfiera Xor sagt, \"Mit Kampf kommst Du überall hin, wo Du willst, oder "
+   "aber wenn Du klug genug bist, kannst Du an die gleichen Orte gelangen "
+   "und dabei Gewalt ausweichen und Ärger umgehen. Es gibt unzählige Wege, "
+   "um genau das zu erreichen, was Du in dieser Welt willst, mein Freund.\""
+jasperelder_random_016 = de \
+   "~kAfiera Xor sagt, \"Mach Dir keine Gedanken über die kleinen Dinge ... "
+   "Unbequemlichkeiten, kleine Kränkungen. Es gibt genug echte Tragödien und "
+   "Herzschmerz für alle.\""
+jasperelder_random_017 = de \
+   "~kAfiera Xor sagt, \"Wusstest Du, dass die Orks eine Kultur haben, die "
+   "um tausend Jahre älter ist als unsere? Ich habe einige der "
+   "künstlerischen Errungenschaften dieser Leute gesehen und bin froh über "
+   "diesen Einblick, der mir vergönnt war. Bei all den äußeren Zeichen der "
+   "Feindseligkeit und der augenscheinlichen Unkenntnis unserer eigenen "
+   "Wirklichkeit besitzen die Orkstämme eine kulturelle Raffinesse, die wir "
+   "offenbar nicht begreifen können.\""
+jasperelder_random_018 = de \
+   "~kAfiera Xor sagt, \"Gesegnet sei Shal'ille, die Gütige und "
+   "Mitleidsvolle.\""
+jasperelder_random_019 = de \
+   "~kAfiera Xor sagt, \"Gesegnet sei Jala, unsere Herrin der Kunst, des "
+   "Gesangs und der Wahrheit.\""
+jasperelder_random_020 = de \
+   "~kAfiera Xor sagt, \"Ehre Faren, der im Chaos dieser Welt ein Muster "
+   "findet.\""
+jasperelder_random_021 = de \
+   "~kAfiera Xor sagt, \"Willkommen Riija, der uns mit Erinnerungen und "
+   "Ausblicken ehrt.\""
+jasperelder_random_022 = de \
+   "~kAfiera Xor sagt, \"Siehe den mächtigen Kraanan, der bewundernswert in "
+   "seiner Stärke und seinen heftigen Taten ist.\""
+jasperelder_random_023 = de \
+   "~kAfiera Xor sagt, \"Gepriesen sei Qor, die das Verderben sucht.\""
+jasperelder_random_024 = de "~kAfiera Xor sagt, \"Wer bist Du?\""
+jasperelder_random_025 = de "~kAfiera Xor sagt, \"Was suchst Du?\""
+jasperelder_random_026 = de \
+   "~kAfiera Xor sagt, \"Geschichte wiederholt sich nicht, nur die "
+   "Geschichtsschreiber neigen dazu, sich zu wiederholen.\""
+jasperelder_random_027 = de \
+   "~kAfiera Xor sagt, \"Die Musik der Erde ist an sich schon eine Quelle "
+   "der Magie.\""
+jasperelder_random_028 = de \
+   "~kAfiera Xor sagt, \"Es gibt Geheimnisse jenseits des Meeres, jenseits "
+   "der Berge, gewiss auch jenseits unserer Siedlungen und Städte. "
+   "Geheimnisse, die sich mit der Zeit selbst enthüllen, mit der Zeit.\""
+jasperelder_random_029 = de \
+   "~kAfiera Xor sagt, \"Du kamst her, um einen alten Mann zu sehen, und "
+   "jetzt hast Du mich gesehen. Warum machst Du es Dir nicht bequem, während "
+   "ich arbeite? Ich werde Dir erzählen, was ich kann.\""
+jasperelder_random_030 = de \
+   "~kAfiera Xor sagt, \"Die sogenannten Artefakte sind Relikte aus einer "
+   "vergangenen Ära, von einer Intelligenz, die so viele Generationen, bevor "
+   "wir hierherkamen, um zu träumen, über dieses Land zog, dass nichts von "
+   "ihr geblieben ist außer Andenken, Tand jenseits unserer "
+   "Vorstellungskraft.\""
+jasperelder_random_031 = de \
+   "~kAfiera Xor sagt, \"Wusstest Du, dass die Trolle ein eigenes Erbe "
+   "haben, eine Geschichte, die sowohl reich ist als auch uns ausschließt, "
+   "genauso wie unsere Geschichte sie ausschließt?\""
+jasperelder_random_032 = de \
+   "~kAfiera Xor sagt, \"Es gibt keine einfachen Antworten.\""
+jasperelder_random_033 = de \
+   "~kAfiera Xor sagt, \"Leben entfaltet sich überall um Dich herum, nicht "
+   "wahr? Worauf wartest Du?\""
+jasperelder_random_034 = de \
+   "~kAfiera Xor sagt, \"Bleib. Ruhe Dich aus. Nach und nach reden wir "
+   "miteinander.\""
+jasperelder_random_035 = de \
+   "~kAfiera Xor sagt, \"Sieh Dich um, und Du wirst Deinen eigenen Weg "
+   "finden. Du hast Zeit dafür, wenn Du es möchtest.\""
+jasperelder_random_036 = de \
+   "~kAfiera Xor sagt, \"Die Toten stehen auf in Tos, weil wir es wollen. "
+   "Denn weißt Du, die meisten der Feinde, die wir wahrnehmen, sind "
+   "eigentlich ... Erfindungen, Phantasiegebilde unserer Einbildungskraft.\""
+jasperelder_random_037 = de \
+   "~kAfiera Xor sagt, \"Man sagt, der König hätte schon vor so langen "
+   "Jahren seinen Thron verlassen und dass viele Unglücke, die über das Land "
+   "hereingebrochen sind, davon herrühren. Was für ein Unsinn! Diese Welt "
+   "folgt ihrem eigenen unbeschreiblichen Pfad und nichts wird dies ändern. "
+   "Könige und Königinnen sind die Verkörperung unserer Eitelkeit, mehr "
+   "nicht.\""
+jasperelder_random_038 = de \
+   "~kAfiera Xor sagt, \"Es ist nicht genug zu erschaffen, wir müssen unter "
+   "Gefahren erschaffen. Aus großen Konflikten entstehen die höchsten Wogen "
+   "der Schaffenskraft, und Menschen sind nicht glücklich, solange sie nicht "
+   "unglücklich sind. Kannst Du mir folgen?\""
+jasperelder_random_039 = de \
+   "~kAfiera Xor sagt, \"Bei den Göttern gibt es kein Richtig oder Falsch. "
+   "Alle sind gleich, alle sind notwendig. Ehre ihre Absichten. Alle.\""
+jasperelder_random_040 = de \
+   "~kAfiera Xor sagt, \"Der Waldschrat als magische Kreatur legt in vielen "
+   "Fällen seine eigenen Gesetze fürs Überleben fest. Der Zauber Waffenruhe "
+   "kann ihm nichts anhaben.\""
+jasperelder_random_041 = de \
+   "~kAfiera Xor sagt, \"Maleval der Zauberer hat seine Kunst so "
+   "fortentwickelt, dass sie weit über den von uns jemals vorstellbaren "
+   "Bereich hinausreicht. Er spielt mit dem sprichwörtlichen Feuer! Er hat "
+   "mir gesagt, dass er seinen Sporenentladungs-Zauber einem Qor-Schüler "
+   "beibringen kann, der bereit ist, den Schritt hin zu Faren zu "
+   "unternehmen!\""
+jasperelder_random_042 = de \
+   "~kAfiera Xor sagt, \"Man redet davon, dass ein einzelner Yrx'l-Baum auf "
+   "Konimas Insel ausgemacht wurde. Da ich selbst die Zweige und Blätter "
+   "gesehen habe, liegt der Verdacht nahe, dass es sich wirklich um einen "
+   "solchen handelt, obwohl ich den Baum nur aus der Legende kenne.\""
+jasperelder_random_043 = de \
+   "~kAfiera Xor sagt, \"Ich glaube, dass unser Gespräch nun vorbei ist. "
+   "Komm ein anderes Mal wieder.\""
+jasperelder_random_044 = de \
+   "~kAfiera Xor sagt, \"Menschen sind im Grunde ihres Wesens dumm.\""
+jasperelder_random_045 = de \
+   "~kAfiera Xor sagt, \"Geh und kämpfe, um weiterzukommen, wenn es das ist, "
+   "was Du tun musst. Das ist einfacher als nachzudenken, nicht wahr?\""
+jasperelder_random_046 = de \
+   "~kAfiera Xor sagt, \"Bitte, geh jetzt. Ich muss mich jetzt wieder meiner "
+   "Schnitzerei zuwenden.\""
+jasperelder_random_047 = de \
+   "~kAfiera Xor sagt, \"Es gibt jetzt nichts mehr, was ich mit Dir teilen "
+   "könnte.\""
+jasperelder_random_048 = de \
+   "~kAfiera Xor sagt, \"Ich muss jetzt an meine Arbeit zurück.\""
+jasperelder_random_049 = de "~kAfiera Xor sagt, \"Was hast Du verstanden?\""
+jasperelder_random_050 = de \
+   "~kAfiera Xor sagt, \"Du findest sicher selbst nach draußen.\""
+jasperelder_trigger_ant = de "ameise"
+jasperelder_trigger_bye = de "tschüss"
+jasperelder_trigger_centipede = de "tausendfüßler"
+jasperelder_trigger_council = de "ratsmitglied"
+jasperelder_trigger_dement = de "verdummen"
+jasperelder_trigger_duke = de "herzog"
+jasperelder_trigger_hello = de "hallo"
+jasperelder_trigger_hunter = de "jäger"
+jasperelder_trigger_hunter_sword = de "jagdschwert"
+jasperelder_trigger_lightning = de "blitzschlag"
+jasperelder_trigger_necromancer = de "nekro"
+jasperelder_trigger_orc = de "ork"
+jasperelder_trigger_princess = de "prinzessin"
+jasperelder_trigger_pupil = de "schüler"
+jasperelder_trigger_rat = de "ratte"
+jasperelder_trigger_spider = de "spinne"
+jasperelder_trigger_tree_folk = de "waldschra"
+
+// JasperInnKeeper
+jasperinnkeeper_speech_001 = de \
+   "~kDie Witwe Qesino sagt, \"Ja, er wohnt schon lange in Jasper.\""
+jasperinnkeeper_speech_002 = de \
+   "~kDie Witwe Qesino sagt, \"Ein ~IAttentäter~I? Wer wurde denn ermordet?\""
+jasperinnkeeper_speech_003 = de \
+   "~kDie Witwe Qesino sagt, \"Ich weiß, dass Barloque die Heimat der "
+   "königlichen Familie von Meridian ist. Unser Yevitan, bei der Königlichen "
+   "Bank hier in Jasper, war ein enger Berater von König Zarcos IV. und "
+   "lebte dort viele Jahre, bevor er zu uns nach Jasper zurückkehrte.\""
+jasperinnkeeper_speech_004 = de \
+   "~kDie Witwe Qesino sagt, \"Auch wenn ich noch nie in Barloque war, ist "
+   "es dort sicher sehr prächtig.\""
+jasperinnkeeper_speech_005 = de \
+   "~kDie Witwe Qesino sagt, \"Oh, nein, Du darfst jetzt nicht gehen... es "
+   "ist nicht sicher, nachts durch die Berge zu reisen.\""
+jasperinnkeeper_speech_006 = de \
+   "~kDie Witwe Qesino sagt, \"Einen guten %s wünsche ich Dir.\""
+jasperinnkeeper_speech_007 = de \
+   "~kDie Witwe Qesino sagt, \"Hühnersuppe ist mir gerade ausgegangen. "
+   "Möchtest Du vielleicht eine Schüssel Faroni-Eintopf?\""
+jasperinnkeeper_speech_008 = de \
+   "~kDie Witwe Qesino sagt, \"Cor Noth liegt genau im Norden in der Ebene. "
+   "Die Leute dort sind sehr idealistisch.\""
+jasperinnkeeper_speech_009 = de \
+   "~kDie Witwe Qesino sagt, \"Ich war leider noch nie in Cor Noth. Es ist "
+   "sicher ein sehr netter Ort.\""
+jasperinnkeeper_speech_010 = de \
+   "~kDie Witwe Qesino sagt, \"Sie sind sehr weise, das weiß ich, aber was "
+   "können sie gegen all diese Schwierigkeiten schon ausrichten? Die Leute "
+   "müssen sich selber mehr darum kümmern, müssen die Verantwortung für ihr "
+   "Leben selbst übernehmen.\""
+jasperinnkeeper_speech_011 = de \
+   "~kDie Witwe Qesino sagt, \"Die Politik des Rates hat überhaupt keinen "
+   "Bezug zu dem einfachen Leben, das wir hier in Jasper führen.\""
+jasperinnkeeper_speech_012 = de \
+   "~kDie Witwe Qesino sagt, \"Um Kalior vergieße ich keine Träne.\""
+jasperinnkeeper_speech_013 = de \
+   "~kDie Witwe Qesino schnaubt, \"Ich bin sicher, wir sind für ihn nur ein "
+   "Nebengedanke, wenn er überhaupt an uns denkt.\""
+jasperinnkeeper_speech_014 = de \
+   "~kDie Witwe Qesino sagt, \"Dieser Grünschnabel hat gedacht, er hätte uns "
+   "im Griff, nicht wahr? Er hat auf die harte Tour herausgefunden, dass er "
+   "tödlich danebenlag.\""
+jasperinnkeeper_speech_015 = de \
+   "~kDie Witwe Qesino sagt, \"Von was redest Du eigentlich?\""
+jasperinnkeeper_speech_016 = de "~kDie Witwe Qesino lächelt Dich herzlich an."
+jasperinnkeeper_speech_017 = de "~kDie Witwe Qesino sagt, \"Willkommen.\""
+jasperinnkeeper_speech_018 = de \
+   "~kDie Witwe Qesino sagt, \"Komm herein und wärm Dich am Feuer.\""
+jasperinnkeeper_speech_019 = de \
+   "~kDie Witwe Qesino sagt, \"Mein Mann ist vor einiger Zeit verschwunden. "
+   "Er wird schon seit vielen Monaten vermisst, und man hat mir, als die "
+   "Suche eingestellt wurde, gesagt, dass er wahrscheinlich tot sei.\""
+jasperinnkeeper_speech_020 = de "~kDie Witwe Qesino sagt, \"Ich bin Witwe.\""
+jasperinnkeeper_speech_021 = de \
+   "~kDie Witwe Qesino sagt, \"Diese Stadt wird sich noch einen Namen "
+   "machen. Jetzt, da wir Jonas und seine Rebellen hier haben, können sie "
+   "uns nicht länger einfach ignorieren.\""
+jasperinnkeeper_speech_022 = de \
+   "~kDie Witwe Qesino sagt, \"Hier wird immer mehr geredet. Ich bin "
+   "gespannt, ob den Worten auch Taten folgen werden.\""
+jasperinnkeeper_speech_023 = de \
+   "~kDie Witwe Qesino sagt, \"Er ist im Herzen ein guter Mann, er passt "
+   "fast schon zu uns Bergleuten.\""
+jasperinnkeeper_speech_024 = de \
+   "~kDie Witwe Qesino sagt, \"Ich bin mir nicht sicher, ob er unsere "
+   "Rettung oder unser neuester Untergang ist. Das ist wirklich reine "
+   "Glückssache.\""
+jasperinnkeeper_speech_025 = de \
+   "~kDie Witwe Qesino sagt, \"Wer wurde ~Igetötet~I?\""
+jasperinnkeeper_speech_026 = de \
+   "~kDie Witwe Qesino sagt, \"Meine Schwester ist mit ihrem Mann nach "
+   "Marion gezogen, nachdem die Minen geschlossen wurden. Das ist ein sehr "
+   "hübsches Städtchen. Die Leute dort sind sehr lustig und schlagfertig. "
+   "Sie machen ständig Witze.\""
+jasperinnkeeper_speech_027 = de \
+   "~kDie Witwe Qesino sagt, \"Marion liegt gerade mal so außerhalb der "
+   "Berge, auf der anderen Seite des großen Farolwaldes. Ja, einige der "
+   "dortigen Bauern kommen regelmäßig nach Jasper, um ihre Waren auf dem "
+   "Markt hier zu verkaufen.\""
+jasperinnkeeper_speech_028 = de \
+   "~kDie Witwe Qesino sagt, \"Nach dem, was die Leute mir erzählen, ist sie "
+   "einfach ein einsames, verlorenes Kind, das jemanden sucht, der ihr ein "
+   "wenig Liebe entgegenbringt.\""
+jasperinnkeeper_speech_029 = de \
+   "~kDie Witwe Qesino sagt, \"Sie ist doch nur ein kleines Mädchen, dem eh "
+   "keiner zuhört. Was würdest Du denn machen, wenn man Dich so piesacken "
+   "würde?\""
+jasperinnkeeper_speech_030 = de \
+   "~kDie Witwe Qesino sagt, \"Und wenn sie wirklich die Wahrheit sagt.  Wer "
+   "würde sich schon drum scheren?\""
+jasperinnkeeper_speech_031 = de \
+   "~kDie Witwe Qesino sagt, \"Wenn sie nicht aus dieser Gegend ist, dann "
+   "interessiert es mich nicht.\""
+jasperinnkeeper_speech_032 = de \
+   "~kDie Witwe Qesino sagt, \"Raus mit Dir, bevor Du Unheil in mein Haus "
+   "bringst. Pack Dich, husch!\""
+jasperinnkeeper_speech_033 = de \
+   "~kDie Witwe Qesino sagt, \"Mord? Jemand wurde ~Iermordet~I?\""
+jasperinnkeeper_speech_034 = de \
+   "~kDie Witwe Qesino sagt, \"Ich habe bereits meinen ganzen Schriftverkehr "
+   "von heute abgeschickt.\""
+jasperinnkeeper_speech_035 = de \
+   "~kDie Witwe Qesino sagt, \"Sie sagt, wir sollen die Ratsmitglieder "
+   "fragen, heh, aber mal ganz ehrlich, ich hab diesen Schleimbeuteln noch "
+   "nie geglaubt. Ich hab immer vermutet, die verheimlichen was.\""
+jasperinnkeeper_speech_036 = de \
+   "~kDie Witwe Qesino sagt, \"Wir vom Bergvolk kommen auch ohne die ganzen "
+   "Extras gut zurecht; wenn man uns was wegnimmt, leben wir halt ohne. "
+   "Irgendwie ist es schon komisch, denen allen zuzusehen, vollkommen aus'm "
+   "Häuschen, bloß wegen der dämlichen Manaquellen.\""
+jasperinnkeeper_speech_037 = de \
+   "~kDie Witwe Qesino sagt, \"Ja, die Orks bereiten denen, die in diesen "
+   "Bergen reisen, viele Schwierigkeiten.\""
+jasperinnkeeper_speech_038 = de \
+   "~kDie Witwe Qesino sagt, \"Ja, Pietro... nun ja, er hat ein kleines "
+   "Problem mit dem Trinken.\""
+jasperinnkeeper_speech_039 = de \
+   "~kDie Witwe Qesino sagt, \"Er betreibt die Kneipe. Sie sollte eigentlich "
+   "noch geöffnet haben. Du brauchst nur hier die Straße raufzugehen.\""
+jasperinnkeeper_speech_040 = de \
+   "~kDie Witwe Qesino sagt, \"Die arme Seele, muss, soweit ich weiß, die "
+   "ganze Verantwortung des Thrones auf ihren Schultern tragen, jetzt, wo "
+   "sich das Land in einem solchen ~IDurcheinander~I befindet. Das zeigt "
+   "doch sehr deutlich, dass Glück sich nicht automatisch mit Reichtum und "
+   "Macht einstellt.\""
+jasperinnkeeper_speech_041 = de \
+   "~kDie Witwe Qesino sagt, \"Sie scheint sehr freundlich zu sein, naiv, "
+   "aber freundlich.\""
+jasperinnkeeper_speech_042 = de \
+   "~kDie Witwe Qesino sagt, \"Ich kann mir Ihre Hoheit kaum vorstellen, wie "
+   "sie ihre Röcke rafft und durch die Berge nach Jasper spaziert.\""
+jasperinnkeeper_speech_043 = de \
+   "~kDie Witwe Qesino sagt, \"Ja, Quintor ist der Schmied in Jasper. Seine "
+   "Schmiede befindet sich gleich auf der anderen Seite des Weges, falls Du "
+   "Metallarbeiten brauchst.\""
+jasperinnkeeper_speech_044 = de \
+   "~kDie Witwe Qesino sagt, \"Ja, er wohnt hier und betreibt die Schmiede "
+   "gleich auf der anderen Seite des Weges. Ein sehr guter Schmied "
+   "obendrein, wie Du selbst sehen kannst. Er hat viele der Dinge hier in "
+   "der Herberge gemacht.\""
+jasperinnkeeper_speech_045 = de \
+   "~kDie Witwe Qesino sagt, \"Es wurde höchste Zeit, dass Jasper eine "
+   "richtige Miliz bekommt, besonders mit all diesen Städtern, die in "
+   "letzter Zeit hier herumwandern.\""
+jasperinnkeeper_speech_046 = de \
+   "~kIm Raum wird es still, als %s den verkümmerten Zwerg erwähnt."
+jasperinnkeeper_speech_047 = de \
+   "~kDie Witwe Qesino sagt, \"Yevitan von der Königlichen Bank hier in "
+   "Jasper arbeitete früher eng mit einer anderen Bank zusammen, die in Tos "
+   "ist. Du kannst Deine Geschäfte bei beiden abwickeln. Mein verstorbener "
+   "Ehemann vertraute Yevitan nicht und reiste extra nach Tos, um seine "
+   "Geschäfte abzuwickeln. Er ... nun, als er das letzte Mal nach Tos "
+   "aufbrach, verschwand er. Er kam nie in Tos an, und hier hat ihn auch "
+   "niemand mehr gesehen.\""
+jasperinnkeeper_speech_048 = de \
+   "~kDie Witwe Qesino sagt, \"Ja, das ist eine große Stadt, in einiger "
+   "Entfernung nördlich von hier. Mein verstorbener Ehemann reiste "
+   "regelmäßig dorthin, um Geschäfte zu machen.\""
+jasperinnkeeper_speech_049 = de \
+   "~kDie Witwe Qesino sagt, \"Trolle sind ~Isehr~I böse.\""
+jasperinnkeeper_speech_050 = de \
+   "~kDie Witwe Qesino sagt, \"Er ist ein sehr kluger Geschäftsmann. Früher "
+   "war er diesbezüglich ein sehr enger Berater des Königs. Das ist schon "
+   "eine ziemliche Leistung für jemanden aus Jasper, weil die Leute aus "
+   "anderen Städten in der Regel auf uns herabsehen.\""
+jasperinnkeeper_speech_051 = de \
+   "~kDie Witwe Qesino sagt, \"Ja, das ist der Bankier in Jasper. Ein "
+   "ehrlicher Mann.\""
+jasperinnkeeper_speech_052 = de "~kDie Witwe Qesino sagt, \"Kennst Du ihn?\""
+jasperinnkeeper_random_001 = de \
+   "~kDie Witwe Qesino sagt, \"Die Ratten und Baby-Spinnen in diesem Gebiet "
+   "werden Dir wenig Probleme bereiten, aber hüte Dich vor den Trollen und "
+   "Orks!\""
+jasperinnkeeper_random_002 = de \
+   "~kDie Witwe Qesino sagt, \"Siehst Du, fühlst Du Dich nicht besser, "
+   "nachdem Du etwas gegessen hast?\""
+jasperinnkeeper_random_003 = de "~kDie Witwe Qesino sagt, \"Sei gesegnet.\""
+jasperinnkeeper_random_004 = de \
+   "~kDie Witwe Qesino sagt, \"Ich kann Dir etwas zu essen machen, wenn Du "
+   "hungrig bist. \""
+jasperinnkeeper_random_005 = de \
+   "~kDie Witwe Qesino sagt, \"Wenn Du Dich ausruhen und erholen möchtest, "
+   "geh in eine Herberge. Hier bist Du sicher.\""
+jasperinnkeeper_random_006 = de \
+   "~kDie Witwe Qesino sagt, \"Bist Du sicher, dass Du nichts essen "
+   "möchtest? Ich habe gerade meine Einkäufe erledigt, und Du siehst so aus, "
+   "als ob Du eine ordentliche Mahlzeit gut vertragen könntest.\""
+jasperinnkeeper_random_007 = de \
+   "~kDie Witwe Qesino sagt, \"Du siehst so aus, als kämst Du von weit her. "
+   "Jasper muss Dir als sehr rückständig erscheinen.\""
+jasperinnkeeper_random_008 = de \
+   "~kDie Witwe Qesino sagt, \"Wird Dir langsam wärmer? Lass mich das Feuer "
+   "noch etwas schüren.\""
+jasperinnkeeper_random_009 = de \
+   "~kDie Witwe Qesino sagt, \"Nachts holst Du Dir in diesen Bergen leicht "
+   "eine Erkältung.\""
+jasperinnkeeper_random_010 = de \
+   "~kDie Witwe Qesino sagt, \"Kann ich Dir irgendetwas bringen?\""
+jasperinnkeeper_random_011 = de \
+   "~kDie Witwe Qesino sagt, \"Ich möchte, dass Du meine Herberge verlässt.\""
+jasperinnkeeper_random_012 = de \
+   "~kDie Witwe Qesino sagt, \"Du musst jetzt gehen.\""
+jasperinnkeeper_trigger_assassin = de "attentäter"
+jasperinnkeeper_trigger_bye = de "ciao"
+jasperinnkeeper_trigger_chicken_soup = de "hühnersuppe"
+jasperinnkeeper_trigger_council = de "ratsmitglied"
+jasperinnkeeper_trigger_duke = de "herzog"
+jasperinnkeeper_trigger_fate = de "schicksal"
+jasperinnkeeper_trigger_hello = de "hallo"
+jasperinnkeeper_trigger_husband = de "ehemann"
+jasperinnkeeper_trigger_kill = de "getötet"
+jasperinnkeeper_trigger_kill_2 = de "töten"
+jasperinnkeeper_trigger_murder = de "mord"
+jasperinnkeeper_trigger_need_a_courier = de "brauchst du einen boten?"
+jasperinnkeeper_trigger_node_attack = de "quellenangriff"
+jasperinnkeeper_trigger_orc = de "ork"
+jasperinnkeeper_trigger_princess = de "prinzessin"
+jasperinnkeeper_trigger_rebels = de "rebellen"
+jasperinnkeeper_trigger_stunted_dwarf = de "verkümmerter zwerg"
+
+// JasperMerchant
+jaspermerchant_speech_001 = de \
+   "~kBob sagt, \"Er ist mit Abstand der älteste und weiseste Mann in "
+   "Jasper, ein echter Schatz, so wie die Krone von Jasper oder wie das "
+   "Geheimnis. Du weißt, ungefähr so, als würde man etwas so geheim halten "
+   "wollen, ich meine ~Iso~I geheim, als wäre es das Wichtigste auf der "
+   "Welt, das Du geheim hältst, aber Deine Lippen bewegen sich wie von "
+   "alleine und versuchen, jedem das Geheimnis zu verraten. Und Du musst "
+   "wirklich jede Minute darum kämpfen, dass Du das Geheimnis nicht "
+   "ausplauderst? So ein Geheimnis? Na ja, das ist's, was er ist, wie so ein "
+   "Geheimnis, nur besser, weil er für die ganze Stadt da ist, für jeden. Er "
+   "weiß so viel über Kunst und über Musik. Ich glaube, er weiß auch eine "
+   "Menge über Magie, weil ich glaube, dass viele Leute zu ihm gehen und "
+   "Zaubersprüche von ihm lernen, aber ich weiß nicht viel über solche "
+   "Sachen. Ich weiß, er gehört hierher, obwohl er auch die Berge kennt wie "
+   "seine Westentasche. Er hat sein ganzes Leben damit verbracht, die Berge "
+   "zu durchstreifen, meistens ganz alleine. Afiera Xor weiß Dinge, die wir "
+   "uns nicht mal vorstellen können.\""
+jaspermerchant_speech_002 = de \
+   "~kBob sagt, \"Er ist ein alter und ehrwürdiger Teil unserer "
+   "Gemeinschaft.\""
+jaspermerchant_speech_003 = de \
+   "~kBob sagt, \"Er hat hier einen Platz in der Stadt und verbringt jetzt "
+   "den größten Teil seiner Zeit damit, dort zu arbeiten, obwohl Du "
+   "sicherlich bereits weißt, dass er ein Leben in Einsamkeit in diesen "
+   "Bergen verbracht hat. Dort mit den wilden Tieren und den Göttern. Du "
+   "verstehst, was ich meine? Er ist allein und das ist, was er gewählt hat. "
+   "Sein Leben der Kunst und Jala zu widmen ... ich meine Faren zu widmen, "
+   "und allen Göttern natürlich auch, denn man kann nicht nur einen annehmen "
+   "und dessen Glauben über alle anderen stellen. Man muss erkennen, dass "
+   "alle unterschiedlichen Richtungen wichtig sind. Das hat mich Afiera Xor "
+   "gelehrt.\""
+jaspermerchant_speech_004 = de \
+   "~kBob sagt, \"Ich war richtiggehend beeindruckt von Barloque, als ich, "
+   "oh, ich schätze, es ist ein paar Jahre her jetzt, dort war. Man kann "
+   "sich kaum eine würdevollere Stadt ~Ivorstellen~I. Und so groß. Oh, ~Iich "
+   "weiß~I, Du denkst, dass mir schon alle Geschichten über Barloque, die "
+   "königliche Stadt Meridians, zu Ohren gekommen waren und ich mir schon "
+   "ein Bild gemacht hatte, ~Ibevor~I ich nur einen Fuß hineingesetzt hatte, "
+   "doch ich war nichtsdestotrotz überrascht. Das Meer? Nun, Du weißt, dass "
+   "Barloque am Meer liegt, und wenn Du wie ich bisher so etwas noch nie "
+   "~Igesehen~I hast, dann ist das erste, was Dir auffällt, dass das Wasser "
+   "am Ufer des Meeres ~Ianfängt~I und dann immer so weiter ~Igeht~I bis ans "
+   "Ende der Welt oder wer weiß wohin. Aber da ist auf jeden Fall nur "
+   "Wasser, so weit das Auge reicht. Nichts hält es auf. Wusch. Einfach so. "
+   "~IWeißt~I Du, was ich damit sagen will?\""
+jaspermerchant_speech_005 = de \
+   "~kBob sagt, \"Barloque liegt auf der anderen Seite von Meridian, an der "
+   "Nordküste des Großen Meeres.\""
+jaspermerchant_speech_006 = de \
+   "~kBob sagt, \"Das ist die königliche Stadt und irgendwie ist sie wie "
+   "eine königliche Enklave, weil fast jeder da für die Prinzessin und den "
+   "guten König Zarcos V. ist. Und wenn endgültig die Fronten abgesteckt "
+   "werden, wer hier wen unterstützt, dann wird die nächste königliche Armee "
+   "von dort aus losmarschieren. Ja, %s, dort wird alles anfangen.\""
+jaspermerchant_speech_007 = de \
+   "~kBob sagt, \"Auf Wiedersehen, %s. Komm bald wieder.\""
+jaspermerchant_speech_008 = de \
+   "~kBob sagt, \"Danke, dass Du vorbeigeschaut hast, %s.\""
+jaspermerchant_speech_009 = de "~kBob sagt, \"Auf Wiedersehen.\""
+jaspermerchant_speech_010 = de \
+   "~kBob sagt, \"Habe ich Dir schon von dem Urlaub erzählt, den meine Frau "
+   "und ich kurz nach unserer Hochzeit gemacht haben? Nun, Cor Noth ist eine "
+   "der Städte, die wir besucht haben. Und ich kann Dir sagen, das war, als "
+   "ob die Dorfmaus die Stadtmaus besucht! In Cor Noth gibt es einige der "
+   "nettesten Leute, aber reden? Die Leute dort lieben es einfach zu reden, "
+   "und zwar über Ideen, über die ich noch nie nachgedacht, geschweige denn "
+   "gesprochen hatte! Das ist schon eine komische Stadt, darauf kannst Du "
+   "wetten, und freundlicher, als Du Dir vorstellen kannst! Aber überhaupt "
+   "nicht wie Jasper, vor allem, würde ich sagen, wegen all dem Gerede. Und "
+   "die Sachen, die man in den Läden sieht und so; nun, solche Dinge würden "
+   "wir hier in Jasper nie zu Gesicht bekommen, es sei denn, ein Fremder "
+   "kommt damit vorbei, Du weißt schon, als persönliches Eigentum oder so. "
+   "Aber da rede ich und rede über Cor Noth, wo Du doch wahrscheinlich schon "
+   "eine Million Mal dort warst. Warst Du selbst schon mal dort, in Cor "
+   "Noth?\""
+jaspermerchant_speech_011 = de \
+   "~kBob sagt, \"Habe ich Dir schon erzählt, wie ich kurz nach unserer "
+   "Heirat mit meiner Frau Urlaub in Cor Noth gemacht habe? Nun, Cor Noth "
+   "ist eine der Städte, die wir besucht haben. Und ich kann Dir sagen, es "
+   "ist wie wenn eine Dorfmaus die Stadtmaus besucht!\""
+jaspermerchant_speech_012 = de \
+   "~kBob sagt, \"Ich komme nicht so häufig nach Cor Noth, wie ich gern "
+   "würde. Es ist eine schöne Stadt. Bist Du von dort?\""
+jaspermerchant_speech_013 = de \
+   "~kBob sagt, \"Ich habe gehört, dass es einen anderen Eingang ins alte "
+   "Kanalisationssystem von Cor Noth gibt und dass man über diesen ~Iganz~I "
+   "unterirdisch reisend entweder hier in Jasper oder in Barloque "
+   "herauskommt.\""
+jaspermerchant_speech_014 = de \
+   "~kBob sagt, \"Rat? Oh, der Rat! Nun, für einen Augenblick wusste ich "
+   "nicht, worüber Du redest. Der Rat. Was willst Du über den Rat wissen? "
+   "Was soll ich Dir erzählen? Es sind unsere Weisen, die vom König, der nun "
+   "nicht länger die Macht hat, ernannt wurden, ihm bei der Führung des "
+   "Königreiches zu helfen. Das einzige Problem ist, dass der König nicht "
+   "mehr da ist und sie das noch nicht bemerkt haben. Komisch, nicht wahr, "
+   "und das hört sich auch nicht sehr weise an. Von hier aus, wo ich sitze, "
+   "sieht dieser kluge Haufen ziemlich dämlich aus. Es ist, als ob Dein Haus "
+   "abbrennt und Du müde bist - wirst Du in der Asche schlafen? Ich glaube "
+   "nicht, aber natürlich sagt meine Frau, dass ich zu kritisch sei und dass "
+   "ich nicht so hart über die ganze Angelegenheit richten sollte. Aber ich "
+   "denke nicht, dass ich das bin, ich denke schon, dass das, was sie "
+   "versuchen für uns zu tun, bewundernswert ist, doch ich glaube, nicht "
+   "einer von ihnen hat genügend Verstand, um zu wissen, was das sein "
+   "könnte. Und dann noch, wer bezahlt sie denn schließlich? Ich meine, "
+   "machen sie es umsonst? Wovon leben sie?\""
+jaspermerchant_speech_015 = de \
+   "~kBob sagt, \"Ich weiß nicht viel über die Politik des Rates, außer dass "
+   "sie nicht viel Gewicht in Jasper hat. Nein, %s, wie eine Fliege auf "
+   "einem Plattenpanzer.\""
+jaspermerchant_speech_016 = de \
+   "~kBob sagt, \"Ein Haufen Hokuspokus. Wer ist der Rat? Weißt Du es? He, "
+   "ich bin ja für die Idee, lasst uns ein wenig Führung haben. Aber wo ist "
+   "der Anführer, der dazugehört? Ich sag Dir wo, genau hier in Jasper, und "
+   "ich sollte eigentlich gar nichts darüber sagen, aber Du solltest es "
+   "wissen... der Anführer ist genau hier in Jasper, jawohl. Yevitan. Und "
+   "mehr sage ich nicht. Einfach Yevitan. Er wird vielleicht nicht der "
+   "nächste König oder die nächste Königin von Meridian, aber er wird "
+   "derjenige sein, der sie auswählt. Ja, sogar jetzt stellt er gerade... "
+   "nun, vergiss es, wisse nur, dass Yevitan im Zentrum großer Veränderungen "
+   "in Meridian stehen wird.\""
+jaspermerchant_speech_017 = de \
+   "~kBob sagt, \"Ein Haufen Hokuspokus. Wer ist der Rat? Weißt Du es? He, "
+   "ich bin dafür, dass wir uns nach ein wenig Führung umschauen. Doch wo "
+   "sollen wir einen Führer finden? Ich sag Dir wo.\""
+jaspermerchant_speech_018 = de \
+   "~kBob sagt, \"Herzog Akardius ist ein Mann, den man nicht unterschätzen "
+   "sollte. Mehr sage ich dazu nicht. Oh, und dass er sehr gut in dem ist, "
+   "was er tut. Weißt Du, es ist nicht so einfach, ein Politiker zu sein, "
+   "darauf würde ich wetten. Immer die Wahrheit erfinden, damit kann man "
+   "ganz schön beschäftigt sein, wenn man davon lebt. Ganz sicher.\""
+jaspermerchant_speech_019 = de \
+   "~kBob sagt, \"Ich bin sicher, dass Herzog Akardius genauso gut Lügen "
+   "erfinden kann wie sein verstorbener Onkel.\""
+jaspermerchant_speech_020 = de \
+   "~kBob sagt, \"Sieht so aus, als wäre Kaliors Zeit gekommen... \""
+jaspermerchant_speech_021 = de \
+   "~kBob sagt, \"Habe ich Dir schon von meinem zahmen Ziegenbock erzählt? "
+   "Er heißt Aythya, Du siehst ihn hier manchmal herumschweben.\""
+jaspermerchant_speech_022 = de \
+   "~kBob sagt, \"Hallo, %s. Komm herein, was kann ich für Dich tun?\""
+jaspermerchant_speech_023 = de \
+   "~kBob sagt, \"Einen guten Tag wünsche ich, %s. Was kann ich heute für "
+   "Dich tun?\""
+jaspermerchant_speech_024 = de "~kBob sagt, \"Guten Tag.\""
+jaspermerchant_speech_025 = de \
+   "~kBob sagt, \"Nun, ich könnte Dir viel über Jasper erzählen. Wie viel "
+   "Zeit hast Du? Ha, ha, ha, aber wirklich, es ist eine gute Stadt. Voller "
+   "Möglichkeiten, wie meine Frau immer sagte. Möglichkeiten, die ich zuerst "
+   "nicht so recht erkannte, heute aber umso mehr. Es gibt hier viele "
+   "Gelegenheiten, wenn Du mit den Einheimischen in Kontakt kommst und "
+   "entschlossen genug bist. Nimm mich zum Beispiel, ich habe hier ein gutes "
+   "Auskommen. Genug um über die Runden zu kommen, und die Waren, die ich in "
+   "meinem Laden anbiete, gehören zu den besten, die man irgendwo finden "
+   "kann.\""
+jaspermerchant_speech_026 = de \
+   "~kBob sagt, \"Die Einwohner von Jasper sind nicht so schwer zu "
+   "verstehen, wie manche gerne vorgeben. Sie sind nur ein bisschen "
+   "reserviert, weißt Du, eher der zurückhaltende Typ. Wir haben so eine Art "
+   "Motto in Jasper und ich denke, dass wir gut damit fahren. ~ISag nichts, "
+   "wenn Du nicht etwas Nettes zu sagen hast~I. Danach sollte man leben, "
+   "sowohl hier in Jasper als auch an jedem anderen Ort, wo Du Dir am Ende "
+   "eines Tages die Stiefel ausziehst.\""
+jaspermerchant_speech_027 = de \
+   "~kBob sagt, \"Bevor die Minen schließen mussten, herrschte hier "
+   "Hochkonjunktur. Du hättest es sehen sollen, ich glaube, Du hättest "
+   "Jasper nicht wiedererkannt. Jetzt ist es wieder ein bisschen so wie "
+   "früher, seit Jonas hier sein Hauptquartier aufgeschlagen hat. Ich "
+   "wusste, dass Jasper eines Tages wieder seine große Zeit haben würde.\""
+jaspermerchant_speech_028 = de \
+   "~kBob sagt, \"Ich habe eine Kusine, die nach Marion durchbrannte. Sie "
+   "heiratete dort unten einen Apfelbauern. Die beiden nahmen die Äpfel und "
+   "verkauften sie an eine Karawane oder so was Ähnliches. Beide hielten es "
+   "mit Faren. Nun, eines Tages hat er sie sitzen gelassen, um "
+   "herauszufinden, woher der Nordwind kommt oder so was. Sie sagt, die "
+   "Winter seien wirklich hart, aber sie ist nie nach Jasper zurückgekommen. "
+   "Sie scheint sich dort wohlzufühlen, schätze ich, aber weißt Du, die "
+   "Berge sind nicht jedermanns Sache. Sie sagt, abends sitzen die meisten "
+   "Leute rum und reden, um sich die Zeit zu vertreiben. Und jeder weiß über "
+   "den anderen Bescheid. So sind die nun einmal. Ich bin einmal "
+   "hingegangen, aber es sagte mir nicht viel, und ich weiß wirklich nicht, "
+   "warum sie all diese Jahre dort geblieben ist. Weißt Du, irgendwie ist es "
+   "dort sehr flach und ruhig, fast ein bisschen unheimlich. Ich schätze, "
+   "man gewöhnt sich halt daran, wie einige Menschen ihr ganzes Leben an "
+   "einem Ort verbringen und andere ständig herumreisen müssen. Nun, ich "
+   "denke, man kann sagen, ich gehöre zur ersten Sorte, denn ich bin immer "
+   "sehr glücklich hier gewesen, auch seit die Minen geschlossen worden sind "
+   "und das Geld knapp geworden ist, aber worüber beschwer ich mich? Über "
+   "nichts. Ich finde alles gut so, wie es hier ist, verstehst Du, was ich "
+   "damit sagen will?\""
+jaspermerchant_speech_029 = de \
+   "~kBob sagt, \"Dort leben vor allem Bauern und wir treiben ziemlich viel "
+   "Handel mit ihnen. Ich fahre ein paar Mal im Jahr dort hinunter.\""
+jaspermerchant_speech_030 = de \
+   "~kBob sagt, \"In Marion wurde eine heilige Stätte, die Shal'ille geweiht "
+   "ist, errichtet, wo, so viel ich weiß, jeder, der in Not ist, willkommen "
+   "geheißen und versorgt wird. Sie wurde von einer Lady aus Barloque ins "
+   "Leben gerufen. Eine echte Lady diesmal, im adligen Sinne, nicht nur so "
+   "eine ~IDame~I, %s. Ich habe gehört, dass ihr Mann, Lord Aftyn, der vor "
+   "kurzem gestorben ist, ihr ein beachtliches Vermögen hinterlassen hat, "
+   "und dass sie sich entschlossen hat, dieses Geld dafür zu benutzen, "
+   "Menschen zu helfen, die es am nötigsten brauchen! Kannst Du Dir das "
+   "vorstellen? Mir ist auch zu Ohren gekommen, dass ihre Kinder, die schon "
+   "erwachsen sind, darüber sehr verärgert sind. Die armen Dinger. Sie sind "
+   "alle schon alt genug, um auf eigenen Beinen zu stehen, so viel ich "
+   "gehört habe. Aber man erzählt sich, dass sie mit dem Geld gerechnet "
+   "hatten und jetzt auf sich allein gestellt sind! Ha! Geschieht ihnen "
+   "recht!\""
+jaspermerchant_speech_031 = de \
+   "~kBob sagt, \"Nun, Pietro hat ein kleines Problem mit dem Trinken. Man "
+   "sollte annehmen, ein erwachsener Mann weiß, wann er aufhören muss ... "
+   "Ich meine, ich habe nichts gegen das Trinken, aber ich würde es nicht "
+   "für richtig halten, Dich unvorbereitet zu ihm zu schicken, denn der "
+   "Zustand, in den er sich selber bringt, kann schon ziemlich schockierend "
+   "sein. So aufgeregt und der Troll-Whiskey ist da auch keine Hilfe.\""
+jaspermerchant_speech_032 = de \
+   "~kBob sagt, \"Ja, Pietro. Nun, er ist ein Einheimischer. Er führt die "
+   "Kneipe da gleich die Straße runter. Aber ich sage es Dir frei heraus, "
+   "%s, Du würdest da nur reingehen wollen, wenn Du ~Iwirklich~I durstig "
+   "bist.\""
+jaspermerchant_speech_033 = de \
+   "~kBob sagt, \"Nun, dumm ist, wer Dummes tut, sage ich immer. Ich meine, "
+   "ein klein wenig Kontrolle ist angebracht, weil das keine Art ist, ein "
+   "Geschäft zu führen. Und wenn er trinkt, dann redet er, und er redet über "
+   "die Angelegenheiten anderer Leute, die ihn nichts angehen. Er sollte "
+   "besser lernen, seine Zunge im Zaum zu halten, bevor sie ihm einer "
+   "herausschneidet.\""
+jaspermerchant_speech_034 = de \
+   "~kBob sagt, \"Weißt Du, meine Frau und ich haben darüber gesprochen und "
+   "wir haben beschlossen: Wir können es kaum erwarten, bis die Prinzessin "
+   "ihre Amtseinführung hat und endlich Königin wird. Kannst Du es erwarten? "
+   "Nun, wir beide jedenfalls nicht, so viel ist sicher.\""
+jaspermerchant_speech_035 = de \
+   "~kBob sagt, \"Weißt Du, meine Frau und ich haben uns erst kürzlich "
+   "darüber unterhalten und ich will das Thema nicht erneut aufwärmen.\""
+jaspermerchant_speech_036 = de \
+   "~kBob sagt, \"Oh, ja, die Prinzessin. Nun, sie scheint eine ~Itüchtige~I "
+   "junge Frau zu sein. Sie ist jedoch kaum mehr als ein Mädchen und dann "
+   "diese ganze Verantwortung! Kannst Du Dir das vorstellen?\""
+jaspermerchant_speech_037 = de \
+   "~kBob sagt, \"Vielleicht kannst Du mit Yevitan über die Prinzessin "
+   "sprechen. Er war einst mit dem König ... bekannt und stand der "
+   "königlichen Familie nahe.\""
+jaspermerchant_speech_038 = de \
+   "~kBob sagt, \"Er ist von der ruhigen Sorte, aber Du kennst ja den Spruch "
+   "von den stillen Wassern, die tief sind. In ihm geht viel mehr vor, als "
+   "Du oder ich uns vorstellen können. Aber er ist ein guter Geschäftsmann "
+   "und ein hervorragender Handwerker, was ließe sich da hinzufügen? Glaubst "
+   "Du nicht, dass das für einen Mann reicht?\""
+jaspermerchant_speech_039 = de \
+   "~kBob sagt, \"Ein sehr guter Schmied. Du kannst mich beim Wort nehmen "
+   "oder selbst hingehen und Dich überzeugen. Er ist hier gleich die Straße "
+   "runter.\""
+jaspermerchant_speech_040 = de \
+   "~kBob sagt, \"Es gab eine Zeit, als noch in den Minen gearbeitet wurde, "
+   "da hatte Quintor eine liebliche junge Frau, ein einheimisches Mädchen. "
+   "Nun, das ist eine traurige Geschichte, doch als die Minen geschlossen "
+   "wurden, da schätze ich, dachte seine junge Frau, dass sie mit den "
+   "anderen gehen wollte. Sie brach ihr Eheversprechen und ging mit einem "
+   "Angestellten der Minengesellschaft auf und davon. Quintor wurde so "
+   "wütend, so wütend ... Ich war nur ein Kind damals, aber ich werde es nie "
+   "vergessen.\""
+jaspermerchant_speech_041 = de \
+   "~kBob sagt, \"Ich weiß wirklich nicht viel über ~ITos~I. Gelegentlich "
+   "gehe ich aus geschäftlichen Gründen dorthin... aber lass es mich so "
+   "sagen, es ist nicht gerade der Ort, an dem ich gerne Urlaub machen "
+   "würde.\""
+jaspermerchant_speech_042 = de "~kBob sagt, \"Was für ein Spaßvogel.\""
+jaspermerchant_speech_043 = de \
+   "~kBob sagt, \"Troll-Whiskey ist ein traditioneller Trank, der von den "
+   "Einwohnern Jaspers hergestellt wird. Einige sagen, er sei magisch, "
+   "andere sagen, es sei Qor-Teufelszeug. Doch wie man es auch betrachtet, "
+   "er ist verboten und das schon seit einiger Zeit. Die Gefolgsleute des "
+   "Herzogs hängen einen dafür... \""
+jaspermerchant_speech_044 = de \
+   "~kBob sagt, \"Troll-Whiskey? Junge, Junge, es bekommt Dir besser, wenn "
+   "Du nichts über Troll-Whiskey weißt. Belass es einfach dabei.\""
+jaspermerchant_speech_045 = de \
+   "~kBob sagt, \"Troll-Whiskey ist ein traditionelles Gebräu der Bewohner "
+   "dieser Hügel und ein recht starkes Getränk. Bumm, einfach so, da fliegt "
+   "Dir die Schädeldecke in den Nachthimmel. Nicht, dass ich das aus eigener "
+   "Erfahrung weiß, denn er ist ja verboten. In den Tagen, als Jasper ein "
+   "eigenständiges Bergkönigreich war, tranken die Soldaten der großen "
+   "Oberherren von Jasper Troll-Whiskey, bevor sie in die Schlacht zogen, "
+   "und sie waren unschlagbar. Man konnte sie nicht aufhalten. Manche sagen "
+   "gar, sie waren nicht von dieser Welt, unsterblich auf dem Schlachtfeld. "
+   "Das ist der Grund, weshalb er verboten wurde, als das Volk von Jasper "
+   "schließlich in der Schlacht von Denthan-Furt besiegt wurde. König Zarcos "
+   "II. verbot von da an die Herstellung oder das Trinken von "
+   "Troll-Whiskey.\""
+jaspermerchant_speech_046 = de \
+   "~kBob sagt, \"Ich kannte den alten Qesino recht gut, bevor er "
+   "verschwand. Ich will ja nichts Schlechtes über die Toten sagen, aber er "
+   "war ein unangenehmer, unsympathischer Mann. Er dachte immer, dass "
+   "irgendjemand versuchte, ihn zu betrügen. Er unternahm keinen Versuch, "
+   "sein Temperament im Zaum zu halten und mit den Leuten auszukommen. Sogar "
+   "in Jasper braucht man ein paar gefällige Umgangsformen ... das macht die "
+   "Dinge so viel einfacher, Du verstehst doch, was ich meine?\""
+jaspermerchant_speech_047 = de \
+   "~kBob sagt, \"Tragisch, einfach tragisch. Dass ihr Mann verschwunden ist "
+   "und so.\""
+jaspermerchant_speech_048 = de \
+   "~kBob sagt, \"Nun, vielleicht war es nicht leicht, mit ihm auszukommen. "
+   "Ich meine, das wurde hier eben so hingenommen, und Faren weiß, ich "
+   "musste nicht mit dem Mann leben ... aber ich muss schon sagen, es war "
+   "seltsam, weißt Du, bei der Beerdigung ... ich ~Ibeobachtete~I sie bei "
+   "der Beerdigung, nicht irgendwie aufdringlich oder so, aber ich war "
+   "damals ~Ibeunruhigt~I ... und ich schwöre Dir, sie vergoss keine einzige "
+   "Träne. Nun, sogar für jemanden aus Jasper, dessen Bewohnern man gerne "
+   "nachsagt, sie seien nicht sehr gefühlvoll, war das ein ~Ibisschen~I "
+   "merkwürdig ... \""
+jaspermerchant_speech_049 = de \
+   "~kBob sagt, \"Ich glaube, ich habe Dir noch nicht von der Wolle von "
+   "Jasper erzählt, oder? Nun, Jasper stellt die beste Wolle im Land her, "
+   "ganz klar. Nirgends gibt es bessere Wolle. Es liegt an unseren Ziegen "
+   "und an der Kunstfertigkeit unserer Weber. Ich hab' hier ein Paar Hosen, "
+   "wenn Du interessiert sein solltest. Ich kann Dir genau zeigen, was ich "
+   "meine ...\""
+jaspermerchant_speech_050 = de \
+   "~kBob sagt, \"Die Würms-Feste ist die althergebrachte Festung der alten "
+   "Oberherren von Jasper. Wusstest Du das?\""
+jaspermerchant_speech_051 = de \
+   "~kBob sagt, \"Es ist dieses große Schloss am Stadtrand hier. Du kannst "
+   "es Dir von draußen anschauen, doch Du musst Gast der Gilde sein, die es "
+   "gepachtet hat, um hineinzukommen. Kannst Du Dir etwas Beleidigenderes "
+   "für die Bürger von Jasper vorstellen? Ich meine, entschuldige, wenn Du "
+   "dieser Gilde angehören solltest, Du scheinst ja ganz nett zu sein, %s, "
+   "aber ich kann nicht anders, als mich ein wenig darüber zu ereifern. Die "
+   "Würms-Feste gehört den Leuten von Jasper und so sollte es auch bleiben. "
+   "Uns. Nicht irgendeinem Frular-von-Barloque-Geschäftemacher.\""
+jaspermerchant_speech_052 = de \
+   "~kBob sagt, \"Heutzutage ist die Würms-Feste von Fremden besetzt. "
+   "Leuten, die überhaupt nicht aus den Bergen stammen, doch sie haben sie "
+   "von Frular aus Barloque gemietet. Ein paar Leute von hier regt das auf, "
+   "aber mich nicht. Ich sage, Geschäft ist Geschäft.\""
+jaspermerchant_speech_053 = de \
+   "~kBob sagt, \"Nun, dann weißt Du ja alles darüber.\""
+jaspermerchant_speech_054 = de \
+   "~kBob sagt, \"Es heißt, man soll ein Buch nicht nach seinem Einband "
+   "beurteilen, und das passt meiner Meinung nach genau auf Yevitan, wie die "
+   "Hand in den Handschuh oder wie ein alter Schuh, so in der Art, denn er "
+   "ist ein richtig kluger Mann. Oh, ich meine das nicht nur, weil er der "
+   "Finanzminister des Königs war, was ja schon für sich ein großer Erfolg "
+   "ist, wo er doch aus Jasper ist und so, ich meine nur, er ist klug. Er "
+   "hat eine Menge herausgefunden, weißt Du, manchmal könnte ich schwören, "
+   "er kann die Zukunft voraussagen, so schlau ist er. Oh, ich weiß grad "
+   "kein Beispiel dafür, Du musst selbst mal zu ihm gehen und Dir Deine "
+   "eigene Meinung bilden, weil mir jetzt wirklich kein Beispiel einfällt, "
+   "aber geh einfach mal zu ihm und ich garantiere Dir, dass Du dann genau "
+   "weißt, was ich meine.\""
+jaspermerchant_speech_055 = de \
+   "~kBob sagt, \"Oh, ja, Yevitan... er ist der Bankdirektor der Königlichen "
+   "Bank hier. Yevitan hat sich hochgearbeitet und die Bank Herzog Akardius "
+   "abgekauft. Er ist ein sehr guter Bankdirektor, sehr vertrauenswürdig.\""
+jaspermerchant_speech_056 = de \
+   "~kBob sagt, \"Yevitan ist ein guter Mann, den man sich zum Freund machen "
+   "sollte. Er passt immer auf die Leute in Jasper auf. Yevitan... nun, ich "
+   "denke, man könnte ihn einen Patrioten nennen. Ein wahrer Patriot, er hat "
+   "diesem Land so viel zu geben, so viele gute Ideen, wie unsere Zukunft "
+   "aussehen kann, und jetzt, wo wir einen richtigen Anführer haben ...\""
+jaspermerchant_speech_057 = de \
+   "~kBob sagt, \"Wir achten sehr auf die Geheimpolizei und die Spione des "
+   "Herzogs hier oben in den Bergen, %s. Ich sag nichts weiter dazu, denn "
+   "aus diesem Gerede kommt nichts Gutes heraus.\""
+jaspermerchant_random_001 = de \
+   "~kBob sagt, \"Wie es scheint, bieten die Gilden ihren Mitgliedern einen "
+   "gewissen Schutz... und weißt Du was? Ich denke grade darüber nach, eine "
+   "Händler-Gilde zu gründen. Ja, eine Händler-Gilde! Eine, die uns Händler "
+   "schützen wird, was hältst Du davon? Genau so was brauchen wir! Schau, "
+   "wir könnten all die viel diskutierten Themen ein für allemal klären, Du "
+   "weißt schon, die großen Themen. Wie zum Beispiel... o.k., wie unsere "
+   "Preispolitik aussehen wird. Oder wem werden wir angehören? Herzog? Hmmm? "
+   "Prinzessin? Jonas? Ist das die Antwort? Ich glaube, es würde uns allen "
+   "gut tun, eine solche Gilde zu haben. Jawohl, lasst uns diese Geschichten "
+   "endlich aus der Welt schaffen. Wenn es sein muss, werde ich sogar einige "
+   "persönliche Überzeugungen zurückstellen.\""
+jaspermerchant_random_002 = de \
+   "~kBob sagt, \"Ich bete jeden Tag für die Prinzessin, aber mir ist klar, "
+   "dass Jonas einen hervorragenden König abgeben würde. Diese politischen "
+   "Streitereien müssen ein für allemal zu Ende gehen. Es soll endlich "
+   "Frieden und Gerechtigkeit herrschen, die Orks sollen endlich tief in "
+   "ihren Berg zurück und sich gefälligst um ihren eigenen Kram kümmern. Ich "
+   "denke, wir sollten endlich die Stabilität haben, die uns ein Monarch "
+   "geben könnte, jemand, zu dem man aufblicken kann, jemand zum Bewundern, "
+   "jemand, der zu jedem Problem, das auftaucht, das letzte Wort hat.\""
+jaspermerchant_random_003 = de \
+   "~kBob sagt, \"Wie viele Vorräte hast Du bei Dir? Du weißt, ein Fehler, "
+   "den viele begehen, ist, in diese Hügel zu reisen, ohne genug Vorräte bei "
+   "sich zu haben. Denn Nahrung gibt die Energie, die man braucht, um zu "
+   "überleben. Ich weiß, dass man manchmal nur einen Hauch vom Überleben "
+   "entfernt ist. Meine Frau verlor genau auf diese Weise ihren Bruder an "
+   "die Berge. Deshalb wirf einen Blick auf die Sachen, die ich hier habe, "
+   "und fülle Deinen Ranzen mit so viel wie möglich. Du wirst mir dafür "
+   "einmal dankbar sein. Auf jeden Fall wirst Du mir das nächste Mal, wenn "
+   "Du in meinen Laden kommst, danken, %s. Und auch da draußen in den Bergen "
+   "wirst Du mir danken.\""
+jaspermerchant_random_004 = de \
+   "~kBob sagt, \"Was hältst Du vom Justiziar-System? Nun, ich persönlich "
+   "bin ja der Meinung, dass etwas getan werden muss, da kein König in Sicht "
+   "ist und niemand weiß, wer gerade an die Macht kommt oder abgesetzt wird! "
+   "Ich persönlich bin froh, dass wir jetzt ein Wörtchen mitzureden haben, "
+   "was mit den Kriminellen gemacht wird. Wir können nicht darauf warten, "
+   "bis der Herzog seinen Hintern hochkriegt, nein, Sir. Keinen Tag zu früh, "
+   "sage ich.\""
+jaspermerchant_random_005 = de \
+   "~kBob sagt, \"In der Tat können die Leute dieser Stadt recht grob sein, "
+   "wenn Du nicht an ihre Art gewöhnt bist. Es ist ein Wunder, dass "
+   "überhaupt jemand in Jasper einkehrt. Man sollte denken, dass sie "
+   "Kontakte zum Rest von Meridian pflegen wollen ... die Geschäfte würden "
+   "bestimmt besser laufen, und Faren weiß, dass wir das gebrauchen könnten. "
+   "Ich weiß nicht, %s, ich lebe schon mein ganzes Leben hier und ich "
+   "verstehe es nicht. Ich schätze, es ist einfach die Art, wie sie drauf "
+   "sind. Ich meine jeder ist wirklich nett hier, sobald Du ihn näher "
+   "kennenlernst. Es ist eher die Frage, wie man Kontakte knüpft. Wie soll "
+   "man zum Beispiel eine Unterhaltung mit Afiera Xor anfangen, wenn man "
+   "nicht von hier ist? He, ich kenne ihn schon mein ganzes Leben lang. Er "
+   "ist praktisch ein Bruder für meinen Onkel, und ich weiß, wie schwer es "
+   "werden könnte. Glaub mir, ich verstehe das, %s.\""
+jaspermerchant_random_006 = de \
+   "~kBob sagt, \"Die Probleme der Arbeiterklasse werden hier viel zu oft "
+   "übersehen, ich meine, wer kümmert sich in diesem Land schon um den "
+   "kleinen Mann? Der Herzog nicht, das kann ich Dir schon mal sagen, und "
+   "die Prinzessin? Nun ja, ich bin nicht sicher, ob sie schon die Erfahrung "
+   "hat, die sie braucht, um Königin zu werden. Irgendwann bald, "
+   "wohlgemerkt, aber noch nicht jetzt. Du weißt schon, was ich meine. Aber "
+   "wir, die wir uns abrackern, nur um Brot auf den Tisch zu bringen und "
+   "über die Runden zu kommen? An wen sollen wir uns bei all diesen Sorgen "
+   "wenden? Kannst Du mir das sagen? Wahrscheinlich nicht, aber ich kann es! "
+   "Jonas weiß genau, wie es ist, gemieden zu werden, und er weiß genau, was "
+   "es heißt, für jedes bisschen hart zu arbeiten. Für mich macht diese "
+   "Kombination einen besseren Herrscher als jemand, der nie hinaus in die "
+   "Welt kommt.\""
+jaspermerchant_random_007 = de \
+   "~kBob sagt, \"Weißt Du, %s, gerade heute Morgen, als ich hier fegte, "
+   "dachte ich bei mir, wie nett es wäre, einfach meinen Laden für ein paar "
+   "Tage dichtzumachen und ein bisschen umherzureisen. Vielleicht nach Cor "
+   "Noth zu reisen und ein bisschen bummeln zu gehen. So was vielleicht. Das "
+   "ist wahrscheinlich genau das, was Du tust, nicht wahr? Das muss nett "
+   "sein, obwohl, versteh mich nicht falsch, ich dankbar bin für das, was "
+   "ich habe. Doch manchmal, weißt Du, frage ich mich ...\""
+jaspermerchant_random_008 = de \
+   "~kBob sagt, \"Hast Du jemals einen sogenannten Zauberstab gesehen? "
+   "Jemand, den ich kenne, Ferloi Qan, kauft sie und sagt, er habe oben in "
+   "Barloque eine große Sammlung. Er hat mir erzählt, dass er sie in seiner "
+   "Schmiede aufbewahrt. Mehr will er allerdings nicht sagen, er ist ein "
+   "sehr ruhiger Typ. Früher lebte er in Tos, und ich habe ihn alle paar "
+   "Monate gesehen, wenn ich geschäftlich dort war, weißt Du, wir haben uns "
+   "getroffen und Schach gespielt. Aber... er hat sein Geschäft genommen und "
+   "ist nach Norden nach Barloque gezogen, und ich sag Dir was, das war "
+   "wahrscheinlich das Beste, was er je getan hat, zumindest geschäftlich "
+   "gesehen. Oh ja, jetzt verdient er die Schillinge! Wahrscheinlich kann er "
+   "sich in ein paar Jahren zur Ruhe setzen! Kannst Du Dir das vorstellen? "
+   "Sich in Barloque zur Ruhe setzen? Und dabei ist er noch ein recht junger "
+   "Kerl. Ich sag Dir was, der hat es geschafft.\""
+jaspermerchant_random_009 = de \
+   "~kBob sagt, \"Geh' bloß nicht in die Berge, ohne Dich warm genug "
+   "anzuziehen, sonst überlebst Du nicht länger als Spucke auf einem "
+   "Backblech. Glaub mir, ich wohne hier schon mein ganzes Leben. Warte "
+   "mal... ich zeig Dir mal, was ich hier habe, hergestellt aus feinster "
+   "Jasper-Wolle, die, wie Dir jeder, der Ahnung davon hat, bestätigen kann, "
+   "die beste Wolle ist, die man bekommen kann. Weißt Du, es ist wirklich "
+   "kein Geheimnis, dass wir hier in Jasper eine große Tradition in der "
+   "Aufzucht der Jasper-Ziege pflegen. So wie bei Aythya kannst Du erkennen, "
+   "wie bemerkenswert glänzend die Qualität der Wolle ist und wie einfach "
+   "sie zu färben ist, so wie nichts anderes. Sieh' sie Dir mal an, diese "
+   "tollen Woll-Hosen verkaufen sich wie von selbst. Viele Leute kommen "
+   "jedes Jahr her, nur um ein neues Paar meiner Hosen zu kaufen. Ich wette, "
+   "Du wirst das auch machen, %s, wenn Du sie erstmal probiert hast.\""
+jaspermerchant_random_010 = de \
+   "~kBob sagt, \"Ein gesparter Schilling ist ein verdienter Schilling. "
+   "Verstehst Du, was ich damit sagen will? Es ist besser für Dich, wenn Du "
+   "nicht so viel Bargeld mit Dir herumschleppst. Geh zu Yevitan von der "
+   "Bank die Straße hoch. Er wird Dein Geld sicher verwahren, und Du kannst "
+   "auch in Tos abheben und einzahlen. Ist das kein gutes Geschäft?\""
+jaspermerchant_random_011 = de \
+   "~kBob sagt, \"In dieser Stadt gibt es nur das Nötigste, %s. Wir besorgen "
+   "Dir schon, was Du brauchst, solange es zum Nötigsten gehört.\""
+jaspermerchant_random_012 = de \
+   "~kBob sagt, \"In letzter Zeit gibt es eine Reihe von Aktivitäten "
+   "zwischen den Gilden ... nicht alle davon sind gut. Ich würde sogar "
+   "sagen, dass das meiste davon recht boshaft war, und das ist nicht gut. "
+   "Hier ist kein Platz für Leute, die das tun, was ihnen gerade in den Kram "
+   "passt, um Farens willen.\""
+jaspermerchant_random_013 = de \
+   "~kBob sagt, \"Wie meine Großmutter schon sagte - ein Stich beizeiten "
+   "spart neun! Du stockst Deine Vorräte besser hier auf, Fremder, denn die "
+   "Berge können erbarmungslos sein.\""
+jaspermerchant_random_014 = de \
+   "~kBob sagt, \"Die anderen Leute aus Meridian neigen dazu, uns aus Jasper "
+   "für ... komische Typen, Du weißt schon, für irgendwie anders zu halten. "
+   "Davon hört man viel.\""
+jaspermerchant_random_015 = de \
+   "~kBob sagt, \"Wir haben ein wirklich nettes Gasthaus hier in Jasper, das "
+   "von Qes ... äh, der Witwe Qesino geführt wird. Sie macht ihre Arbeit "
+   "richtig gut. Und auch gutes Essen. Äh, ja ... großartiges Essen. "
+   "Wirklich sehr gemütlich da. Nettes Gasthaus.\""
+jaspermerchant_random_016 = de \
+   "~kBob sagt, \"Jasper ist neben anderen Sachen für seine feinen "
+   "Wollprodukte bekannt. Solche Hosen, wie ich sie hier verkaufe, findest "
+   "Du nirgends sonst in der Welt.\""
+jaspermerchant_random_017 = de \
+   "~kBob sagt, \"Ich habe Dich hier schon mal gesehen, %s, ich würde darauf "
+   "schwören. Ich vergesse nie ein Gesicht.\""
+jaspermerchant_random_018 = de \
+   "~kBob sagt, \"Du wirst feststellen, dass die Preise hier oben in den "
+   "Bergen ein wenig höher sind, doch das liegt daran, dass wir hier recht "
+   "isoliert sind. Doch die Waren sind es wert, %s, denn diese Qualität "
+   "sucht ihresgleichen.\""
+jaspermerchant_random_019 = de \
+   "~kBob sagt, \"Hast Du schon den Laden des Schmieds die Straße rauf "
+   "gesehen? Ja? Nun, Quintor mag auf Anhieb etwas finster wirken, doch er "
+   "ist ein guter Schmied. Er ist keiner, den man als eine Plaudertasche "
+   "bezeichnen würde, aber seine Waffen gelten in der ganzen Welt als die "
+   "besten. Besonders die Schwerter.\""
+jaspermerchant_random_020 = de \
+   "~kBob sagt, \"Weckt irgendetwas hier Dein Interesse? Ich bin sicher, "
+   "dass wir hier etwas haben, das Du gebrauchen könntest ... \""
+jaspermerchant_random_021 = de \
+   "~kBob sagt, \"Ich hoffe, Du nimmst es nicht persönlich, wenn die Leute "
+   "von Jasper, nun, ein bisschen reserviert wirken, %s. Das ist nun mal "
+   "ihre Art.\""
+jaspermerchant_random_022 = de \
+   "~kBob sagt, \"Ich kann Dir alle Vorräte verkaufen, die Du brauchst, um "
+   "in diese Berge hinein, hindurch und wieder herauszukommen. Doch für "
+   "Deine Sicherheit kann ich nicht garantieren. Dies liegt allein bei Dir, "
+   "%s. Halte Deine fünf Sinne beieinander, denn nur das oder der "
+   "Troll-Whiskey werden Dich durchbringen.\""
+jaspermerchant_random_023 = de \
+   "~kBob sagt, \"In dieser Stadt macht zu viel Klatsch die Runde.\""
+jaspermerchant_random_024 = de \
+   "~kBob sagt, \"Es gibt viele gute Handwerker und Künstler in Jasper. "
+   "Unsere Produkte haben in anderen Teilen des Reiches einen hohen Wert.\""
+jaspermerchant_random_025 = de \
+   "~k~kBob sagt, \"Die Leute kommen hier herein und möchten reden, weißt "
+   "Du, einfach nur die Zeit totschlagen und sonst nichts. Egal, manchmal "
+   "höre ich Klatsch und Gerüchte, die ich natürlich nicht weitergebe, da "
+   "ich ja nicht wissen kann, ob sie wahr sind oder nicht, und ich finde, es "
+   "ist nicht gut, über Dinge zu reden, von denen man eigentlich nichts "
+   "weiß... doch dieses hier ist es wirklich wert, weitererzählt zu werden, "
+   "auch wenn es nur um der Hoffnung willen ist! Mir kam zu Ohren - und das "
+   "waren nur Gerüchte bisher - dass Jala, obwohl sie tot ist, durch ihre "
+   "Lieder weiterlebt! Stell Dir mal vor! Kunst und Musik! Oh, ich wünschte "
+   "so sehr, es wäre wahr!\""
+jaspermerchant_random_026 = de \
+   "~kBob sagt, \"Wenn Du nach Marion gehst, %s, musst Du die Kneipe zur "
+   "Lahmen Kröte aufsuchen und ein Bier mit dem Besitzer, Tova, trinken. Er "
+   "ist ein sehr lustiger Mann.\""
+jaspermerchant_random_027 = de \
+   "~kBob sagt, \"Man verirrt sich leicht in diesen Bergen und verschwindet "
+   "einfach. Wirklich, es passiert sogar Leuten, die schon ihr ganzes Leben "
+   "hier verbracht haben. Zum Beispiel Qesino, ich meine was immer ihm auch "
+   "passiert sein mag, er könnte auch ganz vom Erdboden verschwunden sein. "
+   "Und ich bin mir sicher, dass er diese Reise von hier nach Tos schon "
+   "tausendmal unternommen hat, um dort Geld einzuzahlen. Du weißt, Yevitan "
+   "und er hatten vor Jahren eine Auseinandersetzung und keiner von beiden "
+   "ist jemals darüber hinweggekommen. Deshalb hat er immer sein ganzes Geld "
+   "nach Tos gebracht, um ja keinen Fuß in die Königliche Bank zu tun. Klopf "
+   "auf Holz.\""
+jaspermerchant_random_028 = de \
+   "~kBob sagt, \"Hast Du gewusst, dass Jasper einst das Herz eines "
+   "unabhängigen Bergkönigreichs in Meridian war? Wir hatten eine eigene "
+   "Regierung und eigene Gesetze und unseren eigenen Oberherrn, der in der "
+   "Würms-Feste auf dem Thron saß. Aber das ist viele Zeitalter her, zur "
+   "Zeit des Großvaters meines Großvaters. Obwohl es bald wieder so sein "
+   "könnte, da Jonas jetzt ja seine eigene kleine Fraktion übernommen hat.\""
+jaspermerchant_random_029 = de \
+   "~kBob sagt, \"Wusstest Du, dass unser Yevitan, der Bankier hier in "
+   "Jasper, einst Finanzminister unter König Zarcos V. war? Es ist wahr und "
+   "es ist nicht wenig für einen aus Jasper, denn man sieht selten, dass "
+   "jemand aus Jasper, ob Mann oder Frau, überhaupt in die inneren Kreise "
+   "aufgenommen wird.\""
+jaspermerchant_random_030 = de \
+   "~kBob sagt, \"Du weißt bestimmt, dass sich der König versteckt hält, und "
+   "vielleicht auch, dass er angeblich an einer Geistesschwäche oder "
+   "ähnlichem leidet, weshalb er sich zu seinem eigenen Schutz versteckt "
+   "hält. In Ordnung, das weiß wohl jeder. Doch weißt Du auch, wo er sich "
+   "aufhält? Nun, ich könnte nicht sagen, dass ich es weiß, aber ich weiß "
+   "aus sicherer Quelle, dass er in Sicherheit und hier in der Nähe ist. Ich "
+   "sollte nichts darüber sagen, aber ich habe gehört, er sei in Marion. "
+   "Marion. Ich weiß nicht genau wo, aber Marion habe ich gehört.\""
+jaspermerchant_random_031 = de \
+   "~kBob sagt, \"Oh, was nützt es, %s? Was nützt es?\""
+jaspermerchant_random_032 = de "~kBob sagt, \"Dies ist der Ort.\""
+jaspermerchant_trigger_afiera_d_xor = de "afiera xor"
+jaspermerchant_trigger_afiera_xor = de "afiera d'xor"
+jaspermerchant_trigger_bye = de "tschüss"
+jaspermerchant_trigger_bye_2 = de "wiedersehen"
+jaspermerchant_trigger_council = de "ratsmitglied"
+jaspermerchant_trigger_duke = de "herzog"
+jaspermerchant_trigger_goat = de "ziege"
+jaspermerchant_trigger_hello = de "hallo"
+jaspermerchant_trigger_princess = de "prinzessin"
+jaspermerchant_trigger_widow = de "witwe"
+jaspermerchant_trigger_wool = de "wolle"
+jaspermerchant_trigger_wryn_s_keep = de "würms-feste"
+jaspermerchant_trigger_wryn_s_keep_2 = de "würmsfeste"
+jaspermerchant_trigger_wryn_s_keep_4 = de "feste"
+jaspermerchant_trigger_yes = de "ja"

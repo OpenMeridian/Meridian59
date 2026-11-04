@@ -1415,6 +1415,8 @@ messages:
          [48,0,[ LIBACT_SAY, LM_paddock_necro_rand1 ]]
       ]],plRandomLib);
 
+      Send(self,@AddNpcSpeech,#bRandom=TRUE);
+
       return;
    }
 
@@ -1976,6 +1978,95 @@ messages:
          [[LT_quest],0,[LIBACT_SAY,LM_haz_quest]]
       ]],plSpeechLib);
 
+      Send(self,@AddNpcSpeech);
+
+      return;
+   }
+
+   AddNpcSpeech(bRandom=FALSE)
+   "Adds the NPC talk of util/npcspeech (one class per town or group) to the "
+   "speech or random library. Each line goes in front of the lines its NPC "
+   "class already has, the same way the old speechlib and randomlib admin "
+   "commands added them. The spam list keys of the lines start after the "
+   "keys the class already uses (e.g. for mood triggers), so a mood trigger "
+   "does not block the line with the same key."
+   {
+      local i, lNodes, lNode, lBranch, lClassBranch, lEntry, iKeyBase;
+
+      foreach i in [ &NpcSpeechBarloque, &NpcSpeechBerg, &NpcSpeechCorNoth,
+                     &NpcSpeechCouncil, &NpcSpeechFactions, &NpcSpeechJasper,
+                     &NpcSpeechJixa, &NpcSpeechKocatan, &NpcSpeechMarion,
+                     &NpcSpeechTemples, &NpcSpeechTos, &NpcSpeechWanderer ]
+      {
+         // The lists only hold resources, so a temporary object is enough
+         // to ask for them.
+         if bRandom
+         {
+            lNodes = Send(Create(i),@GetRandomLibrary);
+         }
+         else
+         {
+            lNodes = Send(Create(i),@GetSpeechLibrary);
+         }
+
+         foreach lNode in lNodes
+         {
+            lClassBranch = $;
+            if bRandom
+            {
+               foreach lBranch in plRandomLib
+               {
+                  if First(lBranch) = First(lNode)
+                  {
+                     lClassBranch = lBranch;
+                  }
+               }
+            }
+            else
+            {
+               foreach lBranch in plSpeechLib
+               {
+                  if First(lBranch) = First(lNode)
+                  {
+                     lClassBranch = lBranch;
+                  }
+               }
+            }
+
+            if lClassBranch = $
+            {
+               lClassBranch = [First(lNode), $];
+               if bRandom
+               {
+                  plRandomLib = Cons(lClassBranch,plRandomLib);
+               }
+               else
+               {
+                  plSpeechLib = Cons(lClassBranch,plSpeechLib);
+               }
+            }
+
+            iKeyBase = 0;
+            foreach lEntry in Nth(lClassBranch,2)
+            {
+               if Length(lEntry) > 3
+               {
+                  if First(Nth(lEntry,3)) <> LIBACT_QUOTE_RSC
+                     AND Nth(lEntry,4) > iKeyBase
+                  {
+                     iKeyBase = Nth(lEntry,4);
+                  }
+               }
+            }
+
+            foreach lEntry in Nth(lNode,2)
+            {
+               SetNth(lEntry,4,Nth(lEntry,4) + iKeyBase);
+               SetNth(lClassBranch,2,Cons(lEntry,Nth(lClassBranch,2)));
+            }
+         }
+      }
+
       return;
    }
 
@@ -2491,6 +2582,10 @@ messages:
                         #what=mob,#type=SAY_MESSAGE,
                         #string = quote_substring,#parm1=Nth(lAct,2) );
                }
+               if (First(lAct) = LIBACT_QUOTE_RSC)
+               {
+                  Send(self,@ParseAction,#action=lAct,#mob=mob);
+               }
                if (First(lAct) = LIBACT_MOOD )
                {
                   //Post(Send(mob,@GetOwner),@SomeoneSaid,
@@ -2658,6 +2753,10 @@ messages:
                {
                   Post(Send(mob,@GetOwner),@SomeoneSaid,#what=mob,#type=SAY_MESSAGE,
                         #string=quote_substring,#parm1=Nth(lAct,2));
+               }
+               if (First(lAct) = LIBACT_QUOTE_RSC)
+               {
+                  Send(self,@ParseAction,#action=lAct,#mob=mob);
                }
             }
          }
@@ -3100,6 +3199,74 @@ messages:
       return First(lActionList);
    }
 
+   GetQuotePlugIn(plugin = $, who = $)
+   "Resource for a plug-in of a LIBACT_QUOTE_RSC quote, the same words "
+   "SpeechPlugIn puts into quote strings. Without a player as target the "
+   "placeholder stays as it is, like in SpeechPlugIn."
+   {
+      local iHour, bMale;
+
+      if plugin = LIBPLUG_DAYNIGHT
+      {
+         iHour = Send(SYS,@GetHour);
+         if ((iHour < 6) OR (iHour > 17))
+         {
+            return plugin_night;
+         }
+
+         return plugin_day;
+      }
+
+      if NOT IsClass(who,&User)
+      {
+         if plugin = LIBPLUG_NAME
+         {
+            return substring_name;
+         }
+         if plugin = LIBPLUG_SIRMADAM
+         {
+            return substring_sirmadam;
+         }
+         if plugin = LIBPLUG_LORDLADY
+         {
+            return substring_lordlady;
+         }
+
+         return substring_ladlassie;
+      }
+
+      if plugin = LIBPLUG_NAME
+      {
+         return Send(who,@GetName);
+      }
+
+      bMale = (Send(who,@GetGender) = GENDER_MALE);
+      if plugin = LIBPLUG_SIRMADAM
+      {
+         if bMale
+         {
+            return plugin_sir;
+         }
+
+         return plugin_madam;
+      }
+      if plugin = LIBPLUG_LORDLADY
+      {
+         if bMale
+         {
+            return object_lord;
+         }
+
+         return object_lady;
+      }
+      if bMale
+      {
+         return plugin_lad;
+      }
+
+      return plugin_lassie;
+   }
+
    // plug words into NPC dialogue, e.g. //NAME <- [player's name]
    SpeechPlugIn(unplugged = $, who = $)
    {
@@ -3193,7 +3360,7 @@ messages:
    ParseAction(action = $,mob = $, obj = $, target = $)
    "Handle the various action types."
    {
-      local oParl;
+      local oParl, rParm1, rParm2;
 
       if action = $
       {
@@ -3209,6 +3376,26 @@ messages:
          Send(Send(mob,@GetOwner),@SomeoneSaid,#what=mob,#type=SAY_MESSAGE,
                #string=quote_substring,#parm1=Send(self,@SpeechPlugIn,
                #unplugged=Nth(action,2),#who=target));
+         return;
+
+      case LIBACT_QUOTE_RSC:
+         // A quote resource (util/npcspeech). Its plug-ins (%NAME etc.) go
+         // along as resource parameters, so they show up in the language of
+         // each client, like the quote itself.
+         rParm1 = $;
+         rParm2 = $;
+         if Length(action) > 2
+         {
+            rParm1 = Send(self,@GetQuotePlugIn,#plugin=First(Nth(action,3)),
+                          #who=target);
+            if Length(Nth(action,3)) > 1
+            {
+               rParm2 = Send(self,@GetQuotePlugIn,
+                             #plugin=Nth(Nth(action,3),2),#who=target);
+            }
+         }
+         Send(Send(mob,@GetOwner),@SomeoneSaid,#what=mob,#type=SAY_MESSAGE,
+               #string=Nth(action,2),#parm1=rParm1,#parm2=rParm2);
          return;
 
       case LIBACT_MOOD:

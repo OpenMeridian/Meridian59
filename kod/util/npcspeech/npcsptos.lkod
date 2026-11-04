@@ -1,0 +1,1274 @@
+// BasicInnKeeper
+basicinnkeeper_speech_001 = de \
+   "~kRulker sagt, \"Ein Hoch auf das ursprüngliche Entwicklungsteam, sie "
+   "haben unglaublich viel Zeit in dieses Land gesteckt.\""
+basicinnkeeper_speech_002 = de \
+   "~kRulker sagt, \"Du hast ein ebenso langes Gedächtnis wie ich, wie ich "
+   "sehe.\""
+basicinnkeeper_speech_003 = de \
+   "~kRulker sagt, \"Sie stellt Dinge her, alle möglichen Dinge. Die Welt "
+   "wäre ziemlich leer ohne ihre Sachen.\""
+basicinnkeeper_speech_004 = de \
+   "~kRulker sagt, \"Das ist nicht das einzige Stück, das sie spielen, weißt "
+   "Du.\""
+basicinnkeeper_speech_005 = de \
+   "~kRulker sagt, \"Oh, ohne sie wäre es hier sicher nicht halb so lustig.\""
+basicinnkeeper_speech_006 = de \
+   "~kRulker sagt, \"Oh, lass mich nicht über Barloque reden. Wir hassen "
+   "diese Leute. Sie, äh, sie haben uns das eine oder andere angetan. "
+   "Deshalb hassen wir sie.\""
+basicinnkeeper_speech_007 = de \
+   "~kRulker sagt, \"Wir hier in Tos hassen Barloque. Ich weiß nicht genau "
+   "warum, aber es gibt bestimmt gute Gründe dafür. Diese aufgeblasenen "
+   "Leute da oben sind ja so großkotzig mit ihrem ganzen Geld, ihren "
+   "Reichtümern, ihrem Gold. Die brauchen dort keine Barmixer, oder?\""
+basicinnkeeper_speech_008 = de \
+   "~kRulker sagt, \"Das ist der Mann. Ich meine das wirklich, das ist der "
+   "Mann, an den man sich halten muss. Wenn ich was brauche - Tom beschafft "
+   "es.\""
+basicinnkeeper_speech_009 = de \
+   "~kRulker sagt, \"Huch, Du gehst schon? Aber Du hast doch kaum getanzt. "
+   "Oder dem Barmixer Trinkgeld gegeben.\""
+basicinnkeeper_speech_010 = de \
+   "~kRulker sagt, \"Er ist ein Tyrann. Er bringt uns dazu, Dinge zu sagen, "
+   "die wir gar nicht sagen wollen. Ran'er Zen ist nicht wirklich verrückt, "
+   "weißt Du. Peter sagte, er würde den alten Mann verprügeln, wenn er sich "
+   "nicht verrückt aufführt. Nun, ich werde mich nicht herumschubsen lassen. "
+   "Freiheit, sage ich, ~BFREIHEIT!~B\""
+basicinnkeeper_speech_011 = de \
+   "~kRulker sagt, \"Charles ist ein Koprodder. Oh, wie dumm. Ich meine "
+   "Koproduzent.\""
+basicinnkeeper_speech_012 = de \
+   "~kRulker sagt, \"Üble Kerle sind das. Sie gehören in den Schuldturm.\""
+basicinnkeeper_speech_013 = de \
+   "~kRulker sagt, \"Man sieht ihn nur mit einem Lächeln auf dem Gesicht. "
+   "Was weiß er, das wir nicht wissen?\""
+basicinnkeeper_speech_014 = de \
+   "~kRulker sagt, \"Dieser Ellis-Bruder ist eine mutige Seele, dass er sich "
+   "für den Dienst in dieser Welt gemeldet hat!\""
+basicinnkeeper_speech_015 = de \
+   "~kRulker sagt, \"Er stellte mich einst vor die Wahl. Ihm zu folgen oder "
+   "zu sterben. Ich sagte, ich werde Dir folgen - und er wusste nicht, was "
+   "er tun sollte. Dann sagte ich, dass ich sterben will - und er war noch "
+   "verwirrter. Ich wünschte, er würde sich mal für was entscheiden, der "
+   "verdammte Zwilling.\""
+basicinnkeeper_speech_016 = de \
+   "~kRulker sagt, \"Naja... kein Kommentar dazu... Das ist zum Glück lange "
+   "her.\""
+basicinnkeeper_speech_017 = de \
+   "~kRulker sagt, \"Nimm Dich in Acht vor diesem Kerl.\""
+basicinnkeeper_speech_018 = de \
+   "~kRulker sagt, \"Cort ist der Meister der Arena. Er wurde etwa zur "
+   "gleichen Zeit, als ich diesen Job bekam, vom Herzog eingesetzt. Wir sind "
+   "alte Schulkameraden. Ich bin also ein bisschen älter als er ... er hat "
+   "einfach schnell gelernt.\""
+basicinnkeeper_speech_019 = de "~kRulker sagt, \"Auf den Rat trinke ich!\""
+basicinnkeeper_speech_020 = de "~kRulker sagt, \"Die Pest über den Rat!\""
+basicinnkeeper_speech_021 = de \
+   "~kRulker sagt, \"Sie befindet sich auf einer Mission. Hüte Dich!\""
+basicinnkeeper_speech_022 = de \
+   "~kRulker sagt, \"Uprising, huh. Irgendwie ironisch, dass sie diese "
+   "Bezeichnung wählen, wenn Du mich fragst.\""
+basicinnkeeper_speech_023 = de \
+   "~kRulker sagt, \"Ich serviere hier importiertes Bier. Wenn Du das "
+   "billige Zeug willst, musst Du in die Halle nebenan gehen. Dort kriegst "
+   "Du den Fusel in Krügen.\""
+basicinnkeeper_speech_024 = de \
+   "~kRulker sagt, \"Armer Kalior. Er war ein Herrscher der einfachen Leute. "
+   "Sein Tod ist eine Warnung - es kommen dunkle Zeiten auf uns zu.\""
+basicinnkeeper_speech_025 = de \
+   "~kRulker sagt, \"Jetzt gibt es ZWEI von denen? Shal'ille steh uns bei.\""
+basicinnkeeper_speech_026 = de \
+   "~kRulker sagt, \"Ferloi Qan ist ein Blödmann. Wir haben uns immer über "
+   "ihn lustig gemacht. Aber er hat es uns gezeigt. Hat einfach seinen Laden "
+   "nach Barloque verlegt. Ich hab' gehört, dass er jetzt viel mehr Geld "
+   "macht. Ich glaube, er wurde bestochen, damit er Tos verlässt.\""
+basicinnkeeper_speech_027 = de \
+   "~kRulker sagt, \"Dieser Ort braucht eine gute Künstlerin wie sie. Ich "
+   "glaube, sie wird sich gut machen.\""
+basicinnkeeper_speech_028 = de \
+   "~kRulker sagt, \"Frisconar ist ein seltsamer Kerl, der immer über etwas "
+   "jammert. 'Oh, ich glaube, ich bekomme die Orkpest.', 'Oh, warum musste "
+   "Madelia mich verlassen? Ich bin so einsam und erbärmlich. Bemitleide "
+   "mich!' oder 'Oh Rulker, warum bekommst Du all die Frauen? Ich bin ein "
+   "kleiner Verlierer, ich bekomme keine Frau ab. Die Frauen mögen mich "
+   "nicht. Wah-wah.'\""
+basicinnkeeper_speech_029 = de "~kRulker sagt, \"Grumpf...\""
+basicinnkeeper_speech_030 = de \
+   "~kRulker sagt, \"Klar, wenn Du mir was anbietest, werde ich es für Dich "
+   "einpacken. Das gehört zu meinen Aufgaben, allerdings brauche ich etwas, "
+   "um meine Kosten zu decken.\""
+basicinnkeeper_speech_031 = de \
+   "~kRulker sagt, \"Ist er hier?! Verdammt, er will meine Stelle als "
+   "Barkeeper hier übernehmen.\""
+basicinnkeeper_speech_032 = de \
+   "~kRulker sagt, \"Er hat zwei Eigenschaften, die ich liebe: betrunken UND "
+   "mürrisch. Und er soll einen netten Treffpunkt betreiben, hab' ich "
+   "gehört.\""
+basicinnkeeper_speech_033 = de \
+   "~kRulker sagt, \"Tony ist ~Iso geldlich~I. Er weiß gar nicht, wie "
+   "geldlich er ist.\""
+basicinnkeeper_speech_034 = de \
+   "~kRulker sagt, \"Nennt sich Psychochild, oder? Ein treffender Name, wenn "
+   "ich je einen gesehen habe.\""
+basicinnkeeper_speech_035 = de \
+   "~kRulker sagt, \"Wenn Du ein Problem hast, sprich sie an. Sie werden Dir "
+   "helfen.\""
+basicinnkeeper_speech_036 = de \
+   "~kRulker sagt, \"Jawohl, \\\"Hackey Sack\\\", sonst tun sie nichts. Du "
+   "hast doch nicht geglaubt, dass sie ihre Zeit mit Arbeiten verbringen, "
+   "oder?\""
+basicinnkeeper_speech_037 = de \
+   "~kRulker sagt, \"Leg Dich nicht mit ihm an. Das ist ein Fiesling!\""
+basicinnkeeper_speech_038 = de \
+   "~kRulker sagt, \"Nenn' ihn bloß nicht ~IJhankee~I.\""
+basicinnkeeper_speech_039 = de \
+   "~kRulker sagt, \"Stell' Asif vor ein Problem und er wird sich einen Kopf "
+   "darüber machen, genau wie beim \\\"Hackey Sack\\\"-Spielen.\""
+basicinnkeeper_speech_040 = de \
+   "~kRulker sagt, \"Was soll ich sagen, er hat einmal meinen Lohn gezahlt.\""
+basicinnkeeper_speech_041 = de \
+   "~kRulker sagt, \"Wie bitte? Oh. Willkommen im großen Ballsaal seiner "
+   "Lordschaft Akardius, Herzog zu Tos, Beschützer des Volkes und, äh ... "
+   "ähm, ach ja, zukünftiger Herrscher über ganz Meridian.\""
+basicinnkeeper_speech_042 = de \
+   "~kRulker sagt, \"Ich bin Rulker, der Barmixer. Der Herzog hat mich damit "
+   "beauftragt, dafür zu sorgen, dass die Gäste des Ballsaals sich gut "
+   "amüsieren. Amüsierst Du Dich? Gefällt Dir die Musik? Soll ein Geschenk "
+   "eingewickelt werden? Möchtest Du etwas trinken?\""
+basicinnkeeper_speech_043 = de \
+   "~kRulker sagt, \"Welche Insel? Mein Bruder Paddock erwähnte, dass es "
+   "eine erst vor kurzem entdeckte Insel gäbe.\""
+basicinnkeeper_speech_044 = de \
+   "~kRulker sagt, \"Das macht er nur in seiner Freizeit. Eigentlich ist er "
+   "ein Drehbuchautor.\""
+basicinnkeeper_speech_045 = de \
+   "~kRulker sagt, \"Ohne diese Kerle wäre ich nicht hier.\""
+basicinnkeeper_speech_046 = de \
+   "~kRulker sagt, \"Ein temperamentvolles Mädel ist sie, oh ja.\""
+basicinnkeeper_speech_047 = de \
+   "~kRulker sagt, \"Nenn' ihn Prego, das tun alle.\""
+basicinnkeeper_speech_048 = de \
+   "~kRulker sagt, \"Madelia näht Kleider. Sie ist nach Schloss Bourgeois "
+   "gezogen, um das große Geld zu machen. Ich glaube, sie hatte was für mich "
+   "übrig.\""
+basicinnkeeper_speech_049 = de \
+   "~kRulker sagt, \"Hurra! Ein Trinkspruch auf das Paar!\""
+basicinnkeeper_speech_050 = de \
+   "~kRulker sagt, \"Ein Werk von Psychochild und Q. Und unser Arantis "
+   "brachte dieses Land hierher.\""
+basicinnkeeper_speech_051 = de \
+   "~kRulker sagt, \"Ein großartiger Ort, um Spaß zu haben. Du solltest ihn "
+   "Dir mal ansehen.\""
+basicinnkeeper_speech_052 = de \
+   "~kRulker sagt, \"Den habe ich schon eine ganze Weile nicht mehr hier "
+   "gesehen, doch ich verdanke ihm viel.\""
+basicinnkeeper_speech_053 = de \
+   "~kRulker sagt, \"Die ganze Welt wäre nicht so launisch, wenn es diesen "
+   "Andy nicht gäbe.\""
+basicinnkeeper_speech_054 = de \
+   "~kRulker sagt, \"Auf Wunsch des Barden kann das Orchester ein anderes "
+   "Lied spielen. Sie kennen alle Melodien von Meridian.\""
+basicinnkeeper_speech_055 = de \
+   "~kRulker sagt, \"Ehrlich gesagt mag ich Near Death Studios ein bisschen "
+   "mehr als meine vorherigen Besitzer. Ein Hoch auf NDS!\""
+basicinnkeeper_speech_056 = de \
+   "~kRulker sagt, \"Ich war noch nie in Xeen. Hörte, es sei ganz hübsch.\""
+basicinnkeeper_speech_057 = de \
+   "~kRulker sagt, \"Ich kann ihn nicht ausstehen. Er bringt mich dazu, "
+   "Dinge zu sagen. Eigentlich bringt er jeden dazu, Dinge zu sagen. Glaubst "
+   "Du eigentlich, wir mögen es, wenn man uns sagt, was wir sagen sollen? "
+   "Nein! Wir wollen die Freiheit, das sagen zu können, was uns gerade im "
+   "Sinn ist, nicht das, was uns Kevin gerade vorsagt. Dieser Sch...kerl.\""
+basicinnkeeper_speech_058 = de \
+   "~kRulker sagt, \"Meinem Bruder Paddock gehört die Brunnenkneipe. Er ist "
+   "der beste Barmixer der Welt. Und wenn Du es noch nicht selbst "
+   "herausgefunden haben solltest, ich bin der zweitbeste.\""
+basicinnkeeper_speech_059 = de \
+   "~kRulker sagt, \"Sie ist wunderbar. Ich sollte es wissen, schau mich "
+   "an.\""
+basicinnkeeper_speech_060 = de \
+   "~kRulker sagt, \"Was, Du glaubst, das habe ich mir ausgedacht?\""
+basicinnkeeper_speech_061 = de \
+   "~kRulker sagt, \"Die Pest über die Prinzessin!\""
+basicinnkeeper_speech_062 = de \
+   "~kRulker sagt, \"Sie sitzt bestimmt selbstgefällig in ihrem kleinen "
+   "Schloss. Die Pest über sie! Die Pest über sie!\""
+basicinnkeeper_speech_063 = de \
+   "~kRulker sagt, \"Hast Du mal gesehen, zu welchen Zeiten er arbeitet? "
+   "Wenn das nicht verrückt ist, was dann?\""
+basicinnkeeper_speech_064 = de \
+   "~kRulker sagt, \"Ferloi Qan ist ein Blödmann. Wir haben uns immer über "
+   "ihn lustig gemacht. Aber er hat es uns gezeigt. Er hat seine Sachen "
+   "gepackt und ist mitsamt seinem Laden nach Barloque umgezogen. Und ich "
+   "hab' gehört, dass er jetzt viel mehr Geld macht. Ich glaube, er wurde "
+   "bestochen, Tos zu verlassen.\""
+basicinnkeeper_speech_065 = de \
+   "~kRulker sagt, \"Schau Dich hier um, %s, ohne Rob gäbe es diesen Ort "
+   "nicht. Eigentlich würde fast die ganze Welt nicht existieren. Und Du "
+   "würdest immer noch in den Wäldern von Meridian stecken.\""
+basicinnkeeper_speech_066 = de \
+   "~kRulker sagt, \"Dieser Kerl ist nicht ganz richtig im Kopf! Er will die "
+   "Welt regieren, indem er die physikalischen Gesetze verändert.\""
+basicinnkeeper_speech_067 = de \
+   "~kRulker sagt, \"Sei nett zu ihm, er ist nur zum Helfen hier.\""
+basicinnkeeper_speech_068 = de \
+   "~kRulker sagt, \"Steve, Mike, Chris oder Charles?\""
+basicinnkeeper_speech_069 = de \
+   "~kRulker sagt, \"Skivlat hat den perfekten Job. Er sitzt einfach nur den "
+   "ganzen Tag rum und zählt Geld. Ich wünschte, ich könnte mit ihm "
+   "tauschen.\""
+basicinnkeeper_speech_070 = de \
+   "~kRulker sagt, \"Das ist ein interessantes Spiel!\""
+basicinnkeeper_speech_071 = de "~kRulker sagt, \"Missfällt Dir die Musik?\""
+basicinnkeeper_speech_072 = de \
+   "~kRulker sagt, \"Ich glaube, er gehört zur Mafia.\""
+basicinnkeeper_speech_073 = de \
+   "~kRulker sagt, \"Er arbeitete an Generationen. Sagt man wenigstens.\""
+basicinnkeeper_speech_074 = de \
+   "~kIm Raum wird es still, als %s den verkümmerten Zwerg erwähnt."
+basicinnkeeper_speech_075 = de \
+   "~kRulker sagt, \"Es ist gut, der König zu sein.\""
+basicinnkeeper_speech_076 = de \
+   "~kRulker sagt, \"Eines Tages wird sie einen erholsamen Urlaub machen und "
+   "von allem Abstand nehmen. Jawohl, so wird's sein.\""
+basicinnkeeper_speech_077 = de \
+   "~kRulker sagt, \"Tos ist meine Heimatstadt. Ich kenne hier jeden. Los, "
+   "frag mich nach irgendjemandem aus der Stadt.\""
+basicinnkeeper_speech_078 = de "~kRulker sagt, \"Schrecklich!\""
+basicinnkeeper_speech_079 = de "~kRulker sagt, \"Verräter!\""
+basicinnkeeper_speech_080 = de \
+   "~kRulker sagt, \"Cort ist der Meister der Arena. Er wurde etwa zur "
+   "gleichen Zeit, als ich diesen Job bekam, vom Herzog eingesetzt. Wir sind "
+   "alte Schulkameraden. Und da ich ein bisschen älter bin als er ... da "
+   "hab' ich ihm halt bei seinen Aufgaben geholfen. Wirklich.\""
+basicinnkeeper_speech_081 = de \
+   "~kRulker sagt, \"Der Kerl kann einfach nicht normal \\\"Hackey Sack\\\" "
+   "spielen. Ständig muss er neue Regeln aufstellen.\""
+basicinnkeeper_speech_082 = de \
+   "~kRulker sagt, \"Vor dem muss man sich vorsehen. In dem steckt viel mehr "
+   "drin, als man glaubt. Das stille Äußere ist nur vorgetäuscht, das sag' "
+   "ich Dir.\""
+basicinnkeeper_speech_083 = de \
+   "~kRulker sagt, \"Klar, wenn Du mir was anbietest, werde ich es für Dich "
+   "einpacken. Das gehört zu meinen Aufgaben. Allerdings ist das "
+   "Einwickelpapier nicht umsonst.\""
+basicinnkeeper_speech_084 = de \
+   "~kRulker sagt, \"Der Kerl sorgt dafür, dass Du diesen Ort besuchen "
+   "kannst. Bedank Dich bei ihm, wenn Du die Gelegenheit hast.\""
+basicinnkeeper_trigger_bards = de "barden"
+basicinnkeeper_trigger_bye = de "ciao"
+basicinnkeeper_trigger_council = de "ratsmitglied"
+basicinnkeeper_trigger_drink = de "trinken"
+basicinnkeeper_trigger_beer = de "bier"
+basicinnkeeper_trigger_duke = de "herzog"
+basicinnkeeper_trigger_gift = de "geschenk"
+basicinnkeeper_trigger_hassan_2 = de "eramus"
+basicinnkeeper_trigger_hello = de "hallo"
+basicinnkeeper_trigger_help = de "hilfe"
+basicinnkeeper_trigger_island = de "insel"
+basicinnkeeper_trigger_man_and_wife = de "mann und frau"
+basicinnkeeper_trigger_music = de "musik"
+basicinnkeeper_trigger_princess = de "prinzessin"
+basicinnkeeper_trigger_soldiers = de "soldaten"
+basicinnkeeper_trigger_songs = de "lieder"
+basicinnkeeper_trigger_stunted_dwarf = de "verkümmerter zwerg"
+basicinnkeeper_trigger_uprising_2 = de "aufstand"
+basicinnkeeper_trigger_watcher = de "meister"
+basicinnkeeper_trigger_wrapped = de "einwickeln"
+basicinnkeeper_trigger_wrapped_2 = de "eingewickelt"
+basicinnkeeper_trigger_wrapped_3 = de "umwickelt"
+
+// DukeGuard
+dukeguard_speech_001 = de \
+   "~kDie Wache des Herzogs sagt, \"Das stolze Barloque liegt an der "
+   "nördlichen Küste des großen Ozeans.\""
+dukeguard_speech_002 = de \
+   "~kDie Wache des Herzogs sagt, \"Ich würde niemals auf Schloss Bourgeois "
+   "dienen.\""
+dukeguard_speech_003 = de \
+   "~kDie Wache des Herzogs sagt, \"Cor Noth liegt zwischen allen anderen "
+   "Städten.\""
+dukeguard_speech_004 = de \
+   "~kDie Wache des Herzogs sagt, \"Gepriesen sei der Rat der Fünf!\""
+dukeguard_speech_005 = de \
+   "~kDie Wache des Herzogs sagt, \"Gepriesen sei Herzog Akardius!\""
+dukeguard_speech_006 = de \
+   "~kDie Wache des Herzogs sagt, \"Jasper liegt westlich des Sees.\""
+dukeguard_speech_007 = de \
+   "~kDie Wache des Herzogs sagt, \"Geh nach Westen, um Marion zu finden.\""
+dukeguard_speech_008 = de \
+   "~kDie Wache des Herzogs sagt, \"Gepriesen sei Tos!\""
+dukeguard_trigger_council = de "ratsmitglied"
+dukeguard_trigger_council_2 = de "rat der fünf"
+dukeguard_trigger_duke = de "herzog"
+
+// TosApothecary
+tosapothecary_speech_001 = de \
+   "~kFrisconar sagt, \"Ich möchte nicht über Barloque sprechen. Diese Stadt "
+   "hat meiner Liebsten und mir nichts als Ärger gebracht.\""
+tosapothecary_speech_002 = de \
+   "~kFrisconar sagt, \"Lass mich Deine Reagenzien sehen. Vielleicht kaufe "
+   "ich sie, wenn sie nicht schon verdorben sind.\""
+tosapothecary_speech_003 = de \
+   "~kFrisconar sagt, \"Auf Wiedersehen, sofern keiner von uns vorher "
+   "stirbt, was in dieser Welt sehr wahrscheinlich ist.\""
+tosapothecary_speech_004 = de \
+   "~kFrisconar sagt, \"Cor Noth ist eine abstoßende Stadt. Das letzte Mal, "
+   "als ich da war, hab' ich mir diese schreckliche Erkältung geholt, die "
+   "monatelang nicht wegging. Das ist, weil dort in keinster Weise auf "
+   "Hygiene geachtet wird. Einmal sah ich einen Schleim in ihrem Fluss "
+   "treiben. Iii!\""
+tosapothecary_speech_005 = de \
+   "~kFrisconar sagt, \"Oh, der große und mächtige Rat. Diese Überbleibsel "
+   "aus alter Zeit haben keine Ahnung von Staatsführung. Es scheint, dass "
+   "sie jeden Tag ihre Meinung darüber ändern, wer regieren sollte. Sie "
+   "sollten sich Arbeit suchen.\""
+tosapothecary_speech_006 = de \
+   "~kFrisconar sagt, \"Die Kulte arbeiten seit Jahren gegen mich. Sie "
+   "denken, ich würde es nicht merken, aber ich weiß, dass sie da draußen "
+   "sind.\""
+tosapothecary_speech_007 = de \
+   "~kFrisconar sagt, \"Ich denke, dass ich mit Herzog Akardius "
+   "zurechtkommen werde. Zumindest hoffe ich das.\""
+tosapothecary_speech_008 = de "~kFrisconar sagt, \"Kenne ich Dich, %s?\""
+tosapothecary_speech_009 = de \
+   "~kFrisconar sagt, \"Ich dachte nicht, dass ich Dich hier noch einmal "
+   "sehen würde, %s.\""
+tosapothecary_speech_010 = de \
+   "~kFrisconar sagt, \"Was möchtest Du? Du willst mich doch nicht "
+   "ausrauben, oder?\""
+tosapothecary_speech_011 = de \
+   "~kFrisconar sagt, \"Brauchst Du Hilfe? Es geht immer darum, was Du "
+   "brauchst. Ich kaufe und verkaufe Zutaten für Zaubersprüche.\""
+tosapothecary_speech_012 = de \
+   "~kFrisconar sagt, \"Jasper. Das ist eine blühende Stadt, oh ja. Sie "
+   "stellen sich gegen das Althergebrachte und fordern Ärger geradezu "
+   "heraus. Wenn Du mich fragst, ist es Selbstmord, worum sie da bitten.\""
+tosapothecary_speech_013 = de \
+   "~kFrisconar sagt, \"Verloren, wir sind alle verloren, verloren, sage ich "
+   "Dir!!\""
+tosapothecary_speech_014 = de \
+   "~kFrisconar sagt, \"Es gibt da einen Tempel oder so etwas an einem "
+   "unterirdischen See in den dunklen Höhlen. Wenn ich Du wäre, würde ich "
+   "mir die Mühe nicht machen. Als Erstes brauchst Du einen Schlüssel. Und "
+   "wenn Du doch reinkommst, ist es einfach elendig kalt.\""
+tosapothecary_speech_015 = de \
+   "~kFrisconar sagt, \"Die schöne Madelia ist meine wahre Liebe. Sie wohnte "
+   "einst hier in Tos, als wir zusammen waren. Doch dann redete ihr der "
+   "elende Frular ein, dass ihr Stoffgeschäft näher an Barloque besser "
+   "laufen würde. Und die Prinzessin beauftragte sie, ihr die königlichen "
+   "Gewänder zu nähen. Und ehe ich mich versah, ist meine liebe Madelia ins "
+   "Schloss Bourgeois umgezogen. Ich bin sicher, dass sie von irgendeinem "
+   "grausamen Riija-Kult verhext wurde.\""
+tosapothecary_speech_016 = de \
+   "~kFrisconar sagt, \"Die schöne Madelia ist meine wahre Liebe. Sie wohnte "
+   "einst hier in Tos, als wir zusammen waren. Doch dann redete ihr der "
+   "elende Frular ein, dass ihr Stoffgeschäft näher an Barloque besser "
+   "laufen würde. Und die Prinzessin beauftragte sie, ihr die königlichen "
+   "Gewänder zu nähen. Und ehe ich mich versah, ist meine liebe Madelia ins "
+   "Schloss Bourgeois umgezogen. Ich bin sicher, dass sie von irgendeinem "
+   "grausamen Riija-Kult verhext wurde.\""
+tosapothecary_speech_017 = de \
+   "~kFrisconar sagt, \"Ich verstehe nicht, warum irgendjemand seine Zeit in "
+   "Marion verbringen will. Ich würde es noch nicht einmal eine Stadt "
+   "nennen. Ich begreife nicht, warum die selige Shal'ille ihren "
+   "Schutzmantel über solch ein abgelegenes Kaff gebreitet hat. Und ihr "
+   "weiser Mann erst, ha, ich hab' mehr Verstand in diesem Daumen.\""
+tosapothecary_speech_018 = de \
+   "~kFrisconar sagt, \"Was, Paddock hat Dich zu mir geschickt? Es scheint, "
+   "ich muss diesem Dieb jedes Mal eine Provision zahlen, wenn jemand seinen "
+   "Namen hier drin erwähnt. Und er hat mir nichts als Ärger gebracht.\""
+tosapothecary_speech_019 = de \
+   "~kFrisconar sagt, \"Trotz ihrer Fehler bin ich wohl der Einzige in ganz "
+   "Tos, der die Prinzessin unterstützt.\""
+tosapothecary_speech_020 = de \
+   "~kFrisconar schreit, \"Worauf wartest Du? Es ist unhöflich, den Tod "
+   "warten zu lassen. Habe ich Fieber? Ich glaube ja, das ist es, das Ende. "
+   "Auf Wiedersehen, grausame Welt. Willst Du denn gar nichts kaufen?\""
+tosapothecary_speech_021 = de \
+   "~kFrisconar sagt, \"Was dachtest Du denn, was ich verkaufen würde? Dies "
+   "ist ein Laden für Zauberreagenzien.\""
+tosapothecary_speech_022 = de \
+   "~kFrisconar sagt, \"Ich sollte wirklich aus Tos wegziehen. Man sagt, es "
+   "sei die älteste Stadt. Das heißt einfach nur, dass es der trostloseste "
+   "Ort ist, den Du finden kannst. Ich glaube, der Brunnen fängt an zu "
+   "stinken.\""
+tosapothecary_random_001 = de \
+   "~kFrisconar sagt, \"Wir hatten einen Schmied in der Stadt, bis er von "
+   "hier wegzog. Ich nehme es ihm nicht übel, dass er aus dieser von "
+   "Shal'ille verlassenen Stadt wegwollte. Natürlich steht die Stadt ohne "
+   "solche Leute wahrscheinlich besser da. Er war ein merkwürdiger Kerl. Aus "
+   "irgendeinem unbekannten Grund war er daran interessiert, Zauberstäbe zu "
+   "kaufen. Er gehörte wahrscheinlich irgendeinem Kult an.\""
+tosapothecary_random_002 = de \
+   "~kFrisconar sagt, \"Wenn Du keiner magischen Schule mehr angehören "
+   "möchtest, dann bitte die Priesterin um einen ~ITrank des Vergessens~I. "
+   "Er wird Deinen Geist von ihren Zaubersprüchen befreien. Natürlich kann "
+   "dieser Trank auch üble Nebenwirkungen haben. Ich habe schon mehrere "
+   "davon getrunken. Jeder von ihnen hat mehr als einen schlechten Geschmack "
+   "in meinem Mund zurückgelassen.\""
+tosapothecary_random_003 = de \
+   "~kFrisconar sagt, \"Ich habe gehört, dass einige Leute mit dem Wissen um "
+   "die vergessenen Riija-Zaubersprüche aus einem anderen Land zurückkehren. "
+   "Das ist genau das, was wir brauchen, mehr Zaubersprüche der Täuschung.\""
+tosapothecary_random_004 = de \
+   "~kFrisconar sagt, \"Die Leute erkennen einfach nicht, dass viele der "
+   "Dinge, die ihnen unterkommen, Zauberern beim Wirken von Zaubersprüchen "
+   "helfen können. Vielleicht läuft mein Laden deshalb so schlecht.\""
+tosapothecary_random_005 = de \
+   "~kFrisconar sagt, \"Falls Du nichts Besseres zu tun hast - Ladenbesitzer "
+   "suchen häufig nach Leuten, die Botengänge für sie erledigen.\""
+tosapothecary_random_006 = de \
+   "~kFrisconar sagt, \"Du bist nicht zufällig kürzlich in Barloque gewesen, "
+   "oder? Hast Du Madelia gesehen? Wie sieht sie aus? Hat sie mich überhaupt "
+   "erwähnt?\""
+tosapothecary_random_007 = de \
+   "~kFrisconar sagt, \"Du weißt, dass der Meister der Arena seine Stellung "
+   "nur aufgrund eines Handels hinter verschlossenen Türen zwischen der "
+   "Priesterin Qertina und dem Herzog bekam.\""
+tosapothecary_random_008 = de \
+   "~kFrisconar sagt, \"Rulker ist ein Dummkopf. Aus irgendeinem Grund "
+   "übertrug ihm der Herzog die Aufgabe, die Bar im königlichen Ballsaal zu "
+   "führen. Irgendetwas stimmt damit nicht. Ich hab' bisher nicht "
+   "herausfinden können, worum es wirklich geht.\""
+tosapothecary_random_009 = de \
+   "~kFrisconar sagt, \"Ich würde Skivlat bei Gelddingen nicht trauen. Er "
+   "liebt das Geld ein bisschen zu sehr. Er könnte einem Kult angehören.\""
+tosapothecary_random_010 = de \
+   "~kFrisconar sagt, \"Ich kenne ein paar Zaubersprüche. Du weißt, ich "
+   "hätte Priester werden können, doch alle Positionen waren besetzt. Und "
+   "die ~IGötter~I suchen sich immer die aus, die sie bevorzugen, um sie zu "
+   "vertreten.\""
+tosapothecary_random_011 = de \
+   "~kFrisconar sagt, \"Barloque und Jasper müssen wirklich etwas für ihre "
+   "Kanalisation tun. Sie ist außer Kontrolle geraten. Den Ratten geht der "
+   "Platz aus, deshalb sind sie jetzt überall. Wahrscheinlich werden sie "
+   "bald die schwarze Pest verbreiten.\""
+tosapothecary_random_012 = de \
+   "~kFrisconar sagt, \"Die Welt ist ein solch schäbiger Ort. Die Monster "
+   "nehmen überall überhand. Ich kenne einen Zauberspruch, um mich vor ihnen "
+   "zu schützen, doch früher oder später werden sie uns alle töten. Es ist "
+   "nur eine Frage der Zeit.\""
+tosapothecary_random_013 = de \
+   "~kFrisconar sagt, \"Ha.. ~Bha.. HATSCHIIII!!! ~B Diese Erkältung wird "
+   "mich noch umbringen. Vor ein paar Monaten hatte sie jeder. Aus "
+   "irgendeinem Grund bin ich aber der Einzige, der sie nicht loswird. Immer "
+   "ich.\""
+tosapothecary_random_014 = de \
+   "~kFrisconar sagt, \"Ich glaub', ich hab' die Cholera.\""
+tosapothecary_random_015 = de \
+   "~kFrisconar sagt, \"Ich glaub', ich hab' die Röteln.\""
+tosapothecary_random_016 = de \
+   "~kFrisconar sagt, \"Ich glaub', ich hab' die Schwindsucht. Meine Mutter "
+   "starb an Schwindsucht.\""
+tosapothecary_random_017 = de \
+   "~kFrisconar sagt, \"Ich glaub', ich bekomm' einen Kropf. Ich glaub', das "
+   "wäre tödlich.\""
+tosapothecary_random_018 = de \
+   "~kFrisconar sagt, \"Da ist wieder dieses Jucken. So wie ich mein Glück "
+   "kenne, ist das bestimmt Nesselausschlag.\""
+tosapothecary_random_019 = de \
+   "~kFrisconar sagt, \"Riechst Du Rauch? Seitdem ich dieses scharfe Essen "
+   "in der Brunnenkneipe gegessen hab', ist mein Geruchssinn weg. Wenn "
+   "irgendwann einmal ein Feuer ausbricht, werde ich bestimmt sterben, weil "
+   "ich nicht in der Lage bin, den Rauch zu riechen.\""
+tosapothecary_random_020 = de \
+   "~kFrisconar sagt, \"Du hast doch keine Trauben bei Dir, oder? Ich bin "
+   "allergisch gegen Trauben.\""
+tosapothecary_random_021 = de "~kFrisconar sagt, \"Mein Hals tut weh.\""
+tosapothecary_random_022 = de \
+   "~kFrisconar sagt, \"Was sind die Symptome für ein Magengeschwür? Ich "
+   "glaub', ich hab' eins.\""
+tosapothecary_random_023 = de \
+   "~kFrisconar sagt, \"Meine Füße schmerzen. Oh, wie gerne ich mich "
+   "hinsetzen würde, aber meine Hämorrhoiden, Du weißt schon...\""
+tosapothecary_random_024 = de \
+   "~kFrisconar sagt, \"Ich glaube, mir ist schlecht. Ist es hier zu warm?\""
+tosapothecary_random_025 = de \
+   "~kFrisconar sagt, \"Seitdem ich den Blitz-Zauberspruch ausprobiert habe, "
+   "bin ich nicht mehr in der Lage, meine Hand wie vorher zu bewegen.\""
+tosapothecary_random_026 = de \
+   "~kFrisconar sagt, \"Ich hab' das Gefühl, das Wetter wird morgen einfach "
+   "abgrundtief schlecht sein.\""
+tosapothecary_random_027 = de \
+   "~kFrisconar sagt, \"Ich fühl' mich schrecklich. Ich sollte heute früh "
+   "schließen.\""
+tosapothecary_random_028 = de \
+   "~kFrisconar sagt, \"Sind Warzen ansteckend? Ich hab' sowas gehört.\""
+tosapothecary_random_029 = de \
+   "~kFrisconar sagt, \"Ich hatte mal einen Hund. Er starb an der "
+   "Schwarzfäule.\""
+tosapothecary_random_030 = de \
+   "~kFrisconar sagt, \"Du bist nicht krank, oder? Ich hasse es, mit kranken "
+   "Menschen zusammen zu sein. Sie lassen es immer schlimmer klingen, als es "
+   "in Wirklichkeit ist.\""
+tosapothecary_random_031 = de \
+   "~kFrisconar sagt, \"Was ist der Unterschied zwischen Scharlach und "
+   "Fleckfieber? Ich weiß, dass ich irgendein Fieber habe.\""
+tosapothecary_random_032 = de \
+   "~kFrisconar sagt, \"Komm mir nicht zu nah. Du könntest Dich anstecken.\""
+tosapothecary_random_033 = de \
+   "~kFrisconar sagt, \"Ich glaube nicht, dass Madelia irgendwann zu mir "
+   "zurückkehrt. Das Leben ist voller Enttäuschungen. Du bekommst nie das, "
+   "was Du haben willst. Und aus irgendeinem Grund fällt es mir schwer, "
+   "andere Frauen kennenzulernen.\""
+tosapothecary_random_034 = de \
+   "~kFrisconar sagt, \"Meine Haare fallen aus. Ich habe erst dreißig Winter "
+   "gesehen. Vielleicht hab' ich Lepra.\""
+tosapothecary_random_035 = de \
+   "~kFrisconar sagt, \"Au. Da ist dieser Rückenschmerz wieder.\""
+tosapothecary_random_036 = de \
+   "~kFrisconar sagt, \"Hast Du heute in der Brunnenkneipe gegessen? Ich "
+   "glaub', ich hab' eine Lebensmittelvergiftung.\""
+tosapothecary_random_037 = de \
+   "~kFrisconar sagt, \"Eigentlich fühle ich mich heute gar nicht so "
+   "schlecht.\""
+tosapothecary_random_038 = de \
+   "~kFrisconar hustet und räuspert sich. Unzufrieden hustet er noch etwas "
+   "weiter."
+tosapothecary_random_039 = de \
+   "~kSich den Nacken massierend stößt Frisconar einen Seufzer des "
+   "Unbehagens aus."
+tosapothecary_random_040 = de \
+   "~kFrisconar wischt sich die Nase mit einem abgenutzten Lappen."
+tosapothecary_random_041 = de \
+   "~kFrisconar seufzt tief, dann rümpft er die Nase und gibt ein tiefes, "
+   "hupendes Geräusch von sich."
+tosapothecary_random_042 = de \
+   "~kFrisconar schnaubt laut. Er sagt, \"Entschuldigung.\""
+tosapothecary_random_043 = de \
+   "~kFrisconar sagt, \"Ich glaub', ich hab' die Maul- und Klauenseuche.\""
+tosapothecary_random_044 = de \
+   "~kFrisconar sagt, \"Ich glaub', ich hab' Rinderwahnsinn.\""
+tosapothecary_random_045 = de \
+   "~kFrisconar sagt, \"Schwerer Tag heute, %s? Aber ist es nicht immer so?\""
+tosapothecary_random_046 = de \
+   "~kFrisconar sagt, \"Worüber bist Du so froh? Es gibt nichts auf dieser "
+   "Welt, das gut laufen würde.\""
+tosapothecary_trigger_sell = de "verkauf"
+tosapothecary_trigger_bye = de "ciao"
+tosapothecary_trigger_council = de "ratsmitglied"
+tosapothecary_trigger_cult = de "kult"
+tosapothecary_trigger_duke = de "herzog"
+tosapothecary_trigger_hello = de "hallo"
+tosapothecary_trigger_help = de "hilfe"
+tosapothecary_trigger_lake = de "see"
+tosapothecary_trigger_love = de "liebe"
+tosapothecary_trigger_princess = de "prinzessin"
+tosapothecary_trigger_rebels = de "rebellen"
+tosapothecary_trigger_buy = de "kaufen"
+
+// TosBanker
+tosbanker_speech_001 = de \
+   "~kSkivlat sagt, \"Die da oben in Barloque haben viele Schillinge. Sie "
+   "sind alle reich dort. Ich mag Herbut jedoch nicht. Er ist hochnäsig. Ich "
+   "~Igumpf~I-handle gelegentlich mit ihm Edelsteine. Oh, aber Du solltest "
+   "das nicht tun. Ich kann Dir hier ein besseres Geschäft für Deine "
+   "Edelsteine anbieten.\""
+tosbanker_speech_002 = de \
+   "~kSkivlat sagt, \"Ich werde Dir Schillinge für ein oder zwei Edelsteine "
+   "abkaufen.\""
+tosbanker_speech_003 = de \
+   "~kSkivlat sagt, \"Auf Wiedersehen, %s! Komm wieder. Grüße jeden, den Du "
+   "besuchst, von mir!\""
+tosbanker_speech_004 = de \
+   "~kSkivlat zieht eine Münze hervor, legt sie auf dem Finger zurecht und "
+   "sagt, \"Kopf oder Stein?\""
+tosbanker_speech_005 = de \
+   "~kSkivlat sagt, \"Ich weiß nicht, wie viele Schillinge es in Cor Noth "
+   "gibt. Wahrscheinlich mehr als in Jasper.\""
+tosbanker_speech_006 = de \
+   "~kSkivlat sagt, \"Es gibt einen Typen im Rat, den ich wirklich "
+   "bewundere. Er heißt Bei Naq. Er hat viele Schillinge. Mehr als jeder "
+   "andere auf der Welt.\""
+tosbanker_speech_007 = de \
+   "~kSkivlat sagt, \"Der Herzog lebt auf Burg Schwarzstein im Norden von "
+   "Tos. Er hat viele Schillinge, weil er Steuern eintreiben kann. Ich "
+   "wünschte, ich könnte Steuern eintreiben. Ich wünschte auch, er würde von "
+   "mir keine Steuern verlangen. Doch im Großen und Ganzen hilft er, die "
+   "Kosten für Sachen zu senken, so dass ich mehr von meinem Geld sparen "
+   "kann. Er ist nett.\""
+tosbanker_speech_008 = de \
+   "~kSkivlat zieht eine Münze hervor, legt sie auf dem Finger zurecht und "
+   "sagt, \"Kopf oder Stein?\""
+tosbanker_speech_009 = de \
+   "~kSkivlat sagt, \"Wieso hast Du 'gumpf' gesagt? Du redest komisch.\""
+tosbanker_speech_010 = de \
+   "~kSkivlat schnippt einen Schilling in die Luft, schaut die Münze an und "
+   "sagt, \"Kopf ist es! Du hast recht!\""
+tosbanker_speech_011 = de \
+   "~kSkivlat schnippt einen Schilling in die Luft, schaut die Münze an und "
+   "sagt, \"Pech, es war Stein.\""
+tosbanker_speech_012 = de \
+   "~kSkivlat schnippt einen Schilling in die Luft, schaut die Münze an und "
+   "sagt, \"Die Münze zeigt Kopf nach oben! Gut getippt!\""
+tosbanker_speech_013 = de \
+   "~kSkivlat schnippt einen Schilling in die Luft, schaut die Münze an und "
+   "sagt, \"Tja, tut mir leid. Es ist Stein.\""
+tosbanker_speech_014 = de \
+   "~kSkivlat schnippt einen Schilling in die Luft, schaut die Münze an und "
+   "sagt, \"Es ~Iist~I Kopf\""
+tosbanker_speech_015 = de \
+   "~kSkivlat schnippt einen Schilling in die Luft, schaut die Münze an und "
+   "sagt, \"Schade, Stein war richtig.\""
+tosbanker_speech_016 = de \
+   "~kSkivlat sagt, \"Guten %s, %s! Was kann ich für Dich ~Igumpf~I-tun?\""
+tosbanker_speech_017 = de \
+   "~kSkivlat sagt, \"~IGumpf~I-Hallo, %s, wie geht es Dir an diesem schönen "
+   "%s?!\""
+tosbanker_speech_018 = de \
+   "~kSkivlat sagt, \"Ich kann Dein Geld sicher verwahren, sogar wenn Du "
+   "stirbst. Ich weiß auch viel über Geld. In der Tat liebe ich Geld.\""
+tosbanker_speech_019 = de \
+   "~kSkivlat sagt, \"Zinsen? Dein Geld wird auf meiner Bank sicher sein, "
+   "Kinder wird es jedoch keine bekommen.\""
+tosbanker_speech_020 = de \
+   "~kSkivlat sagt, \"Ich mag Jasper. Ich würde gern dort leben, weil es so "
+   "nah bei den Minen ist. Aber Yevitan ist mir dort bereits zuvorgekommen.\""
+tosbanker_speech_021 = de \
+   "~kSkivlat sagt, \"Die Leute von Marion haben nicht viele Schillinge. "
+   "Diese armen Seelen.\""
+tosbanker_speech_022 = de \
+   "~kSkivlat sagt, \"Die ursprünglichen amtlichen Münzen von Meridian "
+   "hatten ein Schloss auf der einen und Prinz Far'Nohl auf der anderen "
+   "Seite. Heutzutage gibt es sie nicht mehr.\""
+tosbanker_speech_023 = de \
+   "~kSkivlat sagt, \"Die Prinzessin hat viel Geld. Sie lebt in der Nähe von "
+   "Barloque.\""
+tosbanker_speech_024 = de \
+   "~kSkivlat spuckt aus, \"Diese Rebellen, die das Gleichgewicht und alles "
+   "andere durcheinanderbringen und Amok laufen... Nicht zu glauben, dass "
+   "Yevitan sein eigenes Geld für sie verschwendet.\""
+tosbanker_speech_025 = de \
+   "~kSkivlat sagt, \"Ich habe ein paar Edelsteine zu verkaufen. Schillinge "
+   "werde ich jedoch nicht verkaufen, sie sind zu wertvoll. Oh, und womit "
+   "wolltest Du sie kaufen? Es ist ungefähr wie mit einem Paar Enten, wo Du "
+   "eine nur mit der anderen kaufen kannst. Ha, ha, hi, hi.\""
+tosbanker_speech_026 = de \
+   "~kSkivlat sagt, \"Ich gebe ~Igumpf~I-Dir eine wenig bekannte "
+   "Information. Die auf der Rückseite der Münze abgebildete Prinzessin war "
+   "Prinzessin Demetia. Wenn sie noch leben würde, wäre sie heute 248, ach "
+   "nein, warte, lass mich nachdenken, 249 Jahre alt.\""
+tosbanker_speech_027 = de \
+   "~kSkivlat sagt, \"Ich schätze, das war ein guter Film. ~IMmhja~I.\""
+tosbanker_speech_028 = de \
+   "~kSkivlat schnippt einen Schilling in die Luft, schaut die Münze an und "
+   "sagt, \"Gute ~IGäh~I Wette, es ist Stein.\""
+tosbanker_speech_029 = de \
+   "~kSkivlat schnippt einen Schilling in die Luft, schaut die Münze an und "
+   "sagt, \"Ach, schade. Das war leider Kopf.\""
+tosbanker_speech_030 = de \
+   "~kSkivlat schnippt einen Schilling in die Luft, schaut die Münze an und "
+   "sagt, \"Du kannst ja ~IGäh~I nicht alle richtig haben. Das ist Kopf.\""
+tosbanker_speech_031 = de \
+   "~kSkivlat schnippt einen Schilling in die Luft, schaut die Münze an und "
+   "sagt, \"Ja. Stein liegt oben.\""
+tosbanker_speech_032 = de \
+   "~kSkivlat schnippt einen Schilling in die Luft, schaut die Münze an und "
+   "sagt, \"Stein!\""
+tosbanker_speech_033 = de \
+   "~kSkivlat schnippt einen Schilling in die Luft, schaut die Münze an und "
+   "sagt, \"Daneben, Kopf liegt oben.\""
+tosbanker_speech_034 = de \
+   "~kSkivlat sagt, \"Tos ist eine ~Igumpf~I-großartige Stadt zum Leben.\""
+tosbanker_speech_035 = de \
+   "~kSkivlat sagt, \"Yevitan gehört die Bank in Jasper. Meine Bank hat mehr "
+   "Geld und deswegen ist er neidisch. Ich denke, dass er auch seine Kunden "
+   "betrügt. Er mag mich nicht. Er ist wie... äh... wie ein Monster, das "
+   "mich nicht besonders mag. Vielleicht ein Troll - sie mögen mich wohl "
+   "nicht. Außerdem verschwendet Yevitan sein ganzes Geld für die Rebellen, "
+   "der Narr.\""
+tosbanker_random_001 = de \
+   "~kSkivlat sagt, \"Wusstest Du, dass diese Münze während der Herrschaft "
+   "von König Zarcos II. geprägt wurde?\""
+tosbanker_random_002 = de \
+   "~kSkivlat sagt, \"Schillinge, meine wundervollen Freunde, euer goldenes "
+   "Glitzern hört nie auf. Ha, ha, hi, hi.\""
+tosbanker_random_003 = de \
+   "~kSkivlat sagt, \"Die meisten Leute sagen, Geld sei dreckig. Ich nicht, "
+   "ich ~Igumpf~I-wasche diese Schillinge jeden Tag.\""
+tosbanker_random_004 = de \
+   "~kSkivlat poliert die gleiche Münze wieder und wieder."
+tosbanker_random_005 = de \
+   "~kSkivlat sagt, \"Ich wette, Du wusstest nicht, dass Schillinge nicht "
+   "aus reinem Gold sind. Es sind auch Kupfer und Eisen drin. Nur ein "
+   "kleiner Teil der Münze ist aus echtem Gold.\""
+tosbanker_random_006 = de \
+   "~kSkivlat sagt, \"Ich liebe Edelsteine. Nicht so sehr wie Schillinge. "
+   "Aber sie sind hübsch. Aber nicht so hübsch wie Schillinge.\""
+tosbanker_random_007 = de \
+   "~kSkivlat zählt einen Stapel Schillinge. Nach ein paar Sekunden zählt er "
+   "denselben Stapel noch einmal."
+tosbanker_random_008 = de \
+   "~kEin irres Grinsen huscht über Skivlats Gesicht, als er ein paar "
+   "Schillinge poliert."
+tosbanker_random_009 = de \
+   "~kSkivlat schüttelt unablässig seinen Geldbeutel. Bei jedem metallischen "
+   "Klicken wird sein Lächeln breiter. \"Ich liebe diesen Klang\", sagt er."
+tosbanker_random_010 = de \
+   "~kSkivlat sagt, \"Ich liebe Münzenwerfen. Schätz' mal, Kopf oder Stein?\""
+tosbanker_random_011 = de \
+   "~kSkivlat sagt, \"Die ursprüngliche amtliche Münze von Meridian hatte "
+   "ein Schloss auf der einen und Prinz Far'Nohl auf der anderen Seite. Die "
+   "findet man heutzutage nicht mehr.\""
+tosbanker_random_012 = de \
+   "~kSkivlat sagt, \"Hier ist eine wenig bekannte Tatsache für "
+   "~Igumpf~I-Dich. Die Prinzessin auf der Rückseite des Schillings war "
+   "Prinzessin Demetia. Wenn sie noch leben würde, wäre sie 248, äh nein, "
+   "warte, lass mich nachdenken, 249 Jahre alt.\""
+tosbanker_random_013 = de \
+   "~kSkivlat sagt, \"Ich glaube nicht, dass mein ~Igumpf~I-Tresor noch viel "
+   "mehr aufnehmen kann. Vielleicht muss ich den Raum nebenan auch noch "
+   "anmieten, um zusätzlichen Lagerraum zu haben.\""
+tosbanker_random_014 = de \
+   "~kSkivlat sagt, \"Ich bin so glücklich. Wenn meine Bank ein, äh, Tier "
+   "wäre, das gerne viel isst, dann wäre es jetzt satt. Ich sage das, weil "
+   "im Moment viel ~Igumpf~I-Geld in meinem Tresor ist. Wie ein Troll. Die "
+   "essen gern viel.\""
+tosbanker_random_015 = de \
+   "~kSkivlat sagt, \"Ich bin mir nicht sicher, warum diese blöden Ratten "
+   "mit Schillingen weglaufen. Ich meine, ich weiß, warum ich mit "
+   "Schillingen ~Igumpf~I-weglaufen würde. Aber sie sind so klein, was "
+   "wollen Ratten schon mit Geld.\""
+tosbanker_random_016 = de \
+   "~kSkivlat sagt, \"Der Tresor wird für meine Freunde ein bisschen einsam. "
+   "Möchtest Du bitte ein paar Schillinge einzahlen?\""
+tosbanker_random_017 = de \
+   "~kSkivlat sagt, \"Was geht da draußen in der Welt vor? Zu viele Leute "
+   "heben ihre Schillinge ab. Das ist nicht richtig, es ging ihnen so gut "
+   "hier zusammen mit ihren Freunden.\""
+tosbanker_trigger_sell = de "verkauf"
+tosbanker_trigger_bye = de "ciao"
+tosbanker_trigger_coin = de "münze"
+tosbanker_trigger_council = de "ratsmitglied"
+tosbanker_trigger_duke = de "herzog"
+tosbanker_trigger_flip = de "werfen"
+tosbanker_trigger_guh = de "gumpf"
+tosbanker_trigger_gumpf = de "guh"
+tosbanker_trigger_heads = de "kopf"
+tosbanker_trigger_hello = de "hallo"
+tosbanker_trigger_help = de "hilfe"
+tosbanker_trigger_interest = de "zinsen"
+tosbanker_trigger_interest_2 = de "interesse"
+tosbanker_trigger_money = de "geld"
+tosbanker_trigger_princess = de "prinzessin"
+tosbanker_trigger_rebels = de "rebellen"
+tosbanker_trigger_buy = de "kaufen"
+tosbanker_trigger_shilling = de "schilling"
+tosbanker_trigger_stones = de "stein"
+tosbanker_trigger_stones_2 = de "zahl"
+
+// TosInnKeeper
+tosinnkeeper_speech_001 = de \
+   "~kPaddock sagt, \"Bob ist ein guter Freund von mir dort unten in Jasper. "
+   "Sein Gemischtwarenladen führt alles, was man braucht.\""
+tosinnkeeper_speech_002 = de \
+   "~kPaddock sagt, \"Barloque. Das ist die hochnäsigste, qorverdammteste "
+   "Stadt, die Du je gesehen hast. Sie denken, sie seien das Zentrum der "
+   "Macht. Ha! Allerdings liegt dort das Amt des Justitiars.\""
+tosinnkeeper_speech_003 = de \
+   "~kPaddock sagt, \"Ferloi Qan war unser hiesiger Schmied. Ich denke, die "
+   "Nähe zum Friedhof hat ihn aus der Stadt vergrault.\""
+tosinnkeeper_speech_004 = de "~kPaddock sagt, \"Bis morgen, %s.\""
+tosinnkeeper_speech_005 = de \
+   "~kPaddock sagt, \"Herrje, nun verschwinde endlich. Morgen um die gleiche "
+   "Zeit?\""
+tosinnkeeper_speech_006 = de \
+   "~kPaddock sagt, \"Wir sehen uns später. Geh und töte einen Ork.\""
+tosinnkeeper_speech_007 = de \
+   "~kPaddock sagt, \"Cheater? Übles Gesindel ist das. Gar nicht gut fürs "
+   "Geschäft.\""
+tosinnkeeper_speech_008 = de \
+   "~kPaddock sagt, \"Cor Noth ist ein nettes Städtchen. Wir sollten einen "
+   "Uhrenturm hierher bekommen.\""
+tosinnkeeper_speech_009 = de \
+   "~kPaddock sagt, \"König Zarcos ließ das Land in der Obhut eines Rates "
+   "von fünf Männern. Nun, eigentlich beraten sie den Herzog und die "
+   "Prinzessin nur. Die meiste Zeit versuchen sie, diese seltsamen Artefakte "
+   "zu enträtseln. So ist das eben mit der Regierung.\""
+tosinnkeeper_speech_010 = de \
+   "~kPaddock sagt, \"Gepriesen sei Herzog Akardius!\""
+tosinnkeeper_speech_011 = de \
+   "~kPaddock sagt, \"Ich glaube, ich hab schon mal davon gehört? Ist das "
+   "nicht wie der Spinner, der Weber und der Schneider? Nun gut, es ist nur "
+   "ein Altweiber-Märchen, vergiss es einfach wieder.\""
+tosinnkeeper_speech_012 = de \
+   "~kPaddock sagt, \"Ferloi Qan war unser hiesiger Schmied. Ich denke, die "
+   "Nähe zum Friedhof hat ihn aus der Stadt vergrault.\""
+tosinnkeeper_speech_013 = de \
+   "~kPaddock sagt, \"Oh, um der Liebe Shal'illes willen, geh irgendwo "
+   "anders hin, %s! Deine Überschwänglichkeit macht mich ganz krank.\""
+tosinnkeeper_speech_014 = de \
+   "~kPaddock sagt, \"Frisconar ist der Besitzer des Zauberladens um die "
+   "Ecke. Lass ihn nicht anfangen, über das Elend der Welt zu lamentieren. "
+   "Du würdest es bereuen.\""
+tosinnkeeper_speech_015 = de \
+   "~kPaddock sagt, \"Ich verspüre ein leichtes Unbehagen, so nahe beim "
+   "alten Friedhof einen Laden zu betreiben. Des Nachts entsteigen die Toten "
+   "ihren Gräbern. Bisher ist es den Menschen von Tos recht gut gelungen, "
+   "sie zu bändigen, doch mir ist immer noch unwohl dabei.\""
+tosinnkeeper_speech_016 = de \
+   "~kPaddock sagt, \"Die Guides? Oh, nette Jungs sind das. Na ja, manchmal "
+   "etwas laut.\""
+tosinnkeeper_speech_017 = de \
+   "~kPaddock sagt, \"Sie saufen hier immer Freibier. Schlechte Kundschaft.\""
+tosinnkeeper_speech_018 = de "~kPaddock sagt, \"Hallo, %s!\""
+tosinnkeeper_speech_019 = de \
+   "~kPaddock sagt, \"Herzlich willkommen in der Brunnenkneipe, der besten "
+   "Bar in ganz Meridian.\""
+tosinnkeeper_speech_020 = de \
+   "~kPaddock sagt, \"Sei gegrüßt, Reisender, kann ich Dir ein Bier "
+   "bringen?\""
+tosinnkeeper_speech_021 = de \
+   "~kPaddock sagt, \"Vielleicht solltest Du mal einen Administrator "
+   "fragen.\""
+tosinnkeeper_speech_022 = de \
+   "~kPaddock sagt, \"Er weiß genau, dass er sich hier nicht blicken lassen "
+   "soll. Du findest ihn vielleicht in der Nähe von Barloque.\""
+tosinnkeeper_speech_023 = de \
+   "~kPaddock sagt, \"Ich war vor ein paar Tagen in Jasper, um einige "
+   "Einkäufe bei Bob zu erledigen. Ich muss sagen, dass ich ziemlich "
+   "beeindruckt von der Veränderung der Stadt bin. Jonas und seine Rebellen "
+   "tun Jasper vielleicht etwas Gutes.\""
+tosinnkeeper_speech_024 = de \
+   "~kPaddock sagt, \"Oben in Barloque kann das gemeine Volk seinen eigenen "
+   "Justitiar wählen, um Gericht zu halten. Der Justitiar kann "
+   "Gesetzesbrecher verurteilen oder begnadigen.\""
+tosinnkeeper_speech_025 = de \
+   "~kPaddock sagt, \"Armer, armer Kalior. Möge er in Frieden ruhen.\""
+tosinnkeeper_speech_026 = de \
+   "~kPaddock sagt, \"Schau, es gibt genug Probleme mit Trollen, Orks und "
+   "Ähnlichem. Wozu noch mehr Probleme aufwühlen?\""
+tosinnkeeper_speech_027 = de \
+   "~kPaddock sagt, \"Marion ist eine Stadt voller friedfertiger Tölpel. Ein "
+   "netter Ort zum Wohnen, aber keiner, den ich gern besuchen würde.\""
+tosinnkeeper_speech_028 = de \
+   "~kPaddock sagt, \"Wenn Du was repariert haben willst, dann geh nach "
+   "gegenüber. Ich bin diese qorverdammten Instandsetzer leid, die hier "
+   "Gewinne machen und mir keinen Anteil abgeben. Sie könnten wenigstens ab "
+   "und zu mal einen bei mir trinken.\""
+tosinnkeeper_speech_029 = de \
+   "~kPaddock sagt, \"Um der Liebe Shal'illes willen, würdet ihr Kerle eure "
+   "Reparaturgeschäfte wohl auf der anderen Straßenseite erledigen.\""
+tosinnkeeper_speech_030 = de \
+   "~kPaddock sagt, \"Ich werde diesen Laden wohl in "
+   "Brunnenkneipe-Reparaturwerkstatt umbenennen müssen. Um Himmels willen, "
+   "erledigt eure Geschäfte auf der anderen Straßenseite.\""
+tosinnkeeper_speech_031 = de \
+   "~kPaddock sagt, \"Wie wäre es damit: Jedes Mal, wenn jemand etwas "
+   "reparieren lässt, kauft er auch ein Bier. Andernfalls nehmt euer "
+   "Flickzeug mit über die qorverdammte Straße.\""
+tosinnkeeper_speech_032 = de \
+   "~kPaddock sagt, \"Weißt Du, auf der anderen Straßenseite gibt es eine "
+   "hervorragende freischaffende Reparaturwerkstatt.\""
+tosinnkeeper_speech_033 = de \
+   "~kPaddock sagt, \"Psychochild und Q erweckten die Welt zu neuem Leben. "
+   "Und Arantis brachte sie hierher.\""
+tosinnkeeper_speech_034 = de \
+   "~kPaddock sagt, \"Ein seltsames kleines Mädchen, diese Miriana. Ständig "
+   "sorgt sie für Aufregung. Man fragt sich, was sie die ganze Zeit macht, "
+   "alleine da draußen im Wald.\""
+tosinnkeeper_speech_035 = de \
+   "~kPaddock sagt, \"Vielleicht möchte sie nur beachtet werden, und das ist "
+   "die Art, wie sie die Aufmerksamkeit auf sich lenken kann.\""
+tosinnkeeper_speech_036 = de \
+   "~kPaddock zuckt mit den Schultern, \"Ich kann wirklich nicht verstehen, "
+   "warum die magischen Quellen gerade jemanden wie sie zu ihrem Schutz "
+   "rufen.\""
+tosinnkeeper_speech_037 = de \
+   "~kPaddock sagt, \"Was kannst Du anderes von jemandem erwarten, der aus "
+   "der Gesellschaft ausgeschlossen wurde und so lange in der Wildnis gelebt "
+   "hat? Sie hat keine Ahnung von der Zivilisation und deshalb versucht sie, "
+   "sie zu zerstören.\""
+tosinnkeeper_speech_038 = de \
+   "~kPaddock sagt, \"Was, Du hast etwas mit dieser kleinen Natur-Verrückten "
+   "zu tun? Raus aus meiner Kneipe.\""
+tosinnkeeper_speech_039 = de \
+   "~kPaddock sagt, \"Warte mal, lass mich mal sehen... nee, keine "
+   "Ausgangspost.\""
+tosinnkeeper_speech_040 = de \
+   "~kPaddock sagt, \"Tut mir leid, %s, ich habe keine Briefe, die "
+   "ausgetragen werden müssen.\""
+tosinnkeeper_speech_041 = de \
+   "~kPaddock sagt, \"Ich bin gerade dabei, einen Brief an den Rat zu "
+   "verfassen. Komm später wieder, wenn ich damit fertig bin.\""
+tosinnkeeper_speech_042 = de "~kPaddock sagt, \"Nein, %s.\""
+tosinnkeeper_speech_043 = de "~kPaddock sagt, \"Ich brauche keine Boten.\""
+tosinnkeeper_speech_044 = de \
+   "~kPaddock sagt, \"Ich hörte, dass sich die Kraft der Quellen nach "
+   "einiger Zeit von selbst wiederherstellt, so als ob sie aus einem großen "
+   "Reservoir nachgefüllt würde.\""
+tosinnkeeper_speech_045 = de \
+   "~kPaddock zuckt mit den Schultern, \"Die Ratsmitglieder sagen uns, dass "
+   "sie gefährlich ist und zerstört werden muss. Ich schätze, dass wir ihnen "
+   "glauben sollten, oder?\""
+tosinnkeeper_speech_046 = de \
+   "~kPaddock sagt, \"Ich habe jetzt genug von Deinen Kommentaren gehört. "
+   "Diese Trostlosigkeit ist schlecht für das Geschäft. Trink aus und mach', "
+   "dass Du hier rauskommst!\""
+tosinnkeeper_speech_047 = de \
+   "~kPaddock sagt, \"Ich finde, Akardius ist besser dazu geeignet, Meridian "
+   "zu regieren, als die Prinzessin.\""
+tosinnkeeper_speech_048 = de \
+   "~kPaddock sagt, \"Ferloi Qan war unser hiesiger Schmied. Ich denke, die "
+   "Nähe zum Friedhof hat ihn aus der Stadt vergrault.\""
+tosinnkeeper_speech_049 = de \
+   "~kPaddock sagt, \"Weißt Du, genau so ist die Familie des Herzogs an die "
+   "Macht gekommen, auch wenn sie es niemals zugeben werden.\""
+tosinnkeeper_speech_050 = de \
+   "~kPaddock sagt, \"Ist mein kleiner Bruder wieder in Schwierigkeiten? "
+   "Seit ich ihm die Arbeit im herzoglichen Bankettsaal verschafft habe, "
+   "macht er nichts als Ärger.\""
+tosinnkeeper_speech_051 = de \
+   "~kIm Raum wird es still, als %s den verkümmerten Zwerg erwähnt."
+tosinnkeeper_speech_052 = de \
+   "~kPaddock sagt, \"Tos ist der Ort zum Leben. Es hat alles: die Arena von "
+   "Kraanan, die alte Gruft, Burg Schwarzstein, die beste Bank im Lande und "
+   "einen exzellenten Schmied. Ach nein, vergiss es. Wir haben den Schmied "
+   "ja an Barloque verloren.\""
+tosinnkeeper_speech_053 = de \
+   "~kPaddock sagt, \"Bob ist ein guter Freund von mir dort unten in Jasper. "
+   "Sein Gemischtwarenladen führt alles, was man braucht.\""
+tosinnkeeper_random_001 = de \
+   "~kPaddock sagt, \"Tos ist nicht der älteste Ort. Es gibt ein altes "
+   "Schloss jenseits des Landes der Trolle. Das Schloss war einst Zentrum "
+   "des alten Königreiches. Jetzt ist es verlassen, und manche sagen, dort "
+   "~Ispukt es.~I\""
+tosinnkeeper_random_002 = de \
+   "~kPaddock sagt, \"Wenn Du etwas über jene qorverdammten Kreaturen "
+   "erfahren willst, so geh nach Cor Noth. Dort ist dieser Kerl, den man "
+   "Roluk nennt. Er weiß alles darüber.\""
+tosinnkeeper_random_003 = de \
+   "~kPaddock sagt, \"Geld, sagt man, kannst Du nicht mitnehmen, wenn Du "
+   "stirbst. Dafür gibt es Banken.\""
+tosinnkeeper_random_004 = de \
+   "~kPaddock sagt, \"Es ist gefährlich jenseits dieser Stadtmauern. Wenn "
+   "ich Du wäre, würde ich mir ein paar Weggefährten suchen. Gemeinsam ist "
+   "man sicherer.\""
+tosinnkeeper_random_005 = de \
+   "~kPaddock sagt, \"Frisconar sagt, es gäbe hier irgendwo einen "
+   "unterirdischen See.\""
+tosinnkeeper_random_006 = de \
+   "~kPaddock sagt, \"Die qorverfluchten Ratten aus der Kanalisation sind "
+   "heutzutage überall. Das einzig Gute ist, dass sie wie kleine Spinnen "
+   "leicht zu zerquetschen sind.\""
+tosinnkeeper_random_007 = de \
+   "~kPaddock sagt, \"Oh ja, falls Du interessiert sein solltest, Frisconar "
+   "lehrt ein oder zwei Zaubersprüche. Shal'ille, denke ich. Er zahlt mir "
+   "Provision, wenn ich ihm ein Geschäft vermittle.\""
+tosinnkeeper_random_008 = de \
+   "~kPaddock sagt, \"Es ist interessant, verschiedene Typen zu sehen, die "
+   "in meiner Kneipe verkehren. Soldaten, Steinmetze, Barden und Novizen der "
+   "Priesterinnen bringen Neuigkeiten. Die Novizen haben gewöhnlich eine "
+   "interessante Geschichte über ihre Pilgerfahrten zu den Tempeln zu "
+   "erzählen.\""
+tosinnkeeper_random_009 = de \
+   "~kPaddock sagt, \"Bevor ich es vergesse, wende Dich an Frisconar, wenn "
+   "Du für Deine Zaubersprüche Reagenzien wie Pilze und Kräuter benötigst. "
+   "Lass ihn wissen, dass ich Dich zu ihm geschickt habe.\""
+tosinnkeeper_random_010 = de \
+   "~kPaddock sagt, \"Ich bin überrascht, dass die Ratsmitglieder nicht viel "
+   "über Jonas und seine neue Fraktion zu sagen haben.\""
+tosinnkeeper_random_011 = de \
+   "~kPaddock sagt, \"Unsere Arena im Osten von Tos ist ein großartiger Ort, "
+   "um einen Becher Stout zu genießen und einem Kampf zuzuschauen. Ich bin "
+   "erstaunt, wie gut die Kerle dadurch werden, dass sie einfach dort "
+   "trainieren.\""
+tosinnkeeper_random_012 = de \
+   "~kPaddock sagt, \"Du siehst müde aus. Warum ziehst Du Dir keinen Stuhl "
+   "heran, bestellst Dir ein Getränk und ruhst Dich ein wenig aus? Die "
+   "Brunnenkneipe ist einer der besten Plätze, um sich zu erholen.\""
+tosinnkeeper_random_013 = de \
+   "~kPaddock sagt, \"Meine Philosophie ist, ~Ije besser die Kunden, desto "
+   "weniger muss ich sie beschwatzen~I.\""
+tosinnkeeper_random_014 = de \
+   "~kPaddock lehnt hinter der Bar und säubert leere Bierkrüge."
+tosinnkeeper_random_015 = de "~kPaddock sticht ein weiteres Fass Stout an."
+tosinnkeeper_random_016 = de \
+   "~kPaddock sagt, \"Ich verspüre ein leichtes Unbehagen, so nahe beim "
+   "alten Friedhof einen Laden zu betreiben. Des Nachts entsteigen die Toten "
+   "ihren Gräbern. Bisher ist es den Menschen von Tos recht gut gelungen, "
+   "sie zu bändigen, doch mir ist immer noch unwohl dabei.\""
+tosinnkeeper_random_017 = de \
+   "~kPaddock sagt, \"Seitdem ich die Brunnenkneipe renoviert habe, scheinen "
+   "immer mehr Gäste aus dem ganzen Land zu kommen.\""
+tosinnkeeper_random_018 = de \
+   "~kPaddock sagt, \"Man munkelt, des Nachts soll der Ausguck der Seefahrer "
+   "einer der romantischsten Orte überhaupt sein. Ich selbst war leider noch "
+   "nie da. Aber wer braucht Romantik, wenn er ein kühles Stout sein eigen "
+   "nennt?\""
+tosinnkeeper_random_019 = de \
+   "~kPaddock sagt, \"Trink nicht dieses Zeug, das sie auf Ko'Catan "
+   "verkaufen. So wie es schmeckt, beinhaltet es Zutaten, die beim Anmischen "
+   "noch um ihr Leben gewinselt haben.\""
+tosinnkeeper_random_020 = de \
+   "~kPaddock sagt, \"Bei Kraanan. Immer das ganze Gesindel, das hier so "
+   "herumlungert. Ist das eine Kneipe oder eine Stehparty?\""
+tosinnkeeper_random_021 = de \
+   "~kPaddock sagt, \"Um diese Jahreszeit wird es immer ein wenig windiger "
+   "draußen. Schade, dass in diesen Breiten kein Schnee fällt.\""
+tosinnkeeper_random_022 = de \
+   "~kPaddock sagt, \"Ich bin stark dafür, dass Du Deinen Mitstreitern mal "
+   "ordentlich einen ausgibst.\""
+tosinnkeeper_random_023 = de \
+   "~kPaddock sagt, \"Hast Du schon gehört? Drüben in Marion soll die alte "
+   "Gruft wieder eröffnet sein. Von wegen Stadt der Ruhe und des Friedens "
+   "und so.\""
+tosinnkeeper_random_024 = de \
+   "~kPaddock sagt, \"Wenn Du Frisconar siehst, bitte ihn doch mal um dieses "
+   "herrliche Rezept für Pilzragout. Sofern ich mich entsinne, schnetzelt "
+   "man ein Pilzwesen mit feinen Kräutern beisammen und dünstet es in einer "
+   "besonderen Weißweinsoße. Aber frag ihn besser selbst, ich bin Kneipier, "
+   "kein Koch.\""
+tosinnkeeper_random_025 = de \
+   "~kPaddock sagt, \"Willst Du Dir ein wenig Geld verdienen? Dann tu' mir "
+   "doch den Gefallen und fege hier mal ein wenig aus.\""
+tosinnkeeper_random_026 = de \
+   "~kPaddock sagt, \"Kennst Du schon die neue Hintertür? Sie führt zu einer "
+   "versteckten Nische, in der man sich unverdauten Stouts ungesehen "
+   "wieder... nun... entledigen kann.\""
+tosinnkeeper_random_027 = de \
+   "~kPaddock sagt, \"Ich bin heilfroh und dankbar, dass wir diese "
+   "Rattenplage ein für alle Mal los sind. Nun müssen wir nur noch dieses "
+   "Gesindel aus Jasper vertreiben.\""
+tosinnkeeper_random_028 = de \
+   "~kPaddock sagt, \"Hier in der Gegend erzählt man sich Geschichten über "
+   "gefallene Helden, die des Nachts über den Friedhof schleichen. Sei "
+   "vorsichtig - vielleicht gehörst auch Du bald zu ihnen.\""
+tosinnkeeper_random_029 = de \
+   "~kPaddock sagt, \"Früher, in meinen jungen Tagen, habe auch ich mich an "
+   "den Lehren Qors versucht... bis zu diesem schrecklichen Unfall, als... "
+   "ach, ich sollte besser nicht davon reden.\""
+tosinnkeeper_random_030 = de \
+   "~kPaddock sagt, \"Komm rein, setz Dich hin, mach's Dir bequem, nimm "
+   "einen Käs' und trink ein Gläschen. So grundlos wie hier wirst Du "
+   "nirgends besoffen.\""
+tosinnkeeper_random_031 = de \
+   "~kPaddock sagt, \"Wenn Du wissen würdest, was die alte Qesino in ihre "
+   "Suppen tut, dann wüsstest Du auch, warum sie heute Witwe ist.\""
+tosinnkeeper_random_032 = de \
+   "~kPaddock sagt, \"Vor wenigen Tagen erst kaufte ich mir eine neue Hose "
+   "bei Hester Gilk in Cor Noth. Man kann ja viel über diese Frau erzählen, "
+   "aber ihre Klamotten sind einfach von formidabler Qualität.\""
+tosinnkeeper_random_033 = de \
+   "~kPaddock sagt, \"Du hättest mal das versoffene Raubein vorhin sehen "
+   "sollen. Kommt hier rein, säuft mir die ganze Bude leer und scharwenzelt "
+   "um jeden weiblichen Gast herum. Wenn ich jetzt nur noch auf seinen Namen "
+   "kommen würde...\""
+tosinnkeeper_random_034 = de \
+   "~kPaddock sagt, \"Stimmt es eigentlich, dass es irgendwo an einem Ort "
+   "namens Brakks oder dergleichen eine Königin gibt, die sich von Seelen "
+   "ernährt? Ich überlege, ob es sich um meine lang verschollene Mutter "
+   "handeln könnte.\""
+tosinnkeeper_random_035 = de \
+   "~kPaddock sagt, \"Wenn Du mal was erleben willst, dann gehe in ein "
+   "Avar-Dorf mit einer provokativ erhobenen Tüte Vogelfutter. Ich bin "
+   "sicher, man wird es Dir dort danken.\""
+tosinnkeeper_random_036 = de \
+   "~kPaddock sagt, \"He, Du! Das nächste Mal tritt Dir die Schuhe ab, bevor "
+   "Du den ganzen Schmutz wieder hereinschleppst.\""
+tosinnkeeper_random_037 = de \
+   "~kPaddock sagt, \"Ich wünschte, ich könnte Dir mehr zu trinken anbieten, "
+   "aber dieser versoffene Troll, Grunk oder so, der leert mir hier "
+   "regelmäßig die Bestände und verschwindet, ohne zu bezahlen.\""
+tosinnkeeper_random_038 = de \
+   "~kPaddock sagt, \"Kannst Du Dir das eigentlich vorstellen, wie das ist, "
+   "sein Leben lang immer nur mit der gleichen, schmuddeligen Schürze "
+   "herumzustehen? Manchmal hätte ich Lust, sie einfach in die Ecke zu "
+   "werfen und ganz salopp aufzutreten.\""
+tosinnkeeper_random_039 = de \
+   "~kPaddock sagt, \"Sei gegrüßt, Reisender. Probier doch was Neues - Stout "
+   "bei 3 Grad. Eisgekühlt aus den frostigen Yeti-Höhlen für den "
+   "Frischegeschmack.\""
+tosinnkeeper_random_040 = de \
+   "~kPaddock teilt Dir mit, \"Komm schon! Ein kleines Stout wirst Du doch "
+   "wohl noch vertragen können. Eines. Danach ist dann auch Schluss.\""
+tosinnkeeper_random_041 = de \
+   "~kPaddock wischt sich die Hände an der Schürze ab, und leicht schabende "
+   "Geräusche sind zu hören."
+tosinnkeeper_random_042 = de \
+   "~kManchmal erinnerst Du Dich daran, was für ein schönes Gefühl es doch "
+   "ist, in der Brunnenkneipe zu stehen."
+tosinnkeeper_random_043 = de "~kEine Holzdiele knarrt unter Deinem Fuß."
+tosinnkeeper_random_044 = de \
+   "~kPaddock beobachtet Dich heimlich, aber aufmerksam."
+tosinnkeeper_random_045 = de \
+   "~kPaddock teilt Dir mit, \"Komm, lass Dich nicht lumpen, bestell mal "
+   "noch 'nen Humpen!\""
+tosinnkeeper_random_046 = de \
+   "~kPaddock sagt, \"Manchmal sieht man dubiose Gestalten, die in der alten "
+   "Schmiede verschwinden. Ich frage mich, was sie da wohl machen...\""
+tosinnkeeper_random_047 = de \
+   "~kPaddock sagt, \"Hüte Dich vor den Vampiren. Ich habe gehört, es wurden "
+   "zuweilen wieder einige gesichtet.\""
+tosinnkeeper_random_048 = de \
+   "~kPaddock sagt, \"Na sieh mal einer an. Du bist wohl auch öfter hier, "
+   "wie?\""
+tosinnkeeper_random_049 = de \
+   "~kPaddock sagt, \"Bei manchen Leuten frage ich mich, ob sie kein Zuhause "
+   "haben. Stehen hier stundenlang herum, murmeln Beschwörungsformeln und "
+   "verzaubern jeden Gast, der hier hereinkommt. Ich überlege schon langsam, "
+   "da mal sanft eine Hausordnung einzuprügeln.\""
+tosinnkeeper_random_050 = de \
+   "~kPaddock sagt, \"Ich bin ein sehr hart arbeitender Mann. Aber manchmal "
+   "kommt es mir so vor, als würden mich die Leute nur des Stouts wegen "
+   "respektieren. Und als Kneipenwirt schaut Dir auch keine Frau hinterher.\""
+tosinnkeeper_random_051 = de \
+   "~kPaddock sagt, \"Manchmal würde ich lieber einen Blumenladen eröffnen.\""
+tosinnkeeper_random_052 = de \
+   "~kPaddock sagt, \"Ironie ist, wenn viele ach so harte Abenteurer "
+   "Selbstmord begehen, weil sie ein klein wenig zu schwach waren, statt "
+   "sich nach oben zu kämpfen.\""
+tosinnkeeper_random_053 = de \
+   "~kPaddock sagt, \"Hmmmm.. Ich habe wohl irgendwie meinen schönen "
+   "Siegelring verloren. Wenn Du ihn findest, lasse ich Dir gerne eine "
+   "Kleinigkeit zukommen, wenn Du verstehst..\""
+tosinnkeeper_random_054 = de \
+   "~kJetzt wäre die beste Zeit für ein kleines Stout unter Freunden."
+tosinnkeeper_random_055 = de \
+   "~kLeises Gemurmel durchzieht die Brunnenkneipe. Es kommt Dir so vor, als "
+   "würde die Luft selbst mit seit Jahren verstummten Stimmen wispern."
+tosinnkeeper_random_056 = de \
+   "~kPaddock sagt, \"Ich weiß gar nicht, wie lange ich diese Kneipe bereits "
+   "führe und wie viele Gesichter ich gesehen habe. Doch eines weiß ich mit "
+   "Sicherheit - jedes von ihnen barg eine eigene Geschichte, eine eigene "
+   "Vergangenheit, eine eigene Persönlichkeit. Und keines von ihnen werde "
+   "ich je vergessen.\""
+tosinnkeeper_random_057 = de \
+   "~kPaddock sagt, \"Würden sich diese Feys nicht ewig bekriegen, dann wäre "
+   "das Tal der Trauer ein schöner Platz für ein kleines Picknick.\""
+tosinnkeeper_random_058 = de \
+   "~kPaddock sagt, \"Leider ist das Knabbergebäck gerade aus, aber ich kann "
+   "Dir gerne ein paar Stückchen Käse anbieten. Der ist frisch und mundet "
+   "ganz famos.\""
+tosinnkeeper_random_059 = de \
+   "~kPaddock sagt, \"Möchtest Du vielleicht ein Stout zu Deinem Stout? "
+   "Zusammen schmecken die einfach unschlagbar.\""
+tosinnkeeper_random_060 = de \
+   "~kPaddock sagt, \"Manchmal überkommt mich das Gefühl, als ob die Leute "
+   "mich für einen dummen Schwätzer halten, der ewig nur das Gleiche "
+   "plappert.\""
+tosinnkeeper_random_061 = de \
+   "~kPaddock sagt, \"Ganz unter uns: ich weiß nicht, was ich vom neuen "
+   "Herzog halten soll. Er ist nicht mal alt genug, ein Stout zu ordern, "
+   "aber befiehlt über die ganze Armee.\""
+tosinnkeeper_random_062 = de \
+   "~kPaddock hält einen kurzen Moment inne, kratzt sich an diversen Stellen "
+   "und fährt fort, die Bierkrüge zu säubern."
+tosinnkeeper_random_063 = de \
+   "~kPaddock schaut gedankenverloren auf das Arena-Gemälde und seufzt "
+   "unhörbar."
+tosinnkeeper_random_064 = de \
+   "~kPaddock murmelt etwas vor sich hin, das Du aus dieser Entfernung ganz "
+   "unmöglich verstehen kannst."
+tosinnkeeper_random_065 = de \
+   "~kPaddock sagt, \"Im See Jala's Lied soll man herrlich baden können. "
+   "Leider wissen das aber auch diese vermaledeiten, kleinen Spinnen.\""
+tosinnkeeper_random_066 = de \
+   "~kPaddock sagt, \"Ich erinnere mich noch genau, wie ich in meiner Jugend "
+   "den ersten Schleim erlegte. Dann hab' ich ihn gezuckert und als "
+   "Wackelpudding verkauft.\""
+tosinnkeeper_random_067 = de \
+   "~kPaddock sagt, \"Ich weiß nicht, was schlimmer riecht - die "
+   "ungewaschenen Füße einiger der hiesigen Einwohner oder mein zarter "
+   "Handkäse. Man sagt, so manch strahlender Held wechselt auch nach 50 "
+   "Jahren nicht ein einziges Mal seine Socken.\""
+tosinnkeeper_random_068 = de \
+   "~kIrgendwie fühlst Du Dich hier stets behaglich und wie daheim."
+tosinnkeeper_random_069 = de \
+   "~kPaddock sagt, \"Ich bin so unschlüssig, ob ich morgen freinehmen "
+   "sollte. Vielleicht sollte ich Skivlat mal eine Münze für mich werfen "
+   "lassen. Das mache ich immer, wenn ich eine einfache Entscheidung treffen "
+   "muss.\""
+tosinnkeeper_random_070 = de \
+   "~kPaddock sagt, \"Wenn Du Dich in Marion wiederfindest, dann ist der "
+   "beste, nun ja, der einzige Ort, um die Füße hochzulegen, die Herberge "
+   "zur Lahmen Kröte. Der Typ, dem sie gehört, Tova, ist ein ziemlich "
+   "lustiger Kerl. Ich glaube aber, er hegt einen Groll gegen mich, weil "
+   "meine Kneipe die bessere ist.\""
+tosinnkeeper_random_071 = de \
+   "~kPaddock sagt, \"Darf ich noch jemandem eine Runde Bier bringen?\""
+tosinnkeeper_random_072 = de \
+   "~kPaddock sagt, \"Dies ist eine Kneipe. Wenn Du nichts trinken willst - "
+   "da ist die Tür.\""
+tosinnkeeper_random_073 = de \
+   "~kPaddock sagt, \"Ich hörte, dass es ein neues Spielhaus im Norden von "
+   "Barloque gibt. Die Eigentümer würden einen großen Fehler machen, wenn "
+   "sie es nicht vernünftig führen.\""
+tosinnkeeper_random_074 = de \
+   "~kPaddock sagt, \"Kraanans Arena ist ein guter Ort, um zu trainieren, "
+   "doch sie ist kein Ersatz für einen echten Kampf. Wahre Krieger gewinnen "
+   "nur an Kraft, wenn sie es mit stärkeren Bestien in der Wildnis "
+   "aufnehmen.\""
+tosinnkeeper_random_075 = de \
+   "~kPaddock sagt, \"Ich dachte gerade bei mir, ob ich Bier umsonst "
+   "ausschenken sollte. Weißt Du, einfach ein Fässchen öffnen. Es ist ja "
+   "nicht so, dass ihr Tagediebe tatsächlich Geld dafür ausgeben würdet.\""
+tosinnkeeper_random_076 = de \
+   "~kPaddock sagt, \"Es ist ein Wunder, dass ich noch im Geschäft bin. So "
+   "viele Leute kommen her. Aber am Ende der Nacht spiegeln meine Einnahmen "
+   "dies nicht wider. Wenn die Leute nicht anfangen zu trinken, sollte ich "
+   "ein qorverdammtes Eintrittsgeld verlangen.\""
+tosinnkeeper_random_077 = de \
+   "~kPaddock sagt, \"Was ist los? Seid ihr alle so qorverdammt geizig, dass "
+   "ihr euch nicht mal ein lausiges Bier kaufen könnt?\""
+tosinnkeeper_trigger_blacksmith = de "schmied"
+tosinnkeeper_trigger_bye = de "tschüss"
+tosinnkeeper_trigger_bye_2 = de "wiedersehen"
+tosinnkeeper_trigger_bye_3 = de "ciao"
+tosinnkeeper_trigger_council = de "ratsmitglied"
+tosinnkeeper_trigger_duke = de "herzog"
+tosinnkeeper_trigger_fate = de "schicksal"
+tosinnkeeper_trigger_forgiveness = de "vergebung"
+tosinnkeeper_trigger_graveyard = de "friedhof"
+tosinnkeeper_trigger_hello = de "hallo"
+tosinnkeeper_trigger_help = de "hilfe"
+tosinnkeeper_trigger_justicar = de "justitiar"
+tosinnkeeper_trigger_justicar_2 = de "justikar"
+tosinnkeeper_trigger_mend = de "repariert"
+tosinnkeeper_trigger_mend_2 = de "reparieren"
+tosinnkeeper_trigger_mending = de "reparatur"
+tosinnkeeper_trigger_mending_2 = de "reparieren"
+tosinnkeeper_trigger_need_a_courier = de "brauchst du einen boten?"
+tosinnkeeper_trigger_nodes = de "quellen"
+tosinnkeeper_trigger_princess = de "prinzessin"
+tosinnkeeper_trigger_rebels = de "rebellen"
+tosinnkeeper_trigger_stunted_dwarf = de "verkümmerter zwerg"
+tosinnkeeper_trigger_zhieu_2 = de "bob"
+
+// TosWatcher
+toswatcher_speech_001 = de \
+   "~kDer Meister der Arena sagt, \"General Zylill ist ein Mitglied des "
+   "Rates und er ist mein Vater. Er lebt am Fluss Ille.\""
+toswatcher_speech_002 = de \
+   "~kDer Meister der Arena sagt, \"Gepriesen sei die Erinnerung an Kalior! "
+   "Gepriesen sei Herzog Akardius!\""
+toswatcher_speech_003 = de \
+   "~kDer Meister der Arena sagt, \"Gesegnet sei %s!\""
+toswatcher_speech_004 = de \
+   "~kDer Meister der Arena sagt, \"Ich bin der Kampfrichter aller "
+   "Begegnungen in dieser Arena. Lies meine Banner, um zu erfahren, wie man "
+   "daran teilnimmt.\""
+toswatcher_speech_005 = de \
+   "~kDer Meister der Arena sagt, \"Gesegnet sei unser Herr und Gott, "
+   "Kraanan der Faust! Kämpfe in seinem Namen und Du wirst wahre Stärke "
+   "kennenlernen.\""
+toswatcher_speech_006 = de \
+   "~kDer Meister der Arena sagt, \"Gesegnet sei Prinzessin Kateriina!\""
+toswatcher_speech_007 = de \
+   "~kDer Meister der Arena sagt, \"Du sprichst von der Priesterin Qertina, "
+   "meiner Mutter. Sie hat mich Disziplin und Mut gelehrt. Es wäre klug von "
+   "Dir, sie im Tempel des Kraanan jenseits der zerklüfteten Berge "
+   "aufzusuchen.\""
+toswatcher_speech_008 = de \
+   "~kDer Meister der Arena sagt, \"Gesegnet sei Tos, die älteste Stadt in "
+   "ganz Meridian!\""
+toswatcher_trigger_cylill = de "zylill"
+toswatcher_trigger_zylill = de "cylill"
+toswatcher_trigger_duke = de "herzog"
+toswatcher_trigger_hello = de "hallo"
+toswatcher_trigger_help = de "hilfe"
+toswatcher_trigger_princess = de "prinzessin"
+toswatcher_trigger_qerti_nya = de "qertina"
+toswatcher_trigger_qertina = de "qerti'nya"

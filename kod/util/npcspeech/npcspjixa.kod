@@ -1,0 +1,253 @@
+// Meridian 59, Copyright 1994-2012 Andrew Kirmse and Chris Kirmse.
+// All rights reserved.
+//
+// This software is distributed under a license that is described in
+// the LICENSE file that accompanies it.
+//
+// Meridian is a registered trademark.
+
+
+////////////////////////////////////////////////////////////////////////////////
+NpcSpeechJixa is NpcSpeech
+// NPC talk of Jixa (East):
+// answers to trigger words and random lines.
+// Each line is a resource (EN here, DE in the .lkod); Library adds the
+// lists in CreateSpeechLibrary and CreateRandomLibrary.
+
+constants:
+
+   include blakston.khd
+
+resources:
+
+   include npcspjixa.lkod
+
+   // JixaBlacksmith (Tylo Barsis)
+   jixablacksmith_speech_001 = \
+      "~kTylo Barsis babbles, \"R-R-Rod-erick?  Why didn't he come and talk "
+      "to me himself?\""
+   jixablacksmith_random_001 = \
+      "~kTylo Barsis says, \"I should go to Berg with him, but what would "
+      "~Ithey~I think?!\""
+   jixablacksmith_random_002 = \
+      "~kTylo Barsis babbles, \"Half man?  Half bull?  No thanks, I never "
+      "want to see one of those!\""
+   jixablacksmith_random_003 = \
+      "~kTylo Barsis grumbles, \"If... y-you leave now, you get nothing.\""
+   jixablacksmith_random_004 = \
+      "~kTylo Barsis says, \"I'm ready to try again, if you are?\""
+   jixablacksmith_random_005 = \
+      "~kTylo Barsis says, \"There's something I need to get off my chest.\""
+   jixablacksmith_random_006 = \
+      "~kTylo Barsis says, \"Do you ever think we should just stop doing "
+      "this?\""
+   jixablacksmith_random_007 = \
+      "~kTylo Barsis says, \"H-how long have you been standing there?\""
+   jixablacksmith_random_008 = \
+      "~kTylo Barsis says, \"Do you find me wise yet?\""
+   jixablacksmith_random_009 = \
+      "~kTylo Barsis says, \"Soldiers of Berg are renowned as the greatest "
+      "in the world.\""
+   jixablacksmith_random_010 = \
+      "~kTylo Barsis says, \"Jala had a lover... it was Faren was it?\""
+   jixablacksmith_random_011 = \
+      "~kTylo Barsis says, \"The elementals manifested out of the love of "
+      "Jala.\""
+   jixablacksmith_random_012 = \
+      "~kTylo Barsis says, \"Neither dead nor living, simply tools sealed "
+      "away.\""
+   jixablacksmith_random_013 = \
+      "~kTylo Barsis says, \"Them... sealed away serving only their "
+      "masters.\""
+   jixablacksmith_random_014 = \
+      "~kTylo Barsis says, \"Have you paid your respects to the dead?\""
+   jixablacksmith_random_015 = \
+      "~kTylo Barsis says, \"Sadness often leads to a truth...\""
+   jixablacksmith_random_016 = \
+      "~kTylo Barsis says, \"Bards will play whatever without a care in the "
+      "world.\""
+   jixablacksmith_trigger_roderick = "roderick"
+
+   // JixaDyeM (Rosaline Marinus)
+   jixadyem_speech_001 = \
+      "~kRosaline Marinus says, \"I should be able to make you a dye.  I "
+      "only require the heart of an Xeochicatl.\""
+   jixadyem_random_001 = \
+      "~kRosaline Marinus says, \"My father was a great man.  I wish he were "
+      "still here to see the lands reunited.\""
+   jixadyem_random_002 = \
+      "~kRosaline Marinus says, \"If you see Tylo, please try to cheer him "
+      "up... he seems a bit down these days.\""
+   jixadyem_random_003 = \
+      "~kRosaline Marinus says, \"I heard Tylo and Roderick used to be close "
+      "friends.  Who knows what happened between them?\""
+   jixadyem_random_004 = \
+      "~kRosaline Marinus says, \"I wouldn't trust Jorgan.  I always see "
+      "shady folk stopping by his bar.\""
+   jixadyem_random_005 = \
+      "~kRosaline Marinus says, \"Everyone seems to love Jorgan, but I feel "
+      "like he's up to no good.\""
+   jixadyem_random_006 = \
+      "~kRosaline Marinus says, \"Do you believe in ghosts?  They say Berg "
+      "might be haunted by our ancestors.\""
+   jixadyem_random_007 = \
+      "~kRosaline Marinus says, \"Jixa is also known as the city of art.  We "
+      "are Jala's children.\""
+   jixadyem_random_008 = \
+      "~kRosaline Marinus says, \"I can feel mana hanging heavy in the air "
+      "the moment I step foot in Berg.\""
+   jixadyem_random_009 = \
+      "~kRosaline Marinus says, \"Trust no one. There are far too many "
+      "rogues in these lands.\""
+   jixadyem_trigger_dye = "dye"
+   jixadyem_trigger_dye_2 = "dye"
+
+   // JixaInnkeeper (JixaInnkeeper)
+   jixainnkeeper_speech_001 = \
+      "~kJorgan Yesjor says, \"Look, we run things a little differently "
+      "around here, okay?\""
+   jixainnkeeper_random_001 = \
+      "~kJorgan Yesjor says, \"A guild of thieves? Pish posh!\""
+   jixainnkeeper_random_002 = \
+      "~kJorgan Yesjor says, \"I'm telling you - the guy was a complete "
+      "stranger, just walked up and gave me the bag.\""
+   jixainnkeeper_random_003 = \
+      "~kJorgan Yesjor boasts, \"For that is why they call me an ACTOR!\""
+   jixainnkeeper_random_004 = \
+      "~kJorgan Yesjor whispers, \"You got a package for me?\""
+   jixainnkeeper_random_005 = \
+      "~kJorgan Yesjor shouts, \"I would have defeated those bandits if it "
+      "weren't for Jala's song!\""
+   jixainnkeeper_random_006 = \
+      "~kJorgan Yesjor whispers, \"If we both stick to the story, they can't "
+      "prove anything.\""
+   jixainnkeeper_random_007 = \
+      "~kJorgan Yesjor says, \"I just want a nice, easy life. Is that so "
+      "wrong?\""
+   jixainnkeeper_random_008 = \
+      "~kJorgan Yesjor says, \"Drinks, drinks and more drinks! Ha HA!\""
+   jixainnkeeper_random_009 = \
+      "~kJorgan Yesjor says, \"What would win in a fight, a Spinebeast or a "
+      "Nyrphling?\""
+   jixainnkeeper_random_010 = \
+      "~kJorgan Yesjor says, \"Hey ho, the wetlands are where you must go!\""
+   jixainnkeeper_random_011 = \
+      "~kJorgan Yesjor says, \"Anyone got some truffles?\""
+   jixainnkeeper_random_012 = \
+      "~kJorgan Yesjor says, \"Many are looking to trade with Jixa. I say, "
+      "all are welcome into our realm!\""
+   jixainnkeeper_trigger_bandits = "bandits"
+
+   // SwampTree (Xoenta tree)
+   swamptree_random_001 = \
+      "~kXoenta tree whispers, \"The Palace of Berg is haunted, you know.\""
+   swamptree_random_002 = \
+      "~kXoenta tree whispers, \"If you listen carefully, you may hear "
+      "voices in the air.  They are of the Hakka, the snake tribe.\""
+   swamptree_random_003 = \
+      "~kXoenta tree whispers, \"Without the harmonic balance from all "
+      "sides, you will not be able to get to the other side.\""
+   swamptree_random_004 = \
+      "~kXoenta tree whispers, \"There were seven of them, they were of "
+      "Hakka.\""
+   swamptree_random_005 = \
+      "~kXoenta tree whispers, \"Great evil lies below, though you may not "
+      "know it.\""
+   swamptree_random_006 = \
+      "~kXoenta tree whispers, \"I can hear the spirits, they are waiting "
+      "for a prism.\""
+
+messages:
+
+   GetSpeechLibrary()
+   "Speech library nodes: [class, [[triggers, mood, action, key], ...]]"
+   {
+      local lLib;
+
+      lLib = $;
+
+      lLib = Cons([&JixaBlacksmith,[
+         [[jixablacksmith_trigger_roderick],0,
+            [LIBACT_QUOTE_RSC,jixablacksmith_speech_001],1]
+      ]],lLib);
+
+      lLib = Cons([&JixaDyeM,[
+         [[jixadyem_trigger_dye,jixadyem_trigger_dye_2],0,
+            [LIBACT_QUOTE_RSC,jixadyem_speech_001],1]
+      ]],lLib);
+
+      lLib = Cons([&JixaInnkeeper,[
+         [[jixainnkeeper_trigger_bandits],0,
+            [LIBACT_QUOTE_RSC,jixainnkeeper_speech_001],1]
+      ]],lLib);
+
+      return lLib;
+   }
+
+   GetRandomLibrary()
+   "Random library nodes: [class, [[percent, mood, action, key], ...]]"
+   {
+      local lLib;
+
+      lLib = $;
+
+      lLib = Cons([&JixaBlacksmith,[
+         [50,0,[LIBACT_QUOTE_RSC,jixablacksmith_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,jixablacksmith_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,jixablacksmith_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,jixablacksmith_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,jixablacksmith_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,jixablacksmith_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,jixablacksmith_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,jixablacksmith_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,jixablacksmith_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,jixablacksmith_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,jixablacksmith_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,jixablacksmith_random_012],12],
+         [50,0,[LIBACT_QUOTE_RSC,jixablacksmith_random_013],13],
+         [50,0,[LIBACT_QUOTE_RSC,jixablacksmith_random_014],14],
+         [50,0,[LIBACT_QUOTE_RSC,jixablacksmith_random_015],15],
+         [50,0,[LIBACT_QUOTE_RSC,jixablacksmith_random_016],16]
+      ]],lLib);
+
+      lLib = Cons([&JixaDyeM,[
+         [50,0,[LIBACT_QUOTE_RSC,jixadyem_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,jixadyem_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,jixadyem_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,jixadyem_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,jixadyem_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,jixadyem_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,jixadyem_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,jixadyem_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,jixadyem_random_009],9]
+      ]],lLib);
+
+      lLib = Cons([&JixaInnkeeper,[
+         [50,0,[LIBACT_QUOTE_RSC,jixainnkeeper_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,jixainnkeeper_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,jixainnkeeper_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,jixainnkeeper_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,jixainnkeeper_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,jixainnkeeper_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,jixainnkeeper_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,jixainnkeeper_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,jixainnkeeper_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,jixainnkeeper_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,jixainnkeeper_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,jixainnkeeper_random_012],12]
+      ]],lLib);
+
+      lLib = Cons([&SwampTree,[
+         [50,0,[LIBACT_QUOTE_RSC,swamptree_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,swamptree_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,swamptree_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,swamptree_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,swamptree_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,swamptree_random_006],6]
+      ]],lLib);
+
+      return lLib;
+   }
+
+end
+////////////////////////////////////////////////////////////////////////////////

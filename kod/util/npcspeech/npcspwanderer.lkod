@@ -1,0 +1,1081 @@
+// DarkWizard
+darkwizard_speech_001 = de \
+   "~kMaleval sagt, \"Ein Spielzeug für Kinder, die sich wünschen, für immer "
+   "leben zu können und dabei ihre Seele verlieren. Eine sehr bemerkenswerte "
+   "Erfahrung.\""
+darkwizard_speech_002 = de \
+   "~kMaleval sagt, \"Warum fragst Du nicht die Priesterinnen nach ihnen? "
+   "Mich würden ihre Antworten interessieren.\""
+darkwizard_speech_003 = de \
+   "~kMaleval sagt, \"Bitte erniedrige Deinen Verstand nicht, indem Du "
+   "glaubst, die einzigen Kräfte in unserer Welt wären die von ein paar "
+   "verherrlichten Helden.\""
+darkwizard_speech_004 = de \
+   "~kMaleval sagt, \"Ich erinnere mich an die Bewohner von Brax als sehr "
+   "fleißige Menschen ... möglicherweise zu engstirnig in ihren Zielen ... "
+   "oder vielleicht hatten sie nur sehr viel Pech.\""
+darkwizard_speech_005 = de \
+   "~kMaleval sagt, \"Ich verfüge über Mittel, mit denen ich alles bekomme, "
+   "was ich haben will. Behalte Deine kleinen Kostbarkeiten nur.\""
+darkwizard_speech_006 = de \
+   "~kMaleval sagt, \"Einen Zauberspruch zu entwickeln bedarf großer "
+   "Konzentration, viel Übung und bestimmter Reagenzien.\""
+darkwizard_speech_007 = de \
+   "~kMaleval sagt, \"Wenn es Faren nicht gäbe, würde der Wind etwa aufhören "
+   "zu wehen? Der Wind weht schon länger, als die Menschheit an den "
+   "Donnergott glaubt.\""
+darkwizard_speech_008 = de \
+   "~kMaleval starrt Dich wütend an, dann zuckt ein finsteres Lächeln über "
+   "sein Gesicht, \"Zum Gruße.\""
+darkwizard_speech_009 = de \
+   "~kMaleval sagt, \"Ich kann Dir helfen, die Magie besser zu verstehen und "
+   "zu begreifen, wie man sie erlernt.\""
+darkwizard_speech_010 = de \
+   "~kMaleval sagt, \"Sie werden kein Gegner sein für die dunklen Kräfte, "
+   "die sie jagen. Ihre Schwerter werden ihr Untergang sein.\""
+darkwizard_speech_011 = de \
+   "~kMaleval sagt, \"Bitte ziehe in Betracht, dass die Jäger wie auch die "
+   "Nekromanten die gleiche Funktion haben. Ihre Methoden und Ideologien "
+   "mögen verschieden sein, aber täusche Dich nicht, beide ernähren sich von "
+   "Seelen.\""
+darkwizard_speech_012 = de \
+   "~kMaleval sagt, \"Wie kann ein Gott sterben? Die Legende sagt, durch "
+   "einen Dolch. Ha, was für ein Blödsinn.\""
+darkwizard_speech_013 = de \
+   "~kMaleval sagt, \"Kraanan ist bloß eine Entschuldigung für jene, die "
+   "sich betrinken und kämpfen und sich dabei auch noch wohl fühlen.\""
+darkwizard_speech_014 = de \
+   "~kMaleval sagt, \"Der Lich war die erste Inkarnation des Uralten in "
+   "diesem Reich. Er ist ein Kind der Dunkelheit, das weitere in dieses Land "
+   "bringen wird. Er ist ein Vorbote der Verdammnis für diese Welt. Der "
+   "Uralte ist erwacht.\""
+darkwizard_speech_015 = de \
+   "~kMaleval sagt, \"Sie sind der Beweis dafür, dass die Dinge nicht so "
+   "rein sind, wie es Dir die Priesterinnen glauben machen wollen. Natürlich "
+   "sind sie Kräfte von unglaublicher Macht in unserer Welt.\""
+darkwizard_speech_016 = de \
+   "~kMaleval schmunzelt, \"Es gibt keine Göttin des Bösen. Nur böse "
+   "Menschen, die ihre eigene Schuld nicht auf sich nehmen wollen.\""
+darkwizard_speech_017 = de \
+   "~kMaleval sagt, \"Reagenzien sind Dinge, die eine bestimmte Menge "
+   "konzentrierter Energie aufnehmen, welche man wiederum mit dem "
+   "Zauberspruch in eine Richtung lenken kann. Manche sind sehr schwer zu "
+   "beschaffen. Andere wiederum kann man schnell finden. Und dann ist da "
+   "noch Solagh.\""
+darkwizard_speech_018 = de \
+   "~kMaleval sagt, \"Ach, die perfekte Illusion. Riija existiert nicht! Wie "
+   "einfach ist es doch, dem menschlichen Verstand etwas vorzugaukeln.\""
+darkwizard_speech_019 = de \
+   "~kMaleval sagt, \"Ich bin kein Hausierer, elender Schwachkopf.\""
+darkwizard_speech_020 = de \
+   "~kMaleval sagt, \"Wenn sie so mächtig ist, warum lässt sie gute Menschen "
+   "sterben?! Willst Du etwa behaupten, dass eine Göttin nicht die Macht "
+   "hat, ihre Kinder zu beschützen?!\""
+darkwizard_speech_021 = de \
+   "~kMaleval sagt, \"Solagh. Ha. Die Apotheker dieses Landes sind klug "
+   "genug, ihr Geheimnis zu wahren - ansonsten würden sie das Monopol für "
+   "diese Substanz verlieren.\""
+darkwizard_speech_022 = de \
+   "~kMaleval sagt, \"Vor langer Zeit erschuf der Uralte Instrumente, durch "
+   "die er seine Umgebung manipulieren konnte. Dies tat er, um seine "
+   "Wiedergeburt vorzubereiten. Die Urne ist ein solches Instrument.\""
+darkwizard_speech_023 = de \
+   "~kMaleval sagt, \"Sie war ein Kind, als sie eine der mächtigsten Kräfte "
+   "im Universum traf. Als der Uralte seine Augen öffnete und sie sah, wurde "
+   "ihre Seele sein Spielzeug.\""
+darkwizard_speech_024 = de \
+   "~kMaleval sagt, \"Man muss es diesem Mann zugutehalten, dass er der "
+   "Zerstörung seiner Heimat entkam. Er war ein schamloser Überlebender.\""
+darkwizard_random_001 = de "~kMaleval praktiziert bizarre Beschwörungen."
+darkwizard_random_002 = de \
+   "~kMaleval sagt, \"In der Religion liegt keine Macht. Nicht im "
+   "Geringsten.\""
+darkwizard_random_003 = de \
+   "~kMaleval sagt, \"Zwei Zauberer können zwar denselben Spruch anwenden, "
+   "doch das Ergebnis wird sehr unterschiedlich sein, denn es hängt "
+   "weitgehend von ihrer Begabung ab.\""
+darkwizard_random_004 = de \
+   "~kMaleval sagt, \"Zaubersprüche kommen nicht von den Göttern. Sie kommen "
+   "aus dem Innersten selbst. Jeder kann die mystischen Künste einsetzen, "
+   "vorausgesetzt man hat Lust dazu, alles über die richtigen Zutaten zu "
+   "erlernen.\""
+darkwizard_random_005 = de \
+   "~kMaleval sagt, \"Das wilde Mädchen Miriana ist so jung und unschuldig, "
+   "und doch spricht ihr ungezähmter Verstand Bände der Wahrheit.\""
+darkwizard_random_006 = de \
+   "~kMaleval sagt, \"Zu manchen Zeiten und an manchen Orten wird die Magie "
+   "stärker.\""
+darkwizard_random_007 = de \
+   "~kMaleval sagt, \"Die Götter sind bloß ein bequemer Weg, das zu "
+   "beschreiben, was einfache Gemüter nicht erklären können.\""
+darkwizard_random_008 = de \
+   "~kMaleval grummelt, \"Ich bin jetzt wirklich nicht zu Späßen aufgelegt.\""
+darkwizard_random_009 = de \
+   "~kMaleval lächelt, \"Ich spüre ein Erwachen. Jemand hat einen neuen "
+   "Zauberspruch gelernt.\""
+darkwizard_random_010 = de "~kMaleval sagt, \"An welchen Gott glaubst Du?\""
+darkwizard_random_011 = de \
+   "~kMaleval sagt, \"Du musst Deinen Horizont erweitern. Wenn Du Deinen "
+   "Horizont erweiterst, bedeutet das allerdings, dass der eines anderen "
+   "kleiner wird.\""
+darkwizard_random_012 = de \
+   "~kMaleval bewegt seine Hände, als ob er ein schwebendes Tier streichelt. "
+   "Du spürst die Magie in der Luft."
+darkwizard_random_013 = de \
+   "~kMaleval zwinkert Dir mit einem Auge zu. Du fühlst Dich, als würde er "
+   "tief in Deine Seele hineinschauen. Er schüttelt den Kopf und brummt."
+darkwizard_random_014 = de \
+   "~kMaleval macht eine Handbewegung und spricht ein uraltes Wort. "
+   "Plötzlich riecht es besser im Raum."
+darkwizard_random_015 = de \
+   "~kMaleval fängt an, heftig zu husten. Er wackelt leicht mit den Fingern, "
+   "und der Husten klingt ab."
+darkwizard_random_016 = de \
+   "~kMaleval sagt, \"Mein Lehnsherr, ich habe die Forschungen durchgeführt, "
+   "die Ihr erbeten habt. Sie hat keine Verbindung zu den Bedürfnissen ihrer "
+   "Anhänger. Das mag der Schlüssel sein.\""
+darkwizard_random_017 = de \
+   "~kMaleval sagt, \"Ich verlange eine Entschädigung für meinen Aufwand, "
+   "Akardius. Ich musste sehr viel Zeit opfern, um Eure Angelegenheiten zu "
+   "regeln.\""
+darkwizard_random_018 = de \
+   "~kMaleval sagt, \"Ich habe in meiner Kristallkugel das Treffen der "
+   "Berater verfolgt, mein Lehnsherr. Für eine angemessene Summe kann ich "
+   "Euch erzählen, wie sie über die Prinzessin denken.\""
+darkwizard_random_019 = de \
+   "~kMaleval sagt, \"Meine Magie lässt mich einen neuen Vertreter im "
+   "Schloss Bourgeois erkennen. Wenn Ihr auf den Thron steigt, wünsche ich "
+   "nicht vergessen zu werden, mein Lehnsherr.\""
+darkwizard_random_020 = de \
+   "~kHerzog Akardius sagt, \"Gut, Maleval. Du wirst für Deine Informationen "
+   "bezahlt werden, wie versprochen.\""
+darkwizard_random_021 = de \
+   "~kHerzog Akardius sagt, \"Erinnere Dich daran, dass wir den Preis neu "
+   "ausgehandelt haben, Maleval. Du solltest also besser Deine Zunge hüten.\""
+darkwizard_random_022 = de \
+   "~kHerzog Akardius sagt, \"Maleval, ich werde mich an Deine Stellung "
+   "erinnern, wenn ich erst einmal König bin. Du wirst bekommen, was Du "
+   "verdienst.\""
+darkwizard_random_023 = de "~kMaleval verbeugt sich vor Herzog Akardius."
+darkwizard_random_024 = de \
+   "~kDer Herzog nickt Maleval zu, \"Das wäre vorerst alles, Zauberer.\""
+darkwizard_random_025 = de \
+   "~kMaleval murmelt leise irgendetwas, und der Herzog grinst."
+darkwizard_random_026 = de \
+   "~kMaleval sagt zum Herzog, \"Gibt es sonst noch etwas, mein Lehnsherr?\""
+darkwizard_random_027 = de \
+   "~kDer Herzog sagt zu Maleval, \"Du darfst Dich entfernen.\""
+darkwizard_random_028 = de \
+   "~kMaleval sagt, \"Ich möchte nicht gestört werden.\""
+darkwizard_random_029 = de \
+   "~kMaleval sagt, \"Die Gerechtigkeit ist blind, findest Du nicht auch?\""
+darkwizard_random_030 = de \
+   "~kMalevals Ring glüht einen Moment lang. Der dunkle Zauberer lacht vor "
+   "sich hin."
+darkwizard_random_031 = de \
+   "~kMaleval sagt, \"Ich werde hungrig.\" Dann macht er eine Handbewegung "
+   "und lächelt zufrieden, \"Das ist besser.\""
+darkwizard_random_032 = de \
+   "~kMaleval sagt, \"Dieser alte Zauberer Alzahakar glaubt, dass diesen "
+   "Artefakten große Macht innewohnt. Bringt die Artefakte wieder zusammen. "
+   "Ha! Er und seine Anhänger sind auf dem Holzweg.\""
+darkwizard_random_033 = de \
+   "~kMaleval fängt an, kehlige Laute von sich zu geben. Der ganze Staub um "
+   "ihn herum verschwindet."
+darkwizard_random_034 = de \
+   "~kMaleval spricht eine uralte Beschwörungsformel aus drei Worten. Das "
+   "letzte Wort hört sich ungefähr wie \"Schlips\" an."
+darkwizard_random_035 = de \
+   "~kMaleval verbeugt sich vor Zuxana, \"Meine Herrin, ich habe "
+   "Informationen für Euch.\""
+darkwizard_random_036 = de \
+   "~kMaleval sagt zu der Priesterin, \"Wie Ihr wünscht.\""
+darkwizard_random_037 = de \
+   "~kPriesterin Zuxana sagt, \"~I~rAh, Maleval, was für Neuigkeiten hast Du "
+   "denn für mich?~I~k\""
+darkwizard_random_038 = de \
+   "~kPriesterin Zuxana sagt, \"~I~rWir werden unsere Unterredung später "
+   "fortsetzen, Maleval.~I~k\""
+darkwizard_random_039 = de \
+   "~kMaleval und die Priesterin Zuxana fangen beide an zu lachen."
+darkwizard_random_040 = de \
+   "~kMaleval sagt zur Priesterin Zuxana, \"Ich habe mit dem Herzog "
+   "~Igesprochen~I.\""
+darkwizard_random_041 = de \
+   "~kPriesterin Zuxana sagt zu dem dunklen Zauberer, \"~I~rLäuft alles, wie "
+   "ich es geplant habe?~I~k\""
+darkwizard_random_042 = de \
+   "~kMaleval grinst, \"Zuxana, jener, von dem Ihr vorhin gesprochen habt, "
+   "ist jetzt tot.\""
+darkwizard_random_043 = de \
+   "~kAls er Deine Anwesenheit spürt, beendet Maleval abrupt seine "
+   "Unterhaltung mit der Priesterin."
+darkwizard_trigger_amulet = de "amulett"
+darkwizard_trigger_ancient_one = de "uralte"
+darkwizard_trigger_ancient_ones = de "uralten"
+darkwizard_trigger_sell = de "verkauf"
+darkwizard_trigger_components = de "komponenten"
+darkwizard_trigger_components_2 = de "zutaten"
+darkwizard_trigger_hello = de "hallo"
+darkwizard_trigger_help = de "hilfe"
+darkwizard_trigger_hunter = de "jäger"
+darkwizard_trigger_hunter_sword = de "jagdschwert"
+darkwizard_trigger_necromancer = de "nekro"
+darkwizard_trigger_reagents = de "reagenzien"
+darkwizard_trigger_buy = de "kaufen"
+darkwizard_trigger_shal_ille = de "sha-lill"
+darkwizard_trigger_sha_lill = de "shal'ille"
+darkwizard_trigger_urn = de "urne"
+
+// Heretic
+heretic_speech_001 = de \
+   "~kMiriana sagt, \"Oh, hübscher, hübscher Anhänger! Autsch! Hey, lass "
+   "meine Seele in Frieden! Ich wollte nur ... ich wollte nur ... ich wollte "
+   "nur ebenfalls hübsch sein.\""
+heretic_speech_002 = de \
+   "~kMiriana schaut Dich traurig an. \"Diese unschuldige, kleine, magische "
+   "Quelle hat nie jemandem etwas getan. Sie wird niemandem weh tun und sie "
+   "hat es auch noch nie getan.\""
+heretic_speech_003 = de \
+   "~kMiriana sagt, \"Kühe kommen in den Himmel, Ziegen in die Unterwelt.\""
+heretic_speech_004 = de "~kMiriana sagt, \"Ich mag Städte nicht.\""
+heretic_speech_005 = de \
+   "~kMiriana sagt, \"Brax, Brax, Brax, Du wirst es niemals genau wissen.\""
+heretic_speech_006 = de "~kMiriana sagt, \"Ich besitze kaum noch Geld.\""
+heretic_speech_007 = de "~kMiriana sagt, \"Ich mag Städte nicht.\""
+heretic_speech_008 = de \
+   "~kMiriana sagt, \"Nicht alle Dinge scheinen so, wie sie sind, wenn Du "
+   "etwas über die Wahrheit lernen möchtest, dann solltest Du vielleicht "
+   "versuchen, ernsthaft mit Madelia zu reden.\""
+heretic_speech_009 = de \
+   "~kMiriana kreischt schrill, \"Schlechte, schlechte, schlechte Menschen. "
+   "Alles seinetwegen. Sie wissen, sie wissen, was sie tun, Du auch?\""
+heretic_speech_010 = de \
+   "~kMiriana seufzt, \"Wie kannst Du ~Imich~I für eine Nekromantin halten?\""
+heretic_speech_011 = de \
+   "~kMiriana springt auf und nieder, klatscht in die Hände und sagt, \"Sehr "
+   "erfreut, Dich kennenzulernen!\""
+heretic_speech_012 = de \
+   "~kMiriana sagt, \"Hallo, möchtest Du mit mir spielen? Ich kann all meine "
+   "Freunde holen und dann spielen wir Fangen! Tatsch, Du bist's!\""
+heretic_speech_013 = de \
+   "~kMiriana sagt, \"Ich kann ein bisschen zaubern. Wirklich.\""
+heretic_speech_014 = de \
+   "~kMiriana lächelt, \"Sie benutzt hübsches Garn, um ihre Waren zu weben, "
+   "so hübsches Garn. Ich hoffe, sie macht mir etwas genauso Hübsches.\""
+heretic_speech_015 = de \
+   "~kMiriana kommt drohend auf Dich zu, \"Was willst Du? Versuchst Du, "
+   "meine Kräfte zu stehlen? Ach, sicher nicht, ich dummes Ding.\""
+heretic_speech_016 = de \
+   "~kMiriana sagt, \"Was machen sie mit ihrer Beute, diese Jäger? Essen sie "
+   "ihre Beute? Machen sie Mäntel aus ihrer Haut? Hängen sie ihre "
+   "ausgestopften Köpfe in einem Zimmer auf? Ich frage mich das nur.\""
+heretic_speech_017 = de \
+   "~kMiriana sagt, \"Diese Schwerter sind gefährlicher als ihre Opfer.\""
+heretic_speech_018 = de \
+   "~kMiriana sagt, \"Sie ist nicht tot und war es nie. Parrin kann es "
+   "beweisen!\""
+heretic_speech_019 = de "~kMiriana sagt, \"Ich mag Städte nicht.\""
+heretic_speech_020 = de \
+   "~kMiriana sagt, \"Der Lich ist ein hungriger Mund, der die Mutter "
+   "füttert. Die Mutter schläft, während die Kinder sie füttern. Ha! Stell "
+   "Dir das vor. Shhhh.\""
+heretic_speech_021 = de \
+   "~kMiriana sagt, \"Sie glaubt mir, sie weiß es, aber ich weiß nicht, "
+   "woher sie es weiß. Sie weiß es, frag sie und sie wird es Dir erzählen.\""
+heretic_speech_022 = de "~kMiriana sagt, \"Ich mag Städte nicht.\""
+heretic_speech_023 = de \
+   "~kMiriana sagt, \"Ich habe sie gesehen. Sie haben mich an Kühe erinnert. "
+   "Ich habe versucht, einem etwas Suppe zu machen, und er hat angefangen zu "
+   "schreien.\""
+heretic_speech_024 = de \
+   "~kMiriana sagt, \"Du willst mich aufhalten? Dann sieh zu, dass Du von "
+   "Deinem vertrauten Ratgeber, dem Ratsmitglied, die Antwort erhältst.\""
+heretic_speech_025 = de \
+   "~kMiriana sagt, \"Möchtest Du wissen, wofür die Macht gut ist? Ist es "
+   "das, wonach Du fragst, kleines Vöglein?\""
+heretic_speech_026 = de \
+   "~kMirianas Augen leuchten hell auf, \"Du willst die Macht zurück? Du "
+   "willst wirklich versuchen, sie mir zu entreißen? Arme kleine Vöglein, "
+   "rennen umher mit ihren kleinen Quellen.\""
+heretic_speech_027 = de \
+   "~kMiriana flüstert, \"Der alte böse Zauberer Maleval glaubt an die "
+   "Götter. Nun, zumindest an einen davon.\""
+heretic_speech_028 = de \
+   "~kMiriana sagt, \"Im Schloss gibt es eine Schneiderin, die Sklaven "
+   "hält.\""
+heretic_speech_029 = de \
+   "~kMiriana flüstert, \"Faren und Shal'ille sind ein und dieselbe.\""
+heretic_speech_030 = de "~kMiriana flüstert, \"Hinter Dir ist ein Monster.\""
+heretic_speech_031 = de \
+   "~kMiriana sagt, \"Ach, egal. Ich will es Dir nicht sagen.\""
+heretic_speech_032 = de \
+   "~kMiriana sagt, \"Wenn ich Dich mag, und ich sage nicht, dass ich das "
+   "tue, bringe ich Dir etwas Magie bei.\""
+heretic_speech_033 = de \
+   "~kMiriana sagt, \"Er ist immer noch irgendwo da draußen. Ich habe ihn "
+   "gesehen. Wo habe ich ihn gesehen? Ich kann mich nicht erinnern.\""
+heretic_speech_034 = de "~kMiriana sagt, \"Ich mag Städte nicht.\""
+heretic_speech_035 = de \
+   "~kMiriana sagt, \"Die Träume von Kindern. Die Träume von Kindern können "
+   "sehr gefährlich sein. Ich frage mich, ob sie von meinen Träumen weiß.\""
+heretic_speech_036 = de \
+   "~kMiriana kichert, \"Ihr Tod war ihr Verhängnis, in mehr als einer "
+   "Hinsicht.\""
+heretic_speech_037 = de \
+   "~kMiriana blickt nachdenklich drein, \"Schneid den Faden, schnipp "
+   "schnapp. Miss den Faden, schneid den Faden, schnipp schnapp. Ich frag "
+   "mich, ob sie dessen jemals müde wird?\""
+heretic_speech_038 = de \
+   "~kMiriana kichert, \"Ich doch nicht, dummes Vöglein, ich schau doch "
+   "nicht aus wie Hester Gilk... oder?\""
+heretic_random_001 = de "~kMiriana lacht in sich hinein, während sie tanzt."
+heretic_random_002 = de \
+   "~kMiriana singt, \"~IShal'ille und Faren, Shal'ille und Faren, beide "
+   "sind Frauen, beide nie gebaren.~I\""
+heretic_random_003 = de \
+   "~kMiriana sagt, \"Die Götter sind Götter. Weder Mensch noch sterblich, "
+   "und sind's nie gewesen.\""
+heretic_random_004 = de \
+   "~kMiriana sagt, \"Ja? Ich höre, was Du sagst, aber ich verstehe es "
+   "nicht. Bitte hilf mir, es zu verstehen, nein, geh' nicht weg, lass mich "
+   "nicht alleine.\""
+heretic_random_005 = de \
+   "~kMiriana kichert, \"Sie werden schon sehen, ja, das werden sie. Wir "
+   "werden ihnen beweisen, dass sie nicht recht haben, oder?\""
+heretic_random_006 = de \
+   "~kMiriana schaut Dich schüchtern an und sagt, \"Hast Du Dich schon mal "
+   "selbst so erschreckt, dass Du in Gedanken vor Dir selbst weglaufen "
+   "wolltest?\""
+heretic_random_007 = de \
+   "~kMiriana flüstert Dir zu, \"Hörst Du manchmal Stimmen? Sprechen die "
+   "Stimmen zu Dir? Antwortest Du ihnen?\""
+heretic_random_008 = de \
+   "~kMiriana singt, \"~ILady Faren in Liebe vereint - mit Lord Shal'ille, "
+   "nie wirklich allein.~I\""
+heretic_random_009 = de \
+   "~kMiriana sagt, \"Kraanan ist alt und grau und boshaft.\""
+heretic_random_010 = de \
+   "~kMiriana sagt, \"Qor war niemals eine Frau. Er war ein Mann. Und er "
+   "tötete Jala nicht, er verführte sie.\""
+heretic_random_011 = de \
+   "~kMiriana sagt, \"Bei Riija muss ich an Ziegen denken. Ich weiß nicht "
+   "warum.\""
+heretic_random_012 = de \
+   "~kMiriana flüstert, \"Ich kenne ein Geheimnis. Komm näher.\""
+heretic_random_013 = de \
+   "~kMiriana singt, \"~IDie Götter schufen Himmel und Land, die Priester "
+   "konnten es nicht deuten, doch zu wahren ihren guten Stand, logen, logen "
+   "sie vor allen Leuten.~I\""
+heretic_random_014 = de \
+   "~kMiriana pfeift ein Lied, das Du nicht einordnen kannst."
+heretic_random_015 = de \
+   "~kMiriana schluchzt, während sie tanzt, \"Oh, warum glaubt mir bloß "
+   "niemand?! Ich sage doch nur die Wahrheit.\""
+heretic_random_016 = de \
+   "~kMiriana singt, \"~IDer Moment, nicht Nacht noch Morgen, wenn die "
+   "Steine tanzen in Horden, mit fiesem Grinsen, steingrau, ohne Sorgen, "
+   "nehmen die Götter Rache an jenen, die morden.~I\""
+heretic_random_017 = de \
+   "~kMiriana kichert verächtlich. \"Du kannst ihr Rufen nicht hören, oder? "
+   "Du tust mir leid.\""
+heretic_random_018 = de \
+   "~kMiriana tanzt verspielt herum. Ein magisches Feld erscheint, eine "
+   "Kraft scheint aus ihr herauszufließen. Die Kraft fließt zurück, und das "
+   "Feld verschwindet wieder."
+heretic_random_019 = de \
+   "~kMiriana sagt, \"Wiederauferstehung ist wichtig, warte ab und Du wirst "
+   "es sehen.\""
+heretic_random_020 = de \
+   "~kMiriana flüstert, \"Hast Du auch den Ruf gehört? Er klingt irgendwie "
+   "wirbelnd und zischend.\""
+heretic_random_021 = de \
+   "~kMiriana tanzt im Kreis herum und fällt plötzlich hin. \"Die Stimme "
+   "lässt mich nicht in Ruhe. Es ist alles so undeutlich, aber sie will "
+   "nicht verschwinden. Mach, dass sie weggeht.\""
+heretic_random_022 = de \
+   "~kMiriana hüpft auf und ab, ihre Augen blitzen, \"Hast Du das große "
+   "Monster gesehen? Es macht Bumm und Peng und hat dieses komische Ding in "
+   "seiner Mitte. Pass auf, da ist eins hinter Dir!\""
+heretic_random_023 = de \
+   "~kMiriana zuckt plötzlich zusammen, \"Die Götter sind nicht erfreut. Oh "
+   "nein, sie sind gar nicht glücklich über dies alles.\""
+heretic_random_024 = de \
+   "~kMiriana zupft an ihrem Kleid. Du fragst Dich, ob sie sich aus den "
+   "Fäden ein neues machen will."
+heretic_random_025 = de \
+   "~kMiriana schreit plötzlich, \"Haben, haben, haben, das ist alles, um "
+   "was es Dir geht. Aber jetzt will ich auch etwas haben!\""
+heretic_random_026 = de \
+   "~kMiriana singt leise, \"~IHast Du die wahre Geschichte der Götter "
+   "gehört, hast Du die vom Untergang des Einen gehört?~I\""
+heretic_random_027 = de \
+   "~kMiriana sagt, \"Ich frage mich, ob sich die Götter wegen ihrer Lügen "
+   "schuldig fühlen?\""
+heretic_random_028 = de \
+   "~kMiriana starrt in die Sonne, \"Manchmal ist das Licht, das uns führt, "
+   "zu stark und man wird von ihm verschlungen.\""
+heretic_random_029 = de \
+   "~kMiriana sagt, \"Weißt Du, Hester Gilk könnte Dir helfen, mir hat sie "
+   "auch einst geholfen... oder war das jemand anderes? Hmmm...\""
+heretic_random_030 = de \
+   "~kMiriana schaut sich ängstlich um, dann verschwindet sie zwischen den "
+   "Bäumen."
+heretic_random_031 = de \
+   "~kMiriana schreit, \"Nein, nein, NEIN! Gemein, gemein, GEMEIN! Nein, "
+   "nein, ICH WILL NICHT!!!\""
+heretic_random_032 = de \
+   "~kMirianas Augen leuchten hell durch ihre Tränen, \"Hast Du es "
+   "zusammenbrechen sehen? Ich habe es gesehen. Es war so leer, so sinnlos "
+   "und traurig. Ich mag nicht traurig sein, es bringt mich zum Weinen.\""
+heretic_random_033 = de \
+   "~kMiriana flüstert in den Wind, \"Nur ein paar Tage, nur ein paar Tage "
+   "und sie werden die Wahrheit erkennen und Du wirst frei sein und das Land "
+   "durchstreifen, ja, das wirst Du.\""
+heretic_random_034 = de \
+   "~kMiriana tanzt schadenfroh, \"Ich war es! Ich, hörst Du mich? Ich habe "
+   "die Macht gestohlen und jetzt gehört sie mir.\""
+heretic_random_035 = de \
+   "~kMiriana kreischt, \"Verschwinde! Ich schneid den Faden nicht durch, "
+   "zwing mich nicht dazu. VERSCHWINDE!!\""
+heretic_random_036 = de \
+   "~kMiriana setzt sich abrupt hin und keucht, \"Spinnen, spinnen, spinnen, "
+   "mach ich tagein, tagaus. Ich werde manchmal ganz wirr davon. Das würde "
+   "Dir auch nicht anders gehen.\""
+heretic_random_037 = de \
+   "~kMiriana tanzt im Kreis, \"Zeit, Zeit, bald ist es Zeit. Dann werden "
+   "sie alle sehen. Keiner wird mehr an mir zweifeln.\""
+heretic_random_038 = de \
+   "~kMiriana blickt auf ihre Füße hinab, \"War ich böse? Ich wollte nicht "
+   "böse sein. Ich hab nur getan, was ich tun ~Bmusste~B, das verstehst Du, "
+   "oder?\""
+heretic_random_039 = de \
+   "~kMiriana macht plötzlich einen bedrohlichen Schritt auf Dich zu und Du "
+   "weißt, sich ihr weiter zu nähern wäre glatter Selbstmord."
+heretic_random_040 = de \
+   "~kMiriana knurrt wild, dann schlägt sie eine Hand vor ihren Mund, \"Oh "
+   "mein Gott, ~Iwoher~I kam das? Warst Du das? Hast ~IDu~I mir das "
+   "gegeben?\""
+heretic_random_041 = de \
+   "~kMiriana tippt Dich unschuldig dreinblickend an, \"Entschuldige, aber "
+   "wolltest Du das Riesenmonster töten, das sich da über Dich beugt?\""
+heretic_random_042 = de \
+   "~kMiriana ruft leise aus, \"Du glaubst mir doch, oder? So sollte es "
+   "nicht sein. Ihr kleinen Vöglein könnt es immer noch aufhalten, aber erst "
+   "müsst Ihr nach der Wahrheit suchen. Meinst Du, Du kannst das machen, "
+   "kleines Vöglein? Kannst Du die Wahrheit hören?\""
+heretic_random_043 = de \
+   "~kMiriana sagt, \"Hast Du schon einmal von Jala gehört?\""
+heretic_trigger_amulet = de "amulett"
+heretic_trigger_attack = de "angriff"
+heretic_trigger_sell = de "verkauf"
+heretic_trigger_council = de "ratsmitglied"
+heretic_trigger_cut = de "schneiden"
+heretic_trigger_hello = de "hallo"
+heretic_trigger_help = de "hilfe"
+heretic_trigger_hi = de "hallo"
+heretic_trigger_hunter = de "jäger"
+heretic_trigger_hunter_sword = de "jagdschwert"
+heretic_trigger_necromancer = de "nekro"
+heretic_trigger_node_attack = de "quellenangriff"
+heretic_trigger_secret = de "geheim"
+heretic_trigger_buy = de "kaufen"
+heretic_trigger_weave = de "weben"
+
+// HunterGhost
+hunterghost_speech_001 = de \
+   "~kTendrath sagt, \"Ich habe die Anhänger immer nur an den verrottenden "
+   "Jüngern des Lichs gesehen. Ihre Magie ist seltsam und fremdartig. Es ist "
+   "nicht die Kraft des Todes, die ihnen innewohnt. Der Tod ist eine "
+   "natürliche Sache. Sie sind die Adern, die das Leben in UNTOD umwandeln.\""
+hunterghost_speech_002 = de \
+   "~kTendrath sagt, \"Ich weiß wenig über die Geschichte der Uralten. Ich "
+   "habe viele Versionen gehört. Alle verweisen auf ein Wesen, das nicht von "
+   "dieser Welt ist, aber in unserer Welt 'schläft'. Das Ende der Welt "
+   "kommt, wenn dieses Geschöpf ganz aus seinem Schlummer erwacht.\""
+hunterghost_speech_003 = de \
+   "~kTendrath sagt, \"Es war meine Stadt. Mir wurde erzählt, dass es die "
+   "Bewohner von Brax nicht mehr gibt. Dass die Reinheit unseres Volkes mit "
+   "dem Blut der Minderwertigen vermengt wurde. Was gibt es da noch zu "
+   "sagen? Soll ich Dir erzählen, wie jede Person in Brax mit Magie in sich "
+   "geboren wurde. Dass die Magie jeder Person einzigartig war. Dass ihre "
+   "Charaktere stark und aufrichtig waren. Sie sind nicht mehr, und von "
+   "ihnen zu sprechen bereitet mir große Schmerzen.\""
+hunterghost_speech_004 = de \
+   "~kTendrath sagt, \"Der König von Brax hatte eine gekrümmte Wirbelsäule "
+   "und gegen Ende seiner Herrschaft hatte er überhaupt keine Stimme mehr.\""
+hunterghost_speech_005 = de \
+   "~kTendrath sagt, \"Ich hoffe, dieser Mann ist ein starker Führer. Wenn "
+   "er es nicht ist, werden wir alle die Macht der Uralten spüren.\""
+hunterghost_speech_006 = de \
+   "~kTendrath sagt, \"Er war der Letzte, der den Nexus bereiste. Seine "
+   "Autorität und sein Einfluss auf die Leute rührten von seiner Verbindung "
+   "mit dem Nexus her. Der Nexus brachte ihn in andere Welten. Er kehrte aus "
+   "diesen Welten mit Schätzen, Geräten und Wissen zurück. Die Leute "
+   "verehrten ihn, bis der Nexus verschwand. Schloss Viktoria war sein "
+   "Zuhause.\""
+hunterghost_speech_007 = de \
+   "~kTendrath sagt, \"Er ist Dein Gott der Natur. Dann kenne ich ihn. Oder "
+   "besser, ich kenne seinesgleichen. Lass uns hoffen, dass er noch immer "
+   "große Macht besitzt.\""
+hunterghost_speech_008 = de \
+   "~kTendrath sagt, \"Bevor der König von Venya'cyr ermordet wurde, war "
+   "Kara'set zu der Prinzessin gekommen und hatte ihre Missbilligung des "
+   "Königs geäußert. Es gab gewisse militärische Gruppen, die meinten, seine "
+   "Missbildung könnte den Feinden den Eindruck vermitteln, das Land sei "
+   "schwach. Ich weiß, es hört sich närrisch an. Du musst die Bewohner von "
+   "Brax verstehen, um zu begreifen, warum Kara'set so fühlte. Auf eine "
+   "gewisse Weise fühlte sich Kara'set, als hätte sie geholfen, ihre engste "
+   "Freundin zum Mord an ihrem Bruder zu überreden.\""
+hunterghost_speech_009 = de \
+   "~kTendrath sagt, \"Während ich unter der Erde begraben war, entdeckte "
+   "ich, dass mein Geist diese Welt nicht verlassen hatte, wie ich es "
+   "erwartet hatte. Viele Jahre lang konnte ich den Grund dafür nicht "
+   "finden. Ich existierte nur in meinem Gram und meiner Einsamkeit. Dann, "
+   "langsam, begannen die Steine zu weichen und ich sah, dass der Lich nicht "
+   "tot war. Er war gewiss in keiner Weise mehr menschlich. Nun wusste ich, "
+   "warum ich diesen Ort noch nicht verlassen hatte. Meine Aufgabe war noch "
+   "nicht erfüllt.\""
+hunterghost_speech_010 = de \
+   "~kTendrath sagt, \"Während die Armee Brax belagerte, opferte ich Monate, "
+   "um die Magie der Erde heraufzubeschwören. Noch nie zuvor hatte ich meine "
+   "Magie auf Waffen angewandt. Aber ich verwandelte die Schwerter der "
+   "Tapfersten in Instrumente des Todes. Der Geist des Schwertes war mit dem "
+   "seines Trägers verbunden. Die Verbindung war am stärksten, wenn sie "
+   "Rache übten. Die Schwerter bringen Vergeltung.\""
+hunterghost_speech_011 = de \
+   "~kTendrath sagt, \"Sie war die grimmigste Kriegerin, die Brax je hatte. "
+   "Sie war Venya'cyrs enge Freundin. Als Venya'cyr den König, ihren eigenen "
+   "Bruder, ermordete, wusste Kara'set, dass es ihre Freundin nicht mehr "
+   "gab. Ich sah mit eigenen Augen, wie Kara'set auf ihrem Weg zum Palast "
+   "und zum Lich beinahe sechzig Nekromanten erschlug. Wenn jemals jemand "
+   "die Magie hatte, den Lich zu töten, dann war sie es. Um solchen Dingen "
+   "entgegenzutreten, muss die Seele rein sein. Der Lich erkannte in "
+   "Kara'set einen Makel. Tief in der Kriegerin war eine Schuld.\""
+hunterghost_speech_012 = de \
+   "~kTendrath sagt, \"Er war mein König. Seine Schwester ermordete ihn. "
+   "Seine Schwester war Venya'cyr. Es war die Kraft der Urne, die "
+   "ursprünglich die Seele der jungen Prinzessin verdarb. Es war diese "
+   "Kraft, die es der Prinzessin ermöglichte, ihren eigenen Bruder zu opfern "
+   "und ein Volk ohne Herrscher zurückzulassen.\""
+hunterghost_speech_013 = de \
+   "~kTendrath sagt, \"Dies sind Deine Götter. Ich empfehle Dir, zu ihnen zu "
+   "beten.\""
+hunterghost_speech_014 = de \
+   "~kTendrath sagt, \"Der Lich ist die erste Manifestation eines uralten "
+   "Dings in dieser Welt. Es gibt eine Geschichte von einer Kreatur, die "
+   "älter als die Welt ist und die in ihr ruht. Ich glaube, dass die Kräfte "
+   "des Lichs von dieser Kreatur stammen. Ich verstehe, dass Du viele Götter "
+   "hast. Es wäre das Beste, wenn diese uns nun helfen würden. Lass uns "
+   "hoffen, dass sie Deine Gebete hören. Wie dem auch sei, ob sie sie "
+   "erhören oder nicht, Du kannst sicher sein, dass ich nicht ruhen werde, "
+   "bis der Lich nicht mehr ist. Ich habe gelernt, nicht auf die Götter zu "
+   "zählen.\""
+hunterghost_speech_015 = de \
+   "~kTendrath sagt, \"Sie müssen um jeden Preis zerstört werden. Diese "
+   "bösen Monster ersehnen nichts anderes als den völligen Verzehr aller "
+   "Lebensenergie hier in Meridian. Sie sind erbärmliche Diener ihrer "
+   "Königin. Wenn Du sie zerstörst, schwächst Du den Lich. Wenn Du den Lich "
+   "zerstörst, zerstörst Du auch die Nekromanten. Natürlich kann Venya'cyr "
+   "nie getötet werden. Du musst einen Weg finden, ihre ansteckenden Kräfte "
+   "zurückzuhalten. Sie zu besiegen gibt Dir einen kurzen Aufschub, aber wir "
+   "sind alle verdammt zuzusehen, wie sie wieder aufersteht.\""
+hunterghost_speech_016 = de \
+   "~kTendrath sagt, \"Mein Großvater erinnert sich an den Nexus. Er war ein "
+   "Portal. König Fahr'nohl reiste durch den Nexus. Er brachte viele feine "
+   "Dinge in unsere Welt, aber ich bin mir sicher, dass er auch viele Dinge "
+   "mitbrachte, die gefährlich waren. Als der Nexus verschwand, war "
+   "Fahr'nohl erledigt. Seine Macht lag in seiner Fähigkeit, den Nexus zu "
+   "bereisen und zurückzukehren. Seine Majestät verblasste und Schloss "
+   "Viktoria wurde so gut wie verlassen.\""
+hunterghost_speech_017 = de \
+   "~kTendrath sagt, \"Ich hoffe, die Lehren der Vergangenheit entgehen "
+   "diesem Kind nicht.\""
+hunterghost_speech_018 = de \
+   "~kTendrath sagt, \"Diese dunkle Göttin mag Beziehungen zu den Uralten "
+   "haben. Hüte Dich vor ihr. Sie ist das jüngste Kind einer alten Familie.\""
+hunterghost_speech_019 = de \
+   "~kTendrath sagt, \"Dies sind Deine Götter. Ich rate Dir, zu ihnen zu "
+   "beten.\""
+hunterghost_speech_020 = de \
+   "~kTendrath sagt, \"Das sind Deine Götter. Lass uns hoffen, dass sie "
+   "ihren Anhängern helfen.\""
+hunterghost_speech_021 = de \
+   "~kTendrath sagt, \"Diese teuflischen Dinge sind nur Schatten, die die "
+   "Lebenden plagen und sie in ihre eigenen dunklen Absichten treiben.\""
+hunterghost_speech_022 = de \
+   "~kTendrath sagt, \"Sie waren ängstliche Kämpfer. Lass uns hoffen, dass "
+   "wenigstens dies sich geändert hat.\""
+hunterghost_speech_023 = de \
+   "~kTendrath sagt, \"Als Kara'set vom Lich erschlagen wurde, war alles "
+   "verloren. Unsere größte Kriegerin war besiegt. Die Armee hatte große "
+   "Verluste erlitten und zog sich zurück. Wir hatten die Schwerter hinter "
+   "den Mauern von Brax verloren. Der Mörder meines Sohnes würde ungestraft "
+   "davonkommen. Ich saß allein da. Ich hörte ein Geräusch und sah mich um. "
+   "Ein kleines Tier rannte in einen großen Spalt im Boden. In diesem Spalt "
+   "fand ich Höhlen, die tief in das Erdreich führten. Tagelang wanderte "
+   "ich. Eine riesige Höhle lag unter unserer Stadt. Dort waren uralte "
+   "Artefakte eines vergessenen Volkes. Da wusste ich, was zu tun war.\""
+hunterghost_speech_024 = de \
+   "~kTendrath sagt, \"Ich weiß wenig von der Urne. Ich habe sie nie "
+   "gesehen. Ich weiß nur, dass sie von einem Handwerker entdeckt wurde, der "
+   "am Fundament des neuen Palastes arbeitete. In der Urne lauerten die Drei "
+   "der Urne.\""
+hunterghost_speech_025 = de \
+   "~kTendrath sagt, \"Lange nach der Ermordung meines ältesten Sohnes "
+   "erfuhr ich, dass es tatsächlich die Drei der Urne waren, die Venya'cyr "
+   "als Erste meinen Namen zu Ohren brachten. Ihr Geist war so verdorben. "
+   "Auf die Worte von Dämonen hin schickte sie diese Männer in mein Haus! Um "
+   "ihre eigene Unsterblichkeit zu sichern, vernichtete sie die Blutlinie "
+   "meiner Familie. Sie ermordete meinen Sohn, im Glauben, es wäre ich. Ich "
+   "war ein einfacher Mann. Ich hätte viel für unser Oberhaupt ertragen. "
+   "Nichts davon habe ich gewollt. Aber nun... nun werde ich nicht ruhen, "
+   "bis diese Kreatur für immer aus dieser Welt verschwunden ist.\""
+hunterghost_random_001 = de \
+   "~kTendrath sagt, \"Oh, mein Sohn. Ich werde dich rächen. Ich werde "
+   "niemals aufhören, bis sie tot ist.\""
+hunterghost_random_002 = de \
+   "~kTendrath sagt, \"Wohin ist die Sonne gegangen? Es ist tausend Jahre "
+   "her, seit ich das letzte Mal die Sonne gesehen habe.\""
+hunterghost_random_003 = de \
+   "~kTendrath sagt, \"Tordos, bist Du das? Oh, ich dachte, mein Sohn wäre "
+   "gekommen, um mich zu holen. Er wurde von Venya'cyr umgebracht, weißt Du. "
+   "Dafür wird sie bezahlen.\""
+hunterghost_random_004 = de \
+   "~kTendrath sagt, \"Hüte Dich vor den Nekromanten. Sie leben hier. "
+   "Vorsicht!\""
+hunterghost_random_005 = de \
+   "~kTendrath sagt, \"Shhh.  Der Lich lebt hier. Er wird sich nach dem "
+   "Leben in Dir verzehren. Du musst ihn zerstören, wenn Du willst, dass "
+   "Deine Kinder sicher aufwachsen.\""
+hunterghost_trigger_amulet = de "amulett"
+hunterghost_trigger_ancients = de "uralten"
+hunterghost_trigger_deformity = de "behinderung"
+hunterghost_trigger_deformity_2 = de "missbildung"
+hunterghost_trigger_duke = de "herzog"
+hunterghost_trigger_guilt = de "schuld"
+hunterghost_trigger_hunter = de "jäger"
+hunterghost_trigger_hunter_sword = de "jagdschwert"
+hunterghost_trigger_hunter_sword_2 = de "jägerschwert"
+hunterghost_trigger_necromancer = de "nekro"
+hunterghost_trigger_princess = de "prinzessin"
+hunterghost_trigger_shal_ille = de "sha-lill"
+hunterghost_trigger_sha_lill = de "shal'ille"
+hunterghost_trigger_three_of_the_urn = de "drei der urne"
+hunterghost_trigger_caves = de "höhlen"
+hunterghost_trigger_urn = de "urne"
+
+// Izzio
+izzio_speech_001 = de \
+   "~kIzzio sagt, \"Ich wette, das würde einen hübschen Batzen Geld "
+   "einbringen.\""
+izzio_speech_002 = de \
+   "~kIzzio vergeht fast das Lächeln, \"Nun, weißt Du, das ist wirklich "
+   "nicht mein Lieblingsort.\""
+izzio_speech_003 = de \
+   "~kIzzio sagt, \"Ich wünschte, es wäre nicht so, aber ich habe heute "
+   "nichts für Dich.\""
+izzio_speech_004 = de \
+   "~kIzzio sagt, \"Allem Anschein nach ist er ein recht netter Bursche.\""
+izzio_speech_005 = de "~kIzzio sagt, \"Armer Junge.\""
+izzio_speech_006 = de \
+   "~kIzzio sagt, \"Meiner Erfahrung nach ist es unklug, jemand anderem als "
+   "sich selbst Treue zu schwören, aber das ist nur meine Meinung.\""
+izzio_speech_007 = de \
+   "~kIzzio sagt, \"Politik weckt wirklich nicht mein Interesse.\""
+izzio_speech_008 = de \
+   "~kIzzio sagt, \"Das ist nichts für mich, ich hab meine Glieder gern da, "
+   "wo sie sind.\""
+izzio_speech_009 = de \
+   "~kIzzio sagt, \"Das ist mal eine Schule, die Beachtung verdient. Faren "
+   "erkennt wenigstens die Kraft und das Wunder der Natur selbst an.\""
+izzio_speech_010 = de \
+   "~kIzzio sagt, \"Ich bin mir nicht ganz sicher, was Du damit sagen "
+   "willst. Aber ich warne Dich, Du bewegst Dich auf dünnem Eis.\""
+izzio_speech_011 = de \
+   "~kIzzio sagt, \"Hmm, seltsam. Es scheint mehr hinter dieser alten Frau "
+   "zu stecken. Sie schweigt immer noch über all das, woran sie mich "
+   "erinnert, aber sie ist irgendwie darin verwickelt.\""
+izzio_speech_012 = de \
+   "~kIzzio sagt, \"Es ist nicht meine Sache, andere zu beurteilen.\""
+izzio_speech_013 = de \
+   "~kIzzio sagt, \"Minnesänger sind die wunderbarsten Leute.\""
+izzio_speech_014 = de \
+   "~kIzzio seufzt, \"Ein Mann, der nur nach Macht strebt, wie traurig.\""
+izzio_speech_015 = de \
+   "~kIzzio sagt, \"Ich kann den Eigentümer eines solchen Dinges "
+   "respektieren.\""
+izzio_speech_016 = de \
+   "~kIzzio sagt, \"Einige Leute nennen mich einen Trödelhändler, ich "
+   "bevorzuge es, mich selbst als Beschaffer unerwünschter Erinnerungen zu "
+   "betrachten.\""
+izzio_speech_017 = de \
+   "~kIzzio sagt, \"Ah, ich glaube, ich rieche Liebe in der Luft.\""
+izzio_speech_018 = de \
+   "~kIzzio sagt, \"Nun, Kämpfen war nie meine starke Seite, aber ich hörte, "
+   "es sei eine lohnende Schule für manche.\""
+izzio_speech_019 = de \
+   "~kIzzio sagt, \"Du weißt, ich würde nie jemanden kränken wollen, aber da "
+   "ist etwas Sonderbares an diesem Mädchen, das man im Auge behalten "
+   "sollte. Wenn ich Du wäre, würde ich in ihrer Nähe Augen und Ohren offen "
+   "halten.\""
+izzio_speech_020 = de \
+   "~kIzzio seufzt, \"Ich habe Dich so oft gewarnt, wie ich konnte. Die, die "
+   "diese Warnungen überhörten, sind selber schuld.\""
+izzio_speech_021 = de \
+   "~kIzzio sagt, \"Ich würde Dir gerne weiterhelfen, aber ich fürchte, ich "
+   "kann Dir dazu nicht viel sagen. Außerdem würdest Du Dich dann dazu "
+   "verpflichtet fühlen, Dich um das Mädchen zu kümmern.\""
+izzio_speech_022 = de \
+   "~kIzzio sagt, \"Die Natur lügt nicht und die Natur belog mich nicht über "
+   "Mirianas wahre Absichten.\""
+izzio_speech_023 = de \
+   "~kIzzio sagt, \"Versuche, mit Hester Gilk darüber zu sprechen. "
+   "Möglicherweise kann sie Dir mehr dazu sagen.\""
+izzio_speech_024 = de \
+   "~kIzzio blickt Dich merkwürdig an, \"Du bist nicht eins mit der Natur. "
+   "Ich sollte keine Deiner Fragen beantworten.\""
+izzio_speech_025 = de \
+   "~kIzzio sagt, \"Nun, Volk ist Volk, egal, wen es verehrt.\""
+izzio_speech_026 = de \
+   "~kIzzio scheint zu überlegen, \"Ich habe darüber nachgedacht. Das "
+   "Einzige, was mich wirklich irritiert, ist, dass Miriana immer schon vor "
+   "allen anderen da ist. Ich weiß, sie sagt, dass die magischen Quellen sie "
+   "rufen, aber findest Du das nicht auch ein wenig seltsam?\""
+izzio_speech_027 = de \
+   "~kIzzio sagt, \"Mutter, diese Dinge passen einfach nicht zusammen. Ist "
+   "das Kind böse oder beschützt es etwas anderes vor dem Bösen?\""
+izzio_speech_028 = de \
+   "~kIzzio sagt, \"Versteh mich nicht falsch. Ich denke, dass das Kind eine "
+   "Bedrohung ist, obwohl ich nicht sicher bin, dass es die größte Bedrohung "
+   "für das Land ist.\""
+izzio_speech_029 = de \
+   "~kIzzio sagt, \"Möchtest Du ein zerstörtes Land sehen? Wenn nicht, "
+   "solltest Du einen Weg finden, Miriana und ihre Pläne zu stoppen.\""
+izzio_speech_030 = de \
+   "~kIzzio sagt, \"Ja, und ein süßes junges Mädchen ist sie, mit einem "
+   "erfrischenden Blick auf die Welt.\""
+izzio_speech_031 = de \
+   "~kIzzio sagt, \"Eine nützliche Schule, wenn Du hart genug dafür bist.\""
+izzio_speech_032 = de \
+   "~kIzzio sagt, \"Nun, ich persönlich liebe einen guten Streich.\""
+izzio_speech_033 = de \
+   "~kIzzio sagt, \"Ein wundervoller Weg für die, die dazu neigen.\""
+izzio_speech_034 = de \
+   "~kIzzio sagt, \"Ich kannte einst einen Pantomimen mit diesem Namen.\""
+izzio_speech_035 = de \
+   "~kIzzio sagt, \"Du solltest vielleicht besser Miriana fragen.\""
+izzio_random_001 = de "~kIzzio sagt, \"Darüber müsste ich erst nachdenken.\""
+izzio_random_002 = de \
+   "~kIzzio murmelt, \"Zwölf minus drei, geteilt durch zwei, eins im Sinn... "
+   "Oh, hallo, schöner Tag heute, nicht wahr?\""
+izzio_random_003 = de \
+   "~kIzzio sagt, \"Ich hörte einige Erzählungen über wunderschöne Städte, "
+   "ich kann nicht verstehen, wie man diese mit der Majestät der Natur "
+   "vergleichen könnte.\""
+izzio_random_004 = de "~kIzzio pfeift vergnügt, wenn auch etwas schief."
+izzio_random_005 = de "~kIzzio imitiert perfekt den Ruf der Waldvögel."
+izzio_random_006 = de \
+   "~kIzzio schließt die Augen und seufzt zufrieden, \"Das ist Leben.\""
+izzio_random_007 = de \
+   "~kIzzio breitet die Arme weit aus und atmet tief ein, \"Ah, ich liebe "
+   "die Nacht, so friedlich und ruhig. Sie gibt mir die Freude, die Natur so "
+   "zu genießen, wie sie gedacht war.\""
+izzio_random_008 = de \
+   "~kIzzio blickt Dich argwöhnisch an und grummelt verschlafen, \"Kein "
+   "vernünftiger Mensch wacht so verdammt früh auf.\""
+izzio_trigger_amulet = de "amulett"
+izzio_trigger_buy = de "kaufen"
+izzio_trigger_sell = de "verkauf"
+izzio_trigger_duke = de "herzog"
+izzio_trigger_faction = de "fraktion"
+izzio_trigger_faction_troops = de "fraktionstruppen"
+izzio_trigger_god = de "gott"
+izzio_trigger_hunter = de "jäger"
+izzio_trigger_junk = de "trödel"
+izzio_trigger_necromancer = de "nekromanten"
+izzio_trigger_necromancer_2 = de "nekro"
+izzio_trigger_node = de "quelle"
+izzio_trigger_nodes = de "quellen"
+izzio_trigger_princess = de "prinzessin"
+izzio_trigger_shal_ille = de "sha-lill"
+izzio_trigger_sha_lill = de "shal'ille"
+
+// JealousGeneral
+jealousgeneral_speech_001 = de \
+   "~kJonas sagt, \"Einige meinen, dass Konima immer noch einen wilden Kampf "
+   "im Innern dieser Höhlen führt. Andere sagen, dass Shal'ille immer noch "
+   "um die verlorenen Krieger weint. Doch egal, was nun stimmt, er rettete "
+   "die Menschheit vor den widerlichen Orks.\""
+jealousgeneral_speech_002 = de \
+   "~kJonas sagt, \"Konima war der größte Held, den die Menschheit je "
+   "gesehen hat. Seine Truppe führte einen schändlichen Angriff auf die "
+   "Ork-Höhlen jenseits der westlichen tiefen Wälder durch. Sechzig Krieger "
+   "gingen in die Höhlen hinein und keiner kam wieder heraus.\""
+jealousgeneral_random_001 = de \
+   "~kJonas sagt, \"Ich habe die alten Legenden um Konima erforscht. Du "
+   "kennst die Geschichten vom großen Konima, nicht wahr?\""
+jealousgeneral_trigger_caves = de "höhlen"
+
+// Lich
+lich_speech_001 = de \
+   "~kDie Königin Venya'cyr bekommt ein eigenartiges Glühen in ihren Augen, "
+   "\"Möchtest Du Dich ihnen anschließen?\""
+lich_speech_002 = de \
+   "~kDie Königin Venya'cyr sagt, \"Fürchtest Du, dass die Worte der Kinder "
+   "wahr sind? Wenn nicht, solltest Du es vielleicht.\""
+lich_speech_003 = de \
+   "~kDie Königin Venya'cyr sagt, \"Das Kind wird geführt. Wenn man die "
+   "elementare Gewalt dieser Führung nicht ertragen kann, sollte man sie "
+   "nicht ergründen wollen.\""
+lich_speech_004 = de \
+   "~kDie Königin Venya'cyr sagt, \"Unsere Zeit ist gekommen! Die, die die "
+   "Wahrheit nicht akzeptieren, sollen zerstört werden.\""
+lich_speech_005 = de \
+   "~kDie Königin Venya'cyr sagt, \"Auf welcher Seite stehst Du? Ist es Zeit "
+   "zum Leben oder Zeit zum ~rSterben~k?\""
+lich_speech_006 = de \
+   "~kDie Königin Venya'cyr bekommt einen blutrünstigen Blick, \"So eine "
+   "köstliche Situation. Blut, Tod und Chaos. Ich frage mich nur, warum das "
+   "Kind es nicht früher gemacht hat.\""
+lich_speech_007 = de \
+   "~kDie Königin Venya'cyr sagt, \"Wieso sollte Dich der Verlust eines "
+   "anderen so bekümmern? Tritt in die Reihen meiner Nekromanten ein, und "
+   "solch oberflächliche Ansichten werden Dich nicht länger plagen. Wir "
+   "sollten dem Leben unserer Feinde ein Ende setzen.\""
+lich_speech_008 = de \
+   "~kDie Königin Venya'cyr sagt, \"Möchtest Du, dass ich Deine Lebenskraft "
+   "aus Dir heraussauge, genauso, wie Miriana die Kraft aus den magischen "
+   "Quellen gesaugt hat?\""
+lich_random_001 = de \
+   "~kDie Königin Venya'cyr lächelt blutdürstig, \"So viel Tod und Schmerz, "
+   "ich erwarte großartige Möglichkeiten.\""
+lich_trigger_fate = de "schicksal"
+lich_trigger_nodes = de "quellen"
+
+// Minstrel
+minstrel_speech_001 = de "~kParrin sagt, \"Ich nehme gerne Spenden an.\""
+minstrel_speech_002 = de \
+   "~kParrin sagt, \"Dieser Ort macht mich zu einem traurigen Panda.\""
+minstrel_speech_003 = de \
+   "~kParrin singt, \"~IDer Herzog ist groß! Glaubst Du das denn im Ernst? "
+   "Er findet's fein, wenn Dein Geld ist sein und Du Dich danach rasch "
+   "entfernst. Was er will, ist der Thron! Ha! Ha! welch ein Hohn, Hat "
+   "Schillinge nur im Sinn. Er schlägt sich wacker, der kleine Racker, Ich "
+   "wünschte, er wäre bald hin!~I Ha! Das ist ein Klassiker!\""
+minstrel_speech_004 = de \
+   "~kParrin sagt, \"He, warte mal, ist das ein Trick?\""
+minstrel_speech_005 = de \
+   "~kParrin Aragone singt, \"~IUnd ein froher, froher, fro~Bher~B~I... Gruß "
+   "für Dich!\""
+minstrel_speech_006 = de "~kParrin sagt, \"Was kann ich für Dich tun?\""
+minstrel_speech_007 = de \
+   "~kParrin sagt, \"Gefällt Dir mein Instrument? Es ist schön, nicht wahr?\""
+minstrel_speech_008 = de \
+   "~kParrin sagt, \"Jala-Barden sollten sich ein Instrument suchen, das sie "
+   "lieben.\""
+minstrel_speech_009 = de \
+   "~kParrin sagt, \"Aha, Du möchtest gerne alles über den Bänkelgesang "
+   "lernen. Wunderbar! Ich könnte Dir vielleicht beibringen, was ich von "
+   "Jala gelernt habe, wie etwa den Zauberspruch der Wahrheit.\""
+minstrel_speech_010 = de \
+   "~kParrin sagt, \"Es ist nicht an mir, zu richten, nur die Taten in "
+   "Liedern und Versen festzuhalten! Trotzdem muss ich zugeben, dass ich an "
+   "der langen Dauer dieser Eskapade erfreut bin.\""
+minstrel_speech_011 = de \
+   "~kParrin sagt, \"Ich arbeite nun an einer 15-teiligen Ballade über ihre "
+   "Eskapaden.\""
+minstrel_speech_012 = de \
+   "~kParrin singt, \"~I~rSie benutzte Pfade, die niemand gehen wollte, sie "
+   "benutzte Quellen, die niemand knacken konnte. Durch den Tag, durch die "
+   "Nacht, Miriana wird's verderben, Miriana wird's vermiesen.~n~k\""
+minstrel_speech_013 = de \
+   "~kParrin sagt, \"Unfähiger Trottel, kannst Du nicht sehen, dass ich "
+   "gerade arbeite? Schschschsss, ja, geh, schhh, geh weg!\""
+minstrel_speech_014 = de \
+   "~kParrin sagt, \"Warst Du in einen Angriff verwickelt? Erzähl mir davon, "
+   "Gefühle, Geräusche, Geschmack, Geruch... alles, woran Du Dich erinnern "
+   "kannst. Das sollte eine hervorragende Ballade werden.\""
+minstrel_speech_015 = de \
+   "~kParrin sagt, \"Beschreibe diese Kreaturen, die Miriana beschworen hat. "
+   "Wie haben die genau ausgesehen? Wie groß waren sie? Hatten sie eine "
+   "überirdische Aura? Oh, ich muss das festhalten, oh ja, das ist gut.\""
+minstrel_speech_016 = de \
+   "~kParrin sagt, \"Kannst Du das Schild auf der Tür nicht lesen, auf dem "
+   "steht: Eintritt verboten? Ohh, meine Güte, hier ist keine Tür, wie "
+   "seltsam, ich könnte schwören, dass hier eine Tür war.\""
+minstrel_speech_017 = de \
+   "~kParrin leiert, \"~IOh, Prinzessin, Ergebnis der Inzucht, - der "
+   "königliche Genpool ist doch so klein! Oh, Prinzessin, wird es jetzt "
+   "untersucht, - wer war zu Deinem Onkel gemein? - Mädchen, was wirst Du "
+   "jetzt tun? - Der alte König ließ Dich allein, - Mädchen, was wirst Du "
+   "jetzt tun? - Das Königreich geht jetzt langsam ein.~I\""
+minstrel_speech_018 = de \
+   "~kParrin sagt, \"Ich habe gehört, wie jemand es ein paar Mal gesagt hat. "
+   "Eingängig, nicht wahr?\""
+minstrel_speech_019 = de \
+   "~kParrin sagt, \"Ich kann nichts außer meiner Kunst anbieten... Musik "
+   "und Poesie, mein Freund.\""
+minstrel_speech_020 = de \
+   "~kParrin sagt, \"Es ist ein mächtiges Lied, mit dem man Illusionen "
+   "durchschauen kann.\""
+minstrel_random_001 = de "~kParrin Aragone zupft behutsam an seiner Lyra."
+minstrel_random_002 = de \
+   "~kParrin Aragone müht sich ab, seine Lyra zu stimmen."
+minstrel_random_003 = de \
+   "~kParrin singt a cappella eine wirklich schöne Hymne in einer "
+   "eindringlichen Sprache, die für Deine Ohren fremd klingt. Es hört sich "
+   "ungefähr so an. \"~IHa na oka-chi, ha na hey, jan-do apas-i, apas-i wa "
+   "apas-i wa, ha na hey... \""
+minstrel_random_004 = de \
+   "~kParrin sagt, \"Ich kenne einige ~Ibesonders gute~I Lieder über "
+   "Akardius, aber ich muss aufpassen, wo und wann ich sie singe.\""
+minstrel_random_005 = de \
+   "~kParrin sagt, \"Wir wissen beide, dass Satire heilig ist, und dass "
+   "humorvolle Äußerungen vor niemandem Halt machen sollten. Und trotzdem "
+   "gibt es hier ein paar dünnhäutige Personen, die ausgesprochen sauer "
+   "werden könnten über das neueste Lied, das ich über die Prinzessin "
+   "geschrieben habe.\""
+minstrel_random_006 = de \
+   "~kParrin sagt, \"Ich... nun, ich LIEBE die Welt!! Jawohl!! Ich LIEBE "
+   "Dich einfach, große alte Welt!!!\""
+minstrel_random_007 = de "~kParrin schreit, \"Yieeeee, hau!!\""
+minstrel_random_008 = de \
+   "~kParrin singt, \"~IJala, Jala, geliebte Jala, - ich finde kein Wort, "
+   "das sich reimt auf Jala! - Jala, Jala, herrliche Jala. - Es wäre nicht "
+   "so schwer, - wenn Dein Name anders wär: - Ich würde ihn singen - und "
+   "Blumen Dir bringen - und Dein herrliches Lied - schwingt überall mit. - "
+   "Ich sing' es hier, am Spalier - vor der Tür, einzig nur für - Jala, wär "
+   "ich bei Dir~I!\""
+minstrel_random_009 = de \
+   "~kParrin trällert, \"~IIn Barloque waren, man glaubt es nicht, - eines "
+   "Tages die Kanäle dicht. - Es strömten die Ratten in Scharen heraus! - "
+   "Sie sind schnell gerannt - durch Stadt und durch Land, - und machten "
+   "harmlosen Leuten den Garaus. - Oh, die Ratten von Barloque, welche "
+   "Provokation, - wo bleiben die Katzen aus Marion?~I\""
+minstrel_random_010 = de \
+   "~kParrin tönt, \"~IEs war einmal vor langer Zeit, - man schrieb "
+   "dreihundert-fünf-zehn, - waren Tos und Barloque zum Krieg bereit - und "
+   "ließen die Waffen seh'n! - War es wegen Land, um das Sagen zu haben - "
+   "oder weil wer im Spiel gewann? - Sie kämpfen noch heute das gleiche "
+   "Gefecht, - niemand weiß, warum es begann. - Immer noch, immer noch, "
+   "immer noch, - immer noch streiten sie wild. Immer noch, immer noch, "
+   "immer noch, - immer noch, obwohl es nichts zu kämpfen gilt!~I\""
+minstrel_random_011 = de \
+   "~kParrin bricht plötzlich in Geschmetter aus, \"~IWogga wogga wogga "
+   "wheeee, wogga wogga wogga wogga! Whieee wogga whieeeeee wogga "
+   "woggawoggawogga! Whieeeeeeeeeee!~I\""
+minstrel_random_012 = de "~kParrin schaut sich hoffnungsvoll um."
+minstrel_random_013 = de "~kParrin sagt, \"Ach, das Leben eines Stars.\""
+minstrel_random_014 = de \
+   "~kParrin sagt, \"Selbstverständlich habe ich ein künstlerisches "
+   "Temperament. Ich... neige zu kreativen Anfällen und launischen "
+   "Ausbrüchen.\""
+minstrel_random_015 = de \
+   "~kParrin verfügt offenbar nicht über viel Rhythmusgefühl."
+minstrel_random_016 = de \
+   "~kParrin singt gefühlvoll, \"~IOh, hast Du mal gehört vom einsamen Yeti, "
+   "- weit draußen im gefrorenen Eise? - Sein Fell ist ganz rau und wie "
+   "weißes Konfetti. - Weichlinge erledigt er vorzugsweise! - Oh, der Yeti, "
+   "der Yeti, der einsame Yeti, - hält stolz die Wacht auch wenn es taut. - "
+   "Oh, der Yeti, der Yeti, der einsame Yeti, - wartet auf eine haarige "
+   "Braut!~I\""
+minstrel_random_017 = de \
+   "~kParrin trällert, \"~IWenn ich ein Ork wär, - wär ich für das Bankett "
+   "viel zu ordinär, - ja wenn ich ein Ork wär, - dann dürfte ich nicht "
+   "rein! - Und wenn ich ein Troll wär, - wäre Skivlat nicht mein Sekretär, "
+   "- ja wenn ich ein Troll wär, - dann dürfte ich nicht rein! - Der Herzog "
+   "mag die Monster nicht, - nicht auf Parties und nicht am selben Tische, - "
+   "ja der Herzog ist ein großes Licht. - Orks und Trolle sind nur kleine "
+   "Fische~I!\""
+minstrel_random_018 = de \
+   "~kParrin sagt, \"Du hast das richtige Gesicht fürs Showbusiness!\""
+minstrel_random_019 = de \
+   "~kParrin sagt, \"Ich bitte alle Anwesenden, mit dem Applaus zu warten, "
+   "bis ich das Lied zu Ende gesungen habe.\""
+minstrel_random_020 = de "~kParrin sagt, \"Und als Nächstes... \""
+minstrel_random_021 = de \
+   "~kParrin singt, \"~IDie Arena von Tos ist fünf Meilen lang, doo dah, doo "
+   "dah... ~I\""
+minstrel_random_022 = de \
+   "~kParrin gibt sein Bestes, um einen primitiven Steptanz aufzuführen. Es "
+   "ist zum Heulen."
+minstrel_random_023 = de \
+   "~kParrin Aragone summt ein paar Takte von irgendwas und versucht "
+   "krampfhaft, sich an die Worte zu erinnern."
+minstrel_random_024 = de "~kParrin Aragone pfeift ein Seemannslied."
+minstrel_random_025 = de "~kParrin Aragone tanzt einen kleinen Freudentanz."
+minstrel_random_026 = de \
+   "~kParrin schmachtet, \"~IPKs haben meinen Schatz geholt, - mein Schatz "
+   "ist nicht mehr hier. - Ich werde in die Kanäle gehen, - muss stillen "
+   "meine Gier. - Heut' jage ich PKs, - heut' jage ich PKs, hoho. - Den "
+   "roten so-und-so - werd' ich mir holen - und ihn nicht nur gebührend "
+   "versohlen.~I\""
+minstrel_random_027 = de \
+   "~kParrin trällert, \"~IDas Pilzwesen singt nur wooo, wooo, wooo! - Das "
+   "Pilzwesen singt nur wooo, wooo, wooo! - Jeder weiß, dass das Pilzwesen "
+   "singt, - singen von Dir und immerzu. - Denn wir leben mit dem Pilzwesen "
+   "- und das Pilzwesen mit uns. - Alle müssen mit dem Pilzwesen leben, - "
+   "und das Pilzwesen möchte, - dass wir ihm die Freiheit geben!~I\""
+minstrel_random_028 = de \
+   "~kParrin singt, \"~IIm tiefen Wald, im tiefen Wald - such ich die "
+   "Spinnenkönigin. - Überall such ich sie und es ist so kalt, - wenn ich "
+   "sie hab, dann ist sie hin! - Sie wacht über einen Schatz, oh, yeah. - "
+   "Wacht über Schatz, oh yeah! - Woo, wir werden reich, Du wirst sehen - "
+   "und lassen es uns gut ergehen!~I\""
+minstrel_random_029 = de \
+   "~kParrin singt, \"~IUh la la, uh la lei, - ich ziehe los in Marion und "
+   "suche nach dem Fey. - Uh la la, uh la lab, - man sagt, sie seien böse, "
+   "da warten wir mal ab. - Hast Du den kleinen Fey geseh'n? - So niedlich "
+   "sah er aus. - Er schwebt auf Flügeln hin und her, - da wird schon nichts "
+   "gescheh'n. - Uh, wer nimmt da schon Reißaus?~I\""
+minstrel_random_030 = de "~kParrin sagt, \"Ich möchte jetzt allein sein.\""
+minstrel_random_031 = de \
+   "~kParrin verfällt in einen Zustand künstlerischer Langeweile und sorgt "
+   "dafür, dass jeder es mitkriegt."
+minstrel_random_032 = de "~kParrin grübelt und sieht elend aus."
+minstrel_random_033 = de \
+   "~kParrin sagt, \"Sieh mal, Du glaubst, es ist einfach, ein Musiker zu "
+   "sein? Tag für Tag meine Seele für euch Leute auszuschütten, Nacht für "
+   "Nacht mit jeder künstlerischen Faser meines Selbst darum zu kämpfen, "
+   "euch zu erreichen, in euch einzudringen und zärtlich eine Saite oder "
+   "eine Erinnerung anzuzupfen? NUN, IST ES ABER NICHT!!! Ich weiß nicht, ob "
+   "ich das länger ertragen kann! Du deprimierst mich.\""
+minstrel_random_034 = de "~kParrin ist sichtlich eingeschnappt."
+minstrel_random_035 = de \
+   "~kParrin sagt, \"Meine Seele leidet Qualen! Könnt ihr Leute das nicht "
+   "sehen?\""
+minstrel_random_036 = de \
+   "~kParrin seufzt schwer und setzt sein bestes Hohnlächeln auf."
+minstrel_random_037 = de \
+   "~kParrin singt, \"~IQ ist ein mächtiger Schöpfer von Ländern, mehr als "
+   "die Hälfte davon schufen seine mächtigen, mächtigen Hände, und wenn "
+   "Zjiria Ja sagt, sagt er ein mächtiges Nein und rettet uns vor ihren "
+   "verrücktesten Plänen.~I\""
+minstrel_random_038 = de \
+   "~kParrin singt, \"~IArantis ist der Wächter über dieses große Land, er "
+   "wacht darüber mit seiner mächtigen Hand. Gronkh kam mit verrückten "
+   "Plänen, entlockte ihm aber nur müdes Gähnen. Er wies ihn sofort in seine "
+   "Schranken, rettete uns so vor blöden Gedanken~I.\""
+minstrel_trigger_sell = de "verkauf"
+minstrel_trigger_crypt = de "gruft"
+minstrel_trigger_crypt_2 = de "krypta"
+minstrel_trigger_duke = de "herzog"
+minstrel_trigger_freebird = de "freiheit"
+minstrel_trigger_hello = de "hallo"
+minstrel_trigger_help = de "hilfe"
+minstrel_trigger_learn = de "lernen"
+minstrel_trigger_node = de "quelle"
+minstrel_trigger_princess = de "prinzessin"
+minstrel_trigger_sad_panda = de "trauriger panda"
+minstrel_trigger_sad_panda_2 = de "traurigen panda"
+minstrel_trigger_buy = de "kaufen"
+minstrel_trigger_truth = de "wahrheit"
+minstrel_trigger_illusions = de "illusionen"
+
+// Towns
+towns_speech_001 = de \
+   "~kEs wird still im Raum, als %s von einem verkümmerten Zwerg redet."
+towns_trigger_stunted_dwarf = de "verkümmerten zwerg"
+towns_trigger_stunted_dwarf_2 = de "verkümmerter zwerg"
+towns_trigger_stunted_dwarf_3 = de "verkümmerte zwerg"

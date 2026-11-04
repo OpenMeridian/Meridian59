@@ -1,0 +1,2058 @@
+// Meridian 59, Copyright 1994-2012 Andrew Kirmse and Chris Kirmse.
+// All rights reserved.
+//
+// This software is distributed under a license that is described in
+// the LICENSE file that accompanies it.
+//
+// Meridian is a registered trademark.
+
+
+////////////////////////////////////////////////////////////////////////////////
+NpcSpeechMarion is NpcSpeech
+// NPC talk of Marion:
+// answers to trigger words and random lines.
+// Each line is a resource (EN here, DE in the .lkod); Library adds the
+// lists in CreateSpeechLibrary and CreateRandomLibrary.
+
+constants:
+
+   include blakston.khd
+
+resources:
+
+   include npcspmarion.lkod
+
+   // MarionBartender (Tova)
+   marionbartender_speech_001 = \
+      "~kTova says, \"Barloque is in the north, and claims itself the Royal "
+      "City of Meridian. But I try not to knock the rich. I never got a job "
+      "from a poor person, don't you know!\""
+   marionbartender_speech_002 = \
+      "~kTova says without looking at you, \"What, are you still here?\""
+   marionbartender_speech_003 = \
+      "~kTova says, \"I have heard that ~Ihis Majesty the King~I is ~Iin the "
+      "sanctuary~I, under the care of ~ILady Aftyn~I!! They say that soon he "
+      "will be fit again to rule, %s!! Oh, blessed saints, oh glorious "
+      "day!!\""
+   marionbartender_speech_004 = "~kTova says, \"May you fare well, %s.\""
+   marionbartender_speech_005 = "~kTova says, \"Don't bother coming back.\""
+   marionbartender_speech_006 = \
+      "~kTova says, \"Cor Noth now, is just a step behind the rest of us. "
+      "You see, they've got their heads in the clouds and their feet are not "
+      "on the ground. Aye, but it's a fine place, and do they love to talk "
+      "%s! Did you hear the one about how years ago, Tos and Barloque went "
+      "to war? Well, Tos and Barloque had some silly dispute, and their "
+      "pride to boot, and neither city would move an inch to meet the other. "
+      "Finally, without any hope of negotiations they figured the only "
+      "resort was to start a war between themselves. The next day, Cor Noth "
+      "surrendered! Ha, ha, ha, ha!!\""
+   marionbartender_speech_007 = \
+      "~kTova says without looking at you, \"What, are you still here?\""
+   marionbartender_speech_008 = \
+      "~kTova says, \"Yes, well the council... you will hear a lot of talk "
+      "about the council, but not in Marion. We stay out of the politics and "
+      "intrigue here, %s.\""
+   marionbartender_speech_009 = \
+      "~kTova says, \"Watch yourself! I hear those that prey on others hunt "
+      "there.\""
+   marionbartender_speech_010 = \
+      "~kTova says, \"Who was the fool that opened that sacred resting "
+      "place? Probably some fool looking for treasure.\""
+   marionbartender_speech_011 = \
+      "~kTova says, \"I hear Akardius has taken well to his uncle's duties. "
+      "How convenient.\""
+   marionbartender_speech_012 = "~kTova says, \"I guess he got his...\""
+   marionbartender_speech_013 = \
+      "~kTova says, \"No offense intended, but my religion is right here in "
+      "my mug, %s. How about I pour you a pint of salvation?\""
+   marionbartender_speech_014 = \
+      "~kTova says, \"Ah fate, aye, fate plays a big part in every life, "
+      "from birth on.\""
+   marionbartender_speech_015 = \
+      "~kTova says, \"Aye, the wee things are a sight to see all right! "
+      "Myself and Morrigan went up north there to get a look for ourselves, "
+      "didn't we Morrigan? Unpredictable though, I'm not ashamed to say we "
+      "turned and ran when the little buggers turned nasty on us! You should "
+      "have seen us coming out of those woods!\""
+   marionbartender_speech_016 = \
+      "~kTova shouts, \"Come in, my friend. What took you so long to get "
+      "here?\""
+   marionbartender_speech_017 = \
+      "~kTova says, \"Ah, good evening %s. Look who's here, Morrigan!\""
+   marionbartender_speech_018 = \
+      "~kTova says, \"Aye, come in, come in, let's get you something to warm "
+      "up your bones now.\""
+   marionbartender_speech_019 = \
+      "~kTova says, \"It's a fine evening %s, sure it is.\""
+   marionbartender_speech_020 = \
+      "~kTova says, \"And a good day to you, %s! Can I get you something to "
+      "drink, or perhaps a bite of food?\""
+   marionbartender_speech_021 = \
+      "~kTova says, \"Good day there. What will you have, %s?\""
+   marionbartender_speech_022 = "~kTova says, \"Ah, hello there %s.\""
+   marionbartender_speech_023 = \
+      "~kTova sneers, \"What are they flushing out of the sewers of Barloque "
+      "now, Morrigan? Look what the cat dragged in.\""
+   marionbartender_speech_024 = \
+      "~kTova says, \"And who are you? Get out, we don't have what you "
+      "need.\""
+   marionbartender_speech_025 = \
+      "~kTova says, \"No offense intended, but my religion is right here in "
+      "my mug, %s. How about I pour you a pint of salvation?\""
+   marionbartender_speech_026 = \
+      "~kTova says, \"Oh, yes, it's to the south of here and up high in the "
+      "mountains. The people up there are their own sort, fierce and "
+      "independent %s. Not the type you want to pick a fight with.\""
+   marionbartender_speech_027 = \
+      "~kTova says without looking at you, \"What, are you still here?\""
+   marionbartender_speech_028 = \
+      "~kTova says, \"Hush now Morrigan, you know better than that. It's "
+      "best not to speak so with all these people here.\""
+   marionbartender_speech_029 = \
+      "~kTova says, \"No offense intended, but my religion is right here in "
+      "my mug, %s. How about I pour you a pint of salvation?\""
+   marionbartender_speech_030 = \
+      "~kTova says, \"They say that she is of nobility, from Barloque, and "
+      "that her husband left her a fortune after he passed on %s. Aye, they "
+      "also say that the fortune is right here in Marion with her, at the "
+      "asylum.\""
+   marionbartender_speech_031 = \
+      "~kTova says, \"She is a saint. An absolute saint. Bless her heart.\""
+   marionbartender_speech_032 = \
+      "~kTova says, \"Marion? Well, you're looking at it my friend, unless "
+      "you need a shovel mended or the counsel of an ancient madman.\""
+   marionbartender_speech_033 = \
+      "~kTova says, \"If you want to see a color paler than white, just look "
+      "at her skin! HAHA.\""
+   marionbartender_speech_034 = \
+      "~kTova says, \"I didn't tell you this, but she has a tiny god that "
+      "she keeps in her pockets.\""
+   marionbartender_speech_035 = \
+      "~kTova says, \"Joking aside, I'd rather someone did something about "
+      "that girl. It just sends a chill down my spine when I think what she "
+      "could do with all that power.\""
+   marionbartender_speech_036 = \
+      "~kTova says, \"I don't know about you, but that girl-child gives me "
+      "goosebumps. There's just something not right about her.\""
+   marionbartender_speech_037 = \
+      "~kTova says, \"She is a danger, plain and simple, there's no other "
+      "way to put it, no matter what the others say.\""
+   marionbartender_speech_038 = \
+      "~kTova says, \"What is as full as it can be, but not as full as it "
+      "could be? Your mana after you've tangled with Miriana! Hah, haha...\""
+   marionbartender_speech_039 = \
+      "~kTova says, \"What is paler than pale? Your face after you've seen "
+      "one of Miriana's creatures. HAH!\""
+   marionbartender_speech_040 = \
+      "~kTova looks you over, \"Have you tangled with Miriana or one of her "
+      "creatures once or twice? You look like death warmed over.\""
+   marionbartender_speech_041 = \
+      "~kTova says, \"No offense intended, but my religion is right here in "
+      "my mug, %s. How about I pour you a pint of salvation?\""
+   marionbartender_speech_042 = \
+      "~kTova says, \"All in good time, my friend. When the king calls upon "
+      "us, Marion will answer in kind.\""
+   marionbartender_speech_043 = \
+      "~kTova says, \"No offense intended, but my religion is right here in "
+      "my mug, %s. How about I pour you a pint of salvation?\""
+   marionbartender_speech_044 = \
+      "~kTova says, \"I still play, front row, loose-head prop for Marion. I "
+      "love a good ruck more than anything, especially if one of the Tos "
+      "centers is at the bottom. If it's on the field, it's grass is what I "
+      "say. Ha, ha ha ha ha ha!\""
+   marionbartender_speech_045 = \
+      "~kTova says, \"I have heard that ~Ihis Majesty the King~I is ~Iin the "
+      "sanctuary~I, under the care of ~ILady Aftyn~I!! They say that soon he "
+      "will be fit again to rule, %s!! Oh, blessed saints, oh glorious "
+      "day!!\""
+   marionbartender_speech_046 = \
+      "~kTova says, \"This is a tavern, my friend. It's not too "
+      "complicated.\""
+   marionbartender_speech_047 = \
+      "~kTova says, \"You'd be better asking the Good Lady Aftyn about "
+      "Shal'ille. She is versed in the ways, and such a kind soul.\""
+   marionbartender_speech_048 = \
+      "~kThe room goes silent as %s mentions stunted dwarf."
+   marionbartender_speech_049 = \
+      "~kTova says, \"By the Holy Martyrs, it's a miserable place. Aye, take "
+      "my advice on this, %s. I spent a fair piece of my youth there, and "
+      "I'll never go back. The people of Tos are so lazy, they can't even "
+      "exercise their discretion!\""
+   marionbartender_speech_050 = \
+      "~kTova says, \"Tos is a town with little cheer, and let me warn you "
+      "about the public house there, %s. The innkeeper Paddock is a "
+      "muddy-headed liar, as likely to swindle you down as offer you a beer. "
+      "He's the type of man who never exaggerates his accomplishments, but "
+      "he tries his best. You know, the type of man that would belittle his "
+      "inferiors, if he could find any. Ha, ha, ha, ha!!!\""
+   marionbartender_speech_051 = \
+      "~kTova says, \"A pox on that town. Why don't you take your business "
+      "elsewhere, stranger, because you're not welcome here. Out with you!\""
+   marionbartender_speech_052 = \
+      "~kTova says without looking at you, \"What, are you still here?\""
+   marionbartender_speech_053 = \
+      "~kTova says, \"Yes, there are treefolk in these parts, a kind and "
+      "legendary creature that keep very much among themselves. The elders "
+      "of Marion speak of their wisdom and intelligence, but they keep "
+      "entirely to themselves now. It is said that something terrible "
+      "happened to them in the past, isolating them to this day.\""
+   marionbartender_speech_054 = \
+      "~kTova says, \"Troll Whiskey? You have some? Hey Morrigan, get the "
+      "good glasses down from the shelf and dust them off!\""
+   marionbartender_speech_055 = \
+      "~kTova says, \"You ask the people in Jasper how they feel about The "
+      "Wryn's Keep, that thief Frular of Barloque renting it out like a "
+      "common grange hall... why that's their ancestral capitol, and in the "
+      "heart of everyone from Jasper!\""
+   marionbartender_speech_056 = \
+      "~kTova says, \"Aye, it's an old fortress outside of Jasper, and the "
+      "traditional capital of the mountain kingdom of old. It is said that a "
+      "half-hundred good fighters could hold the Cragged Mountains against "
+      "an army if they hold The Wryn's Keep.\""
+   marionbartender_speech_057 = \
+      "~kTova says, \"Wulfgang? You must mean the same Wulfgang that I know. "
+      "I'll drink to that devil.\""
+   marionbartender_speech_058 = \
+      "~kTova amiably says, \"Now I don't know what you might be talking "
+      "about there.\""
+   marionbartender_speech_059 = \
+      "~kTova hisses, \"Those black-hearted thugs, sneaking around and "
+      "spying on innocent folk... they should be hunted down like wild dogs "
+      "and put on the gallows with their black-hearted master, the Duke.\""
+   marionbartender_speech_060 = \
+      "~kTova says, \"Some things are better left unsaid, and I'll tell you "
+      "this on your way out of me bar, that black name is one of them.\""
+   marionbartender_random_001 = \
+      "~kTova says, \"Aye, the hotel rooms in Barloque may look small, but "
+      "it's only because the rats are so big. It must be the rich diet, "
+      "don't you think, Morrigan?\""
+   marionbartender_random_002 = \
+      "~kTova says, \"Lady Aftyn now, is a newcomer to this town. She is a "
+      "real Lady, and I won't tolerate any bad talk of her in here. She "
+      "helps those that are in need... the sick, wretched, the injured, and "
+      "the impoverished.\""
+   marionbartender_random_003 = \
+      "~kTova says, \"Paddock is the type of guy who started out in life at "
+      "the bottom... and then sank.\""
+   marionbartender_random_004 = \
+      "~kTova recites, \"Fams is the tavern in Tos Where the paths of all "
+      "Meridian cross, but when you go there you'll wonder just who made the "
+      "blunder and made the village idiot the boss!\""
+   marionbartender_random_005 = \
+      "~kTova says, \"Ah, there's nothing wrong with Paddock that "
+      "reincarnation won't fix.\""
+   marionbartender_random_006 = \
+      "~kTova says, \"That Paddock never did a thing in his life, and even "
+      "that he hasn't done well.\""
+   marionbartender_random_007 = \
+      "~kTova says, \"A fella I know told Paddock he should just try to be "
+      "himself. Isn't that terrible advice? Ha, ha, ha, ha!!\""
+   marionbartender_random_008 = \
+      "~kTova says, \"Ah sure, everybody loves Paddock, and so does he.\""
+   marionbartender_random_009 = \
+      "~kTova says, \"I heard Paddock was trying to hire a dwarf to help him "
+      "behind the bar... he thinks it will make the drinks look bigger!\""
+   marionbartender_random_010 = \
+      "~kTova says, \"Did you hear about the man from Marion, an honest "
+      "farmer now, who was stabbed thirty-five times in his own home? Aye, "
+      "he was only learning to eat with a fork!\""
+   marionbartender_random_011 = \
+      "~kTova has a mug, and takes a sip occasionally."
+   marionbartender_random_012 = \
+      "~kTova says, \"So this adventurer walks into the tavern, he wants to "
+      "know where he can find a troll. I says, well, depends on where you "
+      "left him! Ha, ha, ha, ha!!\""
+   marionbartender_random_013 = \
+      "~kTova says, \"No, but in fairness now, if you want to improve your "
+      "skills at combat, you'd do best to pick a fight that you'll have ~I "
+      "some ~I trouble finishing.\""
+   marionbartender_random_014 = \
+      "~kTova says, \"When you're feeling a little worn out, you can be sure "
+      "you'll be welcome at The Limping Toad, %s. I think you'll find an inn "
+      "or a tavern is the place to rest up.\""
+   marionbartender_random_015 = \
+      "~kTova says, \"If you're new to the business of fighting monsters, "
+      "then you'd best stick to battling those beasties that are within your "
+      "abilities. Aye, many young adventure types hunt the rats, and the "
+      "baby spiders.\""
+   marionbartender_random_016 = \
+      "~kTova says, \"Marion may be a slow kind of place, but we remember "
+      "what's important and keep our houses in order. It always pays to be "
+      "respectful to those you meet, and you will learn important lessons "
+      "that will help to guide you.\""
+   marionbartender_random_017 = \
+      "~kTova says, \"I've heard that the temples serving the four gods are "
+      "remote, but that they are accessible to the devoted. In truth the "
+      "temple of Shal'ille is close to this town, and many a pilgrim stops "
+      "in my little tavern for a little... fortification... on their way to "
+      "see the priestess.\""
+   marionbartender_random_018 = \
+      "~kTova says, \"Gather up interesting things along the trail, you can "
+      "never tell what may draw a shilling or two in town, %s. Morrigan "
+      "there may even be interested, for he peddles all sorts of nonsense "
+      "back there in his nook. Isn't that right, Morrigan?\""
+   marionbartender_random_019 = \
+      "~kTova says, \"If it's the fighting you're curious about now, why "
+      "then go see Rook up in Cor Noth. He was a great officer in the King's "
+      "Army, %s, and a hero to many of us. He makes his living now by "
+      "training those that live and die by the sword.\""
+   marionbartender_random_020 = \
+      "~kTova says, \"Watch for the living trees in these parts, for they "
+      "are a wonder indeed. But do not harm them... it is bad luck and "
+      "misfortune upon those that do.\""
+   marionbartender_random_021 = \
+      "~kTova says, \"Watch your step in the mountains. The paths up there "
+      "are treacherous, and overrun with every kind of evil beast %s.\""
+   marionbartender_random_022 = \
+      "~kTova says, \"Colhorr, now, in fairness... he's a competent "
+      "blacksmith, %s, and may have a few items that would draw your eye. "
+      "Aye, but he's deaf as a post from hitting that anvil longer than you "
+      "and I have been in breeches, so speak clearly when you talk to him.\""
+   marionbartender_random_023 = \
+      "~kTova says, \"This is a great life in Marion, %s, I learn more than "
+      "you might suspect from serving the locals and the passers through. "
+      "Aye, and sometimes enjoy a pint or two myself.\""
+   marionbartender_random_024 = \
+      "~kTova says, \"You know the recipe for making chicken soup in Jasper? "
+      "Well now first thing, you steal two chickens...\""
+   marionbartender_random_025 = \
+      "~kTova says, \"On the other hand, you have different fingers. Ha, ha, "
+      "ha, ha!! Different fingers!! Get it Morrigan? Ha, ha, ha, ha, ha!!\""
+   marionbartender_random_026 = \
+      "~kTova says, \"Good %s, did you know the people of Marion invented "
+      "the wheelbarrow? Aye, well, then they gave the design to the good "
+      "folk of Jasper, to teach them to walk upright...\""
+   marionbartender_random_027 = \
+      "~kTova says, \"A farmer from Marion is lying in bed next to his wife. "
+      "He tells her 'Dear wife, I've got terrible insomnia.' 'Well,' she "
+      "says 'If you go to sleep, it won't bother you.' Ha, ha, ha, ha!!\""
+   marionbartender_random_028 = \
+      "~kTova says, \"I knew this fella from Jasper who never had a shilling "
+      "to his name... so he changed his name!\""
+   marionbartender_random_029 = \
+      "~kTova says, \"Aye, I know another fella from Tos, who is so lazy he "
+      "can sleep twenty-four hours a day. The only trouble is, he sleeps "
+      "thirty hours a day.\""
+   marionbartender_random_030 = \
+      "~kTova says, \"And this woman I know from Tos, known her all my life, "
+      "I swear to the blessed saints. She is ~Iso~I lazy she could become a "
+      "landmark! By the gods, there's nothing else of interest to see in "
+      "that wretched place! Ha, ha, ha, ha, ha!!\""
+   marionbartender_random_031 = \
+      "~kTova says, \"Good %s, I heard about a fella from Tos who was so "
+      "lazy, that he died at twenty-five and no one figured it out until he "
+      "was fifty!\""
+   marionbartender_random_032 = \
+      "~kTova says, \"I've got this brother-in-law, can't keep a shilling to "
+      "his name. He borrows so much money from me, at night my wife goes "
+      "through HIS pockets!\""
+   marionbartender_random_033 = \
+      "~kTova says, \"Good %s, did you hear about the Lady in Barloque, men "
+      "always wanted her hand in marriage. The problem is that they had to "
+      "take the rest of her too! Ha, ha, ha, ha!!\""
+   marionbartender_random_034 = \
+      "~kTova says, \"I know an old man here in Marion, a bit simple like "
+      "many of the others in these parts. But you've got to give him this... "
+      "he'll never be too old to learn a few new ways to be stupid!\""
+   marionbartender_random_035 = \
+      "~kTova says, \"This fella passed through the tavern a while back, and "
+      "Morrigan told me afterward that he was an outlaw. Said he's a wanted "
+      "man in Barloque. So I asked Morrigan, now why do you think they would "
+      "want any more thieves in Barloque? Ha, ha, ha, ha!!\""
+   marionbartender_random_036 = \
+      "~kTova says, \"Before we were married, my wife would always complain, "
+      "'You're only after one thing.' Aye, now I've forgotten what it was. "
+      "Ha, ha, ha, ha!!\""
+   marionbartender_random_037 = \
+      "~kTova says, \"Two Ladies from Barloque are talking. One Lady says "
+      "'How do you keep your youth?' The other Lady says, 'Well, I lock him "
+      "in the closet!' Ha, ha, ha, ha!\""
+   marionbartender_random_038 = \
+      "~kTova says, \"I got one for you. What's the difference between a "
+      "woman from Cor Noth and an Orc? About forty pounds and a scimitar!\""
+   marionbartender_random_039 = \
+      "~kTova says, \"A man hereabouts went to the healer, only to find out "
+      "he had but six months left to live. The healer now, she suggested "
+      "that he sell his house in Marion, and move to Cor Noth. So the man "
+      "says 'Will that help me live longer?' 'No,' the healer says, 'but it "
+      "will certainly seem longer!'\""
+   marionbartender_random_040 = "~kTova winks at Morrigan good-naturedly."
+   marionbartender_random_041 = \
+      "~kTova says, \"I hear the Princess said that civilization in Barloque "
+      "will last ten thousand years. She forgot to tell us when it's going "
+      "to begin. Ha, ha, ha, ha!\""
+   marionbartender_random_042 = \
+      "~kTova says, \"So this farmer walks into the tavern here, and asks me "
+      "what time it is. I tell him it's four-fifteen. He narrows his eyes "
+      "looking at me and says 'I must be going crazy, Tova. All day long "
+      "I've been getting different answers!' Ha, ha, ha, ha!\""
+   marionbartender_random_043 = \
+      "~kTova says, \"I got another one. What's the difference between a "
+      "woman from Cor Noth and a cow? Cows don't wear headscarves! Ha ha "
+      "ha!\""
+   marionbartender_random_044 = \
+      "~kTova says, \"Nodes? I don't node nothing about nodes. How about "
+      "you, Morrigan? Do you node about nodes? Ha, ha, ha, ha!!\""
+   marionbartender_random_045 = \
+      "~kTova says, \"Did you folks see Ran er'Hoth on the way into town? "
+      "Crazy as a march hare, that man, aye but that's a different story "
+      "now. Many of the people passing through Marion stop in on him, ha, "
+      "ha, and seek his wisdom!\""
+   marionbartender_random_046 = \
+      "~kTova says, \"I spent some time in Tos, and I'll tell you now, it's "
+      "a place that hides from its own evil intentions. Ignorant, lazy "
+      "people. Why, even the dead are restless, and rise from the ground to "
+      "haunt the graveyard! Aye, it's true!\""
+   marionbartender_random_047 = \
+      "~kTova says, \"Keep the noise down over there, or you'll find "
+      "yourselves on the street!\""
+   marionbartender_random_048 = \
+      "~kTova grumbles, and busies himself cleaning glasses."
+   marionbartender_trigger_barloque = "barloque"
+   marionbartender_trigger_blessed = "blessed"
+   marionbartender_trigger_bye = "bye"
+   marionbartender_trigger_cor_noth = "cor noth"
+   marionbartender_trigger_council = "council"
+   marionbartender_trigger_crypt = "crypt"
+   marionbartender_trigger_duke = "duke"
+   marionbartender_trigger_faren = "faren"
+   marionbartender_trigger_fate = "fate"
+   marionbartender_trigger_fey = "fey"
+   marionbartender_trigger_hello = "hello"
+   marionbartender_trigger_jala = "jala"
+   marionbartender_trigger_jasper = "jasper"
+   marionbartender_trigger_kalior = "kalior"
+   marionbartender_trigger_kraanan = "kraanan"
+   marionbartender_trigger_lady_aftyn = "lady aftyn"
+   marionbartender_trigger_marion = "marion"
+   marionbartender_trigger_miriana = "miriana"
+   marionbartender_trigger_node_attack = "node attack"
+   marionbartender_trigger_qor = "qor"
+   marionbartender_trigger_revolution = "revolution"
+   marionbartender_trigger_riija = "riija"
+   marionbartender_trigger_rugby = "rugby"
+   marionbartender_trigger_sanctuary = "sanctuary"
+   marionbartender_trigger_king = "king"
+   marionbartender_trigger_sell = "sell"
+   marionbartender_trigger_buy = "buy"
+   marionbartender_trigger_shal_ille = "shal'ille"
+   marionbartender_trigger_sha_lill = "sha-lill"
+   marionbartender_trigger_stunted_dwarf = "stunted dwarf"
+   marionbartender_trigger_tos = "tos"
+   marionbartender_trigger_treefolk = "treefolk"
+   marionbartender_trigger_whiskey = "whiskey"
+   marionbartender_trigger_wryn_s = "wryn's"
+   marionbartender_trigger_wryn_s_2 = "wryn's"
+   marionbartender_trigger_wryn_s_3 = "wryn's"
+   marionbartender_trigger_wulfgang = "wulfgang"
+   marionbartender_trigger_zig = "zig"
+
+   // MarionBlacksmith (Colhorr)
+   marionblacksmith_speech_001 = \
+      "~kColhorr says, \"Broke? What's broke? Let's have a look, maybe I can "
+      "fix it.\""
+   marionblacksmith_speech_002 = \
+      "~kColhorr says, \"Ah, well... it's a fair city, grand actually. Aye "
+      "it's a grand city, certainly grand, grand grand grand capital of "
+      "Meridian.\""
+   marionblacksmith_speech_003 = \
+      "~kColhorr says, \"Yes, well, good bye now.\""
+   marionblacksmith_speech_004 = "~kColhorr mumbles something to himself."
+   marionblacksmith_speech_005 = \
+      "~kColhorr says, \"Centipede? Well, I know that they look awful, but "
+      "in fairness now they are quite harmless if you let them be.\""
+   marionblacksmith_speech_006 = \
+      "~kColhorr says, \"What? East Tos? East Tos, uh... aye, well, Tos is "
+      "east of here, through Ileria, that's a valley. To the east. Just "
+      "east, actually. But aye, it's east. East. And the bank's there, "
+      "sure.\""
+   marionblacksmith_speech_007 = \
+      "~kColhorr says, \"Council? Uh, that doesn't ring any bells.\""
+   marionblacksmith_speech_008 = \
+      "~kColhorr shivers and says, \"That crypt scares me silly.\""
+   marionblacksmith_speech_009 = \
+      "~kColhorr says, \"In Marion? No, no, there's no Duke in Marion. But "
+      "there is a Lady, and what a kind soul she is, indeed. A real Lady. "
+      "She lives to help the unfortunate, Marion's own saint.\""
+   marionblacksmith_speech_010 = \
+      "~kColhorr says, \"Yes? Oh, hello there, hello... \""
+   marionblacksmith_speech_011 = "~kColhorr says, \"Yes?\""
+   marionblacksmith_speech_012 = \
+      "~kColhorr says, \"Huh? I thought I told you you're not welcome here.\""
+   marionblacksmith_speech_013 = \
+      "~kColhorr says, \"What do you need help with? This is a simple place, "
+      "not too difficult to figure out, so I can't see where you'd need help "
+      "with that. Aye, there's plenty I could teach you, you bet, but you "
+      "certainly don't need my help to get around Marion.\""
+   marionblacksmith_speech_014 = \
+      "~kColhorr says, \"Of course it's hot! You think I don't know it's hot "
+      "in here? I KNOW it's hot in here. You don't need to tell me it's hot "
+      "in here, after thirty-five years at this forge, I know exactly how "
+      "hot it is in here. Humpf. Hot.\""
+   marionblacksmith_speech_015 = \
+      "~kColhorr says, \"Jasper? No, no you must be lost, %s. You're in "
+      "MARION... that's right, MARION, M-A-R-I-O-N.\""
+   marionblacksmith_speech_016 = \
+      "~kColhorr says, \"Aye, indeed this is Marion. That's exactly where "
+      "you are. What can I do for you %s?\""
+   marionblacksmith_speech_017 = \
+      "~kColhorr says, \"What? Mimes? Where? And how many?\""
+   marionblacksmith_speech_018 = \
+      "~kColhorr says, \"What? Mimes? Where? And how many?\""
+   marionblacksmith_speech_019 = \
+      "~kColhorr says, \"Goodness, you're better off staying away from the "
+      "orcs altogether. Foul creatures, sworn enemies of all people. Why I "
+      "remember a day when armies were raised to hunt them down and smash "
+      "them completely. Aye, I've seen some of the weapons that those orcs "
+      "make. Oh boy. Impressive. Scimitars with a blade as long as your "
+      "arm.\""
+   marionblacksmith_speech_020 = \
+      "~kColhorr says, \"Shirtless? Well, I know it's not proper, but I put "
+      "on my shirt whenever I go out of my shop! It's the heat from my "
+      "forge, you see... well, you will notice it's quite hot in here. Hot. "
+      "Yes, quite hot indeed.\""
+   marionblacksmith_speech_021 = \
+      "~kColhorr says, \"Ran er'Hoth? He... well, I suppose that you're "
+      "going to hear this elsewhere, so I might as well put it kindly. He is "
+      "a little touched. Aye, he is.\""
+   marionblacksmith_speech_022 = \
+      "~kColhorr shouts, \"Ran er'Hoth? Well now, it isn't kind to speak ill "
+      "of the cretins and half-wits of the world, so I'll just hold my "
+      "tongue.\""
+   marionblacksmith_speech_023 = \
+      "~kColhorr screams, \"That man is an idiot, and you don't have to be "
+      "sauced on Troll Whiskey to see that. He has spent the last ten years "
+      "ridiculing the people of Marion, and now has the nerve to return and "
+      "expect charity from us. Well, he gets nothing from me. Nothing. Now "
+      "be on your way.\""
+   marionblacksmith_speech_024 = \
+      "~kColhorr says, \"I was a pretty good tight-head prop in my day. I "
+      "still play every fall in the annual Marion versus Barloque test "
+      "match, not because I'm fit but because I'm mean as a raccoon. I'll "
+      "rip the faces off those rich guys half my age.\""
+   marionblacksmith_speech_025 = \
+      "~kColhorr says, \"Well, let's see... I make a couple of different "
+      "weapons, and those are for sale. Otherwise, I am busy fixing things "
+      "up for the farmers around Marion.\""
+   marionblacksmith_speech_026 = \
+      "~kColhorr says, \"I might have a thing or two here you'd be "
+      "interested in looking at.\""
+   marionblacksmith_speech_027 = \
+      "~kColhorr says, \"Teach? Well, now... I know a few things, that's the "
+      "truth. I know a bit about the old ways, for my people came out of the "
+      "Cragged Mountains in my great-grandfather's time and brought the ways "
+      "of Kraanan with them. They made their weapons from the ethers, just "
+      "like that. Aye, there's some there I could show you too, but you need "
+      "some understanding of his ways to use his magics.\""
+   marionblacksmith_speech_028 = \
+      "~kColhorr says, \"I love that guy. He played hooker on the Marion "
+      "rugby team for a couple years, tough as a hammer.\""
+   marionblacksmith_speech_029 = \
+      "~kColhorr says, \"Oh, Tos. Aye, well in Tos there is an arena where "
+      "the warriors fight with great weapons. Great weapons, iron and steel, "
+      "whatnot.\""
+   marionblacksmith_speech_030 = "~kColhorr says, \"Aye, nasty stuff.\""
+   marionblacksmith_random_001 = \
+      "~k~IThe heat in this shop is almost unbearable.~I"
+   marionblacksmith_random_002 = \
+      "~k~IThe blacksmith's shop is swelteringly hot.~I"
+   marionblacksmith_random_003 = \
+      "~kColhorr says, \"If you've got old weapons you're looking to get rid "
+      "of, might be I'm interested. Sure, can't keep too much scrap iron "
+      "around.\""
+   marionblacksmith_random_004 = \
+      "~kColhorr says, \"Did you try our local tavern? That Tova now, he is "
+      "a kick in the pants. Aye, a real hoot %s.\""
+   marionblacksmith_random_005 = \
+      "~kColhorr says, \"These are quiet parts. Good people, hard working "
+      "people, er, with one exception.\""
+   marionblacksmith_random_006 = \
+      "~kColhorr says, \"You probably noticed that ramshackle hut across the "
+      "way, near the stables. Well, it does stick out, seeing as the rest of "
+      "the town is tidy, and proud. Aye, that's the hut of Ran er'Hoth, %s. "
+      "I could tell you stories... \""
+   marionblacksmith_random_007 = \
+      "~kColhorr says, \"You look like you appreciate the craftsmanship that "
+      "goes into a well made weapon, and I'll tell you what, so do I. Yes I "
+      "do. I have quite a collection too, but I keep that somewhere safe.\""
+   marionblacksmith_random_008 = \
+      "~kColhorr screams, \"Did you say something about knitting needles?\""
+   marionblacksmith_random_009 = "~kColhorr says, \"Huh?\""
+   marionblacksmith_random_010 = \
+      "~kColhorr says, \"Oh, did you say something?\""
+   marionblacksmith_random_011 = "~k~IColhorr is sweating profusely.~I"
+   marionblacksmith_random_012 = "~kColhorr says, \"What's this?\""
+   marionblacksmith_random_013 = \
+      "~kColhorr shouts, \"Yes, well speak up please.\""
+   marionblacksmith_random_014 = "~kColhorr scratches absently."
+   marionblacksmith_random_015 = \
+      "~kColhorr says, \"What have you got there?\""
+   marionblacksmith_random_016 = \
+      "~kColhorr screams, \"AS FAR AS KARMA IS CONCERNED, I THINK THAT YOU "
+      "TEND TO GO THE OPPOSITE WAY OF WHAT YOU'RE KILLING.\""
+   marionblacksmith_random_017 = \
+      "~kColhorr says, \"I hear more than they think, that's for sure.\""
+   marionblacksmith_random_018 = "~kColhorr yells, \"WHAT WAS THAT?\""
+   marionblacksmith_random_019 = "~kColhorr glares at you."
+   marionblacksmith_random_020 = \
+      "~kColhorr says, \"The shop is closed, all done for the day. Go on "
+      "your way now.\""
+   marionblacksmith_trigger_barloque = "barloque"
+   marionblacksmith_trigger_broke = "broke"
+   marionblacksmith_trigger_broke_2 = "broke"
+   marionblacksmith_trigger_bye = "bye"
+   marionblacksmith_trigger_bye_2 = "bye"
+   marionblacksmith_trigger_centipede = "centipede"
+   marionblacksmith_trigger_centipede_2 = "centipede"
+   marionblacksmith_trigger_cor_noth = "cor noth"
+   marionblacksmith_trigger_council = "council"
+   marionblacksmith_trigger_crypt = "crypt"
+   marionblacksmith_trigger_duke = "duke"
+   marionblacksmith_trigger_hello = "hello"
+   marionblacksmith_trigger_help = "help"
+   marionblacksmith_trigger_hot = "hot"
+   marionblacksmith_trigger_jasper = "jasper"
+   marionblacksmith_trigger_marion = "marion"
+   marionblacksmith_trigger_mine = "mine"
+   marionblacksmith_trigger_mining = "mining"
+   marionblacksmith_trigger_mining_2 = "mining"
+   marionblacksmith_trigger_orc = "orc"
+   marionblacksmith_trigger_princess = "princess"
+   marionblacksmith_trigger_ran_er_hoth = "ran er'hoth"
+   marionblacksmith_trigger_ran_er_zen = "ran'er zen"
+   marionblacksmith_trigger_rugby = "rugby"
+   marionblacksmith_trigger_buy = "buy"
+   marionblacksmith_trigger_sell = "sell"
+   marionblacksmith_trigger_teach = "teach"
+   marionblacksmith_trigger_teach_2 = "teach"
+   marionblacksmith_trigger_teach_3 = "teach"
+   marionblacksmith_trigger_tonto = "tonto"
+   marionblacksmith_trigger_tos = "tos"
+   marionblacksmith_trigger_whiskey = "whiskey"
+
+   // MarionElder (Ran er'Hoth)
+   marionelder_speech_001 = \
+      "~kRan er'Hoth says, \"Seek him out. Go to the mountains and find "
+      "him.\""
+   marionelder_speech_002 = \
+      "~kRan er'Hoth says, \"A very intelligent and hard working but naïve "
+      "sorcerer who foolishly believed that he could harness the power of "
+      "the magics. He has spent his life vying for mastery and understanding "
+      "of a range of disciplines, Shal'ille, Kraanan, Qor, I believe, and "
+      "Faren. Impressive, but misguided, for the power of these various "
+      "forces have twisted his mind so that he is paranoid and delusive.\""
+   marionelder_speech_003 = \
+      "~kRan er'Hoth says, \"Do not touch those things. Even the slightest "
+      "touch can harm those who still walk among the living.\""
+   marionelder_speech_004 = \
+      "~kRan er'Hoth says, \"Baby spiders are a nuisance, and a potentially "
+      "deadly one so you must stay aware while in the forest. They shouldn't "
+      "give you too many problems, though, as even the most inexperienced "
+      "adventurers can deal with a baby spider. The biggest threat they pose "
+      "is that sooner or later they grow up to become full grown spiders.\""
+   marionelder_speech_005 = \
+      "~kRan er'Hoth says, \"Barloque is a corrupted volcano of filth "
+      "disguised as a ghost town. Go there, child. You will see what I mean, "
+      "exactly. They turn their poor out of the city, and lavish in "
+      "opulence.\""
+   marionelder_speech_006 = \
+      "~kRan er'Hoth says, \"Bei Naq was once a brilliant scholar, a very "
+      "learned man. He learned everything so quickly, and such a memory... I "
+      "remember meeting him as a young man, and the power of his intellect "
+      "was awesome, his eyes burned through you; penetrating, understanding. "
+      "But his appetite turned to acquiring wealth and material possessions, "
+      "which has only gotten stronger in him with his advancing age. Now he "
+      "is obsessed with what he has gathered, which has driven him away from "
+      "contact with others, made him suspicious and small.\""
+   marionelder_speech_007 = \
+      "~kRan er'Hoth says, \"An old city, destroyed by the foolish desires "
+      "of a child.\""
+   marionelder_speech_008 = "~kRan er'Hoth says, \"Yes...\""
+   marionelder_speech_009 = \
+      "~kRan er'Hoth says, \"Cor Noth is a very young town, just east of "
+      "Marion. I remember when all that there was of the town was a "
+      "way-station, but it has grown and built up a respectable university "
+      "for itself. There is something else about that town...\""
+   marionelder_speech_010 = \
+      "~kRan er'Hoth says, \"There is a Council of Five, last appointed by "
+      "the father of the Princess, King Zarcos V, before he abdicated the "
+      "throne and lost his marbles. Or did I get that in the wrong order? In "
+      "any case, they are five elders from throughout the land, smart and "
+      "powerful people within their limitations, but as a governing body "
+      "they are toothless and lame, without any sort of executive apparatus "
+      "at all. I know them. They are an advisory board without a King to "
+      "advise, careful not to make any sudden moves for fear of drawing "
+      "attention from any of a number of political factions that could shut "
+      "them down overnight. So they bide their time and nod along, waiting "
+      "for nothing. The Council is hobbled, and should absolve.\""
+   marionelder_speech_011 = \
+      "~kRan er'Hoth says, \"Council. An assembly called together for "
+      "consultation, deliberation, etc.; An administrative, legislative, or "
+      "advisory body. See, who says my memory isn't what it used to be?\""
+   marionelder_speech_012 = \
+      "~kRan er'Hoth says, \"The Council is an assembly of the wisest of the "
+      "land and advises its leadership.\""
+   marionelder_speech_013 = \
+      "~kRan er'Hoth says, \"Council? Weeds grow between the council and "
+      "what they speak, child, old men with rotten teeth and closed minds, "
+      "each in their own self-imposed exile. They are philosophically "
+      "bankrupt, for you cannot rule a people from where you've gone into "
+      "hiding.\""
+   marionelder_speech_014 = \
+      "~kRan er'Hoth screams, \"My mother is resting in there, the gods "
+      "protect her. I go see her some nights.\""
+   marionelder_speech_015 = \
+      "~kRan er'Hoth screams, \"You leave my mother alone!\""
+   marionelder_speech_016 = \
+      "~kRan er'Hoth says, \"Drechx is a brilliant physician, perhaps the "
+      "greatest this land has ever known. However, he reached some "
+      "unknowable point and he quit treating patients with his vast gift of "
+      "healing altogether. In more recent years he seems to be entirely self "
+      "centered, spends his time alone and in deep meditation. I suspect "
+      "that with his understanding of the body and its energies he has "
+      "completely halted his own aging process, perhaps even reversed it. "
+      "Politically he is the wisest of the Council, and believes that the "
+      "people must govern themselves and reject the false motivations of "
+      "royalty, military, and factional leadership. But he lets his voice "
+      "become lost to the others on the Council.\""
+   marionelder_speech_017 = \
+      "~kRan er'Hoth says, \"The Duke is dead. Why is there another Duke?\""
+   marionelder_speech_018 = \
+      "~kRan er'Hoth says, \"Duke. A nobleman with the highest hereditary "
+      "rank, a prince who rules an independent duchy. Duchy. The territory "
+      "ruled by a duke or duchess; dukedom.\""
+   marionelder_speech_019 = \
+      "~kRan er'Hoth says, \"There is a rhyme going around...Because of a "
+      "poisoned dagger, there was one who did stagger... Then...There lies "
+      "the Duke, all bloody in his puke!\""
+   marionelder_speech_020 = \
+      "~kRan er'Hoth says, \"Ask D'xor about Faren, for he has an "
+      "understanding about these ways.\""
+   marionelder_speech_021 = \
+      "~kRan er'Hoth says, \"The religion of the natural order, and the most "
+      "unknowable. For this reason it is very dangerous to dabble in her "
+      "magics, for you will never see clearly what powers you are tapping "
+      "into to draw your spells, or where the power of those magics might "
+      "disperse.\""
+   marionelder_speech_022 = "~kRan er'Hoth says, \"What's this?\""
+   marionelder_speech_023 = \
+      "~kRan er'Hoth says, \"They are murderers. The question that arises "
+      "is, 'Is there a place for sanctioned murderers in our land?' My "
+      "answer is yes.\""
+   marionelder_speech_024 = "~kRan er'Hoth says, \"They feed on souls.\""
+   marionelder_speech_025 = \
+      "~kRan er'Hoth says, \"The Jala magics are lost as a school. The power "
+      "of these energies are random, unfocusable, and nature itself is out "
+      "of balance without that focus, for all the other powers have it in "
+      "abundance. But the power is not lost. The power is there waiting to "
+      "resurface, with or without the guidance of practitioners. There are "
+      "those around that understand enough of the old ways, that perhaps...\""
+   marionelder_speech_026 = \
+      "~kRan er'Hoth says, \"To the south, and tucked away in the mountains. "
+      "The Jasper people are stones of the mountains, and each is but a part "
+      "of the mountain itself, misleading little stones and rocks that carry "
+      "the secrets of that hard place. They are a spirited, free people, "
+      "once completely independent, and with their own language. But you'll "
+      "never hear that spoken now.\""
+   marionelder_speech_027 = \
+      "~kRan er'Hoth says, \"He always was a crafty man, Zarcos V. I "
+      "understand that now he is in hiding, becrying that his wits have gone "
+      "afoul, lost his marbles don't you know. But I wouldn't exactly count "
+      "on that... he is a crafty man. Watch for him, for he is closer to the "
+      "surface than he has been in nearly fifteen years, and if he is able, "
+      "when he is able, he'll be making his move. Aye, and nearby he is, for "
+      "I have seen that old goat Alzahakar lurking about...\""
+   marionelder_speech_028 = \
+      "~kRan er'Hoth says, \"There are six schools, six orders to this world "
+      "and to all worlds. All six are necessary to keep the flow of power in "
+      "balance, and our world is now as a man who is fighting the water as "
+      "he drowns because this balance is lost. Kraanan is guilty of "
+      "perpetuating the division... and I'll say no more on this now.\""
+   marionelder_speech_029 = \
+      "~kRan er'Hoth says, \"In my dream I have seen Kraanan, but he is not "
+      "a god but a simple craftsman, mending boots and making mediocre "
+      "garments of rough wool. In my dream the items that he produces are "
+      "shoddy, and people buy them because they are nostalgic and pitiful of "
+      "an old veteran who lives on the charitable actions of others. In my "
+      "dream he has only one arm, and only one leg.\""
+   marionelder_speech_030 = \
+      "~kRan er'Hoth says, \"It is said that this creature cannot die. That "
+      "is, of course, a great obstacle for those who would like to see its "
+      "reign end.\""
+   marionelder_speech_031 = \
+      "~kRan er'Hoth says, \"The people here are passive, kind, and "
+      "unquestioning, but don't mistake that for a lack of perception. These "
+      "are my people, and I am among them, but they have chosen the way of "
+      "the seasons, and will endure.\""
+   marionelder_speech_032 = \
+      "~kRan er'Hoth says, \"They are the filthy teeth that feed the mouth "
+      "that is never sated. They serve only the Lich and its corrupt aims.\""
+   marionelder_speech_033 = \
+      "~kRan er'Hoth says, \"Prestidigitation. Do you know what that means? "
+      "It means sleight-of-hand. That's as far as the princess gets, believe "
+      "me, with this business about ~Imagic~I and supporting ~Imagic~I. She "
+      "supports magic with about the same veracity and comprehension as a "
+      "stone pedestal supporting the Book of Knowledge. She is a dabbler, "
+      "and will not survive; for the schools of magic demand a serious toll, "
+      "not the fawning preoccupation of a sophomoric lightweight. Beware the "
+      "magics, child. They will corrupt to their own ends, and eventually "
+      "destroy.\""
+   marionelder_speech_034 = \
+      "~kRan er'Hoth says, \"She is a chatterbox and will not hold her own "
+      "on the political stage.\""
+   marionelder_speech_035 = \
+      "~kRan er'Hoth says, \"Princess. A female member of the royal family; "
+      "the consort of a prince. Family. A group of persons related by blood "
+      "or marriage; a group of things with common characteristics. Blood. "
+      "Kinship; temperament; life; lifeblood; bloodshed; murder.\""
+   marionelder_speech_036 = \
+      "~kRan er'Hoth says, \"She is a witch, so we must not speak her name "
+      "any more, or she will be able to find a window into our souls. Shhh, "
+      "child.\""
+   marionelder_speech_037 = \
+      "~kRan er'Hoth says, \"Speak not that name within my presence, for you "
+      "do not understand the power of the words your voice makes. You must "
+      "go, now. Search your soul, and think about what you find there.\""
+   marionelder_speech_038 = \
+      "~kRan er'Hoth says, \"The Queen Spider is the nastiest of the lot, "
+      "and is matriarch for all of the spiders that plague this land. From "
+      "the middle of her well protected nest she continues to hatch these "
+      "toxic and vile creatures. But she is extremely powerful, and has "
+      "taken on many a well-equipped and courageous party. If you can find "
+      "her, you will be doing all of the land a favor by extinguishing the "
+      "Queen Spider, chopping her to bits.\""
+   marionelder_speech_039 = \
+      "~kRan er'Hoth says, \"Here is a fact that you will not learn outside "
+      "the ravings of an ancient mad man who is afraid of nothing. The truth "
+      "leads me and you beyond ourselves. When I was a young man and in the "
+      "time of my father and his father's brothers, Riija was followed and "
+      "worshipped, and those ways were strong and open to all who wished to "
+      "learn them or worship. Only three decades had passed, and the high "
+      "priests and priestesses of Kraanan decided to wipe out the following "
+      "of Riija, to hunt down and kill every poor soul who followed the "
+      "chronicles. And so they did. After two victorious years of murder, "
+      "even the families of those who followed Riija had vanished without a "
+      "trace. The libraries burned, the temples were plundered. From that "
+      "time on, no one spoke of it anymore. They were removed from this land "
+      "while Faren slept and Shal'ille did not condemn her consort. But such "
+      "things cannot be kept silent forever, and when Riija returns, my "
+      "vision tells me, blood will flow again.\""
+   marionelder_speech_040 = \
+      "~kRan er'Hoth says, \"Well, I retired a couple of seasons past, and "
+      "now I coach the Marion team. Reigning champs.\""
+   marionelder_speech_041 = \
+      "~kRan er'Hoth says, \"Shal'ille is the path of light and "
+      "righteousness, and will balance out the darker forces of our nature "
+      "if we consider Shal'ille daily while we build our lives. It is also "
+      "the religion of hypocrisy, for it has many false practitioners that "
+      "hold themselves and others to the impossible standards of its pious "
+      "teachings as rules of governance, which cannot be achieved. Religious "
+      "law is meant to function as a series of guidelines for a better life, "
+      "and not as the law with which we limit our civilization and judge the "
+      "world around.\""
+   marionelder_speech_042 = \
+      "~kRan er'Hoth says, \"Spiders are a deadly adversary, and even those "
+      "with years of experience in the wilderness of Meridian approach them "
+      "with caution, for spiders have a deadly bite that can often be "
+      "poisonous.\""
+   marionelder_speech_043 = \
+      "~kRan er'Hoth says, \"In his situation, I would have done the same "
+      "things he did.  It is rumored that the spirit of this man still roams "
+      "the world beneath the earth.  Seek him out and you will find answers "
+      "to many questions.\""
+   marionelder_speech_044 = \
+      "~kRan er'Hoth says, \"Tos is an ancient city and by all rights should "
+      "know better, but the city's pride and avarice has gotten the best of "
+      "its people. They live behind locked doors, the people of Tos.\""
+   marionelder_speech_045 = \
+      "~kRan er'Hoth says, \"I have no tolerance or pity for her.  She made "
+      "decisions that have hurt thousands of people.  Her mistake is still "
+      "costing you and I today.  And what have we learned?  What good has "
+      "come from her deeds?  It is too bad she was not destroyed a thousand "
+      "years ago.\""
+   marionelder_speech_046 = \
+      "~kRan er'Hoth hisses, \"~IGive it to me, fool.~I\""
+   marionelder_random_001 = \
+      "~k~ISomething flutters in the darkness of the hut. A bird, perhaps, a "
+      "piece of parchment.~I"
+   marionelder_random_002 = \
+      "~k~IThis hut smells like somebody built a bonfire out of cinnamon and "
+      "dirty socks.~I"
+   marionelder_random_003 = "~kRan er'Hoth appears to be dozing."
+   marionelder_random_004 = \
+      "~k~IYou hear a scritch-scratch sound on the roof, like little feet.~I"
+   marionelder_random_005 = "~kRan er'Hoth seems lost in thought."
+   marionelder_random_006 = "~kRan er'Hoth glares at you."
+   marionelder_random_007 = "~kRan er'Hoth giggles."
+   marionelder_random_008 = \
+      "~kRan er'Hoth says, \"Listen. There are others, elders as I am, who "
+      "yet live and carry in their hearts pieces of the fractured past. "
+      "Remember their names. Drechx, who seeks. Alzahakar, the Royal Toady, "
+      "now mad from his magics. The Vulture Bei Naq. And D'xor, remember "
+      "that name, Afiera D'xor. Where the others have accepted positions of "
+      "state, D'xor devotes himself to clarity, and to the pursuit of "
+      "tenable solutions and to philosophy. Find him, speak with him, child. "
+      "If he will talk to you, listen.\""
+   marionelder_random_009 = \
+      "~kRan er'Hoth says, \"What do you seek in the broken ravings of a "
+      "madman, child?\""
+   marionelder_random_010 = \
+      "~kRan er'Hoth says, \"What do you have there, child?\""
+   marionelder_random_011 = \
+      "~kRan er'Hoth says, \"You want my wisdom? Ignore the clocks, all of "
+      "them. You are only playing at their game.\""
+   marionelder_random_012 = \
+      "~kRan er'Hoth says, \"It is the corruption of age, dear child, "
+      "nothing more, or less. But still there are things even a lunatic old "
+      "man can teach you. I have lived my life off the land, a being of "
+      "peace.\""
+   marionelder_random_013 = \
+      "~kRan er'Hoth says, \"I saw the night, and there is a great many "
+      "motions in the sky. You are a fool to be here at all. Go out there "
+      "now. So I am lost.\""
+   marionelder_random_014 = \
+      "~kRan er'Hoth says, \"We have no meaningful contact with our great "
+      "grandmother, who is in the sea. And she is broken-hearted, because "
+      "where are her children and where are her grandchildren? There are six "
+      "gods, not four, and her children fight as though given the run of the "
+      "place, as if we were the rough men. So you look at me like the truth "
+      "is elusive, but you will see. There is but One Temple, and we are all "
+      "here, now, child. Now.\""
+   marionelder_random_015 = \
+      "~kRan er'Hoth says, \"See the corruption of Barloque bubble and "
+      "froth, boiling and boiling and boiling dry. See the rats come as "
+      "messengers over the land. The vermin turn out to expose the rotten "
+      "core, and our ridiculous conceptions of nobility. NOBILITY. We so "
+      "feverishly thrust it upon others but cannot find within ourselves. Is "
+      "that something that you would like to explain to a child, or a "
+      "foreigner? Am I getting through to you?\""
+   marionelder_random_016 = \
+      "~kRan er'Hoth says, \"The poison of the demented forests does exist, "
+      "an abomination of nature!! Traveling among the twisted beasts there "
+      "is a toxin lethal to man, which burns through your blood and weakens "
+      "your will.\""
+   marionelder_random_017 = \
+      "~kRan er'Hoth says, \"WHAT SKELETONS!?! Skeletons now!?! SKELETONS IN "
+      "MARION!!??!!\""
+   marionelder_random_018 = \
+      "~kRan er'Hoth says, \"In my dream there is a room at the end of a "
+      "long hallway, and the room is considerable, gross, surrounded by bars "
+      "like a cage is. Like a cage that the people in Cor Noth use to keep "
+      "songbirds, and there are stones with men's faces, and a little girl "
+      "who surrounds herself with lies.\""
+   marionelder_random_019 = "~kRan er'Hoth says, \"Hmmmm...\""
+   marionelder_random_020 = \
+      "~kRan er'Hoth says, \"Blank. Blank blank blank blank blank.\""
+   marionelder_random_021 = \
+      "~kRan er'Hoth says, \"And so it goes, and so it goes. On and on, into "
+      "infantile absurdity.\""
+   marionelder_random_022 = \
+      "~kRan er'Hoth says, \"My mind is torn, maybe like a broken web. "
+      "Strand here, strand there. These days, they fall over themselves and "
+      "lay piled up around the corners of this shack. Flotsam, debris, "
+      "unkind things. Look around yourself, child. See what you'll find?\""
+   marionelder_random_023 = \
+      "~kRan er'Hoth says, \"I have another dream where a magician makes "
+      "everyone blind. We cannot see, but must feel our way around, families "
+      "are separated, bonds shattered, and everywhere we find each other to "
+      "be strangers. What once was our lives, everything is unfamiliar. We "
+      "spend all of our time hiding beneath the roots of a gigantic tree.\""
+   marionelder_random_024 = \
+      "~kRan er'Hoth says, \"Come closer. Let me look at you.\""
+   marionelder_random_025 = \
+      "~kRan er'Hoth says, \"Another dream, now. The sea begins to cough, "
+      "and shakes the land into six pieces, and when the water leaves, the "
+      "people follow it back and I am alone amongst the islands. There is a "
+      "great walled fortress, and from the top I can see a vast wilderness "
+      "that stretches away in every direction. My father appears, and we "
+      "follow the rest of the people into the sea.\""
+   marionelder_random_026 = \
+      "~kRan er'Hoth says, \"Rotten apples. Rotten, wormy apples, full of "
+      "holes...\""
+   marionelder_random_027 = \
+      "~kRan er'Hoth says, \"DON'T RIP ME OFF. Do you understand that? Do "
+      "you? DON'T RIP ME OFF.\""
+   marionelder_random_028 = "~kRan er'Hoth says, \"I can change.\""
+   marionelder_random_029 = \
+      "~kRan er'Hoth says, \"I AM STILL LOOKING!!! CAN'T YOU SEE I'M STILL "
+      "LOOKING!?!\""
+   marionelder_random_030 = \
+      "~kRan er'Hoth says, \"Your head's too small. Freak of nature.\""
+   marionelder_random_031 = \
+      "~kRan er'Hoth starts shuddering violently, spits out a disgusting "
+      "insect and says, \"Yuck, when did I eat ~Ithat~I?\""
+   marionelder_random_032 = \
+      "~kRan er'Hoth says, \"If you're stupid and vain enough to attack the "
+      "Lupogg King, find some others as stupid as you are, and hopefully as "
+      "vain, and take their sorry carcasses with you. No warrior can take "
+      "him alone, whether with magic or weaponcraft.\""
+   marionelder_random_033 = \
+      "~kRan er'Hoth says, \"Another dream. In this one, a baboon-faced "
+      "warrior held a bloody fist high in the air, and I moved forward "
+      "towards him with curiosity, gliding. He didn't seem to see me. I "
+      "looked in his fist, and he was clutching a perfect seraphym gem, and "
+      "his lips were moving. He repeated this over and over; 'Use the gem to "
+      "capture the souls of the beaten enemy, damning them to eternal "
+      "agony', and I knew at that moment that this is true.\""
+   marionelder_random_034 = \
+      "~kRan er'Hoth says, \"I had those terrible nightmares again.\""
+   marionelder_random_035 = \
+      "~kRan er'Hoth screams, \"Aaaaarrrrrgh!! Waterlogged!! Get you "
+      "gone!!!!!!\""
+   marionelder_random_036 = \
+      "~kRan er'Hoth says, \"In another dream the mountains open for the "
+      "lost orphan, there are people making roads out of music. Then the sky "
+      "turns dark as a bruise, and instead of being destroyed, cities rise "
+      "from war. Two cities, each the opposite of another but sharing a "
+      "common gate. When the sky clears it is white instead of black and "
+      "blue, but the cities are gone.\""
+   marionelder_random_037 = \
+      "~kRan er'Hoth says, \"Sing, sung. Rang, rung. Alarm! Alarm!\""
+   marionelder_random_038 = "~kRan er'Hoth says, \"I am The Goblin King.\""
+   marionelder_trigger_afiera_d_xor = "afiera d'xor"
+   marionelder_trigger_afiera_xor = "afiera xor"
+   marionelder_trigger_alzahakar = "alzahakar"
+   marionelder_trigger_amulet = "amulet"
+   marionelder_trigger_baby_spider = "baby spider"
+   marionelder_trigger_baby_spider_2 = "baby spider"
+   marionelder_trigger_baby_spider_3 = "baby spider"
+   marionelder_trigger_barloque = "barloque"
+   marionelder_trigger_bei_naq = "bei naq"
+   marionelder_trigger_brax = "brax"
+   marionelder_trigger_bye = "bye"
+   marionelder_trigger_cor_noth = "cor noth"
+   marionelder_trigger_council = "council"
+   marionelder_trigger_crypt = "crypt"
+   marionelder_trigger_drechx = "drechx"
+   marionelder_trigger_drex = "drex"
+   marionelder_trigger_duke = "duke"
+   marionelder_trigger_faren = "faren"
+   marionelder_trigger_hello = "hello"
+   marionelder_trigger_hunter = "hunter"
+   marionelder_trigger_hunter_sword = "hunter sword"
+   marionelder_trigger_jala = "jala"
+   marionelder_trigger_jasper = "jasper"
+   marionelder_trigger_king = "king"
+   marionelder_trigger_kraanan = "kraanan"
+   marionelder_trigger_lich = "lich"
+   marionelder_trigger_marion = "marion"
+   marionelder_trigger_necromancer = "necromancer"
+   marionelder_trigger_princess = "princess"
+   marionelder_trigger_qor = "qor"
+   marionelder_trigger_queen_spider = "queen spider"
+   marionelder_trigger_queen_spider_2 = "queen spider"
+   marionelder_trigger_riija = "riija"
+   marionelder_trigger_rugby = "rugby"
+   marionelder_trigger_shal_ille = "shal'ille"
+   marionelder_trigger_sha_lill = "sha-lill"
+   marionelder_trigger_spider = "spider"
+   marionelder_trigger_tendrath = "tendrath"
+   marionelder_trigger_tos = "tos"
+   marionelder_trigger_venya_cyr = "venya'cyr"
+   marionelder_trigger_whiskey = "whiskey"
+
+   // MarionHealer (Lady Aftyn)
+   marionhealer_speech_001 = \
+      "~kLady Aftyn says, \"Barloque was once my home, far from this time "
+      "and this place. I think not upon it now except as the home of my "
+      "children.\""
+   marionhealer_speech_002 = \
+      "~kLady Aftyn says, \"Shal'ille will light thy path, and thine heart.\""
+   marionhealer_speech_003 = \
+      "~kLady Aftyn says, \"A city condemned, but not upon its nature or its "
+      "sins. Within Cor Noth is a desecrated temple, Oh Tears of Shal'ille! "
+      "Our Tender Lady Shal'ille placed a temple in the center of Cor Noth, "
+      "upon the site of an ancient, holy place. 'Tis known as Ivory Chapel, "
+      "contained in the most holy of manuscripts.\""
+   marionhealer_speech_004 = \
+      "~kLady Aftyn says, \"The Council are much revered, for by and large "
+      "they are amongst the most learned men in the land. Now without the "
+      "King that placed them thus they are unfounded in authority and their "
+      "great wisdom mislaid.\""
+   marionhealer_speech_005 = \
+      "~kLady Aftyn says, \"I hear that some foul power has caused the "
+      "ancient dead to walk the crypt. By Shal'ille's power they must be put "
+      "back to rest!\""
+   marionhealer_speech_006 = \
+      "~kLady Aftyn says, \"Kalior is dead, and I fear that Akardius is as "
+      "corrupt as his predecessor.\""
+   marionhealer_speech_007 = \
+      "~kLady Aftyn says, \"The blessing of Shal'ille upon thee, and thine "
+      "own.\""
+   marionhealer_speech_008 = \
+      "~kLady Aftyn says, \"Merchant-knaves have but stolen it, and "
+      "desecrated the place by letting it to groups of any belief or "
+      "following, as though it were but a market stall or a farmers' barn! "
+      "'Tis a great shame on our Lady of Compassion and Her Most Benign "
+      "Ways. But there is remedy yet. We at The Blessed Sanctuary of Gentle "
+      "Rains endeavor to raise the money, if need be, to buy back the "
+      "property for the Guild Master Frular of Barloque.\""
+   marionhealer_speech_009 = \
+      "~kLady Aftyn says, \"There is much work to be done in Jasper, for "
+      "they are an ungodly people.\""
+   marionhealer_speech_010 = \
+      "~kLady Aftyn says, \"Jonas is a good man, he saw that things had to "
+      "change. 'Tis a good sight more than others have done lately.\""
+   marionhealer_speech_011 = \
+      "~kLady Aftyn says, \"What's this? What of his Majesty?\""
+   marionhealer_speech_012 = \
+      "~kLady Aftyn says, \"Marion is my new home, and it has proved the "
+      "ideal setting for our work for The Blessed Sanctuary of Gentle Rains. "
+      "The people are kind, for poverty breeds compassion amongst them.\""
+   marionhealer_speech_013 = \
+      "~kLady Aftyn says, \"'Tis a false visage of Shal'ille that that man "
+      "praises, one that he has invented himself. I have had occasion to "
+      "speak with him thus, but he will not see light of his error nor mend "
+      "his profane ways. Say you a prayer for him if he is on your mind, for "
+      "he is lost.\""
+   marionhealer_speech_014 = \
+      "~kLady Aftyn says, \"The Princess has grown quite beautifully and "
+      "should be able to overcome the new challenges which face her.\""
+   marionhealer_speech_015 = \
+      "~kLady Aftyn says, \"Well, I usually relent and allow the boys to "
+      "have their keg parties here at the Sanctuary, but I certainly "
+      "wouldn't play!\""
+   marionhealer_speech_016 = \
+      "~kLady Aftyn says, \"There is great evil in Tos, wherein nature's "
+      "balance has been thrown aside. Were I a great healer and myself "
+      "capable of such a feat, I wouldst but gather Tos to my bosom and heal "
+      "the city itself.\""
+   marionhealer_speech_017 = \
+      "~kLady Aftyn says, \"What's this? What of his Majesty?\""
+   marionhealer_random_001 = \
+      "~kLady Aftyn says, \"We offer our help to any person in need. Thus we "
+      "but bringst the good works of Shal'ille to all peoples, and amongst "
+      "the land itself. Nay, all are welcome within these walls good %s.\""
+   marionhealer_random_002 = \
+      "~kLady Aftyn says, \"Shal'ille is a goddess who demands the most "
+      "rigorous devotion. Beware thee of her misguided disciples, who preach "
+      "righteousness without compassion! Many are those that wouldst use her "
+      "ways but for personal fortune and advancement.\""
+   marionhealer_random_003 = \
+      "~kLady Aftyn says, \"Within this land there are temples erected to "
+      "the four gods and goddesses. 'Tis where the dedicated may go to study "
+      "their teachings, yea for even the misguided may seek to worship.\""
+   marionhealer_random_004 = \
+      "~kLady Aftyn says, \"We will help the wounded, the sick, purge the "
+      "poisoned, and cleanse of the cursed. Come hither so that I might see "
+      "what dost ail thee.\""
+   marionhealer_random_005 = \
+      "~kLady Aftyn says, \"Resist the temptation of Qor, the mighty "
+      "seductress. Blessed Shal'ille will guide us from her meddling schemes "
+      "and but lead us from her false whispers, showing us the true path to "
+      "harmonious nature.\""
+   marionhealer_random_006 = \
+      "~kLady Aftyn says, \"This is a holy house, dedicated to Blessed "
+      "Shal'ille and to her good works wherein you may find some comfort.\""
+   marionhealer_random_007 = \
+      "~kLady Aftyn says, \"The continuance of our work here doth require "
+      "that we ask for charitable donations, however modest, from those that "
+      "seek our aid and can afford to be generous.\""
+   marionhealer_random_008 = \
+      "~kLady Aftyn says, \"To offer is to be generous to our Blessed "
+      "Shal'ille, and 'tis meet you should, for every shilling spent thus "
+      "will be again bestowed upon thee twenty-fold.\""
+   marionhealer_random_009 = \
+      "~kLady Aftyn says, \"There is sickness o'er all the land that "
+      "Shal'ille desires to mend with her compassionate ways. But four gods "
+      "now rule where once there were six, and the very order of nature hath "
+      "been disturbed.\""
+   marionhealer_random_010 = \
+      "~kLady Aftyn says, \"We have a great responsibility to find what ails "
+      "the land and to restore its balance, ere all is lost. The guidance of "
+      "Shal'ille is yet the answer to our silent prayers.\""
+   marionhealer_random_011 = \
+      "~kLady Aftyn says, \"The Blessed Sanctuary of Gentle Rains is the "
+      "first house dedicated entirely to healing and to the compassion of "
+      "our Lady of Tenderness Shal'ille, yet we soon hope to spread her work "
+      "throughout the land with many such houses, and the devoted to work "
+      "therein.\""
+   marionhealer_random_012 = \
+      "~kLady Aftyn says, \"We have much work yet to heal the wounds that "
+      "are leveled upon the land.\""
+   marionhealer_random_013 = \
+      "~kLady Aftyn says, \"As you can see, our work here has been quite "
+      "successful and will continue under the strict guidance of Our Lady of "
+      "Peace, and of course the generosity of so many blessed with Her "
+      "kindness.\""
+   marionhealer_random_014 = "~kLady Aftyn says, \"What ails thee, %s?\""
+   marionhealer_random_015 = \
+      "~kLady Aftyn says, \"We are but here to serve.\""
+   marionhealer_random_016 = \
+      "~kLady Aftyn says, \"Now go forth with the Blessing of Our Gentle "
+      "Lady Shal'ille.\""
+   marionhealer_random_017 = \
+      "~kLady Aftyn says, \"Shal'ille tends to you for your kindness, and "
+      "for the gracious love of all of Her benefactors.\""
+   marionhealer_random_018 = \
+      "~kLady Aftyn says, \"Beware the night, for that is when the magics of "
+      "Qor are most pronounced!\""
+   marionhealer_trigger_barloque = "barloque"
+   marionhealer_trigger_bye = "bye"
+   marionhealer_trigger_cor_noth = "cor noth"
+   marionhealer_trigger_council = "council"
+   marionhealer_trigger_crypt = "crypt"
+   marionhealer_trigger_duke = "duke"
+   marionhealer_trigger_hello = "hello"
+   marionhealer_trigger_ivory_chapel = "ivory chapel"
+   marionhealer_trigger_jasper = "jasper"
+   marionhealer_trigger_jonas = "jonas"
+   marionhealer_trigger_king = "king"
+   marionhealer_trigger_marion = "marion"
+   marionhealer_trigger_meidei = "meidei"
+   marionhealer_trigger_medei = "medei"
+   marionhealer_trigger_princess = "princess"
+   marionhealer_trigger_rugby = "rugby"
+   marionhealer_trigger_tos = "tos"
+   marionhealer_trigger_zarcos = "zarcos"
+
+   // MarionInnkeeper (MarionInnkeeper)
+   marioninnkeeper_speech_001 = "~kMorrigan says, \"So long!\""
+   marioninnkeeper_speech_002 = "~kMorrigan clears his throat."
+   marioninnkeeper_speech_003 = "~kMorrigan scowls."
+   marioninnkeeper_speech_004 = \
+      "~kMorrigan says, \"Oh yes, that's the game Meidei runs in his tavern, "
+      "isn't it? Oh, it isn't, hmm, well then I don't know what you're "
+      "talking about.\""
+   marioninnkeeper_speech_005 = "~kMorrigan says, \"Hello, welcome back!\""
+   marioninnkeeper_speech_006 = "~kMorrigan says, \"Er, hello!\""
+   marioninnkeeper_speech_007 = "~kMorrigan says, \"Come on in!\""
+   marioninnkeeper_speech_008 = "~kMorrigan says, \"Good Evening!\""
+   marioninnkeeper_speech_009 = "~kMorrigan says, \"Hello!\""
+   marioninnkeeper_speech_010 = "~kMorrigan says, \"Good day!\""
+   marioninnkeeper_speech_011 = "~kMorrigan looks down glumly."
+   marioninnkeeper_speech_012 = \
+      "~kMorrigan busies himself with some thing under the counter."
+   marioninnkeeper_speech_013 = \
+      "~kMorrigan says, \"I am not sure what that fellow is up to. I think "
+      "he buys and sells goods. I have seen him near the West Merchant way "
+      "just south of here. Doesn't stay in one place too long though.\""
+   marioninnkeeper_speech_014 = \
+      "~kMorrigan says, \"The rabid cur has finally been put to sleep.\""
+   marioninnkeeper_speech_015 = \
+      "~kMorrigan says, \"His fate has been decided by a higher power. He "
+      "shall harass Meridian no longer.\""
+   marioninnkeeper_speech_016 = \
+      "~kMorrigan says, \"The King is my liege, and I await the chance to "
+      "serve his will.\""
+   marioninnkeeper_speech_017 = \
+      "~kMorrigan says, \"I wonder how she came to be all alone in the "
+      "woods, I mean, it's a bit strange, isn't it, what parents would let "
+      "their child dance all alone in a forest? Would you let your child "
+      "dance all alone in a forest?\""
+   marioninnkeeper_speech_018 = \
+      "~kMorrigan nods so vigorously that you fear his head might fall off, "
+      "\"Ran er'Hoth swears she is older than old, but then how come she "
+      "still looks like a little girl and acts like a little girl... Well, "
+      "sometimes she acts like one, but how can anyone stay like that "
+      "forever? Haven't you ever noticed? Strange, whatever could the reason "
+      "be?\""
+   marioninnkeeper_speech_019 = \
+      "~kMorrigan says, \"Evil witch... well, that's what I've heard people "
+      "say about her lately.\""
+   marioninnkeeper_speech_020 = \
+      "~kMorrigan turns bright red in the face, as if he might explode any "
+      "moment, \"EXCUSE ME!!!\""
+   marioninnkeeper_speech_021 = "~kMorrigan says, \"True, Tova, true.\""
+   marioninnkeeper_speech_022 = "~kMorrigan says, \"Yes, Tova.\""
+   marioninnkeeper_speech_023 = "~kMorrigan says, \"Aye, Tova!!\""
+   marioninnkeeper_speech_024 = \
+      "~kMorrigan says, \"Mushrooms? I buy mushrooms!\""
+   marioninnkeeper_speech_025 = \
+      "~kMorrigan says, \"Nope. Nothing needs to go out right now.\""
+   marioninnkeeper_speech_026 = \
+      "~kMorrigan says, \"It's quite extraordinary what Miriana did there. "
+      "Not that I approve, because I don't, but the way she drained the "
+      "magic nodes. I mean, who even knew such a thing was possible, I "
+      "certainly didn't, and Tova says he didn't know either, and Tova knows "
+      "everything. Did you know it was possible? Truly extraordinary, "
+      "~bPOP~k, all gone, just like that...\""
+   marioninnkeeper_speech_027 = \
+      "~kMorrigan says, \"Oh, I'm sorry. Were you also connected to one of "
+      "the magic nodes that Miriana seized, or one she tried to? Did it "
+      "hurt? Did your head feel like jelly? Did you see stars, as if someone "
+      "had hit you on the back of your head? Did you try to protect the "
+      "magic node? NO, oh no, please don't hit me, I'm sorry!\""
+   marioninnkeeper_speech_028 = \
+      "~kMorrigan rubs his hands and looks rather irritable for a moment, "
+      "\"Ppp-oooooooower... all that power... so much power. Oh, pardon me, "
+      "I didn't see you standing there. Can I help you? Do you need a room?\""
+   marioninnkeeper_speech_029 = \
+      "~kMorrigan says, \"We have pants for sale, right over here! Good "
+      "Marion canvas, too, the best that money can buy!\""
+   marioninnkeeper_speech_030 = \
+      "~kMorrigan sneers, \"That traitorous Kalior! Even in death he attacks "
+      "the throne. This time with that impudent whelp of a nephew!\""
+   marioninnkeeper_speech_031 = \
+      "~kMorrigan says, \"That's right, and I play in the backfield, wing. "
+      "We've got a pretty good team here, don't we Tova?\""
+   marioninnkeeper_random_001 = \
+      "~k~ISomewhere outside the bar, a rooster crows.~I"
+   marioninnkeeper_random_002 = \
+      "~kMorrigan says, \"Ha ha, oh Tova, you kill me!\""
+   marioninnkeeper_random_003 = \
+      "~kMorrigan says, \"Ha haha, hahahahah, hahahahah, ha ha ha!!\""
+   marioninnkeeper_random_004 = \
+      "~kMorrigan says, \"Ha ha ha ha, hahaha, ha hee hee!!\""
+   marioninnkeeper_random_005 = "~kMorrigan laughs out loud!"
+   marioninnkeeper_random_006 = "~kMorrigan says, \"Ha, ha, ha, ha, ha!!!!\""
+   marioninnkeeper_random_007 = \
+      "~kMorrigan says, \"Hee, hee, Tova, hee hee heeheehee!!!\""
+   marioninnkeeper_random_008 = \
+      "~kMorrigan says, \"Ha ha, ha ha, ha ha, ha ha, ha ha, ha ha, ha ha!\""
+   marioninnkeeper_random_009 = \
+      "~kMorrigan says, \"Tee hee, tee heeheehee, tee hee!!\""
+   marioninnkeeper_random_010 = \
+      "~kMorrigan bursts into hysterical laughter, which subsides in a bout "
+      "of coughing."
+   marioninnkeeper_random_011 = \
+      "~kMorrigan holds his sides, and tears of laughter roll down his "
+      "cheeks."
+   marioninnkeeper_random_012 = \
+      "~kMorrigan is gasping for air, just laughing and laughing."
+   marioninnkeeper_random_013 = "~kMorrigan laughs uncontrollably."
+   marioninnkeeper_trigger_bye = "bye"
+   marioninnkeeper_trigger_bye_2 = "bye"
+   marioninnkeeper_trigger_duke = "duke"
+   marioninnkeeper_trigger_fate = "fate"
+   marioninnkeeper_trigger_hello = "hello"
+   marioninnkeeper_trigger_izzio = "izzio"
+   marioninnkeeper_trigger_kalior = "kalior"
+   marioninnkeeper_trigger_king = "king"
+   marioninnkeeper_trigger_miriana = "miriana"
+   marioninnkeeper_trigger_morrigan = "morrigan"
+   marioninnkeeper_trigger_mushroom = "mushroom"
+   marioninnkeeper_trigger_need_a_courier = "need a courier?"
+   marioninnkeeper_trigger_node_attack = "node attack"
+   marioninnkeeper_trigger_pants = "pants"
+   marioninnkeeper_trigger_princess = "princess"
+   marioninnkeeper_trigger_rugby = "rugby"
+
+messages:
+
+   GetSpeechLibrary()
+   "Speech library nodes: [class, [[triggers, mood, action, key], ...]]"
+   {
+      local lLib;
+
+      lLib = $;
+
+      lLib = Cons([&MarionBartender,[
+         [[marionbartender_trigger_qor],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_041,
+               [LIBPLUG_SIRMADAM]],41],
+         [[marionbartender_trigger_revolution],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_042],42],
+         [[marionbartender_trigger_riija],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_043,
+               [LIBPLUG_SIRMADAM]],43],
+         [[marionbartender_trigger_rugby],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_044],44],
+         [[marionbartender_trigger_sanctuary,
+            marionbartender_trigger_king],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_045,
+               [LIBPLUG_SIRMADAM]],45],
+         [[marionbartender_trigger_sell,
+            marionbartender_trigger_buy],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_046],46],
+         [[marionbartender_trigger_shal_ille,
+            marionbartender_trigger_sha_lill],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_047],47],
+         [[marionbartender_trigger_stunted_dwarf],0,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_048,[LIBPLUG_NAME]],48],
+         [[marionbartender_trigger_tos],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_049,
+               [LIBPLUG_SIRMADAM]],49],
+         [[marionbartender_trigger_tos],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_050,
+               [LIBPLUG_SIRMADAM]],50],
+         [[marionbartender_trigger_tos],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_051],51],
+         [[marionbartender_trigger_tos],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_052],52],
+         [[marionbartender_trigger_treefolk],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_053],53],
+         [[marionbartender_trigger_whiskey],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_054],54],
+         [[marionbartender_trigger_wryn_s,
+            marionbartender_trigger_wryn_s_2,
+            marionbartender_trigger_wryn_s_3],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_055],55],
+         [[marionbartender_trigger_wryn_s,
+            marionbartender_trigger_wryn_s_2,
+            marionbartender_trigger_wryn_s_3],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_056],56],
+         [[marionbartender_trigger_wulfgang],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_057],57],
+         [[marionbartender_trigger_zig],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_058],58],
+         [[marionbartender_trigger_zig],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_059],59],
+         [[marionbartender_trigger_zig],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_060],60]
+      ]],lLib);
+
+      lLib = Cons([&MarionBartender,[
+         [[marionbartender_trigger_barloque],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_001],1],
+         [[marionbartender_trigger_barloque],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_002],2],
+         [[marionbartender_trigger_blessed],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_003,
+               [LIBPLUG_SIRMADAM]],3],
+         [[marionbartender_trigger_bye],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_004,
+               [LIBPLUG_SIRMADAM]],4],
+         [[marionbartender_trigger_bye],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_005],5],
+         [[marionbartender_trigger_cor_noth],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_006,
+               [LIBPLUG_SIRMADAM]],6],
+         [[marionbartender_trigger_cor_noth],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_007],7],
+         [[marionbartender_trigger_council],0,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_008,
+               [LIBPLUG_SIRMADAM]],8],
+         [[marionbartender_trigger_crypt],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_009],9],
+         [[marionbartender_trigger_crypt],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_010],10],
+         [[marionbartender_trigger_duke],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_011],11],
+         [[marionbartender_trigger_duke],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_012],12],
+         [[marionbartender_trigger_faren],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_013,
+               [LIBPLUG_SIRMADAM]],13],
+         [[marionbartender_trigger_fate],0,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_014],14],
+         [[marionbartender_trigger_fey],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_015],15],
+         [[marionbartender_trigger_hello],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_016],16],
+         [[marionbartender_trigger_hello],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_017,
+               [LIBPLUG_SIRMADAM]],17],
+         [[marionbartender_trigger_hello],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_018],18],
+         [[marionbartender_trigger_hello],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_019,
+               [LIBPLUG_SIRMADAM]],19],
+         [[marionbartender_trigger_hello],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_020,
+               [LIBPLUG_SIRMADAM]],20],
+         [[marionbartender_trigger_hello],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_021,
+               [LIBPLUG_SIRMADAM]],21],
+         [[marionbartender_trigger_hello],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_022,
+               [LIBPLUG_SIRMADAM]],22],
+         [[marionbartender_trigger_hello],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_023],23],
+         [[marionbartender_trigger_hello],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_024],24],
+         [[marionbartender_trigger_jala],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_025,
+               [LIBPLUG_SIRMADAM]],25],
+         [[marionbartender_trigger_jasper],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_026,
+               [LIBPLUG_SIRMADAM]],26],
+         [[marionbartender_trigger_jasper],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_027],27],
+         [[marionbartender_trigger_kalior],0,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_028],28],
+         [[marionbartender_trigger_kraanan],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_029,
+               [LIBPLUG_SIRMADAM]],29],
+         [[marionbartender_trigger_lady_aftyn],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_030,
+               [LIBPLUG_SIRMADAM]],30],
+         [[marionbartender_trigger_lady_aftyn],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_031],31],
+         [[marionbartender_trigger_marion],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_032],32],
+         [[marionbartender_trigger_miriana],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_033],33],
+         [[marionbartender_trigger_miriana],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_034],34],
+         [[marionbartender_trigger_miriana],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_035],35],
+         [[marionbartender_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_036],36],
+         [[marionbartender_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_037],37],
+         [[marionbartender_trigger_node_attack],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_038],38],
+         [[marionbartender_trigger_node_attack],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_039],39],
+         [[marionbartender_trigger_node_attack],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_speech_040],40]
+      ]],lLib);
+
+      lLib = Cons([&MarionBlacksmith,[
+         [[marionblacksmith_trigger_barloque],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_001],1],
+         [[marionblacksmith_trigger_broke,
+            marionblacksmith_trigger_broke_2],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_002],2],
+         [[marionblacksmith_trigger_bye,
+            marionblacksmith_trigger_bye_2],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_003],3],
+         [[marionblacksmith_trigger_bye,
+            marionblacksmith_trigger_bye_2],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_004],4],
+         [[marionblacksmith_trigger_centipede,
+            marionblacksmith_trigger_centipede_2],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_005],5],
+         [[marionblacksmith_trigger_cor_noth],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_006],6],
+         [[marionblacksmith_trigger_council],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_007],7],
+         [[marionblacksmith_trigger_crypt],0,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_008],8],
+         [[marionblacksmith_trigger_duke],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_009],9],
+         [[marionblacksmith_trigger_hello],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_010],10],
+         [[marionblacksmith_trigger_hello],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_011],11],
+         [[marionblacksmith_trigger_hello],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_012],12],
+         [[marionblacksmith_trigger_help],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_013],13],
+         [[marionblacksmith_trigger_hot],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_014],14],
+         [[marionblacksmith_trigger_jasper],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_015,
+               [LIBPLUG_SIRMADAM]],15],
+         [[marionblacksmith_trigger_marion],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_016,
+               [LIBPLUG_SIRMADAM]],16],
+         [[marionblacksmith_trigger_mine],0,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_017],17],
+         [[marionblacksmith_trigger_mining,
+            marionblacksmith_trigger_mining_2],0,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_018],18],
+         [[marionblacksmith_trigger_orc],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_019],19],
+         [[marionblacksmith_trigger_princess],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_020],20],
+         [[marionblacksmith_trigger_ran_er_hoth,
+            marionblacksmith_trigger_ran_er_zen],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_021],21],
+         [[marionblacksmith_trigger_ran_er_hoth,
+            marionblacksmith_trigger_ran_er_zen],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_022],22],
+         [[marionblacksmith_trigger_ran_er_hoth,
+            marionblacksmith_trigger_ran_er_zen],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_023],23],
+         [[marionblacksmith_trigger_rugby],0,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_024],24],
+         [[marionblacksmith_trigger_buy,marionblacksmith_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_025],25],
+         [[marionblacksmith_trigger_buy],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_026],26],
+         [[marionblacksmith_trigger_teach,
+            marionblacksmith_trigger_teach_2,
+            marionblacksmith_trigger_teach_3],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_027],27],
+         [[marionblacksmith_trigger_tonto],0,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_028],28],
+         [[marionblacksmith_trigger_tos],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_029],29],
+         [[marionblacksmith_trigger_whiskey],0,
+            [LIBACT_QUOTE_RSC,marionblacksmith_speech_030],30]
+      ]],lLib);
+
+      lLib = Cons([&MarionElder,[
+         [[marionelder_trigger_shal_ille,
+            marionelder_trigger_sha_lill],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionelder_speech_041],41],
+         [[marionelder_trigger_spider],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionelder_speech_042],42],
+         [[marionelder_trigger_tendrath],0,
+            [LIBACT_QUOTE_RSC,marionelder_speech_043],43],
+         [[marionelder_trigger_tos],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionelder_speech_044],44],
+         [[marionelder_trigger_venya_cyr],0,
+            [LIBACT_QUOTE_RSC,marionelder_speech_045],45],
+         [[marionelder_trigger_whiskey],0,
+            [LIBACT_QUOTE_RSC,marionelder_speech_046],46]
+      ]],lLib);
+
+      lLib = Cons([&MarionElder,[
+         [[marionelder_trigger_afiera_d_xor,
+            marionelder_trigger_afiera_xor],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionelder_speech_001],1],
+         [[marionelder_trigger_alzahakar],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionelder_speech_002],2],
+         [[marionelder_trigger_amulet],0,
+            [LIBACT_QUOTE_RSC,marionelder_speech_003],3],
+         [[marionelder_trigger_baby_spider,
+            marionelder_trigger_baby_spider_2,
+            marionelder_trigger_baby_spider_3],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionelder_speech_004],4],
+         [[marionelder_trigger_barloque],0,
+            [LIBACT_QUOTE_RSC,marionelder_speech_005],5],
+         [[marionelder_trigger_bei_naq],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionelder_speech_006],6],
+         [[marionelder_trigger_brax],0,
+            [LIBACT_QUOTE_RSC,marionelder_speech_007],7],
+         [[marionelder_trigger_bye],0,
+            [LIBACT_QUOTE_RSC,marionelder_speech_008],8],
+         [[marionelder_trigger_cor_noth],0,
+            [LIBACT_QUOTE_RSC,marionelder_speech_009],9],
+         [[marionelder_trigger_council],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionelder_speech_010],10],
+         [[marionelder_trigger_council],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionelder_speech_011],11],
+         [[marionelder_trigger_council],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionelder_speech_012],12],
+         [[marionelder_trigger_council],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marionelder_speech_013],13],
+         [[marionelder_trigger_crypt],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionelder_speech_014],14],
+         [[marionelder_trigger_crypt],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marionelder_speech_015],15],
+         [[marionelder_trigger_drechx,
+            marionelder_trigger_drex],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionelder_speech_016],16],
+         [[marionelder_trigger_duke],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionelder_speech_017],17],
+         [[marionelder_trigger_duke],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionelder_speech_018],18],
+         [[marionelder_trigger_duke],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marionelder_speech_019],19],
+         [[marionelder_trigger_faren],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionelder_speech_020],20],
+         [[marionelder_trigger_faren],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionelder_speech_021],21],
+         [[marionelder_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,marionelder_speech_022],22],
+         [[marionelder_trigger_hunter],0,
+            [LIBACT_QUOTE_RSC,marionelder_speech_023],23],
+         [[marionelder_trigger_hunter_sword],0,
+            [LIBACT_QUOTE_RSC,marionelder_speech_024],24],
+         [[marionelder_trigger_jala],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionelder_speech_025],25],
+         [[marionelder_trigger_jasper],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionelder_speech_026],26],
+         [[marionelder_trigger_king],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionelder_speech_027],27],
+         [[marionelder_trigger_kraanan],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionelder_speech_028],28],
+         [[marionelder_trigger_kraanan],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionelder_speech_029],29],
+         [[marionelder_trigger_lich],0,
+            [LIBACT_QUOTE_RSC,marionelder_speech_030],30],
+         [[marionelder_trigger_marion],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionelder_speech_031],31],
+         [[marionelder_trigger_necromancer],0,
+            [LIBACT_QUOTE_RSC,marionelder_speech_032],32],
+         [[marionelder_trigger_princess],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionelder_speech_033],33],
+         [[marionelder_trigger_princess],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionelder_speech_034],34],
+         [[marionelder_trigger_princess],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionelder_speech_035],35],
+         [[marionelder_trigger_princess],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marionelder_speech_036],36],
+         [[marionelder_trigger_qor],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionelder_speech_037],37],
+         [[marionelder_trigger_queen_spider,
+            marionelder_trigger_queen_spider_2],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionelder_speech_038],38],
+         [[marionelder_trigger_riija],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionelder_speech_039],39],
+         [[marionelder_trigger_rugby],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionelder_speech_040],40]
+      ]],lLib);
+
+      lLib = Cons([&MarionHealer,[
+         [[marionhealer_trigger_barloque],0,
+            [LIBACT_QUOTE_RSC,marionhealer_speech_001],1],
+         [[marionhealer_trigger_bye],0,
+            [LIBACT_QUOTE_RSC,marionhealer_speech_002],2],
+         [[marionhealer_trigger_cor_noth],0,
+            [LIBACT_QUOTE_RSC,marionhealer_speech_003],3],
+         [[marionhealer_trigger_council],0,
+            [LIBACT_QUOTE_RSC,marionhealer_speech_004],4],
+         [[marionhealer_trigger_crypt],0,
+            [LIBACT_QUOTE_RSC,marionhealer_speech_005],5],
+         [[marionhealer_trigger_duke],0,
+            [LIBACT_QUOTE_RSC,marionhealer_speech_006],6],
+         [[marionhealer_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,marionhealer_speech_007],7],
+         [[marionhealer_trigger_ivory_chapel],0,
+            [LIBACT_QUOTE_RSC,marionhealer_speech_008],8],
+         [[marionhealer_trigger_jasper],0,
+            [LIBACT_QUOTE_RSC,marionhealer_speech_009],9],
+         [[marionhealer_trigger_jonas],0,
+            [LIBACT_QUOTE_RSC,marionhealer_speech_010],10],
+         [[marionhealer_trigger_king],0,
+            [LIBACT_QUOTE_RSC,marionhealer_speech_011],11],
+         [[marionhealer_trigger_marion],0,
+            [LIBACT_QUOTE_RSC,marionhealer_speech_012],12],
+         [[marionhealer_trigger_meidei,marionhealer_trigger_medei],0,
+            [LIBACT_QUOTE_RSC,marionhealer_speech_013],13],
+         [[marionhealer_trigger_princess],0,
+            [LIBACT_QUOTE_RSC,marionhealer_speech_014],14],
+         [[marionhealer_trigger_rugby],0,
+            [LIBACT_QUOTE_RSC,marionhealer_speech_015],15],
+         [[marionhealer_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,marionhealer_speech_016],16],
+         [[marionhealer_trigger_zarcos],0,
+            [LIBACT_QUOTE_RSC,marionhealer_speech_017],17]
+      ]],lLib);
+
+      lLib = Cons([&MarionInnkeeper,[
+         [[marioninnkeeper_trigger_bye,
+            marioninnkeeper_trigger_bye_2],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_001],1],
+         [[marioninnkeeper_trigger_bye,
+            marioninnkeeper_trigger_bye_2],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_002],2],
+         [[marioninnkeeper_trigger_duke],0,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_003],3],
+         [[marioninnkeeper_trigger_fate],0,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_004],4],
+         [[marioninnkeeper_trigger_hello],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_005],5],
+         [[marioninnkeeper_trigger_hello],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_006],6],
+         [[marioninnkeeper_trigger_hello],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_007],7],
+         [[marioninnkeeper_trigger_hello],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_008],8],
+         [[marioninnkeeper_trigger_hello],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_009],9],
+         [[marioninnkeeper_trigger_hello],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_010],10],
+         [[marioninnkeeper_trigger_hello],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_011],11],
+         [[marioninnkeeper_trigger_hello],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_012],12],
+         [[marioninnkeeper_trigger_izzio],0,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_013],13],
+         [[marioninnkeeper_trigger_kalior],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_014],14],
+         [[marioninnkeeper_trigger_kalior],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_015],15],
+         [[marioninnkeeper_trigger_king],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_016],16],
+         [[marioninnkeeper_trigger_miriana],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_017],17],
+         [[marioninnkeeper_trigger_miriana],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_018],18],
+         [[marioninnkeeper_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_019],19],
+         [[marioninnkeeper_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_020],20],
+         [[marioninnkeeper_trigger_morrigan],0,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_021],21],
+         [[marioninnkeeper_trigger_morrigan],0,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_022],22],
+         [[marioninnkeeper_trigger_morrigan],0,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_023],23],
+         [[marioninnkeeper_trigger_mushroom],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_024],24],
+         [[marioninnkeeper_trigger_need_a_courier],0,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_025],25],
+         [[marioninnkeeper_trigger_node_attack],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_026],26],
+         [[marioninnkeeper_trigger_node_attack],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_027],27],
+         [[marioninnkeeper_trigger_node_attack],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_028],28],
+         [[marioninnkeeper_trigger_pants],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_029],29],
+         [[marioninnkeeper_trigger_princess],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_030],30],
+         [[marioninnkeeper_trigger_rugby],0,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_speech_031],31]
+      ]],lLib);
+
+      return lLib;
+   }
+
+   GetRandomLibrary()
+   "Random library nodes: [class, [[percent, mood, action, key], ...]]"
+   {
+      local lLib;
+
+      lLib = $;
+
+      lLib = Cons([&MarionBartender,[
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_041],41],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_042],42],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_043],43],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_random_044],44],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_random_045],45],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_random_046],46],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marionbartender_random_047],47],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,marionbartender_random_048],48]
+      ]],lLib);
+
+      lLib = Cons([&MarionBartender,[
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionbartender_random_001],1],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionbartender_random_002],2],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionbartender_random_003],3],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionbartender_random_004],4],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionbartender_random_005],5],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionbartender_random_006],6],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionbartender_random_007],7],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionbartender_random_008],8],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionbartender_random_009],9],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,marionbartender_random_010],10],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_011],11],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_012],12],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_013],13],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_014,
+               [LIBPLUG_SIRMADAM]],14],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_015],15],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_016],16],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_017],17],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_018,
+               [LIBPLUG_SIRMADAM]],18],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_019,
+               [LIBPLUG_SIRMADAM]],19],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_020],20],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_021,
+               [LIBPLUG_SIRMADAM]],21],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_022,
+               [LIBPLUG_SIRMADAM]],22],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_023,
+               [LIBPLUG_SIRMADAM]],23],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_024],24],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_025],25],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_026,
+               [LIBPLUG_SIRMADAM]],26],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_027],27],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_028],28],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_029],29],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_030],30],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_031,
+               [LIBPLUG_SIRMADAM]],31],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_032],32],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_033,
+               [LIBPLUG_SIRMADAM]],33],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_034],34],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_035],35],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_036],36],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_037],37],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_038],38],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_039],39],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionbartender_random_040],40]
+      ]],lLib);
+
+      lLib = Cons([&MarionBlacksmith,[
+         [50,0,[LIBACT_QUOTE_RSC,marionblacksmith_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,marionblacksmith_random_002],2],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionblacksmith_random_003],3],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionblacksmith_random_004,
+               [LIBPLUG_SIRMADAM]],4],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionblacksmith_random_005],5],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_random_006,
+               [LIBPLUG_SIRMADAM]],6],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_random_007],7],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_random_008],8],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_random_009],9],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_random_010],10],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_random_011],11],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_random_012],12],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_random_013],13],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_random_014],14],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_random_015],15],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_random_016],16],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_random_017],17],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_random_018],18],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_random_019],19],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,marionblacksmith_random_020],20]
+      ]],lLib);
+
+      lLib = Cons([&MarionElder,[
+         [50,0,[LIBACT_QUOTE_RSC,marionelder_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,marionelder_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,marionelder_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,marionelder_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,marionelder_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,marionelder_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,marionelder_random_007],7],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,marionelder_random_008],8],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,marionelder_random_009],9],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,marionelder_random_010],10],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,marionelder_random_011],11],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionelder_random_012],12],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionelder_random_013],13],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionelder_random_014],14],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionelder_random_015],15],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionelder_random_016],16],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionelder_random_017],17],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionelder_random_018],18],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionelder_random_019],19],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionelder_random_020],20],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionelder_random_021],21],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionelder_random_022],22],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionelder_random_023],23],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionelder_random_024],24],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionelder_random_025],25],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionelder_random_026],26],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionelder_random_027],27],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marionelder_random_028],28],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionelder_random_029],29],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionelder_random_030],30],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionelder_random_031],31],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionelder_random_032],32],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionelder_random_033],33],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionelder_random_034],34],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,marionelder_random_035],35],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,marionelder_random_036],36],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,marionelder_random_037],37],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,marionelder_random_038],38]
+      ]],lLib);
+
+      lLib = Cons([&MarionHealer,[
+         [50,0,
+            [LIBACT_QUOTE_RSC,marionhealer_random_001,[LIBPLUG_SIRMADAM]],1],
+         [50,0,[LIBACT_QUOTE_RSC,marionhealer_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,marionhealer_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,marionhealer_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,marionhealer_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,marionhealer_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,marionhealer_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,marionhealer_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,marionhealer_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,marionhealer_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,marionhealer_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,marionhealer_random_012],12],
+         [50,0,[LIBACT_QUOTE_RSC,marionhealer_random_013],13],
+         [50,0,[LIBACT_QUOTE_RSC,marionhealer_random_014,[LIBPLUG_NAME]],14],
+         [50,0,[LIBACT_QUOTE_RSC,marionhealer_random_015],15],
+         [50,0,[LIBACT_QUOTE_RSC,marionhealer_random_016],16],
+         [50,0,[LIBACT_QUOTE_RSC,marionhealer_random_017],17],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marionhealer_random_018],18]
+      ]],lLib);
+
+      lLib = Cons([&MarionInnkeeper,[
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_random_001],1],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_random_002],2],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_random_003],3],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_random_004],4],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_random_005],5],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_random_006],6],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_random_007],7],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_random_008],8],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_random_009],9],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_random_010],10],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_random_011],11],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_random_012],12],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,marioninnkeeper_random_013],13]
+      ]],lLib);
+
+      return lLib;
+   }
+
+end
+////////////////////////////////////////////////////////////////////////////////

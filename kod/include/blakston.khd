@@ -1689,6 +1689,9 @@
    LIBACT_QUOTE            = 20
    // Change a mood
    LIBACT_MOOD             = 21
+   // Say a quote resource; its plug-ins (LIBPLUG_*) are sent as resource
+   // parameters (%s), so the client shows them in its own language
+   LIBACT_QUOTE_RSC        = 22
    // Post a someone said with target name
    LIBACT_SAY_TARG         = 24
    LIBACT_BALANCE          = 25
@@ -1701,6 +1704,13 @@
    LIBACT_COUNCILOR_REPORT = 52
    LIBACT_NUMBER_REPORT    = 53
    LIBACT_MANA_NODE_LIST   = 54
+
+   // Plug-ins of LIBACT_QUOTE_RSC, the old %NAME, %SIRMADAM etc. of quotes
+   LIBPLUG_NAME            = 1
+   LIBPLUG_SIRMADAM        = 2
+   LIBPLUG_LORDLADY        = 3
+   LIBPLUG_LADLASSIE       = 4
+   LIBPLUG_DAYNIGHT        = 5
 
    // Restriction Vector Flags
    LIBRES_MALE_ONLY        = 0x00001

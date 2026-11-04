@@ -59,7 +59,7 @@ function DisplaySyntax
    Write-Host "5) Shutdown server"
    Write-Host "   build-105.ps1 -Action killserver"
    Write-Host
-   Write-Host "6) Start server and recreate, load npcdlg.txt"
+   Write-Host "6) Start server and recreate"
    Write-Host "   build-105.ps1 -Action startserver"
    Write-Host
    Write-Host "Optional Parameters:"
@@ -461,7 +461,7 @@ function StartServer
 
 function RecreateServer
 {
-   $Commands=@("lock updating","send o 0 recreateall","read npcdlg.txt","unlock")
+   $Commands=@("lock updating","send o 0 recreateall","unlock")
 
    $Socket = New-Object System.Net.Sockets.TcpClient("$OutputIP", 9999)
    if ($Socket)

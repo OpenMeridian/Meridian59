@@ -1,0 +1,324 @@
+// BergAucM
+bergaucm_random_001 = de \
+   "~kHarold d'Adue schreibt mit Federkiel und Tinte auf einem Blatt "
+   "Pergament. Offenbar führt er akribisch Buch über die hier zum Verkauf "
+   "angebotenen Gegenstände. Er bemerkt Euch zunächst nicht einmal, so "
+   "vertieft ist er in seine Arbeit."
+bergaucm_random_002 = de \
+   "~kHarold d'Adue spricht mit leiser, aber ernster Stimme, \"Solltet Ihr "
+   "hier nicht fündig werden, könnt Ihr Eure Münzen gerne in der Bank, bei "
+   "meinem Sohn Michael d'Adue, einlagern. Er wird gut auf Euer Vermögen "
+   "aufpassen. Ich verspreche es Euch!\""
+bergaucm_random_003 = de \
+   "~kHarold d'Adue plustert sich auf und sagt, \"Im Übrigen bin ich nicht "
+   "nur der königliche Auktionator von Berg, sondern auch der Schatzmeister "
+   "unseres Königs. Nun wisst Ihr, wer vor Euch steht. Und Ihr seid?\""
+bergaucm_random_004 = de \
+   "~kHarold d'Adue schnaubt erzürnt, \"Pah! Dieser Liam schon wieder! "
+   "Ständig verbreitet er Lügen über mich. Und das nur, weil er nicht mal "
+   "sein Lager im Griff hat und neidisch auf meinen Erfolg ist. Wenn das so "
+   "weiter geht, werde ich wohl mit dem König sprechen müssen.\""
+bergaucm_random_005 = de \
+   "~kHarold d'Adue sagt, \"Falls Euch Liam Magnus dazu überreden sollte, "
+   "Eure Sachen bei ihm einzulagern, empfehle ich Euch ernsthaft darüber "
+   "nachzudenken, sie vielleicht lieber hier im Auktionshaus zu verkaufen, "
+   "bevor dieser Trottel die Hälfte wieder verschusselt. Denkt darüber "
+   "nach.\""
+bergaucm_random_006 = de \
+   "~kHarold d'Adue sagt, \"Tretet näher und betrachtet die wundervollen "
+   "Waren dieses einzigartigen Auktionshauses. Ich heiße Euch herzlich "
+   "willkommen!\""
+bergaucm_random_007 = de \
+   "~kHarold d'Adue sagt, \"Möchtet Ihr vielleicht etwas in diesem "
+   "Auktionshaus zum Verkauf anbieten? Ich bin mir sicher, wir werden uns "
+   "schnell einig. Was sagt Ihr? Zeigt mir doch mal, was Ihr habt.\""
+bergaucm_random_008 = de \
+   "~kHarold d'Adue legt, während Ihr Euch umseht, etwas Feuerholz in seinen "
+   "Kamin und hält anschließend seine Hände in Richtung des wärmenden Feuers."
+bergaucm_random_009 = de \
+   "~kHarold d'Adue sagt, \"Manch einer sagt, ich wäre sehr geschickt im "
+   "Umgang mit Zahlen, aber im Grunde ist das auch kein Hexenwerk. Und wenn "
+   "es doch einmal nicht passt, nun... ich finde immer eine "
+   "zufriedenstellende Lösung.\""
+
+// BergBanker
+bergbanker_random_001 = de \
+   "~kWährend Michael d'Adue die Münzen seines Münzbeutels zählt, funkeln "
+   "seine Augen bei jedem Klimpern."
+bergbanker_random_002 = de \
+   "~kMichael d'Adue sagt, \"Münzen haben einen wunderbaren Klang, wenn man "
+   "sie in einem Beutel schüttelt. Findet Ihr nicht?\""
+bergbanker_random_003 = de \
+   "~kMichael d'Adue sagt, \"Seid gegrüßt! Habt Ihr Münzen, die Ihr sicher "
+   "verwahren möchtet? Dann seid Ihr hier genau richtig!\""
+bergbanker_random_004 = de \
+   "~kMichael d'Adue spricht erleichtert, \"Dank meines Vaters leite ich nun "
+   "diese Bank hier und muss nicht mit den Truppen des Königs, dort draußen "
+   "im düsteren Wald, gegen diese Monster kämpfen.\""
+bergbanker_random_005 = de \
+   "~kMichael d'Adue sagt, \"Roderick Merk, unser Schmied, übt einen "
+   "schlechten Einfluss auf meinen Vater aus. Bald wird er hoffentlich Berg "
+   "verlassen, so wie er auch Jixa verlassen musste!\""
+bergbanker_random_006 = de \
+   "~kMichael d'Adue sagt, \"Tut mir einen Gefallen: Kauft Eure Waffen und "
+   "Rüstungen bei meinem Vater, dem Auktionator von Berg, und nicht bei "
+   "diesem widerlichen Roderick.\""
+bergbanker_random_007 = de \
+   "~kMichael d'Adue erzählt Euch, \"Wenn manch einer hier wüsste, was ich "
+   "über Roderick weiß, müsste er Berg verlassen. Doch da mein Vater ihn "
+   "schützt, bleiben mir nur meine Münzen.\""
+bergbanker_random_008 = de \
+   "~kMichael d'Adue sagt, \"Solltet Ihr bei unserem Schmied, Roderick Merk, "
+   "vorbeikommen, erinnert ihn doch daran, mir seine monatliche Zahlung "
+   "umgehend zu überreichen. Habt Dank!\""
+bergbanker_random_009 = de \
+   "~kMichael d'Adue sagt, \"Es ist wirklich schön, Euch zu sehen. Möchtet "
+   "Ihr weitere Münzen einzahlen? Sie sind hier wirklich sicher gelagert, es "
+   "gibt keinen besseren Platz für sie. Ihr habt mein Wort!\""
+
+// BergBlacksmith
+bergblacksmith_random_001 = de \
+   "~kAls ihr die Schmiede betretet, singt Roderick Merk ein wundervoll "
+   "klingendes Lied, das ihr noch nie gehört habt. Doch leider hört er "
+   "umgehend damit auf, als er euch erblickt."
+bergblacksmith_random_002 = de \
+   "~kRoderick Merk sagt, \"Bitte verzeiht mir, wenn ich zwischendurch "
+   "singe, aber die harte Arbeit an der heißen Schmiede erfreut mich immer "
+   "wieder aufs Neue und erinnert mich an einen alten Freund.\""
+bergblacksmith_random_003 = de \
+   "~kAls ihr Roderick Merk auf seine Vergangenheit ansprecht, kullert ihm "
+   "eine kleine Träne die Wange herunter, welche er schnell mit seiner "
+   "verdreckten Hand wegwischt, um anschließend wortlos mit seiner Arbeit "
+   "weiterzumachen. Diesmal jedoch sehr konzentriert und ohne zu singen."
+bergblacksmith_random_004 = de \
+   "~kRoderick Merk setzt sich kurz und beginnt zu erzählen: \"Wisst Ihr, "
+   "ich vermisse Jixa manchmal. Doch der dortige Wirt und ich,... nun, es "
+   "passte einfach nicht. Wenn Ihr versteht?\""
+bergblacksmith_random_005 = de \
+   "~kRoderick Merk sagt, \"Wusstet Ihr eigentlich, dass der Wirt in Jixa "
+   "der heimliche Anführer einer Diebesgilde ist? Das scheint dort und hier "
+   "allerdings niemanden zu interessieren.\""
+bergblacksmith_random_006 = de \
+   "~kRoderick Merk flüstert euch zu: \"Pssst! Kennt Ihr den Schmied aus "
+   "Jixa? Seid Ihr dort eventuell vorbeigekommen und wisst, wie es ihm geht? "
+   "Er fehlt mir so sehr, aber ich musste gehen.\""
+bergblacksmith_random_007 = de \
+   "~kRoderick Merk seufzt und macht mit seiner Arbeit weiter."
+bergblacksmith_random_008 = de \
+   "~kRoderick Merk singt eine Strophe eines euch unbekannten Liedes und "
+   "erzählt dann, \"Vielleicht wäre aus mir einer der größten Barden "
+   "geworden, die diese Welt je gesehen hätte. Doch hatten sie dort kein "
+   "Verständnis für meine außergewöhnliche Liebe und somit musste ich den "
+   "Tempel von Jala leider verlassen. Aber behaltet das besser für Euch.\""
+bergblacksmith_random_009 = de \
+   "~kRoderick Merk sagt, \"Kennt Ihr Harold d'Adue, unseren Auktionator von "
+   "Berg? Harold ist ein guter Mensch. Er hat sich viel um mich gekümmert "
+   "und hat immer ein offenes Ohr für mich. Ohne ihn hätte ich hier bestimmt "
+   "denselben Ärger wie in Jixa.\""
+bergblacksmith_random_010 = de \
+   "~kRoderick Merk sagt, \"Hallo! Darf ich Euch eine Waffe oder Rüstung "
+   "schmieden?\""
+bergblacksmith_random_011 = de \
+   "~kRoderick Merk sagt, \"Ihr seht aus wie jemand, der eine lange und "
+   "schwere Reise hinter sich hat. Vielleicht sogar noch länger und schwerer "
+   "als meine es war. Womit kann ich Euch dienen?\""
+bergblacksmith_random_012 = de \
+   "~kRoderick Merk sagt, \"Wenn Ihr bei mir nicht fündig werden solltet, "
+   "besucht doch meinen guten Freund Harold im Auktionshaus. Vielleicht kann "
+   "er Euch besorgen, wonach Ihr sucht?\""
+bergblacksmith_random_013 = de \
+   "~kRoderick Merk sagt, \"Schickt Euch dieser Michael? Ständig verlangt er "
+   "Münzen von mir, damit er niemandem erzählt, warum ich Jixa verlassen "
+   "musste. Dieser elende Halunke!\""
+
+// BergInnkeeper
+berginnkeeper_random_001 = de \
+   "~kBastiane d'Ile scheint heute einen dieser Tage zu haben, wo er mal "
+   "wieder mehr getrunken hat, als er eigentlich vertragen kann. Und doch "
+   "steht er schnurgerade vor euch und schenkt ein, ohne etwas zu "
+   "verschütten. Wahrhaftig beeindruckend!"
+berginnkeeper_random_002 = de \
+   "~kBastiane d'Ile fragt euch angetrunken, \"Ha-Hat Euch meine "
+   "Sch-sch-wester gesch-sch-ickt? Ständig mo-motzt sie her-rum un-und "
+   "w-w-wirft mir vor <hicks> ich würde schu-schu-schuviel trinken! Dasch "
+   "do-doch vollkommner Quatsch!\""
+berginnkeeper_random_003 = de \
+   "~kBastiane d'Ile lallt euch betrunken zu, \"Hee-hee! Ihr sch-sprecht mit "
+   "Lord Bastiane d'Ile, ver- ver-armter Ho-ho-Hochadel, stets zu "
+   "Di-di-diensten! Wisst Ihr, <schmatzt vor sich hin> ich ha-habe mich "
+   "damit lä-längst ab-abgefunden, aber meine Sch-sch-schwester hält noch "
+   "immer an ih-ih-rem Traum von Barloque fest. <Seufzt> Ach ver-verflucht, "
+   "wasch scholls!\""
+berginnkeeper_random_004 = de \
+   "~kBastiane d'Ile spricht beschwipst aber freudig, \"A-hoi! Wasch wollt "
+   "Ihr tri-trinken? Isch hab- habe Bier, Schna-schnahaps uuund Käääse! "
+   "Hee-heee! Schm-eckt alles lecker!\""
+berginnkeeper_random_005 = de \
+   "~kBastiane d'Ile putzt und poliert sorgfältig seine Gläser, als ihr das "
+   "Gasthaus betretet. Zwischendurch schenkt er sich immer wieder selber "
+   "einen Schnaps ein und kichert zufrieden vor sich hin."
+berginnkeeper_random_006 = de \
+   "~kVom Kamin im Gasthaus geht eine angenehme Wärme aus, die euch wohlig "
+   "umhüllt und nach kurzer Zeit auch ziemlich durstig zu machen scheint."
+berginnkeeper_random_007 = de \
+   "~kBastiane d'Ile, blau wie ein Veilchen, lallt Euch an, \"Kommt, jsetzt "
+   "Euch und tri-trinkt etwasch, bevor Euer Mu-mund austrocknet! Isch "
+   "ma-mache esch Euch auch g-gerne noch etwas w- wärmer, solltet Ihr "
+   "fr-fr-frieren.\""
+berginnkeeper_random_008 = de \
+   "~kBastiane d'Ile erzählt sternhagelvoll, \"Gl-glaubt mir, ich sssh-sehne "
+   "mich nach all dem Lu- luxus, den unsere Fa-familie einst ha-hatte. Wenn "
+   "isch nisch müschte, <hicks> würde ich auch nisch arbeiten! Ver-verdammt "
+   "nocheins!\""
+berginnkeeper_random_009 = de \
+   "~kBastiane d'Ile stottert euch betrunken entgegen, \"Wasch glaubt Ihr, "
+   "w-wer hier vor Euch schteht, häh?! Eigentlisch gehöre isch nischt "
+   "hier-hin. Schl-schließlich war isch nischt nur irgendjemand, son-sondern "
+   "Bastiane d'Ile!\""
+
+// BergLeaderM
+bergleaderm_random_001 = de \
+   "~kKönig Aaron Léone seufzt, \"Eines Tages werde ich diese Welt "
+   "vielleicht ohne Erben verlassen, denn meine geliebte Frau kann keine "
+   "Kinder mehr bekommen. Wenn Jala uns doch nur ein Wunder gewähren "
+   "könnte.\""
+bergleaderm_random_002 = de \
+   "~kKönig Aaron Léone lächelt warmherzig, \"Auch wenn ich keinen Sohn "
+   "habe, der meinen Thron erbt, sind meine geliebte Frau und ich mit drei "
+   "wundervollen Töchtern gesegnet.\""
+bergleaderm_random_003 = de \
+   "~kKönig Aaron Léone sieht traurig aus und sagt, \"Meine Berater drängen "
+   "mich, einen Bastard zu zeugen, doch sie verstehen nicht, wie sehr ich "
+   "meine Frau liebe.  Ich könnte sie niemals betrügen.\""
+bergleaderm_random_004 = de \
+   "~kKönig Aaron Léone sagt, \"Für die Sicherheit Bergs und seiner "
+   "Bewohner!  Denkt immer daran, wenn Ihr unsere Tore verlasst, um gegen "
+   "die Monster zu kämpfen, die unsere Stadt bedrohen.\""
+bergleaderm_random_005 = de \
+   "~kKönig Aaron Léone spricht leise, \"Vieles bedrückt mich.  Manchmal "
+   "wünschte ich, ich hätte jemanden, dem ich mich anvertrauen kann. "
+   "Vielleicht würdet Ihr mir zuhören?\""
+bergleaderm_random_006 = de \
+   "~kKönig Aaron Léone sagt, \"Kennt Ihr Harold d'Adue?  Er ist mein "
+   "Schatzmeister und kümmert sich gut um unser Auktionshaus in Berg.  Wenn "
+   "Ihr etwas Bestimmtes braucht, fragt einfach ihn.\""
+bergleaderm_random_007 = de \
+   "~kKönig Aaron Léone kratzt sich am Kopf und sieht Euch mit besorgter "
+   "Miene an."
+bergleaderm_random_008 = de \
+   "~kZuweilen scheint König Aaron Léone ganz in Gedanken versunken, murmelt "
+   "vor sich hin und gestikuliert geistesabwesend mit seinem Zepter."
+bergleaderm_random_009 = de \
+   "~kAls Ihr eintretet, schlüpft einer der Berater des Königs schnell "
+   "hinaus, als hätte er es eilig."
+
+// BergMerchant
+bergmerchant_random_001 = de \
+   "~kLuisane d'Ile sagt, \"Solltet Ihr im Gasthaus meines Bruders Bastiane "
+   "einkehren, so richtet ihm doch bitte liebe Grüße aus. Leider habe ich "
+   "hier sehr viel zu tun und sehe ihn nur selten.\""
+bergmerchant_random_002 = de \
+   "~kLuisane d'Ile greift zu ein paar Kräutern unter ihrer Theke und "
+   "zermahlt diese in einem kleinen Mörser. Das dadurch entstandene "
+   "Tee-Pulver kocht sie mit heißem Wasser auf und trinkt immer wieder "
+   "kleine Schlucke aus ihrem Becher, während sie Euch beobachtet."
+bergmerchant_random_003 = de \
+   "~kLuisane d'Ile mischt verschiedene, exotisch wirkende Kräuter zusammen "
+   "und stopft diese in eine Wasserpfeife. Als sie diese entzündet und den "
+   "Rauch ausatmet, erfüllt ein fruchtig-frischer Geruch die kleine Höhle "
+   "und Ihr fühlt Euch sehr entspannt."
+bergmerchant_random_004 = de \
+   "~kLuisane d'Ile sagt, \"Seid Ihr auch einer dieser Jala-Barden, die ein "
+   "paar exotische Kräuter gebrauchen können, oder wonach sucht Ihr bei "
+   "mir?\""
+bergmerchant_random_005 = de \
+   "~kLuisane d'Ile sagt, \"Nur durch meine harte Arbeit können mein Bruder "
+   "und ich uns diesen Lebensstil erlauben. Leider vergessen das unsere "
+   "Neider schnell oder nehmen es nicht wahr.\""
+bergmerchant_random_006 = de \
+   "~kLuisane d'Ile sagt, \"Hallo, schaut Euch doch mal diese feinen Kräuter "
+   "und Pilze aus dem Umland an. Vielleicht ist ja etwas dabei, was Ihr für "
+   "Eure Zauberei gebrauchen könnt.\""
+bergmerchant_random_007 = de \
+   "~kLuisane d'Ile sagt, \"Habt Ihr auf Euren Reisen eventuell besonders "
+   "interessante Kräuter, Pilze, Wurzeln oder Ähnliches gefunden, von dem "
+   "Ihr Euch trennen möchtet? Ich zahle Euch sicher einen guten und fairen "
+   "Preis dafür.\""
+bergmerchant_random_008 = de \
+   "~kLuisane d'Ile sagt, \"Würde mein Bruder nur so hart arbeiten wie ich, "
+   "würde es auch unserer Familie besser gehen. Denn einst gehörten wir zum "
+   "Adel von Berg, doch der Alkohol hat ihn verändert.\""
+bergmerchant_random_009 = de \
+   "~kLuisane d'Ile sagt, \"Wart Ihr schon einmal in Barloque? Ursprünglich "
+   "lebten unsere Vorfahren dort, doch mein Bruder und ich haben diese "
+   "prunkvolle Stadt, die sie den Erzählungen nach sein muss, leider nie "
+   "sehen können. Die magische Barriere hat es verhindert.\""
+bergmerchant_random_010 = de \
+   "~kLuisane d'Ile sagt, \"Ich wünschte, mein Bruder Bastiane würde endlich "
+   "mit dem Trinken aufhören, doch seit er das Gasthaus führt, ist es noch "
+   "schlimmer geworden. So muss ich mich hier alleine darum kümmern, dass "
+   "unsere Familie genug zum Leben hat.\""
+bergmerchant_random_011 = de \
+   "~kLuisane d'Ile zupft ihr edles Kleid zurecht und streicht sich durch "
+   "die Haare. Sie wirkt auf Euch wie eine fein gekleidete Dame aus dem "
+   "Hochadel und doch verkauft sie offenbar nur Kräuter in einem kleinen "
+   "Höhlenladen, welcher von schummrigem Licht erleuchtet wird."
+bergmerchant_random_012 = de \
+   "~kLuisane d'Ile sagt, \"Eines Tages kehrt unsere Familie nach Barloque "
+   "zurück und wird wieder den Platz einnehmen, der ihr gebührt. Doch bis "
+   "dahin habe ich noch sehr viel Arbeit vor mir. Es würde sicherlich "
+   "schneller gehen und einfacher sein, würde mein Bruder Bastiane mir dabei "
+   "helfen, doch er verschwendet seine Zeit lieber mit Bier und Schnaps.\""
+
+// BergVaultman
+bergvaultman_random_001 = de \
+   "~kLiam Magnus sagt, \"Dieser Harold und sein Sohn üben starken Einfluss "
+   "auf unseren König aus und ich bin mir nicht sicher, ob das so gut für "
+   "Berg ist. Aber sprechen wir übers Geschäft: Was möchtet Ihr bei mir "
+   "einlagern?\""
+bergvaultman_random_002 = de \
+   "~kLiam Magnus wird von einem heftigen Hustenanfall gepackt, als Rauch "
+   "aus dem Kamin quillt. Schwer auf seinen Gehstock gestützt, murmelt er "
+   "ein paar unverständliche Flüche."
+bergvaultman_random_003 = de \
+   "~kLiam Magnus sagt, \"Seid gegrüßt! Kommt Ihr aus dem Westlichen "
+   "Königreich? Mir wurde erzählt, Ihr Westler hättet ein ähnliches Lager in "
+   "der Königsstadt Barloque? Das ist vermutlich nicht mal annähernd so groß "
+   "und so fachmännisch geführt wie meines, meint Ihr nicht auch? Wie auch "
+   "immer, möchtet Ihr ein paar Dinge hier lagern?\""
+bergvaultman_random_004 = de \
+   "~kLiam Magnus sagt, \"Kennt Ihr schon das Auktionshaus hier? Nun, unter "
+   "meiner Führung würde es sicher reibungsloser laufen, aber unser König "
+   "wird wohl seine Gründe haben, dem jetzigen Verwalter zu vertrauen... Na "
+   "ja, zurück zum Geschäft: Lasst Eure Wertsachen bei mir und ich verwahre "
+   "sie gegen eine kleine Gebühr sicher für Euch. Wie wär's?\""
+bergvaultman_random_005 = de \
+   "~kLiam Magnus legt ein paar weitere Scheite Feuerholz in seinen Kamin, "
+   "damit sein Lagerraum schön warm bleibt."
+bergvaultman_random_006 = de \
+   "~kLiam Magnus sagt, \"Dieses erstaunliche Angebot bekommt Ihr nirgendwo "
+   "sonst: Nutzt Liam Magnus' vertrauenswürdigen, supergünstigen und "
+   "sicheren Lagerdienst und schafft zu einem unglaublich niedrigen Preis "
+   "Platz in Eurem Rucksack! Ihr wisst doch, dass Ihr es wollt!\""
+bergvaultman_random_007 = de \
+   "~kLiam Magnus sagt, \"Hey, Ihr dort! Möchtet Ihr nicht etwas Platz für "
+   "mehr Beute schaffen? Ihr seht aus, als würde nicht mal mehr ein Roobeh "
+   "in Eure Taschen passen! Kommt her und lasst mich das für Euch "
+   "erledigen...\""
+bergvaultman_random_008 = de \
+   "~kLiam Magnus sagt, \"Ihr seht mir nach einem Abenteurer aus! Hab ich "
+   "recht?? Warum geht Ihr nicht zu König Léone und bietet seiner "
+   "königlichen Garde Eure Dienste an? Oh, und wenn Ihr schon dabei seid, "
+   "erwähnt doch, dass ich Euch geschickt habe! Habt vielen Dank! Und nun "
+   "macht Euch schon auf den Weg... Los! Husch! Fort mit Euch!\""
+bergvaultman_random_009 = de \
+   "~kLiam Magnus stützt sich auf seinen Gehstock, während er mit dem Finger "
+   "flink die abgegriffenen Seiten eines gewaltigen Kontobuchs durchgeht. "
+   "Hin und wieder wendet er sich seinem kleinen Notizbuch zu, um einen "
+   "Eintrag abzuhaken oder einen Namen einzukreisen."
+bergvaultman_random_010 = de \
+   "~kEine angenehme Wärme strahlt vom Kamin aus, und hin und wieder ist "
+   "inmitten des leisen Knisterns des Feuers ein scharfes Knacken zu hören."
+bergvaultman_random_011 = de \
+   "~kLiam Magnus lächelt in sich hinein, während er einen Stapel glänzender "
+   "Goldmünzen zählt. Ein zufriedener Seufzer entfährt seinen Lippen."

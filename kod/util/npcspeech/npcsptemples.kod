@@ -1,0 +1,1911 @@
+// Meridian 59, Copyright 1994-2012 Andrew Kirmse and Chris Kirmse.
+// All rights reserved.
+//
+// This software is distributed under a license that is described in
+// the LICENSE file that accompanies it.
+//
+// Meridian is a registered trademark.
+
+
+////////////////////////////////////////////////////////////////////////////////
+NpcSpeechTemples is NpcSpeech
+// NPC talk of temple priests:
+// answers to trigger words and random lines.
+// Each line is a resource (EN here, DE in the .lkod); Library adds the
+// lists in CreateSpeechLibrary and CreateRandomLibrary.
+
+constants:
+
+   include blakston.khd
+
+resources:
+
+   include npcsptemples.lkod
+
+   // FarenPriestess (Priestess Tenuv'vyal)
+   farenpriestess_speech_001 = \
+      "~kPriestess Tenuv'vyal says, \"They are instruments of death and "
+      "decay. They should be destroyed at the first opportunity.\""
+   farenpriestess_speech_002 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gBarloque is an abomination to the "
+      "sanctity of the shores. I foresee that it will be destroyed by a rat "
+      "plague of the likes not seen before.~B~k\""
+   farenpriestess_speech_003 = \
+      "~kPriestess Tenuv'vyal says, \"An ancient city.  It was destroyed "
+      "because they ignored the powers of the land.  They chose civilization "
+      "over nature.  Judge the results for yourself.\""
+   farenpriestess_speech_004 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gFaren needs nothing but the earth "
+      "and sky.~B~k\""
+   farenpriestess_speech_005 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gBe gone!~B~k\""
+   farenpriestess_speech_006 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gLord Faren is quite displeased at "
+      "how that little pest of a town, Cor Noth, is damaging the fair stream "
+      "that flows through it. Cor Noth will perish by its own refuse. Even "
+      "now she spawns living slime.~B~k\""
+   farenpriestess_speech_007 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gPolitics, what need have I for "
+      "politics?!~B~k\""
+   farenpriestess_speech_008 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gOnce every six years, all in the "
+      "land must acknowledge the raw power of Faren. During this time, you "
+      "are to eat nothing except that which you can forage, you are to cast "
+      "no spells save those of Faren, and above all you are to stay clear of "
+      "any town. The Gadfly shall ensure this.~B~k\""
+   farenpriestess_speech_009 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gFah! Do not talk to me of mortal "
+      "politics!~B~k\""
+   farenpriestess_speech_010 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gLord Faren gave his life to the "
+      "earth. His power can be felt in every tremor, heard in every thunder "
+      "cloud, smelled in every fire, seen in every wave and tasted in every "
+      "edible thing that comes from the ground.~B~k\""
+   farenpriestess_speech_011 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gI hereby consider you a member of "
+      "the Gadfly of Faren. Display this name on you for all to see. Lord "
+      "Faren expects you to subvert the ways of civilization to return "
+      "mankind back to the ways of nature.~B~k\""
+   farenpriestess_speech_012 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gDo not mock me with your useless "
+      "pleasantries.~B~k\""
+   farenpriestess_speech_013 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gI can grant the powers of Faren, "
+      "the god of storms.~B~k\""
+   farenpriestess_speech_014 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gThe Gadfly of Faren is an "
+      "important sect dedicated to driving people from the sacrilegious "
+      "towns especially during the God Days. If you are true to the ways of "
+      "Faren, merely say that you supplicate to our master and I will "
+      "consider you part of the sect.~B~k\""
+   farenpriestess_speech_015 = \
+      "~kPriestess Tenuv'vyal says, \"They are a noble group. They have "
+      "foresight and a respect for nature that is refreshing. Can they stop "
+      "the necromancers? That is the great question.\""
+   farenpriestess_speech_016 = \
+      "~kPriestess Tenuv'vyal says, \"A noble weapon for a noble purpose. "
+      "The Hunter sword is a unique creation. An admirable symbol for a true "
+      "hero.\""
+   farenpriestess_speech_017 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gSweet and innocent Jala's beauty "
+      "glowed with light beyond that of the sun. There was no greater pain "
+      "than that my master suffered when her light was extinguished by the "
+      "vile one.~B~k\""
+   farenpriestess_speech_018 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gAs Jasper has stripped the land of "
+      "its well being, so does Faren instill fear and confusion in their "
+      "hearts!~B~k\""
+   farenpriestess_speech_019 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gWhy do you speak Kraanan's name in "
+      "the temple of Lord Faren?!~B~k\""
+   farenpriestess_speech_020 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gI can grant the powers of Faren, "
+      "the god of storms.~B~k\""
+   farenpriestess_speech_021 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gSpeak not to me of that spell! It "
+      "is the key to evil!~B~k\""
+   farenpriestess_speech_022 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gLord Faren only tolerates Marion "
+      "because it is under the protection of the sister of his lost "
+      "love.~B~k\""
+   farenpriestess_speech_023 = \
+      "~kTenuv'vyal laughs shakily, \"~B~gIf anyone had even a little sense, "
+      "they would run straight into the forest and destroy her before it is "
+      "too late.~n~k\""
+   farenpriestess_speech_024 = \
+      "~kTenuv'vyal laughs loudly, \"~B~gPeople call me mad, do not deny it, "
+      "I know they do. And what do they call this creature of chaos and "
+      "lies, sane?~n~k\""
+   farenpriestess_speech_025 = \
+      "~kTenuv'vyal says, \"~B~gLord Faren, what is your wish? Shall I be "
+      "haunted forever by this misbegotten child?~n~k\""
+   farenpriestess_speech_026 = \
+      "~kTenuv'vyal says, \"~B~bDESTROY HER! RID THE LAND OF HER LIES AND "
+      "HER CHAOS!! IT IS THE ONLY WAY!!! DO IT, DO IT NOW!!!!~n~k\""
+   farenpriestess_speech_027 = \
+      "~kTenuv'vyal looks at you piercingly, and suddenly you realize that "
+      "she is about to show you the power of Faren magic first hand."
+   farenpriestess_speech_028 = \
+      "~kTenuv'vyal screams her lungs out, and you wonder whether she has "
+      "now crossed the border of her sanity."
+   farenpriestess_speech_029 = \
+      "~kPriestess Tenuv'vyal says, \"Her existence is an abnormality of "
+      "nature. She must be destroyed.\""
+   farenpriestess_speech_030 = \
+      "~kTenuv'vyal says, \"~B~gI said long ago that Miriana was up to no "
+      "good, but did they listen to me? No, they did not, and now she seeks "
+      "the power of the nodes. Those fools could have prevented this much "
+      "sooner, had they listened to me.~n~k\""
+   farenpriestess_speech_031 = \
+      "~kTenuv'vyal screams, \"~B~gHow dare she call upon Faren's power for "
+      "her little games. Faren's will shall overwhelm her and she will be "
+      "destroyed.~n~k\""
+   farenpriestess_speech_032 = \
+      "~kTenuv'vyal says, \"~B~gShe summons the worst perversions of nature "
+      "to aid her in these fruitless attacks. She must be DESTROYED!~n~k\""
+   farenpriestess_speech_033 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gKateriina learns well the ways of "
+      "Shal'ille. She should abandon the politics of mortals.~B~k\""
+   farenpriestess_speech_034 = \
+      "~kPriestess Tenuv'vyal screams, \"~B~gNEVER SPEAK HER NAME!~B~k\""
+   farenpriestess_speech_035 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gRiija? Riija has no true "
+      "power.~B~k\""
+   farenpriestess_speech_036 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gHow dare you approach me with your "
+      "petty gold.~B~k\""
+   farenpriestess_speech_037 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gShal'ille is the peaceful sister "
+      "of innocent Jala.~B~k\""
+   farenpriestess_speech_038 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gThe time for a pupil does not "
+      "depend on us.~B~k\""
+   farenpriestess_speech_039 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gI hereby consider you a member of "
+      "the Gadfly of Faren. Display this name on you for all to see. Lord "
+      "Faren expects you to subvert the ways of civilization to return "
+      "mankind back to the ways of nature.~B~k\""
+   farenpriestess_speech_040 = \
+      "~kPriestess Tenuv'vyal says, \"Never before or after has there walked "
+      "a more righteous man.  All too well I understand his motives and his "
+      "actions.  He represented all that was decent in that corrupt "
+      "society.\""
+   farenpriestess_speech_041 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gFor too long the walls of Tos have "
+      "stood to mock Lord Faren. Nature will reclaim its bastions yet.~B~k\""
+   farenpriestess_speech_042 = \
+      "~kPriestess Tenuv'vyal says, \"That is the root of the unnatural "
+      "happenings in the land. If it cannot be destroyed completely, it "
+      "should be banished to the deepest chasm.\""
+   farenpriestess_speech_043 = \
+      "~kPriestess Tenuv'vyal says, \"If there is one person I could destroy "
+      "before they were ever born, it would be this abomination.\""
+   farenpriestess_speech_044 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gLegend says one Yrx'l tree "
+      "survives on an island of deception.~B~k\""
+   farenpriestess_speech_045 = \
+      "~kPriestess Tenuv'vyal says, \"An unremarkable member of the Zarcos "
+      "lineage, but then, most of their lineage is less than remarkable.  "
+      "Aristocracy tends to breed with itself. This is not the way of "
+      "nature.\""
+   farenpriestess_random_001 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gNature is more powerful than any "
+      "man. Why even the living trees can defend themselves with "
+      "lightning.~B~k\""
+   farenpriestess_random_002 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gLong ago nature was ravaged by man "
+      "as they bled the Yrx'l trees dry. All have now vanished from the "
+      "land. Except perhaps one.~B~k\""
+   farenpriestess_random_003 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gThe hideous slime creature is not "
+      "of nature. It is the wastes of human civilization which spawns "
+      "it.~B~k\""
+   farenpriestess_random_004 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gBeware of the witch named Miriana, "
+      "she seeks to disrupt the balance.~B~k\""
+   farenpriestess_random_005 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gThat fool Maleval will feel the "
+      "fury of Faren for spreading his lies.~B~k\""
+   farenpriestess_random_006 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gYour weapons are insignificant "
+      "sticks before the raw power of Faren sorcery!~B~k\""
+   farenpriestess_random_007 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gReject those foods tainted by "
+      "human hands. There are many mushrooms that can provide all the "
+      "nourishment you need.~B~k\""
+   farenpriestess_random_008 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gA potion of Forgetfulness can "
+      "cleanse your soul of those worthless spells you have learned from the "
+      "other priestesses. I warn you now that Faren does not grant such boon "
+      "without a price paid by your very being.~B~k\""
+   farenpriestess_random_009 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gSociety has outlawed the use of "
+      "some of Faren's magic. The fools! How dare they presume to outlaw the "
+      "will of a god!~B~k\""
+   farenpriestess_random_010 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gQerti'nya is so proud of how long "
+      "her temple has stood. Ha! My temple is all of the outdoors. Hers is "
+      "an insignificant sprig compared to the vast forest of my temple.~B~k\""
+   farenpriestess_random_011 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gI have sworn to destroy Zuxana on "
+      "sight. She can not hide her temple forever.~B~k\""
+   farenpriestess_random_012 = \
+      "~kPriestess Tenuv'vyal screeches, \"~B~gHa ha ha ha ha ha! Yes! Yes! "
+      "The Power!~B~k\""
+   farenpriestess_random_013 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gThe winds... they speak to "
+      "me!~B~k\""
+   farenpriestess_random_014 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gSmell that?! Clover. It's an omen. "
+      "Change is in the air.~B~k\""
+   farenpriestess_random_015 = \
+      "~kPriestess Tenuv'vyal screams for no apparent reason."
+   farenpriestess_random_016 = \
+      "~kPriestess Tenuv'vyal says, \"~g~BThe living trees of Faronath are "
+      "violent beings. They serve Faren.~B~k\""
+   farenpriestess_random_017 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gThe herbalist follows the ways of "
+      "Faren and even knows a bit of the power of heat.~B~k\""
+   farenpriestess_random_018 = \
+      "~kPriestess Tenuv'vyal says, \"~B~gMiriana must be destroyed. She "
+      "mocks the natural order of things.~B~k\""
+   farenpriestess_trigger_amulet = "amulet"
+   farenpriestess_trigger_barloque = "barloque"
+   farenpriestess_trigger_brax = "brax"
+   farenpriestess_trigger_sell = "sell"
+   farenpriestess_trigger_bye = "bye"
+   farenpriestess_trigger_cor_noth = "cor noth"
+   farenpriestess_trigger_council = "council"
+   farenpriestess_trigger_days = "days"
+   farenpriestess_trigger_duke = "duke"
+   farenpriestess_trigger_faren = "faren"
+   farenpriestess_trigger_gadfly = "gadfly"
+   farenpriestess_trigger_gadfly_2 = "gadfly"
+   farenpriestess_trigger_hello = "hello"
+   farenpriestess_trigger_help = "help"
+   farenpriestess_trigger_holiday = "holiday"
+   farenpriestess_trigger_holiday_2 = "holiday"
+   farenpriestess_trigger_hunter = "hunter"
+   farenpriestess_trigger_hunter_sword = "hunter sword"
+   farenpriestess_trigger_hunter_sword_2 = "hunter sword"
+   farenpriestess_trigger_jala = "jala"
+   farenpriestess_trigger_jasper = "jasper"
+   farenpriestess_trigger_kraanan = "kraanan"
+   farenpriestess_trigger_learn = "learn"
+   farenpriestess_trigger_lightning_wall = "lightning wall"
+   farenpriestess_trigger_marion = "marion"
+   farenpriestess_trigger_miriana = "miriana"
+   farenpriestess_trigger_necromancer = "necromancer"
+   farenpriestess_trigger_node = "node"
+   farenpriestess_trigger_princess = "princess"
+   farenpriestess_trigger_qor = "qor"
+   farenpriestess_trigger_riija = "riija"
+   farenpriestess_trigger_buy = "buy"
+   farenpriestess_trigger_shal_ille = "shal'ille"
+   farenpriestess_trigger_sha_lill = "sha-lill"
+   farenpriestess_trigger_student = "student"
+   farenpriestess_trigger_supplicate = "supplicate"
+   farenpriestess_trigger_supplicate_2 = "supplicate"
+   farenpriestess_trigger_tendrath = "tendrath"
+   farenpriestess_trigger_tos = "tos"
+   farenpriestess_trigger_urn = "urn"
+   farenpriestess_trigger_venya_cyr = "venya'cyr"
+   farenpriestess_trigger_yrx_l = "yrx'l"
+   farenpriestess_trigger_zarrus = "zarrus"
+
+   // JalaPriestess (Priestess Themala)
+   jalapriestess_random_001 = \
+      "~kPriestess Themala says, \"Music can affect you in so many ways.  A "
+      "song can change your mood, even your whole day.\""
+   jalapriestess_random_002 = \
+      "~kPriestess Themala says, \"Golems are animated servants, neither "
+      "alive nor dead.  They are powerful tools of Jala.\""
+   jalapriestess_random_003 = \
+      "~kPriestess Themala says, \"Those who have passed can still hear our "
+      "songs. Remember to honor them with a gentle tune.\""
+   jalapriestess_random_004 = \
+      "~kPriestess Themala says, \"A prism is a handy tool.  You never know "
+      "where it might come in handy.\""
+   jalapriestess_random_005 = \
+      "~kPriestess Themala says, \"A great song is one that endures, even "
+      "when I'm not around.\""
+   jalapriestess_random_006 = \
+      "~kPriestess Themala says, \"Music gives us memories.  The longer a "
+      "melody has existed, the more memories it holds.\""
+   jalapriestess_random_007 = \
+      "~kPriestess Themala says, \"If our king loves music, then there is "
+      "little wrong in the land.\""
+   jalapriestess_random_008 = \
+      "~kPriestess Themala says, \"I don't think good and evil are "
+      "opposites.  Anything done for love goes beyond both.\""
+   jalapriestess_random_009 = \
+      "~kPriestess Themala says, \"Music never lies - it makes you feel "
+      "something.  A song lets you feel a thought.\""
+   jalapriestess_random_010 = \
+      "~kPriestess Themala says, \"So vast is art, so narrow is the human "
+      "wit.\""
+   jalapriestess_random_011 = \
+      "~kPriestess Themala says, \"True ease in lyrics comes from art, not "
+      "chance.  Those who have learned to dance move most gracefully.\""
+
+   // KraananPriestess (Priestess Qerti'nya)
+   kraananpriestess_speech_001 = \
+      "~kPriestess Qerti'nya says, \"It is often the case that weaklings try "
+      "to improve their abilities with magical things. Of course the "
+      "necromancers need such things.\""
+   kraananpriestess_speech_002 = \
+      "~kPriestess Qerti'nya says, \"~B~bAll of those positions are filled "
+      "at the moment.~B~k\""
+   kraananpriestess_speech_003 = \
+      "~kPriestess Qerti'nya says, \"~B~bYears ago, the worthy blacksmith "
+      "Fehr'loi Qan journeyed to me and learned the ways of mighty Kraanan "
+      "the Fist. He now resides in Barloque. Seek him for fine "
+      "armaments.~B~k\""
+   kraananpriestess_speech_004 = \
+      "~kPriestess Qerti'nya says, \"The warriors of Brax were undisciplined "
+      "and lazy.  Because of that, they lost their city.\""
+   kraananpriestess_speech_005 = \
+      "~kPriestess Qerti'nya says, \"~B~bI need nothing.~B~k\""
+   kraananpriestess_speech_006 = \
+      "~kPriestess Qerti'nya says, \"~B~bTravel with strength, warrior.~B~k\""
+   kraananpriestess_speech_007 = \
+      "~kPriestess Qerti'nya says, \"~B~bYou can learn much of the ways of "
+      "battle from the weapon's master in Cor Noth.~B~k\""
+   kraananpriestess_speech_008 = \
+      "~kPriestess Qerti'nya says, \"~B~bMy boy Cort serves Kraanan the Fist "
+      "by overseeing the tourneys that are held in the Arena. I am proud of "
+      "his work and I am certain lord Kraanan is as well.~B~k\""
+   kraananpriestess_speech_009 = \
+      "~kPriestess Qerti'nya says, \"~B~bThe kingdom has been in confusion "
+      "ever since Zarcos gave power to five separate men. The kingdom needs "
+      "one strong ruler.~B~k\""
+   kraananpriestess_speech_010 = \
+      "~kPriestess Qerti'nya says, \"~B~bBah, don't bother bringing up "
+      "Cylill. He was a competent general and is my son's father. That is "
+      "all I have to say of the insufferable man.~B~k\""
+   kraananpriestess_speech_011 = \
+      "~kPriestess Qerti'nya says, \"~B~bKraanan's God Days occur once each "
+      "six years. It is a time for warriors to prove their worth both in "
+      "combat and in the bar. No person may refuse an arena challenge. To "
+      "test our resolve, lord Kraanan has before brought great beasts to "
+      "this temple so that we may vanquish them.~B~k\""
+   kraananpriestess_speech_012 = \
+      "~kPriestess Qerti'nya says, \"~B~bAkardius follows Riija? Bah! Kalior "
+      "was the true Duke. He followed the mighty Kraanan!~B~k\""
+   kraananpriestess_speech_013 = \
+      "~kPriestess Qerti'nya says, \"~B~bFaren is one with the earth. His "
+      "magic is for animals, not man.~B~k\""
+   kraananpriestess_speech_014 = \
+      "~kPriestess Qerti'nya says, \"~B~bBah, don't bother bringing up "
+      "Cylill. He was a competent general and is my son's father. That is "
+      "all I have to say of the insufferable man.~B~k\""
+   kraananpriestess_speech_015 = \
+      "~kPriestess Qerti'nya says, \"~B~bHail %s! You have traveled far to "
+      "reach my temple. I welcome you.~B~k\""
+   kraananpriestess_speech_016 = \
+      "~kPriestess Qerti'nya says, \"~B~bThrough me, you will learn the ways "
+      "of Kraanan, the god of might.~B~k\""
+   kraananpriestess_speech_017 = \
+      "~kPriestess Qerti'nya says, \"~B~bKraanan's God Days occur once each "
+      "six years. It is a time for warriors to prove their worth both in "
+      "combat and in the bar. No person may refuse an arena challenge. To "
+      "test our resolve, lord Kraanan has before brought great beasts to "
+      "this temple so that we may vanquish them.~B~k\""
+   kraananpriestess_speech_018 = \
+      "~kPriestess Qerti'nya says, \"They are a decent and mighty group. "
+      "They are welcome in the House of the Fist.\""
+   kraananpriestess_speech_019 = \
+      "~kPriestess Qerti'nya says, \"A useful weapon. I consider it "
+      "dangerous to rely on such things for victory in battle.\""
+   kraananpriestess_speech_020 = \
+      "~kPriestess Qerti'nya says, \"~B~bJala died in weakness. Mighty "
+      "Kraanan would have prevented her death, had he not already committed "
+      "himself to Meridian.~B~k\""
+   kraananpriestess_speech_021 = \
+      "~kPriestess Qerti'nya says, \"~B~bJasper's people are strong, but "
+      "they waste their time digging for gems. Their only value is the ores "
+      "they mine that are made into weapons.~B~k\""
+   kraananpriestess_speech_022 = \
+      "~kPriestess Qerti'nya says, \"~B~bExalt the Holy Might of Kraanan the "
+      "Fist, Kraanan I, Patron of the Warrior!~B~k\""
+   kraananpriestess_speech_023 = \
+      "~kPriestess Qerti'nya says, \"~B~bThrough me, you will learn the ways "
+      "of Kraanan, the god of might.~B~k\""
+   kraananpriestess_speech_024 = \
+      "~kPriestess Qerti'nya says, \"~B~bMarion is Shal'ille's domain. A "
+      "town of holy peace. A good place, but not for a true warrior of "
+      "Kraanan.~B~k\""
+   kraananpriestess_speech_025 = \
+      "~kPriestess Qerti'nya says, \"~B~bIs it not strange that only she can "
+      "hear it when they call upon the magic nodes in their defense?~n~k\""
+   kraananpriestess_speech_026 = \
+      "~kPriestess Qerti'nya says, \"~B~bThe Fist of Kraanan shall be the "
+      "justice with which her foul, deceitful ways are dealt with.~n~k\""
+   kraananpriestess_speech_027 = \
+      "~kPriestess Qerti'nya says, \"~B~bHer view of the gods is completely "
+      "twisted. To listen to her is to listen to misguided tales of "
+      "lies.~n~k\""
+   kraananpriestess_speech_028 = \
+      "~kPriestess Qerti'nya says, \"~B~bShe wants to make herself a god; "
+      "her ignorance and deceit will not be tolerated in this holy temple of "
+      "justice. Her end shall be swift and painless, yet it is a "
+      "necessity.~n~k\""
+   kraananpriestess_speech_029 = \
+      "~kPriestess Qerti'nya says, \"~B~bThat little witch seeks only her "
+      "own self-serving ways. She cannot be trusted.~n~k\""
+   kraananpriestess_speech_030 = \
+      "~kPriestess Qerti'nya says, \"~B~bThat demon must be stopped before "
+      "she destroys not only the land but also the faith upon which our "
+      "foundations are built. Her lies are unbearable to the ears of the "
+      "true believers.~n~k\""
+   kraananpriestess_speech_031 = \
+      "~kPriestess Qerti'nya says, \"The way of the necromancers is a way of "
+      "weakness. A true warrior should have no fear of these creatures. They "
+      "die by the sword, just like the living.\""
+   kraananpriestess_speech_032 = \
+      "~kPriestess Qerti'nya says, \"~B~bTo stop Miriana and her creatures, "
+      "you must beseech the strength of Kraanan.~n~k\""
+   kraananpriestess_speech_033 = \
+      "~kPriestess Qerti'nya says, \"~B~bKraanan does not deal gently with "
+      "people who use lies and chaos to lead others astray, as Miriana will "
+      "soon find out.~n~k\""
+   kraananpriestess_speech_034 = \
+      "~kPriestess Qerti'nya says, \"~B~bKraanan's justice must be hammered "
+      "into her before she can gather enough power to fulfill her dark "
+      "desires.~n~k\""
+   kraananpriestess_speech_035 = \
+      "~kPriestess Qerti'nya says, \"~B~bMaybe Kateriina should be "
+      "crowned...Unless there is another...perhaps one who follows "
+      "Kraanan.~B~k\""
+   kraananpriestess_speech_036 = \
+      "~kPriestess Qerti'nya says, \"~B~bKraanan cares little for pitiful "
+      "Qor and her lackey servants.~B~k\""
+   kraananpriestess_speech_037 = \
+      "~kPriestess Qerti'nya says, \"~B~bSpeak not the name of the Trickster "
+      "in my presence lest you seek the back of my hand!~B~k\""
+   kraananpriestess_speech_038 = \
+      "~kPriestess Qerti'nya says, \"~B~bSeek the blacksmiths for your "
+      "armaments.~B~k\""
+   kraananpriestess_speech_039 = \
+      "~kPriestess Qerti'nya says, \"~B~bHail Shal'ille, she who stands by "
+      "Kraanan's side as his faithful wife.~B~k\""
+   kraananpriestess_speech_040 = \
+      "~kPriestess Qerti'nya says, \"~B~bMy boy Cort serves Kraanan the Fist "
+      "by overseeing the tourneys that are held in the Arena. I am proud of "
+      "his work and I am certain lord Kraanan is as well.~B~k\""
+   kraananpriestess_speech_041 = \
+      "~kPriestess Qerti'nya says, \"What do you want me to say?  He was an "
+      "old man who used magic. I know nothing else.\""
+   kraananpriestess_speech_042 = \
+      "~kPriestess Qerti'nya says, \"~B~bHone your skills in the Arena "
+      "dedicated to my lord Kraanan. My son presides over all of the "
+      "different combats in the name of the Fist.~B~k\""
+   kraananpriestess_speech_043 = \
+      "~kPriestess Qerti'nya says, \"She got what she deserved.\""
+   kraananpriestess_speech_044 = \
+      "~kPriestess Qerti'nya says, \"~B~bMy boy Cort serves Kraanan the Fist "
+      "by overseeing the tourneys that are held in the Arena. I am proud of "
+      "his work and I am certain lord Kraanan is as well.~B~k\""
+   kraananpriestess_speech_045 = \
+      "~kPriestess Qerti'nya says, \"What is your opinion of a man who "
+      "leaves his country in its darkest hour to save himself?\""
+   kraananpriestess_random_001 = \
+      "~kPriestess Qerti'nya says, \"~B~bA warrior must be well fed for no "
+      "battle was won on an empty stomach. Even a poor warrior can find "
+      "mushrooms to feed themselves.~B~k\""
+   kraananpriestess_random_002 = \
+      "~kPriestess Qerti'nya says, \"~B~bFollowers of Kraanan must be true "
+      "to him and him alone. A potion of forgetfulness will clear your mind "
+      "of any paltry magic of the other schools.~B~k\""
+   kraananpriestess_random_003 = \
+      "~kPriestess Qerti'nya says, \"~B~bSeek the Arena in Tos and fight in "
+      "the name of Kraanan. When you prove your valor, my boy may show favor "
+      "on you.~B~k\""
+   kraananpriestess_random_004 = \
+      "~kPriestess Qerti'nya says, \"~B~bKraanan's God days were the first "
+      "to be honored back in the time of Priest Alexand. Again, mighty "
+      "warriors celebrate this holiday.~B~k\""
+   kraananpriestess_random_005 = \
+      "~kPriestess Qerti'nya says, \"~B~bTos no longer has a blacksmith. "
+      "That is Barloque's gain.~B~k\""
+   kraananpriestess_random_006 = \
+      "~kPriestess Qerti'nya says, \"~B~bYou stand in the oldest temple in "
+      "all the land. Yet, after all these years, it is still the strongest "
+      "in structure.~B~k\""
+   kraananpriestess_random_007 = \
+      "~kPriestess Qerti'nya says, \"~B~bGaze upon the magnificent weapons "
+      "around you. Each were used to further the name of Kraanan.~B~k\""
+   kraananpriestess_random_008 = \
+      "~kPriestess Qerti'nya says, \"~B~bMay you die in battle or not at "
+      "all.~B~k\""
+   kraananpriestess_random_009 = \
+      "~kPriestess Qerti'nya says, \"~B~bA hard day of fighting should be "
+      "followed by a long night of drinking.~B~k\""
+   kraananpriestess_random_010 = \
+      "~kPriestess Qerti'nya says, \"~B~bA follower of Kraanan always "
+      "clearly speaks her mind. Deception and innuendoes are not the weapons "
+      "of a true warrior.~B~k\""
+   kraananpriestess_random_011 = \
+      "~kPriestess Qerti'nya says, \"~B~bOne with true honor will announce "
+      "their intentions to do battle and fight till killed or vanquished. "
+      "Never would a warrior of Kraanan run away from their opponent.~B~k\""
+   kraananpriestess_random_012 = \
+      "~kPriestess Qerti'nya says, \"~B~bPathetic are those who sneak behind "
+      "a warrior, attack then disappear. There is no honor in a cowardly "
+      "attack.~B~k\""
+   kraananpriestess_random_013 = \
+      "~kPriestess Qerti'nya says, \"~B~bIt is the sacred duty of the strong "
+      "warriors of Kraanan to protect the weak and helpless.~B~k\""
+   kraananpriestess_random_014 = \
+      "~kPriestess Qerti'nya says, \"~B~bThe dishonest and dishonorable will "
+      "find little mercy from the warrior of Kraanan.~B~k\""
+   kraananpriestess_random_015 = \
+      "~kPriestess Qerti'nya stands determined behind her altar. It looks as "
+      "though she is ready to jump into battle at a moment's notice."
+   kraananpriestess_random_016 = \
+      "~kA feeling of awe overcomes you as you stand before the various holy "
+      "weapons of Kraanan."
+   kraananpriestess_random_017 = \
+      "~kPriestess Qerti'nya says, \"~B~bIf you are unwilling to honor the "
+      "ways of Kraanan, then you have no business being here. In fact, you "
+      "would have little business being alive.~B~k\""
+   kraananpriestess_trigger_amulet = "amulet"
+   kraananpriestess_trigger_apprentice = "apprentice"
+   kraananpriestess_trigger_apprentice_2 = "apprentice"
+   kraananpriestess_trigger_barloque = "barloque"
+   kraananpriestess_trigger_brax = "brax"
+   kraananpriestess_trigger_sell = "sell"
+   kraananpriestess_trigger_bye = "bye"
+   kraananpriestess_trigger_bye_2 = "bye"
+   kraananpriestess_trigger_bye_3 = "bye"
+   kraananpriestess_trigger_cor_noth = "cor noth"
+   kraananpriestess_trigger_cort = "cort"
+   kraananpriestess_trigger_council = "council"
+   kraananpriestess_trigger_cylill = "cylill"
+   kraananpriestess_trigger_zylill = "zylill"
+   kraananpriestess_trigger_days = "days"
+   kraananpriestess_trigger_days_2 = "days"
+   kraananpriestess_trigger_duke = "duke"
+   kraananpriestess_trigger_faren = "faren"
+   kraananpriestess_trigger_father = "father"
+   kraananpriestess_trigger_hello = "hello"
+   kraananpriestess_trigger_help = "help"
+   kraananpriestess_trigger_holiday = "holiday"
+   kraananpriestess_trigger_hunter = "hunter"
+   kraananpriestess_trigger_hunter_sword = "hunter sword"
+   kraananpriestess_trigger_jala = "jala"
+   kraananpriestess_trigger_jasper = "jasper"
+   kraananpriestess_trigger_kraanan = "kraanan"
+   kraananpriestess_trigger_learn = "learn"
+   kraananpriestess_trigger_marion = "marion"
+   kraananpriestess_trigger_miriana = "miriana"
+   kraananpriestess_trigger_necromancer = "necromancer"
+   kraananpriestess_trigger_node = "node"
+   kraananpriestess_trigger_princess = "princess"
+   kraananpriestess_trigger_qor = "qor"
+   kraananpriestess_trigger_riija = "riija"
+   kraananpriestess_trigger_buy = "buy"
+   kraananpriestess_trigger_shal_ille = "shal'ille"
+   kraananpriestess_trigger_sha_lill = "sha-lill"
+   kraananpriestess_trigger_son = "son"
+   kraananpriestess_trigger_tendrath = "tendrath"
+   kraananpriestess_trigger_tos = "tos"
+   kraananpriestess_trigger_venya_cyr = "venya'cyr"
+   kraananpriestess_trigger_watcher = "watcher"
+   kraananpriestess_trigger_meister_der_arena = "meister der arena"
+   kraananpriestess_trigger_zarrus = "zarrus"
+
+   // QorPriestess (Priestess Zuxana)
+   qorpriestess_speech_001 = \
+      "~kPriestess Zuxana says, \"That is an interesting artifact. I am sure "
+      "that if I had enough time to study one of them, I would figure out "
+      "its abilities and its composition. Unfortunately I have no one who "
+      "could bring me one of these pendants. A pity.\""
+   qorpriestess_speech_002 = \
+      "~kPriestess Zuxana says, \"~r~IBeneath the glimmering streets of "
+      "Barloque, you will find one of my most efficient servants.~I~k\""
+   qorpriestess_speech_003 = \
+      "~kPriestess Zuxana says, \"An old city destroyed by the chaotic and "
+      "unpredictable forces of nature.  How can so many trust those forces "
+      "now and believe that they will guide them to salvation?  Nature cares "
+      "little for the deeds or thoughts of humanity.\""
+   qorpriestess_speech_004 = \
+      "~kPriestess Zuxana says, \"~r~II need nothing. Qor provides for her "
+      "children well enough.~I~k\""
+   qorpriestess_speech_005 = \
+      "~kPriestess Zuxana says, \"~r~IYou will return.~I~k\""
+   qorpriestess_speech_006 = \
+      "~kPriestess Zuxana says, \"~r~IIt is by no accident that the Ivory "
+      "Chapel in Cor Noth no longer serves Shal'ille. I believe it is... "
+      "merely a gathering place for bandits now.~I~k\""
+   qorpriestess_speech_007 = \
+      "~kPriestess Zuxana says, \"~r~IThe council. I would not put much "
+      "faith in the council to run this land. All are blundering fools with "
+      "no grasp on the true machinations that are in place.~I~k\""
+   qorpriestess_speech_008 = \
+      "~kPriestess Zuxana says, \"~r~IEvery six years, the servants conjoin "
+      "here to perform the rituals of long ago. When the stars are aligned "
+      "and the blood is sacrificed, the necromancers will raise the dead "
+      "from their deep graves.~I~k\""
+   qorpriestess_speech_009 = \
+      "~kPriestess Zuxana says, \"~r~ILord Faren seeks to avenge himself on "
+      "my Mistress. He is unaware of how his blind anger only helps serve "
+      "the cause of Qor.~I~k\""
+   qorpriestess_speech_010 = \
+      "~kPriestess Zuxana says, \"~r~IWelcome to the dark temple, %s.~I~k\""
+   qorpriestess_speech_011 = \
+      "~kPriestess Zuxana says, \"~r~II can bring you into the sweet "
+      "darkness of Qor, the goddess of black magic.~I~k\""
+   qorpriestess_speech_012 = \
+      "~kPriestess Zuxana says, \"~r~IEvery six years, the servants conjoin "
+      "here to perform the rituals of long ago. When the stars are aligned "
+      "and the blood is sacrificed, the necromancers will raise the dead "
+      "from their deep graves.~I~k\""
+   qorpriestess_speech_013 = \
+      "~kPriestess Zuxana says, \"Everyone seems to accept these hunters as "
+      "they are. I see a band of murderers who hunt people with the "
+      "government's permission. What kind of society do we live in? I see a "
+      "terrible hypocrisy in this. What is the difference between the "
+      "hunters and the necromancers? One of these groups has good "
+      "connections to our leader.\""
+   qorpriestess_speech_014 = \
+      "~kPriestess Zuxana says, \"~r~IHow my Mistress of Night misses little "
+      "Jala and her squeaky songs. She almost regrets soiling her dagger on "
+      "the girl's bare back.~I~k\""
+   qorpriestess_speech_015 = \
+      "~kPriestess Zuxana says, \"~r~IA pity that Jasper dies after having "
+      "slit open its veins and drained all of the earth's blood from within. "
+      " Suicide I would say.  Although some would say that this new "
+      "'rebellion' of theirs is the stopgate to their life blood's "
+      "loss.~I~k\""
+   qorpriestess_speech_016 = \
+      "~kPriestess Zuxana says, \"~r~IKalior has met Qor, and Qor is pleased "
+      "with his new servant.~I~k\""
+   qorpriestess_speech_017 = \
+      "~kPriestess Zuxana says, \"~r~IKraanan, the perfect warrior, an "
+      "abundance of strength with no brains to speak of. He was the first to "
+      "throw away his life in the chaos.~I~k\""
+   qorpriestess_speech_018 = \
+      "~kPriestess Zuxana says, \"~r~II can bring you into the sweet "
+      "darkness of Qor, the goddess of black magic.~I~k\""
+   qorpriestess_speech_019 = \
+      "~kPriestess Zuxana says, \"~r~IMalumnea is the perfect state of unity "
+      "where Qor accepts the other gods with open arms, such that they may "
+      "become a part of her. Then she will bring the universe together in "
+      "dark harmony.~I~k\""
+   qorpriestess_speech_020 = \
+      "~kPriestess Zuxana says, \"~r~IHiss! Marion is the last remaining "
+      "patch of innocence.~I~k\""
+   qorpriestess_speech_021 = \
+      "~kZuxana says, \"~I~rThe chaos she creates can only be tolerated with "
+      "guidance - not like this all-consuming abomination that currently "
+      "exists~n~k.\""
+   qorpriestess_speech_022 = \
+      "~kZuxana smiles sensually, \"~I~rNow, do not concern yourselves with "
+      "her and her obvious lies. That will be taken care of very soon.~n~k\""
+   qorpriestess_speech_023 = \
+      "~kZuxana says, \"~I~rOf course she must be destroyed. Let her spread "
+      "her little stories, she cannot destroy the truth with them.~n~k\""
+   qorpriestess_speech_024 = \
+      "~kZuxana says, \"~I~rI cannot be disturbed with such unimportant "
+      "matters now. Begone!~n~k\""
+   qorpriestess_speech_025 = \
+      "~kZuxana says, \"~I~rThe impudent wench, even I must admit that she "
+      "has gone too far. She must be destroyed, and as a servant of Qor you "
+      "are required to carry out her will.~n~k\""
+   qorpriestess_speech_026 = \
+      "~kZuxana smiles ruthlessly, \"~I~rThink of the malicious destruction "
+      "we can wreak with this power. You shall bring it back for me, my "
+      "dear. Of course that will mean Miriana's death, but so be it.~n~k\""
+   qorpriestess_speech_027 = \
+      "~kZuxana says, \"~I~rHa, if Tenuval was worried before, then I think "
+      "she has now thrown herself off the cliffs.~n~k\""
+   qorpriestess_speech_028 = \
+      "~kZuxana says, \"~I~rThis power rightfully belongs to Qor and her "
+      "followers, what impudence of her to steal it from us. Our revenge "
+      "will be death.~n~k\""
+   qorpriestess_speech_029 = \
+      "~kPriestess Zuxana says, \"~r~IKateriina is a fool to follow "
+      "Shal'ille. I could teach her the true way to master the arts.~I~k\""
+   qorpriestess_speech_030 = \
+      "~kPriestess Zuxana says, \"~r~IYou look promising, %s, but I am not "
+      "yet ready to take you on as a pupil.~I~k\""
+   qorpriestess_speech_031 = \
+      "~kPriestess Zuxana says, \"~r~IMistress Qor, the Vile One! I offer "
+      "blood as sacrifice to your name.~I~k\""
+   qorpriestess_speech_032 = \
+      "~kPriestess Zuxana says, \"~r~IAh, the little trickster Riija. Qor "
+      "misses his forked tongue and deceiving nature.~I~k\""
+   qorpriestess_speech_033 = \
+      "~kPriestess Zuxana says, \"~r~IDo not buy what you need. Take "
+      "it.~I~k\""
+   qorpriestess_speech_034 = \
+      "~kPriestess Zuxana says, \"~r~IHiss! The Lady Shal'ille teaches of "
+      "dead ideals and improbable peace. Her soft heart will be her "
+      "undoing.~I~k\""
+   qorpriestess_speech_035 = \
+      "~kPriestess Zuxana says, \"I feel sorry for him.  Venya'cyr goes "
+      "insane, kills his family, and he starts to fiddle with the chaotic "
+      "powers of nature.  He was a tool.  I am sure his intentions were "
+      "noble but the fact of the matter is he dealt in forces that he could "
+      "not control and destroyed an entire city.  Because of him we have "
+      "lost a culture.\""
+   qorpriestess_speech_036 = \
+      "~kPriestess Zuxana says, \"~r~IDreary Tos becomes more corrupt each "
+      "day. Soon they will not be able to hold back the army of dead in the "
+      "graveyard.~I~k\""
+   qorpriestess_speech_037 = \
+      "~kPriestess Zuxana says, \"I have begun to study the ancient relics "
+      "in order to better understand the world in which we developed. I "
+      "could also say that I collect such things and would pay a fair price "
+      "for such a fossil. If it is worth nothing else, it can at least serve "
+      "as an ornament in the temple.\""
+   qorpriestess_speech_038 = "~kPriestess Zuxana says, \"Poor thing.\""
+   qorpriestess_speech_039 = \
+      "~kPriestess Zuxana says, \"The problems of our society can be traced "
+      "back to this man and his deeds.  When times got hard for him he "
+      "turned tail and fled.  It is because of his juvenile fears that "
+      "prejudice has been allowed to destroy many schools of thought.  This "
+      "is your world.  Is this how you would have things?\""
+   qorpriestess_random_001 = \
+      "~kPriestess Zuxana says, \"~r~ITenuv'vyal fears little Miriana "
+      "because the young girl will one day replace her. How delicious, a "
+      "Faren Master afraid of a little girl.~I~k\""
+   qorpriestess_random_002 = \
+      "~kPriestess Zuxana says, \"~r~IThe mana nodes of power lie about the "
+      "world. We must locate them all and endeavor to possess them for our "
+      "cause alone.~I~k\""
+   qorpriestess_random_003 = \
+      "~kPriestess Zuxana says, \"~r~IThe dark castle of the long dead "
+      "Far'Nohl lies beyond the land of trolls. There, all manner of undead "
+      "walk the ancient corridors. Look well upon it, for it shows the fate "
+      "of the Bourgeois Castle and Blackstone Keep.~I~k\""
+   qorpriestess_random_004 = \
+      "~kPriestess Zuxana says, \"~r~IA source of magic exists beyond the "
+      "realm of the living. There could be no simpler path to it, provided "
+      "you are willing to pay the price with your life.~I~k\""
+   qorpriestess_random_005 = \
+      "~kPriestess Zuxana says, \"~r~II sense a new queen spider has taken "
+      "possession of the spider nest. How delightful.~I~k\""
+   qorpriestess_random_006 = \
+      "~kPriestess Zuxana says, \"~r~IBeware. Innocent blood often invokes "
+      "the most persistent of spirits bent on revenge. Take great care, for "
+      "these revenants match strengths with the murderer and will not stop "
+      "until they can drag their prey down to the Underworld.~I~k\""
+   qorpriestess_random_007 = \
+      "~kPriestess Zuxana says, \"~r~IMy followers are many and they have "
+      "found insidious ways to blend back into the unsuspecting society, "
+      "with such mundane disguises as a banker or an herbalist.~I~k\""
+   qorpriestess_random_008 = \
+      "~kPriestess Zuxana says, \"~r~IClear your mind of all other gods "
+      "knowledge, for they only speak lies. To know absolute truth and grow "
+      "stronger in your service to Qor, drink the potion of Forgetfulness. "
+      "Do not worry about the ills the potion may cause, they are "
+      "insignificant next to the power Qor can bestow upon you.~I~k\""
+   qorpriestess_random_009 = \
+      "~kPriestess Zuxana says, \"~r~ISome people feel death is such a "
+      "tragedy, but not I. There are so many uses for the dead: as body "
+      "guards, as a small spring of mana, or even as a supplier of common "
+      "items.~I~k\""
+   qorpriestess_random_010 = \
+      "~kPriestess Zuxana says, \"~r~ILong ago when the Fey knew no better "
+      "than Shal'ille, one of the Elhai lost its way through the Quilicia "
+      "and happened upon our dark mistress. She took it in and cared for it "
+      "for many weeks. When it was better, Qor sent it back to its brothers "
+      "and sisters, requesting only that it take her along so that she may "
+      "help more of the misguided Fey.~I~k\""
+   qorpriestess_random_011 = \
+      "~kPriestess Zuxana says, \"~r~IPrepare yourselves for the ceremonies "
+      "of the ancient holiday.~I~k\""
+   qorpriestess_random_012 = \
+      "~kPriestess Zuxana says, \"~r~IMany years ago, this temple was "
+      "removed from the fabric of spatial reality to give our persecuted "
+      "ancestors the freedom to worship. When Qor has seduced the world "
+      "again, our temple will rejoin with the earth.~I~k\""
+   qorpriestess_random_013 = \
+      "~kPriestess Zuxana says, \"~r~IWhen the Nine rise from their dark "
+      "hell, in the land of life the undead will dwell.~I~k\""
+   qorpriestess_random_014 = \
+      "~kPriestess Zuxana looks deeply into your eyes. You feel both cold "
+      "and hot at the same moment."
+   qorpriestess_random_015 = \
+      "~kFrom the lava below come sounds that are somewhere between laughter "
+      "and screams."
+   qorpriestess_random_016 = \
+      "~kPriestess Zuxana says, \"~r~IIt is not the ways of Qor to randomly "
+      "kill. Murder is a serious endeavor and should be performed with "
+      "consideration of consequence. One must be discreet and "
+      "discerning.~I~k\""
+   qorpriestess_random_017 = \
+      "~kPriestess Zuxana says, \"~r~IQor does not condone random slaughter. "
+      "Such is the work of a beast. An elegant crime has both passion and "
+      "reason.~I~k\""
+   qorpriestess_random_018 = \
+      "~kPriestess Zuxana says, \"~r~II see so much potential in you. So "
+      "much that you do not realize.~I~k\""
+   qorpriestess_random_019 = \
+      "~kPriestess Zuxana says, \"~r~IListen to the other Priestesses if you "
+      "must. In your heart, you will know their lies and see that Qor is the "
+      "only goddess who indeed cares for you.~I~k\""
+   qorpriestess_random_020 = \
+      "~kPriestess Zuxana says, \"~r~II sense you know of another who could "
+      "join our coven. Bring that person with you when you next come.~I~k\""
+   qorpriestess_random_021 = \
+      "~kPriestess Zuxana says, \"~r~II have many ways of showing you Qor's "
+      "love. Attend this temple and you will feel her power like hot breath "
+      "on your skin.~I~k\""
+   qorpriestess_random_022 = \
+      "~kPriestess Zuxana says, \"~r~IPray with me now, and feel the purity "
+      "of Qor's love.~I~k\""
+   qorpriestess_random_023 = \
+      "~kPriestess Zuxana says, \"~r~IYou have done well to seek me out. "
+      "Your dedication will not come without reward. Learn the ways of my "
+      "Mistress and learn the truth.~I~k\""
+   qorpriestess_random_024 = \
+      "~kPriestess Zuxana says, \"~r~IDrink the dark knowledge of Qor. She "
+      "desires you and can grant you powers undreamed.~I~k\""
+   qorpriestess_trigger_amulet = "amulet"
+   qorpriestess_trigger_barloque = "barloque"
+   qorpriestess_trigger_brax = "brax"
+   qorpriestess_trigger_sell = "sell"
+   qorpriestess_trigger_bye = "bye"
+   qorpriestess_trigger_cor_noth = "cor noth"
+   qorpriestess_trigger_council = "council"
+   qorpriestess_trigger_days = "days"
+   qorpriestess_trigger_faren = "faren"
+   qorpriestess_trigger_hello = "hello"
+   qorpriestess_trigger_help = "help"
+   qorpriestess_trigger_holiday = "holiday"
+   qorpriestess_trigger_holiday_2 = "holiday"
+   qorpriestess_trigger_hunter_sword = "hunter sword"
+   qorpriestess_trigger_jala = "jala"
+   qorpriestess_trigger_jasper = "jasper"
+   qorpriestess_trigger_kalior = "kalior"
+   qorpriestess_trigger_kraanan = "kraanan"
+   qorpriestess_trigger_learn = "learn"
+   qorpriestess_trigger_learn_2 = "learn"
+   qorpriestess_trigger_malumnea = "malumnea"
+   qorpriestess_trigger_marion = "marion"
+   qorpriestess_trigger_miriana = "miriana"
+   qorpriestess_trigger_node = "node"
+   qorpriestess_trigger_princess = "princess"
+   qorpriestess_trigger_pupil = "pupil"
+   qorpriestess_trigger_qor = "qor"
+   qorpriestess_trigger_riija = "riija"
+   qorpriestess_trigger_buy = "buy"
+   qorpriestess_trigger_shal_ille = "shal'ille"
+   qorpriestess_trigger_sha_lill = "sha-lill"
+   qorpriestess_trigger_tendrath = "tendrath"
+   qorpriestess_trigger_tos = "tos"
+   qorpriestess_trigger_urn = "urn"
+   qorpriestess_trigger_venya_cyr = "venya'cyr"
+   qorpriestess_trigger_zarrus = "zarrus"
+
+   // RiijaMonk (Monk of Riija)
+   riijamonk_speech_001 = \
+      "~kThe Monk of Riija says, \"Imagine eating and never becoming full.\""
+   riijamonk_speech_002 = \
+      "~kThe Monk of Riija says, \"If the base of your house is made of air, "
+      "it will surely topple.\""
+   riijamonk_speech_003 = \
+      "~kThe Monk of Riija says, \"~I~bI would ~I~B~konly~B~I~g be "
+      "interested in ~I~kbuying~I~g your soul~n~k.\""
+   riijamonk_speech_004 = \
+      "~kThe Monk of Riija says, \"~gDestiny ~B~rwill~B ~bbring ~I~kyou "
+      "~I~rback.`n~k\""
+   riijamonk_speech_005 = "~kThe Monk of Riija says, \"You are wise.\""
+   riijamonk_speech_006 = \
+      "~kThe Monk of Riija says, \"~I~gThe strongest emotion is "
+      "~I~rFEAR.~I~g Hate is not an emotion at all. ~bHate is the only FEAR "
+      "of what others are, ~ror more precisely, what we are not, %s~n~k.\""
+   riijamonk_speech_007 = \
+      "~kThe Monk of Riija intones, \"~I~rYou ~I~B~bhave ~I~gtraveled "
+      "`n~kthrough ~b~Imuch~I ~B~gperil ~B~rto ~I~bsee ~kme.~n~k\""
+   riijamonk_speech_008 = \
+      "~kThe Monk of Riija says, \"~BYou ~I~bare~n~g beyond the "
+      "~B~rpoint~g~B of needing ~kor deserving ~I~bhelp~n~k.\""
+   riijamonk_speech_009 = \
+      "~kThe Monk of Riija says, \"There was a time when the Prince and the "
+      "Princess lived happily together.\""
+   riijamonk_speech_010 = \
+      "~kThe Monk of Riija says, \"What did you say, the hunger sword?\""
+   riijamonk_speech_011 = \
+      "~kThe Monk of Riija says, \"~BKonima~B~I~r was a ~bfool~g for leading "
+      "~bhis ~I~B~rpeople~B~I~b to this island~n~k.\""
+   riijamonk_speech_012 = \
+      "~kThe Monk of Riija says, \"~I~bThe strongest emotion is ~I~rFEAR. "
+      "~I~bLove is not an emotion at all, %s. ~rLove is the only FEAR of "
+      "loneliness~n~k.\""
+   riijamonk_speech_013 = \
+      "~kThe Monk of Riija giggles, \"~b~bAre her ~B ~I~gwords words of "
+      "~I~btruth or ~B~kwords of ~B~I~rlies. ~I~gWho are we ~B~rto "
+      "~B~kjudge.\""
+   riijamonk_speech_014 = \
+      "~kThe Monk of Riija holds his hands over his ears and bellows, "
+      "\"~B~gI ~bCAN'T ~rHEAR ~B~I~bYOU~k!~I ~rLA~gLA~bLA~kLA.\""
+   riijamonk_speech_015 = \
+      "~kThe Monk of Riija seems to shrug, \"~BTruth, ~I~rlies~I, ~g....the "
+      "~bonly ~I~gdifference lies ~I~B~rin perception.~B~k\""
+   riijamonk_speech_016 = \
+      "~kThe Monk of Riija says, \"I have a parasite living inside me. To "
+      "kill the parasite, I must kill myself.\""
+   riijamonk_speech_017 = \
+      "~kThe Monk of Riija says, \"Those who ~I~rbelieve ~gthey ~kare sane "
+      "~bin a ~rworld ~bsuch ~ras ~bours ~rare ~b~I~Bdelusional~n~k.\""
+   riijamonk_speech_018 = \
+      "~kThe Monk of Riija calls, \"~B~bCome in, ~B~I~kit's open... "
+      "~I~rOhhh, you, ~I~gperhaps ~Bnot ~B~bafter all.~n~k\""
+   riijamonk_speech_019 = \
+      "~kThe Monk of Riija says, \"~I~bIf ~I~B~kMiriana ~B~rand her "
+      "~gcreatures ~B~rare to be defeated by you, ~B~Iyou must ~I~glearn "
+      "much!~n~k\""
+   riijamonk_speech_020 = \
+      "~kThe Monk of Riija preaches, \"~B~rRiija the wanderer, ~bis the god "
+      "~k~Iof the mind. ~BAnd nothing is more important ~I~gthan the "
+      "MIND.~n~k\""
+   riijamonk_speech_021 = \
+      "~kThe Monk of Riija says, \"~II ~rsell ~I~Btruth~n~k.\""
+   riijamonk_speech_022 = \
+      "~kThe Monk of Riija says, \"~BI can ~ropen~k your eyes to ~rso~k very "
+      "much~n~k.\""
+   riijamonk_speech_023 = \
+      "~kThe Monk of Riija says, \"When the Prince dies before the King, it "
+      "is a day to weep.\""
+   riijamonk_speech_024 = "~kThe Monk of Riija says, \"She was a man.\""
+   riijamonk_speech_025 = \
+      "~kThe Monk of Riija says, \"~B~gSooner than you think~n~k.\""
+   riijamonk_speech_026 = \
+      "~kThe Monk of Riija says, \"~BOne ~gwho ~ris ~ktruly ~ginsane ~bwould "
+      "~khave ~rno ~gcognizance ~gof ~btheir ~rinsanity~n~k.\""
+   riijamonk_speech_027 = \
+      "~kThe Monk of Riija says, \"The real Zarrus died in Brax.\""
+   riijamonk_random_001 = \
+      "~kThe Monk of Riija chortles, \"~BRIIJA ~I~bis ~gpoWEr.~n~k\""
+   riijamonk_random_002 = "~kThe Monk of Riija watches your every movement."
+   riijamonk_random_003 = \
+      "~kThe Monk of Riija says, \"~BInsanity is a misused ~blabel. ~I~kAre "
+      "you insane? ~I~n~rSay \"~Byes~I\" and you are not. `n~g Say "
+      "\"~Bno~B\" and you must be~n~k.\""
+   riijamonk_random_004 = \
+      "~kThe Monk of Riija says, \"~rSome ~Iwill tell you~I that seeing is "
+      "believing. ~bThey are ~B~kblind~n~k.\""
+   riijamonk_random_005 = \
+      "~kThe Monk of Riija says, \"~B~bIn the sky, ~B~rthere is sometimes a "
+      "~B~gF~bI`n~BS~kH,~B~r it flies ~Ihigher than the ~brainbow ~gand it "
+      "can not be killed by any poison. ~I~kIf you were to touch its scales, "
+      "~byou would ~Iknow what lies beyond the night. ~I~B~rHowever,~B~g the "
+      "fish can not be caught because it does not ~Bexist~n~k.\""
+   riijamonk_random_006 = \
+      "~kThe Monk of Riija says, \"~rThe color of tears is not ~bred~r, but "
+      "it should be~n~k.\""
+   riijamonk_random_007 = \
+      "~kThe Monk of Riija says, \"When you look into ~B~rfire~B~k, you do "
+      "not see ~B~rfire~B~k. ~B~rFire~B~k is never in one precise spot. You "
+      "only perceive where ~B~rfire~B~k has been~n~k.\""
+   riijamonk_random_008 = \
+      "~kThe Monk of Riija says, \"~B~bThere ~ris ~ga ~bpouch ~kdeep ~rin "
+      "~gthe liver ~bof ~rman. ~kThat ~bis ~gwhere ~rthe fears ~kare "
+      "~bkept~n~k.\""
+   riijamonk_random_009 = \
+      "~kThe Monk of Riija says, \"~g~IYou can't taste heat. ~bBut I "
+      "can~n~k.\""
+   riijamonk_random_010 = \
+      "~kThe Monk of Riija says, \"~IBeing touched ~bby a ~rsword ~gmay kill "
+      "you, ~byet ~knever ~rbeing touched ~gby another human ~rwill "
+      "~bcertainly kill you~n~k.\""
+   riijamonk_random_011 = \
+      "~kThe Monk of Riija says, \"~II know why you are here.~I If that "
+      "person would pay attention to you, ~byou would be with them. "
+      "~rInstead you are with me. ~B~kHA HA HA HA HA HA HA HA~n~k!\""
+   riijamonk_random_012 = \
+      "~kThe Monk of Riija says, \"~B~gYou know when someone ~rhates~g you. "
+      "~kThat is REALITY. ~gBut you never know if someone ~bloves~g you. "
+      "There is always room for doubt. ~I~bOh, they will tell you that they "
+      "fully love you with ~n~b~Ball~B~I of their heart. ~n~B~kThat is "
+      "~rF~gA~kN~bT~rA~gS~bY~n~k.\""
+   riijamonk_random_013 = \
+      "~kThe Monk of Riija says, \"I know your mind. ~bYou often wonder if "
+      "you are the only one here. ~I You wonder if every person you meet is "
+      "just a figment of your imagination. ~gPut there to test you in some "
+      "way. ~I~rYou wonder if any other person truly has a "
+      "~I~B~gs~bo~ku~gl~r or exists outside of your field of vision. `n~kYou "
+      "are right. ~IExcept that you do not exist either~n~k.\""
+   riijamonk_random_014 = \
+      "~kThe Monk of Riija says, \"~B~g'Why?'~B~k You have asked that "
+      "question too often of life when you should be asking ~B~r'When?' "
+      "~n~k\""
+   riijamonk_random_015 = \
+      "~kThe Monk of Riija says, \"~B~gTell ~bme, ~rmy ~gvisitor, ~I~rwhich "
+      "is the strongest ~kemotion~n~k?\""
+   riijamonk_trigger_amulet = "amulet"
+   riijamonk_trigger_brax = "brax"
+   riijamonk_trigger_sell = "sell"
+   riijamonk_trigger_bye = "bye"
+   riijamonk_trigger_fear = "fear"
+   riijamonk_trigger_hate = "hate"
+   riijamonk_trigger_hello = "hello"
+   riijamonk_trigger_help = "help"
+   riijamonk_trigger_hunter = "hunter"
+   riijamonk_trigger_hunter_sword = "hunter sword"
+   riijamonk_trigger_konima = "konima"
+   riijamonk_trigger_love = "love"
+   riijamonk_trigger_miriana = "miriana"
+   riijamonk_trigger_necromancer = "necromancer"
+   riijamonk_trigger_no = "no"
+   riijamonk_trigger_node = "node"
+   riijamonk_trigger_riija = "riija"
+   riijamonk_trigger_buy = "buy"
+   riijamonk_trigger_teach = "teach"
+   riijamonk_trigger_tendrath = "tendrath"
+   riijamonk_trigger_venya_cyr = "venya'cyr"
+   riijamonk_trigger_when = "when"
+   riijamonk_trigger_yes = "yes"
+   riijamonk_trigger_zarrus = "zarrus"
+
+   // ShalillePriestess (Priestess Xiana)
+   shalillepriestess_speech_001 = \
+      "~kPriestess Xiana says, \"These things should not even be touched. "
+      "Their power to corrupt is almost instantaneous and cannot be undone. "
+      "Leave their destruction to the higher powers.\""
+   shalillepriestess_speech_002 = \
+      "~kPriestess Xiana says, \"~bOur most... devoted follower resides in "
+      "Barloque. Perhaps you have heard of the gentleman, Meidei.~k\""
+   shalillepriestess_speech_003 = \
+      "~kPriestess Xiana says, \"They were a people without the guidance of "
+      "Shal'ille.\""
+   shalillepriestess_speech_004 = \
+      "~kPriestess Xiana says, \"~bBlessed Shal'ille provides me with all "
+      "that I need.~k\""
+   shalillepriestess_speech_005 = \
+      "~kPriestess Xiana says, \"~bPeace be with you, %s.~k\""
+   shalillepriestess_speech_006 = \
+      "~kPriestess Xiana says, \"~bI have not been to Cor Noth. Is it "
+      "nice?~k\""
+   shalillepriestess_speech_007 = \
+      "~kPriestess Xiana says, \"~bI do not understand the role the council "
+      "now plays in the court.~k\""
+   shalillepriestess_speech_008 = \
+      "~kPriestess Xiana says, \"~bEvery six years, we are blessed with a "
+      "holiday to our Lady, Shal'ille. It is a time of peace and a time of "
+      "giving. Nearly everyone has something they can give to those who have "
+      "less than they or are new to the land.~k\""
+   shalillepriestess_speech_009 = \
+      "~kPriestess Xiana says, \"~bI have heard that he has died. How "
+      "sad.~k\""
+   shalillepriestess_speech_010 = \
+      "~kPriestess Xiana says, \"~bFaren was blinded by rage at the acts of "
+      "Qor. Hopefully, one day he will let our Lady heal his eyes.~k\""
+   shalillepriestess_speech_011 = \
+      "~kPriestess Xiana says, \"~bGreetings, %s. What brings you to the "
+      "Temple of Shal'ille?~k\""
+   shalillepriestess_speech_012 = \
+      "~kPriestess Xiana says, \"~bI teach the magic of Shal'ille, the "
+      "goddess of peace.~k\""
+   shalillepriestess_speech_013 = \
+      "~kPriestess Xiana says, \"~bEvery six years, we are blessed with a "
+      "holiday to our Lady, Shal'ille. It is a time of peace and a time of "
+      "giving. Nearly everyone has something they can give to those who have "
+      "less than they or are new to the land.~k\""
+   shalillepriestess_speech_014 = \
+      "~kPriestess Xiana says, \"Killing people is wrong, no matter what "
+      "justifying reasons there may be. There must be a solution to our "
+      "problems without bloodshed.\""
+   shalillepriestess_speech_015 = \
+      "~kPriestess Xiana says, \"What is the difference between a venomous "
+      "snake and a boa constrictor? Stay away from all things that have to "
+      "do with the hunters.\""
+   shalillepriestess_speech_016 = \
+      "~kPriestess Xiana says, \"~bI weep for poor Jala. She was our Lady's "
+      "sister and the most beautiful artist and poet in all the land. Our "
+      "Lady does indeed miss the sweet sound of Jala's songs.~k\""
+   shalillepriestess_speech_017 = \
+      "~kPriestess Xiana says, \"~bI know very little of the towns.~k\""
+   shalillepriestess_speech_018 = \
+      "~kPriestess Xiana says, \"~bKraanan is the husband and master of my "
+      "lady Shal'ille. He is the first of the six. Praise be to Kraanan the "
+      "Fist.~k\""
+   shalillepriestess_speech_019 = \
+      "~kPriestess Xiana says, \"~bI teach the magic of Shal'ille, the "
+      "goddess of peace.~k\""
+   shalillepriestess_speech_020 = \
+      "~kPriestess Xiana says, \"~bLong ago, during the Barloque/Tos wars, a "
+      "legion of Tos soldiers came through Marion intent on using it as a "
+      "base to house troops until they were ready to embark out on the great "
+      "ocean and take Barloque by surprise from the north. The Priestess and "
+      "all of the villagers prayed for Shal'ille to fold her protective arms "
+      "about the town so that it would not suffer the indignities of war. "
+      "Their prayers were answered and still to this day Shal'ille watches "
+      "over them.~k\""
+   shalillepriestess_speech_021 = \
+      "~kPriestess Xiana says, \"~bMeidei is certainly enthusiastic, but I "
+      "do believe that he tries too hard. Our goddess does not demand "
+      "worship, as he feels.~k\""
+   shalillepriestess_speech_022 = \
+      "~kPriestess Xiana says, \"~bThrough the eyes of Shal'ille I see how "
+      "lonely her existence is, though I can interpret neither her words nor "
+      "her deeds.~k\""
+   shalillepriestess_speech_023 = \
+      "~kPriestess Xiana says, \"~bTake my hands, we shall pray to Shal'ille "
+      "so that she gives us the strength to do what is necessary, what is "
+      "right.~k\""
+   shalillepriestess_speech_024 = \
+      "~kPriestess Xiana says, \"~bHer lies have caused some unrest? Do not "
+      "let yourself be swayed by her ungodly ways.~k\""
+   shalillepriestess_speech_025 = \
+      "~kPriestess Xiana says, \"~bUnfortunately we all dismissed Tenuval's "
+      "warnings as paranoid babble. Now that Miriana has shown her true "
+      "intentions, we know that Tenuval was not paranoid enough.~k\""
+   shalillepriestess_speech_026 = \
+      "~kPriestess Xiana says, \"~bDo not speak her cursed name in this "
+      "temple of peace and goodwill.~k\""
+   shalillepriestess_speech_027 = \
+      "~kPriestess Xiana says, \"~bLady Shal'ille sees the necessity of her "
+      "demise, and though she must shed tears over the violence of this act, "
+      "she knows it is the only way to free us from Miriana's madness.~k\""
+   shalillepriestess_speech_028 = \
+      "~kPriestess Xiana says, \"These creatures know no mercy or humanity. "
+      "They exist to destroy life. They are utterly blind to the ways of "
+      "Shal'ille.\""
+   shalillepriestess_speech_029 = \
+      "~kPriestess Xiana says, \"~bThe nodes have obviously defended "
+      "themselves against her attacks, otherwise they would no longer "
+      "exist.~k\""
+   shalillepriestess_speech_030 = \
+      "~kPriestess Xiana says, \"~bThe worst consequences arise from the "
+      "actions that seem random.~k\""
+   shalillepriestess_speech_031 = \
+      "~kPriestess Xiana says, \"~bShe must be stopped. The nodes seem to be "
+      "fine, but one can never know when Miriana will have had enough. We "
+      "cannot take the risk of letting her continue.~k\""
+   shalillepriestess_speech_032 = \
+      "~kPriestess Xiana bows her head and says, \"~bLet us pray together. "
+      "Lady Shal'ille, listen to our prayers for peace and prosperity to all "
+      "the good people of the world.~k\""
+   shalillepriestess_speech_033 = \
+      "~kPriestess Xiana says, \"~bHow is Kat? She visits me from time to "
+      "time, when she can pull herself away from the needs of her "
+      "kingdom.~k\""
+   shalillepriestess_speech_034 = \
+      "~kPriestess Xiana says, \"~bAlas, Qor is the fallen one. She only "
+      "need seek redemption from our Lady Shal'ille and I am certain she "
+      "will receive it.~k\""
+   shalillepriestess_speech_035 = \
+      "~kPriestess Xiana says, \"~bI do not know what became of Riija. "
+      "Probably off playing tricks on the unaware someplace.~k\""
+   shalillepriestess_speech_036 = \
+      "~kPriestess Xiana says, \"~bSalvation is not for sale. Shal'ille "
+      "grants it freely.~k\""
+   shalillepriestess_speech_037 = \
+      "~kPriestess Xiana says, \"~bOur Lady Shal'ille is the goddess of all "
+      "that is good and peaceful. She resides in the babbling brook, the "
+      "calm wind and the gentle rain. Praise be her name.~k\""
+   shalillepriestess_speech_038 = \
+      "~kPriestess Xiana says, \"~bI fear Shal'ille has no need of students "
+      "at this time.~k\""
+   shalillepriestess_speech_039 = \
+      "~kPriestess Xiana says, \"I pray for his soul every time I think of "
+      "his tragedy.\""
+   shalillepriestess_speech_040 = \
+      "~kPriestess Xiana says, \"~bLord Kraanan has many followers in Tos "
+      "and therefore it must be a great city.~k\""
+   shalillepriestess_speech_041 = \
+      "~kPriestess Xiana says, \"Without faith in the harmony of all things, "
+      "we are all more likely to turn towards that which promises the easy "
+      "solution.  Venya'cyr took the easy path to her desires and it cost "
+      "her eternal soul.\""
+   shalillepriestess_speech_042 = \
+      "~kPriestess Xiana says, \"If he had not survived, the course of "
+      "history would surely be different.\""
+   shalillepriestess_random_001 = \
+      "~kPriestess Xiana says, \"~bThe living trees of Faronath are peaceful "
+      "beings. They serve Shal'ille.~k\""
+   shalillepriestess_random_002 = \
+      "~kPriestess Xiana says, \"~bLittle Miriana speaks lies about our "
+      "Lady. She is best avoided.~k\""
+   shalillepriestess_random_003 = \
+      "~kPriestess Xiana says, \"~bMaleval is a monster. He speaks nothing "
+      "but lies.~k\""
+   shalillepriestess_random_004 = \
+      "~kPriestess Xiana says, \"~bThere is little reason to fear good "
+      "creatures if you are good yourself.~k\""
+   shalillepriestess_random_005 = \
+      "~kPriestess Xiana says, \"~bKilling monsters is far more acceptable "
+      "than killing other humans. Murder is the fastest way to fall from "
+      "good graces.~k\""
+   shalillepriestess_random_006 = \
+      "~kPriestess Xiana says, \"~bMany do not realize that there is "
+      "retribution to killing. Often a horrible spirit will manifest and "
+      "seek revenge for the innocent victim.~k\""
+   shalillepriestess_random_007 = \
+      "~kPriestess Xiana says, \"~bThose who are good in nature will be "
+      "blessed with a gift, should they fall prey to the Underworld.~k\""
+   shalillepriestess_random_008 = \
+      "~kPriestess Xiana says, \"~bMastering the teachings of Shal'ille is "
+      "easier if your mind is cleared of the influences of other gods. A "
+      "potion of Forgetfulness can aid, but it usually has some ill side "
+      "effects.~k\""
+   shalillepriestess_random_009 = \
+      "~kPriestess Xiana says, \"~bIn Tos, there is an Arena dedicated to "
+      "our Lady's husband. The fights are mock, so you need not fear death "
+      "within.~k\""
+   shalillepriestess_random_010 = \
+      "~kPriestess Xiana says, \"~bThe God Days of Shal'ille are truly a "
+      "joyous and peaceful holiday around the whole of the land.~k\""
+   shalillepriestess_random_011 = \
+      "~kPriestess Xiana says, \"~bIn the north corner of the temple is the "
+      "pool of serenity. Bathe in the water and find the peace within you. "
+      "Take a few moments to release the frustrations of the day and realize "
+      "you are in this world but to relax. No problem here is worth getting "
+      "truly wrought over.~k\""
+   shalillepriestess_random_012 = \
+      "~kPriestess Xiana says, \"~bIn the south corner of the temple is the "
+      "pool of redemption. Kneel before it and give forgiveness to your "
+      "least favored person for they do not mean to truly cause you pain; "
+      "they just come from a different point of view. Do not hold the weight "
+      "of a useless grudge or it is you alone who suffers.~k\""
+   shalillepriestess_random_013 = \
+      "~kPriestess Xiana says, \"~bSome say I am faulted for acquiescing to "
+      "the wishes of Kraanan. Men have much strength of hand and must be "
+      "respected, but the power of Peace and Rebirth lies within the soul of "
+      "women.~k\""
+   shalillepriestess_random_014 = \
+      "~kPriestess Xiana says, \"~bPraise be Shal'ille the Calm!~k\""
+   shalillepriestess_random_015 = \
+      "~kPriestess Xiana says, \"~bOur Lady smiles on you.~k\""
+   shalillepriestess_random_016 = \
+      "~kPriestess Xiana says, \"~bMay Shal'ille grant gentle rains to your "
+      "fields.~k\""
+   shalillepriestess_random_017 = \
+      "~kPriestess Xiana says, \"~bMay you find peace in the contemplation "
+      "of our Lady.~k\""
+   shalillepriestess_random_018 = \
+      "~kPriestess Xiana says, \"~bThose who prove themselves to be the most "
+      "worthy, shall be blessed by our Lady with additional aid to their "
+      "castings.~k\""
+   shalillepriestess_random_019 = \
+      "~kPriestess Xiana says, \"~bLegend has it that the gods martyred "
+      "themselves out in the Holy Land of Trolls when the Nexus collapsed "
+      "hundreds of years ago.~k\""
+   shalillepriestess_random_020 = \
+      "~kPriestess Xiana says, \"~bThe dead should be honored. Placing "
+      "flowers at a memorial site is more for the spiritual benefit of those "
+      "living than for the deceased.~k\""
+   shalillepriestess_random_021 = \
+      "~kPriestess Xiana says, \"~bI am appalled at the blasphemous things "
+      "that Miriana says about Shal'ille and Faren. The girl should be "
+      "flogged. Oh, forgive me, Shal'ille for saying such an awful thing.~k\""
+   shalillepriestess_trigger_amulet = "amulet"
+   shalillepriestess_trigger_barloque = "barloque"
+   shalillepriestess_trigger_brax = "brax"
+   shalillepriestess_trigger_sell = "sell"
+   shalillepriestess_trigger_bye = "bye"
+   shalillepriestess_trigger_cor_noth = "cor noth"
+   shalillepriestess_trigger_council = "council"
+   shalillepriestess_trigger_days = "days"
+   shalillepriestess_trigger_duke = "duke"
+   shalillepriestess_trigger_faren = "faren"
+   shalillepriestess_trigger_hello = "hello"
+   shalillepriestess_trigger_help = "help"
+   shalillepriestess_trigger_holiday = "holiday"
+   shalillepriestess_trigger_holiday_2 = "holiday"
+   shalillepriestess_trigger_holiday_3 = "holiday"
+   shalillepriestess_trigger_hunter = "hunter"
+   shalillepriestess_trigger_hunter_sword = "hunter sword"
+   shalillepriestess_trigger_jala = "jala"
+   shalillepriestess_trigger_jasper = "jasper"
+   shalillepriestess_trigger_kraanan = "kraanan"
+   shalillepriestess_trigger_learn = "learn"
+   shalillepriestess_trigger_marion = "marion"
+   shalillepriestess_trigger_meidei = "meidei"
+   shalillepriestess_trigger_miriana = "miriana"
+   shalillepriestess_trigger_necromancer = "necromancer"
+   shalillepriestess_trigger_node = "node"
+   shalillepriestess_trigger_prayer = "prayer"
+   shalillepriestess_trigger_prayer_2 = "prayer"
+   shalillepriestess_trigger_princess = "princess"
+   shalillepriestess_trigger_qor = "qor"
+   shalillepriestess_trigger_riija = "riija"
+   shalillepriestess_trigger_buy = "buy"
+   shalillepriestess_trigger_shal_ille = "shal'ille"
+   shalillepriestess_trigger_sha_lill = "sha-lill"
+   shalillepriestess_trigger_student = "student"
+   shalillepriestess_trigger_tendrath = "tendrath"
+   shalillepriestess_trigger_tos = "tos"
+   shalillepriestess_trigger_venya_cyr = "venya'cyr"
+   shalillepriestess_trigger_zarrus = "zarrus"
+
+   // Temples (Temples)
+   temples_speech_001 = "~k%s's request for an insignia is ignored."
+   temples_trigger_insignia = "insignia"
+
+messages:
+
+   GetSpeechLibrary()
+   "Speech library nodes: [class, [[triggers, mood, action, key], ...]]"
+   {
+      local lLib;
+
+      lLib = $;
+
+      lLib = Cons([&FarenPriestess,[
+         [[farenpriestess_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_041],41],
+         [[farenpriestess_trigger_urn],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_042],42],
+         [[farenpriestess_trigger_venya_cyr],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_043],43],
+         [[farenpriestess_trigger_yrx_l],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_044],44],
+         [[farenpriestess_trigger_zarrus],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_045],45]
+      ]],lLib);
+
+      lLib = Cons([&FarenPriestess,[
+         [[farenpriestess_trigger_amulet],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_001],1],
+         [[farenpriestess_trigger_barloque],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_002],2],
+         [[farenpriestess_trigger_brax],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_003],3],
+         [[farenpriestess_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_004],4],
+         [[farenpriestess_trigger_bye],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_005],5],
+         [[farenpriestess_trigger_cor_noth],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_006],6],
+         [[farenpriestess_trigger_council],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_007],7],
+         [[farenpriestess_trigger_days],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_008],8],
+         [[farenpriestess_trigger_duke],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_009],9],
+         [[farenpriestess_trigger_faren],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_010],10],
+         [[farenpriestess_trigger_gadfly,farenpriestess_trigger_gadfly_2],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_011],11],
+         [[farenpriestess_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_012],12],
+         [[farenpriestess_trigger_help],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_013],13],
+         [[farenpriestess_trigger_holiday,farenpriestess_trigger_holiday_2],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_014],14],
+         [[farenpriestess_trigger_hunter],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_015],15],
+         [[farenpriestess_trigger_hunter_sword,
+            farenpriestess_trigger_hunter_sword_2],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_016],16],
+         [[farenpriestess_trigger_jala],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_017],17],
+         [[farenpriestess_trigger_jasper],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_018],18],
+         [[farenpriestess_trigger_kraanan],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_019],19],
+         [[farenpriestess_trigger_learn],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_020],20],
+         [[farenpriestess_trigger_lightning_wall],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_021],21],
+         [[farenpriestess_trigger_marion],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_022],22],
+         [[farenpriestess_trigger_miriana],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_023],23],
+         [[farenpriestess_trigger_miriana],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_024],24],
+         [[farenpriestess_trigger_miriana],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_025],25],
+         [[farenpriestess_trigger_miriana],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_026],26],
+         [[farenpriestess_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_027],27],
+         [[farenpriestess_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_028],28],
+         [[farenpriestess_trigger_necromancer],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_029],29],
+         [[farenpriestess_trigger_node],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_030],30],
+         [[farenpriestess_trigger_node],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_031],31],
+         [[farenpriestess_trigger_node],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_032],32],
+         [[farenpriestess_trigger_princess],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_033],33],
+         [[farenpriestess_trigger_qor],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_034],34],
+         [[farenpriestess_trigger_riija],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_035],35],
+         [[farenpriestess_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_036],36],
+         [[farenpriestess_trigger_shal_ille,
+            farenpriestess_trigger_sha_lill],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_037],37],
+         [[farenpriestess_trigger_student],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_038],38],
+         [[farenpriestess_trigger_supplicate,
+            farenpriestess_trigger_supplicate_2],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_039],39],
+         [[farenpriestess_trigger_tendrath],0,
+            [LIBACT_QUOTE_RSC,farenpriestess_speech_040],40]
+      ]],lLib);
+
+      lLib = Cons([&KraananPriestess,[
+         [[kraananpriestess_trigger_tendrath],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_041],41],
+         [[kraananpriestess_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_042],42],
+         [[kraananpriestess_trigger_venya_cyr],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_043],43],
+         [[kraananpriestess_trigger_watcher,
+            kraananpriestess_trigger_meister_der_arena],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_044],44],
+         [[kraananpriestess_trigger_zarrus],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_045],45]
+      ]],lLib);
+
+      lLib = Cons([&KraananPriestess,[
+         [[kraananpriestess_trigger_amulet],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_001],1],
+         [[kraananpriestess_trigger_apprentice,
+            kraananpriestess_trigger_apprentice_2],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_002],2],
+         [[kraananpriestess_trigger_barloque],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_003],3],
+         [[kraananpriestess_trigger_brax],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_004],4],
+         [[kraananpriestess_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_005],5],
+         [[kraananpriestess_trigger_bye,
+            kraananpriestess_trigger_bye_2,
+            kraananpriestess_trigger_bye_3],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_006],6],
+         [[kraananpriestess_trigger_cor_noth],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_007],7],
+         [[kraananpriestess_trigger_cort],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_008],8],
+         [[kraananpriestess_trigger_council],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_009],9],
+         [[kraananpriestess_trigger_cylill,kraananpriestess_trigger_zylill],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_010],10],
+         [[kraananpriestess_trigger_days,kraananpriestess_trigger_days_2],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_011],11],
+         [[kraananpriestess_trigger_duke],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_012],12],
+         [[kraananpriestess_trigger_faren],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_013],13],
+         [[kraananpriestess_trigger_father],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_014],14],
+         [[kraananpriestess_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_015,[LIBPLUG_NAME]],15],
+         [[kraananpriestess_trigger_help],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_016],16],
+         [[kraananpriestess_trigger_holiday],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_017],17],
+         [[kraananpriestess_trigger_hunter],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_018],18],
+         [[kraananpriestess_trigger_hunter_sword],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_019],19],
+         [[kraananpriestess_trigger_jala],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_020],20],
+         [[kraananpriestess_trigger_jasper],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_021],21],
+         [[kraananpriestess_trigger_kraanan],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_022],22],
+         [[kraananpriestess_trigger_learn],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_023],23],
+         [[kraananpriestess_trigger_marion],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_024],24],
+         [[kraananpriestess_trigger_miriana],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_025],25],
+         [[kraananpriestess_trigger_miriana],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_026],26],
+         [[kraananpriestess_trigger_miriana],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_027],27],
+         [[kraananpriestess_trigger_miriana],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_028],28],
+         [[kraananpriestess_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_029],29],
+         [[kraananpriestess_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_030],30],
+         [[kraananpriestess_trigger_necromancer],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_031],31],
+         [[kraananpriestess_trigger_node],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_032],32],
+         [[kraananpriestess_trigger_node],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_033],33],
+         [[kraananpriestess_trigger_node],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_034],34],
+         [[kraananpriestess_trigger_princess],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_035],35],
+         [[kraananpriestess_trigger_qor],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_036],36],
+         [[kraananpriestess_trigger_riija],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_037],37],
+         [[kraananpriestess_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_038],38],
+         [[kraananpriestess_trigger_shal_ille,
+            kraananpriestess_trigger_sha_lill],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_039],39],
+         [[kraananpriestess_trigger_son],0,
+            [LIBACT_QUOTE_RSC,kraananpriestess_speech_040],40]
+      ]],lLib);
+
+      lLib = Cons([&QorPriestess,[
+         [[qorpriestess_trigger_amulet],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_001],1],
+         [[qorpriestess_trigger_barloque],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_002],2],
+         [[qorpriestess_trigger_brax],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_003],3],
+         [[qorpriestess_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_004],4],
+         [[qorpriestess_trigger_bye],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_005],5],
+         [[qorpriestess_trigger_cor_noth],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_006],6],
+         [[qorpriestess_trigger_council],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_007],7],
+         [[qorpriestess_trigger_days],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_008],8],
+         [[qorpriestess_trigger_faren],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_009],9],
+         [[qorpriestess_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_010,[LIBPLUG_NAME]],10],
+         [[qorpriestess_trigger_help],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_011],11],
+         [[qorpriestess_trigger_holiday,qorpriestess_trigger_holiday_2],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_012],12],
+         [[qorpriestess_trigger_hunter_sword],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_013],13],
+         [[qorpriestess_trigger_jala],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_014],14],
+         [[qorpriestess_trigger_jasper],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_015],15],
+         [[qorpriestess_trigger_kalior],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_016],16],
+         [[qorpriestess_trigger_kraanan],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_017],17],
+         [[qorpriestess_trigger_learn,qorpriestess_trigger_learn_2],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_018],18],
+         [[qorpriestess_trigger_malumnea],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_019],19],
+         [[qorpriestess_trigger_marion],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_020],20],
+         [[qorpriestess_trigger_miriana],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_021],21],
+         [[qorpriestess_trigger_miriana],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_022],22],
+         [[qorpriestess_trigger_miriana],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_023],23],
+         [[qorpriestess_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_024],24],
+         [[qorpriestess_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_025],25],
+         [[qorpriestess_trigger_node],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_026],26],
+         [[qorpriestess_trigger_node],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_027],27],
+         [[qorpriestess_trigger_node],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_028],28],
+         [[qorpriestess_trigger_princess],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_029],29],
+         [[qorpriestess_trigger_pupil],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_030,
+               [LIBPLUG_LADLASSIE]],30],
+         [[qorpriestess_trigger_qor],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_031],31],
+         [[qorpriestess_trigger_riija],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_032],32],
+         [[qorpriestess_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_033],33],
+         [[qorpriestess_trigger_shal_ille,qorpriestess_trigger_sha_lill],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_034],34],
+         [[qorpriestess_trigger_tendrath],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_035],35],
+         [[qorpriestess_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_036],36],
+         [[qorpriestess_trigger_urn],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_037],37],
+         [[qorpriestess_trigger_venya_cyr],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_038],38],
+         [[qorpriestess_trigger_zarrus],0,
+            [LIBACT_QUOTE_RSC,qorpriestess_speech_039],39]
+      ]],lLib);
+
+      lLib = Cons([&RiijaMonk,[
+         [[riijamonk_trigger_amulet],0,
+            [LIBACT_QUOTE_RSC,riijamonk_speech_001],1],
+         [[riijamonk_trigger_brax],0,
+            [LIBACT_QUOTE_RSC,riijamonk_speech_002],2],
+         [[riijamonk_trigger_sell],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,riijamonk_speech_003],3],
+         [[riijamonk_trigger_bye],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,riijamonk_speech_004],4],
+         [[riijamonk_trigger_fear],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,riijamonk_speech_005],5],
+         [[riijamonk_trigger_hate],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,riijamonk_speech_006,[LIBPLUG_NAME]],6],
+         [[riijamonk_trigger_hello],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,riijamonk_speech_007],7],
+         [[riijamonk_trigger_help],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,riijamonk_speech_008],8],
+         [[riijamonk_trigger_hunter],0,
+            [LIBACT_QUOTE_RSC,riijamonk_speech_009],9],
+         [[riijamonk_trigger_hunter_sword],0,
+            [LIBACT_QUOTE_RSC,riijamonk_speech_010],10],
+         [[riijamonk_trigger_konima],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,riijamonk_speech_011],11],
+         [[riijamonk_trigger_love],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,riijamonk_speech_012,[LIBPLUG_NAME]],12],
+         [[riijamonk_trigger_miriana],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,riijamonk_speech_013],13],
+         [[riijamonk_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,riijamonk_speech_014],14],
+         [[riijamonk_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,riijamonk_speech_015],15],
+         [[riijamonk_trigger_necromancer],0,
+            [LIBACT_QUOTE_RSC,riijamonk_speech_016],16],
+         [[riijamonk_trigger_no],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,riijamonk_speech_017],17],
+         [[riijamonk_trigger_node],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,riijamonk_speech_018],18],
+         [[riijamonk_trigger_node],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,riijamonk_speech_019],19],
+         [[riijamonk_trigger_riija],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,riijamonk_speech_020],20],
+         [[riijamonk_trigger_buy],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,riijamonk_speech_021],21],
+         [[riijamonk_trigger_teach],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,riijamonk_speech_022],22],
+         [[riijamonk_trigger_tendrath],0,
+            [LIBACT_QUOTE_RSC,riijamonk_speech_023],23],
+         [[riijamonk_trigger_venya_cyr],0,
+            [LIBACT_QUOTE_RSC,riijamonk_speech_024],24],
+         [[riijamonk_trigger_when],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,riijamonk_speech_025],25],
+         [[riijamonk_trigger_yes],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,riijamonk_speech_026],26],
+         [[riijamonk_trigger_zarrus],0,
+            [LIBACT_QUOTE_RSC,riijamonk_speech_027],27]
+      ]],lLib);
+
+      lLib = Cons([&ShalillePriestess,[
+         [[shalillepriestess_trigger_venya_cyr],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_041],41],
+         [[shalillepriestess_trigger_zarrus],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_042],42]
+      ]],lLib);
+
+      lLib = Cons([&ShalillePriestess,[
+         [[shalillepriestess_trigger_amulet],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_001],1],
+         [[shalillepriestess_trigger_barloque],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_002],2],
+         [[shalillepriestess_trigger_brax],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_003],3],
+         [[shalillepriestess_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_004],4],
+         [[shalillepriestess_trigger_bye],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_005,[LIBPLUG_NAME]],5],
+         [[shalillepriestess_trigger_cor_noth],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_006],6],
+         [[shalillepriestess_trigger_council],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_007],7],
+         [[shalillepriestess_trigger_days],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_008],8],
+         [[shalillepriestess_trigger_duke],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_009],9],
+         [[shalillepriestess_trigger_faren],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_010],10],
+         [[shalillepriestess_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_011,
+               [LIBPLUG_NAME]],11],
+         [[shalillepriestess_trigger_help],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_012],12],
+         [[shalillepriestess_trigger_holiday,
+            shalillepriestess_trigger_holiday_2,
+            shalillepriestess_trigger_holiday_3],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_013],13],
+         [[shalillepriestess_trigger_hunter],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_014],14],
+         [[shalillepriestess_trigger_hunter_sword],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_015],15],
+         [[shalillepriestess_trigger_jala],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_016],16],
+         [[shalillepriestess_trigger_jasper],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_017],17],
+         [[shalillepriestess_trigger_kraanan],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_018],18],
+         [[shalillepriestess_trigger_learn],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_019],19],
+         [[shalillepriestess_trigger_marion],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_020],20],
+         [[shalillepriestess_trigger_meidei],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_021],21],
+         [[shalillepriestess_trigger_miriana],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_022],22],
+         [[shalillepriestess_trigger_miriana],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_023],23],
+         [[shalillepriestess_trigger_miriana],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_024],24],
+         [[shalillepriestess_trigger_miriana],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_025],25],
+         [[shalillepriestess_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_026],26],
+         [[shalillepriestess_trigger_miriana],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_027],27],
+         [[shalillepriestess_trigger_necromancer],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_028],28],
+         [[shalillepriestess_trigger_node],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_029],29],
+         [[shalillepriestess_trigger_node],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_030],30],
+         [[shalillepriestess_trigger_node],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_031],31],
+         [[shalillepriestess_trigger_prayer,
+            shalillepriestess_trigger_prayer_2],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_032],32],
+         [[shalillepriestess_trigger_princess],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_033],33],
+         [[shalillepriestess_trigger_qor],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_034],34],
+         [[shalillepriestess_trigger_riija],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_035],35],
+         [[shalillepriestess_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_036],36],
+         [[shalillepriestess_trigger_shal_ille,
+            shalillepriestess_trigger_sha_lill],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_037],37],
+         [[shalillepriestess_trigger_student],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_038],38],
+         [[shalillepriestess_trigger_tendrath],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_039],39],
+         [[shalillepriestess_trigger_tos],0,
+            [LIBACT_QUOTE_RSC,shalillepriestess_speech_040],40]
+      ]],lLib);
+
+      lLib = Cons([&Temples,[
+         [[temples_trigger_insignia],0,
+            [LIBACT_QUOTE_RSC,temples_speech_001,[LIBPLUG_NAME]],1]
+      ]],lLib);
+
+      return lLib;
+   }
+
+   GetRandomLibrary()
+   "Random library nodes: [class, [[percent, mood, action, key], ...]]"
+   {
+      local lLib;
+
+      lLib = $;
+
+      lLib = Cons([&FarenPriestess,[
+         [50,0,[LIBACT_QUOTE_RSC,farenpriestess_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,farenpriestess_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,farenpriestess_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,farenpriestess_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,farenpriestess_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,farenpriestess_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,farenpriestess_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,farenpriestess_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,farenpriestess_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,farenpriestess_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,farenpriestess_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,farenpriestess_random_012],12],
+         [50,0,[LIBACT_QUOTE_RSC,farenpriestess_random_013],13],
+         [50,0,[LIBACT_QUOTE_RSC,farenpriestess_random_014],14],
+         [50,0,[LIBACT_QUOTE_RSC,farenpriestess_random_015],15],
+         [50,0,[LIBACT_QUOTE_RSC,farenpriestess_random_016],16],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,farenpriestess_random_017],17],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,farenpriestess_random_018],18]
+      ]],lLib);
+
+      lLib = Cons([&JalaPriestess,[
+         [50,0,[LIBACT_QUOTE_RSC,jalapriestess_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,jalapriestess_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,jalapriestess_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,jalapriestess_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,jalapriestess_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,jalapriestess_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,jalapriestess_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,jalapriestess_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,jalapriestess_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,jalapriestess_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,jalapriestess_random_011],11]
+      ]],lLib);
+
+      lLib = Cons([&KraananPriestess,[
+         [50,0,[LIBACT_QUOTE_RSC,kraananpriestess_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,kraananpriestess_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,kraananpriestess_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,kraananpriestess_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,kraananpriestess_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,kraananpriestess_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,kraananpriestess_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,kraananpriestess_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,kraananpriestess_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,kraananpriestess_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,kraananpriestess_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,kraananpriestess_random_012],12],
+         [50,0,[LIBACT_QUOTE_RSC,kraananpriestess_random_013],13],
+         [50,0,[LIBACT_QUOTE_RSC,kraananpriestess_random_014],14],
+         [50,0,[LIBACT_QUOTE_RSC,kraananpriestess_random_015],15],
+         [50,0,[LIBACT_QUOTE_RSC,kraananpriestess_random_016],16],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kraananpriestess_random_017],17]
+      ]],lLib);
+
+      lLib = Cons([&QorPriestess,[
+         [50,0,[LIBACT_QUOTE_RSC,qorpriestess_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,qorpriestess_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,qorpriestess_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,qorpriestess_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,qorpriestess_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,qorpriestess_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,qorpriestess_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,qorpriestess_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,qorpriestess_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,qorpriestess_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,qorpriestess_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,qorpriestess_random_012],12],
+         [50,0,[LIBACT_QUOTE_RSC,qorpriestess_random_013],13],
+         [50,0,[LIBACT_QUOTE_RSC,qorpriestess_random_014],14],
+         [50,0,[LIBACT_QUOTE_RSC,qorpriestess_random_015],15],
+         [50,0,[LIBACT_QUOTE_RSC,qorpriestess_random_016],16],
+         [50,0,[LIBACT_QUOTE_RSC,qorpriestess_random_017],17],
+         [50,0,[LIBACT_QUOTE_RSC,qorpriestess_random_018],18],
+         [50,0,[LIBACT_QUOTE_RSC,qorpriestess_random_019],19],
+         [50,0,[LIBACT_QUOTE_RSC,qorpriestess_random_020],20],
+         [50,0,[LIBACT_QUOTE_RSC,qorpriestess_random_021],21],
+         [50,0,[LIBACT_QUOTE_RSC,qorpriestess_random_022],22],
+         [50,0,[LIBACT_QUOTE_RSC,qorpriestess_random_023],23],
+         [50,0,[LIBACT_QUOTE_RSC,qorpriestess_random_024],24]
+      ]],lLib);
+
+      lLib = Cons([&RiijaMonk,[
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,riijamonk_random_001],1],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,riijamonk_random_002],2],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,riijamonk_random_003],3],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,riijamonk_random_004],4],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,riijamonk_random_005],5],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,riijamonk_random_006],6],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,riijamonk_random_007],7],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,riijamonk_random_008],8],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,riijamonk_random_009],9],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,riijamonk_random_010],10],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,riijamonk_random_011],11],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,riijamonk_random_012],12],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,riijamonk_random_013],13],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,riijamonk_random_014],14],
+         [50,LIBRES_MOOD_NOT_BAD,[LIBACT_QUOTE_RSC,riijamonk_random_015],15]
+      ]],lLib);
+
+      lLib = Cons([&ShalillePriestess,[
+         [50,0,[LIBACT_QUOTE_RSC,shalillepriestess_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,shalillepriestess_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,shalillepriestess_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,shalillepriestess_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,shalillepriestess_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,shalillepriestess_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,shalillepriestess_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,shalillepriestess_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,shalillepriestess_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,shalillepriestess_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,shalillepriestess_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,shalillepriestess_random_012],12],
+         [50,0,[LIBACT_QUOTE_RSC,shalillepriestess_random_013],13],
+         [50,0,[LIBACT_QUOTE_RSC,shalillepriestess_random_014],14],
+         [50,0,[LIBACT_QUOTE_RSC,shalillepriestess_random_015],15],
+         [50,0,[LIBACT_QUOTE_RSC,shalillepriestess_random_016],16],
+         [50,0,[LIBACT_QUOTE_RSC,shalillepriestess_random_017],17],
+         [50,0,[LIBACT_QUOTE_RSC,shalillepriestess_random_018],18],
+         [50,0,[LIBACT_QUOTE_RSC,shalillepriestess_random_019],19],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,shalillepriestess_random_020],20],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,shalillepriestess_random_021],21]
+      ]],lLib);
+
+      return lLib;
+   }
+
+end
+////////////////////////////////////////////////////////////////////////////////

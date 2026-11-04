@@ -1,0 +1,924 @@
+// FiveCouncilor
+fivecouncilor_speech_001 = de \
+   "~kEsseldi sagt, \"Ich würde gerne einen dieser Anhänger sehen.\""
+fivecouncilor_speech_002 = de \
+   "~kEsseldi sagt, \"Nun, eigentlich laufen die Tiere in alle Richtungen "
+   "davon, wenn man hindurchkommt. Nach den Monstern muss man Ausschau "
+   "halten.\""
+fivecouncilor_speech_003 = de \
+   "~kEsseldi sagt, \"Ah, das alte Barloque! Ich war schon einige Jahre "
+   "nicht mehr dort. Um ehrlich zu sein, ich finde es etwas spießig. Ich "
+   "halte dort nur an, um etwas Ausrüstung zu holen, wenn ich auf dem Weg "
+   "zur Prinzessin bin.\""
+fivecouncilor_speech_004 = de \
+   "~kEsseldi sagt, \"Das ist ein Ort, den ich gerne gesehen hätte. "
+   "Geschichten von Brax erzählen immer von einer aufgeklärten Zivilisation, "
+   "die danach strebte, die größte Stadt ihrer Zeit zu bauen. Wie mutig "
+   "müssen sie gewesen sein, und wie töricht.\""
+fivecouncilor_speech_005 = de \
+   "~kEsseldi sagt, \"Mögen Dich Deine Reisen an faszinierende Orte führen.\""
+fivecouncilor_speech_006 = de \
+   "~kEsseldi sagt, \"In Cor Noth kann man wirklich viel über die eigenen "
+   "Wurzeln lernen.\""
+fivecouncilor_speech_007 = de \
+   "~kEsseldi sagt, \"Ich selbst und vier andere Herren wurden von König "
+   "Zarcos V. ausgewählt, um das Land zu leiten, während er auf eigenen "
+   "Erkundungsreisen war. Ich glaube nicht, dass er persönlich auf seinen "
+   "Thron zurückkehrt, daher wird es letztlich an uns Ratsmitgliedern sein, "
+   "seinen Nachfolger zu wählen. Ich persönlich könnte auf die ganze Politik "
+   "verzichten.\""
+fivecouncilor_speech_008 = de \
+   "~kEsseldi sagt, \"Drex kann normalerweise in der Nähe des alten "
+   "Schlosses Viktoria gefunden werden. Das liegt ziemlich weit von hier. Es "
+   "ist erstaunlich, in welch guter Verfassung der alte Mann ist.\""
+fivecouncilor_speech_009 = de \
+   "~kEsseldi sagt, \"Ich glaube, dass das Gefüge der Magie die Artefakte zu "
+   "sich hinzieht. In unserer Welt gibt es einige mächtige magische Quellen "
+   "und Dutzende von Zauberern, die zu unterschiedlichen Zeiten Magie "
+   "unterschiedlicher Stufen aufrufen. Wenn die Artefakte von genügend "
+   "Winkeln aus gezogen werden, springen sie in Richtung der - aber nicht "
+   "unbedingt zu den - stärksten von ihnen. Ich weiß aber nicht, warum die "
+   "Monster sie sammeln. Ich glaube, damit befasst sich Drex.\""
+fivecouncilor_speech_010 = de \
+   "~kEsseldi sagt, \"Ich glaube, dass das Gefüge der Magie die Artefakte zu "
+   "sich hinzieht. In unserer Welt gibt es einige mächtige magische Quellen "
+   "und Dutzende von Zauberern, die zu unterschiedlichen Zeiten Magie "
+   "unterschiedlicher Stufen aufrufen. Wenn die Artefakte von genügend "
+   "Winkeln aus gezogen werden, springen sie in Richtung der - aber nicht "
+   "unbedingt zu den - stärksten von ihnen. Ich weiß aber nicht, warum die "
+   "Monster sie sammeln. Ich glaube, damit befasst sich Drex.\""
+fivecouncilor_speech_011 = de \
+   "~kEsseldi sagt, \"Hallo, Reisender! Was treibt Dich hier heraus?\""
+fivecouncilor_speech_012 = de "~kEsseldi sagt, \"Ich habe von ihnen gehört.\""
+fivecouncilor_speech_013 = de \
+   "~kEsseldi sagt, \"Ich bin sehr daran interessiert, eines von diesen "
+   "Schwertern zu Gesicht zu bekommen.\""
+fivecouncilor_speech_014 = de \
+   "~kEsseldi sagt, \"Es gibt viele anständige Leute in Jasper, sage ich "
+   "Dir. Eine fleißige Stadt mit fleißigen Bürgern.\""
+fivecouncilor_speech_015 = de \
+   "~kEsseldi sagt, \"Ah, Du hast von der Geschichte von Venya'cyr gehört. "
+   "Möglicherweise kann der Lich nicht aus seiner verfluchten Stadt heraus.\""
+fivecouncilor_speech_016 = de \
+   "~kEsseldi sagt, \"Marion ist eine nette kleine Stadt. Freundliche Leute, "
+   "gute Bauern. Es gibt nichts Besseres als eine gute warme Mahlzeit in "
+   "Marion, nachdem man einige Wochen draußen in der Wildnis war.\""
+fivecouncilor_speech_017 = de \
+   "~kEsseldi sagt, \"Roluk kann Dir von den Monstern erzählen.\""
+fivecouncilor_speech_018 = de \
+   "~kEsseldi sagt, \"Ja, es war ~IHumoch~I. Das bedeutet Troll in einer "
+   "anderen Sprache, glaube ich.\""
+fivecouncilor_speech_019 = de \
+   "~kEsseldi sagt, \"Was für eine atemberaubende Nacht, um im Freien zu "
+   "sein! Schau, wenn Du die Augen zusammenkneifst, kannst Du den Oststern "
+   "sehen.\""
+fivecouncilor_speech_020 = de \
+   "~kEsseldi sagt, \"Freilich, die unterhalb von Jasper und Barloque.\""
+fivecouncilor_speech_021 = de \
+   "~kEsseldi sagt, \"Es ist etwas kompliziert zu erklären, aber ich glaube, "
+   "dass sich die Artefakte von selbst bewegen, weil sie mit den "
+   "Mana-Feldern in Wechselwirkung stehen. Jedes wirkt wie ein Magnet und "
+   "zieht diese Gegenstände in verschiedene Richtungen. Es steckt noch mehr "
+   "dahinter. Ich möchte Dich nicht mit der Erklärung langweilen.\""
+fivecouncilor_speech_022 = de \
+   "~kEsseldi sagt, \"Ich habe jetzt nicht genug Zeit, mich damit "
+   "auseinander zu setzen. Vielleicht ein anderes Mal.\""
+fivecouncilor_speech_023 = de \
+   "~kEsseldi sagt, \"Tos als Stadt mag ich nicht besonders. Versteh mich "
+   "nicht falsch, die Architektur ist faszinierend, wie ein Stück "
+   "Geschichte, das einfach dort steht. Aber die Leute respektieren das "
+   "Alter der Stadt nur wenig und neigen dazu, sie zu missbrauchen. Ich gehe "
+   "nur durch Tos, wenn ich den Herzog beraten muss.\""
+fivecouncilor_speech_024 = de \
+   "~kEsseldi sagt, \"Ich erinnere mich, dass eine Urne in der Geschichte um "
+   "Venya'cyr vorkam, aber an ihre Bedeutung erinnere ich mich nicht.\""
+fivecouncilor_speech_025 = de \
+   "~kEsseldi sagt, \"Armes Mädchen. Sie war durch die Kräfte, die sie "
+   "umgaben, gefangen. Hättest Du es anders gemacht? Hättest Du es anders "
+   "machen können? Kann überhaupt jemand von uns behaupten, dass er nicht "
+   "irgendwann seinen dunkleren Instinkten erlegen ist? Sie hat es eben mehr "
+   "gekostet als den Rest von uns.\""
+fivecouncilor_speech_026 = de \
+   "~kEsseldi sagt, \"Das sagt man vielleicht nicht gerne, aber ich denke, "
+   "der Mann war ein Feigling - er hat einfach seine Stadt verlassen, ohne "
+   "zu kämpfen.\""
+fivecouncilor_random_001 = de \
+   "~kEsseldi sagt, \"Ich studiere diese Artefakte schon seit langem. Ich "
+   "denke, ich komme nun langsam dahinter, warum sie immer wieder um uns "
+   "herum auftauchen. Es sind zwar nur Theorien, aber ich mache "
+   "Fortschritte.\""
+fivecouncilor_random_002 = de \
+   "~kEsseldi sagt, \"Wenn Du ein gewitzter Forscher bist, wirst Du einen "
+   "Weg in das Innere des Steinkreises im Land der Trolle finden.\""
+fivecouncilor_random_003 = de \
+   "~kEsseldi sagt, \"Ich sage Dir, ich war anscheinend fast überall, außer "
+   "in der Unterwelt. Es ist seltsam, wie viele Wege es aus dem Nachleben "
+   "gibt. So viele offene Türen...\""
+fivecouncilor_random_004 = de \
+   "~kEsseldi sagt, \"Ich finde, herumzureisen ist der beste Weg, um etwas "
+   "über die Welt zu lernen, aber es gibt auch einige Leute, die Dir noch "
+   "etwas beibringen können.\""
+fivecouncilor_random_005 = de \
+   "~kEsseldi sagt, \"Alle Götter haben Tempel hier draußen in der Wildnis. "
+   "Das Problem ist nur, sie zu finden. Ich habe noch keine Idee, wo sich "
+   "der alte Riija versteckt hat. Und ich glaube langsam, dass alles, was "
+   "noch von Jalas Tempel übrig war, längst verschwunden ist, weggespült von "
+   "den Dienern Qors.\""
+fivecouncilor_random_006 = de \
+   "~kEsseldi sagt, \"Wenn Du nach magischen Quellen suchst, solltest Du am "
+   "besten einen Söldner anheuern, der Dich führt. Die Wege sind oft "
+   "trügerisch. Ich würde Dich ja persönlich führen, aber ich habe selbst "
+   "einen Auftrag.\""
+fivecouncilor_random_007 = de \
+   "~kEsseldi sagt, \"Ich bin selbst auf dem Weg zum Seefahrer-Nest. Dort "
+   "oben hat man eine wunderbare Aussicht.\""
+fivecouncilor_random_008 = de \
+   "~kEsseldi sagt, \"Der einzige Ort, den ich nicht gerne erkunde, ist die "
+   "Kanalisation. Sie scheint sich in die Unendlichkeit zu erstrecken. "
+   "Natürlich wäre es interessant, aber dieser Gestank...\""
+fivecouncilor_random_009 = de \
+   "~kEsseldi sagt, \"Es gibt nichts Besseres als einen ordentlichen "
+   "Fußmarsch, um den Geist zu klären. Vorausgesetzt, Du nimmst Dich vor den "
+   "Tieren in Acht.\""
+fivecouncilor_random_010 = de "~kEsseldi streicht etwas Salbe auf seine Füße."
+fivecouncilor_random_011 = de \
+   "~kDu bemerkst den aufdringlichen Geruch von Stinktieren im Wald."
+fivecouncilor_random_012 = de \
+   "~kEsseldi sagt, \"Pass' bloß auf die Trolle auf. Weißt Du, neulich hörte "
+   "ich, wie jemand einen anderen Namen für sie benutzte.\""
+fivecouncilor_random_013 = de \
+   "~kEsseldi sagt, \"Jonas D'Accor kennt besser als jeder andere die alten "
+   "Legenden von Konima.\""
+fivecouncilor_random_014 = de \
+   "~kEsseldi sagt, \"Die Geschichte sagt, dass das alte Reich über den "
+   "Nexus nahe von Schloss Viktoria mit uns Handel zu treiben pflegte. Der "
+   "Nexus wurde vor Jahrhunderten zerstört. Jetzt bewachen nur noch Trolle "
+   "die Steine, die einst den Weg markierten.\""
+fivecouncilor_random_015 = de \
+   "~kEsseldi sagt, \"Riech nur diese frische Luft!\""
+fivecouncilor_random_016 = de \
+   "~kEsseldi sagt, \"Was für ein wunderschöner Tag, um im Freien zu sein!\""
+fivecouncilor_speech_027 = de \
+   "~kEsseldi sagt, \"Wenn Du Dich gerne in Städten aufhältst, dann ist Cor "
+   "Noth eine der angenehmeren. Manchmal bitten sie mich darum, an der "
+   "dortigen Universität Vorlesungen zu halten. Ich denke, eines Tages werde "
+   "ich dafür mal Zeit haben.\""
+fivecouncilor_trigger_amulet = de "amulett"
+fivecouncilor_trigger_animal = de "tiere"
+fivecouncilor_trigger_bye = de "ciao"
+fivecouncilor_trigger_council = de "ratsmitglied"
+fivecouncilor_trigger_drechx = de "drex"
+fivecouncilor_trigger_drex = de "drechx"
+fivecouncilor_trigger_explain = de "erklären"
+fivecouncilor_trigger_explanation = de "erklärung"
+fivecouncilor_trigger_hello = de "hallo"
+fivecouncilor_trigger_hunter = de "jäger"
+fivecouncilor_trigger_hunter_sword = de "jagdschwert"
+fivecouncilor_trigger_monsters = de "monster"
+fivecouncilor_trigger_night = de "nacht"
+fivecouncilor_trigger_sewers = de "kanalisation"
+fivecouncilor_trigger_sewers_2 = de "dungeon"
+fivecouncilor_trigger_theory = de "theorie"
+fivecouncilor_trigger_theories = de "theorie"
+fivecouncilor_trigger_urn = de "urne"
+
+// FourCouncilor
+fourcouncilor_speech_001 = de \
+   "~kDrex sagt, \"Die Nekromanten hassen mit ihrer gesamten Existenz alles "
+   "Lebende. Das Amulett ist das Ergebnis dieser Perversion. Wusstest Du, "
+   "dass das Einzige, was ein Nekromant essen kann, die Lebenskraft lebender "
+   "Wesen ist? Echtes Essen ist wie Gift für sie.\""
+fourcouncilor_speech_002 = de \
+   "~kDrex sagt, \"Auf diese Weise ernähren sie sich beide. Sich selbst und "
+   "ihre Königin. Es ist wirklich abscheulich. Ich weiß nur, was Alzahakar "
+   "mir erzählt hat.\""
+fourcouncilor_speech_003 = de \
+   "~kDrex sagt, \"In der Hauptstadt Barloque wimmelt es nur so von Ratten. "
+   "Die reichen Leute dort sollten mal einige Schillinge für Söldner "
+   "ausgeben, die die Kanalisation von dieser Plage befreien, bevor eine "
+   "Seuche ausbricht.\""
+fourcouncilor_speech_004 = de \
+   "~kDrex sagt, \"Ich bin kein Historiker. Rede mit dem unterernährten "
+   "Magier Alzahakar, wenn Du mehr über diese Dinge erfahren willst. Lass "
+   "mich Dir eine Frage stellen: Hast Du diesen Mann jemals etwas essen "
+   "sehen? Ich nicht.\""
+fourcouncilor_speech_005 = de "~kDrex sagt, \"Bleib gesund, mein Freund.\""
+fourcouncilor_speech_006 = de \
+   "~kDrex sagt, \"Cor Noth, die Stadt der Gelehrten, leidet unter der "
+   "Verschmutzung. Sie sollten möglichst schnell ihren Fluss säubern, bevor "
+   "er noch mehr von diesem ekligen Schleim in die Welt spuckt.\""
+fourcouncilor_speech_007 = de \
+   "~kDrex sagt, \"König Zarcos tat gut daran, den Thron uns fünf "
+   "Ratsmitgliedern zu überlassen. Sein Geist leidet unter Problemen, die "
+   "schon bei einigen Königen vor ihm beobachtet wurden. Er musste sich vom "
+   "Druck der Regierungsgeschäfte zurückziehen, um zu genesen. Wir fünf "
+   "kümmern uns um das Königreich, bis ein Nachfolger gewählt ist.\""
+fourcouncilor_speech_008 = de \
+   "~kDrex sagt, \"Dieser Akardius hat einen klaren Kopf. Wenn das Volk es "
+   "will, hat er meine Stimme.\""
+fourcouncilor_speech_009 = de \
+   "~kDrex sagt, \"Sei gegrüßt, mein Freund. Was macht Deine Gesundheit "
+   "heute?\""
+fourcouncilor_speech_010 = de \
+   "~kDrex sagt, \"Die Beziehung der Jäger zu ihrem Schwert scheint mir "
+   "ungesund zu sein. Sie ist unnatürlich, also ist sie nicht gut für den "
+   "Körper.\""
+fourcouncilor_speech_011 = de \
+   "~kDrex sagt, \"Alles, was den Körper von fremdem Material abhängig "
+   "macht, ist letzten Endes schlecht für den Menschen. Ich weiß, dass diese "
+   "Waffen den Jägern unglaublich helfen, frage mich aber oft, welchen "
+   "Tribut der Körper dafür zahlt.\""
+fourcouncilor_speech_012 = de \
+   "~kDrex sagt, \"Ich habe gehört, dass es magischer Natur ist.\""
+fourcouncilor_speech_013 = de \
+   "~kDrex sagt, \"Ich muss sagen, seitdem Jonas und die Rebellion in ihr "
+   "Leben getreten sind, hat sich die Gesundheit der Bürger sehr verbessert. "
+   "Obwohl ich das nicht als übliche Behandlung empfehlen kann.\""
+fourcouncilor_speech_014 = de \
+   "~kDrex sagt, \"Er war verkrüppelt, wenn ich mich recht an die Geschichte "
+   "entsinne. Die Leute haben die Tatsache, dass ihr Anführer so gebeugt und "
+   "still war, nicht gemocht. Die Geschichte sagt, dass der König seine "
+   "Stimme verlor. Wie kann man nur einen König ohne Stimme haben?\""
+fourcouncilor_speech_015 = de \
+   "~kDrex sagt, \"Wie ich gehört habe, kann die Lich nicht sterben. Ihr "
+   "Körper wurde durch die Kräfte, die sie verdorben haben, verändert. Ich "
+   "möchte wissen, wie es wohl ist, ewig zu leben?\""
+fourcouncilor_speech_016 = de \
+   "~kDrex sagt, \"Marion ist eine absolut gesunde Stadt. Sie gleicht die "
+   "einfachen Bedürfnisse des Körpers mit dem Temperament des friedlichen "
+   "Lebens aus. Sie ist zwar klein, aber ich garantiere, dass sie die "
+   "anderen Städte überlebt.\""
+fourcouncilor_speech_017 = de \
+   "~kDrex sagt, \"Gut, fühlst Du Dich jetzt etwas entspannter?\""
+fourcouncilor_speech_018 = de \
+   "~kDrex sagt, \"Sie hat alles, was nötig ist, um das Land zu regieren, "
+   "doch da ist eine Naivität, die meine volle Unterstützung verhindert.\""
+fourcouncilor_speech_019 = de \
+   "~kDrex sagt, \"Ist er nicht der neue Lagerverwalter in Tos?\""
+fourcouncilor_speech_020 = de \
+   "~kDrex sagt, \"Von den Artefakten geht ein warmer, lebensbejahender "
+   "Glanz aus. Eine Seele, würde ich sagen. Deswegen wollen die Monster sie "
+   "sammeln. Es liegt in der Natur des Lebens, anderes Leben anzulocken. "
+   "Deswegen scheint auch der Tod keine so schlimme Wirkung auf uns Menschen "
+   "zu haben, wenn wir ein Artefakt tragen. Es teilt seine Lebensenergie mit "
+   "uns. Alzahakar hat hierzu aber ein paar eigene Theorien.\""
+fourcouncilor_speech_021 = de \
+   "~kDrex sagt, \"Die Stadt Tos leidet unter ihrem Alter. Alle Dinge im "
+   "Leben müssen altern, seien sie lebendig oder aus Stein, und das arme Tos "
+   "liegt gerade in den letzten Zügen. Nur neues Leben kann seine Mauern "
+   "wiederherstellen.\""
+fourcouncilor_speech_022 = de \
+   "~kDrex sagt, \"Eine wirklich verabscheuungswürdige Gestalt. Sie tötete "
+   "ihren eigenen Bruder, Ker'toth.\""
+fourcouncilor_speech_023 = de "~kDrex sagt, \"Nein.\""
+fourcouncilor_speech_024 = de "~kDrex sagt, \"Wer?\""
+fourcouncilor_random_001 = de \
+   "~kDrex sagt, \"Meine Ratskollegen sind immer auf der Suche nach diesen "
+   "mysteriösen Artefakten. Unsere Aufgabe ist es, sie zu studieren. Du "
+   "wirst merken, dass jeder von uns eigene Theorien über ihre Funktion "
+   "hat.\""
+fourcouncilor_random_002 = de \
+   "~kDrex sagt, \"Am schnellsten erholt man sich, indem man in einem "
+   "Gasthaus rastet und eine gute, warme Mahlzeit zu sich nimmt.\""
+fourcouncilor_random_003 = de \
+   "~kDrex sagt, \"Wenn Du einen widerstandsfähigeren Körper haben willst, "
+   "dann musst Du ihn eben strapazieren, damit er stärker heilen kann. "
+   "Vielleicht, indem Du Dich mit Kreaturen anlegst, die stärker sind als "
+   "Du.\""
+fourcouncilor_random_004 = de \
+   "~kDrex sagt, \"Ein guter Ort, um den Körper zu stählen, ist die Arena "
+   "von Kraanan. Du magst Dir dort vielleicht Beulen holen, aber Du musst "
+   "nicht wie bei Kämpfen in der Wildnis dem Tod ins Auge sehen.\""
+fourcouncilor_random_005 = de \
+   "~kDrex sagt, \"Eine Rüstung mag zwar ein guter Schutz sein, aber ich "
+   "meine, sie belastet Dich nur.\""
+fourcouncilor_random_006 = de \
+   "~kDrex sagt, \"Die Artefakte sind wunderbare Kreaturen. Andere mögen sie "
+   "vielleicht Objekte nennen, aber ich weiß, dass in ihnen eine gewisse Art "
+   "Leben steckt. Ich habe einige Theorien über den Grund dafür.\""
+fourcouncilor_random_007 = de \
+   "~kDrex sagt, \"Mit einem vollen Magen wirst Du viel schneller gesund.\""
+fourcouncilor_random_008 = de \
+   "~kDrex sagt, \"Nun muss der Mensch selbst auf seinen Körper achten, aber "
+   "wenn Du etwas Hilfe brauchst, können Dich die Wege von Shal'ille einen "
+   "Heilzauber lehren.\""
+fourcouncilor_random_009 = de \
+   "~kDrex sagt, \"Ich bin schon weit draußen in diesem großen Ozean "
+   "geschwommen. Die Gerüchte über Meeresungeheuer sind Unsinn. Ich weiß "
+   "nicht, warum man heute nicht mehr über tiefe Gewässer fährt, aber ich "
+   "glaube nicht an Meeresungeheuer.\""
+fourcouncilor_random_010 = de \
+   "~kDrex sagt, \"Ich habe über 65 Winter erlebt. Das ist viel, mein "
+   "Freund. Man erlebt keine 65 Winter, wenn man sorglos mit seinem Körper "
+   "umgeht. Einige Leute, die nur halb so alt sind wie ich, sind nicht "
+   "annähernd in so guter Verfassung. Ha, denen zeig' ich's, jawohl!\""
+fourcouncilor_random_011 = de \
+   "~kDrex sagt, \"Ich interessiere mich besonders für das Artefakt "
+   "Dämonenschädel, denn es scheint sich besonders negativ auf die "
+   "Lebenskraft auszuwirken. Ich denke, das Monster, von dem es stammt, war "
+   "genau das Gegenteil vom Leben. Da ich das gesündeste Ratsmitglied bin, "
+   "ist es das Beste, wenn ich es im Auge behalte.\""
+fourcouncilor_random_012 = de \
+   "~kDrex sagt, \"Dieses alte Schloss hier ist das älteste Gebäude im Land. "
+   "Ich bin überrascht, dass es immer noch steht. Vielleicht verhindert der "
+   "Geist des alten Königs Far'Nohl, dass es zu Staub zerfällt.\""
+fourcouncilor_random_013 = de \
+   "~kDrex intoniert, \"Ohm... Ohm... Ohm... und jetzt alle zusammen... "
+   "Ohm... Ohm... Ohm...\""
+fourcouncilor_random_014 = de \
+   "~kDer üble Geruch des Verfalls kommt aus dem alten Schloss."
+fourcouncilor_random_015 = de \
+   "~kWährend Du vor dem alten Schloss stehst, überkommt Dich das "
+   "unangenehme Gefühl, dass die Menschheit nicht an diesen Ort zurückkehren "
+   "sollte."
+fourcouncilor_random_016 = de \
+   "~kAus dem dunklen Schloss ertönen unmenschliche Schreie."
+fourcouncilor_random_017 = de \
+   "~kAls Du vor dem riesigen, dunklen Gebäude stehst, überkommt Dich ein "
+   "unheimliches Gefühl."
+fourcouncilor_random_018 = de "~kDrex beginnt mit harten Leibesübungen."
+fourcouncilor_random_019 = de \
+   "~kDrex sagt, \"Einatmen... Ausatmen... Tief einatmen... Tief "
+   "ausatmen...\""
+fourcouncilor_random_020 = de \
+   "~kDrex sagt, \"Mein Körper ist mein Tempel. Wenn Du Dich nicht besser "
+   "ernährst, wird Dein Körper Deine Müllhalde sein.\""
+fourcouncilor_random_021 = de \
+   "~kDrex sagt, \"Was hast Du heute gegessen? Die beste Nahrung ist die "
+   "natürlichste Nahrung.\""
+fourcouncilor_random_022 = de \
+   "~kDrex sagt, \"Wenn Du so alt werden möchtest wie ich, dann solltest Du "
+   "Dich lieber gesünder ernähren und möglichst oft Körper und Geist "
+   "trainieren.\""
+fourcouncilor_random_023 = de \
+   "~kDrex sagt, \"Wie oft trainierst Du am Tag? Ich schätze, nicht oft "
+   "genug.\""
+fourcouncilor_random_024 = de \
+   "~kDrex sagt, \"Was macht es schon, wenn Du die Stadt wechselst, in der "
+   "Du lebst? Das einzig wahre Haus, das Du besitzt, ist Dein Körper - und "
+   "diese Adresse kannst Du nicht ändern.\""
+fourcouncilor_random_025 = de \
+   "~kDrex schließt die Augen, entspannt seinen Körper und fällt in eine "
+   "tiefe Trance."
+fourcouncilor_trigger_amulet = de "amulett"
+fourcouncilor_trigger_bye = de "ciao"
+fourcouncilor_trigger_council = de "ratsmitglied"
+fourcouncilor_trigger_duke = de "herzog"
+fourcouncilor_trigger_hello = de "hallo"
+fourcouncilor_trigger_hunter = de "jäger"
+fourcouncilor_trigger_hunter_sword = de "jägerschwert"
+fourcouncilor_trigger_hunter_sword_2 = de "jagdschwert"
+fourcouncilor_trigger_princess = de "prinzessin"
+fourcouncilor_trigger_token = de "artefakt"
+
+// OneCouncilor
+onecouncilor_speech_001 = de \
+   "~kAlzahakar sagt, \"Das Nekromantenamulett wird von jenen getragen, die "
+   "dem Lich direkt dienen. Sie sind ein Mund, mit dem sich der Lich "
+   "ernähren kann. Alle, die durch die Hand eines Nekromanten getötet "
+   "werden, stillen den Hunger des Lichs.\""
+onecouncilor_speech_002 = de \
+   "~kAlzahakar sagt, \"Barloque ist eine äußerst feine Stadt. In meiner "
+   "Anfangszeit als Zauberer wohnte ich innerhalb ihrer großen Mauern. Es "
+   "war teuer, doch meine magischen Fähigkeiten gaben mir die Mittel, um "
+   "dort zu leben.\""
+onecouncilor_speech_003 = de \
+   "~kAlzahakar sagt, \"Es sollte der größte Sitz der Kultur werden, den "
+   "Meridian je gekannt hat. Sie waren ein starkes, organisiertes Volk, das "
+   "an Selbstgerechtigkeit und Edelmut litt. Sehr gefährlich für eine "
+   "Stadt.\""
+onecouncilor_speech_004 = de \
+   "~kAlzahakar sagt, \"Mögen die Götter keine Veranlassung sehen, Dich zu "
+   "vernichten.\""
+onecouncilor_speech_005 = de \
+   "~kAlzahakar sagt, \"Wie viele Nächte brannte meine Kerze während des "
+   "Studiums an der Universität in Cor Noth ganz herunter? Die gelehrte "
+   "Atmosphäre war dem Erreichen höherer Bildung sehr förderlich.\""
+onecouncilor_speech_006 = de \
+   "~kAlzahakar sagt, \"Der König selbst hat mich, seinen ältesten Freund "
+   "und Verbündeten, dazu ernannt, das Oberhaupt des Rates der Fünf zu sein. "
+   "Zusammen werden wir die Geheimnisse der Artefakte aufdecken und sie "
+   "vielleicht dazu benutzen, das alte Meridian wiederherzustellen.\""
+onecouncilor_speech_007 = de \
+   "~kAlzahakar sagt, \"Ich bin hin- und hergerissen, wenn ich meine Stimme "
+   "abgebe. Akardius ist neu, aber recht fähig.\""
+onecouncilor_speech_008 = de \
+   "~kAlzahakar sagt, \"Die antike Verknüpfung der Macht verband dieses Land "
+   "mit dem früheren Reich. Vor langer Zeit riss die Verbindung und "
+   "vernichtete fast diese Welt. Die fünf Artefakte sind der magische "
+   "Schlüssel zur Wiederherstellung der Verbindung. Die theoretische neue "
+   "Verbindung muss jedoch nicht unbedingt wieder zurück ins alte Reich "
+   "führen. Wer kann schon sagen, was uns wirklich erwartet?\""
+onecouncilor_speech_009 = de \
+   "~kAlzahakar sagt, \"Die Zaubersprüche verschiedener Fachbereiche machen "
+   "es erforderlich, dass man sich einer gewissen moralischen Orientierung "
+   "unterordnet. Feys können von großem Nutzen sein, um diesen "
+   "Orientierungswechsel schnell durchzuführen. \""
+onecouncilor_speech_010 = de \
+   "~kAlzahakar sagt, \"Sei gegrüßt, mein kleiner Freund.\""
+onecouncilor_speech_011 = de \
+   "~kAlzahakar sagt, \"Sie sind Kinder des Magiers Tendrath. Ihre Schwerter "
+   "verleihen ihnen große Kräfte, aber fordern auch ein Opfer, welches "
+   "manchen brutal erscheint.\""
+onecouncilor_speech_012 = de \
+   "~kAlzahakar sagt, \"Die Jäger haben den Nekromanten und all jenen, die "
+   "das Blut der Unschuldigen vergießen, ewige Rache geschworen. Zu wissen, "
+   "dass Dir die Jäger auf den Fersen sind, heißt die Angst zu kennen.\""
+onecouncilor_speech_013 = de \
+   "~kAlzahakar sagt, \"Tendrath schmiedete die magischen Schwerter, um den "
+   "Lich zu töten. Die Schwerter wurden an den Lich verloren, als die "
+   "mutigsten Kämpfer auszogen, um Venya'cyr zu töten, selbst aber durch "
+   "ihre Kräfte starben. Die Schwerter sind wirkungsvoll gegen Nekromanten, "
+   "können aber den Lich nicht töten.\""
+onecouncilor_speech_014 = de \
+   "~kAlzahakar sagt, \"Jasper... hat Jonas nicht dorthin seine kleine "
+   "Rebellion geführt?\""
+onecouncilor_speech_015 = de \
+   "~kAlzahakar sagt, \"Ein missgebildeter Mann, dessen Missbildung seine "
+   "Königswürde stets fragwürdig machte. Er lebte in einer Zeit, in der die "
+   "Menschen glaubten, der König repräsentiere den Geist einer Nation. Sind "
+   "die Dinge heute so anders? Die Leute wollten keine Missbildung sehen.\""
+onecouncilor_speech_016 = de \
+   "~kAlzahakar sagt, \"Der Lich ist die verwandelte Seele der einstigen "
+   "Königin von Brax. Ihr Name war Venya'cyr. Sie wurde von den uralten "
+   "Kräften verführt. Sie benutzten Venya'cyrs edle Vorstellungen, um sie zu "
+   "verderben.\""
+onecouncilor_speech_017 = de \
+   "~kAlzahakar sagt, \"Ich glaube, Venya'cyr kann niemals sterben. Das ist "
+   "der Fluch. Je mehr sie diese uralten Kräfte benutzt, umso weniger "
+   "überlebt von der einst noblen Königin. Möglicherweise ist sie schon "
+   "völlig verdorben.\""
+onecouncilor_speech_018 = de \
+   "~kAlzahakar sagt, \"Marion erfreut sich des Schutzes der Göttin "
+   "Shal'ille. Es ist ein sehr friedvoller Ort, um zu studieren.\""
+onecouncilor_speech_019 = de \
+   "~kAlzahakar sagt, \"Ah, die schöne und kluge Prinzessin Kateriina. Eines "
+   "Tages wird sie eine wunderschöne Königin und eine mächtige Zauberin "
+   "sein. Sie ist weise genug, ihre Zeit in die Unterstützung der magischen "
+   "Künste zu investieren.\""
+onecouncilor_speech_020 = de \
+   "~kAlzahakar sagt, \"Ich weiß wenig von ihm. Seine Familie wurde durch "
+   "Venya'cyr ausgelöscht. Es wird gemunkelt, dass sein Geist noch immer "
+   "durch die Lande zieht.\""
+onecouncilor_speech_021 = de \
+   "~kAlzahakar sagt, \"Ich habe die Theorie, dass die Artefakte zusammen "
+   "ein mächtiges magisches Band bilden, welches erneut eine Verbindung "
+   "herstellen würde. Unser Problem ist, dass es uns nicht zu gelingen "
+   "scheint, sie lange genug zusammen an einem Platz zu halten, um die "
+   "richtigen Zaubersprüche und Experimente durchzuführen. Ich könnte das "
+   "noch weiter ausführen, wenn Du eine Erklärung wünschst.\""
+onecouncilor_speech_022 = de \
+   "~kAlzahakar sagt, \"Tos hat nichts, was für es spricht. Sogar der "
+   "Besitzer des Zauberladens ist eine Schande für die Welt.\""
+onecouncilor_speech_023 = de \
+   "~kAlzahakar sagt, \"Die junge Prinzessin hatte einen Bruder. Der Bruder "
+   "war der König von Brax. Er war körperlich missgebildet und über die "
+   "Jahre verlor er seine Stimme. Die junge Prinzessin wurde vom Volk "
+   "geliebt, und sie übte viele Pflichten aus, die eigentlich dem König "
+   "vorbehalten waren.\""
+onecouncilor_speech_024 = de \
+   "~kAlzahakar sagt, \"Einstmals ein Edelmann im Hause Brax, war er ein "
+   "Vetter der Prinzessin Venya'cyr. Er floh aus dem Reich nach Tos, als die "
+   "uralten Mächte, die Venya'cyr lenkten, ihn zum Rivalen um den Thron "
+   "erklärten.\""
+onecouncilor_speech_025 = de \
+   "~kAlzahakar sagt, \"Zarrus ist ein Vorfahre von König Zarcos. Zarrus war "
+   "ein Vetter von Venya'cyr. Man muss kein Genie sein, um zu erkennen, dass "
+   "der Lich einst die Blutlinie unseres Königs geteilt hat. Ich bin sicher, "
+   "sie hätte es gerne wieder so.\""
+onecouncilor_random_001 = de \
+   "~kAlzahakar sagt, \"Wir alle vom Rat forschen nach den Artefakten, damit "
+   "wir ihr Geheimnis entschlüsseln und ihre Macht nutzen können. Ich habe "
+   "ein paar Theorien darüber, wie man sie nutzen könnte.\""
+onecouncilor_random_002 = de \
+   "~kAlzahakar sagt, \"Es gibt viele offene magische Tore, die Gebiete "
+   "miteinander verbinden, die nicht beieinander und noch nicht einmal in "
+   "der gleichen Dimension liegen. Sogar von der Unterwelt weiß man, dass "
+   "sie diese Tore hat.\""
+onecouncilor_random_003 = de \
+   "~kAlzahakar sagt, \"Ich bin in der Tat ein Meister aller Magie. Doch das "
+   "Gleichgewicht, das ich halten muss, ist zu heikel für den gewöhnlichen "
+   "Zauberer. Du bist besser beraten, bei einer Schule zu bleiben. Wenn Dein "
+   "Geist von anderen Schulen umnebelt wird, solltest Du nach dem Trank des "
+   "Vergessens suchen.\""
+onecouncilor_random_004 = de \
+   "~kAlzahakar sagt, \"Nimm Dich in Acht vor dem Zauber Riijas, denn er hat "
+   "nur wenig Substanz. Außer natürlich, Du glaubst, dass er sie hat.\""
+onecouncilor_random_005 = de \
+   "~kAlzahakar sagt, \"Aller Zauber kommt zu uns direkt von den Göttern. "
+   "Ein Atheist ist hier in Meridian machtlos. Vielleicht sogar schlimmer "
+   "ist aber jemand, der versucht, allen Göttern gleichzeitig zu gefallen.\""
+onecouncilor_random_006 = de \
+   "~kAlzahakar sagt, \"Ich habe nicht die Zeit, Dir die Wege zu den "
+   "verschiedenen Tempeln zu zeigen, wenn es das ist, weshalb Du hier bist. "
+   "Besorge Dir einen Söldner, der Dich führt. Es gibt viele, die den Weg "
+   "kennen.\""
+onecouncilor_random_007 = de \
+   "~kAlzahakar sagt, \"Ich habe Theorien darüber entwickelt, wie die "
+   "Artefakte in dieser Dimension funktionieren und wie sie in Zukunft "
+   "genutzt werden können.\""
+onecouncilor_random_008 = de \
+   "~kAlzahakar sagt, \"Priesterinnen sind nicht die einzigen, die denen, "
+   "die lernwillig sind, Magie beibringen können.\""
+onecouncilor_random_009 = de \
+   "~kAlzahakar sagt, \"Viele Leute fragen sich, ob wir noch einen König "
+   "haben. Tatsächlich ist es so. Ich und ich allein spreche häufig mit ihm. "
+   "Seine Hoheit ist ... zu beschäftigt mit seinen Studien, als dass er noch "
+   "die Bürde von Gesellschaft oder Königreich tragen könnte.\""
+onecouncilor_random_010 = de \
+   "~kAlzahakar sagt, \"Ich kann nicht glauben, wie viele mindere Magier mit "
+   "dem Stolz eines echten Zauberers einhergehen. Ich bedauere sie, sollten "
+   "sie meinen Weg kreuzen.\""
+onecouncilor_random_011 = de \
+   "~kAlzahakar sagt, \"Ich pflege nicht viel Umgang mit den anderen "
+   "Mitgliedern des Rates. Sie sind nicht nach meinem Geschmack, außer "
+   "vielleicht Esseldi. Zumindest hat er genug Verstand, die magischen "
+   "Quellen ausfindig zu machen. Er hat auch ein paar interessante Theorien "
+   "über die Artefakte.\""
+onecouncilor_random_012 = de \
+   "~kAlzahakar sagt, \"Gib nichts auf diesen heruntergekommenen Zauberer "
+   "Maleval. Er ist ein Scharlatan, sonst nichts.\""
+onecouncilor_random_013 = de \
+   "~kMerkwürdigerweise scheint die Feuerstelle nicht so viel Wärme "
+   "abzugeben, wie man erwarten würde."
+onecouncilor_random_014 = de \
+   "~kAlzahakar führt eine geheimnisvolle Bewegung aus. Du bist Dir nicht "
+   "sicher, welchen Zauber er gerade gewirkt hat."
+onecouncilor_random_015 = de \
+   "~kAlzahakar sagt, \"Bitte, wärme Dich an meinem Feuer.\""
+onecouncilor_random_016 = de \
+   "~kAlzahakar sagt, \"Ich spüre ein friedvolles Kontinuum. Alles ist in "
+   "Ordnung.\""
+onecouncilor_random_017 = de \
+   "~kAlzahakar sagt, \"Shal'illes Zauber ist deutlich stärker als der der "
+   "anderen Götter.\""
+onecouncilor_random_018 = de \
+   "~kAlzahakar sagt, \"Wie friedlich die Welt scheint, wenn Du Dich völlig "
+   "der Göttin Shal'ille widmest.\""
+onecouncilor_random_019 = de \
+   "~kAlzahakar sagt, \"Der Geist Shal'illes ist bei uns. Ein höchst "
+   "beglückendes Ereignis.\""
+onecouncilor_random_020 = de \
+   "~kAlzahakar sagt, \"Unterschätze die rohe Macht von Faren nicht. Ich "
+   "habe viele schwächere Zauberer ihren eigenen Zaubersprüchen erliegen "
+   "sehen, wenn sie sie nicht sorgfältig ausführten.\""
+onecouncilor_random_021 = de \
+   "~kAlzahakar sagt, \"Kraanan ist nicht nur ein Gott der Krieger. Nein, "
+   "sein Zauber ist recht mächtig im direkten Kampf gegen andere "
+   "Zaubersprüche.\""
+onecouncilor_random_022 = de \
+   "~kAlzahakar sagt, \"Da ich alle Arten der Magie praktiziere, finde ich "
+   "die Feys vom Tal der Trauer besonders nützlich.\""
+onecouncilor_random_023 = de \
+   "~kAlzahakar sagt, \"Ich halte Qors Zauber für den mächtigsten, Du nicht "
+   "auch? Du solltest ihn beherrschen, ihre dunklen Schatten sind höchst "
+   "einladend.\""
+onecouncilor_random_024 = de \
+   "~kAlzahakar sagt, \"Es ist so einfach, Herrin Qor zu folgen. Ein wenig "
+   "Blutvergießen hier und dort, und schon kannst Du tief aus dem Kelch "
+   "ihrer Macht trinken!\""
+onecouncilor_random_025 = de \
+   "~kAlzahakar sagt, \"Ich spüre jetzt sehr stark die Mächte des Bösen. Ja, "
+   "diese wunderbare freudige Erregung, die mit der schwarzen Magie "
+   "einhergeht!\""
+onecouncilor_random_026 = de \
+   "~kAlzahakar sagt, \"Ich spüre, wie die dunklen Geister Qors unruhig "
+   "werden. Verlasse mein Haus, sonst lasse ich sie vielleicht frei!\""
+onecouncilor_random_027 = de \
+   "~kAlzahakar sagt, \"Ich habe ein paar sehr wichtige mystische "
+   "Forschungen zu betreiben. Ich bin sicher, dass Du die Tür allein finden "
+   "kannst!\""
+onecouncilor_trigger_amulet = de "amulett"
+onecouncilor_trigger_bye = de "ciao"
+onecouncilor_trigger_council = de "ratsmitglied"
+onecouncilor_trigger_duke = de "herzog"
+onecouncilor_trigger_explain = de "erklärung"
+onecouncilor_trigger_explain_2 = de "erkläre"
+onecouncilor_trigger_hello = de "hallo"
+onecouncilor_trigger_hunter = de "jäger"
+onecouncilor_trigger_hunter_sword = de "jagdschwert"
+onecouncilor_trigger_king_of_brax = de "könig von brax"
+onecouncilor_trigger_princess = de "prinzessin"
+onecouncilor_trigger_theory = de "theorie"
+
+// ThreeCouncilor
+threecouncilor_speech_001 = de \
+   "~kZylill sagt, \"Leute, die sich auf Magie wie diese verlassen, sind auf "
+   "eine Weise verwundbar, wie es das normale Volk nicht ist. Es würde "
+   "weiser sein, Nachforschungen über den Ursprung ihrer Kräfte "
+   "anzustellen.\""
+threecouncilor_speech_002 = de \
+   "~kZylill sagt, \"Barloque ist eine ziemlich gut verteidigte Stadt. Ihre "
+   "Mauern und ihr Burggraben bieten einen hervorragenden Schutz nach Süden, "
+   "den sie während der alten Kriege mit Tos auch brauchte. Aber ihre "
+   "Schwäche ist der nur schwach bewachte Nordstrand. Ein Trupp in kleinen "
+   "Booten könnte sie leicht umschiffen.\""
+threecouncilor_speech_003 = de \
+   "~kZylill sagt, \"Es sollte die größte Militärmacht der Welt werden. Die "
+   "Soldaten von Brax waren grimmige Kämpfer und ihre Generäle waren "
+   "geschulte Taktiker.\""
+threecouncilor_speech_004 = de "~kZylill sagt, \"Tschüss, Bursche!\""
+threecouncilor_speech_005 = de \
+   "~kZylill sagt, \"Ein behelfsmäßiger Wall umgibt Cor Noth. Die Stadt "
+   "verfügt kaum über nennenswertes Militär. Und ihre potentiellen Gegner "
+   "könnten sie vollkommen einkreisen. Sehr schlechter Entwurf, sage ich. "
+   "Sehr schlecht.\""
+threecouncilor_speech_006 = de \
+   "~kZylill sagt, \"Mein Sohn Cort ist der angesehene Meister der Arena. "
+   "Seine Mutter verhalf ihm zu dieser Position. Wenn es nach mir ginge, "
+   "würde er jetzt harten und ordentlichen Dienst in der Armee des Herzogs "
+   "schieben.\""
+threecouncilor_speech_007 = de \
+   "~kZylill sagt, \"Im wesentlichen besteht der Rat aus mir und vier "
+   "anderen munteren Burschen. Wir kümmern uns anstelle von König Zarcos um "
+   "das Königreich. Die meiste Zeit studieren meine Kollegen diese "
+   "mysteriösen Artefakte. Meine Aufgabe ist es, zu verhindern, dass sie in "
+   "falsche Hände geraten.\""
+threecouncilor_speech_008 = de \
+   "~kZylill sagt, \"Ich hoffe, dass Akardius die Truppen genauso gut führen "
+   "kann, wie Kalior es konnte.\""
+threecouncilor_speech_009 = de "~kZylill sagt, \"Hallo, Bursche!\""
+threecouncilor_speech_010 = de \
+   "~kZylill sagt, \"Ich fürchte Männer, die keinen sichtbaren Führer haben. "
+   "Sie können sich leicht erheben, und dann muss ich mich mit ihnen "
+   "herumschlagen. Ich fürchte sie nicht persönlich, weißt Du, ich fürchte "
+   "das Fehlen einer Führung oder eines Befehlshabers.\""
+threecouncilor_speech_011 = de \
+   "~kZylill sagt, \"Seit ich einmal einen Jäger in Aktion gesehen habe, bin "
+   "ich mir nicht sicher, ob es einen großen Unterschied zwischen den Jägern "
+   "und den Nekromanten gibt.\""
+threecouncilor_speech_012 = de \
+   "~kZylill sagt, \"Jasper hat eine gute natürliche Verteidigung. Es gibt "
+   "nur wenige, gut sichtbare Wege hinein und hinaus. Ein kleiner, aber gut "
+   "koordinierter Trupp könnte Angreifer zurückschlagen. Wenn ein Krieg "
+   "ausbrechen sollte, wäre Jasper vielleicht ~Ider~I Ort, an den man gehen "
+   "sollte.\""
+threecouncilor_speech_013 = de \
+   "~kZylill sagt, \"Es war eine angeblich mit uralter Magie erbaute "
+   "Festung. Der Besitzer dieser Festung war der Lich. Angeblich hatte die "
+   "Burg einen Irrgarten, der sogar die mächtigsten Kräfte davon abhalten "
+   "konnte, ihr Reich zu betreten. Natürlich hielt allein schon die Angst "
+   "vor der Urne die meisten Leute davon ab, es überhaupt nur zu versuchen.\""
+threecouncilor_speech_014 = de \
+   "~kZylill sagt, \"Marion hat die beste Verteidigung aller Städte, denn es "
+   "wird von einer Göttin beschützt! Was gibt es wohl Besseres als eine "
+   "Göttin, die die Feinde ihre Schwerter einstecken lässt. Ha.\""
+threecouncilor_speech_015 = de \
+   "~kZylill sagt, \"Qertina ist die Mutter von Cort. Sie hat mir recht viel "
+   "über unseren Herrn Kraanan und über die Frauen beigebracht. "
+   "Möglicherweise mehr über die Frauen, als ich mir gewünscht habe. Sie "
+   "lebt abgelegen in einem Tempel jenseits der Zerklüfteten Berge, was gut "
+   "für sie ist, und verdammt gut für mich.\""
+threecouncilor_speech_016 = de \
+   "~kZylill sagt, \"Die Prinzessin glaubt, dass ein talentierter Soldat "
+   "besser ist als ein starker Soldat. Eine ordentliche Logik, sage ich.\""
+threecouncilor_speech_017 = de \
+   "~kZylill sagt, \"Qertina ist die Mutter von Cort. Sie hat mir recht viel "
+   "über unseren Herrn Kraanan und über die Frauen beigebracht. "
+   "Möglicherweise mehr über die Frauen, als ich mir gewünscht habe. Sie "
+   "lebt abgelegen in einem Tempel jenseits der Zerklüfteten Berge, was gut "
+   "für sie ist, und verdammt gut für mich.\""
+threecouncilor_speech_018 = de \
+   "~kZylill sagt, \"Mein Sohn Cort ist der angesehene Meister der Arena. "
+   "Seine Mutter verhalf ihm zu dieser Position. Wenn es nach mir ginge, "
+   "würde er jetzt harten und ordentlichen Dienst in der Armee des Herzogs "
+   "schieben.\""
+threecouncilor_speech_019 = de \
+   "~kZylill sagt, \"Tendrath war ein schwacher Mann, der seine Kräfte dazu "
+   "nutzte, eine ganze Stadt zu zerstören.\""
+threecouncilor_speech_020 = de \
+   "~kZylill sagt, \"Der Schutz von Tos liegt in den fähigen Händen der "
+   "Ehrengarde. Das Grenzland bot während der Kriege mit Barloque "
+   "hervorragenden Schutz in Richtung Norden, aber heute kommen die Feinde "
+   "aus dem Süden. Es wäre interessant zu sehen, ob Tos einer schweren "
+   "Belagerung widerstehen könnte.\""
+threecouncilor_speech_021 = de \
+   "~kZylill sagt, \"Die Urne war die ursprüngliche Quelle der Kräfte des "
+   "Lichs. Durch die Kräfte dieser Urne wurde die Königin Venya'cyr "
+   "verdorben.\""
+threecouncilor_speech_022 = de \
+   "~kZylill sagt, \"Sie war die Schwester eines unfähigen Königs, den sein "
+   "gesamtes Volk verachtete. Er war schwachen Geistes, ohne jede Erfahrung "
+   "in der Schlacht, und verfügte weder über Wissen in Diplomatie noch über "
+   "Talent in der Kriegsführung.\""
+threecouncilor_speech_023 = de \
+   "~kZylill sagt, \"Mein Sohn Cort ist der angesehene Meister der Arena. "
+   "Seine Mutter verhalf ihm zu dieser Position. Wenn es nach mir ginge, "
+   "würde er jetzt harten und ordentlichen Dienst in der Armee des Herzogs "
+   "schieben.\""
+threecouncilor_speech_024 = de \
+   "~kZylill sagt, \"Ich kenne diesen Mann nicht.\""
+threecouncilor_random_001 = de \
+   "~kZylill sagt, \"Wenn Du wirklich was über die Monster da draußen "
+   "herausfinden willst, dann solltest Du Roluk aufsuchen. Der Kerl kennt "
+   "sich aus.\""
+threecouncilor_random_002 = de \
+   "~kZylill sagt, \"Ein Krieger, der etwas taugen soll, muss Kampfesnarben "
+   "aufweisen. Ich würde meine Burg niemandem anvertrauen, der nicht die "
+   "eine oder andere ordentliche Tracht Prügel überstanden hat.\""
+threecouncilor_random_003 = de \
+   "~kZylill sagt, \"Denke immer daran, dass eine Armee oder auch nur eine "
+   "Truppe von Männern mächtiger als ein einzelner Soldat ist.\""
+threecouncilor_random_004 = de \
+   "~kZylill sagt, \"Halte doch mal Ausschau nach diesen verdammten "
+   "Artefakten, ja? Ich bin für ihre Sicherheit verantwortlich. Sie sind "
+   "immerhin offizielles Eigentum des Rates.\""
+threecouncilor_random_005 = de \
+   "~kZylill sagt, \"Habe ich Dir jemals von meiner Außenseiter-Strategie in "
+   "der Schlacht von Ukgoth erzählt? Die Bösewichte, oder die Trolle, wenn "
+   "man so will, hatten uns umzingelt. Wir waren dreißig Mann mit "
+   "Verwundeten, sie waren sechzig oder mehr. Ich ließ meine Männer eine "
+   "kreuzförmige Verteidigungsformation einnehmen, während unsere fünf "
+   "Besten ihrem Anführer in die Flanke fielen. Alles in allem eine blutige "
+   "Sauerei.\""
+threecouncilor_random_006 = de \
+   "~kZylill sagt, \"Während meiner zweiten Dienstzeit mussten meine Männer "
+   "und ich einen kleinen Kult von Qor ausheben, der wahllos unsere "
+   "Zivilisten tötete. Diese Kerle hatten sich mit ihrer verdammten Magie so "
+   "tief in die Zerklüfteten Berge eingegraben, dass wir fast fünf Monate "
+   "gebraucht haben, um ihnen das zu geben, was sie verdienten.\""
+threecouncilor_random_007 = de \
+   "~kZylill sagt, \"Wenn ich zurückdenke, ist mir der erste Troll bei "
+   "unseren militärischen Übungen am Druidenhügel begegnet. Einige Männer "
+   "brachen aus der Formation, andere flohen. Ich nicht. Ich kämpfte neben "
+   "meinem Sergeant, bis das verdammte Biest fiel. Von diesem Moment an "
+   "wusste ich, dass ich zum Kommandieren geboren war!\""
+threecouncilor_random_008 = de \
+   "~kZylill sagt, \"Ich erinnere mich daran, als ich zum Hauptmann in der "
+   "Ehrengarde des Herzogs befördert wurde. In Jasper war eine kleine "
+   "Revolution ausgebrochen. Das war etwa zur Zeit des Streiks der "
+   "Minenarbeiter. Der ganze Ort war ein blutiges Chaos. Die Streikbrecher "
+   "gingen wieder in die Minen, und überall gab es Ausschreitungen.\""
+threecouncilor_random_009 = de \
+   "~kZylill sagt, \"Nun ja, wenn ich die orangen Fußsoldaten um den Fluss "
+   "herum nach Norden verlegt hätte... das hätte vielleicht einige retten "
+   "können... aber andererseits brauchten wir auch Truppen zurück für die... "
+   "Was? He? Bist Du noch da?\""
+threecouncilor_random_010 = de \
+   "~kZylill sagt, \"Du bist nicht zufällig über Tos gekommen, oder? Wie "
+   "geht es meinem Sohn dort?\""
+threecouncilor_random_011 = de "~kZylill sagt, \"Stell Dich gerade hin.\""
+threecouncilor_random_012 = de \
+   "~kDer angenehme Duft von Himbeeren erfüllt die Luft in der Nähe der "
+   "Quelle des Flusses."
+threecouncilor_random_013 = de \
+   "~kZylill läuft hin und her und murmelt etwas von einem längst "
+   "vergangenen Krieg."
+threecouncilor_random_014 = de \
+   "~kZylill sagt, \"Das war heute ein mächtig feiner Tag, oder?\""
+threecouncilor_trigger_amulet = de "amulett"
+threecouncilor_trigger_bye = de "ciao"
+threecouncilor_trigger_council = de "ratsmitglied"
+threecouncilor_trigger_duke = de "herzog"
+threecouncilor_trigger_hello = de "hallo"
+threecouncilor_trigger_hunter = de "jäger"
+threecouncilor_trigger_hunter_sword = de "jagdschwert"
+threecouncilor_trigger_mother = de "mutter"
+threecouncilor_trigger_princess = de "prinzessin"
+threecouncilor_trigger_qerti_nya = de "qertina"
+threecouncilor_trigger_qertina = de "qerti'nya"
+threecouncilor_trigger_son = de "sohn"
+threecouncilor_trigger_urn = de "urne"
+threecouncilor_trigger_watcher = de "meister der arena"
+threecouncilor_trigger_watcher_2 = de "arenameister"
+
+// TwoCouncilor
+twocouncilor_speech_001 = de \
+   "~kBei Naq sagt, \"Ich bin sehr daran interessiert, eines dieser Amulette "
+   "zu besitzen. Ich bin sicher, sie sind unbezahlbar.\""
+twocouncilor_speech_002 = de \
+   "~kBei Naq sagt, \"Barloque ist die reichste Stadt der Welt und das ist "
+   "der Grund, warum ich sie respektiere.\""
+twocouncilor_speech_003 = de \
+   "~kBei Naq sagt, \"Eine verlorene Stadt, deren Schätze, sollten sie "
+   "gefunden werden, sehr profitabel für denjenigen sein könnten, der sie "
+   "entdeckt.\""
+twocouncilor_speech_004 = de "~kBei Naq sagt, \"Dann verschwinde.\""
+twocouncilor_speech_005 = de \
+   "~kBei Naq sagt, \"Cor Noth hat seinen Wert. Es liegt ungefähr zwischen "
+   "der Prinzessin und dem Herzog. Das Gasthaus ist gerade noch akzeptabel "
+   "als Ort, an dem man eine Nacht verbringt.\""
+twocouncilor_speech_006 = de \
+   "~kBei Naq sagt, \"König Zarcos hat mich und die anderen vier mit der "
+   "Staatsführung beauftragt, bis sein Nachfolger gewählt ist. Unsere "
+   "Aufgabe ist es, die unbezahlbaren Artefakte zu studieren.\""
+twocouncilor_speech_007 = de \
+   "~kBei Naq sagt, \"Gelegentlich unterstütze ich ihn. Eigentlich "
+   "unterstütze ich ihn im Allgemeinen. Die Prinzessin bringt mir allerdings "
+   "oft mein juwelenbesetztes Artefakt zurück, also unterstütze ich manchmal "
+   "auch sie.\""
+twocouncilor_speech_008 = de "~kBei Naq sagt, \"Ja? Warum bist Du hier?\""
+twocouncilor_speech_009 = de \
+   "~kBei Naq sagt, \"Ich bin eines der fünf Ratsmitglieder.\""
+twocouncilor_speech_010 = de \
+   "~kBei Naq sagt, \"Ich weiß nichts über diese heimatlosen Fanatiker.\""
+twocouncilor_speech_011 = de \
+   "~kBei Naq sagt, \"Liebend gerne würde ich so ein Schwert mein Eigen "
+   "nennen. Sicherlich würde so ein Glück nicht kostenlos sein.\""
+twocouncilor_speech_012 = de \
+   "~kBei Naq sagt, \"Zur Hölle mit Jasper! Ein großer Teil meines Reichtums "
+   "entstand durch Jaspers Minen, doch jetzt sind sie alle versiegt. Die "
+   "Stadt sollte geschlossen werden.\""
+twocouncilor_speech_013 = de \
+   "~kBei Naq sagt, \"Sehe ich wie ein Historiker aus? Ich bin ein einfacher "
+   "Mann, frag mich nicht solche Dinge.\""
+twocouncilor_speech_014 = de \
+   "~kBei Naq sagt, \"Niemand in Marion hat Geld. Ich sag's Dir - die Stadt "
+   "ist meiner Beachtung nicht wert.\""
+twocouncilor_speech_015 = de \
+   "~kBei Naq sagt, \"Es heißt, dass er ein meisterhafter Unterhändler war, "
+   "der stets seine Objektivität bewahrte. Er war ein Diplomat, den man "
+   "anheuern konnte und der ein Gespür dafür hatte, Spannungen abzubauen und "
+   "Reichtum anzuhäufen. Eine wirkungsvolle Kombination, findest Du nicht?\""
+twocouncilor_speech_016 = de \
+   "~kBei Naq sagt, \"Prinzessin Kateriina kommt aus einer sehr reichen "
+   "Familie. Das respektiere ich.\""
+twocouncilor_speech_017 = de "~kBei Naq sagt, \"Wer?\""
+twocouncilor_speech_018 = de \
+   "~kBei Naq sagt, \"Jedes Artefakt ist aus dem absolut feinsten Material "
+   "gemacht, so gut sogar, dass ich nicht glaube, dass sie von Menschenhand "
+   "geschaffen wurden. Ich vermute, dass sie von Göttern in einem Reich "
+   "jenseits von Meridian hergestellt wurden. Jedes Artefakt steht "
+   "wahrscheinlich für ein anderes Wesen von immenser Macht.\""
+twocouncilor_speech_019 = de \
+   "~kBei Naq sagt, \"Alter bedeutet nicht immer mehr Wert. Tos zum Beispiel "
+   "scheint jedes Jahr an Wert abzunehmen.\""
+twocouncilor_speech_020 = de \
+   "~kBei Naq sagt, \"Man sagt den Eiern der Spinnenkönigin einen gewissen "
+   "Wert als Aphrodisiakum nach.\""
+twocouncilor_speech_021 = de \
+   "~kBei Naq sagt, \"Ich habe den Namen schon gehört, aber ich kann mich an "
+   "nichts über diese Person erinnern.\""
+twocouncilor_speech_022 = de \
+   "~kBei Naq sagt, \"Ein Vorfahre von Zarcos. Er begann, das Vermögen "
+   "aufzubauen, das später seine Familie an die Macht brachte. Ich "
+   "respektiere seine Zähigkeit genauso wie seine Methoden.\""
+twocouncilor_random_001 = de \
+   "~kBei Naq sagt, \"Es ist tragisch, wie häufig wir die Artefakte aus den "
+   "Augen verlieren. Schlicht gesagt, sie sind unbezahlbar. Ich habe da "
+   "allerdings meine eigenen Theorien, warum sie so wertvoll sind.\""
+twocouncilor_random_002 = de \
+   "~kBei Naq sagt, \"Ich habe gehört, dass es eine neue Spinnenkönigin "
+   "gibt. Gerne würde ich ihre Eier in die Finger bekommen. Sie haben einen "
+   "gewissen ... Wert.\""
+twocouncilor_random_003 = de \
+   "~kBei Naq sagt, \"Der sicherste Ort für Dein Geld ist auf einer Bank. "
+   "Außer Du hast wie ich eine versteckte Edelsteinmine, um Dein Vermögen zu "
+   "verstauen.\""
+twocouncilor_random_004 = de \
+   "~kBei Naq sagt, \"Wenn man nur lange genug sucht, kann man für fast "
+   "alles einen Käufer finden.\""
+twocouncilor_random_005 = de \
+   "~kBei Naq sagt, \"Mir ist die Legende von einem gewaltigen Edelstein zu "
+   "Ohren gekommen, den ein längst verstorbener Alchimist geschaffen und in "
+   "der Nähe irgendeines unterirdischen Sees vergraben hat.\""
+twocouncilor_random_006 = de \
+   "~kBei Naq sagt, \"Diese abstoßenden Trolle werden häufig von glänzenden "
+   "Gegenständen wie Edelsteinen angezogen. Ich vermute, dass sie über die "
+   "Jahre eine ganze Menge Reichtümer angehäuft haben.\""
+twocouncilor_random_007 = de \
+   "~kBei Naq sagt, \"Einen guten Platz, um Deine Reichtümer zu verstauen, "
+   "bietet Dir der Lagermeister von Barloque.\""
+twocouncilor_random_008 = de \
+   "~kBei Naq sagt, \"Der Justiziar in Barloque hält Gericht über Mörder. "
+   "Pah, wir haben mehr Probleme mit Dieben. Der Justiziar sollte diese "
+   "Fälle ebenfalls verhandeln.\""
+twocouncilor_random_009 = de \
+   "~kBei Naq sagt, \"Diebe, überall Diebe. Ich kann diese elenden Wichte "
+   "nicht ertragen.\""
+twocouncilor_random_010 = de \
+   "~kBei Naq sagt, \"Komm mir nicht zu nahe. Und halte Deine Hände so, dass "
+   "ich sie die ganze Zeit sehen kann.\""
+twocouncilor_random_011 = de "~kBei Naq sagt, \"Nun, was willst Du?\""
+twocouncilor_random_012 = de \
+   "~kBei Naq sagt, \"Du solltest Deinen Reichtum an Münzen oder Artefakten "
+   "nicht auf einem Haufen bei Dir zu Hause sammeln. Es gibt bessere Orte, "
+   "um Deine Macht zu horten.\""
+twocouncilor_random_013 = de \
+   "~kBei Naq sagt, \"Oben in Barloque spiele ich oft und gern mit ein paar "
+   "Freunden eine gute Partie Feudalherren. Meidei hat die Karten hinter "
+   "seiner Theke.\""
+twocouncilor_random_014 = de \
+   "~kBei Naq sagt, \"Wer hat Dich hergeschickt? Was willst Du? Mein Gold, "
+   "wette ich. Nun, Du wirst es nicht bekommen!\""
+twocouncilor_random_015 = de \
+   "~kBei Naq sagt, \"Du siehst wie ein Dieb aus, der gekommen ist, um meine "
+   "Schätze zu stehlen. Nun, Du wirst sie nicht bekommen, sag ich Dir. Ganz "
+   "sicher nicht!\""
+twocouncilor_random_016 = de \
+   "~kBei Naq sagt, \"Denk nicht einmal daran, mich auszurauben. Ich brauch "
+   "nur mit den Fingern zu schnipsen und meine persönliche Wache wird Dir "
+   "das spitze Ende ihrer Schwerter zeigen.\""
+twocouncilor_trigger_amulet = de "amulett"
+twocouncilor_trigger_bye = de "ciao"
+twocouncilor_trigger_council = de "ratsmitglied"
+twocouncilor_trigger_duke = de "herzog"
+twocouncilor_trigger_hello = de "hallo"
+twocouncilor_trigger_help = de "hilfe"
+twocouncilor_trigger_hunter = de "jäger"
+twocouncilor_trigger_hunter_sword = de "jägerschwert"
+twocouncilor_trigger_hunter_sword_2 = de "jagdschwert"
+twocouncilor_trigger_methods = de "methode"
+twocouncilor_trigger_princess = de "prinzessin"
+twocouncilor_trigger_theories = de "theorie"
+twocouncilor_trigger_value = de "wert"

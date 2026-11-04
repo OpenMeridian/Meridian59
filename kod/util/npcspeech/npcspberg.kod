@@ -1,0 +1,440 @@
+// Meridian 59, Copyright 1994-2012 Andrew Kirmse and Chris Kirmse.
+// All rights reserved.
+//
+// This software is distributed under a license that is described in
+// the LICENSE file that accompanies it.
+//
+// Meridian is a registered trademark.
+
+
+////////////////////////////////////////////////////////////////////////////////
+NpcSpeechBerg is NpcSpeech
+// NPC talk of Bergen (East):
+// answers to trigger words and random lines.
+// Each line is a resource (EN here, DE in the .lkod); Library adds the
+// lists in CreateSpeechLibrary and CreateRandomLibrary.
+
+constants:
+
+   include blakston.khd
+
+resources:
+
+   include npcspberg.lkod
+
+   // BergAucM (Harold d'Adue)
+   bergaucm_random_001 = \
+      "~kHarold d'Adue is busy updating the auction ledger with quill and "
+      "ink, so absorbed in his work that he doesn't notice you at first."
+   bergaucm_random_002 = \
+      "~kHarold d'Adue speaks in a low but serious voice, \"If you cannot "
+      "find what you're looking for, you can store all your coin in the "
+      "bank, with my son Michael d'Adue.  He will take good care of your "
+      "assets, I promise you!\""
+   bergaucm_random_003 = \
+      "~kHarold d'Adue straightens up and says, \"I'm not only Berg's royal "
+      "auctioneer, but also the King's Treasurer. Now you know who you're "
+      "speaking to. And who are you?\""
+   bergaucm_random_004 = \
+      "~kHarold d'Adue snorts, \"Pah!  Liam again!  He keeps spreading lies "
+      "about me, just because he can't manage his own vault and envies my "
+      "success.  If this keeps up, I'll have to speak to the King.\""
+   bergaucm_random_005 = \
+      "~kHarold d'Adue says, \"If Liam Magnus has convinced you to store "
+      "your belongings with him, consider selling them here instead.  "
+      "Otherwise, that fool might lose half your things.  Think it over.\""
+   bergaucm_random_006 = \
+      "~kHarold d'Adue says, \"Step closer and browse the fine goods in this "
+      "unique auction house.  You are most welcome!\""
+   bergaucm_random_007 = \
+      "~kHarold d'Adue says, \"Would you like to sell something at the "
+      "auction? I'm sure we can come to an agreement. What do you say? Show "
+      "me what you have.\""
+   bergaucm_random_008 = \
+      "~kAs you look around, Harold d'Adue adds firewood to the fireplace, "
+      "then warms his hands by the fire."
+   bergaucm_random_009 = \
+      "~kHarold d'Adue says, \"Some say I'm very skilled with numbers, but "
+      "really it's no witchcraft. And if things don't add up now and then, "
+      "well... I always find a satisfactory solution.\""
+
+   // BergBanker (Michael d'Adue)
+   bergbanker_random_001 = \
+      "~kMichael d'Adue counts the coins in his purse, his eyes seeming to "
+      "sparkle more with each jingle."
+   bergbanker_random_002 = \
+      "~kMichael d'Adue says, \"Coins make a wonderful sound when shaken in "
+      "a bag.  Don't you agree?\""
+   bergbanker_random_003 = \
+      "~kMichael d'Adue says, \"Greetings! Do you have coins you'd like to "
+      "keep safe?  Then you've come to the right place!\""
+   bergbanker_random_004 = \
+      "~kMichael d'Adue says with relief, \"Thanks to my father, I now run "
+      "this bank and don't have to fight monsters in the dark forest with "
+      "the King's troops.\""
+   bergbanker_random_005 = \
+      "~kMichael d'Adue says, \"Roderick Merk, our blacksmith, is a bad "
+      "influence on my father.  Hopefully he'll leave Berg soon, just like "
+      "he had to leave Jixa!\""
+   bergbanker_random_006 = \
+      "~kMichael d'Adue says, \"Do me a favor: buy your weapons and armor "
+      "from my father, the auctioneer of Berg, not from that awful "
+      "Roderick.\""
+   bergbanker_random_007 = \
+      "~kMichael d'Adue tells you, \"If people here knew what I know about "
+      "Roderick, he'd be forced to leave Berg.  But since my father protects "
+      "him, all I have left are my coins.\""
+   bergbanker_random_008 = \
+      "~kMichael d'Adue says, \"Should you visit our blacksmith, Roderick "
+      "Merk, remind him to pay me his monthly dues right away. Thank you!\""
+   bergbanker_random_009 = \
+      "~kMichael d'Adue says, \"It's great to see you. Would you like to "
+      "deposit more coins? They're perfectly safe here - there's no better "
+      "place.  You have my word!\""
+
+   // BergBlacksmith (Roderick Merk)
+   bergblacksmith_random_001 = \
+      "~kAs you enter the forge, Roderick Merk is singing a beautiful, "
+      "unfamiliar tune.  He stops abruptly when he notices you."
+   bergblacksmith_random_002 = \
+      "~kRoderick Merk says, \"Forgive my singing. The heat of the forge "
+      "lifts my spirits and reminds me of an old friend.\""
+   bergblacksmith_random_003 = \
+      "~kAs you query Roderick Merk on his past, a small tear rolls down his "
+      "cheek, which he quickly wipes away with his filthy hand and then "
+      "wordlessly continues with his work.  This time, however, very focused "
+      "and without singing."
+   bergblacksmith_random_004 = \
+      "~kRoderick Merk sits down for a moment and begins to reminisce: \"You "
+      "know, I sometimes miss Jixa.  But the Innkeeper there and I... well, "
+      "it just did not work out.  If you know what I mean?\""
+   bergblacksmith_random_005 = \
+      "~kRoderick Merk says, \"Did you know that the Innkeeper in Jixa is "
+      "the secret leader of a thieves' guild?  But that does not seem to "
+      "interest anyone there and here.\""
+   bergblacksmith_random_006 = \
+      "~kRoderick Merk whispers, \"Psst!  Do you know the blacksmith from "
+      "Jixa?  Perhaps you've come from there and know how he fares?  I miss "
+      "him dearly, but I had to leave.\""
+   bergblacksmith_random_007 = "~kRoderick Merk sighs and continues his work."
+   bergblacksmith_random_008 = \
+      "~kRoderick Merk sings a stanza of a song unknown to you and then "
+      "remarks, \"Maybe I would've become one of the greatest bards this "
+      "world has ever seen.  But they had no understanding for my unusual "
+      "love, and so I had to take leave of the temple of Jala.  But better "
+      "keep that to yourself.\""
+   bergblacksmith_random_009 = \
+      "~kRoderick Merk says, \"Do you know Harold d'Adue, our auctioneer of "
+      "Berg?  Harold is a good human.  He has taken care of me a lot and "
+      "always has an open ear for me.  Without him, I would certainly have "
+      "the same troubles here as I had in Jixa.\""
+   bergblacksmith_random_010 = \
+      "~kRoderick Merk says, \"Hello!  May I forge a weapon or some armor "
+      "for you?\""
+   bergblacksmith_random_011 = \
+      "~kRoderick Merk says, \"You look like someone who has had a long and "
+      "difficult journey.  Maybe even longer and harder than mine was.  How "
+      "can I serve you?\""
+   bergblacksmith_random_012 = \
+      "~kRoderick Merk says, \"If you can't find what you need, visit my "
+      "friend Harold at the auction house. He might be able to help.\""
+   bergblacksmith_random_013 = \
+      "~kRoderick Merk says, \"Did Michael send you?  He keeps asking coins "
+      "of me so he'll not tell why I had to leave Jixa.  That wretched "
+      "scoundrel!\""
+
+   // BergInnkeeper (Bastiane d'Ile)
+   berginnkeeper_random_001 = \
+      "~kBastiane d'Ile is having one of those days, and has drunk more than "
+      "he can handle.  Yet he stands perfectly straight before you and pours "
+      "a drink without spilling a drop.  Truly impressive!"
+   berginnkeeper_random_002 = \
+      "~kBastiane d'Ile drunkenly asks, \"D-did my si-sish-sister send you?  "
+      "She keeps accusing me of d-drinking <hick> too m-much! But that's "
+      "p-perfect nonsshhense!\""
+   berginnkeeper_random_003 = \
+      "~kBastiane d'Ile, clearly drunk, says, \"Hee-hee!  You're talking to "
+      "Lord Bastiane d'Ile, poor nobility, at your service!  You know, "
+      "<smacks himself> I've accepted my fate, but my sister still dreams of "
+      "Barloque. <Sighs> Oh, never mind!\""
+   berginnkeeper_random_004 = \
+      "~kBastiane d'Ile speaks tipsily but cheerfully, \"Ahoy! Want a drink? "
+      " I've got beer, liquor, and cheese!  Hee-hee!  Everything tastes "
+      "delicious!\""
+   berginnkeeper_random_005 = \
+      "~kBastiane d'Ile carefully cleans and polishes his glasses as you "
+      "enter the Inn.  Between each glass, he pours himself a drink and "
+      "giggles contentedly."
+   berginnkeeper_random_006 = \
+      "~kA pleasant warmth from the fireplace fills the Inn, making you feel "
+      "quite thirsty after a short while."
+   berginnkeeper_random_007 = \
+      "~kBastiane d'Ile, drunk as a lord, slurs at you, \"C-come, schit down "
+      "and d-drink schomething before your m-mouth driesh up! I'll g-gladly "
+      "make it a l-little warmer in here for you, should you be "
+      "fr-fr-freezing.\""
+   berginnkeeper_random_008 = \
+      "~kBastiane d'Ile laughs, \"Believe me, I miss all the luxuries our "
+      "family once had.  If I didn't have to work, <hick> I wouldn't!  Damn "
+      "it!\""
+   berginnkeeper_random_009 = \
+      "~kBastiane d'Ile stammers drunkenly, \"W-What do you think, who "
+      "stands before you, huh?!  I don't really belong here.  After all, I "
+      "wasn't just anyone, I was Bastiane d'Ile!\""
+
+   // BergLeaderM (King Aaron Leone)
+   bergleaderm_random_001 = \
+      "~kKing Aaron Leone sighs, \"One day I may leave this world without an "
+      "heir, for my beloved wife can no longer bear children. If only Jala "
+      "could grant us a miracle.\""
+   bergleaderm_random_002 = \
+      "~kKing Aaron Leone smiles warmly, \"Though I have no son to inherit "
+      "my throne, my beloved wife and I have been blessed with three "
+      "wonderful daughters.\""
+   bergleaderm_random_003 = \
+      "~kKing Aaron Leone looks sad and says, \"My advisors have urged me to "
+      "father a bastard, but they do not understand how deeply I love my "
+      "wife.  I could never betray her.\""
+   bergleaderm_random_004 = \
+      "~kKing Aaron Leone says, \"For the safety of Berg and its "
+      "inhabitants!  Always remember that when you leave our gates to fight "
+      "the monsters that threaten our city.\""
+   bergleaderm_random_005 = \
+      "~kKing Aaron Leone speaks softly, \"There is much that troubles me.  "
+      "Sometimes I wish I had someone to confide in. Perhaps you would "
+      "listen?\""
+   bergleaderm_random_006 = \
+      "~kKing Aaron Leone says, \"Do you know Harold d'Adue?  He's my "
+      "treasurer and takes good care of our auction house in Berg.  If you "
+      "need something specific, just ask him.\""
+   bergleaderm_random_007 = \
+      "~kKing Aaron Leone scratches his head, looking at you with a worried "
+      "expression."
+   bergleaderm_random_008 = \
+      "~kAt times, King Aaron Leone seems lost in thought, mumbling to "
+      "himself and gesturing absently with his scepter."
+   bergleaderm_random_009 = \
+      "~kAs you enter, one of the King's advisors quickly slips out, as if "
+      "in a hurry."
+
+   // BergMerchant (Luisane d'Ile)
+   bergmerchant_random_001 = \
+      "~kLuisane d'Ile says, \"If you visit my brother Bastiane at the Inn, "
+      "please give him my regards.  I have so much work here that I rarely "
+      "see him.\""
+   bergmerchant_random_002 = \
+      "~kLuisane d'Ile reaches under her table for some herbs, grinds them "
+      "in a small mortar, and brews tea from the powder.  She sips her tea "
+      "and watches you."
+   bergmerchant_random_003 = \
+      "~kLuisane d'Ile mixes exotic herbs and stuffs them into a hookah.  "
+      "When she lights them and exhales, a fruity, fresh scent fills the "
+      "cave, making you feel relaxed."
+   bergmerchant_random_004 = \
+      "~kLuisane d'Ile says, \"Are you one of those Jala Bards who need "
+      "exotic herbs, or are you looking for something else?\""
+   bergmerchant_random_005 = \
+      "~kLuisane d'Ile says, \"Only through my hard work can my brother and "
+      "I enjoy this life.  Sadly, jealous people forget or don't realize "
+      "that.\""
+   bergmerchant_random_006 = \
+      "~kLuisane d'Ile says, \"Hello! Take a look at these fine herbs and "
+      "mushrooms from the area.  Maybe you'll find something useful for your "
+      "magic.\""
+   bergmerchant_random_007 = \
+      "~kLuisane d'Ile says, \"Have you found any interesting herbs, "
+      "mushrooms, roots, or anything like that on your travels you'd like to "
+      "sell? I'll pay a fair price.\""
+   bergmerchant_random_008 = \
+      "~kLuisane d'Ile says, \"If my brother worked as hard as I do, our "
+      "family would be better off.  We once belonged to Berg's nobility, but "
+      "the drink changed him.\""
+   bergmerchant_random_009 = \
+      "~kLuisane d'Ile says, \"Have you ever been to Barloque?  Our "
+      "ancestors lived there, but my brother and I have never seen that "
+      "magnificent city.  The magical barrier kept us away.\""
+   bergmerchant_random_010 = \
+      "~kLuisane d'Ile says, \"I wish my brother Bastiane would stop "
+      "drinking, but since he started running the Inn, it's only gotten "
+      "worse. So I alone have to make sure our family has enough to live "
+      "on.\""
+   bergmerchant_random_011 = \
+      "~kLuisane d'Ile straightens her elegant dress and strokes her hair.  "
+      "She looks like a noble lady, yet she sells herbs in a dimly lit cave "
+      "shop."
+   bergmerchant_random_012 = \
+      "~kLuisane d'Ile says, \"One day, our family will return to Barloque "
+      "and reclaim our rightful place.  Until then, I have much work to do.  "
+      "It would be easier if my brother helped, but he'd rather waste his "
+      "time with beer and liquor.\""
+
+   // BergVaultman (Liam Magnus)
+   bergvaultman_random_001 = \
+      "~kLiam Magnus says, \"This Harold fellow and his son hold quite a bit "
+      "'v sway over our king and I'm not sure that's in Berg's best "
+      "interest.  But let's talk business:  What is it ye want to deposit?\""
+   bergvaultman_random_002 = \
+      "~kLiam Magnus is caught in a violent coughing fit as smoke billows "
+      "from the chimney. Leaning heavily on his cane, he mutters a few "
+      "inaudible curses."
+   bergvaultman_random_003 = \
+      "~kLiam Magnus says, \"Well met!  Are ye visitin' from tha Western "
+      "Kingdom?  I've been told that ye Westerners've got a similar vault in "
+      "the royal city 'v Barloque?  It's probably nowhere near as big and "
+      "professionally maintained as mine, don't ye agree?  Anyway, would ye "
+      "like ta keep a few things here?\""
+   bergvaultman_random_004 = \
+      "~kLiam Magnus says, \"Are ye familiar with the auction house around "
+      "here?  Well, I'm sure it'd be runnin' more smoothly if I were "
+      "responsible fer it, but I guess our king has his reasons fer trustin' "
+      "the current manager...  Oh well, back to business:  Leave yer "
+      "valuables with me and I'll keep'em safe fer ye fer a small fee.  How "
+      "about it?\""
+   bergvaultman_random_005 = \
+      "~kLiam Magnus adds more firewood to the chimney, keeping his vault "
+      "nice and toasty."
+   bergvaultman_random_006 = \
+      "~kLiam Magnus says, \"Ye won't receive this amazin' offer anywhere "
+      "else:  Enjoy Liam Magnus' trusted super saver secure storage service "
+      "and make some room in yer backpack at an unbelievably low price!  Ye "
+      "know ye want ta!\""
+   bergvaultman_random_007 = \
+      "~kLiam Magnus says, \"Hey, ye over there!  Wouldn't ye like ta make "
+      "some room fer more loot?  Ye look like ye couldn't even fit another "
+      "roobeh!  Come on over and let me take care 'v it...\""
+   bergvaultman_random_008 = \
+      "~kLiam Magnus says, \"Ye seem like the adventurous type!  Am I "
+      "right??  Why don't ye go and enroll yer services with King Leone's "
+      "royal guard?  Oh, and while ye're at it, why don't ye mention that I "
+      "sent ye?  Thank ye kindly!  Now be on yer way already...  Go on!  "
+      "Shoo!  Off ye go!\""
+   bergvaultman_random_009 = \
+      "~kLiam Magnus leans on his cane as he nimbly scans through the "
+      "well-worn pages of a massive ledger with his finger.  Occasionally, "
+      "he turns his attention to his small notebook to tick off an entry or "
+      "circle a name."
+   bergvaultman_random_010 = \
+      "~kA pleasant warmth radiates from the fireplace, and every now and "
+      "then a sharp snap can be heard amid the low crackling of the fire."
+   bergvaultman_random_011 = \
+      "~kLiam Magnus smiles to himself as he counts a stack of shiny golden "
+      "coins.  A sigh of contentment escapes his lips."
+
+messages:
+
+   GetSpeechLibrary()
+   "Speech library nodes: [class, [[triggers, mood, action, key], ...]]"
+   {
+      local lLib;
+
+      lLib = $;
+
+
+      return lLib;
+   }
+
+   GetRandomLibrary()
+   "Random library nodes: [class, [[percent, mood, action, key], ...]]"
+   {
+      local lLib;
+
+      lLib = $;
+
+      lLib = Cons([&BergAucM,[
+         [50,0,[LIBACT_QUOTE_RSC,bergaucm_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,bergaucm_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,bergaucm_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,bergaucm_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,bergaucm_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,bergaucm_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,bergaucm_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,bergaucm_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,bergaucm_random_009],9]
+      ]],lLib);
+
+      lLib = Cons([&BergBanker,[
+         [50,0,[LIBACT_QUOTE_RSC,bergbanker_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,bergbanker_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,bergbanker_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,bergbanker_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,bergbanker_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,bergbanker_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,bergbanker_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,bergbanker_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,bergbanker_random_009],9]
+      ]],lLib);
+
+      lLib = Cons([&BergBlacksmith,[
+         [50,0,[LIBACT_QUOTE_RSC,bergblacksmith_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,bergblacksmith_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,bergblacksmith_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,bergblacksmith_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,bergblacksmith_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,bergblacksmith_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,bergblacksmith_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,bergblacksmith_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,bergblacksmith_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,bergblacksmith_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,bergblacksmith_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,bergblacksmith_random_012],12],
+         [50,0,[LIBACT_QUOTE_RSC,bergblacksmith_random_013],13]
+      ]],lLib);
+
+      lLib = Cons([&BergInnkeeper,[
+         [50,0,[LIBACT_QUOTE_RSC,berginnkeeper_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,berginnkeeper_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,berginnkeeper_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,berginnkeeper_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,berginnkeeper_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,berginnkeeper_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,berginnkeeper_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,berginnkeeper_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,berginnkeeper_random_009],9]
+      ]],lLib);
+
+      lLib = Cons([&BergLeaderM,[
+         [50,0,[LIBACT_QUOTE_RSC,bergleaderm_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,bergleaderm_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,bergleaderm_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,bergleaderm_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,bergleaderm_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,bergleaderm_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,bergleaderm_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,bergleaderm_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,bergleaderm_random_009],9]
+      ]],lLib);
+
+      lLib = Cons([&BergMerchant,[
+         [50,0,[LIBACT_QUOTE_RSC,bergmerchant_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,bergmerchant_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,bergmerchant_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,bergmerchant_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,bergmerchant_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,bergmerchant_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,bergmerchant_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,bergmerchant_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,bergmerchant_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,bergmerchant_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,bergmerchant_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,bergmerchant_random_012],12]
+      ]],lLib);
+
+      lLib = Cons([&BergVaultman,[
+         [50,0,[LIBACT_QUOTE_RSC,bergvaultman_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,bergvaultman_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,bergvaultman_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,bergvaultman_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,bergvaultman_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,bergvaultman_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,bergvaultman_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,bergvaultman_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,bergvaultman_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,bergvaultman_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,bergvaultman_random_011],11]
+      ]],lLib);
+
+      return lLib;
+   }
+
+end
+////////////////////////////////////////////////////////////////////////////////

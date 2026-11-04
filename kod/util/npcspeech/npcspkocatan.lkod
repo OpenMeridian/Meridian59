@@ -1,0 +1,1979 @@
+// KocatanApothecary
+kocatanapothecary_speech_001 = de \
+   "~kZala sagt, \"So nennen wir den Krieg. Ich nenne es eine große "
+   "Verschwendung.\""
+kocatanapothecary_speech_002 = de \
+   "~kZala sagt, \"Die bringen mich zum Lachen!\""
+kocatanapothecary_speech_003 = de "~kZala sagt, \"Hmmmm...\""
+kocatanapothecary_speech_004 = de \
+   "~kZala sagt, \"Willst Du mich in Schwierigkeiten bringen?\""
+kocatanapothecary_speech_005 = de \
+   "~kZala sagt, \"Mal sehen, was Du hast. Vielleicht bin ich ja "
+   "interessiert.\""
+kocatanapothecary_speech_006 = de \
+   "~kZala sagt, \"Hey, schau mal wieder vorbei, okay?\""
+kocatanapothecary_speech_007 = de \
+   "~kZala ix'Mecya nimmt einen Zug aus ihrer Pfeife und sagt, \"Hallo, "
+   "willkommen in meinem Laden. Was kann ich für Dich tun?\""
+kocatanapothecary_speech_008 = de "~kZala sagt, \"Hallo, %s.\""
+kocatanapothecary_speech_009 = de \
+   "~kZala ix'Mecya sagt, \"Mir gehört dieser Zauberladen. Wenn Du "
+   "irgendwelche Kräuter oder Reagenzien für Deine magischen Rituale "
+   "brauchst, dann bin ich die Ansprechpartnerin.\""
+kocatanapothecary_speech_010 = de "~kZala sagt, \"Ich versteh's nicht.\""
+kocatanapothecary_speech_011 = de \
+   "~kZala sagt, \"Das Huf Huf Moch? Oh, das ist der ko'catanesische Name "
+   "für Das Bellende Monster. Dasselbe also. Es ist ein großes Wirtshaus, "
+   "das die Militärs unterhalten, gleich den Hügel runter.\""
+kocatanapothecary_speech_012 = de \
+   "~kZala sagt, \"Du solltest wissen, was ein Ixleoc ist, denn sie stammen "
+   "aus Deinem Land. Es sind diese wandelnden, untoten Wesen.\""
+kocatanapothecary_speech_013 = de \
+   "~kZala sagt, \"Na, da bist Du doch gerade, Mensch.\""
+kocatanapothecary_speech_014 = de \
+   "~kZala sagt, \"Das ist der Typ, der das Sagen hat, weißt Du, benannt "
+   "nach dem ursprünglichen Typen, der das Sagen hatte. Es nervt mich, dass "
+   "sie es nicht mal in Betracht ziehen, einer Frau diesen Job zu geben. "
+   "Hier gibt es jede Menge Frauen, die es genauso gut oder besser machen "
+   "würden als irgendein alter A'ach-Kerl.\""
+kocatanapothecary_speech_015 = de \
+   "~kZala sagt, \"Das ist unser Wort für Wein. Du kannst hier ganz "
+   "ausgezeichneten Pekonch bekommen, doch nimm Dich in Acht vor dem "
+   "billigen Fusel.\""
+kocatanapothecary_speech_016 = de \
+   "~kZala sagt, \"Ich habe hier diese Tontöpfe, aber die sind nicht zu "
+   "verkaufen. Ich bewahre darin magische Reagenzien auf.\""
+kocatanapothecary_speech_017 = de \
+   "~kZala sagt, \"Klar, ich habe was zu verkaufen.\""
+kocatanapothecary_speech_018 = de \
+   "~kZala sagt, \"Fang gar nicht erst an. Das ist eine üble Angewohnheit.\""
+kocatanapothecary_random_001 = de \
+   "~kZala wühlt in einem Haufen grüner Kräuter. Achtlos wirft sie die "
+   "toten, verwelkten auf den Boden."
+kocatanapothecary_random_002 = de \
+   "~kZala sagt, \"Ich hoffe, dass diese Brühe nicht zu sehr gewürzt ist.\""
+kocatanapothecary_random_003 = de \
+   "~kZala scheint Deine Anwesenheit vergessen zu haben und fängt an zu "
+   "meditieren."
+kocatanapothecary_random_004 = de \
+   "~kZala sagt, \"Mein Geist bleibt klar, selbst im Dunst. Ich sehe den "
+   "Nebel, der die übersinnlichen Ebenen verhüllt.\""
+kocatanapothecary_random_005 = de \
+   "~kZala sagt, \"Natürlich sind die Eier heute frisch.\""
+kocatanapothecary_random_006 = de \
+   "~kZala knabbert Achalotnüsse und stopft ihre Pfeife."
+kocatanapothecary_random_007 = de \
+   "~kZala summt leise vor sich hin, während sie Kräuter zu kleinen Sträußen "
+   "zusammenbindet."
+kocatanapothecary_random_008 = de \
+   "~kZala brennt Weihrauch ab, und dicke, nach Fruchtbarkeit riechende Luft "
+   "durchströmt den Laden."
+kocatanapothecary_random_009 = de \
+   "~kZala sagt abwesend, \"Ich übe mich in der Kunst des "
+   "Gedankenumnebelns.\""
+kocatanapothecary_random_010 = de \
+   "~kZala sagt, \"Wenn ich Du wäre, würde ich mich von dem Pekonch "
+   "fernhalten, den sie im Huf Huf Moch ausschenken. Ich trinke ihn gar "
+   "nicht mehr. Er lässt Dich von innen heraus verfaulen.\""
+kocatanapothecary_random_011 = de \
+   "~kZala sagt, \"Wenn Du Federn magst, solltest Du die sehen, die Hanla "
+   "verwendet. Frag sie nach ihren Pfeilen, wenn Du da draußen bist.\""
+kocatanapothecary_random_012 = de \
+   "~kZala sagt, \"Oh, ich hab' ganz vergessen, dass Du hier bist. Habe ich "
+   "mich schon um Dich gekümmert?\""
+kocatanapothecary_random_013 = de \
+   "~kZala sagt, \"Du bist nicht aus Ko'catan, das sehe ich jetzt. Darf ich "
+   "fragen, warum Du den ganzen weiten Weg hierher gereist bist?\""
+kocatanapothecary_random_014 = de \
+   "~kZala sagt, \"Riija-Magie ist ziemlich interessant. Ich weiß nicht, ob "
+   "Du schon viel damit herumprobiert hast, aber Du solltest darauf achten, "
+   "nicht zu viel Zeit damit zu verbringen. Von Riija werden Leute verrückt, "
+   "Du wirst sie hier herumlaufen sehen.\""
+kocatanapothecary_random_015 = de "~kZala sagt, \"Das ist ein tolles Hemd.\""
+kocatanapothecary_random_016 = de \
+   "~kZala sagt, \"Was ist mit dem Wetter los? Es ist in letzter Zeit schwer "
+   "geworden, zur Arbeit zu kommen.\""
+kocatanapothecary_random_017 = de \
+   "~kZala schaut sich um und sagt, \"Whoa, sieh Dir das an.\""
+kocatanapothecary_random_018 = de \
+   "~kZala hustet laut und stößt dabei eine riesige Rauchwolke aus."
+kocatanapothecary_random_019 = de \
+   "~kZala sagt, \"So wie ich es sehe, hängt die Stärke eines Zauberspruchs "
+   "im Allgemeinen nur von ein paar Faktoren ab... und das sind so ziemlich "
+   "die Dauer, Deine Trancezeit und die Manakosten. Oh, und habe ich die "
+   "Wirkkräfte erwähnt? Nun, die Wirkkräfte auch.\""
+kocatanapothecary_random_020 = de \
+   "~kZala sagt, \"Weißt Du, Du kannst nicht einfach irgendwelche alten "
+   "Reagenzien nehmen, um einen Zauber zu wirken. Sie müssen einwandfrei "
+   "sein, sonst funktioniert es einfach nicht. Das betrifft besonders die "
+   "Kriipaklauen und die Augäpfel der Drachenfliege.\""
+kocatanapothecary_random_021 = de \
+   "~kZala sagt, \"Ich komme mir vor wie ein Ixleoc. Hirntot, so wie die.\""
+kocatanapothecary_random_022 = de \
+   "~kZala sagt, \"Das verstehe ich nicht. In Deinem Land Hinter und Unter "
+   "dem Wasser gibt es die Teotkauilkinich und die kleinen Imixkinich. Also, "
+   "Mensch, sind sie nun dasselbe? Stammen sie beide von einer "
+   "Kokinich-Mutter ab? Jagen sie beide vom gleichen Netz aus?\""
+kocatanapothecary_random_023 = de \
+   "~kZala sagt, \"Mach es Dir ruhig bequem, wenn Du willst; ich hänge hier "
+   "nur so rum.\""
+kocatanapothecary_random_024 = de \
+   "~kZala sagt, \"Lass Dich wieder mal sehen, wenn Du magst, ich bin hier "
+   "immer zu finden.\""
+kocatanapothecary_trigger_army = de "armee"
+kocatanapothecary_trigger_bud = de "knospe"
+kocatanapothecary_trigger_sell = de "verkauf"
+kocatanapothecary_trigger_goodbye = de "tschüss"
+kocatanapothecary_trigger_hello = de "hallo"
+kocatanapothecary_trigger_help = de "hilfe"
+kocatanapothecary_trigger_pot = de "topf"
+kocatanapothecary_trigger_pot_2 = de "töpfe"
+kocatanapothecary_trigger_buy = de "kaufen"
+kocatanapothecary_trigger_smoke = de "rauchen"
+
+// KocatanBanker
+kocatanbanker_speech_001 = de \
+   "~kHuital sagt, \"Diese Insel bietet womöglich nicht genug Raum, damit "
+   "drei kriegerische Stämme friedlich miteinander leben können. Wir müssen "
+   "auf den unvermeidlichen Krieg um die Vorherrschaft vorbereitet sein.\""
+kocatanbanker_speech_002 = de "~kHuital sagt, \"~ISchon wieder?!~I\""
+kocatanbanker_speech_003 = de \
+   "~kHuital sagt, \"Du findest das verlassene Waffenlager im Westen von "
+   "Ko'catan. Pacal ix'Anoak könnte Deine Waren kaufen wollen.\""
+kocatanbanker_speech_004 = de \
+   "~kHuital sagt, \"Ich wünsche Dir einen guten Tag. Deine Wertsachen "
+   "werden bei uns sicher verwahrt sein.\""
+kocatanbanker_speech_005 = de \
+   "~kHuital ko'Nosak sagt, \"Willkommen, Reisender. Womit können ich oder "
+   "mein Bruder Itzal Dir heute helfen?\""
+kocatanbanker_speech_006 = de \
+   "~kHuital sagt, \"Mein Bruder Itzal kann ein paar von Deinen Sachen "
+   "sicher verwahren. Ich führe die Bank. Ich habe Schilder aufgestellt, die "
+   "erklären, wie unsere Einrichtung zu nutzen ist.\""
+kocatanbanker_speech_007 = de \
+   "~kHuital sagt, \"Wir sind glücklich, Teil einer solch fortschrittlichen "
+   "Gesellschaft zu sein. Du musst beeindruckt sein.\" Itzal verdreht die "
+   "Augen und grunzt."
+kocatanbanker_speech_008 = de \
+   "~kHuital sagt, \"Gesegnet sei Konima. Möge das Gedenken an ihn stets "
+   "erhalten bleiben.\""
+kocatanbanker_speech_009 = de \
+   "~kHuital sagt, \"Nimm Dich in Acht vor der Macht Riijas. Viele sagen, es "
+   "seien nur Tricks, doch in bösen Händen kann viel Unrecht damit "
+   "geschehen.\""
+kocatanbanker_speech_010 = de \
+   "~kHuital sagt, \"Du irrst Dich, wir sind keine Händler.\""
+kocatanbanker_speech_011 = de \
+   "~kHuital sagt, \"Ich habe mein Soll von Lehrlingen für diese Saison "
+   "bereits erfüllt.\""
+kocatanbanker_random_001 = de \
+   "~kHuital sagt, \"Wir haben noch keine offizielle Handelsroute mit der "
+   "alten Welt eingerichtet. Auf Geld und Dinge, die Du hier lagerst, kann "
+   "von Deinem Heimatland aus nicht zugegriffen werden.\""
+kocatanbanker_random_002 = de \
+   "~kHuital wäscht seine Hände in einem Becken mit Wasser und beginnt dann "
+   "mit der nächsten Transaktion."
+kocatanbanker_random_003 = de \
+   "~kHuital sagt, \"Ich bin mir über die Auswirkungen des Zustroms von "
+   "Händlern aus der alten Welt noch nicht im Klaren. Doch ich behalte das "
+   "Geld in meiner Bank genau im Auge. Ich will nicht, dass Ko'catan in ein "
+   "Zeitalter der Inflation eintritt.\""
+kocatanbanker_random_004 = de \
+   "~kHuital sagt, \"Wir brauchten eigentlich kein Geldsystem, bevor die "
+   "Fremden kamen. Die meisten tauschten oder arbeiteten für ihre "
+   "Bedürfnisse.\""
+kocatanbanker_random_005 = de \
+   "~kHuital sagt, \"Wo häufst Du all diesen Reichtum an?\""
+kocatanbanker_random_006 = de \
+   "~kHuital sagt, \"Ehrlich, Itzal, Du musst an Deiner Haltung arbeiten.\""
+kocatanbanker_random_007 = de \
+   "~kHuital sagt, \"~BItzal!~B ~IWach auf, wir haben Kundschaft.~I\""
+kocatanbanker_random_008 = de \
+   "~kHuital sagt, \"Du bist ein bisschen zu dick angezogen für unsere warme "
+   "Witterung.\""
+kocatanbanker_random_009 = de \
+   "~kHuital zeigt mit der Hand auf das Wasserbecken und sagt, \"Bitte, es "
+   "ist bei uns Brauch, sich die Hände zu waschen, bevor wir Geschäfte "
+   "machen. Es steht für einen sauberen Handel.\""
+kocatanbanker_random_010 = de \
+   "~kHuital sagt, \"Itzal, Du musst unbedingt Dein Lager aufräumen. Die "
+   "Kunden haben bisher mehr als geduldig darauf gewartet, dass Du ihre "
+   "Wertsachen wiederfindest.\""
+kocatanbanker_random_011 = de \
+   "~kHuital sagt, \"Vielleicht möchtest Du Dein Geld und viele Deiner "
+   "Sachen hierlassen, bevor Du in den Dschungel gehst. Zu dieser Zeit des "
+   "Jahres kann es dort recht gefährlich sein.\""
+kocatanbanker_random_012 = de \
+   "~kHuital lächelt Dich an und sagt, \"Es ist erfrischend, Deine Leute in "
+   "unserem Land zu sehen.\""
+kocatanbanker_random_013 = de \
+   "~kHuital sagt, \"Es ist schön, Dich zu sehen, %s.\""
+kocatanbanker_random_014 = de \
+   "~kHuital lächelt und scheint mit den Ereignissen des Tages zufrieden zu "
+   "sein."
+kocatanbanker_random_015 = de \
+   "~kHuital runzelt die Stirn, während er auf eine Tafel schaut. Er sagt, "
+   "\"Ich befürchte, dass diese Schillinge, die Du einführst, unsere "
+   "Wirtschaft durcheinanderbringen könnten.\""
+kocatanbanker_random_016 = de \
+   "~kHuital sagt zu Dir, \"Wo lernten Deine Leute gesellschaftliche "
+   "Umgangsformen? Besser gesagt, wann ~Iwerden~I sie es lernen?!\""
+kocatanbanker_trigger_broke = de "pleite"
+kocatanbanker_trigger_sell = de "verkauf"
+kocatanbanker_trigger_bye = de "ciao"
+kocatanbanker_trigger_hello = de "hallo"
+kocatanbanker_trigger_help = de "hilfe"
+kocatanbanker_trigger_buy = de "kaufen"
+kocatanbanker_trigger_teach = de "lernen"
+kocatanbanker_trigger_teach_2 = de "lehren"
+
+// KocatanBartender
+kocatanbartender_speech_001 = de \
+   "~kOxal sagt, \"Das A'ach tezcha ist unser Militärischer Rat, "
+   "vergleichbar mit einer regierenden Institution, die über das Leben in "
+   "Ko'catan in all seinen Bereichen wacht.\""
+kocatanbartender_speech_002 = de \
+   "~kOxal sagt, \"Das sind würdige und ehrenhafte Feinde, obwohl ihr "
+   "eigentliches Ziel unser Untergang ist.\""
+kocatanbartender_speech_003 = de \
+   "~kOxal sagt, \"Man sagt, es gäbe zwei Stämme dieser Vogelmenschen. Das "
+   "ist Gerede für Diplomaten, Cha'ya und alte Händler nach Ladenschluss. "
+   "Das ist kein Gerede für Ix'ca. Für die Ix'ca gibt es nur eine Sorte "
+   "Avar, und das sind Avar'ot.\""
+kocatanbartender_speech_004 = de "~kOxal ix'Tokak funkelt Dich wütend an."
+kocatanbartender_speech_005 = de \
+   "~kOxal sagt, \"Balo na'te Din war die Schlacht, in der ich verwundet "
+   "wurde, ein ganz erbitterter Kampf, der drei Tage lang dauerte. Es "
+   "starben viele bei Balo na'te Din.\""
+kocatanbartender_speech_006 = de \
+   "~kOxal sagt, \"Darüber darf ich mit Dir nicht reden. Frag nicht.\""
+kocatanbartender_speech_007 = de \
+   "~kOxal sagt, \"Zeig' mal, was Du anzubieten hast.\""
+kocatanbartender_speech_008 = de "~kOxal sagt, \"Sei gegrüßt, Zax'ca.\""
+kocatanbartender_speech_009 = de \
+   "~kOxal ix'Tokak mustert Dich mit missbilligendem Blick und sagt, \"Was "
+   "willst Du?\""
+kocatanbartender_speech_010 = de \
+   "~kOxal ix'Tokak sagt, \"Ich bin hier, um auszuschenken. Das ist alles. "
+   "Willst Du nun etwas trinken oder nicht?\""
+kocatanbartender_speech_011 = de \
+   "~kOxal sagt, \"Hu a'ach ist ein alter Begriff auf Ko'catani, der soviel "
+   "wie 'wilder Krieg' bedeutet. Hu ist etwas Wildes, Unkontrolliertes und "
+   "a'ach bedeutet Krieg oder wörtlich 'schlagende Kräfte'.\""
+kocatanbartender_speech_012 = de \
+   "~kOxal sagt, \"Ich bin mir nicht sicher, was die genaue Übersetzung "
+   "davon ist, wirklich nicht.\""
+kocatanbartender_speech_013 = de \
+   "~kOxal sagt, \"Kici'ca.. . das bedeutet Legion.\""
+kocatanbartender_speech_014 = de \
+   "~kOxal sagt, \"In Deiner Sprache ist es das Bellende Monstrum. Das ist "
+   "der Name dieser Halle.\""
+kocatanbartender_speech_015 = de \
+   "~kOxal sagt, \"Ko'catan ist der Name dieser Siedlung. Das bedeutet "
+   "soviel wie Große Stadt.\""
+kocatanbartender_speech_016 = de \
+   "~kOxal sagt, \"Konima hieß der Große Kriegsherr, der unser Volk im "
+   "Angesicht einer langen Schlacht gegen die Utom an diesen Ort führte. "
+   "Seit dieser Zeit nahm jeder nachfolgende Kriegsherr den Titel des Konima "
+   "an. Unser jetziger Anführer ist der grimmige Katalin waz Konima, oder "
+   "Sechster Kriegsherr.\""
+kocatanbartender_speech_017 = de "~kOxal sagt, \"Trinkt auf Konima!\""
+kocatanbartender_speech_018 = de \
+   "~kOxal sagt, \"Wie kannst Du es wagen, diesen Namen mit Deiner faulen "
+   "Zunge zu besudeln? Du gehst jetzt sofort!\""
+kocatanbartender_speech_019 = de \
+   "~kOxal sagt, \"Pekonch ist Wein. Ein guter Krieger zieht viel Kraft "
+   "daraus, wenn er davon trinkt.\""
+kocatanbartender_speech_020 = de \
+   "~kOxal sagt, \"Das bedeutet... äh, so etwas wie hässliche Kuh.\""
+kocatanbartender_speech_021 = de \
+   "~kOxal sieht Dich an, als blicke er auf etwas Erbärmliches."
+kocatanbartender_speech_022 = de \
+   "~kOxal sagt, \"Ich verkaufe Pekonch, atz Pekonch, und wenn Du etwas "
+   "davon haben willst, dann stell Dich gefälligst hinten an.\""
+kocatanbartender_speech_023 = de \
+   "~kOxal sagt, \"Vielleicht habe ich etwas, das Dich interessiert.\""
+kocatanbartender_speech_024 = de \
+   "~kIm Raum wird es still, als %s den verkümmerten Zwerg erwähnt."
+kocatanbartender_speech_025 = de "~kOxal sagt, \"Zala ist puuc nahyijoa.\""
+kocatanbartender_speech_026 = de \
+   "~kOxal sagt, \"Zala ix'Mecya hat einen Laden in der Nähe der Mauer. Sie "
+   "verkauft Kräuter und Sachen, um damit zu zaubern. Ich traue keinem, der "
+   "von Hexerei und sonstigem unsinnigen Hokuspokus lebt.\""
+kocatanbartender_speech_027 = de \
+   "~kOxal sagt, \"Zax'ca heißt wörtlich 'fremder Krieger'. Das ist aber "
+   "nicht unhöflich gemeint.\""
+kocatanbartender_random_001 = de \
+   "~kOxal sagt, \"Versuch' mal eine Tasse unseres Pekonch. Diesen nennen "
+   "wir 'Atz'pekonch', oder in Deiner Sprache 'mythischer Wein'. Es ist der "
+   "höchstwertige Pekonch überhaupt, der eigens für die Lal a'ach "
+   "hergestellt wird.\""
+kocatanbartender_random_002 = de \
+   "~kOxal sagt, \"Wenn ich für die Kici'ca verantwortlich wäre, würden wir "
+   "den Kampf zu den Avar tragen! Hu a'ach!\""
+kocatanbartender_random_003 = de \
+   "~kOxal sagt, \"Sei gewarnt - der Tod wartet auf diejenigen, die sich "
+   "unvorbereitet in den Dschungel begeben. Es könnte Dich einen Arm kosten "
+   "und Dich als halben Soldaten zurücklassen, so wie es mir widerfahren "
+   "ist.\""
+kocatanbartender_random_004 = de \
+   "~kOxal sagt, \"Ich habe die Kici'ca verlassen, als mir im Kampf ein Arm "
+   "abgetrennt wurde.\""
+kocatanbartender_random_005 = de \
+   "~kOxal sagt, \"Manchmal wünschte ich, dass sich die Dinge anders "
+   "entwickelt hätten, doch im Leben eines Iz'ca gibt es nicht viel Platz "
+   "für Fehler. Ich werde vom Pech verfolgt.\""
+kocatanbartender_random_006 = de \
+   "~kOxal sagt, \"In dieser Gesellschaft gilt als einzige Entschuldigung "
+   "dafür, dass man kein Krieger ist, dass man ein toter Krieger ist. "
+   "Vielleicht wäre ich glücklicher gewesen, wenn dieses Avarenbeil meinen "
+   "Kopf anstatt meines Arms abgeschlagen hätte. Ich bin nur ein halber "
+   "Krieger.\""
+kocatanbartender_random_007 = de \
+   "~kOxal sagt, \"Ich hätte jede Menge zu sagen über die Art, wie die Dinge "
+   "hier gehandhabt werden, doch Gespräche über Veränderungen in Ko'catan "
+   "bringen nur Ärger.\""
+kocatanbartender_random_008 = de \
+   "~kOxal sagt, \"Ich besitze immer noch den Instinkt und die Disziplin "
+   "eines Tez'ca.\""
+kocatanbartender_random_009 = de \
+   "~kOxal sagt, \"Manchmal in meinen Träumen tief in der Nacht kann ich "
+   "auch heutzutage noch meine Hand spüren, die Hand, die der Avar'ot vor so "
+   "vielen Jahren vernichtete. Das ist ein seltsames Gefühl, es ist "
+   "befreiend, obwohl ich die ganze Zeit weiß, dass sie weg ist. Doch genug "
+   "davon, man könnte uns beide einsperren, weil wir darüber reden.\""
+kocatanbartender_random_010 = de \
+   "~kOxal sagt, \"In unserer Gesellschaft ist es nicht einfach, ein "
+   "Halbsoldat zu sein. Um meine Pflicht zu erfüllen, muss ich doppelt so "
+   "hart arbeiten. Und ohne Pflicht ist ein Soldat wertlos, und ein "
+   "wertloser Soldat... nun, der Dschungel ist voller flacher Gruben, die "
+   "wir gegraben haben, um wertlose Soldaten hineinzulegen.\""
+kocatanbartender_random_011 = de \
+   "~kOxal ix'Tokak sagt, \"Mach' es Dir im Huf Huf Moch bequem, Krieger. "
+   "Das ist Dein Recht, mit Blut und Ehre verdient.\""
+kocatanbartender_random_012 = de \
+   "~kOxal sagt, \"Willkommen im Huf Huf Moch, Zax'ta. Es ist mir eine "
+   "Ehrenpflicht, die Leitung hier zu haben und Dir zur Verfügung zu stehen, "
+   "wenn ich kann.\""
+kocatanbartender_random_013 = de \
+   "~kOxal ix'Tokak sagt, \"Wenn man aus einer Familie wie der meinen kommt, "
+   "hat man eigentlich keine Wahl. Man wird Soldat, und man hofft besser, "
+   "dass einem das Glück treu bleibt.\""
+kocatanbartender_random_014 = de \
+   "~kOxal ix'Tokak sagt, \"Nachdem ich bei Balo na'te Din verwundet wurde, "
+   "berief mich der Kriegsrat zum Dienst hier im Huf Huf Moch, dank meiner "
+   "Leistungen in der Katalin waz Lal'ca. Es ist eine große Ehre für einen "
+   "versehrten Veteranen, hierher abgestellt zu werden, so nah bei der "
+   "Armee, nachdem er für den Krieg nutzlos geworden ist.\""
+kocatanbartender_random_015 = de \
+   "~kOxal sagt, \"Hast Du von Xacal ko'Ixca gehört? Er ist kommandierender "
+   "Offizier meiner Kampfeinheit, Katalin waz Lal'ca. Obwohl ich schon "
+   "längst nicht mehr auf dem Dienstplan meiner Einheit stehe, genießt "
+   "Hauptmann ko'Ixca meinerseits größte Hochachtung und Ehre. Trink mit mir "
+   "auf Hauptmann ko'Ixca!!\""
+kocatanbartender_random_016 = de \
+   "~kOxal sagt, \"Ich habe erfahren, dass es im Land Hinter und Unter dem "
+   "Wasser viele Städte von gleicher Größe wie Ko'catan gibt und Feinde "
+   "ringsherum - und doch gibt es dort kein zax'Kicica... es gibt keine "
+   "Armee! Wie kann das angehen?\""
+kocatanbartender_random_017 = de \
+   "~kOxal sagt, \"Das Wandgemälde dort oben erzählt die Geschichte aus der "
+   "Zeit des Waz Waz Konima, unseres Zweiten Kriegsherrn, und des "
+   "Zwei-Fronten-Kriegs. Das war eine dunkle Stunde, als wir vor "
+   "einhundertsechsundfünfzig Jahren beinahe alles an die vereinten Avar'ot "
+   "Kici'ca verloren. Die Tapferkeit unserer Atz Kici'ca war gewaltig, und "
+   "wir wurden gerettet!\""
+kocatanbartender_random_018 = de \
+   "~kOxal sagt, \"Als ich vor vielen Jahren noch als ein Iz'ca im Katalin "
+   "waz Lal'ca war, noch vor dem Balo na'te Din, waren wir einmal auf "
+   "Patrouille und stießen auf einen entlegenen und befestigten "
+   "Handelsposten - weit entfernt von hier, draußen im Dschungel. Ein "
+   "wunderbar anzuschauender Ort. Meine Einheit hatte das Fort heimlich "
+   "eingekreist und wir waren drauf und dran, es zu stürmen, als wir von "
+   "Hauptmann ko'Ixca die Nachricht erhielten, dass wir es in Ruhe lassen "
+   "sollten. Später erfuhr ich, dass ein Zax'at diesen Ort leitet, einer von "
+   "Euch.\""
+kocatanbartender_random_019 = de \
+   "~kOxal sagt, \"Nimm Dich in Acht vor den Exzor-Farnen draußen im "
+   "Dschungel. Sie schneiden sofort durch Hose und Stiefel hindurch.\""
+kocatanbartender_random_020 = de \
+   "~kOxal sagt, \"Diese Siedlung wäre schon vor langer Zeit zerstört "
+   "worden, wenn wir nicht so großen Wert auf Militär und Befestigung legen "
+   "würden. Die Vorschriften des A'ach tezcha geben uns nicht gerade das "
+   "bestmögliche Leben hier, aber wenigstens leben wir.\""
+kocatanbartender_random_021 = de \
+   "~kOxal sagt, \"Der Pekonch aus unseren Fässern baut die Kraft auf, die "
+   "man braucht, um in Kampf und Schlacht zu siegen.\""
+kocatanbartender_random_022 = de \
+   "~kOxal sagt, \"Willkommen, Zax'ta. Ich bin Oxal ix'Tokak, auserwählt vom "
+   "A'ach tezcha, hier zu dienen. Was ist Dein Begehr?\""
+kocatanbartender_random_023 = de \
+   "~kOxal sagt, \"Kann ich Dir helfen, Zax'ta?\""
+kocatanbartender_random_024 = de \
+   "~kOxal macht flink hinter der Bar sauber, er arbeitet zügig und "
+   "gleichmäßig."
+kocatanbartender_random_025 = de \
+   "~kOxal sagt, \"Es ist meine Aufgabe, Huf Huf Moch so effizient zu "
+   "führen, wie jede Einheit der Kici'ca ihre Pflicht erfüllt. Ich nehme "
+   "meine Befehle sehr ernst.\""
+kocatanbartender_random_026 = de \
+   "~kOxal sagt, \"Wenn ich nicht das Pech gehabt hätte, meinen Arm bei Balo "
+   "na'te Din zu verlieren, dann wäre ich heute ein befehlshabender "
+   "Offizier.\""
+kocatanbartender_random_027 = de \
+   "~kOxal poliert sorgfältig ein Glas mit einem farbenfroh bedruckten Tuch."
+kocatanbartender_random_028 = de \
+   "~kOxal sagt, \"Wir haben viele Jahre gebraucht, bis wir die Napyijoa aus "
+   "Ko'catan ausrotten konnten, und wie ich hörte, gibt es sogar in der "
+   "Kanalisation keine Spur mehr von diesem Ungeziefer. Da kann man mal "
+   "sehen, wie wirkungsvoll unser A'ach tezcha ist.\""
+kocatanbartender_random_029 = de \
+   "~kOxal sagt, \"Meiner Meinung nach verbringen die Ix'ca viel zu viel "
+   "Zeit hier während des Tages. Wenn ich der befehlshabende Offizier oder "
+   "der Hauptmann der Tagwache wäre, dann würde ich diese Soldaten so auf "
+   "Trab halten, dass sie keine Muße hätten, Wein zu trinken.\""
+kocatanbartender_random_030 = de \
+   "~kOxal sagt, \"Wenn dieses Militär nicht wachsam wäre, würden diese "
+   "Avar'ot einen Angriff unternehmen und Ko'catan verwüsten. So nah sind "
+   "wir hier der Vernichtung.\""
+kocatanbartender_random_031 = de \
+   "~kOxal sagt, \"Diese Halle steht hier schon seit fast zweihundert "
+   "Jahren. Sie wurde von den Kici'ca erbaut und auch jetzt wird sie "
+   "vornehmlich von den Kici'ca genutzt. Du bist ein Gast der Ko'catani "
+   "Kici'ca. \""
+kocatanbartender_random_032 = de \
+   "~kOxal sagt, \"Ich habe hier einen Fremdling aus dem Land Hinter und "
+   "Unter dem Wasser gesehen, der ein eigenartiges Halbschwert trug. Was für "
+   "eine Waffe! Ideal für jemanden wie mich!\""
+kocatanbartender_random_033 = de \
+   "~kOxal sagt, \"Wenn Du den Avar'ca im Dschungel begegnest, sei äußerst "
+   "vorsichtig. Sie greifen in Wellen an, die Verwundeten ziehen sich "
+   "zurück, um sich zu erholen und zu sammeln, und kehren dann ins "
+   "Kampfgetümmel zurück.\""
+kocatanbartender_random_034 = de \
+   "~kOxal sagt, \"Je stärker die Waffen und Rüstungen eines Kriegers sind, "
+   "desto größer ist seine Fähigkeit, einem Magieangriff zu widerstehen. Das "
+   "haben wir sehr früh beim A'ach kici'ca gelernt, und auch Dir wird dieses "
+   "Wissen nützen. Halte Deine Ausrüstung immer in Ordnung.\""
+kocatanbartender_random_035 = de \
+   "~kOxal sagt, \"Ich habe erfahren, dass es in Deinem Land Hinter und "
+   "Unter dem Wasser Geisterbäume gibt! Durch diese Tezmecya muss es "
+   "wirklich sehr schwierig sein, sich in Euren Dschungeln zu bewegen.\""
+kocatanbartender_random_036 = de \
+   "~kOxal sagt, \"Du bist nicht einer von diesen Zaubersprüche murmelnden "
+   "Schwachsinnigen, nicht wahr? Ich traue diesen Hexen wie Zala und ihrer "
+   "Bande nicht.\""
+kocatanbartender_random_037 = de \
+   "~kOxal sagt, \"Willst Du Dir nun ein Getränk kaufen oder weiter da herum "
+   "stehen und Maulaffen feilhalten?\""
+kocatanbartender_random_038 = de \
+   "~kOxal ix'Tokak sagt, \"Du unverfrorener Zax'ot, träger Zax'met, "
+   "widerlicher Zax'chot, Du besitzt die Unverschämtheit, die Heimat eines "
+   "anderen zu besuchen und dort alles, was ehrenwert ist, mit Deiner "
+   "Gegenwart zu entweihen? Ich werde keine Zeit mehr mit Dir verschwenden.\""
+kocatanbartender_random_039 = de \
+   "~kOxal sagt, \"He, Du! Du da, aus dem Land der Nap'ca, wessen Idiot bist "
+   "Du eigentlich? Du, der aus dem nächsten Abwasserkanal hervorblubbert, "
+   "hebe Dich hinweg von den Ehrbaren Kriegern, Atz yo'Chot.\""
+kocatanbartender_random_040 = de "~kOxal beäugt Dich misstrauisch."
+kocatanbartender_random_041 = de \
+   "~kOxal sagt, \"Ich glaube, Du bist gefährlich, und es ist meine Pflicht, "
+   "Deine Anwesenheit dem Kriegsrat mitzuteilen, dem A'ach Tez'cha. Das ist "
+   "keine Warnung, sondern eine Feststellung.\""
+kocatanbartender_random_042 = de \
+   "~kOxal sagt, \"Dieser Ort, Huf Huf Moch, wurde vom Kriegsrat errichtet, "
+   "um Kriegern und Soldaten zu dienen, die sich selbst und den Abkömmlingen "
+   "Konimas Ehre gemacht haben. Da Du nicht im geringsten ein ehrenwerter "
+   "Krieger bist, solltest Du Dich von hier entfernen.\""
+kocatanbartender_random_043 = de \
+   "~kOxal sagt, \"Spiel Dich nicht so auf, Kinich. Ich zerquetsche Dich mit "
+   "dem Arm, der noch funktioniert.\""
+kocatanbartender_random_044 = de \
+   "~kOxal ix'Tokak sagt, \"Du wirst es sehr bedauern, wenn Du an diesem Ort "
+   "Ärger machst. Sehr, sehr bedauern.\""
+kocatanbartender_random_045 = de \
+   "~kOxal schafft es irgendwie, professionell zu wirken, während er Dich "
+   "vollkommen ignoriert."
+kocatanbartender_trigger_sell = de "verkauf"
+kocatanbartender_trigger_hello = de "hallo"
+kocatanbartender_trigger_help = de "hilfe"
+kocatanbartender_trigger_buy = de "kaufen"
+kocatanbartender_trigger_stunted_dwarf = de "verkümmerter zwerg"
+
+// KocatanBlacksmith
+kocatanblacksmith_speech_001 = de "~kIxla sagt, \"Was hast Du denn da?\""
+kocatanblacksmith_speech_002 = de "~kIxla sagt, \"Komm jederzeit wieder.\""
+kocatanblacksmith_speech_003 = de "~kIxla sagt, \"Du gehst? Man sieht sich.\""
+kocatanblacksmith_speech_004 = de \
+   "~kIxla sagt, \"Kazot Dich und all Deine kinkauilkinich chot "
+   "Bratpfannen-Rüstungen, Du nennst Dich einen Krieger? Du nennst Dich "
+   "einen Krieger? Schlepp Deinen erbärmlichen zosin Festlandsdreck zurück "
+   "durch die zosin Ork-Höhlen, wo Du zosin hingehörst.\""
+kocatanblacksmith_speech_005 = de "~kIxla sagt, \"Hallo. Komm doch rein.\""
+kocatanblacksmith_speech_006 = de \
+   "~kIxla sagt, \"Was zum Kazot! Wie geht's Dir? Schön, Dich zu sehen.\""
+kocatanblacksmith_speech_007 = de \
+   "~kIxla sagt, \"Wenn es nicht das eine zoszin Ding ist, dann ist es ein "
+   "anderes.\""
+kocatanblacksmith_speech_008 = de "~kIxla errötet."
+kocatanblacksmith_speech_009 = de \
+   "~kIxla sagt, \"Weißt Du was? Genau da bist Du gerade, Du Zoszin-Genie.\""
+kocatanblacksmith_speech_010 = de \
+   "~kIxla sagt, \"Wie, wo ist Ko'catan? Nun mal langsam - irgendetwas sagt "
+   "mir, dass Du vielleicht nicht hierher gehörst, wenn Du nicht weißt, wo "
+   "Du bist. Hör zu, Nah zotz Chot, pass gut auf. Wenn Du hier rumstehen und "
+   "dumme Zoszin-Fragen stellen willst, mach' das mit jemandem, der dumm "
+   "genug ist, seine Zeit mit Dir zu verplempern.\""
+kocatanblacksmith_speech_011 = de \
+   "~kIxla sagt, \"Ich besitze sein Schwert. Sein Zoszin-Schwert - ich habe "
+   "es. Ein riesiges Ding noch dazu, geladen mit allen möglichen Energien, "
+   "die ich nicht verstehen kann.\""
+kocatanblacksmith_speech_012 = de \
+   "~kIxla sagt, \"Konima? Das ist der Kerl, der den Zoszin-Plan hatte, "
+   "womit alles anfing. Der Große Kriegsherr. Die anderen nach ihm "
+   "verblassen dagegen. Das sind nur Zoszin-Kotezleoc.\""
+kocatanblacksmith_speech_013 = de \
+   "~kIxla sagt, \"Kotezleoc ist... wie zum Zoszin sagt ihr dazu? So etwas "
+   "wie eine Person, wenn sie tot ist und einen Körper eher wie Rauch oder "
+   "Nebel anstatt eines echten Körpers hat.\""
+kocatanblacksmith_speech_014 = de \
+   "~kIxla sagt, \"Was zum Kazot glaubst Du, verkaufe ich wohl? "
+   "Umachabohnen?\""
+kocatanblacksmith_speech_015 = de "~kIxla sagt, \"Ja, klar.\""
+kocatanblacksmith_random_001 = de \
+   "~kIxla sagt, \"Diesen Amboss gibt es bereits seit sechs Generationen in "
+   "meiner Familie. Der Großvater meines Großvaters war Waffenschmied von "
+   "Konima persönlich, und er stand neben ihm, als Konima aus dem Leben "
+   "schied. Seine Wunden waren so groß, dass seine Rüstung an manchen "
+   "Stellen nicht repariert werden konnte. Der Großvater meines Großvaters "
+   "machte diesen Amboss aus der Brustplatte von Konimas edler "
+   "Panzerrüstung. Das ist wahr, jedes zoszin Wort davon.\""
+kocatanblacksmith_random_002 = de \
+   "~kIxla sagt, \"Dieses Land, aus dem Du kommst, jenseits und unterhalb "
+   "des Wassers. Was für zoszin Kazot-Schmiede habt ihr dort eigentlich? "
+   "Eure Werkzeuge und Waffen sehen so zoszin-klobig aus.\""
+kocatanblacksmith_random_003 = de \
+   "~kIxla sagt, \"Ich gebe wirklich keinen Kazot auf die Avar oder die "
+   "Orks. Sie haben ein paar Typen, die gern kämpfen, wir haben ein paar "
+   "Typen, die gern kämpfen, die beiden Gruppen treffen sich und kämpfen. "
+   "Das ist bloß eine zoszin Nebensache, mehr nicht. Na und? Darum geht es "
+   "im Leben nicht. Aber es hält das zoszin Geschäft am Laufen.\""
+kocatanblacksmith_random_004 = de \
+   "~kIxla brüllt, \"~BChot!~B\" Sie ist momentan ein wenig frustriert von "
+   "ihrer Arbeit."
+kocatanblacksmith_random_005 = de \
+   "~kDu kannst nirgends auch nur ein Anzeichen von Holz oder Brennstoff "
+   "entdecken, von dem man normalerweise große Mengen benötigt, um ein so "
+   "erstaunlich heißes Feuer in Gang zu halten."
+kocatanblacksmith_random_006 = de \
+   "~kIxla bearbeitet gewissenhaft eine Metallplatte mit ihrem Hammer, "
+   "wodurch die Funken im ganzen Raum herumsprühen."
+kocatanblacksmith_random_007 = de \
+   "~kIm Zentrum des Feuers summt es laut wie ein magischer Sturm."
+kocatanblacksmith_random_008 = de \
+   "~kIxla sagt, \"Gib acht, so nah bei der Esse. Wenn Du zu dicht dran "
+   "stehst, brennst Du Dir das Chot aus dem Leib.\""
+kocatanblacksmith_random_009 = de \
+   "~kIxla sagt, \"Du musst mit einem Nerudit-Schwert wirklich zoszin "
+   "behutsam umgehen. Das ist gar kein Vergleich mit dem klobigen "
+   "Zoszin-Eisen, das Du wahrscheinlich sonst herumschwingst, Nerudit ist "
+   "scharf und veredelt. Aber es ist auch spröde, daher ist es nicht "
+   "empfehlenswert, es wie einen Zoszin-Hammer zu schwingen.\""
+kocatanblacksmith_random_010 = de \
+   "~kDas Herz der Esse glüht in unheimlich starker Hitze, scheint die "
+   "Temperatur in der Werkstatt aber kaum zu erhöhen."
+kocatanblacksmith_random_011 = de \
+   "~kTief im Innersten der Esse glüht eine unheimlich starke Hitze."
+kocatanblacksmith_random_012 = de \
+   "~kIxla sagt, \"Ach, Kazot, tut mir leid. Haben die Funken Dir die "
+   "Klamotten versengt?\""
+kocatanblacksmith_random_013 = de \
+   "~kIxla sagt, \"Was zum Kazot. Bist Du hier hereingekommen, um im Weg zu "
+   "stehen und mir bei der Arbeit zuzusehen, oder kommen wir ins Geschäft? "
+   "Ich hab' nicht den ganzen Zoszin-Tag lang Zeit.\""
+kocatanblacksmith_trigger_sell = de "verkauf"
+kocatanblacksmith_trigger_goodbye = de "tschüss"
+kocatanblacksmith_trigger_goodbye_2 = de "wiedersehen"
+kocatanblacksmith_trigger_hello = de "hallo"
+kocatanblacksmith_trigger_help = de "hilfe"
+kocatanblacksmith_trigger_buy = de "kaufen"
+
+// KocatanBonePriestess
+kocatanbonepriestess_speech_001 = de \
+   "~kDie Knochenpriesterin sagt, \"Kaufen? TIC-TIC-TIC-TIC-TIC!!!\""
+kocatanbonepriestess_speech_002 = de \
+   "~kDie Knochenpriesterin kreischt, \"CHITTY-UP!!\""
+kocatanbonepriestess_speech_003 = de \
+   "~kDie Knochenpriesterin erwidert, \"PER-CHICK-A-REEEEEEE!\""
+kocatanbonepriestess_speech_004 = de \
+   "~kDie Knochenpriesterin zischt, \"~IBRING MIR DEN KOPF DES "
+   "ORK-HÄUPTLINGS!!!~I\""
+kocatanbonepriestess_speech_005 = de \
+   "~kDie Knochenpriesterin schreit, \"ANK-ANK-ANK-ANK!\""
+kocatanbonepriestess_speech_006 = de \
+   "~kDie Knochenpriesterin sagt zu Dir, \"WENK-WENK-WENK!!\""
+kocatanbonepriestess_speech_007 = de \
+   "~kDie Knochenpriesterin schreit, \"~IDAS AUGE DES RIIJA~I!\""
+kocatanbonepriestess_speech_008 = de \
+   "~kDie Knochenpriesterin kreischt, \"~IRIIJA! RIIJA!~I\""
+kocatanbonepriestess_random_001 = de \
+   "~kDie Knochenpriesterin plärrt, \"Chobble-dee, chobble-dee, "
+   "chobble-dee!\""
+kocatanbonepriestess_random_002 = de \
+   "~kDie Knochenpriesterin stottert, \"Garoooo-a-a-a-a.\""
+kocatanbonepriestess_random_003 = de \
+   "~kDie Knochenpriesterin summt, \"ZEE-CHUPITY-CHUPITY!\""
+kocatanbonepriestess_random_004 = de \
+   "~kDie Knochenpriesterin zirpt wild herum, \"Piky-tucky-tuck, pik-a-tuck, "
+   "pik-a-tuck, Piky-tucky-tuck, pik-a-tuck, pik-a-tuck.\""
+kocatanbonepriestess_random_005 = de \
+   "~kDie Knochenpriesterin trällert, \"Chu-wheee, cheer-ee-oh.\""
+kocatanbonepriestess_random_006 = de \
+   "~kDie Knochenpriesterin krächzt, \"Shaaaaaaaaak!\""
+kocatanbonepriestess_random_007 = de \
+   "~kDie Knochenpriesterin johlt, \"CHUP-CHUP-ZEE! SCHÄDEL! SCHÄDEL!\""
+kocatanbonepriestess_random_008 = de \
+   "~kDie Knochenpriesterin ist ganz offensichtlich wahnsinnig."
+kocatanbonepriestess_random_009 = de \
+   "~kDer Boden um Dich herum scheint klebrig zu sein."
+kocatanbonepriestess_random_010 = de \
+   "~kDie Art, wie die Knochenpriesterin Dich anschaut, hat etwas ziemlich "
+   "Gruseliges an sich."
+kocatanbonepriestess_random_011 = de "~kDieser Ort ist beunruhigend."
+kocatanbonepriestess_random_012 = de \
+   "~kDie Knochenpriesterin quasselt mit sich selbst."
+kocatanbonepriestess_random_013 = de \
+   "~kDie Knochenpriesterin zappelt herum und mustert Dich."
+kocatanbonepriestess_random_014 = de \
+   "~kDie Knochenpriesterin starrt Dich verständnislos an."
+kocatanbonepriestess_random_015 = de \
+   "~kDie Knochenpriesterin scheint Dich überhaupt nicht wahrzunehmen."
+kocatanbonepriestess_random_016 = de \
+   "~kEs stinkt hier nach verfaulten Melonen - und zwar unerträglich."
+kocatanbonepriestess_random_017 = de \
+   "~kDie Knochenpriesterin trommelt mit der Hand auf den Brustkorb und "
+   "vollführt sonderbare kleine Kreisbewegungen mit dem Kopf."
+kocatanbonepriestess_random_018 = de \
+   "~kDie Knochenpriesterin kratzt sich, schüttelt ihren Kopf und gibt ein "
+   "sonderbares Geräusch von sich."
+kocatanbonepriestess_random_019 = de \
+   "~kDie Knochenpriesterin putzt sich, wobei eine Wolke flockiger Krümel "
+   "aus ihren Federn stiebt."
+kocatanbonepriestess_random_020 = de \
+   "~kDie Knochenpriesterin schreit, \"ANK-ANK-ANK-ANK!\""
+kocatanbonepriestess_trigger_buy = de "kaufen"
+kocatanbonepriestess_trigger_hello = de "hallo"
+kocatanbonepriestess_trigger_help = de "hilfe"
+kocatanbonepriestess_trigger_sell = de "verkauf"
+kocatanbonepriestess_trigger_staff = de "stab"
+kocatanbonepriestess_trigger_sword = de "schwert"
+
+// KocatanBowMaker
+kocatanbowmaker_speech_001 = de \
+   "~kHanla sagt, \"Die Qualität eines Pfeils hängt von den Federn und vom "
+   "Holz ab, doch entscheidend ist, wie gerade der Schaft geschnitzt ist.\""
+kocatanbowmaker_speech_002 = de \
+   "~kHanla sagt, \"Die Avaren sind nicht schlechter und nicht besser als "
+   "die Krieger von Ko'catan. Doch ich stelle für sie keine Bedrohung dar - "
+   "und so lassen sie mich in Ruhe.\""
+kocatanbowmaker_speech_003 = de \
+   "~kHanla sagt, \"Du würdest gut daran tun, wenn Du ein ordentliches Stück "
+   "zwischen Dir und der Hütte dieses Mannes lässt. Er ist total verrückt.\""
+kocatanbowmaker_speech_004 = de \
+   "~kHanla sagt, \"Die Natur liebt die Ausgewogenheit. Wenn eine Jägerin "
+   "darauf aus ist, bösartige Kreaturen zu vernichten, wird sie sich dem "
+   "Guten zuneigen. Wer jedoch die guten Kreaturen jagt, neigt sich dem "
+   "Bösen zu. Die gute Jägerin achtet auf ein Gleichgewicht bei dem, was sie "
+   "tötet.\""
+kocatanbowmaker_speech_005 = de \
+   "~kHanla sagt, \"Lass es bloß nicht zur Gewohnheit werden, hierher zu "
+   "kommen, um mir Deinen Krimskrams zu verkaufen. Aber meine Vorräte gehen "
+   "zu Ende - zeig' mal, was Du hast.\""
+kocatanbowmaker_speech_006 = de \
+   "~kHanla zax'Ta sagt, \"Viel Glück. Du wirst es brauchen.\""
+kocatanbowmaker_speech_007 = de \
+   "~kHanla zax'Ta sagt, \"Bitte schließ leise die Tür, wenn Du gehst. Ich "
+   "möchte nicht, dass mein Vater aufwacht.\""
+kocatanbowmaker_speech_008 = de \
+   "~kHanla sagt, \"Mein Vater ist mein einziger Freund. Er war immer für "
+   "mich da. Ich weiß nicht, was ich ohne ihn täte.\""
+kocatanbowmaker_speech_009 = de \
+   "~kHanla zax'Ta schaut nicht einmal von ihrer Arbeit auf."
+kocatanbowmaker_speech_010 = de \
+   "~kHanla zax'Ta sagt, \"Ich fertige kunstvolle Bögen an.\""
+kocatanbowmaker_speech_011 = de \
+   "~kHanla sagt, \"Halte Dich von den Klippen fern. Der echte Jäger jagt "
+   "seine Beute nicht in deren Bau.\""
+kocatanbowmaker_speech_012 = de \
+   "~kHanla sagt, \"Der Hauptstock ist auf einer Klippe nördlich von hier. "
+   "Bleib' bloß da weg.\""
+kocatanbowmaker_speech_013 = de \
+   "~kHanla sagt, \"Ko'catan ist zivilisiert. Zivilisiert wie ein "
+   "Wolfsrudel.\""
+kocatanbowmaker_speech_014 = de \
+   "~kHanla sagt, \"~IKonima war ein großartiger Kämpfer. Er führte unser "
+   "Volk in die Geborgenheit. Er baute unsere Zivilisation auf.~I Das sind "
+   "doch alles nur Geschichten, die andere erzählen, um sich wichtig zu "
+   "machen.\""
+kocatanbowmaker_speech_015 = de \
+   "~kHanla sagt, \"Wulfgang der Händler und der verrückte Bahal leben auch "
+   "hier draußen im Dschungel.\""
+kocatanbowmaker_speech_016 = de \
+   "~kHanla sagt, \"Der Schattengott ist nur eine alte Legende.\""
+kocatanbowmaker_speech_017 = de \
+   "~kHanla sagt, \"Normalerweise würde ich keinen von meinen "
+   "handgearbeiteten Bögen hergeben. Besonders einem Fremden nicht. Aber "
+   "mein Vater ist krank und die Medikamente kosten sehr viel.\""
+kocatanbowmaker_speech_018 = de \
+   "~kHanla sagt, \"Ich habe nicht die Absicht, Lehrlinge auszubilden. "
+   "Vielleicht kann der alte Kochtal Dir helfen. Er lehrte meinen Vater, wie "
+   "man mit dem Bogen umgeht.\""
+kocatanbowmaker_speech_019 = de \
+   "~kHanla sagt, \"Ich weiß nicht, wie Deine Leute sie nennen. Etwas wie "
+   "Schattenbestie.\""
+kocatanbowmaker_speech_020 = de \
+   "~kHanla sagt, \"Wulfgang ist eigentlich ganz nett. Er kommt manchmal "
+   "vorbei, um uns mit dem Nötigsten zu versorgen. Er spricht mit einem "
+   "ähnlichen Akzent wie Du.\""
+kocatanbowmaker_random_001 = de \
+   "~kHanla zax'Ta sagt, \"Das Holz muss ordentlich geölt werden. Bögen "
+   "müssen stark sein und trotzdem biegsam.\""
+kocatanbowmaker_random_002 = de \
+   "~kHanla sagt, \"Mein Vater ist nicht der Einzige, den man aus Ko'catan "
+   "verbannt hat. Es gab auch noch andere.\""
+kocatanbowmaker_random_003 = de \
+   "~kHanla sagt, \"Es ist wichtig, dass der Bogen fest gespannt ist, wenn "
+   "man Teotkriipa jagt.\""
+kocatanbowmaker_random_004 = de \
+   "~kHanla sagt, \"In erster Linie jagt man, um sich seine Nahrung zu "
+   "beschaffen oder um das eigene Können zu schärfen. Doch die Natur besitzt "
+   "einen Sinn für Gleichgewicht.\""
+kocatanbowmaker_random_005 = de \
+   "~kDer Geruch von gekochtem Fisch liegt schwer in der Luft."
+kocatanbowmaker_random_006 = de \
+   "~kHanla ruft zum hinteren Zimmer, \"Ja, Vater. Sobald dieser Besuch "
+   "gegangen ist, werde ich Dir Essen machen.\""
+kocatanbowmaker_random_007 = de \
+   "~kHanla schaut in Richtung der Schlafzimmertür. \"Brauchst Du mich, "
+   "Vater? Dein Husten wird ja immer schlimmer.\""
+kocatanbowmaker_random_008 = de \
+   "~kHanla sagt, \"Du bleibst aber nicht lange, oder? Ich muss noch mal weg "
+   "und Essen für morgen besorgen, und ich möchte Dich nicht mit meinem "
+   "Vater hier allein lassen.\""
+kocatanbowmaker_random_009 = de \
+   "~kHanla sagt, \"Ich stelle Pfeile in verschiedenen Ausführungen her.\""
+kocatanbowmaker_random_010 = de \
+   "~kAus dem hinten liegenden Raum ist ein leichtes Knarren zu hören."
+kocatanbowmaker_random_011 = de \
+   "~kHanla biegt einen Pfeil, um die Elastizität des Schaftes zu prüfen. Da "
+   "er nicht bricht, scheint sie zufrieden zu sein."
+kocatanbowmaker_random_012 = de \
+   "~kHanla singt leise ein Lied vor sich hin, während sie das Holz "
+   "bearbeitet."
+kocatanbowmaker_random_013 = de \
+   "~kHanla verreibt eine dünne Schicht Öl auf dem Bogen in ihrer Hand."
+kocatanbowmaker_random_014 = de "~kHanla sagt, \"Sei gegrüßt, %s.\""
+kocatanbowmaker_random_015 = de \
+   "~kHanla überreicht Dir einen Bogen zur Begutachtung. Er zeugt von "
+   "handwerklichem Können."
+kocatanbowmaker_random_016 = de \
+   "~kHanla sagt, \"Es ist hier draußen sehr einsam, wenn man keine anderen "
+   "Frauen zum Reden hat.\""
+kocatanbowmaker_random_017 = de \
+   "~kEinen Augenblick lang glaubst Du, dass der starke Geruch des "
+   "Fischgerichts einen Verwesungsgestank überlagert. Vielleicht hast Du Dir "
+   "das aber nur eingebildet."
+kocatanbowmaker_random_018 = de \
+   "~kHanla sagt, \"Mit dem Stamm der Kyip-Kyip-Kreeet hatte ich kaum "
+   "Probleme. Die Peet-Seeeeps sind die Arroganten.\""
+kocatanbowmaker_random_019 = de \
+   "~kHanla sagt, \"Hüte Dich vor den alten Ruinen. Die Fehde zwischen den "
+   "beiden Hauptstämmen tobt dort besonders schlimm.\""
+kocatanbowmaker_random_020 = de \
+   "~kHanla sagt, \"Man kann die Huzotz leicht erlegen, doch Vorsicht - "
+   "glaube nicht, dass Du sie in ihrem Stock kriegen kannst. Sie sind "
+   "ausgesprochen reviertreu.\""
+kocatanbowmaker_random_021 = de \
+   "~kHanla knirscht mit den Zähnen. Sie fühlt sich in Deiner Gegenwart "
+   "offenbar nicht wohl."
+kocatanbowmaker_trigger_arrow = de "pfeil"
+kocatanbowmaker_trigger_quality = de "qualität"
+kocatanbowmaker_trigger_balance = de "ausgewogen"
+kocatanbowmaker_trigger_balance_2 = de "gleichgewicht"
+kocatanbowmaker_trigger_sell = de "verkauf"
+kocatanbowmaker_trigger_bye = de "ciao"
+kocatanbowmaker_trigger_father = de "vater"
+kocatanbowmaker_trigger_hello = de "hallo"
+kocatanbowmaker_trigger_help = de "hilfe"
+kocatanbowmaker_trigger_hive = de "nest"
+kocatanbowmaker_trigger_cliff = de "klippe"
+kocatanbowmaker_trigger_others = de "andere"
+kocatanbowmaker_trigger_buy = de "kaufen"
+kocatanbowmaker_trigger_teach = de "lernen"
+kocatanbowmaker_trigger_learn = de "lehre"
+kocatanbowmaker_trigger_learn_2 = de "beibringen"
+
+// KocatanCaptainEvil
+kocatancaptainevil_speech_001 = de \
+   "~kXacal sagt, \"Balo na'te Din? Das ist aber merkwürdig, dass Du danach "
+   "fragst.\""
+kocatancaptainevil_speech_002 = de \
+   "~kXacal sagt, \"Bestechung ist so ein hässliches Wort. Sagen wir doch "
+   "lieber, dass ein ~IGeschenk~I von tausend Schillingen etwas Kooperation "
+   "wert ist.\""
+kocatancaptainevil_speech_003 = de "~kXacal sagt, \"Ich kaufe nichts.\""
+kocatancaptainevil_speech_004 = de \
+   "~kXacal schaut Dich sichtlich belustigt an."
+kocatancaptainevil_speech_005 = de \
+   "~kXacal sagt, \"Ich bin Xacal ko'Ixca, Hauptmann der Teot-Wache und "
+   "amtierender Tezcha Kici'ca mit dem Befehl über das Haupttor. Nichts "
+   "kommt durch dieses Tor, wenn ich es nicht sage.\""
+kocatancaptainevil_speech_006 = de \
+   "~kXacal sagt, \"Kazot mit Dir, hör' auf zu schwatzen.\""
+kocatancaptainevil_speech_007 = de \
+   "~kXacal sagt, \"He, lass die Spielchen. Dies ist kein "
+   "Besucherempfangsbüro, und ich stelle hier die Fragen, nicht Du.\""
+kocatancaptainevil_speech_008 = de \
+   "~kXacal sagt, \"Tausend Schillinge sind ein guter Grund, die Regeln zu "
+   "brechen.\""
+kocatancaptainevil_speech_009 = de \
+   "~kXacal sagt, \"Auf Erlass der A'ach tezcha, bla, bla, bla, sind "
+   "folgende Gegenstände eingeschränkt; mit eingeschränkten Gegenständen "
+   "kommst Du nicht durch, außer ich erlaube es. Bereit? Waffen; Du darfst "
+   "vier Waffen tragen. Rüstung; Du kommst mit der Rüstung durch, die Du "
+   "trägst, und einer zum Wechseln, das war's. Kangi-Stein; Du hast keinen "
+   "Kangi-Stein, Zax'ix. Rohes Nerudit; unter keinen Umständen kommt rohes "
+   "Nerudit durch dieses Tor. Kapiert? Alkohol; jeglicher Alkohol wird vom "
+   "diensthabenden Hauptmann beschlagnahmt. Umacha-Bohnen; Umacha-Bohnen "
+   "sind mir egal. So, das sind die Regeln, und hier brechen wir die Regeln "
+   "nicht, außer wir haben gute Gründe.\""
+kocatancaptainevil_speech_010 = de \
+   "~kXacal sagt, \"Man bekommt alles, wenn der Preis stimmt.\""
+kocatancaptainevil_speech_011 = de \
+   "~kXacal sagt, \"Du spinnst wohl, was? An meinem Tor? Nur weiter so, Du "
+   "wirst ziemlich komisch aussehen, wenn Du Braunmais ohne Vorderzähne "
+   "isst, Ix'chot.\""
+kocatancaptainevil_speech_012 = de \
+   "~kXacal sagt, \"Ah, ich verstehe. Tepal ix'Zonak schickt Dich? Nun, Du "
+   "bist jetzt nicht mehr im Schutz des Heiligtums, also halte Dich an die "
+   "Spielregeln, oder Du endest vielleicht hier verspritzt auf dem Boden und "
+   "versuchst zu atmen, während Dir die Lungen herausgerissen sind.\""
+kocatancaptainevil_speech_013 = de \
+   "~kXacal erzählt, \"Durch die Bestimmungen der A'ach tezcha ist der "
+   "Besitz einiger Dinge verboten.\""
+kocatancaptainevil_random_001 = de \
+   "~kXacal sagt, \"Gemäß dem Tezcha A'ach befinden wir uns mit den Avaren "
+   "gegenwärtig in einem Zustand erhöhter diplomatischer Wachsamkeit. Was "
+   "bedeutet das? Das bedeutet, dass ich, obwohl wir nicht im Krieg sind, "
+   "jede Nacht eine Patrouille verruchter Kerle auf leisen Sohlen "
+   "ausschicke, die morgens Blut und Federn von ihren Rüstungen waschen - "
+   "und die Generäle tun so, als wäre nichts passiert. Das heißt, alles, was "
+   "durch dieses Tor geht, tut das nur, wenn ich glaube, dass es einen guten "
+   "Grund dafür gibt. Und wenn etwas eingeschränkt ist, sollte es besser ein "
+   "wirklich guter Grund sein.\""
+kocatancaptainevil_random_002 = de \
+   "~kXacal sagt, \"Na, was hat Dich auf unsere idyllische kleine Insel "
+   "verschlagen? Schnell verdientes Geld, stimmt's? Ja, das stimmt, leicht "
+   "verdientes Geld. Nun, das Beste wäre, Du achtest genau auf Deine "
+   "unternehmerischen Schritte oder der junge Cital könnte Dich finden, wenn "
+   "Du eines Morgens mit dem Gesicht nach unten in dem kleinen Becken vor "
+   "Konimas Grab schwimmst.\""
+kocatancaptainevil_random_003 = de \
+   "~kXacal blickt über seine Schulter und lacht gemeinsam mit den Wachen."
+kocatancaptainevil_random_004 = de \
+   "~kXacal sagt, \"Ich habe den Befehl, jeder Gruppe den Durchlass an "
+   "diesem Tor zu verweigern, die verbotene Gegenstände dabei hat. Und genau "
+   "das werde ich jetzt tun.\""
+kocatancaptainevil_random_005 = de \
+   "~kXacal witzelt, \"Sei vorsichtig dort draußen, Zax'ta.\" Seine Männer "
+   "lachen herzhaft."
+kocatancaptainevil_random_006 = de \
+   "~kXacal sagt, \"Der junge Cital befehligt das Tor am Tage und ich bin "
+   "bei Nacht hier, jede Nacht. Wir handhaben die Dinge ein wenig "
+   "unterschiedlich, wir beide.\""
+kocatancaptainevil_random_007 = de \
+   "~kXacal sagt, \"Nun werd' mal nicht frech, Kleiner.\""
+kocatancaptainevil_random_008 = de \
+   "~kXacal sagt, \"Nun komm in die Gänge. Wenn Du am Tor Geschäfte machen "
+   "willst, dann lass uns handeln. Andernfalls schert es mich keinen Chot, "
+   "was Du vorhast - hau ab, und zwar schnell. Mit Fremden habe ich nur "
+   "wenig Geduld.\""
+kocatancaptainevil_random_009 = de \
+   "~kXacals Veteranenwachen beobachten Dich verächtlich."
+kocatancaptainevil_random_010 = de \
+   "~kXacal sagt, \"Du willst nach draußen und ein bisschen spielen, häh? Es "
+   "geht ein wenig grob zu da draußen, Du solltest besser auch grob sein.\""
+kocatancaptainevil_random_011 = de \
+   "~kXacal sagt, \"Draußen im Dschungel darf man keine Gnade zeigen, denn "
+   "Dir wird auch keine gezeigt, Zax'ix. Wenn Dein Gegner flieht, dann nur, "
+   "weil er dem Tod schon nahe ist. Triff ihn mit Deinen Fernkampfwaffen, "
+   "oder er kommt zurück, um erneut anzugreifen, wenn seine Kraft "
+   "wiederhergestellt ist. Das ist das Gesetz des Dschungels.\""
+kocatancaptainevil_random_012 = de \
+   "~kXacal sagt, \"Hast Du von dem Koutom in den Tunneln gehört? Er ist "
+   "schneller als das Böse selbst, ich habe ihn gesehen. Nur die "
+   "kampferprobtesten Krieger überleben einen Schwertkampf gegen diesen "
+   "gerissenen Moch.\""
+kocatancaptainevil_trigger_bribe = de "bestechen"
+kocatancaptainevil_trigger_sell = de "verkauf"
+kocatancaptainevil_trigger_hello = de "hallo"
+kocatancaptainevil_trigger_help = de "hilfe"
+kocatancaptainevil_trigger_reason = de "geschenk"
+kocatancaptainevil_trigger_gift = de "guten grund"
+kocatancaptainevil_trigger_gift_2 = de "grund"
+kocatancaptainevil_trigger_restrictions = de "einschränkungen"
+kocatancaptainevil_trigger_buy = de "kaufen"
+kocatancaptainevil_trigger_weapons = de "waffen"
+
+// KocatanCaptainGood
+kocatancaptaingood_speech_001 = de \
+   "~kCital sagt, \"Ich hoffe, dass Du nicht versuchst, mich zu bestechen. "
+   "Wer einem ranghohen Offizier der Kici'ca Bestechungsgeld anbietet, macht "
+   "sich strafbar und wird mit Gefängnis und anschließendem Tod bestraft.\""
+kocatancaptaingood_speech_002 = de \
+   "~kCital sagt, \"Wir sind nicht hier, um etwas zu verkaufen. An diesem "
+   "Tor wird nicht verhandelt, und jeder Versuch, einen Offizier der "
+   "Ko'catani zu bestechen, könnte mit Gefangennahme enden. Gefolgt von "
+   "Verhören und dem Tod.\""
+kocatancaptaingood_speech_003 = de "~kCital sagt, \"Guten Tag, %s.\""
+kocatancaptaingood_speech_004 = de \
+   "~kCital sagt, \"Ich bin Cital ko'Manca, Hauptmann der Kin-Garde und "
+   "amtierender Tezcha Kici'ca mit dem Befehl über das Haupttor.\""
+kocatancaptaingood_speech_005 = de \
+   "~kCital sagt, \"Mein Heimatland, das zu verteidigen ich geschworen habe. "
+   "Hast Du unsere Nationalhymne gehört?\""
+kocatancaptaingood_speech_006 = de \
+   "~kCital sagt, \"Koutom ist unsere Bezeichnung für den Häuptling der "
+   "Orks.\""
+kocatancaptaingood_speech_007 = de \
+   "~kCital zitiert, \"Auf Erlass der A'ach tezcha sind folgende Gegenstände "
+   "eingeschränkt; Gruppen dürfen dieses Tor nicht mit eingeschränkten "
+   "Gegenständen in ihrem Besitz passieren. Waffen; Gruppen sind auf vier "
+   "Waffen ausschließlich zur persönlichen Verteidigung außerhalb des Tores "
+   "beschränkt. Rüstung; Gruppen sind zu ihrer Sicherheit außerhalb des "
+   "Tores auf zwei Rüstungssätze beschränkt. Ein ~ISatz~I Rüstung besteht "
+   "aus je einem der folgenden Gegenstände - ein Paar Panzerhandschuhe, ein "
+   "Schild, ein Helm und ein Brustpanzer. Kangi-Stein; unter keinen "
+   "Umständen kommt Kangi-Stein durch dieses Tor. Rohes Nerudit; unter "
+   "keinen Umständen kommt rohes Nerudit durch dieses Tor. Alkohol; unter "
+   "keinen Umständen kommen alkoholische Getränke durch dieses Tor. "
+   "Umacha-Bohnen; unter keinen Umständen kommen Umacha-Bohnen durch dieses "
+   "Tor. Ist das klar genug?\""
+kocatancaptaingood_speech_008 = de \
+   "~kCital erzählt, \"Durch die Bestimmungen der A'ach tezcha ist der "
+   "Besitz einiger Dinge verboten.\""
+kocatancaptaingood_speech_009 = de \
+   "~kCital sagt, \"Hier ist kein Markt, %s.\""
+kocatancaptaingood_speech_010 = de \
+   "~kCital singt, \"Ko'catan, Ko'catan, yo lal ona tan, tez'ca, tez'ca, hu "
+   "lal ona tan, yo'ca, yo'ca, tez lal ona tan, Ko'catan, Ko'catan!\""
+kocatancaptaingood_random_001 = de "~kCital ko'Manca gibt sich ganz sachlich."
+kocatancaptaingood_random_002 = de \
+   "~kCital sagt, \"Ich habe den Befehl, an diesem Tor jeder Gruppe den "
+   "Durchgang zu verweigern, die eingeschränkte Gegenstände bei sich hat.\""
+kocatancaptaingood_random_003 = de \
+   "~kCital sagt, \"Nimm meinen Rat an. Der Dschungel ist voller Gefahren, "
+   "die Du Dir nicht einmal vorstellen kannst. Wenn ich mich einmal vor "
+   "dieses Tor wage, dann nur mit mindestens zwanzig Soldatenveteranen "
+   "dabei. Ich empfehle Dir, dort draußen äußerst vorsichtig zu sein.\""
+kocatancaptaingood_random_004 = de \
+   "~kCital sagt, \"Ich hoffe aufrichtig, dass Dein Aufenthalt in Ko'catan "
+   "angenehm war.\""
+kocatancaptaingood_random_005 = de \
+   "~kCital sagt, \"Was Du außerhalb dieser Tore machst, ist Deine "
+   "Angelegenheit, doch was Du mit rausnimmst, ist meine. Und ich nehme "
+   "meine Angelegenheiten sehr ernst. Das ist meine Pflicht.\""
+kocatancaptaingood_random_006 = de \
+   "~kCital sagt, \"Wir befinden uns augenblicklich in einem Zustand "
+   "erhöhter diplomatischer Wachsamkeit mit den Avaren. Das heißt, dass der "
+   "Warenfluss durch dieses Tor eingeschränkt ist, obwohl wir nicht im Krieg "
+   "sind.\""
+kocatancaptaingood_random_007 = de \
+   "~kCital blickt über seine Schulter, und die Wachen nehmen Haltung an."
+kocatancaptaingood_random_008 = de "~kCital betrachtet Dich unverwandt."
+kocatancaptaingood_random_009 = de \
+   "~kCital sagt zu seinen Männern, \"Vapil adiki zax'lal. A mozo ona zax.\""
+kocatancaptaingood_random_010 = de \
+   "~kCitals Elitewachen beobachten jede Deiner Bewegungen."
+kocatancaptaingood_random_011 = de \
+   "~kCital sagt, \"Ein kleiner Ratschlag für die Unvorsichtigen. Wenn Du "
+   "bemerkst, dass es in der Gegend dunkel wird, musst Du auf die Teotkriipa "
+   "aufpassen, auch Schattenbiester genannt. Die sind schnell und "
+   "gefährlich.\""
+kocatancaptaingood_random_012 = de \
+   "~kCital sagt, \"Ich warne Dich auch: Gute Soldaten überleben im "
+   "Dschungel, indem sie ihre Verbündeten verteidigen. Das gilt für beide "
+   "Seiten, für Dich und für Deine Gegner.\""
+kocatancaptaingood_random_013 = de \
+   "~kCital sagt, \"Hüte Dich vor den Avar'ca, auch wenn wir uns angeblich "
+   "in einem Zustand der Neutralität mit ihnen befinden. Sie verteidigen ihr "
+   "Revier und werden nicht zögern, Dich anzugreifen, wenn sie Dich als "
+   "Bedrohung empfinden.\""
+kocatancaptaingood_random_014 = de \
+   "~kCital sagt, \"Dein Überleben hängt meist davon ab, Deinen Feind zu "
+   "kennen. Die primitive Militärdoktrin der Avar'ca gibt normalerweise vor, "
+   "dass sie ihre Fernkampfwaffen weit weg von Dir, dem Ziel, aufstellen, "
+   "während ihre Infanterie zum Angriff vorrückt. Am besten bekämpft man "
+   "das, indem man einen Teil seiner Kräfte in ihre Flanke schickt und die "
+   "Bogenschützen und Zauberer auslöscht.\""
+kocatancaptaingood_trigger_bribe = de "bestechen"
+kocatancaptaingood_trigger_buy = de "kaufen"
+kocatancaptaingood_trigger_hello = de "hallo"
+kocatancaptaingood_trigger_help = de "hilfe"
+kocatancaptaingood_trigger_restricted_items = de "eingeschränkte gegenstände"
+kocatancaptaingood_trigger_weapons = de "waffen"
+kocatancaptaingood_trigger_sell = de "verkauf"
+
+// KocatanInnkeeper
+kocataninnkeeper_speech_001 = de \
+   "~kMoxal sagt, \"Leider gibt es viele Missverständnisse zwischen unserer "
+   "Kultur und den Avars. Sobald diese Dinge geregelt sind, wird man sie gut "
+   "ausnehmen..., ich meine, wird man gut Handel mit ihnen treiben können.\""
+kocataninnkeeper_speech_002 = de \
+   "~kMoxal sagt, \"Ein gutes Geschäft interessiert mich immer.\""
+kocataninnkeeper_speech_003 = de \
+   "~kMoxal sagt, \"Auf bald, %s! Mögen alle Deine Reisen gewinnbringend "
+   "sein.\""
+kocataninnkeeper_speech_004 = de \
+   "~kMoxal ix'Hanak begrüßt Dich mit, \"Hallo, %s! Du kommst gerade "
+   "rechtzeitig. Etwas später und Du hättest ein paar großartige Angebote "
+   "verpasst.\""
+kocataninnkeeper_speech_005 = de "~kMoxal sagt, \"Sei gegrüßt, %s!\""
+kocataninnkeeper_speech_006 = de \
+   "~kMoxal sagt, \"Ich bin hier, um Dir zu dienen.\""
+kocataninnkeeper_speech_007 = de \
+   "~kMoxal sagt, \"Dies ist die großartigste Gesellschaft, die die "
+   "Menschheit je gesehen hat. Doch vielleicht werde ich eines Tages "
+   "Ko'catan verlassen, um zu sehen, was die alten Städte zu bieten haben.\""
+kocataninnkeeper_speech_008 = de \
+   "~kMoxal sagt, \"Konima war der größte Held und Unternehmer, den diese "
+   "Gesellschaft je gesehen hat. Ich wünschte, ich wäre damals dabei "
+   "gewesen, um gleich zu Beginn bei seiner Expedition einzusteigen.\""
+kocataninnkeeper_speech_009 = de \
+   "~kMoxal sagt, \"Riija ist ein feiner, aufrechter Gott. Er verdient den "
+   "schlechten Ruf nicht, den einige Leute ihm nachsagen.\""
+kocataninnkeeper_speech_010 = de \
+   "~kMoxal sagt, \"Ich habe hier etwas zu essen, doch ich bin sicher, dass "
+   "ich Dir helfen kann, Dein hart verdientes Geld besser auszugeben.\""
+kocataninnkeeper_speech_011 = de \
+   "~kIm Raum wird es still, als %s den verkümmerten Zwerg erwähnt."
+kocataninnkeeper_speech_012 = de \
+   "~kMoxal sagt, \"Ich fürchte, es ist mir noch nicht erlaubt, irgendetwas "
+   "zu lehren.\""
+kocataninnkeeper_random_001 = de \
+   "~kMoxal sagt, \"Weißt Du ... Ach, vergiss es, ich sollte es eigentlich "
+   "nicht sagen ... nun, na ja gut, wo wir schon mal Freunde sind. Ich kenne "
+   "ein paar Schatzsucher, die eine Smaragd-Mine gefunden haben. Sie haben "
+   "ihren Claim noch nicht registrieren lassen, deshalb ist noch genug Zeit, "
+   "um sich daran zu beteiligen. Wenn Du mir 12.000 Schillinge gibst, können "
+   "wir diese innerhalb von zwei Wochen vervierfachen.\""
+kocataninnkeeper_random_002 = de \
+   "~kMoxal sagt, \"Ich denke daran, eine zweite Herberge auf dem Festland "
+   "zu eröffnen. Stell Dir vor, das echte Gefühl von Ko'catan mitten in Cor "
+   "Noth. Ich sag' Dir was, weil ich Dich mag, lass' ich Dich 25.000 "
+   "Schillinge investieren. Damit würde Dir ein Viertel der Herberge und "
+   "ihres Gewinns gehören.\""
+kocataninnkeeper_random_003 = de \
+   "~kMoxal sagt, \"Hast Du schon beim Turnier der Krieger gewettet? Ich "
+   "weiß aus geheimer Quelle, dass der Champion verlieren wird. Wenn Du "
+   "einsteigen willst, die Quoten stehen 67 zu 1. Gewinn garantiert. Gib mir "
+   "500 Schillinge und ich werde die Wette für Dich platzieren.\""
+kocataninnkeeper_random_004 = de \
+   "~kMoxal sagt, \"Komm her. Willst Du das große Geld machen? Ich habe mit "
+   "Leuten zu tun, bei denen die Gewinne riesig sind. Und so funktioniert "
+   "das: Als neues Mitglied bezahlst Du mir 1.000 Schillinge. Die nächsten "
+   "zwanzig neuen Mitglieder werden Dir jeder 1.000 Schillinge bezahlen. Du "
+   "wirst innerhalb kürzester Zeit reich sein.\""
+kocataninnkeeper_random_005 = de \
+   "~kMoxal sagt, \"Letzte Chance, an der Verlosung des Nerudit-Bogens "
+   "teilzunehmen! Die Teilnahme kostet nur 500 Schillinge. Der Gewinner wird "
+   "morgen verkündet.\""
+kocataninnkeeper_random_006 = de \
+   "~kMoxal sagt, \"Wie viel Geld hast Du bei Dir? Ich habe ein kleines "
+   "Anwesen, das ich heute abstoßen muss. Es handelt sich um eine kleine "
+   "Villa auf der anderen Seite der Insel. Die Gegend ist ein kleines "
+   "bisschen gefährlich, aber es ist eine gute Anlage, und ich bin bereit, "
+   "mich für nur 100.000 Schillinge davon zu trennen.\""
+kocataninnkeeper_random_007 = de \
+   "~kMoxal sagt, \"Ich weiß aus geheimer Quelle, dass Bier bald knapp "
+   "werden wird. Ich habe ein paar Fässer zurückgelegt. Wenn Du willst, "
+   "bewahre ich sie hier auf, bis das Bier knapp wird, aber sie können schon "
+   "für nur 900 Schillinge Dir gehören. Denk darüber nach, Du könntest für "
+   "einen Becher Bier jeden Preis verlangen, den Du willst.\""
+kocataninnkeeper_random_008 = de \
+   "~kMoxal sagt, \"Dies hier war keine richtige Herberge, bevor Menschen "
+   "aus Deinem Land kamen. Vor langer Zeit wurde sie gebaut, um die "
+   "Botschafter der Avars zu beherbergen. Nachdem dann der Vertrag aufgelöst "
+   "wurde, wurde sie von Soldaten benutzt, die, nun, lass es mich so sagen, "
+   "lieber hier schliefen als in ihren Kasernen.\""
+kocataninnkeeper_random_009 = de \
+   "~kMoxal sagt, \"Dies ist ein wunderbarer Ort, um hier die Nacht zu "
+   "verbringen. Lass Dich nicht von dem Lärm von unten stören. Normalerweise "
+   "wird es um Mitternacht herum ruhiger.\""
+kocataninnkeeper_random_010 = de \
+   "~kDu hörst aus der Kneipe unten lautes Gelächter und Geschrei."
+kocataninnkeeper_random_011 = de \
+   "~kLauter Krach von unten schreckt Dich auf. Doch anscheinend an solche "
+   "Geräusche gewöhnt, schenkt Moxal ihnen keine Beachtung."
+kocataninnkeeper_random_012 = de \
+   "~kMoxal sagt, \"Wenn Du draußen im Dschungel bist, könntest Du "
+   "vielleicht Wulfgang ansprechen, ob er etwas für Dich hat.\""
+kocataninnkeeper_random_013 = de "~kMoxal lächelt Dich heiter an."
+kocataninnkeeper_random_014 = de \
+   "~kMoxal singt fröhlich ein altes Volkslied vor sich hin."
+kocataninnkeeper_random_015 = de \
+   "~kMoxal lächelt und sagt, \"Heute ist ein großartiger Tag, nicht wahr?\""
+kocataninnkeeper_random_016 = de \
+   "~kMoxal zählt einen großen Haufen Münzen und kichert vergnügt vor sich "
+   "hin."
+kocataninnkeeper_random_017 = de \
+   "~kMoxal sagt, \"Und wie lange bist Du jetzt in der Siedlung? Du musst es "
+   "hier lieben. Ich jedenfalls tue es.\""
+kocataninnkeeper_random_018 = de \
+   "~kMoxal sagt, \"Das Geschäft blüht, seitdem Deine Leute hierher kommen. "
+   "In der Tat brauche ich nur noch ein paar Meister, die mich unterstützen, "
+   "und ich werde einen Rang nach oben rücken.\""
+kocataninnkeeper_random_019 = de \
+   "~kMoxal sagt zu sich selbst, \"Woher soll ich bloß 450.000 Schillinge "
+   "bekommen? Ich bin ein toter Mann. Riija, hilf mir, ich bin ein toter "
+   "Mann.\""
+kocataninnkeeper_random_020 = de \
+   "~kMoxal schwitzt stark und sagt, \"Xacal ko'Ixca hat Dich nicht "
+   "geschickt, oder? Wenn doch, dann lass ihn wissen, dass ich sein Geld "
+   "~Ihabe~I. Nun, ich meine damit, dass ich sein Geld morgen haben werde.\""
+kocataninnkeeper_random_021 = de \
+   "~kMoxal geht unruhig hin und her, als ob er irgendein Unglück erwarten "
+   "würde."
+kocataninnkeeper_random_022 = de \
+   "~kMoxal sagt zu sich selbst, \"Was soll ich nur tun?! Es gibt keine "
+   "Möglichkeit, wie ich an so viel Geld rankommen könnte.\""
+kocataninnkeeper_random_023 = de \
+   "~kMoxal wischt sich Tränen aus den Augen und murmelt dabei etwas über "
+   "den Verlust von viel Geld."
+kocataninnkeeper_trigger_sell = de "verkauf"
+kocataninnkeeper_trigger_bye = de "ciao"
+kocataninnkeeper_trigger_hello = de "hallo"
+kocataninnkeeper_trigger_help = de "hilfe"
+kocataninnkeeper_trigger_buy = de "kaufen"
+kocataninnkeeper_trigger_stunted_dwarf = de "verkümmerter zwerg"
+kocataninnkeeper_trigger_teach = de "lernen"
+kocataninnkeeper_trigger_teach_2 = de "lehren"
+
+// KocatanLanguageMaster
+kocatanlanguagemaster_speech_001 = de \
+   "~kQuetzal sagt, \"Yokinich wäre ein sehr großes Insekt, eine "
+   "Riesenameise. Wenn man das Wort für rot hinzufügt, ergibt es Kawilkinich "
+   "für die mutierte rote Ameise.\""
+kocatanlanguagemaster_speech_002 = de \
+   "~kQuetzal sagt, \"Die Vogelmenschen sind schlau genug, eine halbwegs "
+   "verständliche Sprache zu bilden, doch das macht sie noch lange nicht "
+   "zivilisiert.\""
+kocatanlanguagemaster_speech_003 = de \
+   "~kQuetzal sagt, \"Ich hab' hier ein paar Sachen, die ich Dir verkaufen "
+   "könnte.\""
+kocatanlanguagemaster_speech_004 = de \
+   "~kQuetzal sagt, \"Wir könnten ja erstmal Insekten analysieren. Ein "
+   "Insekt heißt grundsätzlich erstmal Kinich. Ein kleines Insekt, wie zum "
+   "Beispiel eine winzige Spinne, wäre dann ein Imixkinich.\""
+kocatanlanguagemaster_speech_005 = de \
+   "~kQuetzal sagt, \"Sei gegrüßt, %s, Du hast einen interessanten Namen. Wo "
+   "kommt er her?\""
+kocatanlanguagemaster_speech_006 = de \
+   "~kQuetzal sagt, \"Ich bin mit Abstand die intelligenteste Person in "
+   "dieser Siedlung. Ich weiß alles über Syntax, Geschichte und Philosophie. "
+   "Ich kann sogar Einfaltspinseln beibringen, fließend Ko'catanesisch zu "
+   "sprechen.\""
+kocatanlanguagemaster_speech_007 = de \
+   "~kQuetzal sagt, \"Kauil bedeutet giftig, daher ist ein Skorpion ein "
+   "Kinkauilkinich und eine Riesenspinne ist ein Teotkauilkinich. Bei "
+   "Ameisen ist es ähnlich.\""
+kocatanlanguagemaster_speech_008 = de \
+   "~kQuetzal bemerkt schneidend, \"Ko'catan heißt wörtlich übersetzt "
+   "'Festungsanlage der Meisterkämpfer'. Es schreit förmlich heraus, wie "
+   "primitiv unsere Gesellschaft ist. Man könnte es auch gleich 'Versteck "
+   "der blöden Raufbolde' nennen.\""
+kocatanlanguagemaster_speech_009 = de \
+   "~kQuetzal sagt, \"Ja, Konima war ein großer Krieger, der gegen die Orks "
+   "kämpfte, aber diese Gesellschaft hat er wohl kaum gegründet. Unsere "
+   "Sprache und Kultur entstammen einer verlorenen Gruppe von Raufbolden, "
+   "die in einer höchst unwirtlichen Gegend nach Zivilisation dürsteten.\""
+kocatanlanguagemaster_speech_010 = de \
+   "~kQuetzal sagt, \"Stimmt genau, Konima war ein großer Krieger, der gegen "
+   "die Orks kämpfte.\""
+kocatanlanguagemaster_speech_011 = de \
+   "~kQuetzal sagt, \"Hast Du irgendwelche Bücher oder Schriftrollen für "
+   "mich?\""
+kocatanlanguagemaster_speech_012 = de \
+   "~kQuetzal sagt, \"Bleib hier und höre mir zu. Ich werde Dir helfen, "
+   "unsere Sprache zu lernen.\""
+kocatanlanguagemaster_random_001 = de \
+   "~kQuetzal sagt, \"Die meisten Fremden begreifen nicht einmal die "
+   "einfachen Regeln der Aussprache. Nimm zum Beispiel den Buchstaben 'X'. "
+   "Ein echter Bürger von Ko'catan beginnt den Buchstaben ganz weit hinten "
+   "in der Kehle, als ob er spucken wollte. Am Ende klingt der Laut wie das "
+   "'sch' in Deinem Wort 'Wunsch'.\""
+kocatanlanguagemaster_random_002 = de \
+   "~kQuetzal sagt, \"Lass mich Dich lehren, wie man unsere 'O's richtig "
+   "ausspricht. Spanne Deine Zunge an und runde Deine Lippen zu einem engen "
+   "Kreis. 'O's sind immer lang und tragen die Betonung in einem Wort. Somit "
+   "klingt unser 'Ot' wie euer 'Boot'.\""
+kocatanlanguagemaster_random_003 = de \
+   "~kQuetzal sagt, \"Betone immer die erste Silbe in einem Ko'catan-Wort. "
+   "Außerdem lege genauso viel Betonung auf jede Silbe, die unmittelbar auf "
+   "einen Apostroph folgt. Ko'catan ist KO - CAtan.\""
+kocatanlanguagemaster_random_004 = de \
+   "~kQuetzal sagt, \"Ich bin der Einzige in der Stadt, der die Fähigkeiten "
+   "besitzt, die man braucht, um Sprachen zu lehren. Unter Berücksichtigung "
+   "aller Umstände sollte ich Quetzal ko'Atezya sein.\""
+kocatanlanguagemaster_random_005 = de \
+   "~kQuetzal sagt, \"Du sprichst unser 'E' falsch aus. Mach es weicher und "
+   "bilde es vorne im Mund. Wir sagen 'Beete' nicht 'bette', 'bäte' oder "
+   "'bitte'.\""
+kocatanlanguagemaster_random_006 = de \
+   "~kQuetzal sagt, \"Unsere 'A's sind fast immer weich und lang wie in "
+   "'Wal'. Lockere Deine Zunge etwas mehr und mach Deine Lippen breiter. "
+   "Genau so.\""
+kocatanlanguagemaster_random_007 = de \
+   "~kQuetzal sagt, \"Ich verstehe die meisten Namen Deiner Leute nicht. Sie "
+   "scheinen nicht viel Struktur zu haben.\""
+kocatanlanguagemaster_random_008 = de \
+   "~kQuetzal sagt, \"Ich kann auch die Sprache der Avar ein wenig, doch "
+   "nicht genug, um sie zu lehren. Wenn Du wirklich mit diesen Kreaturen "
+   "reden willst, solltest Du Franz zax'Ak aufsuchen.\""
+kocatanlanguagemaster_random_009 = de \
+   "~kQuetzal sagt, \"Unsere Sprache setzt sich zum größten Teil aus einer "
+   "logischen Folge von Lauten und Bedeutungen zusammen. Soll ich mal ein "
+   "paar Wörter für Dich zergliedern und analysieren?\""
+kocatanlanguagemaster_random_010 = de \
+   "~kQuetzal sagt, \"Viele unserer Wörter bestehen aus drei Silben, wie "
+   "etwa Puucmecmoch. Das ist übrigens ein Monster, welches sowohl Pflanze "
+   "als auch Tier ist.\""
+kocatanlanguagemaster_random_011 = de \
+   "~kQuetzal sagt, \"Kohuzotz leben draußen auf der Insel. Bahal weiß mehr "
+   "über sie als sonst jemand. Frag' ihn.\""
+kocatanlanguagemaster_trigger_ant = de "ameisen"
+kocatanlanguagemaster_trigger_ant_2 = de "ameise"
+kocatanlanguagemaster_trigger_buy = de "kaufen"
+kocatanlanguagemaster_trigger_dissect = de "analysieren"
+kocatanlanguagemaster_trigger_dissect_2 = de "zergliedern"
+kocatanlanguagemaster_trigger_hello = de "hallo"
+kocatanlanguagemaster_trigger_help = de "hilfe"
+kocatanlanguagemaster_trigger_sell = de "verkauf"
+kocatanlanguagemaster_trigger_teach = de "lernen"
+kocatanlanguagemaster_trigger_teach_2 = de "lehren"
+kocatanlanguagemaster_trigger_teach_3 = de "beibringen"
+
+// KocatanMadScientist
+kocatanmadscientist_speech_001 = de "~kBahal sagt, \"Behalte den Spielkram.\""
+kocatanmadscientist_speech_002 = de \
+   "~kBahal sagt, \"Komm zurück und erzähle mir, wenn Du anfängst, Dich... "
+   "merkwürdig zu fühlen. Ich frage ohne besonderen Grund.\""
+kocatanmadscientist_speech_003 = de \
+   "~kBahal sagt, \"Hör' gut zu... ~IMord~I ist der Schlüssel. Erschlage die "
+   "Widersacher auf der äußersten Gegenseite, und Dein Karma wird die "
+   "gewünschte Stufe erreichen.\""
+kocatanmadscientist_speech_004 = de \
+   "~kBahal sagt, \"Das Mädchen sollte eigentlich für mich kochen und sauber "
+   "machen, nicht ihr Vater. Warum er... \" Bahal hält inne und lächelt vor "
+   "sich hin, \"Nein, das will ich Dir gar nicht sagen.\""
+kocatanmadscientist_speech_005 = de \
+   "~kBahal sagt, \"Gut, da bist Du ja. Tritt etwas näher. Näher.\""
+kocatanmadscientist_speech_006 = de \
+   "~kBahal sagt, \"Hm, wie kann ich Dich am besten verwenden?\""
+kocatanmadscientist_speech_007 = de \
+   "~kBahal sagt, \"Helfen?! Vielleicht können wir uns gegenseitig helfen. "
+   "Geh zu dem Tisch da hinten und schließ die Augen.\""
+kocatanmadscientist_speech_008 = de \
+   "~kBahal sagt, \"Warum sollte ich ~IDir~I helfen?\""
+kocatanmadscientist_speech_009 = de \
+   "~kBahal sagt, \"Oh, mit Ko'catan habe ich Pläne.\""
+kocatanmadscientist_speech_010 = de \
+   "~kBahal sagt, \"Kohuzotz. Diese kleinen drachenartigen Biester. Sind "
+   "lecker und in anderer Beziehung noch wertvoller.\""
+kocatanmadscientist_speech_011 = de \
+   "~kBahal sagt, \"Wenn diese unwissenden Barbaren wenigstens Bescheid "
+   "wüssten, welche wahren, dunklen Geheimnisse ihr gefallener Märtyrer "
+   "hatte.\""
+kocatanmadscientist_speech_012 = de \
+   "~kBahal sagt, \"Ich habe Monate gebraucht, um einen lebenden Kriipa zu "
+   "fangen. Sie verstecken sich an den ungewöhnlichsten Stellen.\""
+kocatanmadscientist_speech_013 = de \
+   "~kBahal sagt, \"Ich könnte Dir so viel beibringen. Doch was nützt es, Du "
+   "würdest bestimmt wahnsinnig. Wie die anderen.\""
+kocatanmadscientist_speech_014 = de \
+   "~kBahal sagt, \"Du glaubst also, ich hätte keine Hirnmasse?! Behalte "
+   "Deine lange Nase in Deinem Gesicht und nicht in meinem.\""
+kocatanmadscientist_speech_015 = de \
+   "~kBahal sagt, \"Du suchst den Schattengott? Du wirst nicht das finden, "
+   "was Du erwartest.\""
+kocatanmadscientist_speech_016 = de \
+   "~kBahal kichert hämisch, \"Ich sage nur so viel: Konima hat mehr Frauen "
+   "abgeschlachtet als Orks.\""
+kocatanmadscientist_speech_017 = de \
+   "~kBahal sagt, \"Ich werde mich nicht verplappern und Dir keinen Anlass "
+   "geben, noch eine Hexenjagd auf mich anzuzetteln.\""
+kocatanmadscientist_speech_018 = de \
+   "~kBahal sagt, \"Du würdest nicht haben wollen, was ich habe.\""
+kocatanmadscientist_speech_019 = de \
+   "~kBahal sagt, \"Ich könnte Dir so viel beibringen. Doch was nützt es, Du "
+   "würdest bestimmt wahnsinnig. Wie die anderen.\""
+kocatanmadscientist_speech_020 = de \
+   "~kBahal sagt, \"Ich habe sie erschaffen, damit sie das Problem mit den "
+   "Utoms beseitigen. Sie sind wunderbare Jäger. Dank des Nether-Elements "
+   "fast ungreifbar und doch mit der Wildheit eines Kriipa.\""
+kocatanmadscientist_speech_021 = de \
+   "~kBahal sagt, \"Jene hässlichen, menschenähnlichen Kreaturen in den "
+   "Höhlen am Rande von Ko'catan.\""
+kocatanmadscientist_speech_022 = de \
+   "~kBahal sagt, \"Du würdest es nicht verstehen.\""
+kocatanmadscientist_speech_023 = de \
+   "~kBahal sagt, \"Wulfgang kann man schon gebrauchen.\""
+kocatanmadscientist_speech_024 = de \
+   "~kBahal grinst, schreibt etwas auf einen kleinen Block und steckt ihn in "
+   "die Schürze zurück."
+kocatanmadscientist_random_001 = de \
+   "~kBahal sagt, \"Irgendwie kriege ich nie genug Kohuzotz.\""
+kocatanmadscientist_random_002 = de \
+   "~kBahal sagt, \"Soll ich Dich darüber erleuchten, wie man die äußersten "
+   "Extreme von Gut und Böse erreicht?\""
+kocatanmadscientist_random_003 = de \
+   "~kBahal sagt, \"Bleib eine Weile hier, ich möchte da etwas an Dir "
+   "ausprobieren. Es wird ein bisschen weh tun. Tja, eigentlich sogar sehr.\""
+kocatanmadscientist_random_004 = de \
+   "~kBahal sagt, \"Wie viel wiegst Du, und was genau hast Du heute "
+   "gegessen?\""
+kocatanmadscientist_random_005 = de \
+   "~kBahal misst sorgfältig den Deckel eines ungebundenen Buches aus. Er "
+   "kommt auf Dich zu, piekst Dir ins Fleisch, runzelt die Stirn und sagt, "
+   "\"Zu weich.\""
+kocatanmadscientist_random_006 = de \
+   "~kBahal säubert einen kleinen Kadaver, von dem Du nur annehmen kannst, "
+   "dass es ein Vogel war. Er wirft alles bis auf die Eingeweide weg."
+kocatanmadscientist_random_007 = de \
+   "~kBahal sagt, \"Woher genau kommst Du, und wann wurdest Du geboren?\""
+kocatanmadscientist_random_008 = de \
+   "~kBahal sagt, \"Ich brauche einen Tropfen Salzwasser. Hättest Du eine "
+   "Träne für mich? Ich kann Dir helfen, eine zu erzeugen.\""
+kocatanmadscientist_random_009 = de \
+   "~kBahal sticht Dich mit einer langen Nadel, nimmt einige Tropfen Blut "
+   "und fügt sie einem dunklen Trank zu."
+kocatanmadscientist_random_010 = de \
+   "~kBahal sagt, \"Rück' mal etwas nach links.\" Daraufhin richtet er "
+   "irgendeinen Apparat auf Dich aus."
+kocatanmadscientist_random_011 = de \
+   "~kBahal sagt, \"Hast Du die Teotkriipa gesehen? Ich bin sehr stolz auf "
+   "das Experiment.\""
+kocatanmadscientist_random_012 = de \
+   "~kBahal sagt, \"Wie viele Menschen hast Du in Deinem Leben umgebracht? "
+   "Du siehst aus, als könntest Du ein Mörder sein.\""
+kocatanmadscientist_random_013 = de \
+   "~kBahal sagt, \"Ich muss erst noch alles in Ordnung bringen nach diesem "
+   "Experiment, dann habe ich Zeit für Dich.\""
+kocatanmadscientist_random_014 = de \
+   "~kBahal verschlingt schnell etwas, das wie ein kleiner Käfer aussieht."
+kocatanmadscientist_random_015 = de \
+   "~kBahal sagt, \"Fühlst Du Dich komisch?\" Merkwürdigerweise verlierst Du "
+   "vorübergehend Deinen Gleichgewichtssinn."
+kocatanmadscientist_random_016 = de \
+   "~kBahal deutet mit einem kurzen Zweig auf Dich. Einen Moment lang kannst "
+   "Du Deine Zunge nicht mehr im Mund spüren. Das Gefühl vergeht, als er den "
+   "Stock weglegt."
+kocatanmadscientist_random_017 = de \
+   "~kDein Blick verschwimmt ein wenig. Du nimmst eine schwache Spur von "
+   "etwas Essigähnlichem wahr."
+kocatanmadscientist_random_018 = de \
+   "~kPlötzlich fühlt es sich an, als ob Deine Haut sich über dem Fleisch "
+   "spannt. Bahal kichert vor sich hin, als er irgendetwas Kleines in einen "
+   "dunkelfarbigen, hölzernen Kasten zurücklegt."
+kocatanmadscientist_random_019 = de \
+   "~kBahal hält Dir etwas Kleines in seiner Hand hin. Ehe er es Dir geben "
+   "kann, kreischt er, \"~BAutsch! Es hat mich gebissen!~B\" Dann wühlt er "
+   "hastig ein paar Kisten durch und stürzt eine Phiole mit pinkfarbener "
+   "Flüssigkeit hinunter."
+kocatanmadscientist_random_020 = de "~kBahal sagt, \"Geh jetzt.\""
+kocatanmadscientist_random_021 = de \
+   "~kBahal starrt Dich an. Ein unangenehmes Gefühl überkommt Dich, als "
+   "blicke er direkt in Deine Seele hinein."
+kocatanmadscientist_random_022 = de \
+   "~kBahal funkelt Dich an, \"Mit Dir bin ich fertig! Hau ab!\""
+kocatanmadscientist_random_023 = de \
+   "~kBahal schreit, \"~BHinaus! Du verdirbst mein Werk!~B\""
+kocatanmadscientist_random_024 = de \
+   "~kPlötzlich bekommt Bahal einen irrsinnigen Blick und beginnt, Dich mit "
+   "einem Fleischermesser durch die Hütte zu jagen. Nach ein paar Minuten "
+   "schüttelt er den Kopf und ignoriert Dich."
+kocatanmadscientist_random_025 = de \
+   "~kBahal entkorkt eine kleine Phiole. Kurz darauf wird Dir übel. Dein "
+   "Körper scheint Dir zu sagen, dass es eine gute Idee wäre, bald etwas "
+   "frische Luft zu schnappen."
+kocatanmadscientist_trigger_sell = de "verkauf"
+kocatanmadscientist_trigger_bye = de "ciao"
+kocatanmadscientist_trigger_enlighten = de "erleuchte"
+kocatanmadscientist_trigger_enlighten_2 = de "erschlagen"
+kocatanmadscientist_trigger_hello = de "hallo"
+kocatanmadscientist_trigger_help = de "hilfe"
+kocatanmadscientist_trigger_dragonfly = de "drachenfliege"
+kocatanmadscientist_trigger_learn = de "lernen"
+kocatanmadscientist_trigger_plans = de "pläne"
+kocatanmadscientist_trigger_secret = de "geheimnis"
+kocatanmadscientist_trigger_secret_2 = de "secrets"
+kocatanmadscientist_trigger_buy = de "kaufen"
+kocatanmadscientist_trigger_teach = de "lehren"
+kocatanmadscientist_trigger_ways = de "wege"
+kocatanmadscientist_trigger_yes = de "ja"
+
+// KocatanShopkeeper
+kocatanshopkeeper_speech_001 = de "~kPacal sagt, \"Ich liebe das Geschäft!\""
+kocatanshopkeeper_speech_002 = de \
+   "~kPacal sagt, \"Ich kaufe alles Mögliche.\""
+kocatanshopkeeper_speech_003 = de "~kPacal sagt, \"Dann auf Wiedersehen.\""
+kocatanshopkeeper_speech_004 = de "~kPacal sagt, \"Hallo. Komm rein.\""
+kocatanshopkeeper_speech_005 = de \
+   "~kPacal sagt, \"Ich bin hier, um Dir zu dienen.\""
+kocatanshopkeeper_speech_006 = de \
+   "~kPacal sagt, \"Ko'catan ist die Stadt, die Konima hier gründete, wohin "
+   "er kam, um zu sterben. Die Stadt ist beträchtlich gewachsen, aber wir "
+   "nennen sie immer noch beim selben Namen.\""
+kocatanshopkeeper_speech_007 = de \
+   "~kPacal sagt, \"Das ist hier der militärische Anführer. Ein sehr "
+   "mächtiger Mann. Er hat seinen Titel direkt vom ursprünglichen "
+   "Kriegsherrn, der unser Volk hierher führte.\""
+kocatanshopkeeper_speech_008 = de \
+   "~kPacal sagt, \"Alles hier steht zum Verkauf.\""
+kocatanshopkeeper_random_001 = de \
+   "~kPacal sagt, \"Manchmal ist es am besten, einfach mich zu fragen, wenn "
+   "Du nach etwas ganz Bestimmtem suchst. Mein Ablagesystem ist... "
+   "einzigartig, aber ich fürchte, auch etwas verwirrend.\""
+kocatanshopkeeper_random_002 = de \
+   "~kPacal sagt, \"Dieses Gebäude diente den Kici'ca viele Jahre lang als "
+   "Waffenlager, denn zu jener Zeit hatte es eine strategisch günstige Lage "
+   "nahe dem Eingang zu den unterirdischen Höhlen der Utoms. Nach und nach "
+   "wurden diese Eingänge versiegelt, und jetzt denken wir nur noch selten "
+   "an die Bedrohung, die dort unten lebt.\""
+kocatanshopkeeper_random_003 = de \
+   "~kPacal sagt, \"Es ist schon erstaunlich, dass Du es überhaupt vom Land "
+   "jenseits und unter dem Wasser bis hierher geschafft hast.\""
+kocatanshopkeeper_random_004 = de \
+   "~kPacal sagt, \"Ich diente in der Kici'ca, aber nicht als Soldat. Ich "
+   "habe als Quartiermeister meine Pflicht getan.\""
+kocatanshopkeeper_random_005 = de \
+   "~kPacal sagt, \"Man könnte wohl sagen, ich bin ebenso sehr Sammler wie "
+   "Kaufmann. So kennt man mich hier jedenfalls, und deshalb ist die letzte "
+   "Silbe meines Namens, Pacal ix'Anoak, das 'ak'. Das bedeutet, dass ich "
+   "ein Kaufmann bin.\""
+kocatanshopkeeper_random_006 = de \
+   "~kPacal sagt, \"Dieses Gebäude, ein altes Militärgebäude, weist einige "
+   "einmalige Besonderheiten in der Konstruktion auf.\""
+kocatanshopkeeper_random_007 = de \
+   "~kPacal sagt, \"Lass es mich nur wissen, wenn ich Dir helfen kann, "
+   "irgendetwas zu finden.\""
+kocatanshopkeeper_random_008 = de \
+   "~kIn dem alten Waffenlager ist es sehr kühl."
+kocatanshopkeeper_random_009 = de \
+   "~kPacal sagt, \"Über die Preise wird ~Inicht~I verhandelt.\""
+kocatanshopkeeper_random_010 = de "~kPacal sagt, \"Hmmm... \""
+kocatanshopkeeper_random_011 = de \
+   "~kPacal sagt, \"Ich liebe meine Sachen. Du wirst über manche Dinge "
+   "staunen, die ich hier habe.\""
+kocatanshopkeeper_random_012 = de \
+   "~kPacal sagt, \"Pass auf, wo Du hintrittst!\""
+kocatanshopkeeper_random_013 = de \
+   "~kPacal sagt, \"Ich habe gehört, dass ihr in eurem Land die Toten in "
+   "Lumpen wickelt und sie dann auferstehen, um zu Napleocs zu werden und "
+   "das Land zu plagen! Kann das wahr sein? Seid ihr so dämlich, Zax'nap?\""
+kocatanshopkeeper_random_014 = de \
+   "~kPacal sagt, \"Die Tezotz machen die Fortbewegung durch eure "
+   "Abwasserkanäle viel gefährlicher als bei uns, glaube ich... in dieser "
+   "Stadt ist die Reise durch das Abwassersystem vielleicht nicht die "
+   "~Iglanzvollste~I Art herumzukommen, aber sie kann zweckdienlich sein, "
+   "wenn die Situation es erfordert.\""
+kocatanshopkeeper_trigger_business = de "geschäft"
+kocatanshopkeeper_trigger_sell = de "verkauf"
+kocatanshopkeeper_trigger_goodbye = de "tschüss"
+kocatanshopkeeper_trigger_goodbye_2 = de "wiedersehen"
+kocatanshopkeeper_trigger_hello = de "hallo"
+kocatanshopkeeper_trigger_help = de "hilfe"
+kocatanshopkeeper_trigger_buy = de "kaufen"
+
+// KocatanTailor
+kocatantailor_speech_001 = de \
+   "~kTepal sagt, \"Ich hörte, dass die Avaren ein besonderes Interesse an "
+   "kostbaren Steinen haben.\""
+kocatantailor_speech_002 = de \
+   "~kTepal sagt, \"Also, ähm, was hast Du denn, schätze ich?\""
+kocatantailor_speech_003 = de \
+   "~kTepal sagt, \"Mach's gut, bis wir uns mal wiedersehen.\""
+kocatantailor_speech_004 = de "~kTepal sagt, \"Oh, hallo %s.\""
+kocatantailor_speech_005 = de \
+   "~kTepal sagt, \"Dies ist die Schneiderwerkstatt. Ko'catan. Was, ähm, was "
+   "hättest Du denn gern?\""
+kocatantailor_speech_006 = de \
+   "~kTepal sagt, \"Ko'catan ist der Name dieser Stadt. In unserer Sprache "
+   "funktioniert das, äh, das funktioniert so: Tan ist das Wort für Festung. "
+   "Also sind wir hier, äh, in einer Tan. Aber was für eine Tan? Ko ist das "
+   "Wort für größter oder Meister, ca ist das Bestimmungswort für Krieger. "
+   "Also ist Ko'ca der Meisterkrieger und Ko'catan ist die Festung des "
+   "Meisterkriegers. Verstanden?\""
+kocatantailor_speech_007 = de \
+   "~kTepal sagt, \"Bist Du hier, um Geschäfte zu machen?\""
+kocatantailor_speech_008 = de \
+   "~kTepal sagt, \"Konima ist der Vater der Verderbnis und der Gewalt. Er "
+   "hat das alles angefangen.\""
+kocatantailor_speech_009 = de \
+   "~kTepal sagt, \"Was willst Du, ähm, was willst Du wissen?\""
+kocatantailor_speech_010 = de \
+   "~kTepal sagt, \"Es gibt einen richtigen Markt für kostbare Steine. Wer "
+   "bereit ist, ein paar Risiken einzugehen, kann ordentlich Geld verdienen. "
+   "Zufällig weiß ich ein wenig darüber.\""
+kocatantailor_speech_011 = de \
+   "~kTepal sagt, \"Der wahre Anhänger Riijas wird wissen, dass die Stärke "
+   "der Zauber von der Mondphase abhängt. Je höher der Mond steht, desto "
+   "mächtiger werden Seine Zauber.\""
+kocatantailor_speech_012 = de \
+   "~kTepal sagt, \"Ich, ähm, verkaufe überwiegend Kleidung. Meinst Du "
+   "sowas?\""
+kocatantailor_speech_013 = de \
+   "~kTepal sagt, \"Wulfgang und ich haben ein gemeinsames Interesse an "
+   "kostbaren Steinen.\""
+kocatantailor_random_001 = de \
+   "~kTepal sagt, \"Kann ich Dir behilflich sein, etwas, äh, etwas "
+   "Bestimmtes zu finden?\""
+kocatantailor_random_002 = de \
+   "~kTepal sagt, \"Ich habe gerade ein paar schöne Stoffe, mit denen ich "
+   "arbeite. Unsere Stoffmacher holen das Beste aus all den neuen Farben und "
+   "Materialien heraus, die nach und nach vom Festland hereinkommen.\""
+kocatantailor_random_003 = de \
+   "~kTepal sagt, \"Ich glaube, dass meine Gewänder dort, wo Du herkommst, "
+   "im Land jenseits und unter dem Wasser, zu einem gefragten Artikel "
+   "werden. Die Leute kaufen sie, um sie, äh, um sie mit nach Hause zu "
+   "nehmen. Die Geschäfte gingen noch nie so gut.\""
+kocatantailor_random_004 = de \
+   "~kTepal sagt, \"Sieht aus, als hättest Du Katalin-Größe. Vielleicht auch "
+   "Katalin waz, aber doch eher die Katalinseite der Katalin waz.\""
+kocatantailor_random_005 = de \
+   "~kTepal beäugt Dich erfreut. Und taxiert Deine Größe."
+kocatantailor_random_006 = de \
+   "~kDu spürst einen kühlen Lufthauch von weiter hinten im Laden."
+kocatantailor_random_007 = de \
+   "~kTepal zuckt etwas zusammen. Er scheint sich... unwohl zu fühlen."
+kocatantailor_random_008 = de "~kTepal zappelt nervös herum."
+kocatantailor_trigger_sell = de "verkauf"
+kocatantailor_trigger_goodbye = de "tschüss"
+kocatantailor_trigger_goodbye_2 = de "wiedersehen"
+kocatantailor_trigger_hello = de "hallo"
+kocatantailor_trigger_help = de "hilfe"
+kocatantailor_trigger_precious_stones = de "kostbare steine"
+kocatantailor_trigger_precious_stones_2 = de "wertvolle steine"
+kocatantailor_trigger_precious_stones_3 = de "edelsteine"
+kocatantailor_trigger_buy = de "kaufen"
+
+// kocatanTradeMaster
+kocatantrademaster_speech_001 = de \
+   "~kWulfgang sagt, \"A'ach kici'ca ist der ko'catanische Name für die "
+   "Armee oder Kriegslegion, wie Du willst.\""
+kocatantrademaster_speech_002 = de \
+   "~kWulfgang sagt, \"Was, Du hast sie noch nicht gesehen?\""
+kocatantrademaster_speech_003 = de \
+   "~kWulfgang sagt, \"Du hast von dieser Schlacht gehört, nicht wahr? Ich "
+   "war dort ein Kundschafter für die A'ach kici'ca. Du kannst es Dir nicht "
+   "vorstellen, wenn Du nicht dabei warst, Zax'ta. Drei Tage Gemetzel, und "
+   "am Ende kamen wir mit halb so vielen Männern zurück, wie losgezogen "
+   "waren. Alles für ein Fleckchen Dschungel, auf dem man nicht mal ein "
+   "anständiges Feld Braunmais anpflanzen kann.\""
+kocatantrademaster_speech_004 = de \
+   "~kWulfgang sagt, \"Was hast Du denn anzubieten?\""
+kocatantrademaster_speech_005 = de \
+   "~kWulfgang sagt, \"Du fragst nach Wurzelknollen?  Nimm sie, sie sind nur "
+   "eine bittere Erinnerung an das, was ich zurückgelassen habe.\""
+kocatantrademaster_speech_006 = de \
+   "~kWulfgang sagt, \"Ich arbeite gerade an einem Spiel, das hier in "
+   "Ko'catan ziemlich beliebt ist.\""
+kocatantrademaster_speech_007 = de \
+   "~kWulfgang sagt, \"Sei gegrüßt, Reisender! Was gibt es Neues aus der "
+   "Ferne?\""
+kocatantrademaster_speech_008 = de "~kWulfgang sagt, \"Grüß Dich, Fremder.\""
+kocatantrademaster_speech_009 = de "~kWulfgang sagt, \"Verschwinde.\""
+kocatantrademaster_speech_010 = de \
+   "~kWulfgang sagt, \"Was? Ich glaube nicht, dass ich Dir helfen kann. Du "
+   "hast es bis hier geschafft, nicht wahr?\""
+kocatantrademaster_speech_011 = de \
+   "~kWulfgang sagt, \"Ich suche gerade gar nichts.\""
+kocatantrademaster_speech_012 = de \
+   "~kWulfgang sagt, \"Die Sprache von Meridian ist grauenhaft im Vergleich "
+   "zu der von Ko'catan. In Meridian sagen wir Ameise, sie sagen "
+   "~IYokinich~I. Wir sagen Riesenameise, äh, und sie sagen ~IKawilkinich~I. "
+   "Herrlich, nicht wahr? Seltsam, dass solch ein unverblümtes, "
+   "kriegerisches Volk so wunderbar mit Worten umgehen kann.\""
+kocatantrademaster_speech_013 = de \
+   "~kWulfgang sagt, \"Marion war mir zwanzig Jahre lang eine Heimat, und "
+   "mein Herz ist in diesem Augenblick dort. Doch ich werde nie "
+   "zurückkehren.\""
+kocatantrademaster_speech_014 = de "~kWulfgang sagt, \"Marion wer?\""
+kocatantrademaster_speech_015 = de \
+   "~kWulfgang sagt, \"Die Avaren haben eine Quelle der Manakraft.  Wenn Du "
+   "sie willst, solltest Du ihren Göttern Gaben aus Nahrung opfern.\""
+kocatantrademaster_speech_016 = de \
+   "~kWulfgang sagt, \"Bist Du etwa auch hier, um Avaren zu ermorden und "
+   "ihnen ihre Kraft zu nehmen?\""
+kocatantrademaster_speech_017 = de \
+   "~kWulfgang sagt, \"Jeder 'wertvolle Stein', den Du von Tepal hierher "
+   "schaffen kannst, wäre die Mühe sehr wert, das kann ich Dir versichern.\""
+kocatantrademaster_speech_018 = de \
+   "~kWulfgang sagt, \"Ich war einst ein Anhänger von Qor, aber das ist "
+   "viele Monde her. Jetzt verdiene ich meinen Lebensunterhalt mit dem "
+   "Handel mit den Einheimischen.\""
+kocatantrademaster_speech_019 = de \
+   "~kWulfgang sagt, \"Über diese Zeit meines Lebens spreche ich nicht.  Nur "
+   "so viel: Der Gott der Gaukelei hat mir den wahren Weg gezeigt.\""
+kocatantrademaster_speech_020 = de \
+   "~kWulfgang sagt, \"Ich spielte für Marion als Stürmer in der zweiten "
+   "Reihe, viele Jahre lang. Ich versuche jetzt, ein Team aus Avaren "
+   "aufzustellen.\""
+kocatantrademaster_speech_021 = de \
+   "~kWulfgang sagt, \"Alles hängt davon ab, wonach Du suchst.\""
+kocatantrademaster_speech_022 = de \
+   "~kWulfgang sagt, \"Tepal? Dann kommst Du von der Zuflucht her? Was hast "
+   "Du für mich, Zax'ta?\""
+kocatantrademaster_speech_023 = de \
+   "~kWulfgang sagt, \"In Tos bin ich untergetaucht, als die fanatischen "
+   "Kraanan-Anhänger mir nach dem Leben trachteten. Ich konnte nicht in "
+   "Marion bleiben, da war es zu gefährlich. Tos ist eine erbarmungslose "
+   "Stadt, wenn man in Schwierigkeiten ist, das werde ich nie vergessen.\""
+kocatantrademaster_speech_024 = de \
+   "~kWulfgang sagt, \"Ich weiß nicht, wovon Du redest.\""
+kocatantrademaster_speech_025 = de \
+   "~kWulfgang sagt, \"Du willst Feenflügel?  Kannst Du haben, ich habe "
+   "dafür keine Verwendung mehr.\""
+kocatantrademaster_random_001 = de \
+   "~kWulfgang sagt, \"Wenn Du mal wieder nach Marion kommst, grüß' Tova von "
+   "mir, tust Du das?\""
+kocatantrademaster_random_002 = de \
+   "~kWulfgang sagt, \"Ich kenne Meridian. Sollte ich auch, denn ich lebte "
+   "dort fünfundzwanzig Jahre lang, ehe ich an diesen Ort verbannt wurde.\""
+kocatantrademaster_random_003 = de \
+   "~kWulfgang sagt, \"Wenn Du es schaffst, mir Rohneurodit aus der Stadt zu "
+   "bringen, werde ich Dich gut bezahlen. Für Neurodit habe ich viele "
+   "~IKunden~I. Solange die Embargos gelten, ist das für alle Beteiligten "
+   "ein profitables Geschäft.\""
+kocatantrademaster_random_004 = de \
+   "~kWulfgang sagt, \"Die neuen Schüler Riijas müssen sehr vorsichtig sein, "
+   "wenn sie auf das Festland zurückkehren. Riija hat viele Feinde unter den "
+   "anderen Göttern. Man sagt, Herzog Akardius sei ein Anhänger Riijas.\""
+kocatantrademaster_random_005 = de \
+   "~kWulfgang sagt, \"Ich bin der Letzte meines Volkes, der Jünger des "
+   "Riija aus der Untergrundsekte auf dem Festland. Dort, wo Du herkommst "
+   "und woher ich vor einigen Jahren kam.\""
+kocatantrademaster_random_006 = de \
+   "~kWulfgang sagt, \"Die Jünger des Riija gehörten einer "
+   "Untergrundbewegung an, die in sämtlichen Gebieten von Meridian trotz "
+   "größter Entbehrungen viele, viele Jahre überdauerte. Zuletzt erklärten "
+   "uns die Anhänger des Kraanan einen heimlichen Krieg, einen "
+   "Vernichtungskrieg. Als ich schließlich der einzige Überlebende war, floh "
+   "ich und kam an diesen Ort. Seitdem bin ich hier.\""
+kocatantrademaster_random_007 = de \
+   "~kWulfgang sagt, \"Als die Anhänger Kraanans mit ihren Klingen über mein "
+   "Volk herfielen, geschah das mit dem Segen von Zarcos IV, dem damaligen "
+   "König. Als sein Sohn Zarcos V die Herrschaft übernahm, setzte er dem ein "
+   "Ende, und obwohl wir als Gesetzlose lebten, mussten die wenigen, die die "
+   "vorherigen Jahre überlebt hatten, nicht mehr in Angst vor Kraanans "
+   "Schlächtern leben. Doch als Zarcos V abdankte, entfachte Herzog Kalior "
+   "aufs Neue den Eifer, die Anhänger Riijas vollständig vom Festland zu "
+   "tilgen. Ich bin jetzt der einzige Überlebende. Meine Magie hat mich am "
+   "Leben erhalten.\""
+kocatantrademaster_random_008 = de \
+   "~kWulfgang sagt, \"Du hast nicht zufällig ein wenig Neurodit "
+   "mitgebracht, oder?\""
+kocatantrademaster_random_009 = de \
+   "~kWulfgang sagt, \"Du wirst nie erraten, wie ich es schließlich vom "
+   "Festland bis hierher geschafft habe. Ich meditierte drei Tage und "
+   "fastete drei Tage und dann habe ich es ganz fest gewünscht und mit den "
+   "Augen gezwinkert. Ganz genau, gezwinkert! Zauber, zwinker, ich zwinkerte "
+   "beim Springbrunnen in Tos und dann wurde mir schlecht, und als ich "
+   "wieder zu mir kam, war ich hier im Dschungel!! Manchmal, wenn der "
+   "Rammbock versagt, kann einen auch eine Waffe retten, von der man es gar "
+   "nicht angenommen hätte.\""
+kocatantrademaster_random_010 = de \
+   "~kWulfgang sagt, \"Trinkt auf das gute Leben, meine Freunde. Trinkt auf "
+   "jene, die nicht hier bei uns sein können, um mitzutrinken.\""
+kocatantrademaster_random_011 = de \
+   "~kWulfgang sagt, \"Wenn Du wieder mal in der Lahmen Kröte bist, dann "
+   "trink einen auf mich.\""
+kocatantrademaster_random_012 = de \
+   "~kWulfgang sagt, \"Du wirst Dich schnell daran gewöhnen, auf das "
+   "Himmelsdach über Dir zu achten, wenn Du den Dschungel durchquerst. Denn "
+   "oben, wo die Kriipa leben, wartet der Tod.\""
+kocatantrademaster_random_013 = de \
+   "~kWulfgang sagt, \"Ich habe unten ein paar Zimmer, in denen ich Reisende "
+   "unterbringe. Gerade sind sie aber belegt, dort wohnen ein paar... "
+   "~Ihalb-dauerhafte~I Gäste. Wir sehen sie kaum am Frühstückstisch.\""
+kocatantrademaster_random_014 = de "~kWulfgang sagt, \"Trink auf Meridian!\""
+kocatantrademaster_random_015 = de \
+   "~kWulfgang sagt, \"Diese Insel ist freigiebig.\""
+kocatantrademaster_random_016 = de \
+   "~kWulfgang sagt, \"Reisende von weit weg, häh? Nun, fühl' Dich wie zu "
+   "Hause.\""
+kocatantrademaster_random_017 = de \
+   "~kWulfgang sagt, \"Ich halte ein bescheidenes Geschäft aufrecht zwischen "
+   "den Avaren und den wenigen Reisenden, die hier durch kommen. Mit denen "
+   "und der sogenannten Kici'ca, der Ko'catani-Legion. Man weiß nie, wer was "
+   "haben will.\""
+kocatantrademaster_random_018 = de \
+   "~kWulfgang sagt, \"Die Legionen von Ko'catan kämpfen gegen die Avaren. "
+   "Die Avaren lauern den Legionen auf. Die Avaren kämpfen gegen die Avaren. "
+   "Die Legionen kämpfen gegen die die Avaren bekämpfenden Avaren. Die "
+   "Avaren kämpfen gegen die die Avaren bekämpfenden Legionen. Und "
+   "mittendrin ist Wulfgang, sitzt in seinem Handelsposten, betrinkt sich "
+   "und wälzt sich im Geld. Ich lebe allein von meinem Verstand.\""
+kocatantrademaster_random_019 = de \
+   "~kWulfgang sagt, \"Die Avaren sind eine so vernünftige Zivilisation, wie "
+   "es je eine gab. Wenn man ihre Art kennt. Doch um ihre Art zu kennen, "
+   "muss man Avarisch sprechen. Und ich spreche Avarisch.\""
+kocatantrademaster_random_020 = de \
+   "~kWulfgang sagt, \"Die Legionen der Ko'catani sind eine schlaue und "
+   "temperamentvolle Truppe. Aber sie können die Insel nicht halten. Die "
+   "Avaren wählen sehr raffiniert das Schlachtfeld aus und schaffen es, sich "
+   "in Luft aufzulösen, wenn sie nicht mehr kämpfen wollen.\""
+kocatantrademaster_random_021 = de \
+   "~kWulfgang sagt, \"Es besteht seit etwa fünf Jahren ein bedingter "
+   "Frieden zwischen den Ko'catani und den Avaren. Verstehst Du, das "
+   "bedeutet, dass sie nicht ~Ijeden~I Tag kämpfen. Aber es gibt Spannungen "
+   "und viele Handelsbeschränkungen.\""
+kocatantrademaster_random_022 = de \
+   "~kWulfgang sagt, \"Für das Volk der Avaren ist Magie kein Studium und "
+   "keine Hingabe, so wie wir sie kennen. Die magischen Avaren, die Avar'ya, "
+   "wie die Konimianer sie nennen, werden mit einem Auge in der Mitte des "
+   "Kopfes geboren. Sie sind die einzigen Avaren, die die Fähigkeit "
+   "besitzen, die Magie zu erlernen.\""
+kocatantrademaster_random_023 = de \
+   "~kWulfgang sagt, \"Die Avaren sind eine interessante Rasse, doch "
+   "beständig kann man sie nicht nennen. Ich habe viele Jahre gebraucht, um "
+   "ihre Sprache zu erlernen, und ich bin nicht sicher, ob ich jemals ihr "
+   "Vertrauen gewinne. Aber sie sind bedeutend schlauer als diese Leute in "
+   "der Siedlung, das kann ich Dir sagen.\""
+kocatantrademaster_random_024 = de \
+   "~kWulfgang sagt, \"Wer ist zum Handeln hier?\""
+kocatantrademaster_random_025 = de \
+   "~kWulfgang sagt, \"Such hier Zuflucht vor dem Sturm, Reisender. Ich "
+   "arbeite hart genug daran, diesen Ort sicher zu halten; genieße die Ruhe, "
+   "bevor Du wieder hinaus in den Dschungel gehst.\""
+kocatantrademaster_random_026 = de \
+   "~kWulfgang hat eine Stimme, als ob jemand eine Scheune einreißt."
+kocatantrademaster_random_027 = de "~kWulfgang kichert in sich hinein."
+kocatantrademaster_random_028 = de \
+   "~kWulfgang sagt, \"In der Küche gibt es was zu essen, und ich habe "
+   "sowohl Ale als auch Atz'pekonch, den feinsten Kocatani-Wein. Und ich "
+   "meine, das Zeug ist das allerbeste, ich kriege es durch Beziehungen zum "
+   "Militär.\""
+kocatantrademaster_random_029 = de \
+   "~kWulfgang sagt, \"Setz' Dich ans Feuer und erzähl' von Deinen Reisen.\""
+kocatantrademaster_random_030 = de \
+   "~kWulfgang scheint angestrengt in den Dschungel draußen zu lauschen."
+kocatantrademaster_random_031 = de "~kWulfgang hustet."
+kocatantrademaster_random_032 = de \
+   "~kHier riecht es nach geräuchertem Fleisch und süßem, verschüttetem Wein."
+kocatantrademaster_random_033 = de "~kWulfgang blickt zu Dir auf."
+kocatantrademaster_random_034 = de \
+   "~kWulfgang sagt, \"Was gibt's Neues, Tollpatsch?\""
+kocatantrademaster_random_035 = de \
+   "~kWulfgang sagt, \"Kalior ist tot?...Gut.\""
+kocatantrademaster_random_036 = de \
+   "~kWulfgang sagt, \"Kateriina ist immer noch nicht Königin? Hahaha! Das "
+   "ist witzig!\""
+kocatantrademaster_random_037 = de \
+   "~kWulfgang sagt, \"Es war nicht einfach, vom Festland hierher zu "
+   "gelangen und eine Existenz aufzubauen. Ich meine, ein Geschäft in Gang "
+   "zu bringen zwischen den verschiedenen Avarenstämmen und den Bekloppten "
+   "auf der anderen Seite der Insel - die hast Du garantiert bemerkt - "
+   "verschanzt hinter einer riesigen Mauer. Dabei bin ich bestimmt "
+   "fünfzigmal knapp dem Tod entronnen. Und jetzt taucht ihr hier alle auf, "
+   "wie eine Herde Touristen aus Barloque. Ich würde gerne hier abhauen, "
+   "aber ich weiß nicht, wohin ich sonst gehen sollte.\""
+kocatantrademaster_random_038 = de \
+   "~kWulfgang sagt, \"Wenn ihr euch das nächste Mal auf eurem albernen Weg "
+   "durch die Orkhöhlen kämpft, bringt doch Ran'er Zen mit. Dann könnte man "
+   "sich hier wenigstens anständig unterhalten!\""
+kocatantrademaster_random_039 = de \
+   "~kWulfgang sagt, \"Mir scheint, die Qualität der Abenteurer hat seit "
+   "meiner Zeit in Meridian etwas nachgelassen. Ihr seid ein jämmerlicher "
+   "Haufen. Ha, ha, ha, ha!\""
+kocatantrademaster_random_040 = de \
+   "~kWulfgang sagt, \"Sag mal, ist das ein Kurzschwert, was Du da bei Dir "
+   "hast? Gute Ausrüstung für unsere kleinen Dschungelchen, soso!\""
+kocatantrademaster_random_041 = de \
+   "~kWulfgang lässt Dich nicht aus den Augen. Seine Stimmung wirkt "
+   "bedrohlich."
+kocatantrademaster_random_042 = de \
+   "~kWulfgang sagt, \"Ich finde, Du wärst in Tos besser und sicherer "
+   "aufgehoben. Du solltest Dich gleich in diese Richtung auf den Weg "
+   "machen.\""
+kocatantrademaster_random_043 = de \
+   "~kWulfgang sagt, \"Los. Hau ab hier, ich habe genug von Dir.\""
+kocatantrademaster_trigger_sell = de "verkauf"
+kocatantrademaster_trigger_entroot_2 = de "knolle"
+kocatantrademaster_trigger_game = de "spiel"
+kocatantrademaster_trigger_hello = de "hallo"
+kocatantrademaster_trigger_help = de "hilfe"
+kocatantrademaster_trigger_inventory = de "inventar"
+kocatantrademaster_trigger_inventory_2 = de "botschaft"
+kocatantrademaster_trigger_language = de "sprache"
+kocatantrademaster_trigger_node = de "quelle"
+kocatantrademaster_trigger_precious_stones = de "wertvolle stein"
+kocatantrademaster_trigger_buy = de "kaufen"
+kocatantrademaster_trigger_wings = de "flügel"
+
+// KocatanVaultman
+kocatanvaultman_random_001 = de \
+   "~kItzal stiert die Mauer an und stößt mehrmals laut auf."
+kocatanvaultman_random_002 = de "~kItzal kratzt sich am Hintern."
+kocatanvaultman_random_003 = de \
+   "~kItzal sagt, \"Du willst doch nicht etwa, dass ich ~Izurück~k in dieses "
+   "Lager gehe, um Dir etwas zu holen, nicht wahr?!\""
+kocatanvaultman_random_004 = de \
+   "~kItzal sagt, \"He, Huital, kann ich eine Pause machen? Meine Beine sind "
+   "müde.\""
+kocatanvaultman_random_005 = de \
+   "~kItzals Augen fallen flatternd zu und sein Mund bleibt offen stehen. "
+   "Nach ein paar Sekunden fängt er an zu schnarchen."
+kocatanvaultman_random_006 = de \
+   "~kItzal sagt, \"Huital, ich brauche etwas zusätzliches Geld. Ich habe "
+   "aus Versehen eine der Flaschen des Kunden zerbrochen.\""
+kocatanvaultman_random_007 = de \
+   "~kItzal taucht seine Hände ins Wasser und bespritzt sein Gesicht. Huital "
+   "wirft ihm einen vernichtenden Blick zu."
+kocatanvaultman_random_008 = de "~kItzal schlägt nach einer Fliege."
+kocatanvaultman_random_009 = de \
+   "~kPlötzlich steigt Dir ein sehr unangenehmer Geruch in die Nase. Itzal "
+   "lächelt in sich hinein."
+kocatanvaultman_random_010 = de \
+   "~kItzal sagt, \"Entschuldigung. Ich hätte heute nicht im Bellenden "
+   "Monstrum essen sollen.\""
+kocatanvaultman_random_011 = de \
+   "~kItzal sagt, \"Ich glaube, ich habe ein paar Teile von Ixlas Rüstung "
+   "verloren. Ich hoffe, sie tut mir dafür nichts.\""
+kocatanvaultman_random_012 = de \
+   "~kItzal sagt, \"Danke, dass Ihr in unsere Gewölbe gekommen seid, %s.\", "
+   "dann flüstert er Huital zu, \"War das in Ordnung?\""
+kocatanvaultman_random_013 = de \
+   "~kItzal sagt, \"Ich bin müde, Huit. Lass mich heute früh nach Hause "
+   "gehen.\""
+kocatanvaultman_random_014 = de \
+   "~kItzal seufzt und sagt, \"Nicht Du schon wieder.\""
+
+// KocatanWeaponsMaster
+kocatanweaponsmaster_speech_001 = de \
+   "~kKochtal sagt, \"Die Avar sind sehr genaue und starke Gegner. Schreite "
+   "behutsam durch ihr Heimatland oder bring eine ganze Armee mit Dir.\""
+kocatanweaponsmaster_speech_002 = de \
+   "~kKochtal sagt, \"Ko'catan sorgt für all meine Bedürfnisse.\""
+kocatanweaponsmaster_speech_003 = de \
+   "~kKochtal sagt, \"Unsere Gesellschaft ist auf dem Respekt vor denen, die "
+   "einen höheren Rang bekleiden, aufgebaut. Als ein Fremder stehst Du sogar "
+   "noch unter einem Ix und musst deshalb alle in unserer Gesellschaft "
+   "respektieren.\""
+kocatanweaponsmaster_speech_004 = de \
+   "~kKochtal ko'Tulca sagt, \"Hallo? Wer ist da?\""
+kocatanweaponsmaster_speech_005 = de \
+   "~kKochtal ko'Tulca sagt, \"Ich bin der beste Waffenmeister in Ko'catan. "
+   "Diejenigen, die einem Krieger den gebührenden Respekt erweisen, "
+   "unterrichte ich.\""
+kocatanweaponsmaster_speech_006 = de \
+   "~kKochtal sagt, \"Ko'catan ist eine große und geordnete Festung. Sie "
+   "bietet ihren Bewohnern Schutz und einen Lebenszweck.\""
+kocatanweaponsmaster_speech_007 = de \
+   "~kKochtal sagt, \"Konima war der perfekte Krieger. Nicht nur eine "
+   "Tötungsmaschine, sondern auch ein mitfühlender und selbstloser Stratege. "
+   "Unsere Gesellschaft gründet sich auf seine kühnen Ideale.\""
+kocatanweaponsmaster_speech_008 = de \
+   "~kKochtal sagt, \"Jede Person wird nach ihrem Wert für unsere "
+   "Kriegergesellschaft eingestuft. Die Menschen hier kennen die Grenzen "
+   "ihrer Berufung.\""
+kocatanweaponsmaster_speech_009 = de \
+   "~kKochtal sagt, \"Ich könnte Dich vielleicht in der Kunst des "
+   "Bogenschießens unterweisen.\""
+kocatanweaponsmaster_speech_010 = de \
+   "~kKochtal sagt, \"Ich kenne Dein Wort für die Halbmenschen nicht, die "
+   "unser mächtiger Konima vor all den Jahrhunderten zurückgeschlagen hat.\""
+kocatanweaponsmaster_random_001 = de \
+   "~kKochtal sagt, \"In Ko'catan müssen unsere Leute sich ihren Namen "
+   "verdienen. Man entscheidet sich nicht selbst, zu Cha oder Ko "
+   "aufzusteigen. Andere werden das für einen entscheiden.\""
+kocatanweaponsmaster_random_002 = de \
+   "~kKochtal sagt, \"Unsere Kultur hat viele Sitten und Gebräuche "
+   "hervorgebracht. Wir zögern nicht, jene auszustoßen, die sich nicht daran "
+   "halten.\""
+kocatanweaponsmaster_random_003 = de \
+   "~kKochtal sagt, \"Jede Person erfüllt ihren Zweck und hat einen "
+   "festgelegten Rang. Wir erlauben Dir, Dich innerhalb unserer Mauern "
+   "aufzuhalten. Erdreiste Dich nicht, die Ordnung von Ko'catan zu stören.\""
+kocatanweaponsmaster_random_004 = de \
+   "~kKochtal sagt, \"Es gibt keine Kriegskunst. Krieg steht im krassen "
+   "Widerspruch zur Kunst. Diejenigen, die im Krieg irgendeine Art von "
+   "Schönheit zu entdecken meinen, haben nie eine Schlacht erlebt.\""
+kocatanweaponsmaster_random_005 = de \
+   "~kKochtal sagt, \"Über Waffenfertigkeit zu verfügen, macht einen fähigen "
+   "Soldaten aus. Um wirklich furchteinflößend zu sein, braucht der Krieger "
+   "aber auch Geduld, Voraussicht und Verbündete.\""
+kocatanweaponsmaster_random_006 = de \
+   "~kKochtal sagt, \"Du musst auch über Mitgefühl verfügen. Ein "
+   "kaltherziger Krieger ist weniger erfolgreich als einer, der mitfühlt, "
+   "denn der Kaltherzige hat nichts zu verlieren, das ihm etwas bedeutet.\""
+kocatanweaponsmaster_random_007 = de \
+   "~kKochtal sagt, \"Unsere Gesellschaft hat aufgrund eines Prinzips über "
+   "200 Jahre überdauert - 'Ordnung'. Ohne Ordnung gibt es nur Chaos.\""
+kocatanweaponsmaster_random_008 = de \
+   "~kKochtal sagt, \"Vor vielen Jahren verlor ich meine Augen, als ich die "
+   "äußeren Mauern verteidigte. Als Krieger bin ich jetzt kaum noch von "
+   "Nutzen. Darum muss ich unterrichten.\""
+kocatanweaponsmaster_random_009 = de \
+   "~kKochtal schnuppert und sagt, \"Die Krieger sind von der Jagd "
+   "zurückgekehrt.\""
+kocatanweaponsmaster_random_010 = de \
+   "~kKochtal streckt seinen Hals aus, als ob er intensiv lauschen würde. Du "
+   "hörst nichts. Nach einem Moment lächelt er und sagt, \"Sie wird ihn "
+   "nicht in der Kneipe finden.\""
+kocatanweaponsmaster_random_011 = de \
+   "~kKochtal beginnt mit einer langsamen Übung aus Strecken und Beugen."
+kocatanweaponsmaster_random_012 = de \
+   "~kKochtal tastet nach seinen Waffen. Nach einem Moment finden seine "
+   "Hände ein altes, verrostetes Kurzschwert. Er flüstert, \"Da bist Du ja, "
+   "alter Freund.\""
+kocatanweaponsmaster_random_013 = de \
+   "~kKochtal sagt, \"Diese Avaren können ziemlich gerissen sein. Es gibt "
+   "einen, der sich mit dem Tod umgibt. Er weiß etwas über Riija.\""
+kocatanweaponsmaster_random_014 = de \
+   "~kKochtal sagt, \"Ich spüre, dass Du in Deinem Land respektiert wirst. "
+   "Das ist gut, mein Freund.\""
+kocatanweaponsmaster_random_015 = de \
+   "~kKochtal sagt, \"Ich hörte einen anderen Reisenden Dich preisen. Sei "
+   "stolz.\""
+kocatanweaponsmaster_random_016 = de \
+   "~kKochtal betastet Dein Gesicht und Deine Schultern. Lächelnd sagt er, "
+   "\"Ich werde mich an Dich erinnern.\""
+kocatanweaponsmaster_random_017 = de \
+   "~kKochtal sagt, \"Du hast bereits bewiesen, dass Du stark bist, denn Du "
+   "hast die Utomhöhlen durchquert.\""
+kocatanweaponsmaster_random_018 = de \
+   "~kKochtal sagt, \"Wie ich gehört habe, gibt es in Deinem Land wenig "
+   "Ordnung. Das Königreich ist zerrissen und die Städte bekriegen sich. "
+   "Ko'catan braucht solche Einflüsse nicht.\""
+kocatanweaponsmaster_random_019 = de \
+   "~kKochtal sagt, \"Du beleidigst unsere Gemeinschaft. Es wäre ein weiser "
+   "Entschluss von Dir, uns zu verlassen.\""
+kocatanweaponsmaster_random_020 = de \
+   "~kKochtal sagt, \"Ko'catan wünscht nicht, dass Deine Leute hierher "
+   "kommen.\""
+kocatanweaponsmaster_random_021 = de \
+   "~kKochtal sagt, \"Vor langer Zeit waren Dein Volk und unser Volk eins. "
+   "Jetzt sind wir verschieden. Unsere Gesellschaften gehören nicht länger "
+   "zueinander.\""
+kocatanweaponsmaster_trigger_buy = de "kaufen"
+kocatanweaponsmaster_trigger_sell = de "verkauf"
+kocatanweaponsmaster_trigger_customs = de "bräuche"
+kocatanweaponsmaster_trigger_society = de "bräuche"
+kocatanweaponsmaster_trigger_hello = de "hallo"
+kocatanweaponsmaster_trigger_help = de "hilfe"
+kocatanweaponsmaster_trigger_mores = de "sitten"
+kocatanweaponsmaster_trigger_mores_2 = de "wert"
+kocatanweaponsmaster_trigger_teach = de "lernen"
+kocatanweaponsmaster_trigger_learn = de "lehre"
+kocatanweaponsmaster_trigger_learn_2 = de "beibringen"

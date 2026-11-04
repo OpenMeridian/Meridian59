@@ -1,0 +1,3056 @@
+// Meridian 59, Copyright 1994-2012 Andrew Kirmse and Chris Kirmse.
+// All rights reserved.
+//
+// This software is distributed under a license that is described in
+// the LICENSE file that accompanies it.
+//
+// Meridian is a registered trademark.
+
+
+////////////////////////////////////////////////////////////////////////////////
+NpcSpeechKocatan is NpcSpeech
+// NPC talk of Ko'catan:
+// answers to trigger words and random lines.
+// Each line is a resource (EN here, DE in the .lkod); Library adds the
+// lists in CreateSpeechLibrary and CreateRandomLibrary.
+
+constants:
+
+   include blakston.khd
+
+resources:
+
+   include npcspkocatan.lkod
+
+   // KocatanApothecary (Zala ix'Mecya)
+   kocatanapothecary_speech_001 = \
+      "~kZala says, \"That's what we call war. I call it a big waste.\""
+   kocatanapothecary_speech_002 = "~kZala says, \"They make me laugh!\""
+   kocatanapothecary_speech_003 = "~kZala says, \"Hmmmm...\""
+   kocatanapothecary_speech_004 = \
+      "~kZala says, \"Are you trying to get me in trouble?\""
+   kocatanapothecary_speech_005 = \
+      "~kZala says, \"Let's see what you got. I might be interested.\""
+   kocatanapothecary_speech_006 = \
+      "~kZala says, \"Hey, stop back in sometime, okay?\""
+   kocatanapothecary_speech_007 = \
+      "~kZala ix'Mecya takes a puff from her pipe and says, \"Hey, welcome "
+      "to my shop. Can I get you something?\""
+   kocatanapothecary_speech_008 = "~kZala says, \"Hello, %s.\""
+   kocatanapothecary_speech_009 = \
+      "~kZala ix'Mecya says, \"I run this magic shop. If you are in need of "
+      "herbs or reagents for your mystic rituals, I'm the woman to talk to.\""
+   kocatanapothecary_speech_010 = "~kZala says, \"I don't get it.\""
+   kocatanapothecary_speech_011 = \
+      "~kZala says, \"The Huf Huf Moch? Oh, that's the ko'catanese name for "
+      "The Barking Monster. Same thing. It's a big bar that the military "
+      "keeps, just down the hill.\""
+   kocatanapothecary_speech_012 = \
+      "~kZala says, \"You should know what the ixleoc is, because it's from "
+      "your land. It's that walking dead person thing.\""
+   kocatanapothecary_speech_013 = \
+      "~kZala says, \"Well that's where you are, man.\""
+   kocatanapothecary_speech_014 = \
+      "~kZala says, \"That's the guy in charge, you know, called that after "
+      "the original guy in charge. It bums me out that they won't even "
+      "consider giving a woman that job. Plenty of women around here that "
+      "would do it just as well or better than some old a'ach guy.\""
+   kocatanapothecary_speech_015 = \
+      "~kZala says, \"That's our word for wine. You can get some excellent "
+      "pekonch here, but watch out for the cheap stuff.\""
+   kocatanapothecary_speech_016 = \
+      "~kZala says, \"I've got these clay pots, but they're not for sale. I "
+      "use them to store magical reagents.\""
+   kocatanapothecary_speech_017 = \
+      "~kZala says, \"Sure, I got some stuff to sell.\""
+   kocatanapothecary_speech_018 = \
+      "~kZala says, \"Don't start. It's a nasty habit.\""
+   kocatanapothecary_random_001 = \
+      "~kZala sorts through a pile of green herbs. She carelessly tosses the "
+      "dead brown ones to the floor."
+   kocatanapothecary_random_002 = \
+      "~kZala says, \"I hope there are not too many spices in this brew.\""
+   kocatanapothecary_random_003 = \
+      "~kZala seems to forget you are here and begins to meditate."
+   kocatanapothecary_random_004 = \
+      "~kZala says, \"My mind remains focused, even in haze. I see the fog "
+      "that clouds the transcendent planes.\""
+   kocatanapothecary_random_005 = \
+      "~kZala says, \"The eggs are fresh today, of course.\""
+   kocatanapothecary_random_006 = \
+      "~kZala munches on achalot nuts and packs her pipe."
+   kocatanapothecary_random_007 = \
+      "~kZala hums softly as she works on tying herbs into small bunches."
+   kocatanapothecary_random_008 = \
+      "~kThere is a thick fertile smell that permeates the shop from the "
+      "incense Zala burns."
+   kocatanapothecary_random_009 = \
+      "~kZala absently says, \"Mastering the art of mind fog.\""
+   kocatanapothecary_random_010 = \
+      "~kZala says, \"If I were you, I'd stay away from that pekonch that "
+      "they serve at the Huf Huf Moch. I never drink it anymore. It'll rot "
+      "you from the inside out.\""
+   kocatanapothecary_random_011 = \
+      "~kZala says, \"If you like feathers, you should see the ones Hanla "
+      "uses. Ask to see her arrows if you're out there.\""
+   kocatanapothecary_random_012 = \
+      "~kZala says, \"Whoa, I forgot you were here. Did I help you yet?\""
+   kocatanapothecary_random_013 = \
+      "~kZala says, \"You're not from Ko'catan, I can see that now. Can I "
+      "ask why you traveled all this way?\""
+   kocatanapothecary_random_014 = \
+      "~kZala says, \"Riija magic is pretty interesting. I don't know if "
+      "you've messed around with it much, but it's best to be careful how "
+      "much time you spend at it. People go crazy from Riija, you'll see "
+      "them around.\""
+   kocatanapothecary_random_015 = "~kZala says, \"That's a fantastic shirt.\""
+   kocatanapothecary_random_016 = \
+      "~kZala says, \"What's up with the weather? It's been so hard to come "
+      "to work lately.\""
+   kocatanapothecary_random_017 = \
+      "~kZala looks around and says, \"Whoa, check it out.\""
+   kocatanapothecary_random_018 = \
+      "~kZala coughs loudly, expelling a large cloud of smoke."
+   kocatanapothecary_random_019 = \
+      "~kZala says, \"The way I see it, the strength of a spell is generally "
+      "going to depend on just a couple of factors... and that's pretty much "
+      "the duration, your trance time, and the cost in mana. Oh, and did I "
+      "say effect powers? Well, the effect powers too.\""
+   kocatanapothecary_random_020 = \
+      "~kZala says, \"You know, it's not like you can just use any old "
+      "reagents to make a spell. They've got to be flawless, or it just "
+      "won't work. That especially includes the claws of kriipa, and "
+      "dragonfly eyeballs.\""
+   kocatanapothecary_random_021 = \
+      "~kZala says, \"I feel like a ixleoc. Brain dead, like that.\""
+   kocatanapothecary_random_022 = \
+      "~kZala says, \"I don't get it. In your Land Across and Beneath the "
+      "Water, you have the teotkauilkinich, and you have the little "
+      "imixkinich. So hey, man, are they the same thing? Do they both come "
+      "from the kokinich mother? Do they hunt from the same web?\""
+   kocatanapothecary_random_023 = \
+      "~kZala says, \"Kick back if you want; I'm just hanging out.\""
+   kocatanapothecary_random_024 = \
+      "~kZala says, \"Come by again sometime if you like, you can always "
+      "find me here.\""
+   kocatanapothecary_trigger_a_ach = "a'ach"
+   kocatanapothecary_trigger_army = "army"
+   kocatanapothecary_trigger_bong = "bong"
+   kocatanapothecary_trigger_bud = "bud"
+   kocatanapothecary_trigger_sell = "sell"
+   kocatanapothecary_trigger_goodbye = "goodbye"
+   kocatanapothecary_trigger_hello = "hello"
+   kocatanapothecary_trigger_help = "help"
+   kocatanapothecary_trigger_huf_huf_moch = "huf huf moch"
+   kocatanapothecary_trigger_ixleoc = "ixleoc"
+   kocatanapothecary_trigger_ko_catan = "ko'catan"
+   kocatanapothecary_trigger_konima = "konima"
+   kocatanapothecary_trigger_pekonch = "pekonch"
+   kocatanapothecary_trigger_pot = "pot"
+   kocatanapothecary_trigger_pot_2 = "pot"
+   kocatanapothecary_trigger_buy = "buy"
+   kocatanapothecary_trigger_smoke = "smoke"
+
+   // KocatanBanker (Huital ko'Nosak)
+   kocatanbanker_speech_001 = \
+      "~kHuital says, \"This island may not have enough room for three "
+      "warlike tribes to peacefully coexist. We must be prepared for the "
+      "inevitable war for dominance.\""
+   kocatanbanker_speech_002 = "~kHuital says, \"~IAgain?!~I\""
+   kocatanbanker_speech_003 = \
+      "~kHuital says, \"You will find the Neglected Arsenal on the west side "
+      "of Ko'catan. Pacal ix'Anoak may wish to buy your wares.\""
+   kocatanbanker_speech_004 = \
+      "~kHuital says, \"Good day to you. Your valuables will be safe with "
+      "us.\""
+   kocatanbanker_speech_005 = \
+      "~kHuital ko'Nosak says, \"Welcome traveler. How can I or my brother, "
+      "Itzal, help you today?\""
+   kocatanbanker_speech_006 = \
+      "~kHuital says, \"My brother Itzal can safely store a number of your "
+      "items. I manage the bank. I have provided signs to explain how to use "
+      "our establishment.\""
+   kocatanbanker_speech_007 = \
+      "~kHuital says, \"We are fortunate to be part of such an advanced "
+      "society here. You must be impressed.\" Itzal rolls his eyes and "
+      "grunts."
+   kocatanbanker_speech_008 = \
+      "~kHuital says, \"Hail to Konima. May his legend live on.\""
+   kocatanbanker_speech_009 = \
+      "~kHuital says, \"Beware of the power of Riija. Many say it is mere "
+      "trickery, but in diabolical hands, great wrongs can be done.\""
+   kocatanbanker_speech_010 = \
+      "~kHuital says, \"You are mistaken, we are not merchants.\""
+   kocatanbanker_speech_011 = \
+      "~kHuital says, \"I have already taken on my fill of apprentices for "
+      "this season.\""
+   kocatanbanker_random_001 = \
+      "~kHuital says, \"We have not yet set up an official trade route with "
+      "the old world. Money and items you store here can not be accessed in "
+      "your home land.\""
+   kocatanbanker_random_002 = \
+      "~kHuital rinses his hands off in the pool of water before beginning "
+      "the next transaction."
+   kocatanbanker_random_003 = \
+      "~kHuital says, \"I am not yet certain of the ramifications of the "
+      "influx of old world traders. I'm keeping a close eye on the moneys in "
+      "my bank though. I do not want to see Ko'catan enter an age of "
+      "inflation.\""
+   kocatanbanker_random_004 = \
+      "~kHuital says, \"We had little need of a monetary system before the "
+      "foreigners arrived. Most people bartered and worked for their needs.\""
+   kocatanbanker_random_005 = \
+      "~kHuital says, \"Where do you accumulate all of this wealth?\""
+   kocatanbanker_random_006 = \
+      "~kHuital says, \"Honestly Itzal, you need to work on your posture.\""
+   kocatanbanker_random_007 = \
+      "~kHuital says, \"~BItzal!~B ~IWake up, we have customers here.~I\""
+   kocatanbanker_random_008 = \
+      "~kHuital says, \"You are a bit overdressed for our hot climate.\""
+   kocatanbanker_random_009 = \
+      "~kHuital waves his hand at the water pedestal and says, \"Please, it "
+      "is our custom to wash our hands before doing business to represent a "
+      "clean deal.\""
+   kocatanbanker_random_010 = \
+      "~kHuital says, \"Itzal, you desperately need to organize your vault. "
+      "The customers have been more than patient waiting for you to find "
+      "their valuables.\""
+   kocatanbanker_random_011 = \
+      "~kHuital says, \"You may want to leave your money and many of your "
+      "items here before you go off into the jungle. It can be fairly "
+      "dangerous this time of year.\""
+   kocatanbanker_random_012 = \
+      "~kHuital smiles at you and says, \"It is refreshing to see your "
+      "people in our land.\""
+   kocatanbanker_random_013 = "~kHuital says, \"It is good to see you, %s.\""
+   kocatanbanker_random_014 = \
+      "~kHuital smiles, seeming content with the day's events."
+   kocatanbanker_random_015 = \
+      "~kHuital frowns while looking over a tablet. He says, \"I'm worried "
+      "that these shillings you import could disrupt our economy.\""
+   kocatanbanker_random_016 = \
+      "~kHuital says to you, \"Where did your people learn social graces? "
+      "Rather, when ~Iwill~I they?!\""
+   kocatanbanker_trigger_avar = "avar"
+   kocatanbanker_trigger_broke = "broke"
+   kocatanbanker_trigger_sell = "sell"
+   kocatanbanker_trigger_bye = "bye"
+   kocatanbanker_trigger_hello = "hello"
+   kocatanbanker_trigger_help = "help"
+   kocatanbanker_trigger_ko_catan = "ko'catan"
+   kocatanbanker_trigger_konima = "konima"
+   kocatanbanker_trigger_riija = "riija"
+   kocatanbanker_trigger_buy = "buy"
+   kocatanbanker_trigger_teach = "teach"
+   kocatanbanker_trigger_teach_2 = "teach"
+
+   // KocatanBartender (Oxal ix'Tokak)
+   kocatanbartender_speech_001 = \
+      "~kOxal says, \"The A'ach tezcha is our Military Directorate, like a "
+      "governing body that looks over every aspect of life in Ko'catan.\""
+   kocatanbartender_speech_002 = \
+      "~kOxal says, \"They are a worthy and honorable foe, although their "
+      "ultimate aim is our demise.\""
+   kocatanbartender_speech_003 = \
+      "~kOxal says, \"It is said that there were two tribes of those bird "
+      "men. That is talk for diplomats, cha'ya, and old merchants past "
+      "closing time. That is not talk for Ix'ca. To Ix'ca there is only one "
+      "kind of avar, and that is avar'ot.\""
+   kocatanbartender_speech_004 = "~kOxal ix'Tokak glares at you savagely."
+   kocatanbartender_speech_005 = \
+      "~kOxal says, \"Balo na'te Din was the battle where I was wounded, a "
+      "very fierce battle over the course of three days. Many died at Balo "
+      "na'te Din.\""
+   kocatanbartender_speech_006 = \
+      "~kOxal says, \"I am not permitted to talk about that with you. Don't "
+      "ask.\""
+   kocatanbartender_speech_007 = \
+      "~kOxal says, \"Show me what you have to offer.\""
+   kocatanbartender_speech_008 = "~kOxal says, \"Hail, Zax'ca.\""
+   kocatanbartender_speech_009 = \
+      "~kOxal ix'Tokak looks you over with a disapproving glare and says, "
+      "\"What do you want?\""
+   kocatanbartender_speech_010 = \
+      "~kOxal ix'Tokak says, \"I am here to serve as a bartender. That is "
+      "all. Do you want a drink or not?\""
+   kocatanbartender_speech_011 = \
+      "~kOxal says, \"Hu a'ach is an old saying in the Ko'catani which means "
+      "'savage war'. Hu is something fierce, or uncontrolled, and a'ach "
+      "means war, or literally 'smashing forces'.\""
+   kocatanbartender_speech_012 = \
+      "~kOxal says, \"I am not certain what the precise translation of that "
+      "would be, exactly.\""
+   kocatanbartender_speech_013 = \
+      "~kOxal says, \"Kici'ca.. . that means Legion.\""
+   kocatanbartender_speech_014 = \
+      "~kOxal says, \"In your language this is the Barking Monster. It is "
+      "the name of this hall.\""
+   kocatanbartender_speech_015 = \
+      "~kOxal says, \"Ko'catan is the name of this settlement. It means "
+      "something like Great City.\""
+   kocatanbartender_speech_016 = \
+      "~kOxal says, \"Konima is the Great Warlord that led our people to "
+      "this place in the face of a long battle against the Utom. Since that "
+      "time, each Warlord that has followed has assumed the title of Konima. "
+      "Our current leader is the fierce Katalin waz Konima, or Sixth "
+      "Warlord.\""
+   kocatanbartender_speech_017 = "~kOxal says, \"Drink to Konima!\""
+   kocatanbartender_speech_018 = \
+      "~kOxal says, \"How dare you befoul that name with your lazy tongue. "
+      "You must leave immediately.\""
+   kocatanbartender_speech_019 = \
+      "~kOxal says, \"Pekonch is wine. A good warrior will draw much "
+      "strength from its consumption.\""
+   kocatanbartender_speech_020 = \
+      "~kOxal says, \"That means... uh, something like ugly cow.\""
+   kocatanbartender_speech_021 = \
+      "~kOxal looks at you as though he was looking at something pathetic."
+   kocatanbartender_speech_022 = \
+      "~kOxal says, \"I sell pekonch, atz pekonch, and if you want to order "
+      "get in line.\""
+   kocatanbartender_speech_023 = \
+      "~kOxal says, \"I might have something you are interested in.\""
+   kocatanbartender_speech_024 = \
+      "~kThe room goes silent as %s mentions stunted dwarf."
+   kocatanbartender_speech_025 = "~kOxal says, \"Zala is puuc nahyijoa.\""
+   kocatanbartender_speech_026 = \
+      "~kOxal says, \"Zala ix'Mecya has a shop on up towards the wall. She "
+      "sells herbs and things for making magic. I don't trust anyone who "
+      "makes their living from wizardry and nonsense hocus pocus.\""
+   kocatanbartender_speech_027 = \
+      "~kOxal says, \"Zax'ca means literally 'foreign warrior'. It is not "
+      "meant to be impolite.\""
+   kocatanbartender_random_001 = \
+      "~kOxal says, \"Try a cup of our pekonch. It is what we call "
+      "'atz'pekonch', or in your language 'mythical wine.' It is the highest "
+      "standard of pekonch, produced specifically for the Lal a'ach.\""
+   kocatanbartender_random_002 = \
+      "~kOxal says, \"If I were in charge of the Kici'ca, we'd be taking the "
+      "fight to the Avar! Hu a'ach!\""
+   kocatanbartender_random_003 = \
+      "~kOxal says, \"Be fair warned, death awaits those who go into the "
+      "jungle unprepared. It might take your arm and leave you a half "
+      "soldier, as it has with me.\""
+   kocatanbartender_random_004 = \
+      "~kOxal says, \"I left the Kici'ca when my arm was separated from me.\""
+   kocatanbartender_random_005 = \
+      "~kOxal says, \"I wish sometimes that things had turned out "
+      "differently, but there isn't much room for mistakes in the life of an "
+      "Iz'ca. I have been cursed with bad luck.\""
+   kocatanbartender_random_006 = \
+      "~kOxal says, \"In this society, the only excuse that you have for not "
+      "being a warrior is to be a dead warrior. Perhaps I would have been "
+      "more fortunate if I had had my head chopped off by that Avar hatchet "
+      "rather than my arm. I am but half a warrior.\""
+   kocatanbartender_random_007 = \
+      "~kOxal says, \"I've got plenty to say about the way things are run "
+      "around here, but talking about change in Ko'catan will get you "
+      "trouble.\""
+   kocatanbartender_random_008 = \
+      "~kOxal says, \"I still have the instincts and discipline of a "
+      "tez'ca.\""
+   kocatanbartender_random_009 = \
+      "~kOxal says, \"In my dreams now, sometimes late at night I can still "
+      "feel my hand, the one that the Avar'ot destroyed so many years ago. "
+      "It is a strange feeling, liberating even though I know all the time "
+      "that it is gone. But enough about that, we could both be imprisoned "
+      "for talking about this.\""
+   kocatanbartender_random_010 = \
+      "~kOxal says, \"It isn't easy to be a half-soldier in our society, I "
+      "have to work twice as hard to fulfill my duty. Without duty a soldier "
+      "is worthless, and a worthless soldier... well, the jungle is full of "
+      "shallow holes we dug to put worthless soldiers in.\""
+   kocatanbartender_random_011 = \
+      "~kOxal says, \"Feel comfortable in the Huf Huf Moch, warrior. It is "
+      "your right, earned through blood and honor.\""
+   kocatanbartender_random_012 = \
+      "~kOxal says, \"Welcome to the Huf Huf Moch, Zax'ta. It is an honor of "
+      "my duties to preside here, and if I can to serve you.\""
+   kocatanbartender_random_013 = \
+      "~kOxal says, \"If you come from the family that I came from, there "
+      "isn't much choice in it at all. You will end up soldiering, and you "
+      "just better hope your luck holds up.\""
+   kocatanbartender_random_014 = \
+      "~kOxal says, \"After I was wounded at Balo na'te Din the War "
+      "Directorate assigned me to working here at the Huf Huf Moch, on "
+      "account of my record with the Katalin waz Lal'ca. It is a great honor "
+      "for a wounded veteran to be assigned here, so close to the Army after "
+      "he has become useless to war.\""
+   kocatanbartender_random_015 = \
+      "~kOxal says, \"Have you heard of Xacal ko'Ixca? He is the commanding "
+      "officer of my combat unit, Katalin waz Lal'ca. Although I am no "
+      "longer on the active roster for my unit, I hold Captain ko'Ixca in "
+      "the highest regard and honor. Drink to Captain ko'Ixca!!\""
+   kocatanbartender_random_016 = \
+      "~kOxal says, \"I understand that in the land across and beneath the "
+      "water you have many cities as large as Ko'catan and enemies abound, "
+      "and yet there is no zax'Kicica... that you have no army! How can that "
+      "be?\""
+   kocatanbartender_random_017 = \
+      "~kOxal says, \"The mural up there tells the story from the time of "
+      "the Waz Waz Konima, our Second Warlord, and The Two-Front War. It was "
+      "a dark hour when we nearly lost all to the combined Avar'ot Kici'ca, "
+      "one hundred and fifty-six years before this year. The valor of our "
+      "atz Kici'ca was tremendous, and we were saved!\""
+   kocatanbartender_random_018 = \
+      "~kOxal says, \"When I was with Katalin waz Lal'ca years ago as a "
+      "Iz'ca before Balo na'te Din, we were on patrol when we came across a "
+      "remote and fortified trading post far from here in the jungle. A "
+      "fantastic place to behold. My unit had secretly surrounded the fort "
+      "and we were preparing to storm it when a message came from Captain "
+      "ko'Ixca that we were to let the fort be. I heard later that it was a "
+      "Zax'at that runs this place, one of yours.\""
+   kocatanbartender_random_019 = \
+      "~kOxal says, \"Be careful of the exzor ferns out in the jungle. "
+      "They'll cut right through your trousers and your boots.\""
+   kocatanbartender_random_020 = \
+      "~kOxal says, \"This settlement would have been annihilated long ago "
+      "if it were not for our strong emphasis on military and fortification. "
+      "The rules from the A'ach tezcha may not give us the ideal life here, "
+      "but we are alive at least.\""
+   kocatanbartender_random_021 = \
+      "~kOxal says, \"The pekonch from our casks builds the strength "
+      "necessary to victory in war and battle.\""
+   kocatanbartender_random_022 = \
+      "~kOxal says, \"Welcome, Zax'ta. I am Oxal ix'Tokak, honored by the "
+      "A'ach tezcha to serve here. What is your bidding?\""
+   kocatanbartender_random_023 = "~kOxal says, \"Can I help you, Zax'ta?\""
+   kocatanbartender_random_024 = \
+      "~kOxal deftly cleans up behind the bar, working at a fluid pace."
+   kocatanbartender_random_025 = \
+      "~kOxal says, \"I have a duty here, to run Huf Huf Moch as efficiently "
+      "as any unit in the Kici'ca fulfills its duties. I take my orders very "
+      "seriously.\""
+   kocatanbartender_random_026 = \
+      "~kOxal says, \"If not for the bad luck of losing my arm at Balo na'te "
+      "Din, I would have been a ranking officer by now.\""
+   kocatanbartender_random_027 = \
+      "~kOxal carefully wipes a glass with a colorfully printed towel."
+   kocatanbartender_random_028 = \
+      "~kOxal says, \"It has taken us years to eradicate the napyijoa from "
+      "Ko'catan, but I understand that even the sewers have no trace of the "
+      "vermin. That is how efficient is our A'ach tezcha.\""
+   kocatanbartender_random_029 = \
+      "~kOxal says, \"My opinion is that the Ix'ca spend far too much time "
+      "in here during the day. If I were the ranking officer or the Captain "
+      "of the Day Guard I would keep all the soldiers so busy that they "
+      "wouldn't have time to drink wine.\""
+   kocatanbartender_random_030 = \
+      "~kOxal says, \"If this military isn't vigilant, those Avar'ot would "
+      "mount an attack and ravage Ko'catan. We are that close to extinction "
+      "here.\""
+   kocatanbartender_random_031 = \
+      "~kOxal says, \"This hall has been here for almost two hundred years. "
+      "It was set up by the Kici'ca, and it is here even now mostly for the "
+      "Kici'ca. You are here as a guest of the Ko'catani Kici'ca. \""
+   kocatanbartender_random_032 = \
+      "~kOxal says, \"I have seen a stranger in here from the Land Across "
+      "and Under the Water, with a curious half sword. What a weapon! "
+      "Perfect for one as myself!\""
+   kocatanbartender_random_033 = \
+      "~kOxal says, \"If you encounter the avar'ca in the jungle, be most "
+      "careful. They will attack in waves, with the wounded falling back to "
+      "heal and rally, and then rejoining the fray.\""
+   kocatanbartender_random_034 = \
+      "~kOxal says, \"The stronger a warrior's arms and armor, the better "
+      "their ability to resist a magical attack. We learned this early on in "
+      "the a'ach kici'ca, and it will serve you as well. Always take care of "
+      "your equipment.\""
+   kocatanbartender_random_035 = \
+      "~kOxal says, \"I have heard that in your Land Across and Beneath the "
+      "Water, you have spirited trees! These tezmecya must make your jungles "
+      "very difficult to maneuver indeed.\""
+   kocatanbartender_random_036 = \
+      "~kOxal says, \"You aren't one of those spell casting imbeciles, are "
+      "you? I cannot trust ritual witches, like Zala and her lot.\""
+   kocatanbartender_random_037 = \
+      "~kOxal says, \"Are you going to buy a drink or just stand there with "
+      "your mouth open?\""
+   kocatanbartender_random_038 = \
+      "~kOxal says, \"Impetuous Zax'ot, laggardly Zax'met, disgusting "
+      "Zax'chot, you have the gall to visit the homeland of another and "
+      "desecrate all that is honorable there with your presence? I will "
+      "waste no more time on you.\""
+   kocatanbartender_random_039 = \
+      "~kOxal says, \"Hey you! You there, from the land of the Nap'ca, whose "
+      "idiot are you anyway? You who bubbles from the nearest sewer, take "
+      "yourself away from Honorable warriors, Atz yo'Chot.\""
+   kocatanbartender_random_040 = "~kOxal watches you suspiciously."
+   kocatanbartender_random_041 = \
+      "~kOxal says, \"I believe that you are dangerous, and it is my duty to "
+      "report your presence to the War Directorate, to the A'ach Tez'cha. "
+      "That is not a warning, but a statement of fact.\""
+   kocatanbartender_random_042 = \
+      "~kOxal says, \"This place, the Huf Huf Moch, was set up by the War "
+      "Directorate to serve warriors and soldiers that have honored "
+      "themselves and the descendants of Konima. Since you are not by any "
+      "consideration an honorable warrior, you should remove yourself from "
+      "here.\""
+   kocatanbartender_random_043 = \
+      "~kOxal says, \"Don't get tough with me, kinich. I will smash you with "
+      "the arm that still functions.\""
+   kocatanbartender_random_044 = \
+      "~kOxal says, \"You will be very sorry if you create trouble in this "
+      "place. Very, very sorry.\""
+   kocatanbartender_random_045 = \
+      "~kOxal somehow manages to act professional as he ignores you entirely."
+   kocatanbartender_trigger_a_ach_tezcha = "a'ach tezcha"
+   kocatanbartender_trigger_avar = "avar"
+   kocatanbartender_trigger_balo_na_te_din = "balo na'te din"
+   kocatanbartender_trigger_sell = "sell"
+   kocatanbartender_trigger_hello = "hello"
+   kocatanbartender_trigger_help = "help"
+   kocatanbartender_trigger_hu_a_ach = "hu a'ach"
+   kocatanbartender_trigger_huf_huf_moch = "huf huf moch"
+   kocatanbartender_trigger_ko_catan = "ko'catan"
+   kocatanbartender_trigger_konima = "konima"
+   kocatanbartender_trigger_pekonch = "pekonch"
+   kocatanbartender_trigger_puuc_nahyijoa = "puuc nahyijoa"
+   kocatanbartender_trigger_buy = "buy"
+   kocatanbartender_trigger_stunted_dwarf = "stunted dwarf"
+   kocatanbartender_trigger_zala = "zala"
+   kocatanbartender_trigger_zax_ca = "zax'ca"
+
+   // KocatanBlacksmith (KocatanBlacksmith)
+   kocatanblacksmith_speech_001 = "~kIxla says, \"What do you have there?\""
+   kocatanblacksmith_speech_002 = "~kIxla says, \"Come back any time.\""
+   kocatanblacksmith_speech_003 = "~kIxla says, \"Leaving? See you around.\""
+   kocatanblacksmith_speech_004 = \
+      "~kIxla says, \"Kazot you and all of your kinkauilkinich chot frying "
+      "pan armor, you call yourself a warrior? You call yourself a warrior? "
+      "Get your sorry zosin mainland trash back through the zosin orc "
+      "warrens where you zosin belong.\""
+   kocatanblacksmith_speech_005 = "~kIxla says, \"Hello. Come on in.\""
+   kocatanblacksmith_speech_006 = \
+      "~kIxla says, \"What the kazot! How you been? Good to see you.\""
+   kocatanblacksmith_speech_007 = \
+      "~kIxla says, \"If it's not one zoszin thing it's another.\""
+   kocatanblacksmith_speech_008 = "~kIxla blushes."
+   kocatanblacksmith_speech_009 = \
+      "~kIxla says, \"Guess what? That's where you are right now, you zoszin "
+      "genius.\""
+   kocatanblacksmith_speech_010 = \
+      "~kIxla says, \"As in where is Ko'catan? Well let's see, something "
+      "tells me that maybe you don't belong here if you don't know where you "
+      "are. Listen Nah zotz chot, get it right. If you're going to stand "
+      "around asking stupid zoszin questions, do it with somebody stupid "
+      "enough to waste their time talking to you.\""
+   kocatanblacksmith_speech_011 = \
+      "~kIxla says, \"I've got his sword. His zoszin sword, I've got it. "
+      "Great big thing too, charged with all kinds of energy that I don't "
+      "understand.\""
+   kocatanblacksmith_speech_012 = \
+      "~kIxla says, \"Konima? He's the guy that came up with the zoszin plan "
+      "to begin with. The Great Warlord. After him, all the others pale. "
+      "They're just zoszin kotezleoc.\""
+   kocatanblacksmith_speech_013 = \
+      "~kIxla says, \"Kotezleoc is... how the zoszin do you say it? Like a "
+      "person, after they're dead, and their body is like smoke or fog "
+      "rather than being like a real body.\""
+   kocatanblacksmith_speech_014 = \
+      "~kIxla says, \"What the kazot do you think I sell? Umacha beans?\""
+   kocatanblacksmith_speech_015 = "~kIxla says, \"Yeah, right.\""
+   kocatanblacksmith_random_001 = \
+      "~kIxla says, \"This anvil has been in my family for six generations. "
+      "My grandfather's grandfather was the weaponsmith to Konima himself, "
+      "and was next to him when he passed from this life. The wounds on "
+      "Konima were so great, that in some places his armor was irreparable. "
+      "My grandfather's grandfather made this anvil from the breastplate of "
+      "Konima's great platemail. That's true, every zoszin word of it.\""
+   kocatanblacksmith_random_002 = \
+      "~kIxla says, \"This land that you come from, across and beneath the "
+      "water. What the zoszin kazot kind of blacksmiths do you have there? "
+      "Your tools and your weapons look so zoszin clumsy.\""
+   kocatanblacksmith_random_003 = \
+      "~kIxla says, \"I really don't give a kazot about the Avars or the "
+      "Orcs. They got some guys like to fight, we got some guys that like to "
+      "fight, the two groups of guys get together and fight. It's a minor "
+      "zoszin sidelight, that's all. Big deal. That's not what life is "
+      "about. But it keeps the zoszin business good.\""
+   kocatanblacksmith_random_004 = \
+      "~kIxla yells, \"~BChot!~B\" She's a little frustrated with her work "
+      "right now."
+   kocatanblacksmith_random_005 = \
+      "~kYou don't see any evidence of wood or other fuel that would "
+      "normally be needed in great abundance to feed a fire so remarkably "
+      "hot."
+   kocatanblacksmith_random_006 = \
+      "~kIxla carefully smashes a metal plate with her hammer, sending "
+      "sparks up around the room."
+   kocatanblacksmith_random_007 = \
+      "~kThe heart of the fire buzzes with the intensity of a magical storm."
+   kocatanblacksmith_random_008 = \
+      "~kIxla says, \"Watch yourself near the forge there. You stand too "
+      "close and you'll burn the chot out of yourself.\""
+   kocatanblacksmith_random_009 = \
+      "~kIxla says, \"You need to be pretty zoszin careful with a nerudite "
+      "sword. It's not like that clumsy zoszin iron you're probably used to "
+      "swinging, nerudite is sharp and refined. But it's also brittle, so "
+      "it's no good swinging it like a zoszin hammer.\""
+   kocatanblacksmith_random_010 = \
+      "~kThe heart of the forge glows with terribly intense heat, but seems "
+      "to not substantially raise the temperature of the shop."
+   kocatanblacksmith_random_011 = \
+      "~kDeep in the very heart of the forge glows a terribly intense heat."
+   kocatanblacksmith_random_012 = \
+      "~kIxla says, \"Aw, kazot, I'm sorry. Did those sparks burn your "
+      "clothes?\""
+   kocatanblacksmith_random_013 = \
+      "~kIxla says, \"What the kazot. Did you come in here to stand around "
+      "watching me work or do we have business? I don't have all zoszin "
+      "day.\""
+   kocatanblacksmith_trigger_sell = "sell"
+   kocatanblacksmith_trigger_goodbye = "goodbye"
+   kocatanblacksmith_trigger_goodbye_2 = "goodbye"
+   kocatanblacksmith_trigger_hello = "hello"
+   kocatanblacksmith_trigger_help = "help"
+   kocatanblacksmith_trigger_kazot = "kazot"
+   kocatanblacksmith_trigger_ko_catan = "ko'catan"
+   kocatanblacksmith_trigger_konima = "konima"
+   kocatanblacksmith_trigger_kotezleoc = "kotezleoc"
+   kocatanblacksmith_trigger_buy = "buy"
+   kocatanblacksmith_trigger_zoszin = "zoszin"
+
+   // KocatanBonePriestess (The Bone Priestess)
+   kocatanbonepriestess_speech_001 = \
+      "~kThe Bone Priestess says, \"Buy? TIC-TIC-TIC-TIC-TIC!!!\""
+   kocatanbonepriestess_speech_002 = \
+      "~kThe Bone Priestess squawks, \"CHITTY-UP!!\""
+   kocatanbonepriestess_speech_003 = \
+      "~kThe Bone Priestess replies, \"PER-CHICK-A-REEEEEEE!\""
+   kocatanbonepriestess_speech_004 = \
+      "~kThe Bone Priestess hisses, \"~IBRING ME THE HEAD OF THE ORC "
+      "CHIEFTAIN!!!~I\""
+   kocatanbonepriestess_speech_005 = \
+      "~kThe Bone Priestess screams, \"ANK-ANK-ANK-ANK!\""
+   kocatanbonepriestess_speech_006 = \
+      "~kThe Bone Priestess says to you, \"WENK-WENK-WENK!!\""
+   kocatanbonepriestess_speech_007 = \
+      "~kThe Bone Priestess screams, \"~ITHE EYE OF RIIJA~I!\""
+   kocatanbonepriestess_speech_008 = \
+      "~kThe Bone Priestess screams, \"~IRIIJA! RIIJA!~I\""
+   kocatanbonepriestess_random_001 = \
+      "~kThe Bone Priestess squeals, \"Chobble-dee, chobble-dee, "
+      "chobble-dee!\""
+   kocatanbonepriestess_random_002 = \
+      "~kThe Bone Priestess stutters, \"Garoooo-a-a-a-a.\""
+   kocatanbonepriestess_random_003 = \
+      "~kThe Bone Priestess buzzes, \"ZEE-CHUPITY-CHUPITY!\""
+   kocatanbonepriestess_random_004 = \
+      "~kThe Bone Priestess wildly chirps, \"Piky-tucky-tuck, pik-a-tuck, "
+      "pik-a-tuck, Piky-tucky-tuck, pik-a-tuck, pik-a-tuck.\""
+   kocatanbonepriestess_random_005 = \
+      "~kThe Bone Priestess trills, \"Chu-wheee, cheer-ee-oh.\""
+   kocatanbonepriestess_random_006 = \
+      "~kThe Bone Priestess grates, \"Shaaaaaaaaak!\""
+   kocatanbonepriestess_random_007 = \
+      "~kThe Bone Priestess screams, \"CHUP-CHUP-ZEE! SKULLS! SKULLS!\""
+   kocatanbonepriestess_random_008 = "~kThe Bone Priestess is clearly insane."
+   kocatanbonepriestess_random_009 = "~kThe ground seems sticky around you."
+   kocatanbonepriestess_random_010 = \
+      "~kThere is something very scary about the way that the Bone Priestess "
+      "is watching you."
+   kocatanbonepriestess_random_011 = "~kThis place is unsettling."
+   kocatanbonepriestess_random_012 = "~kThe Bone Priestess yaps at herself."
+   kocatanbonepriestess_random_013 = \
+      "~kThe Bone Priestess fidgets and watches you."
+   kocatanbonepriestess_random_014 = \
+      "~kThe Bone Priestess is staring at you without comprehension."
+   kocatanbonepriestess_random_015 = \
+      "~kThe Bone Priestess doesn't seem to see you at all."
+   kocatanbonepriestess_random_016 = \
+      "~kThe smell here is of rotting melons and it is overpowering."
+   kocatanbonepriestess_random_017 = \
+      "~kThe Bone Priestess thumps her hand on her chest and makes weird "
+      "little circles with her head."
+   kocatanbonepriestess_random_018 = \
+      "~kThe Bone Priestess scratches, shakes her head, and makes a weird "
+      "noise."
+   kocatanbonepriestess_random_019 = \
+      "~kThe Bone Priestess preens herself, dislodging a cloud of flaky "
+      "crumbs from her feathers."
+   kocatanbonepriestess_random_020 = \
+      "~kThe Bone Priestess screams, \"ANK-ANK-ANK-ANK!\""
+   kocatanbonepriestess_trigger_buy = "buy"
+   kocatanbonepriestess_trigger_hello = "hello"
+   kocatanbonepriestess_trigger_help = "help"
+   kocatanbonepriestess_trigger_riija = "riija"
+   kocatanbonepriestess_trigger_sell = "sell"
+   kocatanbonepriestess_trigger_staff = "staff"
+   kocatanbonepriestess_trigger_sword = "sword"
+
+   // KocatanBowMaker (Hanla zax'Ta)
+   kocatanbowmaker_speech_001 = \
+      "~kHanla says, \"The feathers and wood determine the quality of an "
+      "arrow, but ultimately it depends on how straight the shaft is "
+      "carved.\""
+   kocatanbowmaker_speech_002 = \
+      "~kHanla says, \"The Avars are no worse or better than the warriors of "
+      "Ko'catan. I don't pose enough of a threat to them, so they leave me "
+      "alone.\""
+   kocatanbowmaker_speech_003 = \
+      "~kHanla says, \"You would be considered wise if you stayed a good "
+      "distance from that man's hut. He is stark-staring mad.\""
+   kocatanbowmaker_speech_004 = \
+      "~kHanla says, \"Nature likes balance. If the hunter seeks to bring "
+      "evil creatures down, that hunter shall tend towards good. Hunting "
+      "good creatures will align her towards evil. A good hunter seeks to "
+      "balance her kills.\""
+   kocatanbowmaker_speech_005 = \
+      "~kHanla says, \"Do not make a habit of coming here to sell your "
+      "baubles to me. But since my supplies are running low, let me see what "
+      "you have.\""
+   kocatanbowmaker_speech_006 = \
+      "~kHanla zax'Ta says, \"Good luck. You will need it.\""
+   kocatanbowmaker_speech_007 = \
+      "~kHanla zax'Ta says, \"Please close the door softly as you leave. I "
+      "don't wish for my father to wake.\""
+   kocatanbowmaker_speech_008 = \
+      "~kHanla says, \"My father is my only friend. He has always been there "
+      "for me. I do not know what I would do without him.\""
+   kocatanbowmaker_speech_009 = \
+      "~kHanla zax'Ta does not even look up from her work."
+   kocatanbowmaker_speech_010 = "~kHanla zax'Ta says, \"I craft fine bows.\""
+   kocatanbowmaker_speech_011 = \
+      "~kHanla says, \"Stay away from the cliff. A true hunter does not hunt "
+      "in the den of its prey.\""
+   kocatanbowmaker_speech_012 = \
+      "~kHanla says, \"The major hive is on a cliff north of here. Avoid "
+      "it.\""
+   kocatanbowmaker_speech_013 = \
+      "~kHanla says, \"Ko'catan is civilized. Civilized like a pack of "
+      "wolves.\""
+   kocatanbowmaker_speech_014 = \
+      "~kHanla says, \"~IKonima was a great warrior. He led our people to "
+      "safety. He built our civilization.~I These are just stories that "
+      "others tell to make themselves seem important.\""
+   kocatanbowmaker_speech_015 = \
+      "~kHanla says, \"Wulfgang the Trader and Bahal the mad also live out "
+      "in the jungle.\""
+   kocatanbowmaker_speech_016 = \
+      "~kHanla says, \"The shadow god is just an old legend.\""
+   kocatanbowmaker_speech_017 = \
+      "~kHanla says, \"Normally, I would not part with my hand worked bows. "
+      "Especially not to a stranger. But my father is sick and medication "
+      "costs so much.\""
+   kocatanbowmaker_speech_018 = \
+      "~kHanla says, \"I do not wish to take on students. Perhaps old "
+      "Kochtal can help you. He taught my father how to fire a bow.\""
+   kocatanbowmaker_speech_019 = \
+      "~kHanla says, \"I don't know what your people call them. Something "
+      "like the beast of shadows.\""
+   kocatanbowmaker_speech_020 = \
+      "~kHanla says, \"Wulfgang is kind enough. He sometimes comes to "
+      "re-supply us with essentials. His accent is similar to yours.\""
+   kocatanbowmaker_random_001 = \
+      "~kHanla zax'Ta says, \"This wood needs to be oiled properly. Bows "
+      "need to be strong, yet yielding.\""
+   kocatanbowmaker_random_002 = \
+      "~kHanla says, \"My father is not the only one who has been outcast "
+      "from Ko'catan. There have been others.\""
+   kocatanbowmaker_random_003 = \
+      "~kHanla says, \"It is essential to have a tightly strung bow, if you "
+      "are hunting teotkriipa.\""
+   kocatanbowmaker_random_004 = \
+      "~kHanla says, \"Primarily, one must hunt for food or to hone one's "
+      "ability. Though nature does have a sense of balance.\""
+   kocatanbowmaker_random_005 = \
+      "~kThe smell of cooking fish hangs heavily in the air."
+   kocatanbowmaker_random_006 = \
+      "~kHanla calls to the backroom, \"Yes, father. As soon as this person "
+      "is gone, I will make you dinner.\""
+   kocatanbowmaker_random_007 = \
+      "~kHanla looks up towards the bedroom door. \"Do you need me, father? "
+      "Your cough is getting worse.\""
+   kocatanbowmaker_random_008 = \
+      "~kHanla says, \"You won't be staying long, will you? I need to go out "
+      "and get tomorrow's dinner and I don't want to leave you here alone "
+      "with my father.\""
+   kocatanbowmaker_random_009 = \
+      "~kHanla says, \"I make different types of arrows.\""
+   kocatanbowmaker_random_010 = \
+      "~kA slight creaking can be heard from the back room."
+   kocatanbowmaker_random_011 = \
+      "~kHanla bends an arrow to test the strength of the shaft. When it "
+      "doesn't break, she seems pleased."
+   kocatanbowmaker_random_012 = \
+      "~kHanla sings a soft song to herself as she works the wood."
+   kocatanbowmaker_random_013 = \
+      "~kHanla applies a light coating of oil to the bow in her hands."
+   kocatanbowmaker_random_014 = "~kHanla says, \"Hail, %s.\""
+   kocatanbowmaker_random_015 = \
+      "~kHanla hands you a bow to examine. It is well made."
+   kocatanbowmaker_random_016 = \
+      "~kHanla says, \"It gets lonely out here without having other women to "
+      "talk to.\""
+   kocatanbowmaker_random_017 = \
+      "~kFor a moment you think you can smell the stench of decay buried "
+      "under the strong smell of cooking fish. Perhaps that was just in your "
+      "imagination."
+   kocatanbowmaker_random_018 = \
+      "~kHanla says, \"I have had little problem with the Kyip-Kyip-Kreeet "
+      "tribe. The Peet-Seeeeps are the arrogant ones.\""
+   kocatanbowmaker_random_019 = \
+      "~kHanla says, \"Beware of the old ruins. The war between the two "
+      "major tribes rages most severely there.\""
+   kocatanbowmaker_random_020 = \
+      "~kHanla says, \"The huzotz can be an easy hunt, but beware do not "
+      "think to take them in their hive. They are extremely territorial.\""
+   kocatanbowmaker_random_021 = \
+      "~kHanla grinds her teeth. She is obviously uncomfortable with your "
+      "presence."
+   kocatanbowmaker_trigger_arrow = "arrow"
+   kocatanbowmaker_trigger_quality = "quality"
+   kocatanbowmaker_trigger_avar = "avar"
+   kocatanbowmaker_trigger_bahal = "bahal"
+   kocatanbowmaker_trigger_balance = "balance"
+   kocatanbowmaker_trigger_balance_2 = "balance"
+   kocatanbowmaker_trigger_sell = "sell"
+   kocatanbowmaker_trigger_bye = "bye"
+   kocatanbowmaker_trigger_father = "father"
+   kocatanbowmaker_trigger_hello = "hello"
+   kocatanbowmaker_trigger_help = "help"
+   kocatanbowmaker_trigger_hive = "hive"
+   kocatanbowmaker_trigger_cliff = "cliff"
+   kocatanbowmaker_trigger_huzotz = "huzotz"
+   kocatanbowmaker_trigger_ko_catan = "ko'catan"
+   kocatanbowmaker_trigger_konima = "konima"
+   kocatanbowmaker_trigger_others = "others"
+   kocatanbowmaker_trigger_riija = "riija"
+   kocatanbowmaker_trigger_buy = "buy"
+   kocatanbowmaker_trigger_teach = "teach"
+   kocatanbowmaker_trigger_learn = "learn"
+   kocatanbowmaker_trigger_learn_2 = "learn"
+   kocatanbowmaker_trigger_teotkriipa = "teotkriipa"
+   kocatanbowmaker_trigger_wulfgang = "wulfgang"
+
+   // KocatanCaptainEvil (Xacal ko'Ixca)
+   kocatancaptainevil_speech_001 = \
+      "~kXacal says, \"Balo na'te Din? That's a strange thing for you to be "
+      "asking about.\""
+   kocatancaptainevil_speech_002 = \
+      "~kXacal says, \"Bribe is such an ugly word. Let's just say that a "
+      "~Igift~I of a thousand shillings buys a little cooperation.\""
+   kocatancaptainevil_speech_003 = "~kXacal says, \"I ain't buying.\""
+   kocatancaptainevil_speech_004 = \
+      "~kXacal watches you with apparent amusement."
+   kocatancaptainevil_speech_005 = \
+      "~kXacal says, \"I am Xacal ko'Ixca, Captain of the Teot Guard and "
+      "acting Tezcha Kici'ca in command of the Main Gate. Nothing passes "
+      "this gate unless I say so.\""
+   kocatancaptainevil_speech_006 = \
+      "~kXacal says, \"Kazot you, skip the rigmarole.\""
+   kocatancaptainevil_speech_007 = \
+      "~kXacal says, \"Don't play games with me. This isn't the visitors "
+      "bureau, and I ask the questions, not you.\""
+   kocatancaptainevil_speech_008 = \
+      "~kXacal says, \"A thousand shillings is a good reason to break the "
+      "rules.\""
+   kocatancaptainevil_speech_009 = \
+      "~kXacal says, \"By proclamation of the A'ach tezcha, blah, blah, "
+      "blah, the following items are restricted; you don't pass with "
+      "restricted items unless I say so. Ready? Weapons; you can carry four "
+      "weapons. Armor; you can get away with the armor you're wearing and a "
+      "spare, that's it. Kangi stone; you don't have any kangi stone, "
+      "zax'ix. Raw nerudite; no raw nerudite will pass through this gate "
+      "under any circumstances. Got that? Alcohol; any alcohol will be "
+      "confiscated by the captain on duty. Umacha beans; I don't care about "
+      "umacha beans. Now, those are the rules, and we don't break the rules "
+      "around here unless we have good reasons.\""
+   kocatancaptainevil_speech_010 = \
+      "~kXacal says, \"Anything is available, for the right price.\""
+   kocatancaptainevil_speech_011 = \
+      "~kXacal says, \"You're kidding me, right? At my gate? Keep it up, "
+      "you're going to look pretty humorous eating brown corn with no front "
+      "teeth, ix'chot.\""
+   kocatancaptainevil_speech_012 = \
+      "~kXacal says, \"Ah, I see. Tepal ix'Zonak sent you? Well, you're not "
+      "in sanctuary now, so play by the rules or you may end up splashed on "
+      "the floor here trying to breathe with your lungs ripped out.\""
+   kocatancaptainevil_speech_013 = \
+      "~kXacal recounts, \"By proclamation of the A'ach tezcha, the "
+      "possession of certain items is forbidden.\""
+   kocatancaptainevil_random_001 = \
+      "~kXacal says, \"According to the Tezcha A'ach, we are currently in a "
+      "heightened state of diplomatic awareness with the Avar. What does "
+      "that mean? That means that although we are not at war, every night I "
+      "send out a patrol of mean, quiet guys that come back in the morning "
+      "washing blood and feathers off their armor and the generals pretend "
+      "nothing happened. It means that anything that passes this gate only "
+      "does so if I think there's a good reason. And if it's restricted, it "
+      "better be a really good reason.\""
+   kocatancaptainevil_random_002 = \
+      "~kXacal says, \"So what brought you out to our quaint little island? "
+      "Easy money, right? That's right, easy money. Well, you best watch "
+      "your little entrepreneurial steps, or young Cital might find you "
+      "floating face down in that little pool in front of Konima's tomb one "
+      "morning.\""
+   kocatancaptainevil_random_003 = \
+      "~kXacal glances over his shoulder and shares a laugh with the guards."
+   kocatancaptainevil_random_004 = \
+      "~kXacal says, \"I am ordered to deny passage through this gate of any "
+      "parties carrying restricted items. And that's exactly what I'm going "
+      "to do.\""
+   kocatancaptainevil_random_005 = \
+      "~kXacal jokes, \"Be careful out there, Zax'ta.\" His men share a "
+      "hearty laugh."
+   kocatancaptainevil_random_006 = \
+      "~kXacal says, \"Young Cital commands the gate during the day, and I'm "
+      "here at night, every night. We do things a little differently, the "
+      "two of us.\""
+   kocatancaptainevil_random_007 = "~kXacal says, \"Don't get cute.\""
+   kocatancaptainevil_random_008 = \
+      "~kXacal says, \"Look alive there. If you've got business with the "
+      "gate, then let's deal. Otherwise, I don't give a chot what you're up "
+      "to, beat it, and fast. I have little patience for foreigners.\""
+   kocatancaptainevil_random_009 = \
+      "~kXacal's veteran guards watch you contemptuously."
+   kocatancaptainevil_random_010 = \
+      "~kXacal says, \"You're going out there to play around a bit, huh? It "
+      "gets a bit rough out there, you better be ready to play rough.\""
+   kocatancaptainevil_random_011 = \
+      "~kXacal says, \"You cannot show mercy out in the jungle, for none "
+      "will be shown to you, zax'ix. If your enemy flees, it will only be "
+      "because they are close to death. Hit them with your range weapons, or "
+      "they will be back to attack when their strength returns. That is the "
+      "law of the jungle.\""
+   kocatancaptainevil_random_012 = \
+      "~kXacal says, \"Have you heard of the koutom in the tunnels? He is "
+      "faster than evil itself, I have seen him. Only the most seasoned "
+      "warrior survives sword-to-sword with that clever moch.\""
+   kocatancaptainevil_trigger_balo_na_te_din = "balo na'te din"
+   kocatancaptainevil_trigger_bribe = "bribe"
+   kocatancaptainevil_trigger_sell = "sell"
+   kocatancaptainevil_trigger_hello = "hello"
+   kocatancaptainevil_trigger_help = "help"
+   kocatancaptainevil_trigger_ko_catan = "ko'catan"
+   kocatancaptainevil_trigger_konima = "konima"
+   kocatancaptainevil_trigger_reason = "reason"
+   kocatancaptainevil_trigger_gift = "gift"
+   kocatancaptainevil_trigger_gift_2 = "gift"
+   kocatancaptainevil_trigger_restrictions = "restrictions"
+   kocatancaptainevil_trigger_buy = "buy"
+   kocatancaptainevil_trigger_sing = "sing"
+   kocatancaptainevil_trigger_tepal = "tepal"
+   kocatancaptainevil_trigger_weapons = "weapons"
+
+   // KocatanCaptainGood (Cital ko'Manca)
+   kocatancaptaingood_speech_001 = \
+      "~kCital says, \"I hope that you are not attempting to bribe me. "
+      "Offering graft to a ranking officer in the Kici'ca is an offense "
+      "punishable by imprisonment and subsequent death.\""
+   kocatancaptaingood_speech_002 = \
+      "~kCital says, \"We are not here to sell anything. At this gate "
+      "nothing is negotiable, and any attempt to bribe a Ko'catani Officer "
+      "could lead to your imprisonment. Followed by interrogation, and "
+      "death.\""
+   kocatancaptaingood_speech_003 = "~kCital says, \"Good afternoon, %s.\""
+   kocatancaptaingood_speech_004 = \
+      "~kCital says, \"I am Cital ko'Manca, Captain of the Kin Guard and "
+      "acting Tezcha Kici'ca in command of the Main Gate.\""
+   kocatancaptaingood_speech_005 = \
+      "~kCital says, \"The homeland that I have sworn to defend. Have you "
+      "heard our national anthem?\""
+   kocatancaptaingood_speech_006 = \
+      "~kCital says, \"Koutom is our word for the chieftain of the orcs.\""
+   kocatancaptaingood_speech_007 = \
+      "~kCital quotes, \"By proclamation of the A'ach tezcha, the following "
+      "items are restricted; parties may not pass through this gate with "
+      "restricted items in their possession. Weapons; parties are limited to "
+      "four weapons only for their personal defense outside the gate. Armor; "
+      "parties are limited to two suits of armor for their safety outside "
+      "the gate. A ~Isuit~I of armor is composed of one of each of the "
+      "following items- one pair of gauntlets, one shield, one helmet, and "
+      "one breastplate. Kangi stone; no Kangi stone will pass through this "
+      "gate under any circumstances. Raw nerudite; no raw nerudite will pass "
+      "through this gate under any circumstances. Alcohol; no alcoholic "
+      "beverages will pass through this gate under any circumstances. Umacha "
+      "beans; no umacha beans will pass through this gate under any "
+      "circumstances. Is that clear enough?\""
+   kocatancaptaingood_speech_008 = \
+      "~kCital recounts, \"By proclamation of the A'ach tezcha, the "
+      "possession of certain items is forbidden.\""
+   kocatancaptaingood_speech_009 = \
+      "~kCital says, \"This is not a market %s.\""
+   kocatancaptaingood_speech_010 = \
+      "~kCital sings, \"Ko'catan, Ko'catan, yo lal ona tan, tez'ca, tez'ca, "
+      "hu lal ona tan, yo'ca, yo'ca, tez lal ona tan, Ko'catan, Ko'catan!\""
+   kocatancaptaingood_random_001 = "~kCital ko'Manca is all business."
+   kocatancaptaingood_random_002 = \
+      "~kCital says, \"I am ordered to deny passage through this gate of any "
+      "parties carrying restricted items.\""
+   kocatancaptaingood_random_003 = \
+      "~kCital says, \"A word of advice. The jungle is fraught with dangers "
+      "that you cannot even imagine. When I venture out of this gate, it is "
+      "with at least twenty veteran soldiers. I suggest that you be very "
+      "careful out there.\""
+   kocatancaptaingood_random_004 = \
+      "~kCital says, \"I sincerely hope that you have enjoyed your stay in "
+      "Ko'catan.\""
+   kocatancaptaingood_random_005 = \
+      "~kCital says, \"What you do outside of these gates is your business, "
+      "but what you bring out there is mine. I take my business very "
+      "seriously. That is my duty.\""
+   kocatancaptaingood_random_006 = \
+      "~kCital says, \"We are currently in a heightened state of diplomatic "
+      "awareness with the Avar. That means that although we are not at war, "
+      "the flow of goods from this gate is restricted.\""
+   kocatancaptaingood_random_007 = \
+      "~kCital glances over his shoulder and the guards snap to attention."
+   kocatancaptaingood_random_008 = "~kCital eyes you steadily."
+   kocatancaptaingood_random_009 = \
+      "~kCital says to his men, \"Vapil adiki zax'lal. A mozo ona zax.\""
+   kocatancaptaingood_random_010 = \
+      "~kCital's elite guards watch your every movement."
+   kocatancaptaingood_random_011 = \
+      "~kCital says, \"A piece of advice to the unwary. If you notice that "
+      "the area is darkening, watch for the teotkriipa, or shadowbeast. They "
+      "are fast and dangerous.\""
+   kocatancaptaingood_random_012 = \
+      "~kCital says, \"I will also warn you that good soldiers survive in "
+      "the jungle by defending their allies. That works on both sides, for "
+      "you, and your enemies.\""
+   kocatancaptaingood_random_013 = \
+      "~kCital says, \"Beware the avar'ca, even though we are supposedly on "
+      "neutral standing with them. They are territorial, and will not "
+      "hesitate to attack if they see you as a threat.\""
+   kocatancaptaingood_random_014 = \
+      "~kCital says, \"Survival usually depends on knowing your enemy. The "
+      "primitive avar'ca military doctrine usually dictates that they deploy "
+      "their ranged weapons away from you, the target, while their infantry "
+      "moves to engage. The best way to combat this is to send part of your "
+      "force to flank them, and annihilate the archers and spell casters.\""
+   kocatancaptaingood_trigger_bribe = "bribe"
+   kocatancaptaingood_trigger_buy = "buy"
+   kocatancaptaingood_trigger_hello = "hello"
+   kocatancaptaingood_trigger_help = "help"
+   kocatancaptaingood_trigger_ko_catan = "ko'catan"
+   kocatancaptaingood_trigger_koutom = "koutom"
+   kocatancaptaingood_trigger_restricted_items = "restricted items"
+   kocatancaptaingood_trigger_weapons = "weapons"
+   kocatancaptaingood_trigger_sell = "sell"
+   kocatancaptaingood_trigger_sing = "sing"
+
+   // KocatanInnkeeper (KocatanInnkeeper)
+   kocataninnkeeper_speech_001 = \
+      "~kMoxal says, \"Unfortunately, our culture has had a lot of "
+      "misunderstandings with the Avars. Once matters are cleared up, they "
+      "are going to be a great culture to take from, I mean, trade with.\""
+   kocataninnkeeper_speech_002 = \
+      "~kMoxal says, \"I'm always interested in a good deal.\""
+   kocataninnkeeper_speech_003 = \
+      "~kMoxal says, \"So long, %s! May all of your journeys be profitable.\""
+   kocataninnkeeper_speech_004 = \
+      "~kMoxal ix'Hanak greets you with, \"Hello, %s! You're just in time. "
+      "Any later and you would have missed out on some great deals.\""
+   kocataninnkeeper_speech_005 = "~kMoxal says, \"Hail, %s!\""
+   kocataninnkeeper_speech_006 = "~kMoxal says, \"I am here to serve you.\""
+   kocataninnkeeper_speech_007 = \
+      "~kMoxal says, \"This is the greatest society mankind has ever known. "
+      "But maybe someday I'll leave Ko'catan to see what the old cities have "
+      "to offer.\""
+   kocataninnkeeper_speech_008 = \
+      "~kMoxal says, \"Konima was the greatest hero and entrepreneur this "
+      "society has ever known. I wish I was around to get in on his "
+      "expedition in its start up.\""
+   kocataninnkeeper_speech_009 = \
+      "~kMoxal says, \"Riija is a fine upstanding god. He doesn't deserve "
+      "the bad reputation some people give him.\""
+   kocataninnkeeper_speech_010 = \
+      "~kMoxal says, \"I have food here, but I'm sure I can help you better "
+      "spend your hard earned money.\""
+   kocataninnkeeper_speech_011 = \
+      "~kThe room goes silent as %s mentions stunted dwarf."
+   kocataninnkeeper_speech_012 = \
+      "~kMoxal says, \"I'm afraid I'm not allowed to teach anything yet.\""
+   kocataninnkeeper_random_001 = \
+      "~kMoxal says, \"You know... never mind, I shouldn't say... well, all "
+      "right, since we're friends. I know of a group of prospectors who have "
+      "located an emerald mine. The claim hasn't been made official yet, so "
+      "there is still time to invest in the mining operation. If you give me "
+      "12,000 shillings, we can quadruple it in two weeks time.\""
+   kocataninnkeeper_random_002 = \
+      "~kMoxal says, \"I'm thinking of opening a second inn on the mainland. "
+      "Just imagine, the authentic feel of Ko'catan right in the middle of "
+      "Cor Noth. Tell you what, since I like you, I'll let you invest 25,000 "
+      "shillings. With it you would own one quarter of the inn and its "
+      "profits.\""
+   kocataninnkeeper_random_003 = \
+      "~kMoxal says, \"Have you bet on the warriors Tourney yet? I have "
+      "inside knowledge that the champion is going to lose. If you want in, "
+      "the odds pay 67 to 1. Guaranteed win. Give me 500 shillings and I'll "
+      "place the bet for you.\""
+   kocataninnkeeper_random_004 = \
+      "~kMoxal says, \"Come here. Do you want to make big money? I'm "
+      "involved in a group where the profits are enormous. Here's how it "
+      "works, as a new member you pay me 1,000 shillings. Now the next "
+      "twenty new members pay you 1,000 shillings each. You will be rich in "
+      "no time.\""
+   kocataninnkeeper_random_005 = \
+      "~kMoxal says, \"Last chance to enter the raffle for the nerudite bow! "
+      "Only 500 shillings to enter. Winner announced tomorrow.\""
+   kocataninnkeeper_random_006 = \
+      "~kMoxal says, \"How much money do you have on you? I have a bit of "
+      "property I need to unload today. It's a small villa on the other side "
+      "of the island. The area is a bit dangerous, but it's good property "
+      "and I'm willing to part with it for only 100,000 shillings.\""
+   kocataninnkeeper_random_007 = \
+      "~kMoxal says, \"I have secret knowledge that there will soon be a "
+      "shortage of brew. I've stockpiled a couple of barrels away. If you "
+      "want, I'll hold them here until the shortage begins, but you can be "
+      "the owner of them for only 900 shillings. Think about it, you'll be "
+      "able to charge any price you want for a cup of brew.\""
+   kocataninnkeeper_random_008 = \
+      "~kMoxal says, \"This wasn't really an inn before people from your "
+      "land started coming here. Long ago it was built to house the Avar "
+      "ambassadors. Well, after the treaties fell apart, this mainly got "
+      "used by soldiers who, well, let's just say, didn't feel like sleeping "
+      "in their barracks.\""
+   kocataninnkeeper_random_009 = \
+      "~kMoxal says, \"This is a wonderful place to stay the night. Don't "
+      "let the noise from downstairs bother you. It usually quiets down "
+      "around midnight.\""
+   kocataninnkeeper_random_010 = \
+      "~kYou hear shouting and laughter coming from the tavern beneath here."
+   kocataninnkeeper_random_011 = \
+      "~kA loud crash from downstairs startles you. Presumably used to such "
+      "sounds, Moxal pays no attention to it."
+   kocataninnkeeper_random_012 = \
+      "~kMoxal says, \"If you are out in the jungle, you might want to ask "
+      "Wulfgang about his inventory.\""
+   kocataninnkeeper_random_013 = "~kMoxal cheerfully smiles at you."
+   kocataninnkeeper_random_014 = \
+      "~kMoxal happily sings an old folk song to himself."
+   kocataninnkeeper_random_015 = \
+      "~kMoxal smiles and says, \"Today is a great day, don't you think?\""
+   kocataninnkeeper_random_016 = \
+      "~kMoxal counts a large stack of coins, giggling to himself."
+   kocataninnkeeper_random_017 = \
+      "~kMoxal says, \"So how long have you been in the settlement? You must "
+      "love it here. I know I do.\""
+   kocataninnkeeper_random_018 = \
+      "~kMoxal says, \"Business has really started booming since your people "
+      "started coming here. In fact, I only need a few more masters to "
+      "sponsor me and I'll move up a rank.\""
+   kocataninnkeeper_random_019 = \
+      "~kMoxal says to himself, \"Where am I going to get 450,000 shillings? "
+      "I am such a dead man. Riija help me, I'm such a dead man.\""
+   kocataninnkeeper_random_020 = \
+      "~kMoxal sweats profusely and says, \"Xacal ko'Ixca didn't send you "
+      "did he? If he did, let him know I ~Ihave~I his money. Well, I mean I "
+      "will have his money tomorrow.\""
+   kocataninnkeeper_random_021 = \
+      "~kMoxal paces back and forth nervously as if awaiting some disaster."
+   kocataninnkeeper_random_022 = \
+      "~kMoxal says to himself, \"What am I going to do?! There is no way I "
+      "can come up with that much money.\""
+   kocataninnkeeper_random_023 = \
+      "~kMoxal wipes tears from his eyes while muttering something about "
+      "losing a lot of money."
+   kocataninnkeeper_trigger_avar = "avar"
+   kocataninnkeeper_trigger_sell = "sell"
+   kocataninnkeeper_trigger_bye = "bye"
+   kocataninnkeeper_trigger_hello = "hello"
+   kocataninnkeeper_trigger_help = "help"
+   kocataninnkeeper_trigger_ko_catan = "ko'catan"
+   kocataninnkeeper_trigger_konima = "konima"
+   kocataninnkeeper_trigger_riija = "riija"
+   kocataninnkeeper_trigger_buy = "buy"
+   kocataninnkeeper_trigger_stunted_dwarf = "stunted dwarf"
+   kocataninnkeeper_trigger_teach = "teach"
+   kocataninnkeeper_trigger_teach_2 = "teach"
+
+   // KocatanLanguageMaster (Quetzal)
+   kocatanlanguagemaster_speech_001 = \
+      "~kQuetzal says, \"Yokinich would be a giant insect, a giant ant. Add "
+      "the word red, and you have kawilkinich, for the mutant red ant.\""
+   kocatanlanguagemaster_speech_002 = \
+      "~kQuetzal says, \"The bird people are smart enough to form a "
+      "semi-coherent language, but that hardly makes them civilized.\""
+   kocatanlanguagemaster_speech_003 = \
+      "~kQuetzal says, \"I have a few things here I could sell you.\""
+   kocatanlanguagemaster_speech_004 = \
+      "~kQuetzal says, \"How about dissecting insects. The basic insect is "
+      "called a kinich. A little insect, such as a baby spider, would be an "
+      "imixkinich.\""
+   kocatanlanguagemaster_speech_005 = \
+      "~kQuetzal says, \"Greetings, %s, that's an interesting name you have. "
+      "What are its origins?\""
+   kocatanlanguagemaster_speech_006 = \
+      "~kQuetzal says, \"I'm easily the most intelligent person in this "
+      "settlement. I know all about Language Structure, History, and "
+      "Philosophy. I can even teach simpletons to speak Ko'catanese "
+      "fluently.\""
+   kocatanlanguagemaster_speech_007 = \
+      "~kQuetzal says, \"Kauil means poisonous, so a scorpion is a "
+      "kinkauilkinich and a giant spider is a teotkauilkinich. Ants are "
+      "similar.\""
+   kocatanlanguagemaster_speech_008 = \
+      "~kQuetzal snidely remarks, \"Ko'catan literally means 'master "
+      "warriors fortification.' It just screams how primitive our society "
+      "is. It may as well be called 'dumb bullies' hideout.'\""
+   kocatanlanguagemaster_speech_009 = \
+      "~kQuetzal says, \"Yeah, Konima was a great warrior who fought the "
+      "orcs, but he hardly founded this society. Our language and culture "
+      "came out of a lost group of ruffians thirsting for civilization in a "
+      "most inhospitable region.\""
+   kocatanlanguagemaster_speech_010 = \
+      "~kQuetzal says, \"Exactly right, Konima was a great warrior who "
+      "fought the orcs.\""
+   kocatanlanguagemaster_speech_011 = \
+      "~kQuetzal says, \"Do you have any books or scrolls?\""
+   kocatanlanguagemaster_speech_012 = \
+      "~kQuetzal says, \"Stay here and listen to me. I'll help you learn our "
+      "language.\""
+   kocatanlanguagemaster_random_001 = \
+      "~kQuetzal says, \"Most foreigners can't grasp the simple rules of "
+      "pronunciation. For example, take the letter 'X.' A true member of "
+      "Ko'catan starts the letter at the back of the throat as if about to "
+      "spit. The sound ends up like 'sh' in your word 'wish.'\""
+   kocatanlanguagemaster_random_002 = \
+      "~kQuetzal says, \"Let me teach you how to properly pronounce our "
+      "'O's. Tense your tongue and round your lips in a tight circle. 'O's "
+      "are always long and stressed in a word. Such that our 'Ot' sounds "
+      "like your 'coat.'\""
+   kocatanlanguagemaster_random_003 = \
+      "~kQuetzal says, \"Always stress the first syllable in any Ko'catan "
+      "word. In addition, put an equal amount of stress on any syllable that "
+      "immediately follows an apostrophe. Ko'catan is KO - CAtan.\""
+   kocatanlanguagemaster_random_004 = \
+      "~kQuetzal says, \"I'm the only one in town who has the skill "
+      "necessary to teach language. By all accounts, I should be Quetzal "
+      "ko'Atezya.\""
+   kocatanlanguagemaster_random_005 = \
+      "~kQuetzal says, \"You are pronouncing our 'E' wrong. Make it softer "
+      "and bring it to the front of your mouth. We say, 'get,' not 'git,' "
+      "'geet' or 'gat.'\""
+   kocatanlanguagemaster_random_006 = \
+      "~kQuetzal says, \"Our 'A's are almost always soft and long as in "
+      "'balm.' Relax your tongue more and widen your lips. That's it.\""
+   kocatanlanguagemaster_random_007 = \
+      "~kQuetzal says, \"I don't understand most of your people's names. "
+      "They don't seem to have very much structure.\""
+   kocatanlanguagemaster_random_008 = \
+      "~kQuetzal says, \"I also know a bit of Avar speak, but not enough to "
+      "properly teach it. If you really want to talk with those creatures, "
+      "you should seek Franz zax'Ak.\""
+   kocatanlanguagemaster_random_009 = \
+      "~kQuetzal says, \"Much of our language is created by a logical "
+      "sequence of sounds and meanings. Shall I dissect some words for you?\""
+   kocatanlanguagemaster_random_010 = \
+      "~kQuetzal says, \"Many of our words have three syllables, like "
+      "puucmecmoch. That's a monster that is both plant and animal, by the "
+      "way.\""
+   kocatanlanguagemaster_random_011 = \
+      "~kQuetzal says, \"Kohuzotz live out on the island. Bahal knows more "
+      "about them than anyone. Ask him.\""
+   kocatanlanguagemaster_trigger_ant = "ant"
+   kocatanlanguagemaster_trigger_ant_2 = "ant"
+   kocatanlanguagemaster_trigger_avar = "avar"
+   kocatanlanguagemaster_trigger_buy = "buy"
+   kocatanlanguagemaster_trigger_dissect = "dissect"
+   kocatanlanguagemaster_trigger_dissect_2 = "dissect"
+   kocatanlanguagemaster_trigger_hello = "hello"
+   kocatanlanguagemaster_trigger_help = "help"
+   kocatanlanguagemaster_trigger_kinich = "kinich"
+   kocatanlanguagemaster_trigger_ko_catan = "ko'catan"
+   kocatanlanguagemaster_trigger_konima = "konima"
+   kocatanlanguagemaster_trigger_sell = "sell"
+   kocatanlanguagemaster_trigger_teach = "teach"
+   kocatanlanguagemaster_trigger_teach_2 = "teach"
+   kocatanlanguagemaster_trigger_teach_3 = "teach"
+
+   // KocatanMadScientist (Bahal zax'Ot)
+   kocatanmadscientist_speech_001 = "~kBahal says, \"Keep your toys.\""
+   kocatanmadscientist_speech_002 = \
+      "~kBahal says, \"Come back and tell me if you start to feel... odd. I "
+      "ask for no reason in particular.\""
+   kocatanmadscientist_speech_003 = \
+      "~kBahal says, \"Listen closely... ~IMurder~I is the key. Slaughter "
+      "opponents of the opposite extreme and your karma will reach the level "
+      "you desire.\""
+   kocatanmadscientist_speech_004 = \
+      "~kBahal says, \"The girl should cook and clean for me, instead of her "
+      "father. Why he... \" Bahal stops and then smiles to himself, \"No, I "
+      "don't think I will tell you.\""
+   kocatanmadscientist_speech_005 = \
+      "~kBahal says, \"Good, you are here. Step a little closer. Closer.\""
+   kocatanmadscientist_speech_006 = \
+      "~kBahal says, \"Hmm, how can I best use you?\""
+   kocatanmadscientist_speech_007 = \
+      "~kBahal says, \"Help you?! Perhaps we can help each other. Go stand "
+      "by the back table and close your eyes.\""
+   kocatanmadscientist_speech_008 = \
+      "~kBahal says, \"Why should I help ~Iyou~I?\""
+   kocatanmadscientist_speech_009 = \
+      "~kBahal says, \"Oh, I have plans for Ko'catan.\""
+   kocatanmadscientist_speech_010 = \
+      "~kBahal says, \"Kohuzotz. Those little dragon critters. Delicious yet "
+      "more valuable in other ways.\""
+   kocatanmadscientist_speech_011 = \
+      "~kBahal says, \"If only those ignorant barbarians knew the true, dark "
+      "secrets of their fallen martyr.\""
+   kocatanmadscientist_speech_012 = \
+      "~kBahal says, \"It took me months to capture a live kriipa. They hide "
+      "in the most unusual places.\""
+   kocatanmadscientist_speech_013 = \
+      "~kBahal says, \"I could teach you so very much. But what is the use, "
+      "you would surely go insane. Like the others.\""
+   kocatanmadscientist_speech_014 = \
+      "~kBahal says, \"You think I have no brain matter?! Keep your long "
+      "nose on your face and not in mine.\""
+   kocatanmadscientist_speech_015 = \
+      "~kBahal says, \"You seek the shadow god? You will not find what you "
+      "expect.\""
+   kocatanmadscientist_speech_016 = \
+      "~kBahal cackles, \"I will say only this, Konima slaughtered more "
+      "women than orcs.\""
+   kocatanmadscientist_speech_017 = \
+      "~kBahal says, \"I'll not slip my tongue and give you reason to incite "
+      "another witch hunt after me.\""
+   kocatanmadscientist_speech_018 = \
+      "~kBahal says, \"You would not want what I have.\""
+   kocatanmadscientist_speech_019 = \
+      "~kBahal says, \"I could teach you so very much. But what is the use, "
+      "you would surely go insane. Like the others.\""
+   kocatanmadscientist_speech_020 = \
+      "~kBahal says, \"I created them to take care of the problem with the "
+      "utom. They are marvellous hunters. Nearly intangible due to the "
+      "nether element, yet with the ferocity of a kriipa.\""
+   kocatanmadscientist_speech_021 = \
+      "~kBahal says, \"Those ugly man-like creatures in the caves that "
+      "border Ko'catan.\""
+   kocatanmadscientist_speech_022 = \
+      "~kBahal says, \"You would not understand.\""
+   kocatanmadscientist_speech_023 = "~kBahal says, \"Wulfgang has his uses.\""
+   kocatanmadscientist_speech_024 = \
+      "~kBahal smirks and writes something down on a small pad and tucks it "
+      "back in his apron."
+   kocatanmadscientist_random_001 = \
+      "~kBahal says, \"I can never seem to get enough Kohuzotz.\""
+   kocatanmadscientist_random_002 = \
+      "~kBahal says, \"Shall I enlighten you on how to reach the very "
+      "extremes of Good and Evil?\""
+   kocatanmadscientist_random_003 = \
+      "~kBahal says, \"Stick around for a while, I have something I want to "
+      "try out on you. It will hurt a little. Well, actually quite a lot.\""
+   kocatanmadscientist_random_004 = \
+      "~kBahal says, \"How much do you weigh and what exactly have you eaten "
+      "today?\""
+   kocatanmadscientist_random_005 = \
+      "~kBahal carefully measures the cover of an unbound book. He walks up "
+      "to you, pokes at your flesh, and then frowns while saying, \"Too "
+      "soft.\""
+   kocatanmadscientist_random_006 = \
+      "~kBahal cleans a small carcass of what you can only assume was a "
+      "bird. He discards all but the innards."
+   kocatanmadscientist_random_007 = \
+      "~kBahal says, \"Where exactly do you come from and when were you "
+      "born?\""
+   kocatanmadscientist_random_008 = \
+      "~kBahal says, \"I need a single drop of salted water. Can you spare a "
+      "tear? I can help you to produce one.\""
+   kocatanmadscientist_random_009 = \
+      "~kBahal pricks you with a long needle, takes a few drops of blood and "
+      "adds it to a dark potion."
+   kocatanmadscientist_random_010 = \
+      "~kBahal says, \"Move a little to your left.\" He then adjusts some "
+      "contraption in your direction."
+   kocatanmadscientist_random_011 = \
+      "~kBahal says, \"Have you seen the Teotkriipa? I am very proud of that "
+      "experiment.\""
+   kocatanmadscientist_random_012 = \
+      "~kBahal says, \"How many people have you killed in your life? You "
+      "look like you could be a murderer.\""
+   kocatanmadscientist_random_013 = \
+      "~kBahal says, \"I need to clean up from my experiment, then I'll be "
+      "with you.\""
+   kocatanmadscientist_random_014 = \
+      "~kBahal quickly eats what looks like a small bug."
+   kocatanmadscientist_random_015 = \
+      "~kBahal says, \"Do you feel strange?\" Oddly enough, you temporarily "
+      "lose your sense of balance."
+   kocatanmadscientist_random_016 = \
+      "~kBahal points a short twig at you. For a moment, you can't feel your "
+      "tongue in your mouth. The feeling passes as he puts away the stick."
+   kocatanmadscientist_random_017 = \
+      "~kYour vision starts to blur a little. You smell a faint trace of "
+      "something similar to vinegar."
+   kocatanmadscientist_random_018 = \
+      "~kYou suddenly feel your skin tighten on your flesh. Bahal chuckles "
+      "to himself as he replaces something small into a dark, wooden box."
+   kocatanmadscientist_random_019 = \
+      "~kBahal offers you something small in his hand. Before he can give it "
+      "to you, he screams, \"~BOw! It bit me!~B\" He then hurriedly rummages "
+      "through some boxes and then gulps down a vial of pink fluid."
+   kocatanmadscientist_random_020 = "~kBahal says, \"Go away now.\""
+   kocatanmadscientist_random_021 = \
+      "~kBahal stares at you. You have the uncomfortable feeling that he is "
+      "peering into your soul."
+   kocatanmadscientist_random_022 = \
+      "~kBahal glares at you, \"I am done with you! Leave!\""
+   kocatanmadscientist_random_023 = \
+      "~kBahal screams, \"~BGet out! You are contaminating my work!~B\""
+   kocatanmadscientist_random_024 = \
+      "~kBahal gets an insane look in his eyes and begins chasing you around "
+      "the hut with a butcher knife. After a few minutes, he shakes his head "
+      "and ignores you."
+   kocatanmadscientist_random_025 = \
+      "~kBahal uncorks a small vial. Within moments, you begin to feel "
+      "nauseous. Your body seems to tell you it may be a good idea to get "
+      "some fresh air soon."
+   kocatanmadscientist_trigger_sell = "sell"
+   kocatanmadscientist_trigger_bye = "bye"
+   kocatanmadscientist_trigger_enlighten = "enlighten"
+   kocatanmadscientist_trigger_enlighten_2 = "enlighten"
+   kocatanmadscientist_trigger_hanla = "hanla"
+   kocatanmadscientist_trigger_hello = "hello"
+   kocatanmadscientist_trigger_help = "help"
+   kocatanmadscientist_trigger_ko_catan = "ko'catan"
+   kocatanmadscientist_trigger_kohuzotz = "kohuzotz"
+   kocatanmadscientist_trigger_dragonfly = "dragonfly"
+   kocatanmadscientist_trigger_konima = "konima"
+   kocatanmadscientist_trigger_kriipa = "kriipa"
+   kocatanmadscientist_trigger_learn = "learn"
+   kocatanmadscientist_trigger_plans = "plans"
+   kocatanmadscientist_trigger_riija = "riija"
+   kocatanmadscientist_trigger_secret = "secret"
+   kocatanmadscientist_trigger_secret_2 = "secret"
+   kocatanmadscientist_trigger_buy = "buy"
+   kocatanmadscientist_trigger_teach = "teach"
+   kocatanmadscientist_trigger_teotkriipa = "teotkriipa"
+   kocatanmadscientist_trigger_utom = "utom"
+   kocatanmadscientist_trigger_ways = "ways"
+   kocatanmadscientist_trigger_wulfgang = "wulfgang"
+   kocatanmadscientist_trigger_yes = "yes"
+   kocatanmadscientist_trigger_yes_2 = "yes"
+
+   // KocatanShopkeeper (KocatanShopkeeper)
+   kocatanshopkeeper_speech_001 = "~kPacal says, \"I love business!\""
+   kocatanshopkeeper_speech_002 = \
+      "~kPacal says, \"I'll buy all sorts of things.\""
+   kocatanshopkeeper_speech_003 = "~kPacal says, \"Goodbye now.\""
+   kocatanshopkeeper_speech_004 = "~kPacal says, \"Hi. Come on in.\""
+   kocatanshopkeeper_speech_005 = "~kPacal says, \"I am here to serve you.\""
+   kocatanshopkeeper_speech_006 = \
+      "~kPacal says, \"Ko'catan is the city that Konima founded here where "
+      "he came to die. The city has grown considerably, but we still call it "
+      "by the same name.\""
+   kocatanshopkeeper_speech_007 = \
+      "~kPacal says, \"That is the military leader here. A very powerful "
+      "man. He takes his title straight from the original warlord who led "
+      "our people here.\""
+   kocatanshopkeeper_speech_008 = \
+      "~kPacal says, \"Everything here is for sale.\""
+   kocatanshopkeeper_random_001 = \
+      "~kPacal says, \"Sometimes it's best to ask me if you're looking for a "
+      "particular item. My filing system is... unique, and I'm afraid a bit "
+      "confusing.\""
+   kocatanshopkeeper_random_002 = \
+      "~kPacal says, \"This building served as the arsenal for the kici'ca "
+      "for many years, for at that time it was strategically placed near the "
+      "entrance to the Utom warrens. With time though, those were sealed up "
+      "and now we seldom dwell upon the threat that lives down there.\""
+   kocatanshopkeeper_random_003 = \
+      "~kPacal says, \"It is quite remarkable that you were able to make it "
+      "here at all from the land across and beneath the water.\""
+   kocatanshopkeeper_random_004 = \
+      "~kPacal says, \"I was in the kici'ca, but not as a soldier. I served "
+      "my duty as a quartermaster.\""
+   kocatanshopkeeper_random_005 = \
+      "~kPacal says, \"I suppose you might say I'm as much a collector as I "
+      "am a merchant. That is how I am known here in any case, which is why "
+      "the last sound on my name, Pacal ix'Anoak is the 'ak' sound. That "
+      "means I am a merchant.\""
+   kocatanshopkeeper_random_006 = \
+      "~kPacal says, \"This building, being an old military building, has "
+      "some singular features in its design.\""
+   kocatanshopkeeper_random_007 = \
+      "~kPacal says, \"Just let me know if there's anything I can help you "
+      "find.\""
+   kocatanshopkeeper_random_008 = "~kThe old armory is very cool inside."
+   kocatanshopkeeper_random_009 = \
+      "~kPacal says, \"The prices are ~Inot~I negotiable.\""
+   kocatanshopkeeper_random_010 = "~kPacal says, \"Hmmm... \""
+   kocatanshopkeeper_random_011 = \
+      "~kPacal says, \"I love my stuff. You might be surprised at some of "
+      "the items that I have.\""
+   kocatanshopkeeper_random_012 = "~kPacal says, \"Watch your step!\""
+   kocatanshopkeeper_random_013 = \
+      "~kPacal says, \"I have heard that in your land you wrap the dead in "
+      "rags, and then they rise to become napleoc and plague the land! Could "
+      "this be true? Are you that stupid, zax'nap?\""
+   kocatanshopkeeper_random_014 = \
+      "~kPacal says, \"Tezotz make your sewers much more perilous to travel "
+      "than our own, I think... in this city, sewer travel may not be the "
+      "most ~Iglamorous~I way to get around, but it can be expedient if the "
+      "occasion necessitates.\""
+   kocatanshopkeeper_trigger_business = "business"
+   kocatanshopkeeper_trigger_sell = "sell"
+   kocatanshopkeeper_trigger_goodbye = "goodbye"
+   kocatanshopkeeper_trigger_goodbye_2 = "goodbye"
+   kocatanshopkeeper_trigger_hello = "hello"
+   kocatanshopkeeper_trigger_help = "help"
+   kocatanshopkeeper_trigger_ko_catan = "ko'catan"
+   kocatanshopkeeper_trigger_konima = "konima"
+   kocatanshopkeeper_trigger_buy = "buy"
+
+   // KocatanTailor (Tepal ix'Zonak)
+   kocatantailor_speech_001 = \
+      "~kTepal says, \"I hear the Avar have a peculiar interest in precious "
+      "stones.\""
+   kocatantailor_speech_002 = \
+      "~kTepal says, \"Well, um, what do you have I guess?\""
+   kocatantailor_speech_003 = \
+      "~kTepal says, \"Goodbye, until the next time we meet.\""
+   kocatantailor_speech_004 = "~kTepal says, \"Uh, hello %s.\""
+   kocatantailor_speech_005 = \
+      "~kTepal says, \"You're in the Tailor's Shop. Ko'catan. What, um, what "
+      "do you need?\""
+   kocatantailor_speech_006 = \
+      "~kTepal says, \"Ko'catan is the name of this city. In our language "
+      "this is, um, this is how it works. Tan is the word for fortress. So "
+      "we are here in, um, in a tan. But what tan? Ko is the word for "
+      "greatest, or master, ca is the modifier for warrior. So Ko'ca is "
+      "master warrior, and Ko'catan is the master warrior's fortress. You "
+      "see?\""
+   kocatantailor_speech_007 = "~kTepal says, \"Are you here to do business?\""
+   kocatantailor_speech_008 = \
+      "~kTepal says, \"Konima is the father of corruption and force. He "
+      "started all of this.\""
+   kocatantailor_speech_009 = \
+      "~kTepal says, \"What do you, um, what do you want to know?\""
+   kocatantailor_speech_010 = \
+      "~kTepal says, \"There is a real market for precious stones. Someone "
+      "willing to take a couple chances could make a good deal of money. I "
+      "happen to know a little about it.\""
+   kocatantailor_speech_011 = \
+      "~kTepal says, \"The true follower of Riija will know that the spell "
+      "strength depends upon the moon phase. The higher the moon, the more "
+      "powerful will be His spells.\""
+   kocatantailor_speech_012 = \
+      "~kTepal says, \"I, um, sell mostly clothing. Is that what you mean?\""
+   kocatantailor_speech_013 = \
+      "~kTepal says, \"Wulfgang and I share a common interest in precious "
+      "stones.\""
+   kocatantailor_random_001 = \
+      "~kTepal says, \"Can I help you find something, um, something in "
+      "particular?\""
+   kocatantailor_random_002 = \
+      "~kTepal says, \"I have some beautiful cloth to work with just now. "
+      "Our cloth makers are making the most of all the new dyes and "
+      "materials that are trickling in from the mainland.\""
+   kocatantailor_random_003 = \
+      "~kTepal says, \"I think my robes are becoming a popular item back on "
+      "the land across and beneath the water, where you come from. People "
+      "are buying them to take, um, take back home with them. Business has "
+      "never been better.\""
+   kocatantailor_random_004 = \
+      "~kTepal says, \"You look like about size katalin. Maybe a size "
+      "katalin waz, but more on the katalin side of katalin waz.\""
+   kocatantailor_random_005 = "~kTepal watches you pleasantly. Sizing you up."
+   kocatantailor_random_006 = \
+      "~kYou feel a cool draft from the back of the shop."
+   kocatantailor_random_007 = \
+      "~kTepal twitches a bit. He seems... uncomfortable."
+   kocatantailor_random_008 = "~kTepal fidgets nervously."
+   kocatantailor_trigger_avar = "avar"
+   kocatantailor_trigger_sell = "sell"
+   kocatantailor_trigger_goodbye = "goodbye"
+   kocatantailor_trigger_goodbye_2 = "goodbye"
+   kocatantailor_trigger_hello = "hello"
+   kocatantailor_trigger_help = "help"
+   kocatantailor_trigger_ko_catan = "ko'catan"
+   kocatantailor_trigger_konima = "konima"
+   kocatantailor_trigger_precious_stones = "precious stones"
+   kocatantailor_trigger_precious_stones_2 = "precious stones"
+   kocatantailor_trigger_precious_stones_3 = "precious stones"
+   kocatantailor_trigger_riija = "riija"
+   kocatantailor_trigger_buy = "buy"
+   kocatantailor_trigger_wulfgang = "wulfgang"
+
+   // kocatanTradeMaster (kocatanTradeMaster)
+   kocatantrademaster_speech_001 = \
+      "~kWulfgang says, \"A'ach kici'ca is the Ko'catani name for their "
+      "army, or war legion, whatever.\""
+   kocatantrademaster_speech_002 = \
+      "~kWulfgang says, \"What, you haven't seen them yet?\""
+   kocatantrademaster_speech_003 = \
+      "~kWulfgang says, \"You have heard of this battle, have you? I was a "
+      "scout there, for the a'ach kici'ca. You cannot imagine, unless you "
+      "were there, zax'ta. Three days of slaughter, and at the end we left "
+      "with half the men we went in with. All for a square of jungle that "
+      "you couldn't even plant a decent crop of brown corn on.\""
+   kocatantrademaster_speech_004 = \
+      "~kWulfgang says, \"What do you have to offer?\""
+   kocatantrademaster_speech_005 = \
+      "~kWulfgang says, \"You ask for entroot berries?  Take them, it's just "
+      "a bitter reminder of what I have left behind.\""
+   kocatantrademaster_speech_006 = \
+      "~kWulfgang says, \"I have been working on making a game that is quite "
+      "popular here in Ko'catan.\""
+   kocatantrademaster_speech_007 = \
+      "~kWulfgang says, \"Hail, traveler! What news is from abroad?\""
+   kocatantrademaster_speech_008 = "~kWulfgang says, \"Greetings, stranger.\""
+   kocatantrademaster_speech_009 = "~kWulfgang says, \"Get lost.\""
+   kocatantrademaster_speech_010 = \
+      "~kWulfgang says, \"What? I don't think I can help you. You got "
+      "yourself here, didn't you?\""
+   kocatantrademaster_speech_011 = \
+      "~kWulfgang says, \"I'm not looking for anything now.\""
+   kocatantrademaster_speech_012 = \
+      "~kWulfgang says, \"The Meridian language is ugly compared to the "
+      "language of Ko'catan. In Meridian we say ant, they say ~Iyokinich~I. "
+      "We say mutant ant, ugh, and they say ~Ikawilkinich~I. Beautiful, "
+      "isn't it? Odd that such a blunt, war-like people would have such a "
+      "beautiful way with words.\""
+   kocatantrademaster_speech_013 = \
+      "~kWulfgang says, \"Marion was home to me for twenty years, and my "
+      "heart of hearts is back there as we speak. But I will never return.\""
+   kocatantrademaster_speech_014 = "~kWulfgang says, \"Marion who?\""
+   kocatantrademaster_speech_015 = \
+      "~kWulfgang says, \"The Avars have a source of mana power.  If you "
+      "want it, you should offer gifts of food to their gods.\""
+   kocatantrademaster_speech_016 = \
+      "~kWulfgang says, \"Are you here to murder Avars to take their power, "
+      "too?\""
+   kocatantrademaster_speech_017 = \
+      "~kWulfgang says, \"Any 'precious stones' that you can carry from "
+      "Tepal to here would be very much worth your while, I can assure you.\""
+   kocatantrademaster_speech_018 = \
+      "~kWulfgang says, \"I was once a follower of Qor, but that was many "
+      "moons ago. I now make a living trading to the natives.\""
+   kocatantrademaster_speech_019 = \
+      "~kWulfgang says, \"I do not speak of that time in my life.  Let me "
+      "say that the trickster god has shown me the true path.\""
+   kocatantrademaster_speech_020 = \
+      "~kWulfgang says, \"I played lock for Marion, for many years. I'm "
+      "trying to get a team started with the Avar now.\""
+   kocatantrademaster_speech_021 = \
+      "~kWulfgang says, \"It all depends on what you're looking for.\""
+   kocatantrademaster_speech_022 = \
+      "~kWulfgang says, \"Tepal? So you've come from sanctuary then? What do "
+      "you have for me, zax'ta?\""
+   kocatantrademaster_speech_023 = \
+      "~kWulfgang says, \"Tos was where I went into hiding when the Kraanan "
+      "fanatics came for my life. I couldn't stay in Marion, it was too "
+      "dangerous. Tos is a cold city when you are in trouble, I'll never "
+      "forget that.\""
+   kocatantrademaster_speech_024 = \
+      "~kWulfgang says, \"I don't know what you're talking about.\""
+   kocatantrademaster_speech_025 = \
+      "~kWulfgang says, \"You want fairy wings?  You can have them, I have "
+      "no use for that anymore.\""
+   kocatantrademaster_random_001 = \
+      "~kWulfgang says, \"The next time you are back in Marion, say hello to "
+      "Tova for me, would you?\""
+   kocatantrademaster_random_002 = \
+      "~kWulfgang says, \"I know Meridian. I should, I lived there for "
+      "twenty-five years before I was exiled to this place.\""
+   kocatantrademaster_random_003 = \
+      "~kWulfgang says, \"If you are able to get raw neurodite from the city "
+      "to me, I will pay you well. I have many ~Icustomers~I for neurodite. "
+      "It is a profitable trade for everyone with these embargoes in "
+      "effect.\""
+   kocatantrademaster_random_004 = \
+      "~kWulfgang says, \"The new followers of Riija that will make their "
+      "way back to the mainland must be very careful, for Riija has many "
+      "enemies among the other gods. It is believed that Duke Akardius "
+      "follows Riija.\""
+   kocatantrademaster_random_005 = \
+      "~kWulfgang says, \"I am the last of my people, the Riija followers "
+      "from the underground sect on the mainland. Where you come from, and "
+      "whence I came some years ago.\""
+   kocatantrademaster_random_006 = \
+      "~kWulfgang says, \"The followers of Riija were an underground "
+      "movement in all of the parts of Meridian that survived despite great "
+      "hardship for many, many years. Eventually the followers of Kraanan "
+      "declared a secret war upon us, a war of annihilation. When the time "
+      "came that I was the only survivor, I fled and came to this place. I "
+      "have been here since.\""
+   kocatantrademaster_random_007 = \
+      "~kWulfgang says, \"When the followers of Kraanan came with blades for "
+      "my people, it was with the blessing of Zarcos IV, the King then. When "
+      "his son Zarcos V took over, he put a stop to it and although we lived "
+      "as outlaws, the few that survived the previous years didn't have to "
+      "live in fear of the butchers of Kraanan. But when Zarcos V abdicated, "
+      "Duke Kalior renewed enthusiasm for the destruction of Riija followers "
+      "entirely from the mainland. I am the only survivor now. My magic has "
+      "kept me alive.\""
+   kocatantrademaster_random_008 = \
+      "~kWulfgang says, \"You didn't happen to bring any neurodite with you, "
+      "did you?\""
+   kocatantrademaster_random_009 = \
+      "~kWulfgang says, \"You'll never guess how I finally got here from the "
+      "mainland. I meditated for three days and fasted for three days and "
+      "then I made a big wish and I blinked. That's right I blinked! The "
+      "spell, blink, I blinked from the fountain in Tos and I got nauseous "
+      "and when I came to I was in the jungle here!! Sometimes the most "
+      "unassuming weapon in your arsenal can save you where the battering "
+      "ram will fail.\""
+   kocatantrademaster_random_010 = \
+      "~kWulfgang says, \"Drink to the good life, my friends. Drink to those "
+      "that cannot be here with us to drink.\""
+   kocatantrademaster_random_011 = \
+      "~kWulfgang says, \"The next time you're in the Limping Toad, have a "
+      "drink for me.\""
+   kocatantrademaster_random_012 = \
+      "~kWulfgang says, \"You will soon learn to watch the canopy above when "
+      "you are traveling the jungle. Death waits above where the Kriipa "
+      "lives.\""
+   kocatantrademaster_random_013 = \
+      "~kWulfgang says, \"I've got a few rooms downstairs that I board "
+      "travelers in. Right now they are full, there are some... "
+      "~Isemi-permanent~I guests staying over. We don't see them at the "
+      "breakfast table much.\""
+   kocatantrademaster_random_014 = "~kWulfgang says, \"Drink to Meridian!\""
+   kocatantrademaster_random_015 = \
+      "~kWulfgang says, \"This island is bountiful.\""
+   kocatantrademaster_random_016 = \
+      "~kWulfgang says, \"Travelers from afar, eh? Well, you make yourself "
+      "at home.\""
+   kocatantrademaster_random_017 = \
+      "~kWulfgang says, \"I do a modest business between the Avar and the "
+      "few travelers that come through here. That and the so-called Kici'ca, "
+      "the Ko'catani Legion. You just never know who is going to want what.\""
+   kocatantrademaster_random_018 = \
+      "~kWulfgang says, \"The Legions of Ko'catan fight the Avar. The Avar "
+      "ambush the Legions. The Avar fight the Avar. The Legions fight the "
+      "Avar fighting the Avar. The Avar fight the Avar fighting the Legions. "
+      "And in the middle of it all is Wulfgang, sitting in my trading post "
+      "getting drunk and rolling in money. I live by my wits alone.\""
+   kocatantrademaster_random_019 = \
+      "~kWulfgang says, \"The Avar are as reasonable a civilization as there "
+      "ever was. If you know their ways. But to know their ways, you need to "
+      "speak Avar. And I speak Avar.\""
+   kocatantrademaster_random_020 = \
+      "~kWulfgang says, \"The Ko'catani Legions are a crafty and spirited "
+      "army. But they cannot hold the island. The Avar are very good at "
+      "choosing their battleground, and at simply fading away when they "
+      "would rather not fight.\""
+   kocatantrademaster_random_021 = \
+      "~kWulfgang says, \"There has been a relative peace between the "
+      "Ko'catani and the Avar for about five years. Understand that it means "
+      "that they are not fighting ~Ievery~I day. But there is tension, and "
+      "many trade restrictions.\""
+   kocatantrademaster_random_022 = \
+      "~kWulfgang says, \"To the Avar race, magic isn't a study or a "
+      "devotion as we know it. The magical Avar, the Avar'ya as the "
+      "Konimians call them, are born with one eye right in the middle of "
+      "their head. They are the only Avar that have the ability to learn "
+      "magic.\""
+   kocatantrademaster_random_023 = \
+      "~kWulfgang says, \"The Avar are an interesting race, but not what you "
+      "would call consistent. It has taken me a number of years to learn "
+      "their language, and I'm not sure I'll ever have their confidence. But "
+      "they are a lot smarter than those people in the settlement, I'll tell "
+      "you that.\""
+   kocatantrademaster_random_024 = "~kWulfgang says, \"Who's here to deal?\""
+   kocatantrademaster_random_025 = \
+      "~kWulfgang says, \"Take shelter from the storm here, traveler. I work "
+      "hard enough to keep this place safe; enjoy the leisure before you go "
+      "back out there into the jungle.\""
+   kocatantrademaster_random_026 = \
+      "~kWulfgang has a voice like someone pulling down a barn."
+   kocatantrademaster_random_027 = "~kWulfgang chuckles to himself."
+   kocatantrademaster_random_028 = \
+      "~kWulfgang says, \"There is food in the kitchen, and I have both ale "
+      "and Atz'pekonch, the finest Kocatani wine. And I mean this stuff is "
+      "the best, I got it through military connections.\""
+   kocatantrademaster_random_029 = \
+      "~kWulfgang says, \"Take a place by the fire and tell of your "
+      "travels.\""
+   kocatantrademaster_random_030 = \
+      "~kWulfgang seems to be listening intently to the jungle outside."
+   kocatantrademaster_random_031 = "~kWulfgang coughs."
+   kocatantrademaster_random_032 = \
+      "~kThere is the smell of smoked meat and sweet spilled wine about this "
+      "place."
+   kocatantrademaster_random_033 = "~kWulfgang glances up at you."
+   kocatantrademaster_random_034 = \
+      "~kWulfgang says, \"What news, awkward one?\""
+   kocatantrademaster_random_035 = \
+      "~kWulfgang says, \"Kalior is dead?...Good.\""
+   kocatantrademaster_random_036 = \
+      "~kWulfgang says, \"Kateriina is not queen yet? Ha ha ha! That is "
+      "funny!\""
+   kocatantrademaster_random_037 = \
+      "~kWulfgang says, \"It wasn't easy getting here from the mainland and "
+      "getting myself established. I'm talking about setting up shop between "
+      "the various Avar tribes and those lunatic dimwits you probably "
+      "noticed on the other side of the island, holed up behind a huge wall. "
+      "Nearly got myself killed fifty times trying. And now all of you show "
+      "up here, like a bunch of Barloque tourists. I'd get out of here, but "
+      "I don't know where else to go.\""
+   kocatantrademaster_random_038 = \
+      "~kWulfgang says, \"The next time you guys fight your silly way "
+      "through the Orc warrens, why don't you bring Ran er'Hoth with you? At "
+      "least then we'd have some decent conversation in here!\""
+   kocatantrademaster_random_039 = \
+      "~kWulfgang says, \"Looks to me like the quality of adventurers has "
+      "slipped a bit since last time I was in Meridian. You're a pathetic "
+      "lot. Ha, ha, ha, ha!\""
+   kocatantrademaster_random_040 = \
+      "~kWulfgang says, \"Say, is that a short sword you've got with you? "
+      "Well equipped for our little jungles, I see!\""
+   kocatantrademaster_random_041 = \
+      "~kWulfgang doesn't take his eyes off you. He seems in a menacing mood."
+   kocatantrademaster_random_042 = \
+      "~kWulfgang says, \"I think you'd be safer back in Tos. You need to "
+      "start heading in that direction.\""
+   kocatantrademaster_random_043 = \
+      "~kWulfgang says, \"Go on. Get out of here, I'm through with you.\""
+   kocatantrademaster_trigger_a_ach_kici_ca = "a'ach kici'ca"
+   kocatantrademaster_trigger_avar = "avar"
+   kocatantrademaster_trigger_balo_na_te_din = "balo na'te din"
+   kocatantrademaster_trigger_sell = "sell"
+   kocatantrademaster_trigger_entroot = "entroot"
+   kocatantrademaster_trigger_entroot_2 = "entroot"
+   kocatantrademaster_trigger_game = "game"
+   kocatantrademaster_trigger_hello = "hello"
+   kocatantrademaster_trigger_help = "help"
+   kocatantrademaster_trigger_inventory = "inventory"
+   kocatantrademaster_trigger_inventory_2 = "inventory"
+   kocatantrademaster_trigger_language = "language"
+   kocatantrademaster_trigger_marion = "marion"
+   kocatantrademaster_trigger_node = "node"
+   kocatantrademaster_trigger_precious_stones = "precious stones"
+   kocatantrademaster_trigger_qor = "qor"
+   kocatantrademaster_trigger_rugby = "rugby"
+   kocatantrademaster_trigger_buy = "buy"
+   kocatantrademaster_trigger_tepal = "tepal"
+   kocatantrademaster_trigger_tos = "tos"
+   kocatantrademaster_trigger_wings = "wings"
+
+   // KocatanVaultman (Itzal cha'Nosak)
+   kocatanvaultman_random_001 = \
+      "~kItzal stares blankly at the wall and belches repeatedly."
+   kocatanvaultman_random_002 = "~kItzal scratches his backside."
+   kocatanvaultman_random_003 = \
+      "~kItzal says, \"You don't want me to go ~Iback~k down that vault to "
+      "retrieve something, do you?!\""
+   kocatanvaultman_random_004 = \
+      "~kItzal says, \"Hey Huital, can I take a break? My legs are tired.\""
+   kocatanvaultman_random_005 = \
+      "~kItzal's eyes flutter closed and his mouth hangs open. In a few "
+      "seconds, he begins snoring."
+   kocatanvaultman_random_006 = \
+      "~kItzal says, \"Huital, I need some extra money. I accidentally broke "
+      "one of the customer's flasks.\""
+   kocatanvaultman_random_007 = \
+      "~kItzal places his hands in the water and splashes his face. Huital "
+      "gives him a scathing glare."
+   kocatanvaultman_random_008 = "~kItzal swats at a buzzing fly."
+   kocatanvaultman_random_009 = \
+      "~kYou are suddenly confronted by a very unpleasant odor. Itzal smiles "
+      "to himself."
+   kocatanvaultman_random_010 = \
+      "~kItzal says, \"Excuse me. Shouldn't have eaten at the Monster "
+      "today.\""
+   kocatanvaultman_random_011 = \
+      "~kItzal says, \"I think I lost some of Ixla's armor pieces. I hope "
+      "she doesn't hurt me for it.\""
+   kocatanvaultman_random_012 = \
+      "~kItzal says, \"Thank you for coming in our Vaults, good %s.\", then "
+      "whispers to Huital, \"Was that all right?\""
+   kocatanvaultman_random_013 = \
+      "~kItzal says, \"I'm tired, Huit. Let me go home early tonight.\""
+   kocatanvaultman_random_014 = "~kItzal sighs and says, \"Not you again.\""
+
+   // KocatanWeaponsMaster (Kochtal ko'Tulca)
+   kocatanweaponsmaster_speech_001 = \
+      "~kKochtal says, \"The Avar are very precise and sturdy opponents. "
+      "Tread lightly through their homelands or bring an army with you.\""
+   kocatanweaponsmaster_speech_002 = \
+      "~kKochtal says, \"Ko'catan provides for all of my needs.\""
+   kocatanweaponsmaster_speech_003 = \
+      "~kKochtal says, \"Our society is built on respect for those who rank "
+      "above you. As foreigners, you rank under an ix and therefore must "
+      "respect all in our society.\""
+   kocatanweaponsmaster_speech_004 = \
+      "~kKochtal ko'Tulca says, \"Hello? Who's there?\""
+   kocatanweaponsmaster_speech_005 = \
+      "~kKochtal ko'Tulca says, \"I am the foremost weapons master in "
+      "Ko'catan. Those who show proper warrior respect, I teach.\""
+   kocatanweaponsmaster_speech_006 = \
+      "~kKochtal says, \"Ko'catan is a great and orderly fortification. She "
+      "offers protection and purpose to her inhabitants.\""
+   kocatanweaponsmaster_speech_007 = \
+      "~kKochtal says, \"Konima was the perfect warrior. Not just a killing "
+      "machine, but also a compassionate and unselfish strategist. Our "
+      "society is founded on his brave ideals.\""
+   kocatanweaponsmaster_speech_008 = \
+      "~kKochtal says, \"Every person is judged on their worth to our "
+      "warrior society. People here know the boundaries of their vocations.\""
+   kocatanweaponsmaster_speech_009 = \
+      "~kKochtal says, \"I may be able to train you in the ways of archery.\""
+   kocatanweaponsmaster_speech_010 = \
+      "~kKochtal says, \"I do not know your word for the half men who our "
+      "mighty Konima beat back all those centuries ago.\""
+   kocatanweaponsmaster_random_001 = \
+      "~kKochtal says, \"In Ko'catan, our people must earn their names. One "
+      "does not choose to ascend to cha or ko. Others will decide that for "
+      "them.\""
+   kocatanweaponsmaster_random_002 = \
+      "~kKochtal says, \"Our culture has many established customs and mores. "
+      "We do not hesitate to outcast those who can not adhere to them.\""
+   kocatanweaponsmaster_random_003 = \
+      "~kKochtal says, \"Every person has a purpose and a defined rank here. "
+      "We allow you in our walls. Do not presume to disrupt the order of "
+      "Ko'catan.\""
+   kocatanweaponsmaster_random_004 = \
+      "~kKochtal says, \"There is no art of war. War is the antithesis of "
+      "art. Those who find beauty in war have never been in a battle.\""
+   kocatanweaponsmaster_random_005 = \
+      "~kKochtal says, \"Skill at weaponry makes a soldier competent. To be "
+      "truly formidable, the warrior must also have patience, forethought "
+      "and allies.\""
+   kocatanweaponsmaster_random_006 = \
+      "~kKochtal says, \"You must have compassion. A cold hearted warrior is "
+      "less effective than one who cares, for they have nothing worthwhile "
+      "to lose.\""
+   kocatanweaponsmaster_random_007 = \
+      "~kKochtal says, \"Our society has survived for over 200 years based "
+      "on one principle--'structure'. With no structure, there is only "
+      "chaos.\""
+   kocatanweaponsmaster_random_008 = \
+      "~kKochtal says, \"Many years ago I lost my eyes defending the outer "
+      "walls. I am of little use as a warrior now. That is why I must "
+      "teach.\""
+   kocatanweaponsmaster_random_009 = \
+      "~kKochtal sniffs the air and says, \"The warriors have returned from "
+      "a hunt.\""
+   kocatanweaponsmaster_random_010 = \
+      "~kKochtal cranes his neck as if listening intently. You hear nothing. "
+      "After a moment he smiles and says, \"She won't find him at the "
+      "tavern.\""
+   kocatanweaponsmaster_random_011 = \
+      "~kKochtal begins a slow routine of stretching and bending."
+   kocatanweaponsmaster_random_012 = \
+      "~kKochtal gropes around for his weapons. After a moment, his hands "
+      "find an old, rusted short sword. He whispers, \"There you are, old "
+      "friend.\""
+   kocatanweaponsmaster_random_013 = \
+      "~kKochtal says, \"Those avars can be fairly crafty. There is one that "
+      "surrounds itself with death. It knows about Riija.\""
+   kocatanweaponsmaster_random_014 = \
+      "~kKochtal says, \"I sense you are respected in your land. That is "
+      "good, friend.\""
+   kocatanweaponsmaster_random_015 = \
+      "~kKochtal says, \"I have heard praise of you from another traveler. "
+      "Be proud.\""
+   kocatanweaponsmaster_random_016 = \
+      "~kKochtal feels your face and your shoulders. Smiling, he says, \"I "
+      "will remember you.\""
+   kocatanweaponsmaster_random_017 = \
+      "~kKochtal says, \"You have already proved yourself strong since you "
+      "have traversed the utom caves.\""
+   kocatanweaponsmaster_random_018 = \
+      "~kKochtal says, \"As I hear, your land has little structure. The "
+      "Kingdom is divided and the towns in conflict. Ko'catan does not need "
+      "such influence.\""
+   kocatanweaponsmaster_random_019 = \
+      "~kKochtal says, \"You offend our settlement. You would be wise to "
+      "leave.\""
+   kocatanweaponsmaster_random_020 = \
+      "~kKochtal says, \"Ko'catan does not desire your people here.\""
+   kocatanweaponsmaster_random_021 = \
+      "~kKochtal says, \"Long ago, your people and our people were one. Now "
+      "we are different. Our societies no longer belong together.\""
+   kocatanweaponsmaster_trigger_avar = "avar"
+   kocatanweaponsmaster_trigger_buy = "buy"
+   kocatanweaponsmaster_trigger_sell = "sell"
+   kocatanweaponsmaster_trigger_customs = "customs"
+   kocatanweaponsmaster_trigger_society = "society"
+   kocatanweaponsmaster_trigger_hello = "hello"
+   kocatanweaponsmaster_trigger_help = "help"
+   kocatanweaponsmaster_trigger_ko_catan = "ko'catan"
+   kocatanweaponsmaster_trigger_konima = "konima"
+   kocatanweaponsmaster_trigger_mores = "mores"
+   kocatanweaponsmaster_trigger_mores_2 = "mores"
+   kocatanweaponsmaster_trigger_teach = "teach"
+   kocatanweaponsmaster_trigger_learn = "learn"
+   kocatanweaponsmaster_trigger_learn_2 = "learn"
+   kocatanweaponsmaster_trigger_utom = "utom"
+
+messages:
+
+   GetSpeechLibrary()
+   "Speech library nodes: [class, [[triggers, mood, action, key], ...]]"
+   {
+      local lLib;
+
+      lLib = $;
+
+      lLib = Cons([&KocatanApothecary,[
+         [[kocatanapothecary_trigger_a_ach],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_speech_001],1],
+         [[kocatanapothecary_trigger_army],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_speech_002],2],
+         [[kocatanapothecary_trigger_bong],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_speech_003],3],
+         [[kocatanapothecary_trigger_bud],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_speech_004],4],
+         [[kocatanapothecary_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_speech_005],5],
+         [[kocatanapothecary_trigger_goodbye],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_speech_006],6],
+         [[kocatanapothecary_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_speech_007],7],
+         [[kocatanapothecary_trigger_hello],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_speech_008,[LIBPLUG_NAME]],8],
+         [[kocatanapothecary_trigger_help],0,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_speech_009],9],
+         [[kocatanapothecary_trigger_help],0,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_speech_010],10],
+         [[kocatanapothecary_trigger_huf_huf_moch],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_speech_011],11],
+         [[kocatanapothecary_trigger_ixleoc],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_speech_012],12],
+         [[kocatanapothecary_trigger_ko_catan],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_speech_013],13],
+         [[kocatanapothecary_trigger_konima],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_speech_014],14],
+         [[kocatanapothecary_trigger_pekonch],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_speech_015],15],
+         [[kocatanapothecary_trigger_pot,
+            kocatanapothecary_trigger_pot_2],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_speech_016],16],
+         [[kocatanapothecary_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_speech_017],17],
+         [[kocatanapothecary_trigger_smoke],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_speech_018],18]
+      ]],lLib);
+
+      lLib = Cons([&KocatanBanker,[
+         [[kocatanbanker_trigger_avar],0,
+            [LIBACT_QUOTE_RSC,kocatanbanker_speech_001],1],
+         [[kocatanbanker_trigger_broke],0,
+            [LIBACT_QUOTE_RSC,kocatanbanker_speech_002],2],
+         [[kocatanbanker_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,kocatanbanker_speech_003],3],
+         [[kocatanbanker_trigger_bye],0,
+            [LIBACT_QUOTE_RSC,kocatanbanker_speech_004],4],
+         [[kocatanbanker_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,kocatanbanker_speech_005],5],
+         [[kocatanbanker_trigger_help],0,
+            [LIBACT_QUOTE_RSC,kocatanbanker_speech_006],6],
+         [[kocatanbanker_trigger_ko_catan],0,
+            [LIBACT_QUOTE_RSC,kocatanbanker_speech_007],7],
+         [[kocatanbanker_trigger_konima],0,
+            [LIBACT_QUOTE_RSC,kocatanbanker_speech_008],8],
+         [[kocatanbanker_trigger_riija],0,
+            [LIBACT_QUOTE_RSC,kocatanbanker_speech_009],9],
+         [[kocatanbanker_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,kocatanbanker_speech_010],10],
+         [[kocatanbanker_trigger_teach,kocatanbanker_trigger_teach_2],0,
+            [LIBACT_QUOTE_RSC,kocatanbanker_speech_011],11]
+      ]],lLib);
+
+      lLib = Cons([&KocatanBartender,[
+         [[kocatanbartender_trigger_a_ach_tezcha],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_speech_001],1],
+         [[kocatanbartender_trigger_avar],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_speech_002],2],
+         [[kocatanbartender_trigger_avar],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatanbartender_speech_003],3],
+         [[kocatanbartender_trigger_avar],LIBRES_MOOD_NOT_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_speech_004],4],
+         [[kocatanbartender_trigger_balo_na_te_din],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_speech_005],5],
+         [[kocatanbartender_trigger_balo_na_te_din],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatanbartender_speech_006],6],
+         [[kocatanbartender_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,kocatanbartender_speech_007],7],
+         [[kocatanbartender_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,kocatanbartender_speech_008],8],
+         [[kocatanbartender_trigger_hello],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_speech_009],9],
+         [[kocatanbartender_trigger_help],LIBRES_MOOD_NOT_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_speech_010],10],
+         [[kocatanbartender_trigger_hu_a_ach],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_speech_011],11],
+         [[kocatanbartender_trigger_hu_a_ach],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatanbartender_speech_012],12],
+         [[kocatanbartender_trigger_hu_a_ach],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_speech_013],13],
+         [[kocatanbartender_trigger_huf_huf_moch],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_speech_014],14],
+         [[kocatanbartender_trigger_ko_catan],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_speech_015],15],
+         [[kocatanbartender_trigger_konima],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_speech_016],16],
+         [[kocatanbartender_trigger_konima],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatanbartender_speech_017],17],
+         [[kocatanbartender_trigger_konima],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_speech_018],18],
+         [[kocatanbartender_trigger_pekonch],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_speech_019],19],
+         [[kocatanbartender_trigger_puuc_nahyijoa],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_speech_020],20],
+         [[kocatanbartender_trigger_puuc_nahyijoa],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_speech_021],21],
+         [[kocatanbartender_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,kocatanbartender_speech_022],22],
+         [[kocatanbartender_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,kocatanbartender_speech_023],23],
+         [[kocatanbartender_trigger_stunted_dwarf],0,
+            [LIBACT_QUOTE_RSC,kocatanbartender_speech_024,[LIBPLUG_NAME]],24],
+         [[kocatanbartender_trigger_zala],LIBRES_MOOD_NOT_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_speech_025],25],
+         [[kocatanbartender_trigger_zala],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_speech_026],26],
+         [[kocatanbartender_trigger_zax_ca],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_speech_027],27]
+      ]],lLib);
+
+      lLib = Cons([&KocatanBlacksmith,[
+         [[kocatanblacksmith_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,kocatanblacksmith_speech_001],1],
+         [[kocatanblacksmith_trigger_goodbye,
+            kocatanblacksmith_trigger_goodbye_2],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanblacksmith_speech_002],2],
+         [[kocatanblacksmith_trigger_goodbye,
+            kocatanblacksmith_trigger_goodbye_2],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatanblacksmith_speech_003],3],
+         [[kocatanblacksmith_trigger_goodbye,
+            kocatanblacksmith_trigger_goodbye_2],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatanblacksmith_speech_004],4],
+         [[kocatanblacksmith_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,kocatanblacksmith_speech_005],5],
+         [[kocatanblacksmith_trigger_hello],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanblacksmith_speech_006],6],
+         [[kocatanblacksmith_trigger_help],0,
+            [LIBACT_QUOTE_RSC,kocatanblacksmith_speech_007],7],
+         [[kocatanblacksmith_trigger_kazot],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanblacksmith_speech_008],8],
+         [[kocatanblacksmith_trigger_ko_catan],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanblacksmith_speech_009],9],
+         [[kocatanblacksmith_trigger_ko_catan],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatanblacksmith_speech_010],10],
+         [[kocatanblacksmith_trigger_konima],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanblacksmith_speech_011],11],
+         [[kocatanblacksmith_trigger_konima],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanblacksmith_speech_012],12],
+         [[kocatanblacksmith_trigger_kotezleoc],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanblacksmith_speech_013],13],
+         [[kocatanblacksmith_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,kocatanblacksmith_speech_014],14],
+         [[kocatanblacksmith_trigger_zoszin],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanblacksmith_speech_015],15]
+      ]],lLib);
+
+      lLib = Cons([&KocatanBonePriestess,[
+         [[kocatanbonepriestess_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,kocatanbonepriestess_speech_001],1],
+         [[kocatanbonepriestess_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,kocatanbonepriestess_speech_002],2],
+         [[kocatanbonepriestess_trigger_help],0,
+            [LIBACT_QUOTE_RSC,kocatanbonepriestess_speech_003],3],
+         [[kocatanbonepriestess_trigger_riija],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanbonepriestess_speech_004],4],
+         [[kocatanbonepriestess_trigger_riija],LIBRES_MOOD_NOT_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanbonepriestess_speech_005],5],
+         [[kocatanbonepriestess_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,kocatanbonepriestess_speech_006],6],
+         [[kocatanbonepriestess_trigger_staff],0,
+            [LIBACT_QUOTE_RSC,kocatanbonepriestess_speech_007],7],
+         [[kocatanbonepriestess_trigger_sword],0,
+            [LIBACT_QUOTE_RSC,kocatanbonepriestess_speech_008],8]
+      ]],lLib);
+
+      lLib = Cons([&KocatanBowMaker,[
+         [[kocatanbowmaker_trigger_arrow,kocatanbowmaker_trigger_quality],0,
+            [LIBACT_QUOTE_RSC,kocatanbowmaker_speech_001],1],
+         [[kocatanbowmaker_trigger_avar],0,
+            [LIBACT_QUOTE_RSC,kocatanbowmaker_speech_002],2],
+         [[kocatanbowmaker_trigger_bahal],0,
+            [LIBACT_QUOTE_RSC,kocatanbowmaker_speech_003],3],
+         [[kocatanbowmaker_trigger_balance,
+            kocatanbowmaker_trigger_balance_2],0,
+            [LIBACT_QUOTE_RSC,kocatanbowmaker_speech_004],4],
+         [[kocatanbowmaker_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,kocatanbowmaker_speech_005],5],
+         [[kocatanbowmaker_trigger_bye],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanbowmaker_speech_006],6],
+         [[kocatanbowmaker_trigger_bye],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatanbowmaker_speech_007],7],
+         [[kocatanbowmaker_trigger_father],0,
+            [LIBACT_QUOTE_RSC,kocatanbowmaker_speech_008],8],
+         [[kocatanbowmaker_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,kocatanbowmaker_speech_009],9],
+         [[kocatanbowmaker_trigger_help],0,
+            [LIBACT_QUOTE_RSC,kocatanbowmaker_speech_010],10],
+         [[kocatanbowmaker_trigger_hive,kocatanbowmaker_trigger_cliff],0,
+            [LIBACT_QUOTE_RSC,kocatanbowmaker_speech_011],11],
+         [[kocatanbowmaker_trigger_huzotz],0,
+            [LIBACT_QUOTE_RSC,kocatanbowmaker_speech_012],12],
+         [[kocatanbowmaker_trigger_ko_catan],0,
+            [LIBACT_QUOTE_RSC,kocatanbowmaker_speech_013],13],
+         [[kocatanbowmaker_trigger_konima],0,
+            [LIBACT_QUOTE_RSC,kocatanbowmaker_speech_014],14],
+         [[kocatanbowmaker_trigger_others],0,
+            [LIBACT_QUOTE_RSC,kocatanbowmaker_speech_015],15],
+         [[kocatanbowmaker_trigger_riija],0,
+            [LIBACT_QUOTE_RSC,kocatanbowmaker_speech_016],16],
+         [[kocatanbowmaker_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,kocatanbowmaker_speech_017],17],
+         [[kocatanbowmaker_trigger_teach,
+            kocatanbowmaker_trigger_learn,
+            kocatanbowmaker_trigger_learn_2],0,
+            [LIBACT_QUOTE_RSC,kocatanbowmaker_speech_018],18],
+         [[kocatanbowmaker_trigger_teotkriipa],0,
+            [LIBACT_QUOTE_RSC,kocatanbowmaker_speech_019],19],
+         [[kocatanbowmaker_trigger_wulfgang],0,
+            [LIBACT_QUOTE_RSC,kocatanbowmaker_speech_020],20]
+      ]],lLib);
+
+      lLib = Cons([&KocatanCaptainEvil,[
+         [[kocatancaptainevil_trigger_balo_na_te_din],0,
+            [LIBACT_QUOTE_RSC,kocatancaptainevil_speech_001],1],
+         [[kocatancaptainevil_trigger_bribe],0,
+            [LIBACT_QUOTE_RSC,kocatancaptainevil_speech_002],2],
+         [[kocatancaptainevil_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,kocatancaptainevil_speech_003],3],
+         [[kocatancaptainevil_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,kocatancaptainevil_speech_004],4],
+         [[kocatancaptainevil_trigger_help],0,
+            [LIBACT_QUOTE_RSC,kocatancaptainevil_speech_005],5],
+         [[kocatancaptainevil_trigger_ko_catan],0,
+            [LIBACT_QUOTE_RSC,kocatancaptainevil_speech_006],6],
+         [[kocatancaptainevil_trigger_konima],0,
+            [LIBACT_QUOTE_RSC,kocatancaptainevil_speech_007],7],
+         [[kocatancaptainevil_trigger_reason,
+            kocatancaptainevil_trigger_gift,
+            kocatancaptainevil_trigger_gift_2],0,
+            [LIBACT_QUOTE_RSC,kocatancaptainevil_speech_008],8],
+         [[kocatancaptainevil_trigger_restrictions],0,
+            [LIBACT_QUOTE_RSC,kocatancaptainevil_speech_009],9],
+         [[kocatancaptainevil_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,kocatancaptainevil_speech_010],10],
+         [[kocatancaptainevil_trigger_sing],0,
+            [LIBACT_QUOTE_RSC,kocatancaptainevil_speech_011],11],
+         [[kocatancaptainevil_trigger_tepal],0,
+            [LIBACT_QUOTE_RSC,kocatancaptainevil_speech_012],12],
+         [[kocatancaptainevil_trigger_weapons],0,
+            [LIBACT_QUOTE_RSC,kocatancaptainevil_speech_013],13]
+      ]],lLib);
+
+      lLib = Cons([&KocatanCaptainGood,[
+         [[kocatancaptaingood_trigger_bribe],0,
+            [LIBACT_QUOTE_RSC,kocatancaptaingood_speech_001],1],
+         [[kocatancaptaingood_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,kocatancaptaingood_speech_002],2],
+         [[kocatancaptaingood_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,kocatancaptaingood_speech_003,
+               [LIBPLUG_SIRMADAM]],3],
+         [[kocatancaptaingood_trigger_help],0,
+            [LIBACT_QUOTE_RSC,kocatancaptaingood_speech_004],4],
+         [[kocatancaptaingood_trigger_ko_catan],0,
+            [LIBACT_QUOTE_RSC,kocatancaptaingood_speech_005],5],
+         [[kocatancaptaingood_trigger_koutom],0,
+            [LIBACT_QUOTE_RSC,kocatancaptaingood_speech_006],6],
+         [[kocatancaptaingood_trigger_restricted_items],0,
+            [LIBACT_QUOTE_RSC,kocatancaptaingood_speech_007],7],
+         [[kocatancaptaingood_trigger_weapons],0,
+            [LIBACT_QUOTE_RSC,kocatancaptaingood_speech_008],8],
+         [[kocatancaptaingood_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,kocatancaptaingood_speech_009,
+               [LIBPLUG_SIRMADAM]],9],
+         [[kocatancaptaingood_trigger_sing],0,
+            [LIBACT_QUOTE_RSC,kocatancaptaingood_speech_010],10]
+      ]],lLib);
+
+      lLib = Cons([&KocatanInnkeeper,[
+         [[kocataninnkeeper_trigger_avar],0,
+            [LIBACT_QUOTE_RSC,kocataninnkeeper_speech_001],1],
+         [[kocataninnkeeper_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,kocataninnkeeper_speech_002],2],
+         [[kocataninnkeeper_trigger_bye],0,
+            [LIBACT_QUOTE_RSC,kocataninnkeeper_speech_003,[LIBPLUG_NAME]],3],
+         [[kocataninnkeeper_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,kocataninnkeeper_speech_004,[LIBPLUG_NAME]],4],
+         [[kocataninnkeeper_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,kocataninnkeeper_speech_005,[LIBPLUG_NAME]],5],
+         [[kocataninnkeeper_trigger_help],0,
+            [LIBACT_QUOTE_RSC,kocataninnkeeper_speech_006],6],
+         [[kocataninnkeeper_trigger_ko_catan],0,
+            [LIBACT_QUOTE_RSC,kocataninnkeeper_speech_007],7],
+         [[kocataninnkeeper_trigger_konima],0,
+            [LIBACT_QUOTE_RSC,kocataninnkeeper_speech_008],8],
+         [[kocataninnkeeper_trigger_riija],0,
+            [LIBACT_QUOTE_RSC,kocataninnkeeper_speech_009],9],
+         [[kocataninnkeeper_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,kocataninnkeeper_speech_010],10],
+         [[kocataninnkeeper_trigger_stunted_dwarf],0,
+            [LIBACT_QUOTE_RSC,kocataninnkeeper_speech_011,[LIBPLUG_NAME]],11],
+         [[kocataninnkeeper_trigger_teach,kocataninnkeeper_trigger_teach_2],0,
+            [LIBACT_QUOTE_RSC,kocataninnkeeper_speech_012],12]
+      ]],lLib);
+
+      lLib = Cons([&KocatanLanguageMaster,[
+         [[kocatanlanguagemaster_trigger_ant,
+            kocatanlanguagemaster_trigger_ant_2],0,
+            [LIBACT_QUOTE_RSC,kocatanlanguagemaster_speech_001],1],
+         [[kocatanlanguagemaster_trigger_avar],0,
+            [LIBACT_QUOTE_RSC,kocatanlanguagemaster_speech_002],2],
+         [[kocatanlanguagemaster_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,kocatanlanguagemaster_speech_003],3],
+         [[kocatanlanguagemaster_trigger_dissect,
+            kocatanlanguagemaster_trigger_dissect_2],0,
+            [LIBACT_QUOTE_RSC,kocatanlanguagemaster_speech_004],4],
+         [[kocatanlanguagemaster_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,kocatanlanguagemaster_speech_005,
+               [LIBPLUG_NAME]],5],
+         [[kocatanlanguagemaster_trigger_help],0,
+            [LIBACT_QUOTE_RSC,kocatanlanguagemaster_speech_006],6],
+         [[kocatanlanguagemaster_trigger_kinich],0,
+            [LIBACT_QUOTE_RSC,kocatanlanguagemaster_speech_007],7],
+         [[kocatanlanguagemaster_trigger_ko_catan],0,
+            [LIBACT_QUOTE_RSC,kocatanlanguagemaster_speech_008],8],
+         [[kocatanlanguagemaster_trigger_konima],0,
+            [LIBACT_QUOTE_RSC,kocatanlanguagemaster_speech_009],9],
+         [[kocatanlanguagemaster_trigger_konima],0,
+            [LIBACT_QUOTE_RSC,kocatanlanguagemaster_speech_010],10],
+         [[kocatanlanguagemaster_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,kocatanlanguagemaster_speech_011],11],
+         [[kocatanlanguagemaster_trigger_teach,
+            kocatanlanguagemaster_trigger_teach_2,
+            kocatanlanguagemaster_trigger_teach_3],0,
+            [LIBACT_QUOTE_RSC,kocatanlanguagemaster_speech_012],12]
+      ]],lLib);
+
+      lLib = Cons([&KocatanMadScientist,[
+         [[kocatanmadscientist_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_speech_001],1],
+         [[kocatanmadscientist_trigger_bye],0,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_speech_002],2],
+         [[kocatanmadscientist_trigger_enlighten,
+            kocatanmadscientist_trigger_enlighten_2],0,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_speech_003],3],
+         [[kocatanmadscientist_trigger_hanla],0,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_speech_004],4],
+         [[kocatanmadscientist_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_speech_005],5],
+         [[kocatanmadscientist_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_speech_006],6],
+         [[kocatanmadscientist_trigger_help],0,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_speech_007],7],
+         [[kocatanmadscientist_trigger_help],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_speech_008],8],
+         [[kocatanmadscientist_trigger_ko_catan],0,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_speech_009],9],
+         [[kocatanmadscientist_trigger_kohuzotz,
+            kocatanmadscientist_trigger_dragonfly],0,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_speech_010],10],
+         [[kocatanmadscientist_trigger_konima],0,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_speech_011],11],
+         [[kocatanmadscientist_trigger_kriipa],0,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_speech_012],12],
+         [[kocatanmadscientist_trigger_learn],0,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_speech_013],13],
+         [[kocatanmadscientist_trigger_plans],0,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_speech_014],14],
+         [[kocatanmadscientist_trigger_riija],0,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_speech_015],15],
+         [[kocatanmadscientist_trigger_secret,
+            kocatanmadscientist_trigger_secret_2],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_speech_016],16],
+         [[kocatanmadscientist_trigger_secret,
+            kocatanmadscientist_trigger_secret_2],LIBRES_MOOD_NOT_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_speech_017],17],
+         [[kocatanmadscientist_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_speech_018],18],
+         [[kocatanmadscientist_trigger_teach],0,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_speech_019],19],
+         [[kocatanmadscientist_trigger_teotkriipa],0,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_speech_020],20],
+         [[kocatanmadscientist_trigger_utom],0,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_speech_021],21],
+         [[kocatanmadscientist_trigger_ways],0,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_speech_022],22],
+         [[kocatanmadscientist_trigger_wulfgang],0,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_speech_023],23],
+         [[kocatanmadscientist_trigger_yes,
+            kocatanmadscientist_trigger_yes_2],0,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_speech_024],24]
+      ]],lLib);
+
+      lLib = Cons([&KocatanShopkeeper,[
+         [[kocatanshopkeeper_trigger_business],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanshopkeeper_speech_001],1],
+         [[kocatanshopkeeper_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,kocatanshopkeeper_speech_002],2],
+         [[kocatanshopkeeper_trigger_goodbye,
+            kocatanshopkeeper_trigger_goodbye_2],0,
+            [LIBACT_QUOTE_RSC,kocatanshopkeeper_speech_003],3],
+         [[kocatanshopkeeper_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,kocatanshopkeeper_speech_004],4],
+         [[kocatanshopkeeper_trigger_help],0,
+            [LIBACT_QUOTE_RSC,kocatanshopkeeper_speech_005],5],
+         [[kocatanshopkeeper_trigger_ko_catan],0,
+            [LIBACT_QUOTE_RSC,kocatanshopkeeper_speech_006],6],
+         [[kocatanshopkeeper_trigger_konima],0,
+            [LIBACT_QUOTE_RSC,kocatanshopkeeper_speech_007],7],
+         [[kocatanshopkeeper_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,kocatanshopkeeper_speech_008],8]
+      ]],lLib);
+
+      lLib = Cons([&KocatanTailor,[
+         [[kocatantailor_trigger_avar],0,
+            [LIBACT_QUOTE_RSC,kocatantailor_speech_001],1],
+         [[kocatantailor_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,kocatantailor_speech_002],2],
+         [[kocatantailor_trigger_goodbye,kocatantailor_trigger_goodbye_2],0,
+            [LIBACT_QUOTE_RSC,kocatantailor_speech_003],3],
+         [[kocatantailor_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,kocatantailor_speech_004,[LIBPLUG_NAME]],4],
+         [[kocatantailor_trigger_help],0,
+            [LIBACT_QUOTE_RSC,kocatantailor_speech_005],5],
+         [[kocatantailor_trigger_ko_catan],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatantailor_speech_006],6],
+         [[kocatantailor_trigger_ko_catan],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatantailor_speech_007],7],
+         [[kocatantailor_trigger_konima],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatantailor_speech_008],8],
+         [[kocatantailor_trigger_konima],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatantailor_speech_009],9],
+         [[kocatantailor_trigger_precious_stones,
+            kocatantailor_trigger_precious_stones_2,
+            kocatantailor_trigger_precious_stones_3],0,
+            [LIBACT_QUOTE_RSC,kocatantailor_speech_010],10],
+         [[kocatantailor_trigger_riija],0,
+            [LIBACT_QUOTE_RSC,kocatantailor_speech_011],11],
+         [[kocatantailor_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,kocatantailor_speech_012],12],
+         [[kocatantailor_trigger_wulfgang],0,
+            [LIBACT_QUOTE_RSC,kocatantailor_speech_013],13]
+      ]],lLib);
+
+      lLib = Cons([&kocatanTradeMaster,[
+         [[kocatantrademaster_trigger_a_ach_kici_ca],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_speech_001],1],
+         [[kocatantrademaster_trigger_avar],0,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_speech_002],2],
+         [[kocatantrademaster_trigger_balo_na_te_din],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_speech_003],3],
+         [[kocatantrademaster_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_speech_004],4],
+         [[kocatantrademaster_trigger_entroot,
+            kocatantrademaster_trigger_entroot_2],0,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_speech_005],5],
+         [[kocatantrademaster_trigger_game],0,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_speech_006],6],
+         [[kocatantrademaster_trigger_hello],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_speech_007],7],
+         [[kocatantrademaster_trigger_hello],LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_speech_008],8],
+         [[kocatantrademaster_trigger_hello],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_speech_009],9],
+         [[kocatantrademaster_trigger_help],0,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_speech_010],10],
+         [[kocatantrademaster_trigger_inventory,
+            kocatantrademaster_trigger_inventory_2],0,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_speech_011],11],
+         [[kocatantrademaster_trigger_language],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_speech_012],12],
+         [[kocatantrademaster_trigger_marion],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_speech_013],13],
+         [[kocatantrademaster_trigger_marion],LIBRES_MOOD_NOT_GOOD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_speech_014],14],
+         [[kocatantrademaster_trigger_node],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_speech_015],15],
+         [[kocatantrademaster_trigger_node],LIBRES_MOOD_NOT_GOOD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_speech_016],16],
+         [[kocatantrademaster_trigger_precious_stones],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_speech_017],17],
+         [[kocatantrademaster_trigger_qor],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_speech_018],18],
+         [[kocatantrademaster_trigger_qor],LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_speech_019],19],
+         [[kocatantrademaster_trigger_rugby],0,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_speech_020],20],
+         [[kocatantrademaster_trigger_buy],0,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_speech_021],21],
+         [[kocatantrademaster_trigger_tepal],LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_speech_022],22],
+         [[kocatantrademaster_trigger_tos],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_speech_023],23],
+         [[kocatantrademaster_trigger_tos],LIBRES_MOOD_NOT_GOOD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_speech_024],24],
+         [[kocatantrademaster_trigger_wings],0,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_speech_025],25]
+      ]],lLib);
+
+      lLib = Cons([&KocatanWeaponsMaster,[
+         [[kocatanweaponsmaster_trigger_avar],0,
+            [LIBACT_QUOTE_RSC,kocatanweaponsmaster_speech_001],1],
+         [[kocatanweaponsmaster_trigger_buy,
+            kocatanweaponsmaster_trigger_sell],0,
+            [LIBACT_QUOTE_RSC,kocatanweaponsmaster_speech_002],2],
+         [[kocatanweaponsmaster_trigger_customs,
+            kocatanweaponsmaster_trigger_society],0,
+            [LIBACT_QUOTE_RSC,kocatanweaponsmaster_speech_003],3],
+         [[kocatanweaponsmaster_trigger_hello],0,
+            [LIBACT_QUOTE_RSC,kocatanweaponsmaster_speech_004],4],
+         [[kocatanweaponsmaster_trigger_help],0,
+            [LIBACT_QUOTE_RSC,kocatanweaponsmaster_speech_005],5],
+         [[kocatanweaponsmaster_trigger_ko_catan],0,
+            [LIBACT_QUOTE_RSC,kocatanweaponsmaster_speech_006],6],
+         [[kocatanweaponsmaster_trigger_konima],0,
+            [LIBACT_QUOTE_RSC,kocatanweaponsmaster_speech_007],7],
+         [[kocatanweaponsmaster_trigger_mores,
+            kocatanweaponsmaster_trigger_mores_2],0,
+            [LIBACT_QUOTE_RSC,kocatanweaponsmaster_speech_008],8],
+         [[kocatanweaponsmaster_trigger_teach,
+            kocatanweaponsmaster_trigger_learn,
+            kocatanweaponsmaster_trigger_learn_2],0,
+            [LIBACT_QUOTE_RSC,kocatanweaponsmaster_speech_009],9],
+         [[kocatanweaponsmaster_trigger_utom],LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanweaponsmaster_speech_010],10]
+      ]],lLib);
+
+      return lLib;
+   }
+
+   GetRandomLibrary()
+   "Random library nodes: [class, [[percent, mood, action, key], ...]]"
+   {
+      local lLib;
+
+      lLib = $;
+
+      lLib = Cons([&KocatanApothecary,[
+         [50,0,[LIBACT_QUOTE_RSC,kocatanapothecary_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanapothecary_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanapothecary_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanapothecary_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanapothecary_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanapothecary_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanapothecary_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanapothecary_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanapothecary_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanapothecary_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanapothecary_random_011],11],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_random_012],12],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_random_013],13],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_random_014],14],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_random_015],15],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_random_016],16],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_random_017],17],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_random_018],18],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_random_019],19],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_random_020],20],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_random_021],21],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_random_022],22],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_random_023],23],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanapothecary_random_024],24]
+      ]],lLib);
+
+      lLib = Cons([&KocatanBanker,[
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbanker_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbanker_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbanker_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbanker_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbanker_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbanker_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbanker_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbanker_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbanker_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbanker_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbanker_random_011],11],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,kocatanbanker_random_012],12],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanbanker_random_013,[LIBPLUG_NAME]],13],
+         [50,LIBRES_MOOD_GOOD,[LIBACT_QUOTE_RSC,kocatanbanker_random_014],14],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,kocatanbanker_random_015],15],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,kocatanbanker_random_016],16]
+      ]],lLib);
+
+      lLib = Cons([&KocatanBartender,[
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_041],41],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_042],42],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_043],43],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_044],44],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_045],45]
+      ]],lLib);
+
+      lLib = Cons([&KocatanBartender,[
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbartender_random_001],1],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_002],2],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_003],3],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_004],4],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_005],5],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_006],6],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_007],7],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_008],8],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_009],9],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_010],10],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_011],11],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_012],12],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_013],13],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_014],14],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_015],15],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_016],16],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_017],17],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_018],18],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_019],19],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_020],20],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_021],21],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_022],22],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_023],23],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_024],24],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_025],25],
+         [50,LIBRES_MOOD_NOT_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_026],26],
+         [50,LIBRES_MOOD_NOT_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_027],27],
+         [50,LIBRES_MOOD_NOT_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_028],28],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_029],29],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_030],30],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_031],31],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_032],32],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_033],33],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_034],34],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_035],35],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_036],36],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_037],37],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_038],38],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_039],39],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbartender_random_040],40]
+      ]],lLib);
+
+      lLib = Cons([&KocatanBlacksmith,[
+         [50,0,[LIBACT_QUOTE_RSC,kocatanblacksmith_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanblacksmith_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanblacksmith_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanblacksmith_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanblacksmith_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanblacksmith_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanblacksmith_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanblacksmith_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanblacksmith_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanblacksmith_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanblacksmith_random_011],11],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanblacksmith_random_012],12],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanblacksmith_random_013],13]
+      ]],lLib);
+
+      lLib = Cons([&KocatanBonePriestess,[
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbonepriestess_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbonepriestess_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbonepriestess_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbonepriestess_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbonepriestess_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbonepriestess_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbonepriestess_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbonepriestess_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbonepriestess_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbonepriestess_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbonepriestess_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbonepriestess_random_012],12],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbonepriestess_random_013],13],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbonepriestess_random_014],14],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbonepriestess_random_015],15],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbonepriestess_random_016],16],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbonepriestess_random_017],17],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbonepriestess_random_018],18],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbonepriestess_random_019],19],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbonepriestess_random_020],20]
+      ]],lLib);
+
+      lLib = Cons([&KocatanBowMaker,[
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbowmaker_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbowmaker_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbowmaker_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbowmaker_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbowmaker_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbowmaker_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbowmaker_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbowmaker_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbowmaker_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbowmaker_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbowmaker_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbowmaker_random_012],12],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanbowmaker_random_013],13],
+         [50,0,
+            [LIBACT_QUOTE_RSC,kocatanbowmaker_random_014,[LIBPLUG_NAME]],14],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanbowmaker_random_015],15],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanbowmaker_random_016],16],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanbowmaker_random_017],17],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbowmaker_random_018],18],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbowmaker_random_019],19],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanbowmaker_random_020],20],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,kocatanbowmaker_random_021],21]
+      ]],lLib);
+
+      lLib = Cons([&KocatanCaptainEvil,[
+         [50,0,[LIBACT_QUOTE_RSC,kocatancaptainevil_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,kocatancaptainevil_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,kocatancaptainevil_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,kocatancaptainevil_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,kocatancaptainevil_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,kocatancaptainevil_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,kocatancaptainevil_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,kocatancaptainevil_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,kocatancaptainevil_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,kocatancaptainevil_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,kocatancaptainevil_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,kocatancaptainevil_random_012],12]
+      ]],lLib);
+
+      lLib = Cons([&KocatanCaptainGood,[
+         [50,0,[LIBACT_QUOTE_RSC,kocatancaptaingood_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,kocatancaptaingood_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,kocatancaptaingood_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,kocatancaptaingood_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,kocatancaptaingood_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,kocatancaptaingood_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,kocatancaptaingood_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,kocatancaptaingood_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,kocatancaptaingood_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,kocatancaptaingood_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,kocatancaptaingood_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,kocatancaptaingood_random_012],12],
+         [50,0,[LIBACT_QUOTE_RSC,kocatancaptaingood_random_013],13],
+         [50,0,[LIBACT_QUOTE_RSC,kocatancaptaingood_random_014],14]
+      ]],lLib);
+
+      lLib = Cons([&KocatanInnkeeper,[
+         [50,0,[LIBACT_QUOTE_RSC,kocataninnkeeper_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,kocataninnkeeper_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,kocataninnkeeper_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,kocataninnkeeper_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,kocataninnkeeper_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,kocataninnkeeper_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,kocataninnkeeper_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,kocataninnkeeper_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,kocataninnkeeper_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,kocataninnkeeper_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,kocataninnkeeper_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,kocataninnkeeper_random_012],12],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocataninnkeeper_random_013],13],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocataninnkeeper_random_014],14],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocataninnkeeper_random_015],15],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocataninnkeeper_random_016],16],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocataninnkeeper_random_017],17],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocataninnkeeper_random_018],18],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocataninnkeeper_random_019],19],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocataninnkeeper_random_020],20],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocataninnkeeper_random_021],21],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocataninnkeeper_random_022],22],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocataninnkeeper_random_023],23]
+      ]],lLib);
+
+      lLib = Cons([&KocatanLanguageMaster,[
+         [50,0,[LIBACT_QUOTE_RSC,kocatanlanguagemaster_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanlanguagemaster_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanlanguagemaster_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanlanguagemaster_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanlanguagemaster_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanlanguagemaster_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanlanguagemaster_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanlanguagemaster_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanlanguagemaster_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanlanguagemaster_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanlanguagemaster_random_011],11]
+      ]],lLib);
+
+      lLib = Cons([&KocatanMadScientist,[
+         [50,0,[LIBACT_QUOTE_RSC,kocatanmadscientist_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanmadscientist_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanmadscientist_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanmadscientist_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanmadscientist_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanmadscientist_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanmadscientist_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanmadscientist_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanmadscientist_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanmadscientist_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanmadscientist_random_011],11],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_random_012],12],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_random_013],13],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_random_014],14],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_random_015],15],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_random_016],16],
+         [50,LIBRES_MOOD_NOT_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_random_017],17],
+         [50,LIBRES_MOOD_NOT_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_random_018],18],
+         [50,LIBRES_MOOD_NOT_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_random_019],19],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_random_020],20],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_random_021],21],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_random_022],22],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_random_023],23],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_random_024],24],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatanmadscientist_random_025],25]
+      ]],lLib);
+
+      lLib = Cons([&KocatanShopkeeper,[
+         [50,0,[LIBACT_QUOTE_RSC,kocatanshopkeeper_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanshopkeeper_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanshopkeeper_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanshopkeeper_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanshopkeeper_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanshopkeeper_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanshopkeeper_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanshopkeeper_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanshopkeeper_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanshopkeeper_random_010],10],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanshopkeeper_random_011],11],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanshopkeeper_random_012],12],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanshopkeeper_random_013],13],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanshopkeeper_random_014],14]
+      ]],lLib);
+
+      lLib = Cons([&KocatanTailor,[
+         [50,0,[LIBACT_QUOTE_RSC,kocatantailor_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,kocatantailor_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,kocatantailor_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,kocatantailor_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,kocatantailor_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,kocatantailor_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,kocatantailor_random_007],7],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatantailor_random_008],8]
+      ]],lLib);
+
+      lLib = Cons([&kocatanTradeMaster,[
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_041],41],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_042],42],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_043],43]
+      ]],lLib);
+
+      lLib = Cons([&kocatanTradeMaster,[
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_001],1],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_002],2],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_003],3],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_004],4],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_005],5],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_006],6],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_007],7],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_008],8],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_009],9],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_010],10],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_011],11],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_012],12],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_013],13],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_014],14],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_015],15],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_016],16],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_017],17],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_018],18],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_019],19],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_020],20],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_021],21],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_022],22],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_023],23],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_024],24],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_025],25],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_026],26],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_027],27],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_028],28],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_029],29],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_030],30],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_031],31],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_032],32],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_033],33],
+         [50,LIBRES_MOOD_NEUTRAL,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_034],34],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_035],35],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_036],36],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_037],37],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_038],38],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_039],39],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatantrademaster_random_040],40]
+      ]],lLib);
+
+      lLib = Cons([&KocatanVaultman,[
+         [50,0,[LIBACT_QUOTE_RSC,kocatanvaultman_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanvaultman_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanvaultman_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanvaultman_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanvaultman_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanvaultman_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanvaultman_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanvaultman_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanvaultman_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanvaultman_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanvaultman_random_011],11],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanvaultman_random_012,
+               [LIBPLUG_SIRMADAM]],12],
+         [50,LIBRES_MOOD_NOT_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanvaultman_random_013],13],
+         [50,LIBRES_MOOD_BAD,[LIBACT_QUOTE_RSC,kocatanvaultman_random_014],14]
+      ]],lLib);
+
+      lLib = Cons([&KocatanWeaponsMaster,[
+         [50,0,[LIBACT_QUOTE_RSC,kocatanweaponsmaster_random_001],1],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanweaponsmaster_random_002],2],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanweaponsmaster_random_003],3],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanweaponsmaster_random_004],4],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanweaponsmaster_random_005],5],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanweaponsmaster_random_006],6],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanweaponsmaster_random_007],7],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanweaponsmaster_random_008],8],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanweaponsmaster_random_009],9],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanweaponsmaster_random_010],10],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanweaponsmaster_random_011],11],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanweaponsmaster_random_012],12],
+         [50,0,[LIBACT_QUOTE_RSC,kocatanweaponsmaster_random_013],13],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanweaponsmaster_random_014],14],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanweaponsmaster_random_015],15],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanweaponsmaster_random_016],16],
+         [50,LIBRES_MOOD_GOOD,
+            [LIBACT_QUOTE_RSC,kocatanweaponsmaster_random_017],17],
+         [50,LIBRES_MOOD_NOT_BAD,
+            [LIBACT_QUOTE_RSC,kocatanweaponsmaster_random_018],18],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatanweaponsmaster_random_019],19],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatanweaponsmaster_random_020],20],
+         [50,LIBRES_MOOD_BAD,
+            [LIBACT_QUOTE_RSC,kocatanweaponsmaster_random_021],21]
+      ]],lLib);
+
+      return lLib;
+   }
+
+end
+////////////////////////////////////////////////////////////////////////////////
