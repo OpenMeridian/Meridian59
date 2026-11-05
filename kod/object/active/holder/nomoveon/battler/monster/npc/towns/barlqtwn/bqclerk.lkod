@@ -82,7 +82,7 @@ bq_clerk_tally_phrase = de "z‰hle die Stimmen"
 bq_clerk_no_justicar = de \
    "In der Tat gibt es zur Zeit keinen amtierenden Justiziar."
 bq_clerk_in_absentia = de \
-   "Euer Ehren, diese Person ist nicht anwesend. Sie muss sich in Eurer"
+   "Euer Ehren, diese Person ist nicht anwesend. Sie muss sich in Eurer "
    "Gesellschaft befinden."
 bq_clerk_step_forward = de \
    "Euer Ehren, diese Person befindet sich im Zuschauerraum. In der Tat "
@@ -170,7 +170,7 @@ bq_clerk_no_start_ad = de \
 bq_clerk_stop_ad = de \
    "Du wirst nicht l‰nger benachrichtigt, wenn eine neue Wahl beginnt."
 bq_clerk_stop_ad_outlaw = de \
-   "Ich sehe schon, Reformen stehen ausserhalb eures Verst‰ndnisses.  Ich "
+   "Ich sehe schon, Reformen stehen auﬂerhalb eures Verst‰ndnisses.  Ich "
    "werde euch also nicht l‰nger mit meinen Benachrichtigungen bel‰stigen."
 bq_clerk_no_stop_ad = de \
    "Du wirst nicht l‰nger benachrichtigt, wenn eine neue Wahl startet."

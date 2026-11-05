@@ -15,7 +15,7 @@
    // Quest resources.
    SpinebeastBossQuest_trigger = de "Stachelrücken"
    SpinebeastBossQuest_assign_2 = de \
-      "Wow Junge!  Es scheint, als spricht die ganze Stadt über dich..."
+      "Wow Junge!  Es scheint, als spricht die ganze Stadt über dich... "
       "Könntest du mir einen GEfallen tun, und mir bei dieser Aufgabe helfen? "
       "Ich habe viele Abenteurer verloren, aber als ich gesehen habe, wie du "
       "bereits gegen einige große Gegner gekämpft hast wird es kein Problem sein. "

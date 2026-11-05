@@ -1,7 +1,7 @@
 heat_name_rsc = de "Hitze"
 heat_desc_rsc = de \
    "Erfüllt den Raum mit der Erdmagie Farens und erhitzt alle Rüstungen, "
-   "bis sie schmelzen. Das Fleisch ihrer Träger wird versengt."
+   "bis sie schmelzen. Das Fleisch ihrer Träger wird versengt. "
    "Die Anwendung dieses Zaubers kann dazu führen, dass Du zum Gesetzlosen "
    "erklärt wirst."
 heat_already_enchanted = de "Hier wurde bereits Hitze gezaubert."

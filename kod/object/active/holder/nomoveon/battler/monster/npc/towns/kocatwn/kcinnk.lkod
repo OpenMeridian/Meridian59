@@ -30,8 +30,8 @@ KocatanInkeeper_destroy_key_copy = de \
    "Kein Problem.\""
 KocatanInkeeper_purplemushroom_sale = de \
    "Ah!  Du möchtest %s%s.  Ja, ich importierte diese wunderbaren Schönheiten "
-   "direkt vom Festpland. Es soll garantiert sein, dass wenn man 3000 von "
-   "ihnen isst stäker werden soll!"
+   "direkt vom Festland. Es soll garantiert sein, dass wenn man 3000 von "
+   "ihnen isst stärker werden soll!"
 KoIk_room_command = de "Raum"
 KoIk_rent_command = de "Miete"
 KoIk_cost_command = de "Kosten"

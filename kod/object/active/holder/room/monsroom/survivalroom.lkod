@@ -3,7 +3,7 @@ welcome_message = de \
    "~IAls Du den Raum betrittst, merkst Du, dass mächtige Energien vorhanden "
    "sind. Es kann sehr gefährlich sein, sich hier aufzuhalten! Du spürst, "
    "dass du aus der Realität gerissen wurdest und der Tot keine folgen haben "
-   "wird.\nSage \"~Bverlasse survial~B\" um die Überlebens-Arena zu verlassen."
+   "wird.\nSage \"~Bverlasse survival~B\" um die Überlebens-Arena zu verlassen."
 survivalroom_solo_starttime = de "~BDer Angriff beginnt in %i Sekunden."
 next_level_in_seconds = de \
    "~BDie %i. Welle wurde besiegt. Die nächste beginnt in %i Sekunden."
@@ -11,7 +11,7 @@ begin_level = de "~BWelle %i der gegnerischen Macht ist eingetroffen."
 you_died_to_monster = de "%s steht triumphierend über deinem toten Körper."
 player_died_to_monster = de "~B%s wurde durch %s%s getötet!"
 you_were_booted = de \
-   "Die Energie des Kampes verlässt dich und du kehrst zurück heim."
+   "Die Energie des Kampfes verlässt dich und du kehrst zurück heim."
 player_was_booted = de "%s wurde aus der Realität befördert."
 lives_remain_update = de \
    "Du spürst, dass der Tot um %i weitere Male betrogen werden kann."

@@ -6,4 +6,4 @@ majorheal_desc_rsc = de \
 majorheal_cast_rsc = de \
    "Die %s%ss stellt ~g~B%i~B~n Lebenspunkte wieder her."
 majorheal_cast_self = de \
-   "Sha'lill heilt dich um ~g~B%i~B~n Lebenspunkte."
+   "Shal'ille heilt dich um ~g~B%i~B~n Lebenspunkte."

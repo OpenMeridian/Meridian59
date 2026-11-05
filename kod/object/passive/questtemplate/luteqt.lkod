@@ -9,7 +9,7 @@ lutequest_nodetwo_rsc = de \
    "Parrin wird Dir helfen ein Instrument Jalas zu erhalten. Suche %s auf und sage \"%s\"."
 
 lutequest_nodethree_rsc = de \
-   "%s wird Dir ein Instrument geben, aber zuvor musst Du etwas%s erledigen."
+   "%s wird Dir ein Instrument geben, aber zuvor musst Du etwas%s erledigen. "
    "Überbringe %s%s an %s, und kehre dann wieder zu %s zurück."
    
 lutequest_nodefour_rsc = de \

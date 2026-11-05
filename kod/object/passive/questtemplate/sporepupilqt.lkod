@@ -16,7 +16,7 @@ sporepupilquest_nodethree_rsc = de \
 
 sporepupilquest_completed = de \
    "Du hast die Quest \"Die Dunkle Seite der Macht\" abgeschlossen. Maleval wird Dir nun "
-   "den Zauber Sporenwolke beibringen, wenn Du mindestens Qor Zirkel 5 und Faren Zitkel 6 besitzt."
+   "den Zauber Sporenwolke beibringen, wenn Du mindestens Qor Zirkel 5 und Faren Zirkel 6 besitzt. "
    "Er wird dir ebenfalls den Zauber Verfluchte Waffe beibringen, sofern Du mindest Qor Zirkel 4 "
    "und Kraanan Zirkel 5 mächtig bist."
 
@@ -46,7 +46,7 @@ sporeburstlearn_failure_2 = de \
 sporeburstlearn_success_2 = de \
    "Du bist wirklich ein würdiger Schüler, %NAME. Ah, %INDEF_CARGO%CARGO! "
    "Kannst Du es ~Ifühlen~I es sind magische Wesen, die in Wellen kommen? "
-   "Die Macht, in diesem Dokument, übersteigt die triviale religiöseBedeutung "
+   "Die Macht, in diesem Dokument, übersteigt die triviale religiöse Bedeutung "
    "dieser gewöhnlichen Priester. Die ist der Stoff, aus dem das Universum "
    "gemacht wurde!"
 sporeburstlearn_assign_3 = de \

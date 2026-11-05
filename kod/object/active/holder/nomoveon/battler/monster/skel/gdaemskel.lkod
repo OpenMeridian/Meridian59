@@ -2,6 +2,6 @@ GiantDaemonSkeleton_koc_name_rsc = de "gikochaleoc"
 GiantDaemonSkeleton_name_rsc = de "Das Riesen Dämonenskelett"
 GiantDaemonSkeleton_desc_rsc = de \
    "Allein der Anblick dieser Abnormalität der Natur ist oft genug umeinen "
-   "Menschen erstarren zu lassen. Du schauderst, als Du daran denkst,was "
+   "Menschen erstarren zu lassen. Du schauderst, als Du daran denkst, was "
    "für ein dunkles Ritual diese Abnormalität zum Leben erweckt hat!"
 GiantDaemonSkeleton_dead_name_rsc = de "Ein großer Knochenhaufen"

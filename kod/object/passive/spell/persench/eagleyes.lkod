@@ -9,7 +9,7 @@ EagleEyes_off_rsc = de "Die Welt erscheint irgendwie weniger deutlich."
 EagleEyes_already_enchanted_rsc = de "Du hast bereits Adleraugen."
 EagleEyes_Success_rsc = de "Du gewährst %s%s eine unnatürliche Sicht."
 EagleEyes_resist = de \
-   "Krannans magische Kraft kämpft gegen den Schleier der Dunkelheit an."
+   "Kraanans magische Kraft kämpft gegen den Schleier der Dunkelheit an."
 EagleEyes_evade = de "Die Magie Kraanans bewahrt dein Augenlicht."
 EagleEyes_resist_caster = de \
    "Du spürst eine Kraft, die dem Blendzauber widersteht."

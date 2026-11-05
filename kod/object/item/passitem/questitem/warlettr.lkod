@@ -11,7 +11,7 @@ WarLetter_close_rsc = de \
    "Vorsichtig bindest Du den Faden um den Brief und verschließt ihn."
 Warletter_text_default = de "Dieser Brief ist unbeschrieben."
 Warletter_text1_rsc = de \
-   "Lieber %s,Ich hoffe, der Brief hat Dich erreicht. In solchen Zeiten muss "
+   "Lieber %s, Ich hoffe, der Brief hat Dich erreicht. In solchen Zeiten muss "
    "man seine eigene Sicherheit im Kopf haben. Du weißt, das sind schwierige "
    "Zeiten.\n\nIch habe Dir geschrieben, um Deine Meinung über den jüngsten "
    "Mord zu erfahren. So eine abscheuliche Tat wird ohne Zweifel schnell "
@@ -50,7 +50,7 @@ Warletter_text2_rsc = de \
    "geöffnet hat und dass Du Dich davor in Acht nimmst, in gefährliche logische "
    "Fallen zu tappen. Der Mörder sollte der Gerechtigkeit zugeführt werden "
    "und jegliches Gerede von Aufruhr muss verbannt werden. Unsere Länder "
-   "müssen in Frieden vereinigt undnicht im Krieg gespalten werden.\n\n%s"
+   "müssen in Frieden vereinigt und nicht im Krieg gespalten werden.\n\n%s"
 Warletter_text3_rsc = de \
    "Lieber %s, Wenn ich Dich nicht so gut kennen würde, würde ich mir Sorgen "
    "machen, dass Du vermutest, dass ich in einen diabolischen Plan verwickelt "
@@ -74,7 +74,7 @@ Warletter_text4_rsc = de \
 Warletter_text5_rsc = de \
    "Lieber %s, Ich könnte nicht mehr mit Deinem letzten Brief übereinstimmen. "
    "Es ist fast so, als ob Du meine Gedanken gelesen hättest, als Du ihn "
-   "verfasst hast.\n\nWer sonst ausser dem Neffen könnte so viel gewußt haben "
+   "verfasst hast.\n\nWer sonst außer dem Neffen könnte so viel gewußt haben "
    "und so sehr von dem Mord profitiert haben? Niemand, sage ich. Ich verstehe, "
    "dass Du bloß über die eingeschränkte Information spekuliert hast, die "
    "wir hatten, aber wenn Du über das ganze Szenario logisch nachdenkst, "
@@ -125,7 +125,7 @@ Warletter_text8_rsc = de \
    "unsere Länder. Möge Kraanan die Faust uns die Kraft gewähren, das zu "
    "tun, was das Beste ist.\n\n%s"
 Warletter_text9_rsc = de \
-   "An %s, meinem vertrauten Freund,Die Leute sagen, dass ich paranoid bin, "
+   "An %s, meinem vertrauten Freund, Die Leute sagen, dass ich paranoid bin, "
    "aber ich beginne mir Sorgen um meine Sicherheit zu machen. Die Leute "
    "scheinen immer an mir vorbeizulaufen, mir merkwürdige Blicke zuzuwerfen "
    "und bereit zu sein, ohne irgendeinen Grund auf mich loszugehen!\n\nVielleicht "
@@ -192,7 +192,7 @@ Warletter_text13_rsc = de \
    "Natürlich habe ich abgestritten, irgendetwas über Deine Vorhaben zu wissen. "
    "Ich schätze, Du kannst Dich später bedanken.\n\nNun gut, wie geht es Dir? "
    "Hier gibt es nicht viel Neues. Wieder einige Gerüchte über die dunklen "
-   "Zauberer.Andere Gerüchte darüber, dass die Leute aus Jasper über das "
+   "Zauberer. Andere Gerüchte darüber, dass die Leute aus Jasper über das "
    "eine oder andere beunruhigt sind. Du bist diesem Wahn noch nicht verfallen, "
    "oder? Scheinbar gibt es jeden Tag neues Gerede darüber, wie der Mörder "
    "des Herzogs das Ende des alten Adels angedeutet hat. Warum rebellieren "

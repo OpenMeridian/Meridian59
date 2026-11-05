@@ -1,10 +1,14 @@
 defmod_proc = de \
    "Der %s getragen von %s verströmt einen magischen Flare, zauber %s auf "
    "%s!"
-defmod_proc_you = de "Dein %s gibt einen magischen Flair, zauber %s auf you!"
+defmod_proc_you = de \
+   "Dein %s verströmt ein magisches Leuchten und wirkt %s auf Dich!"
 defmod_proc_them = de "Dein %s gibt einen magischen Flair, zauber %s auf %s!"
 defmod_proc_nobody = de "Dein %s gibt einen magischen Flair, zauber %s!"
 defmod_proc_no_target = de \
    "Der %s getragen von %s gibt einen magischen Flair, zauber %s!"
 def_attribute_self_rsc = de "auf dich"
 def_attribute_target_rsc = de "auf den Gegner"
+defspellproc_attribute_desc = de \
+   "\n\nBei der Abwehr eines Schlags wirken die in %s eingravierten Runen %s "
+   "%s mit %i Zauberkraft in %i%% der Fälle."

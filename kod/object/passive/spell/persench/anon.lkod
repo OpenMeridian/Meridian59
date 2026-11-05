@@ -1,7 +1,7 @@
 anonymity_start = de \
    "Deine Anwesenheit verblasst, und du fängst an dich verschwommener zu "
    "fühlen."
-anonymity_stop = de "Plötlich fühlst du Dich wieder mehr nach Dir selber."
+anonymity_stop = de "Plötzlich fühlst du Dich wieder mehr nach Dir selber."
 anonymity_already_enchanted = de "Du hast bereits %s%s."
 anonymity_name_rsc = de "Anonymität"
 anonymity_desc_rsc = de \

@@ -1,41 +1,40 @@
 FireGolemQuest_name_rsc = de "Die Geschichte eines Barden"
 
 FireGolemQuest_desc_rsc = de \
-   "Roderick Merk erzählt eine Geschichte, die von vielen Barden weitergegeben wurde."
-   "Während der großen Kluft soll Inferno ein tobender Feuergolem gewesen sein"
-   "Wurde von Jala selbst gerufen."
+   "Roderick Merk erzählt eine Geschichte, die viele Barden weitergeben.  "
+   "Während der großen Spaltung soll Jala selbst Inferno, einen tobenden "
+   "Feuergolem, herbeigerufen haben."
    
 FireGolemQuest_kill_rsc = de \
-   "Der Geist von %s, einem mächtigen Feuergolem, existiert in diesen Ländern immer noch."
-   "Finde und erschlage ihn."
+   "Der Geist von %s, einem mächtigen Feuergolem, existiert noch immer in "
+   "diesen Landen.  Finde und erschlage ihn."
 
 FireGolemQuest_return_rsc = de \
-   "Kehren Sie zu %s zurück und teilen Sie %s mit, dass die Aufgabe abgeschlossen wurde."
+   "Kehre zu %s zurück und lass %s wissen, dass die Aufgabe erledigt ist."
 
 FireGolemQuest_completed = de \
-   "Du hast Inferno besiegt, Golem des Feuers."
+   "Du hast Inferno, den Golem des Feuers, besiegt."
 
-// Ressourcen suchen.
+// Quest-Ressourcen.
 FireGolemQuest_trigger = de "Feuergolem"
 FireGolemQuest_assign_2 = de \
-   "Es gibt eine Geschichte unter Barden, die von Jala spricht. Wo immer Jala es getan hat."
-   "weg, sie war immer von den Elementen Feuer, Eis und geschützt"
-   "Sturm. Die Elementare hatten Jala noch lange nach dem"
-   "Große Isolation. Dieser Schutz war jedoch kein Zufall."
-   "Der elementare Gott, Faren, verehrte Jala sehr und wurde ihr geschworen."
-   "Es gab eine große Kluft zwischen Jala und dem Rest von"
-   "Die Länder. Jala hatte Faren sehr vermisst. Durch Jalas Einsamkeit"
-   "Sie brachte die Schöpfung von Inferno hervor, einem großen Feuergolem."
-   "Viele glauben, dass Inferno noch heute in den Höhlen tobt."
+   "Unter Barden gibt es eine Geschichte über Jala.  Wohin Jala auch ging, "
+   "stets beschützten sie die Elemente Feuer, Eis und Sturm.  Die Elementare "
+   "schützten Jala auch noch lange nach der großen Isolation.  Dieser Schutz "
+   "war jedoch kein Zufall.  Der Elementargott Faren verehrte Jala sehr und "
+   "hatte ihr die Treue geschworen.  Eine große Spaltung trennte Jala vom Rest "
+   "der Lande, und sie vermisste Faren sehr.  Aus ihrer Einsamkeit heraus "
+   "erschuf sie Inferno, einen großen Feuergolem.  Viele glauben, dass Inferno "
+   "noch heute in den Höhlen tobt."
 
 FireGolemQuest_failure_2 = de \
-   "Betreff: Die Geschichte eines Barden \n"
-   "Es könnte auch nur ein Mythos sein. Mit all diesen überlieferten Legenden, hart"
-   "um zu wissen, was wahr ist."
+   "Betreff: Die Geschichte eines Barden\nEs könnte auch nur ein Mythos sein.  "
+   "Bei all den überlieferten Legenden ist es schwer zu sagen, was wahr ist."
 
 FireGolemQuest_success_2 = de \
-   "Du hast das mächtige Inferno besiegt? Es war isoliert vom Rest von"
-   "Die Welt, wie ironisch. Ähnlich wie die Isolation von Jala."
-   "Ich beziehe mich auf ihre Gefühle. Viele in diesem Land tun es. Verstehen Sie, dass wir es waren."
-   "alle vom Rest des Landes getrennt ~ Itoo. ~ I Wegen der Gesellschaft,"
-   "Ich musste Jixa verlassen ... ich vermisse Jixa sehr. Ich vermisse ... meinen Freund."
+   "Du hast den mächtigen Inferno besiegt?  Die Legenden waren also doch wahr.  "
+   "Ironisch, nicht wahr?  Was aus Jalas Einsamkeit entstand, ist nun selbst "
+   "von der Welt abgeschnitten.  Sind wir besser als jene, die Jala im Stich "
+   "ließen?  Vielleicht könnt ihr Westler das nicht verstehen.  Auch ich musste "
+   "Jixa verlassen, und ich vermisse es noch immer sehr.  Ich vermisse meinen "
+   "Freund."

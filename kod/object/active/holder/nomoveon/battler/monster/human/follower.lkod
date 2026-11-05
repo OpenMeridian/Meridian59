@@ -49,7 +49,7 @@ follower_commands_advanced = de \
 
 follower_commands_social = de \
    "Diese Befehle kannst du nutzen, um besser mit deinen Freunden zu kommunizieren...\n"
-   "~Bego~B (Nachricht)   ~Ierlaubt es dir, Leutem um dich herum zu sagen was du tust~I\n"
+   "~Bego~B (Nachricht)   ~Ierlaubt es dir, Leuten um dich herum zu sagen was du tust~I\n"
    "~Bdeuten/winken/tanzen~B   ~Iführt eine visuelle Geste aus~I\n"
    "~Bneutral/glücklich/traurig/grimmig~B   ~Ierlaubt es dir, deinen Gemütszustand zu zeigen~I\n\n"
    "~Bgruppe~B   ~Iöffnet ein Fenster, welches es dir erlaubt, deine Nachrichtengruppen zu verwalten~I\n"
@@ -106,7 +106,7 @@ follower_quest_finished_c = de "Ich glaube, das war nicht ganz so schwer."
 follower_quest_finished_d = de "Wir sollten das öfter machen!"
 follower_quest_finished_e = de "Was haben wir bekommen? Irgendwas Gutes?"
 follower_quest_finished_f = de "Okay, ich hoffe wirklich, das war es wert!"
-follower_quest_finished_g = de "Das hat Spass gemacht! Wirklich, ohne Ironie! Ich schwöre!"
+follower_quest_finished_g = de "Das hat Spaß gemacht! Wirklich, ohne Ironie! Ich schwöre!"
 follower_quest_finished_h = de "Erledigt!  Wir ~Isind~I fertig, oder? "
 follower_quest_finished_i = de "Na also..."
 follower_quest_finished_j = de "Was soll dieses ganze Rumgerenne? Das ist wirklich schlechtes Quest Design..."
@@ -140,7 +140,7 @@ follower_leader_killed_something_a = de "Ohh!  Der war gut, mein Freund!"
 follower_leader_killed_something_b = de "Du lässt es wirklich einfach aussehen..."
 follower_leader_killed_something_c = de "Lass mir welche, ja?"
 follower_leader_killed_something_d = de "Bei Kraanan, du und dein %s sind wirklich ein Paar für den Himmel!"
-follower_leader_killed_something_e = de "Ha!  Das hat Spass gemacht zuzuschauen!"
+follower_leader_killed_something_e = de "Ha!  Das hat Spaß gemacht zuzuschauen!"
 follower_leader_killed_something_f = de "Autsch!!  Hast du gesehen was dein %s dem armen Bastard angetan hat?!"
 
 follower_retreat_a = de "Zeit, sich etwas zurück zu ziehen!"
@@ -183,9 +183,9 @@ follower_entered_combat_e_b = de \
 follower_entered_combat_e_c = de \
    "Kampf!  Ich hoffe, ich habe nicht vergessen wie man sich einen richtigen Kampf liefert..."
 follower_entered_combat_e_d = de \
-   "Gegner vorraus!  Nach all der Zeit! ...da kommen mir die Tränen. Ehrlich!"
+   "Gegner voraus!  Nach all der Zeit! ...da kommen mir die Tränen. Ehrlich!"
 follower_entered_combat_e_e = de "Ich kann es kaum glauben, ein richtiger Kampf!  Ein echter Kampf!"
-follower_entered_combat_e_f = de "Feinde!  Warte!  Heißt das, wir beommen endlich was zu tun?!"
+follower_entered_combat_e_f = de "Feinde!  Warte!  Heißt das, wir bekommen endlich was zu tun?!"
 follower_entered_combat_e_g = de \
    "Ein Hinterhalt!  Ich bin mir ehrlich gesagt nicht mal sicher ob wir der Hinterhalt sind oder in einen geraten sind, aber ich liebe es einfach, es zu rufen..."
 
@@ -285,7 +285,7 @@ follower_brief_leader_requested_template_combined = de "%s%s%s%s%s%s%s"
 follower_brief_leader_requested_start_a = de "Lass mich meine Notizen prüfen, ich habe mir notiert..."
 follower_brief_leader_requested_start_b = de "Meine Notizen besagen..."
 follower_brief_leader_requested_start_c = de "Wenn ich mich richtig erinnere, hatten wir den Auftrag..."
-follower_brief_leader_requested_start_d = de "Ich galube mich zu erinnern, das wir Folgendes zu tun haben..."
+follower_brief_leader_requested_start_d = de "Ich glaube mich zu erinnern, das wir Folgendes zu tun haben..."
 follower_brief_leader_requested_start_e = de "Wo ist mein Reise Tagebuch? Ah, da ist es! Da steht..."
 follower_brief_leader_requested_kill = de "~MDein Begleiter teilt dir mit, \"...töte "
 follower_brief_leader_requested_tame  = de "~MDein Begleiter teilt dir mit, \"... zähme "
@@ -325,7 +325,7 @@ follower_brief_leader_cargo_start = de "beschaffen "
 follower_brief_leader_end_a = de ".  Klingt recht einfach.~n~M\""
 follower_brief_leader_end_b = de ".  Na dann lass uns mal anfangen.~n~M\""
 follower_brief_leader_end_c = de ".  Okay, Zeit in die Gänge zu kommen...~n~M\""
-follower_brief_leader_end_d = de ".  Klingt nach Spass...~n~M\""
+follower_brief_leader_end_d = de ".  Klingt nach Spaß...~n~M\""
 follower_brief_leader_end_e = de ".  Was kann schon schief gehen?~n~M\""
 
 follower_cant_accept_item = de \

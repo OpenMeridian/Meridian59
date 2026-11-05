@@ -7,10 +7,10 @@ dukejoin_desc_rsc = de \
    "des politischen Einflusses des Herzogs abhängt."
 
 dukejoin_deliver_rsc = de \
-   "Um sich zu beweisen hat Dich Herzog Arkadius dazu beauftragt, ihm %s%s zu übergeben."
+   "Um sich zu beweisen hat Dich Herzog Akardius dazu beauftragt, ihm %s%s zu übergeben."
 
 dukejoin_completed = de \
-   "Du hast das Vertrauen von Arkadius erhalten, und bist nun ein Anhänger des Herzogs."
+   "Du hast das Vertrauen von Akardius erhalten, und bist nun ein Anhänger des Herzogs."
 
 // Quest resources.
 duke_join2_assign = de \

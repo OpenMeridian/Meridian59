@@ -268,7 +268,7 @@ oo_tree3_desc = de \
    "Es heißt, der Motubanak-Baum sei der einzige, auf dem die Kriipa schliefen."
 oo_head2_name = de "Der Totenschädel"
 oo_head2_desc = de \
-   "Ein grosser, abartiger Schädel, der auf einen hölzernen Pflock gerammt "
+   "Ein großer, abartiger Schädel, der auf einen hölzernen Pflock gerammt "
    "wurde. Vielleicht eine Warnung?"
 oo_bones_name = de "Der Knochenhaufen"
 oo_bones_desc = de \
@@ -449,7 +449,7 @@ oo_modspider_name = de "Miniaturspinne"
 oo_modspider_desc = de \
    "Auf einem Schild unter dem Modell steht:\nGewöhnliches Ungeziefer, das "
    "überall in ganz Meridian angetroffen werden kann, und an dem schwache "
-   "Abenteuerer vortrefflich ihre Kampffertigkeiten trainieren und entwicklen "
+   "Abenteurer vortrefflich ihre Kampffertigkeiten trainieren und entwicklen "
    "können."
 oo_modcentipede_name = de "Miniaturtausendfüßler"
 oo_modcentipede_desc = de \
@@ -473,7 +473,7 @@ oo_modscimitar_name = de "Modell eines Säbels"
 oo_modscimitar_desc = de \
    "Auf einem Schild unter dem Modell steht:\nDie bevorzugte Waffe der fortgeschrittenen "
    "Kämpfer im Land. Kann mit wenigen Hieben bei entsprechender Kampfeskunst "
-   "auch grössere Feinde in zwei Hälften zerlegen."
+   "auch größere Feinde in zwei Hälften zerlegen."
 oo_modhammer_name = de "Modell eines Hammers"
 oo_modhammer_desc = de \
    "Auf einem Schild unter dem Modell steht:\nEine wuchtige Waffe, die des "
@@ -735,7 +735,7 @@ oo_burnedtree2_desc = de \
 oo_colscim_name = de "Blutroter Säbel"
 oo_colscim_desc = de \
    "Die bevorzugte Waffe der fortgeschrittenen Kämpfer im Land. Kann mit wenigen "
-   "Hieben bei entsprechender Kampfeskunst auch grössere Feinde in zwei Hälften zerlegen."
+   "Hieben bei entsprechender Kampfeskunst auch größere Feinde in zwei Hälften zerlegen."
 oo_colknightshield_name = de "Blutrotes Ritterschild"
 oo_colknightshield_desc = de \
    "Kraanans Schild der Ritter."

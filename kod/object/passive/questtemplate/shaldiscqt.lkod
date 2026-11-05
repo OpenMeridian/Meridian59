@@ -6,7 +6,7 @@ shalquest_desc_rsc = de \
    "überzeugter Anhänger bist. Sobald du dich bewiesen hast, wirst du zudem "
    "mit einer passenden Schülerrobe belohnt werden."
 shalquest_node_two_rsc = de \
-   "Priesterin Xiana hat Dich beauftragt %s aufzusuchen und folgende Worte zu sprechen:"
+   "Priesterin Xiana hat Dich beauftragt %s aufzusuchen und folgende Worte zu sprechen: "
    "\"Ihr und Euresgleichen, empfanget die Reinheit welches uns leitet in unserer "
    "Not und unserer Trauer. Ich verzeihe euch und euren Jüngern. Euer Leben "
    "ist dem Krieg gewidmet doch niemand anderes als die Gütige selbst wird "
@@ -35,7 +35,7 @@ shalilledisciple_assign = de \
 shalilledisciple_success = de \
    "`bGesegnet soll der Tag sein. Heute ist die Geburt einer weiteren Seele "
    "gefüllt mit dem Licht von Shal'ille.  Suche mich wieder auf, wenn Du bereit "
-   "bist mehr Wissen von der Gottesmutter zu lernen.Du bist es wert."
+   "bist mehr Wissen von der Gottesmutter zu lernen. Du bist es wert."
 shalilledisciple_failure = de \
    "Betreff: Behalte Dein Herz, Kind von Shal'ille\nDas Scheitern ist Teil "
    "des Lebens. Suche in Deinem Herzen und finde den Makel. Bitte komm zu "

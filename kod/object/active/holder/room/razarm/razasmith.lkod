@@ -18,3 +18,13 @@ razasmith_sign = de \
    "ihn zu benutzen oder wieder zurückzulegen.\nWenn Du damit fertig bist, "
    "solltest Du Dich in die Taverne begeben, das große braune Gebäude im "
    "Westen der Stadt."
+razasmith_info = de \
+   "Hier wohnt Tomas...  Du wirst den Kerl lieben!  Er ist der Schmied des "
+   "Ortes und genau der Richtige, um Dich für den Anfang Deiner "
+   "Abenteurerlaufbahn mit der passenden Ausrüstung zu versorgen!  Außerdem "
+   "ist er ein erfahrener Krieger, der Dir die eine oder andere Fertigkeit "
+   "beibringen kann, damit Du besser Schädel einschlagen kannst.  Vielleicht "
+   "musst Du aber erst etwas sparen, bevor er Dich "
+   "unterrichtet.\n~I[Erinnerung: Mit NPCs und Gegenständen interagierst Du "
+   "per Rechtsklick.  In Ogre wählst Du den NPC oder Gegenstand stattdessen "
+   "mit einem Linksklick aus und benutzt dann die Symbole im Zielfenster.]~I"

@@ -1,5 +1,5 @@
    Nimble_name_rsc = de "flink"
    Nimble_desc_rsc = de \
       "Auf deine flinken Füße kannst du dich verlassen!"
-   Nimble_on_rsc = de "Dein geschicktes Maneuver verschafft dir einen Vorteil!"
+   Nimble_on_rsc = de "Dein geschicktes Manöver verschafft dir einen Vorteil!"
    Nimble_off_rsc = de "Du fühlst dich nicht mehr sonderlich flink."

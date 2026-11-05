@@ -3,7 +3,7 @@ CreateScroll_desc_rsc = de \
    "Erlaubt dem Zauberer, das Wissen über einen Zauberspruch auf eine "
    "Schriftrolle zu übertragen.  Trage einfach den Namen des Zaubers "
    "den diese Schriftrolle bekommen soll auf ein Pergament, und versiegle die "
-   "magischen Eigenschaften indem Du diesen Zauberspruch anwendest."
+   "magischen Eigenschaften indem Du diesen Zauberspruch anwendest. "
    "Du benötigst die Reagenzien des gewünschten Zauberspruchs, um "
    "diesen auf diese Schriftrolle zu übertragen."
 CreateScroll_not_scroll = de "Du kannst keine Schriftrolle mit %s%s herstellen."
@@ -11,6 +11,6 @@ CreateScroll_not_holding_scroll = de "Du besitzt nicht das notwendige Pergament.
 CreateScroll_no_message = de \
    "Ohne einen gewünschten Zauber, zerfällt der Zauber, und nichts passiert."
 CreateScroll_bad_spell = de \
-   "Du kannst keine Schritfrolle mit diesen Kräften herstellen."
+   "Du kannst keine Schriftrolle mit diesen Kräften herstellen."
 CreateScroll_do = de "Du überträgst die Magie in %s%s."
 CreateScroll_no_ingredient = de "Du besitzt nicht alle notwendigen Reagenzien."

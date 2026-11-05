@@ -18,7 +18,7 @@ guildshintroquest_completed_rsc = de \
 
 // Quest resources.
 guildshield_intro = de \
-   "Ich habe gehört, dass %QBNPC jemanden auf eine Bergwerksexpedition schicken"
+   "Ich habe gehört, dass %QBNPC jemanden auf eine Bergwerksexpedition schicken "
    "möchte%QBHIMHER_NPC, und das es von besonderem Interesse für Deine "
    "Gildenmitglieder ist. Du könntest jemanden von Ihnen schicken um%QBHIMHER_NPC "
    "danach zu fragen."

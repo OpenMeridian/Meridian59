@@ -5,5 +5,5 @@ OutdoorsF8_PasswordDoorUnlocked = de \
 OutdoorsF8_PasswordDoorRelocked = de \
    "Du hörst ein lautes Klicken. Die Tür ist nun wieder verschlossen."
 OutdoorsF8_locked = de \
-   "Die Tür zur Gildehalle ist von der anderen Seite verschlossen. Du benötigst "
+   "Die Tür zur Gildenhalle ist von der anderen Seite verschlossen. Du benötigst "
    "das Gildenpasswort, um einzutreten."

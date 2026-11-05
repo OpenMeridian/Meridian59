@@ -10,7 +10,7 @@ abstainpvp_desc_rsc = de \
    "Kämpfen teilzunehmen, ein Fraktionsschild (oder zukünftige PvP Gegenstände) "
    "zu tragen, Gildenhallen zu betreten oder an Richterwahlen teilzunehmen."
 abstainpvp_completed_rsc = de \
-   "Du hast die Quest \"Pfad des Pazifisten\" abgeschlossen nun bist nun dauerhaft"
+   "Du hast die Quest \"Pfad des Pazifisten\" abgeschlossen nun bist nun dauerhaft "
    "vor anderen Spielern geschützt. Du kannst niemanden angreifen, noch angegriffen "
    "werden. Du kannst auch keine Gildenhallen betreten, nicht an der Richterwahlen "
    "teilnehmen, kein Fraktionsschild tragen oder an Gebietseroberungen teilnehmen."

@@ -67,7 +67,7 @@ necamulet_hunger_4 = de \
 necamulet_hunger_5 = de \
    "Dein Körper erleidet unerträgliche Schmerzen. Du fühlst Dich, als ob "
    "Du von ihm weggezogen würdest. Du stößt Dich mit großer Anstrengung zurück "
-   "- Du musst schnell essen, sonst bist Du verloren verloren gehen."
+   "- Du musst schnell essen, sonst bist Du verloren."
 necamulet_illusion_slipped = de \
    "Die Illusion, die Deine wahren Fähigkeiten verdeckte, verschwindet und "
    "zeigt Deine bösartige Erscheinung in all ihrem obszönen Glanz!"
@@ -84,7 +84,7 @@ necamulet_cant_pay = de \
    "Deine Dunkle Königin versucht, Dein Amulett zu berühren. Sie hält es "
    "für einen kurzen Moment, dann stößt sie Dich angeekelt zur Seite.~wKönigin "
    "Venya'cyr spricht zu Dir, \"~rSchwächlicher Narr, Dein eigener Hunger "
-   "ist zu gross, als dass Du meinen eigenen stillen könntest!~n\""
+   "ist zu groß, als dass Du meinen eigenen stillen könntest!~n\""
 necamulet_pay_ouch = de \
    "Deine Dunkle Königin versucht, Dein Amulett zu berühren. Du keuchst, "
    "als sie Dir Deine Lebensenergie entzieht und Dich erschöpft und schwach "
@@ -104,3 +104,4 @@ nec_rank_3_male = de "Hexenmeister"
 nec_rank_3_female = de "Hexe"
 nec_rank_2 = de "Novize"
 nec_rank_1 = de "Neuling"
+necamlet_rank_rsc = de "\n\nDein Rang im Orden ist: %s."

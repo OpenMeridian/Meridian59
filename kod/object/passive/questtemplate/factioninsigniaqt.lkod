@@ -43,7 +43,7 @@ factioninsignia_trigger_3f = de "Priesterin Qertina"
 factioninsignia_trigger_3g = de "Priesterin Xiana"
 factioninsignia_trigger_3h = de "Jonas díAccor"
 factioninsignia_failure_3 = de \
-   "Betreff: Mission Abezichen\nMeine Entt‰uschung ist groﬂ. Ich habe gedacht, "
+   "Betreff: Mission Abzeichen\nMeine Entt‰uschung ist groﬂ. Ich habe gedacht, "
    "dass Du zuverl‰ssiger bist als die Schl‰ger und die unzuverl‰ssigen Schweine. "
    "Offenbar bist Du sogar unter Ihnen."
 factioninsignia_assign_4 = de "%CARGO."

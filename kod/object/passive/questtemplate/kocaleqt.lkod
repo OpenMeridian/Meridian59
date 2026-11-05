@@ -32,7 +32,7 @@ kocale_failure_2 = de \
 kocale_assign_3 = de \
    "%NPC auf Ko'catan hat angefragt, ob wir seinem Kunden mit unserem Gebräu "
    "versorgen können. Bitte bringe diese %INDEF_CARGO%CARGO "
-   "zu ihm%HIMHER_NPC. Ich habe vereinbart, dass Dich %npc für Deine weite Reise "
+   "zu ihm%HIMHER_NPC. Ich habe vereinbart, dass Dich %NPC für Deine weite Reise "
    "bezahlt. Doch stehle bloß nicht meine Waren! Man wird Dich nicht nur als Gesetzeslosen "
    "deklarieren, auch habe ich noch einen Freund, der ein Zauberer ist, und "
    "sehr gute Flüche kennt. Aber bitte, lass uns nicht von der schäbigen "
@@ -41,13 +41,13 @@ kocale_assign_3 = de \
 kocale_assign_3_h = de \
    "%NPC auf Ko'catan hat angefragt, ob wir seinem Kunden mit unserem Gebräu "
    "versorgen könnten. Bitte bring diese %INDEF_CARGO%CARGO "
-   "zu ihm%HIMHER_NPC. Ich habe vereinbart, dass Dich %npc für Deine weite Reise "
+   "zu ihm%HIMHER_NPC. Ich habe vereinbart, dass Dich %NPC für Deine weite Reise "
    "bezahlt. Doch stehle bloß nicht meine Waren! Ich habe einen Freund, der ein mächtiger "
    "Zauberer ist und den ein oder anderen Fluch beherrscht. Aber bitte, lass "
    "uns nicht von der schäbigen Seite reden. Dies könnte der Anfang einer sehr "
    "profitablen Sache sein, mein Freund!"
 kocale_failure_3 = de \
-   "Betreff: Dieb!\nDein Diebstall macht Dich zu einem Gesetzeslosen durch "
+   "Betreff: Dieb!\nDein Diebstahl macht Dich zu einem Gesetzeslosen durch "
    "einen Erlass vom Herzog."
 kocale_failure_3_h = de \
    "Betreff: Dieb!\nDas Unglück durch Deine böse Tat wird Dich nun überall "

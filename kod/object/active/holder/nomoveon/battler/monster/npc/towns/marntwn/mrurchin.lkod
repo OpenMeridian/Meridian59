@@ -1,4 +1,5 @@
 marion_urchin_name_rsc = de "Der Urchin"
 marion_urchin_desc_rsc = de \
-   "This is a young, dirty Urchin, living on the street, yet causing no trouble."
+   "Dies ist ein junger, schmutziger Urchin, der auf der Straße lebt, aber "
+   "keinen Ärger macht."
 marion_urchin_dead_name_rsc = de "totes Straßenkind"

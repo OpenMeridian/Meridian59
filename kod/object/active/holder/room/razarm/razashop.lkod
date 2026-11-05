@@ -19,3 +19,12 @@ razashop_sign = de \
    "und herumzuprobieren. Vielleicht willst Du ja dem Großen Museum einen "
    "Besuch abstatten, in dem es eine Reihe von Ausstellungen zu den Wundern "
    "gibt, die Meridian bereithält."
+razashop_info = de \
+   "Hier kannst Du Dich mit magischen Reagenzien eindecken oder sie verkaufen, "
+   "wenn Du Schillinge brauchst...  Der Besitzer des Ladens ist ein ziemlicher "
+   "Sonderling.  Er nennt sich Ravi und behauptet, einen Zwillingsbruder zu "
+   "haben, der irgendwo auf der Insel Ko'catan ein erfolgreiches Geschäft "
+   "führt.  Na klar...\n\n~I[Erinnerung: Mit NPCs und Gegenständen "
+   "interagierst Du per Rechtsklick.  In Ogre wählst Du den NPC oder "
+   "Gegenstand stattdessen mit einem Linksklick aus und benutzt dann die "
+   "Symbole im Zielfenster.]~I"

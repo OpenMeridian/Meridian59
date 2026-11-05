@@ -11,7 +11,7 @@ SurvivalArena_sign_name = de "Nutzung der heiligen Übungsplätze"
 SurvivalArena_sign_text = de \
    "Nenne das Event, an dem du teilnehmen willst.\n\n"
    "SURVIVAL:\n"
-   "Sage 'beitreten' oder 'verlassen' um die Arena zu betreten oder zu verlassen."
+   "Sage 'beitreten' oder 'verlassen' um die Arena zu betreten oder zu verlassen. "
    "Kämpfer müssen alle Gegner einer Welle besiegen, um zur nächsten Welle zu "
    "gelangen.  Die Schwierigkeit der Gegner erhöht sich mit jeder überwundenen "
    "Welle.\n\n"

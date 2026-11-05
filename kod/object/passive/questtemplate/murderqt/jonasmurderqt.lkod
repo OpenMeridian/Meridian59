@@ -10,7 +10,7 @@ jonasmurderqt_completed_rsc = de \
 murder_jonas_assign = de \
    "Wie es scheint, gibt es nicht viele Untersuchungen danach, was dem ehemaligen "
    "Herzog passiert ist. Ich habe es mir vorgenommen, den Mörder zu finden.  "
-   "Wer auch immer diese Tat begangen hat, ist immer noch auf freiem Fuss "
+   "Wer auch immer diese Tat begangen hat, ist immer noch auf freiem Fuß "
    "und könnte wieder zuschlagen. Frag %NPC über den Mörder und wiederhole "
    "alle nützlichen Informationen wenn Du zurück bist."
 murder_jonas_success = de \

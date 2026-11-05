@@ -13,7 +13,7 @@ forgetpotion_nothing_happens = de \
    "Deine Verwirrung läßt nach. Nichts scheint passiert zu sein."
 forgetpotion_name_rsc = de "Der Trank des Vergessens"
 forgetpotion_desc_rsc = de \
-   "Dieser Trank wird Deine Kenntnisse in einer Schule restlos auslöschen.Bevor "
+   "Dieser Trank wird Deine Kenntnisse in einer Schule restlos auslöschen. Bevor "
    "Du den Trank zu Dir nimmst, solltest Du Dir absolut sicher sein, dass "
    "Du das auch wirklich möchtest!"
 forgetpotion_forget_spell = de "'%s' wird von Dir vergessen!"

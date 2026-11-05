@@ -6,7 +6,7 @@ latetaxqt_desc_rsc = de \
    "Delinquenten einen Brief zustellt, um ihn an seine Pflichten zu erinnern."
 
 latetaxqt_deliver_rsc = de \
-   "%s%s ist spät dran um seine Steuern%s zu zahlen. Überbringe einen Brief von"
+   "%s%s ist spät dran um seine Steuern%s zu zahlen. Überbringe einen Brief von "
    "Herzog Akardius an %s%s um diesen%s daran zu erinnern."
 
 latetaxqt_completed_rsc = de \

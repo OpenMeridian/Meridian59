@@ -20,7 +20,7 @@ fadepupilquest_nodefour_rsc = de \
    "Kehre mit der Formel zu Koldor zurück."
 
 fadepupilquest_completed_rsc = de \
-   "Du hast die Quest \"Botanische Erwägungen!\" abgeschlossen und Koldor wird Dir nun"
+   "Du hast die Quest \"Botanische Erwägungen!\" abgeschlossen und Koldor wird Dir nun "
    "sein Wissen über die Zauber Verblassen und Hitze weitergeben."
 
 // Quest resources.

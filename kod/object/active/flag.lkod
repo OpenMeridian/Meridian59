@@ -3,7 +3,7 @@ flag_desc_rsc = de \
    "Dieser Flaggenmast ist leer und nicht erobert im Kampf um die "
    "Gebietsansprüche.  %r"
 flag_duke_desc_rsc = de \
-   "Auf diesem Flaggenmast wehen die königlichen Farben von Herzog Arkadius, "
+   "Auf diesem Flaggenmast wehen die königlichen Farben von Herzog Akardius, "
    "Beschützer von Tos.  %r"
 flag_princess_desc_rsc = de \
    "An diesem Flaggenmast wehen die königlichen Farben von Prinzessin Kateriina, "

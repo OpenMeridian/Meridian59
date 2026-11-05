@@ -7,7 +7,7 @@ necrowarngoodqt_desc_rsc = de \
    "an die Priesterinnen weiterzuleiten."
 
 necrowarngoodqt_nodetwo_rsc = de \
-   "Parrin Aragone sagt, er habe wichtige Informationen darüber dass die Nekromanten zurückkehren."
+   "Parrin Aragone sagt, er habe wichtige Informationen darüber dass die Nekromanten zurückkehren. "
    "Hilf Ihm dabei andere zu warnen und übergebe diesen Brief an %s%s."
 necrowarngoodqt_nodethree_rsc = de \
    "%s%s hat nicht wirklich etwas für deine Warnung über. Kehre zurück zu Parrin und "
@@ -38,4 +38,4 @@ necrowarning2_failure_2 = de \
    "kannst damit leben."
 necrowarning2_success_3 = de \
    "Sie hört nicht, aber egal.. Sie wurde gewarnt! Danke Dir, treue Seele. "
-   "Nimm dies als Belohung für den Dienst für die Menschen von Meridian."
+   "Nimm dies als Belohnung für den Dienst für die Menschen von Meridian."

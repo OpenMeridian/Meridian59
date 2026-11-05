@@ -7,12 +7,12 @@ idpotionqt_desc_rsc = de \
    "würdest du dafür sicherlich entlohnt werden."
 
 idpotionqt_nodetwo_rsc = de \
-   "%s%s hat kürzlich einen Zaubetrank erhalten. %s ist jedoch nicht in der Lage diesen"
+   "%s%s hat kürzlich einen Zaubetrank erhalten. %s ist jedoch nicht in der Lage diesen "
    "zu identifizieren und bittet Dich um Mithilfe. Biete den Zaubertrank %s%s an und "
    "schau ob%s er bei der Sache behilflich sein kann."
 
 idpotionqt_nodethree_rsc = de \
-   "%s%s hat den Zaubertrank identifiziert. Kehre zurück zu %s%s und biete"
+   "%s%s hat den Zaubertrank identifiziert. Kehre zurück zu %s%s und biete "
    "%s nun den identifizierten Zaubertrank an um Deine Belohnung zu erhalten."
 
 idpotionqt_completed_rsc = de \

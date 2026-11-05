@@ -11,7 +11,7 @@ GoodFeyHunt_kill_rsc = de \
    "Aktuell hast du %i von %i getötet. "
    "Erfülle diese Aufgabe und berichte %s."
 GoodFeyHunt_return_rsc = de \
-   "Return to %s and let %s know the task has been completed."
+   "Kehre zu %s zurück und lass %s wissen, dass die Aufgabe erledigt ist."
 GoodFeyHunt_completed = de \
    "Du hast gegen die Fey Elhai gekämpft!"
 // Quest resources.

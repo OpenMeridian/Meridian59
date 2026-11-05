@@ -8,7 +8,7 @@ radench_caster_enter = de \
 radench_enter = de \
    "Du begibst dich in einem magischen Kreis, gezaubert von %s%s."
 radench_leave = de \
-   "Du verlässteinem magischen Kreis, gezaubert von %s%s."
+   "Du verlässt einem magischen Kreis, gezaubert von %s%s."
 radench_no_newbie = de \
    "Dein Schutzengel sagt dir, \"Du bist noch nicht in der Lage Zauber die "
    "andere Spieler behindern, zu zaubern.\""

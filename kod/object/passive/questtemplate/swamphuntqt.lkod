@@ -1,83 +1,79 @@
    SwampHuntQuest_name_rsc = de "Schlammige Gewässer"
  
    SwampHuntQuest_desc_rsc = de \
-      "Weitere feindliche Kreaturen sind im Sumpf aufgetaucht.  "
-      "Michael d'Adue befasst sich mit dem aktuellen Zustand der Feuchtgebiete"
-      "und die Auswirkungen auf die Umwelt.  "
-      "Sammeln Sie Informationen darüber, warum dies möglicherweise passiert."
+      "Im Sumpf sind weitere feindliche Kreaturen aufgetaucht.  Michael d'Adue "
+      "sorgt sich um den Zustand der Feuchtgebiete und die Folgen für die "
+      "Umwelt.  Finde heraus, warum das geschieht."
  
    SwampHuntQuest_return_rsc = de \
-      "Kehren Sie zu %s zurück und teilen Sie %s mit, dass die Aufgabe abgeschlossen wurde."
+      "Kehre zu %s zurück und lass %s wissen, dass die Aufgabe erledigt ist."
  
    SwampHuntQuest_completed = de \
       "Du bist im Sumpf auf die Jagd gegangen."
  
-   // Ressourcen suchen.
+   // Quest-Ressourcen.
    SwampHuntQuest_trigger = de "Sumpf"
    SwampHuntQuest_assign_2 = de \
-      "Warst du in letzter Zeit im Sumpf? Der Hahnenfuß ist befallen.  "
-      "das Wasser und haben die Umwelt verdorben.  Der Sumpf, Heimat der"
-      "Sanfte Rasse von Froschmännern, kämpfen einen verlorenen Kampf gegen die"
-      "krank. Möchten Sie mir nicht glauben?  Versuchen Sie es mit einem "
-      "Dutzend Ranunkeln und zurück kommen."
+      "Warst du in letzter Zeit im Sumpf?  Die Ranunculus haben die Gewässer "
+      "befallen und die Umwelt verseucht.  Im Sumpf, der Heimat des sanften "
+      "Volks der Froschmenschen, kämpfen diese einen aussichtslosen Kampf gegen "
+      "die Kranken.  Du glaubst mir nicht?  Dann nimm es mit einem Dutzend "
+      "Ranunculus auf und komm zurück."
  
    SwampHuntQuest_node2_rsc = de \
-      "Die %s haben die Sümpfe befallen, ohne echte Feinde ist es schwer "
-      "den Bestand zu kontrollieren.  Michael d'Adue hat dich gebeten, %i zu töten. \n \n"
-      "Derzeit hast du %i für dieses Ziel erschlagen.  "
-      "Beende diese Aufgabe und erstatte Michael d'Adue Bericht."
+      "Die %s haben die Sümpfe befallen, und es gibt keine echten Feinde, die "
+      "ihren Bestand in Grenzen halten.  Michael d'Adue hat dich gebeten, %i zu "
+      "töten.\n\nBisher hast du %i davon erschlagen.  Beende diese Aufgabe und "
+      "erstatte Michael d'Adue Bericht."
    SwampHuntQuest_failure_2 = de \
-      "Betreff: Schlammige Gewässer \n"
-      "Hey hallo, bist du tot?  Du Westler solltest dich von Berg fernhalten ."
+      "Betreff: Schlammige Gewässer\nHallo, bist du tot?  Ihr Westler solltet "
+      "euch von Berg fernhalten."
  
    SwampHuntQuest_node3_rsc = de \
-      "Bitten Sie einen königlichen Ratsmitglied um Hilfe.  "
-      "Esseldi ist als Forscher und Reisender bekannt, er kann helfen."
+      "Bitte ein Mitglied des königlichen Rats um Hilfe.  Esseldi ist als "
+      "Forscher und Reisender bekannt, vielleicht kann er helfen."
    SwampHuntQuest_assign_3 = de \
-      "Du bist zurück? Die meisten, die aus dem Westen kommen, sind nicht so stark wie du ..."
-      "Der Zustand des Moores beunruhigt mich wirklich. Verstehen Sie, dass uns das betrifft."
-      "Alle. Ich würde unserem König vertrauen, dass er diese Angelegenheiten regelt, aber es scheint so."
-      "Das einzige, was den König interessiert, ist, Schilling aus unserem"
-      "Taschen. Gibt es jemanden vom königlichen Rat, der bereit wäre"
-      "um uns zu helfen?"
+      "Du bist zurück?  Die meisten aus dem Westen sind nicht so stark wie "
+      "du...  Der Zustand des Moors macht mir wirklich Sorgen, denn das "
+      "betrifft uns alle.  Ich würde unserem König zutrauen, sich darum zu "
+      "kümmern, aber ihn scheint nur zu interessieren, wie er uns die "
+      "Schillinge aus den Taschen zieht.  Gibt es im königlichen Rat jemanden, "
+      "der uns helfen würde?"
    SwampHuntQuest_failure_3 = de \
-      "Betreff: Schlammige Gewässer \n"
-      "Haben Sie lief weg? Sie Westler sind schlimmer als die Hahnenfuß."
+      "Betreff: Schlammige Gewässer\nBist du weggelaufen?  Ihr Westler seid "
+      "schlimmer als die Ranunculus."
  
    SwampHuntQuest_node4_rsc = de \
-      "Der Rat ist nicht in der Lage, bei den Problemen des Sumpfes zu helfen."
-      "Melde dich bei Michael d'Adue und lass es ihn wissen."
+      "Der Rat kann bei den Problemen des Sumpfs nicht helfen.  Erstatte "
+      "Michael d'Adue Bericht und lass es ihn wissen."
    SwampHuntQuest_assign_4 = de \
-      "Der Rat hat nicht die Zuständigkeit, sich in die"
-      "Politik des Ostens. Ich kann einige Informationen haben, die von einigen sein könnten"
-      "Benutz dich ... ich bin spät in der Nacht durch den Sumpf gelaufen und habe seine"
-      "Habitat. Als ich plötzlich dieses flatternde Geräusch hörte. Ich schaute auf, um zu sehen"
-      "Eine schattenhafte Gestalt ging am Mond vorbei, es war ein großer geflügelter Vogel."
-      "schien, auf großen Ritzeln in der Luft schwebend, es hatte die gesamte überspannt"
-      "Himmel. Als ich aus den Feuchtgebieten ging, fühlte ich mich die ganze Zeit, als ob ich"
-      "wurde beobachtet ... Barden singen davon, ~ Inight Stalker ~ Ich , die folgen"
-      "Verlorene Reisende, bevor sie ihre Seelen verzehrten. Ich hatte das Glück zu bekommen"
-      "da raus. Sicher ist das die Arbeit von Qor ."
+      "Der Rat ist nicht befugt, sich in die Politik des Ostens einzumischen.  "
+      "Aber ich habe vielleicht Informationen, die dir nützen...  Spät in der "
+      "Nacht ging ich durch den Sumpf, um seine Lebewesen zu studieren.  "
+      "Plötzlich hörte ich dieses flatternde Geräusch.  Ich blickte auf und sah "
+      "eine schattenhafte Gestalt vor dem Mond vorbeiziehen.  Es schien ein "
+      "großer geflügelter Vogel zu sein, der auf gewaltigen Schwingen in der "
+      "Luft schwebte und den ganzen Himmel überspannte.  Als ich die "
+      "Feuchtgebiete verließ, fühlte ich mich die ganze Zeit beobachtet...  "
+      "Barden singen von ihnen, den ~INachtpirschern~I, die verlorenen "
+      "Reisenden folgen, bevor sie ihre Seelen verzehren.  Ich hatte Glück, "
+      "dort herauszukommen.  Das ist gewiss das Werk von Qor."
    SwampHuntQuest_failure_4 = de \
-      "Betreff: Schlammige Gewässer \n"
-      "Es ist eine lange Reise nach Osten. Es ist schwierig, Ressourcen zu schicken."
-      "so. Entschuldigung für die Probleme!"
+      "Betreff: Schlammige Gewässer\nEs ist eine lange Reise nach Osten, und es "
+      "ist schwierig, Hilfe dorthin zu schicken.  Entschuldige die Umstände!"
  
    SwampHuntQuest_node5_rsc = de \
-      "Diener von Qor haben möglicherweise das Moor infiziert.  "
-      "Finde und töte %i 'Nachtpirscher'. \n \n"
-      "Derzeit hast du %i für dieses Ziel erschlagen.  "
-      "Beende diese Aufgabe und erstatte Michael d'Adue Bericht."
+      "Diener von Qor haben das Moor möglicherweise befallen.  Finde und töte "
+      "%i 'Nachtpirscher'.\n\nBisher hast du %i davon erschlagen.  Beende diese "
+      "Aufgabe und erstatte Michael d'Adue Bericht."
    SwampHuntQuest_assign_5 = de \
-      "Keine Gerichtsbarkeit? Wohin gehen unsere besteuerten Schills? Ein riesiger Vogel ?!"
-      "Wahrscheinlich auf einer fernen Insel, aber nicht hier..."
-      "Obwohl ... wenn die Sonne untergeht, gibt es das Gefühl einer bösen Präsenz."
-      "Versammle ein Team und verbanne diese sogenannten Nachtpirscher."
+      "Nicht befugt?!  Ein riesiger Vogel?!  PAH!  Vielleicht auf einer fernen "
+      "Insel, aber nicht hier...  Obwohl...  wenn die Sonne untergeht, spürt "
+      "man tatsächlich eine böse Gegenwart.  Stell eine Gruppe zusammen und "
+      "vertreibe diese sogenannten Nachtpirscher."
    SwampHuntQuest_failure_5 = de \
-      "Betreff: Schlammige Gewässer \n"
-      "Nachtpirscher mein Arsch.  "
-      "Nur ein weiterer Westener, der versucht, von unserem Land zu profitieren."
+      "Betreff: Schlammige Gewässer\nNachtpirscher, dass ich nicht lache.  Nur "
+      "noch ein Westler, der an unserem Land verdienen will."
  
    SwampHuntQuest_success = de \
-      "Es scheint schon zu spät zu sein, um die Auswirkungen der Umwelt umzukehren."
-      "Zumindest hast du es versucht ..."
+      "Irgendwie schwindet das Leben aus dem Sumpf, und ich weiß nicht, warum."

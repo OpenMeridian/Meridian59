@@ -37,7 +37,7 @@ GuildDecorator_command_build = de "Positioniere"
 GuildDecorator_already_placed = de "Du hast bereits ein Portal in dieser Gildenhalle."
 GuildDecorator_too_many = de \
     "Es gibt schon zu viele Objekte in dieser Gildenhalle, Bitte 'Entferne' "
-    "zuerst einige davon um ein ein neues Objekt zu positionieren."
+    "zuerst einige davon um ein neues Objekt zu positionieren."
 
 GuildDecorator_chest_outside = de \
    "Du kannst Kisten nicht im Foyer einer Gildenhalle platzieren."

@@ -2,7 +2,7 @@ DenialPotion_fake_name_rsc = de "Die Flasche"
 DenialPotion_name_rsc = de "Trank der Verleugnung"
 DenialPotion_desc_rsc = de \
    "Diese kleine Phiole ist aus Kristallglas gefertigt und mit einem Korken "
-   "verschlosssen. Sie enthält einer blaue, zähflüssige Masse. Es scheint "
+   "verschlossen. Sie enthält einer blaue, zähflüssige Masse. Es scheint "
    "erfrischend zu sein, aber irgendetwas ist seltsam."
 DenialPotion_bad_desc_rsc = de \
    "Diese Phiole, gefertigt aus klarem Glas und mit einem Korken verschlossen, "

@@ -6,7 +6,7 @@ Mark_desc_rsc = de \
    "diesen zu dir rufen, falls er abwesend sein sollte."
    "\n\nHINWEIS: Es handelt sich hierbei um eine 'aktive' Fertigkeit, die manuell "
    "ausgeführt werden muss, indem man den Hotkey gedrückt hält."
-Mark_skill_intro = de "Waffenfertigkeiten Level 2: Markiere einen Gegner für deine"
+Mark_skill_intro = de "Waffenfertigkeiten Level 2: Markiere einen Gegner für deine "
    "Verbündeten und deinen Anhänger!"
 Mark_follower_call = de "Dein Anhänger eilt dir zur Hilfe!"
 Mark_no_targets = de "Du musst für deine Verbündeten ein passendes Ziel auswählen."

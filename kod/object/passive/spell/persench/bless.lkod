@@ -2,7 +2,7 @@ bless_name_rsc = de "Segen"
 bless_desc_rsc = de \
    "Erfleht den Segen von Kraanan, der die Treffsicherheit und die Zerstörungskraft "
    "von Attacken verbessert."
-bless_already_enchanted_rsc = de "Du bist bereits gesegneet."
+bless_already_enchanted_rsc = de "Du bist bereits gesegnet."
 bless_on_rsc = de "Kraanan erfüllt dich mit dem Gefühl des Kampfes."
 bless_off_rsc = de "Das Kampfgefühl verlässt dich."
 bless_success_rsc = de "Kraanan erfüllt %s%s mit einem Kampfgefühl."

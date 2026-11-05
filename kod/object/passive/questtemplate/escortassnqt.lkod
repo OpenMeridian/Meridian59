@@ -11,7 +11,7 @@ EscortAssassination_node_two_rsc = de \
    "Kehrt zu Luisane d'Ile zurück und teilt ihr mit, dass die Aufgabe erledigt wurde."
 
 EscortAssassination_completed = de \
-   "Sie haben einen Reisenden erfolgreich ermordet."
+   "Du hast einen Reisenden erfolgreich ermordet."
    
 EscortAssassination1_trigger = de "Ermordung"
 
