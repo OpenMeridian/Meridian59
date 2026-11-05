@@ -2987,7 +2987,7 @@ messages:
             // This reconstructs the darkness spellpower.
             iAbilityGain = First(Send(oRoom,@GetEnchantmentState,
                                     #what=oModifierSpell));
-            iAbilityGain = -(iAbilityGain - 25);
+            iAbilityGain = -(iAbilityGain + 25);
             iAbilityGain /= 10;
             iSecondaryBonus += iAbilityGain;
          }

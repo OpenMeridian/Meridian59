@@ -1230,6 +1230,12 @@ messages:
          ptConquer = $;
       }
 
+      if ptEntrance <> $
+      {
+         DeleteTimer(ptEntrance);
+         ptEntrance = $;
+      }
+
       propagate;
    }
 

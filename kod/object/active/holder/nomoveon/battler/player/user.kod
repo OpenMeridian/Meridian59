@@ -2573,6 +2573,14 @@ messages:
          if oWhat = self
             OR (IsClass(oWhat,&Player) AND IsClass(self,&Admin))
          {
+            if StringLength(sBody) > MAX_CHAR_DESCRIPTION_LEN
+            {
+               Debug("ALERT! ",Send(self,@GetTrueName),self," tried to "
+                  "set an overly large description.");
+
+               return;
+            }
+
             sBody = Send(SYS,@CleanseString,#string=sBody);
             Send(oWhat,@UserChangeDescription,#string=sBody);
 
@@ -8231,7 +8239,7 @@ messages:
 
    UserDeposit(what = $,item_list = $,number_list = $)
    {
-      local i, lNumbers, oOffer_num, iNumber;
+      local i, lNumbers, lObjects, oOffer_num, iNumber;
 
       // Only deposit to NPCs.
       if NOT IsClass(what,&Monster)
@@ -8250,13 +8258,25 @@ messages:
          }
       }
 
-      // must be holding things you're offering
+      // must be holding things you're offering, each item only once
       foreach i in item_list
       {
+         if lObjects <> $
+            AND FindListElem(lObjects,i) <> 0
+         {
+            Debug("ALERT! ",Send(self,@GetTrueName),self,"tried to "
+                  "deposit a duplicate item to",
+                  Send(what,@GetTrueName),what,".");
+
+            return FALSE;
+         }
+
          if Send(i,@GetOwner) <> self
          {
             return;
          }
+
+         lObjects = Cons(i,lObjects);
       }
 
       if poOffer_who <> $
@@ -8467,6 +8487,7 @@ messages:
       local i;
 
       poOffer_who = $;
+      piFlags2 &= ~PFLAG2_OFFER_OTHER_ACPT;
       foreach i in plOffer_items
       {
          if Send(i,@IsStackable)
@@ -8553,8 +8574,14 @@ messages:
             return FALSE;
          }
 
+         // plOffer_items is already cleared, so the offer must not stay open.
          if Send(i,@GetOwner) <> self
          {
+            Debug("ALERT! ",Send(self,@GetTrueName),self,"tried to "
+                  "counter-offer an item it doesn't hold to",
+                  Send(poOffer_who,@GetTrueName),poOffer_who,".");
+            Send(self,@CancelIfOffer);
+
             return FALSE;
          }
 
@@ -9581,7 +9608,7 @@ messages:
                piLastSafeRoom = Send(self,@GetHomeRoom);
             }
          }
-         else if (piflags & PFLAG2_CHEAP_DEATH)
+         else if (piFlags2 & PFLAG2_CHEAP_DEATH)
          {
             piFlags2 &= ~PFLAG2_CHEAP_DEATH;
             if (NOT Send(poOwner,@CheckRoomFlag,#flag=ROOM_SAFELOGOFF))

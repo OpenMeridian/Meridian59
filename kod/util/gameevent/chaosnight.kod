@@ -111,6 +111,12 @@ messages:
          ptChaosNightLootTimer = $;
       }
 
+      if ptChaosNightEnd <> $
+      {
+         DeleteTimer(ptChaosNightEnd);
+         ptChaosNightEnd = $;
+      }
+
       // Tell the rooms to change their flags back to normal, and to
       // redraw the correct background.
       foreach i in Send(SYS, @GetRooms)

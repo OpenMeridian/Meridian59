@@ -38,7 +38,7 @@ BEGIN
     CONTROL         "",1022,"BlakGraph",WS_TABSTOP | 0xb,65,43,102,14
     LTEXT           "Konstitution",-1,22,65,39,8
     CONTROL         "",1023,"BlakGraph",WS_TABSTOP | 0xb,65,62,102,14
-    LTEXT           "Gewandheit",-1,20,84,40,8
+    LTEXT           "Gewandtheit",-1,20,84,40,8
     CONTROL         "",1024,"BlakGraph",WS_TABSTOP | 0xb,65,81,102,14
     LTEXT           "Magie",-1,38,103,21,8
     CONTROL         "",1025,"BlakGraph",WS_TABSTOP | 0xb,65,100,102,14
@@ -60,7 +60,7 @@ BEGIN
     LTEXT           "Deine Stärke bestimmt den Schaden, den Du anrichtest und Deine Tragkraft.",-1,175,23,132,18
     LTEXT           "Kluge Charaktere können schneller ihre Fähigkeiten ausbauen und neue erlernen.",-1,175,42,134,17
     LTEXT           "Eine hohe Konstitution wirkt sich positiv auf die Lebenskraft und Ausdauer aus.",-1,175,61,136,17
-    LTEXT           "Krieger benötigen eine hohe Gewandheit um ihre Waffen wirkungsvoll einzusetzen.",-1,175,80,134,17
+    LTEXT           "Krieger benötigen eine hohe Gewandtheit um ihre Waffen wirkungsvoll einzusetzen.",-1,175,80,134,17
     LTEXT           "Eine hohe Magie wirkt sich positiv auf die Zauberkraft und die Zaubersprüche aus.",-1,175,99,132,17
     LTEXT           "Beeinflußt die Trefferwarscheinlichkeit von Zaubersprüchen und Waffen.",-1,175,119,134,18
 END

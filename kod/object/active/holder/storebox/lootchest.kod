@@ -44,6 +44,10 @@ classvars:
    viMinNumTreasure = 30
    viMaxNumTreasure = 50
 
+   // Most entries the chest keeps, a stack counts as one entry. Leftovers
+   // stay in the chest, so without a limit it grows with every reset.
+   viMaxNumEntries = 100
+
    // Reset after 1 hour
    viReset_time = 6000000
 
@@ -342,7 +346,24 @@ messages:
       ptReset_timer = $;
 
       Send(self,@GenerateLootTreasure);
+      Send(self,@TrimLootTreasure);
       Send(self,@LockChest,#bLocked=TRUE);
+
+      return;
+   }
+
+   TrimLootTreasure()
+   "Deletes the oldest entries beyond viMaxNumEntries."
+   {
+      local iExtra;
+
+      iExtra = Length(plPassive) - viMaxNumEntries;
+      while iExtra > 0
+      {
+         // New items are added to the front, so the oldest one is last.
+         Send(Send(self,@HolderExtractObject,#data=Last(plPassive)),@Delete);
+         iExtra--;
+      }
 
       return;
    }

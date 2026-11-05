@@ -95,6 +95,12 @@ messages:
          ptGoIllusioned = $;
       }
 
+      if ptWorthyTimer <> $
+      {
+         DeleteTimer(ptWorthyTimer);
+         ptWorthyTimer = $;
+      }
+
       propagate;
    }
 

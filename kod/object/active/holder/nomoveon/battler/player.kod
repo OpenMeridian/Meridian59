@@ -1269,6 +1269,42 @@ messages:
          plControlledMinions = $;
       }
 
+      if ptCanPhaseTimer <> $
+      {
+         DeleteTimer(ptCanPhaseTimer);
+         ptCanPhaseTimer = $;
+      }
+
+      if ptDeathRiftTimer <> $
+      {
+         DeleteTimer(ptDeathRiftTimer);
+         ptDeathRiftTimer = $;
+      }
+
+      if ptFactionTimer <> $
+      {
+         DeleteTimer(ptFactionTimer);
+         ptFactionTimer = $;
+      }
+
+      if ptLeaveBuilderGroupTimer <> $
+      {
+         DeleteTimer(ptLeaveBuilderGroupTimer);
+         ptLeaveBuilderGroupTimer = $;
+      }
+
+      if ptPhaseTimer <> $
+      {
+         DeleteTimer(ptPhaseTimer);
+         ptPhaseTimer = $;
+      }
+
+      if ptPhaseVisualEffectTimer <> $
+      {
+         DeleteTimer(ptPhaseVisualEffectTimer);
+         ptPhaseVisualEffectTimer = $;
+      }
+
       Send(self,@PeriodicSounds,#bSuspend=TRUE);
 
       propagate;

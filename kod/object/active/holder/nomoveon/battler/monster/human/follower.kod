@@ -628,6 +628,12 @@ messages:
          ptAbsence = $;
       }
 
+      if ptChat <> $
+      {
+         DeleteTimer(ptChat);
+         ptChat = $;
+      }
+
       // If the follower had any minions, remove them.
       Send(self,@RemoveAllMinions);
 

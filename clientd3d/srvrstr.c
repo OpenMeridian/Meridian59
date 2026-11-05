@@ -13,6 +13,57 @@
 
 /************************************************************************/
 /*
+ * FormatBounded:  sprintf into dest, but never past end (one past the last
+ *   byte of the buffer).  Returns the number of characters written.
+ */
+static DWORD FormatBounded(char *dest, const char *end, const char *format, ...)
+{
+   va_list args;
+   size_t room;
+   int written;
+
+   if (dest >= end)
+      return 0;
+
+   room = end - dest;
+   va_start(args, format);
+   written = vsnprintf(dest, room, format, args);
+   va_end(args);
+
+   if (written < 0)
+   {
+      *dest = '\0';
+      return 0;
+   }
+
+   if ((size_t) written >= room)
+      return (DWORD) (room - 1);
+
+   return (DWORD) written;
+}
+/************************************************************************/
+/*
+ * AppendBounded:  Copy up to len characters of src to *dest and null terminate,
+ *   but never past end (one past the last byte of the buffer).  Moves *dest
+ *   past the copied characters.
+ */
+static void AppendBounded(char **dest, const char *end, const char *src, size_t len)
+{
+   size_t room;
+
+   if (*dest >= end)
+      return;
+
+   room = end - *dest - 1;
+   if (len > room)
+      len = room;
+
+   strncpy(*dest, src, len);
+   *dest += len;
+   **dest = '\0';
+}
+/************************************************************************/
+/*
  * CheckServerMessage:  Assemble a set of printf-style strings into a resultant
  *   string.  The initial format string is given by the fmt_id resource, and the
  *   parameters are in params.  The result is placed in message.  Len is the # of bytes
@@ -35,7 +86,7 @@ Bool CheckServerMessage(char** msg, char **params, long *len, ID fmt_id)
    char* message;
    char message2[MAXMESSAGE];
    char* msg2 = message2; /* Pointer to message2 */
-   char *rsc, type_char, *orig_message;
+   char *rsc, type_char, *orig_message, *message_end;
    DWORD field, num_chars;
    WORD string_len;
    Bool done = False;
@@ -87,6 +138,7 @@ Bool CheckServerMessage(char** msg, char **params, long *len, ID fmt_id)
 
    /* Prepare to format into the caller's message buffer. */
    orig_message = message;
+   message_end = orig_message + MAXMESSAGE;
 
    /* Keep looping through string until there's nothing left to replace */
    while (!done)
@@ -149,7 +201,7 @@ Bool CheckServerMessage(char** msg, char **params, long *len, ID fmt_id)
          {
          case '%':              /* %% ==> % */
             // Add what we have so far to the message (including one of the %s).
-            num_chars = sprintf(message, tempfmt);
+            num_chars = FormatBounded(message, message_end, tempfmt);
             message += num_chars;
             break;
          case 'r':
@@ -180,14 +232,15 @@ Bool CheckServerMessage(char** msg, char **params, long *len, ID fmt_id)
             // but we have to remove the 'r' and add %s as %r isn't a valid
             // sprintf formatter, while %s is.
             // Copy the part before the %r modifier into message.
-            num_chars = sprintf(message, tempfmt);
+            num_chars = FormatBounded(message, message_end, tempfmt);
 
             if (!skip)
             {
                // Increment message, but remove the 'r' character.
-               message += (num_chars - 1);
+               if (num_chars > 0)
+                  message += (num_chars - 1);
                // Copy the msg2 string into message.
-               num_chars = sprintf(message, "%s", msg2);
+               num_chars = FormatBounded(message, message_end, "%s", msg2);
             }
             else
             {
@@ -229,17 +282,17 @@ Bool CheckServerMessage(char** msg, char **params, long *len, ID fmt_id)
                   if ((rsc = LookupRsc(field)) == NULL)
                      return False;
 
-                  num_chars = sprintf(message, tempfmt, rsc);
+                  num_chars = FormatBounded(message, message_end, tempfmt, rsc);
                }
                else
                {
-                  num_chars = sprintf(message, tempfmt, field);
+                  num_chars = FormatBounded(message, message_end, tempfmt, field);
                }
             }
             else
             {
                skip = False;
-               num_chars = sprintf(message, tempfmt);
+               num_chars = FormatBounded(message, message_end, tempfmt);
             }
             message += num_chars;  /* Overwrite null char next time */
 
@@ -277,18 +330,17 @@ Bool CheckServerMessage(char** msg, char **params, long *len, ID fmt_id)
                num_qparams++;
             }
 
-            /* Copy this section of format string */
-            strncpy(message, tempfmt, (next_ptr - fmt));
+            /* Copy this section of format string; without the %q if skipped.
+             * Also adds a null terminator, so we can check length of string
+             * if there is an %r formatter next.
+             */
             if (!skip)
-               message += (next_ptr - fmt);
+               AppendBounded(&message, message_end, tempfmt, next_ptr - fmt);
             else
             {
                skip = False;
-               message += (next_ptr - fmt - 2);
+               AppendBounded(&message, message_end, tempfmt, next_ptr - fmt - 2);
             }
-            // Add a null terminator here so we can check length of string
-            // if there is an %r formatter next.
-            *message = '\0';
 
             /* Skip string */
             param_ptr += string_len;
@@ -312,7 +364,7 @@ Bool CheckServerMessage(char** msg, char **params, long *len, ID fmt_id)
       }
       
       /* Copy over last part of string */
-      strcpy(message, fmt);
+      AppendBounded(&message, message_end, fmt, strlen(fmt));
 
       /* Prepare for next pass */
       message = orig_message;
@@ -358,18 +410,15 @@ Bool CheckServerMessage(char** msg, char **params, long *len, ID fmt_id)
       tempfmt[(next_ptr - fmt) - 2] = '\0';
 
       /* Add tempfmt and then literal string to end of message */
-      strcpy(message, tempfmt);
-      message += strlen(tempfmt);
-
-      strncpy(message, param_ptr, string_len);
-      message += string_len;
+      AppendBounded(&message, message_end, tempfmt, strlen(tempfmt));
+      AppendBounded(&message, message_end, param_ptr, string_len);
 
       fmt = next_ptr;
       next_ptr = strchr(fmt, '%');
    }
 
    /* Copy over last part of string */
-   strcpy(message, fmt);
+   AppendBounded(&message, message_end, fmt, strlen(fmt));
 
    return True;
 }

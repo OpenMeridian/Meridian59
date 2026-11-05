@@ -13,6 +13,7 @@
 #define _MSGFILTR_H
 
 void UpdateWho(object_node* pUser, BOOL bAdded);
+void ResetWho(list_type users);
 BOOL CALLBACK WhoDialogProc(HWND hDlg, UINT message, UINT wParam, LONG lParam);
 void AbortWhoDialog(void);
 

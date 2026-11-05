@@ -38,7 +38,7 @@ BEGIN
     CONTROL         "",1022,"BlakGraph",WS_TABSTOP | 0xb,42,43,102,14
     LTEXT           "Konstitution",-1,2,64,40,8
     CONTROL         "",1023,"BlakGraph",WS_TABSTOP | 0xb,42,62,102,14
-    LTEXT           "Gewandheit",-1,2,83,40,8
+    LTEXT           "Gewandtheit",-1,2,83,40,8
     CONTROL         "",1024,"BlakGraph",WS_TABSTOP | 0xb,42,81,102,14
     LTEXT           "Magie",-1,20,101,20,8
     CONTROL         "",1025,"BlakGraph",WS_TABSTOP | 0xb,42,100,102,14
@@ -51,7 +51,7 @@ BEGIN
     LTEXT           "ausbauen und neue erlernen.",-1,149,50,162,8
     LTEXT           "Eine hohe Konstitution wirkt sich positiv auf",-1,149,61,155,8
     LTEXT           "anrichtest und Deine Tragkraft.",-1,149,31,131,8
-    LTEXT           "Krieger benötigen eine hohe Gewandheit um ihre",-1,149,80,160,8
+    LTEXT           "Krieger benötigen eine hohe Gewandtheit um ihre",-1,149,80,160,8
     LTEXT           "Eine hohe Magie wirkt sich positiv auf die",-1,149,99,161,8
     LTEXT           "Beeinflußt die Trefferwarscheinlichkeit",-1,149,119,151,8
     LTEXT           "die Lebenskraft und Ausdauer aus.",-1,149,69,150,8

@@ -336,6 +336,13 @@ messages:
       return;
    }
 
+   Delete()
+   {
+      Send(self,@EndTour);
+
+      propagate;
+   }
+
    ToCliPlayers()
    "Sends client a list of all users logged on, including object id, "
    "resource id, and actual string of the resource (since it's a dynarsc)."
