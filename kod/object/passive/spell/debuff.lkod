@@ -5,4 +5,4 @@ debuff_On_rsc = de "Dein Körper prickelt mit magischer Energie."
 debuff_Off_rsc = de \
    "Du fühlst, wie dein magisches Feld knistert und dann verschwindet."
 debuff_Success_rsc = de "Du verzauberst %s%s."
-debuff_display_duration = de "Dauer von ~k~B%s~n is ~k~B%i~n Millisekunden."
+debuff_display_duration = de "Dauer von ~k~B%s~n ist ~k~B%i~n Millisekunden."

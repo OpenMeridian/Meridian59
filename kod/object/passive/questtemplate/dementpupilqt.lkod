@@ -39,7 +39,7 @@ dementlearn_success_3 = de \
    "gemacht! Ich hoffe Du hast nicht zu stark unter dem Kontakt zu %SOURCE_NPC "
    "gelitten? Ich verstehe, die Effekte sind nur temporär. Trotzdem hast "
    "du Dich als würdig bewährt mein Wissen zu erlernen. Komm wieder, wenn "
-   "Du den \"Verblöden\" Zauber lernen willst ."
+   "Du den \"Verblöden\" Zauber lernen willst."
 dementlearn_failure_3 = de \
    "Betreff: Verblöden Zauber\nIch habe seit einiger Zeit nichts mehr von Dir "
    "gehört und gehe damit davon aus das Du den Zauber nicht mehr lernen willst? "

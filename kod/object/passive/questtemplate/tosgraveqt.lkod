@@ -4,12 +4,12 @@ TosGraveQuest_desc_rsc = de \
 "Der Tos-Friedhof auf der Westseite der Stadt ist von Untoten überlaufen, einschließlich mächtiger Zombies. Paddock, der Besitzer des nahegelegenen Gasthauses, bietet eine stattliche Belohnung für jeden, der den Friedhof von diesen Abscheulichkeiten befreien kann."
 
 TosGraveQuest_kill_rsc = de \
-"In der Nacht erheben sich die Untoten auf dem Tos-Friedhof. Vorsicht vor den mächtigen Zombies. Wenn Sie es schaffen, sie zu besiegen, wird Paddock Sie großzügig belohnen.\n\n"
-"Sie haben %i von %i Untoten auf dem Friedhof besiegt. "
-"Erledigen Sie diese Aufgabe und melden Sie sich bei %s in seinem Gasthaus."
+"In der Nacht erheben sich die Untoten auf dem Tos-Friedhof. Vorsicht vor den mächtigen Zombies. Wenn Du es schaffst, sie zu besiegen, wird Paddock Dich großzügig belohnen.\n\n"
+"Du hast %i von %i Untoten auf dem Friedhof besiegt. "
+"Erledige diese Aufgabe und melde Dich bei %s in seinem Gasthaus."
 
 TosGraveQuest_return_rsc = de \
-"Kehren Sie zu %s in seinem Gasthaus zurück und lassen Sie %s wissen, dass die Aufgabe erledigt ist."
+"Kehre zu %s in seinem Gasthaus zurück und lass %s wissen, dass die Aufgabe erledigt ist."
 
 TosGraveQuest_completed = de \
 "Dank des tapferen Einsatzes mutiger Abenteurer wurden die Untoten auf dem Tos-Friedhof vorübergehend unter Kontrolle gebracht. Es kursieren jedoch Gerüchte über die Quelle ihres Aufstiegs. Die Stadt wird weiteren Schutz gegen die Untotenbedrohung benötigen."
@@ -17,7 +17,7 @@ TosGraveQuest_completed = de \
 // Quest resources.
 TosGraveQuest_trigger = de "Zombies"
 TosGraveQuest_assign = de \
-"Ah, der Tos-Friedhof - ein ziemlich berüchtigter Ort. Nachts erheben sich Zombies und Skelette aus ihren Gräbern und verursachen Unruhe. Wir könnten sicherlich ein paar schwertschwingende Helden gebrauchen. Wenn Sie erfolgreich sind, werde ich es Ihnen vergüten."
+"Ah, der Tos-Friedhof - ein ziemlich berüchtigter Ort. Nachts erheben sich Zombies und Skelette aus ihren Gräbern und verursachen Unruhe. Wir könnten sicherlich ein paar schwertschwingende Helden gebrauchen. Wenn Du erfolgreich bist, werde ich es Dir vergüten."
 
 TosGraveQuest_success = de \
-"Fehr'loi Qan lebte hier, bis er eines Tages sein Geschäft schloss und ging. Fragen Sie ihn nach seinem Besuch in Castle Victoria, wenn es Untote gibt, die durch die Hallen von Castle Victoria wandeln, werden wir es sicher wissen."
+"Fehr'loi Qan lebte hier, bis er eines Tages sein Geschäft schloss und ging. Frag ihn nach seinem Besuch in Castle Victoria, wenn es Untote gibt, die durch die Hallen von Castle Victoria wandeln, werden wir es sicher wissen."

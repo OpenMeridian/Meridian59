@@ -1,8 +1,8 @@
 JixaInnEscortQuest_name_rsc = de "Gesellschaft für die Straße"
 JixaInnEscortQuest_desc_rsc = de \
    "Jorgan hat einen ganz besonderen Gast in seinem Gasthaus.  "
-   "Sie haben sich möglicherweise auf dem Weg zum wandernden Geiger "
-   "verlaufen.  Suchen Sie den Gast und helfen Sie ihm, ihn sicher zu begleiten."
+   "Der Gast hat sich möglicherweise auf dem Weg zum wandernden Geiger "
+   "verlaufen.  Finde den Gast und begleite ihn sicher."
 JixaInnEscortQuest_completed_rsc = de "Jorgans Gast ist wohlbehalten in seiner Herberge angekommen."
 JixaInnEscortQuest_trigger = de "Gast"
 JixaInnEscortQuest_assign = de \
