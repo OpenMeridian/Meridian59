@@ -12,7 +12,7 @@ asssign_lastwinner = de "Amtierender Champion: %q||\n--%s"
 asssign_darkblade = de \
    "Amtierender Champion: %q \nDunkelste Klinge, %i Morde: %q\n"
 asssign_darkblades = de \
-   "Amtierender Champion: %q \nDunkelste Klingen, with %i Morden: \n%s"
+   "Amtierender Champion: %q \nDunkelste Klingen, mit %i Morden: \n%s"
 asssign_darkblade_format = de "%q\n%s"
 asssign_last_darkblade_format = de "%q\n"
 asssign_blank_winner = de "Verhöhner"

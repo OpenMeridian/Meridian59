@@ -3,6 +3,6 @@ resistring_dead_rsc = de "Der Ring zerfällt."
 resistring_chargesleft_rsc = de \
    "\n\nEs sind noch %i Ladungen vorhanden in dem Ring."
 resistring_working_rsc = de \
-   "Your resistance ring offers a surge of elemental protection!"
+   "Dein Resistenzring schenkt Dir einen Schub elementaren Schutzes!"
 resistring_attacker_rsc = de \
-   "A flare of energy from %s's resistance ring counteracts your attack!"
+   "Ein Energieblitz aus dem Resistenzring von %s wehrt Deinen Angriff ab!"

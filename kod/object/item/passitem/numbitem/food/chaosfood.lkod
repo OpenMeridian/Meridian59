@@ -1,6 +1,6 @@
 chaosfd_name_rsc = de "Frenzy Food"
 chaosfd_name_plural_rsc = de "Frenzy Food"
 chaosfd_desc_rsc = de \
-   "At first glance, these mushrooms appear common, but look at the psychedelic "
-   "colors!  This is actually Frenzy Food! No Stomach No Problem!"
-chaosfd_no_eat = de "You can't eat this potion when it is not a frenzy."
+   "Auf den ersten Blick wirken diese Pilze gewöhnlich, aber sieh Dir nur die "
+   "schrillen Farben an!  Das ist echtes Frenzy Food! Kein Magen, kein Problem!"
+chaosfd_no_eat = de "Du kannst das nicht außerhalb einer Frenzy essen."

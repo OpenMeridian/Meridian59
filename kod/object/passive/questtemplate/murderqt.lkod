@@ -1,10 +1,10 @@
 // Quest description.
 murderqt_nodetwo_rsc = de \
-   "%s%s would like to learn more about Duke Kalior's murder, and "
-   "%s has requested that you ask %s%s about it."
+   "%s%s möchte mehr über den Mord an Herzog Akardius erfahren, und %s bittet "
+   "Dich, %s%s danach zu fragen."
 murderqt_nodethree_rsc = de \
-   "When asked about the murder, %s%s said \"%s\".  Return to %s%s "
-   "and pass on this information."
+   "Zum Mord befragt, sagte %s%s: \"%s\".  Kehre zu %s%s zurück und überbringe "
+   "diese Nachricht."
 
 // Quest resources.
 murder_trigger = de "Mörder"
@@ -54,9 +54,9 @@ murder_princess_m_5 = de \
    "könnte gedacht haben, das es leichter ist unschuldig zu spielen und dann "
    "wenn die Zeit reif ist schlägt sie eiskalt zu."
 murder_princess_c_1 = de \
-   "Well, I certainly think it is strange that the Meridian Council had been "
-   "meeting quite frequently at night the week before the poor Duke's bloody "
-   "demise."
+   "Nun, ich finde es durchaus seltsam, dass der Rat von Meridian sich in der "
+   "Woche vor dem blutigen Ende des armen Herzogs so häufig nachts getroffen "
+   "hat."
 murder_princess_c_2 = de \
    "Nur die Blinden haben nicht bemerkt, dass die Prinzessin auffällig abwesend "
    "war in der Nacht der Ermordung.  Können wir ihrer Geschichte glauben?"

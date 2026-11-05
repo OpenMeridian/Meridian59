@@ -4,7 +4,7 @@ Foresight_desc_rsc = de \
 Foresight_caster = de "Du schaust auf %s%s um die Gedanken zu lesen."
 Foresight_info = de "%s%s %s"
 Foresight_abil_name = de "%s %s, %s"
-Foresight_last_abil_name = de "and %s %s."
+Foresight_last_abil_name = de "und %s %s."
 Foresight_nothing = de \
    "%s%ss Kopf scheint so leer, dass wenn Du ihn an dein Ohr hälst, du das "
    "Meer hören könntest."

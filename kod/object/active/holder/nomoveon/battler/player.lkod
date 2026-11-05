@@ -34,14 +34,14 @@ player_lost_token_hall = de \
    "Das Artefakt lässt sich nicht mit in die Gildenhalle nehmen. Es entwindet "
    "sich Deinen Händen."
 player_lost_token_arena = de \
-   "The token refuses to enter the arena and writhes in your hands.  "
-   "You cannot hold it."
+   "Das Token weigert sich, die Arena zu betreten, und windet sich in Deinen "
+   "Händen.  Du kannst es nicht halten."
 player_lost_token_survival = de \
-   "You suddenly lose your grasp on the token as you are pulled "
-   "across dimensions."
+   "Das Token entgleitet Dir plötzlich, während Du durch die Dimensionen "
+   "gezogen wirst."
 player_lost_token_generic = de \
-   "The token refuses to enter this room and writhes in your hands.  "
-   "You cannot hold it."
+   "Das Token weigert sich, diesen Raum zu betreten, und windet sich in Deinen "
+   "Händen.  Du kannst es nicht halten."
 player_intrigue_shut = de \
    "~IDer königliche Hof benötigt Deine Dienste nicht mehr."
 player_lost_intriguing = de \
