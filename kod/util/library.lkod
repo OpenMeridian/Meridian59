@@ -1024,3 +1024,4 @@ LM_tendrath_creature_speech = de \
 lib_signet_lost = de \
    "Du klopfst Deine Taschen ab und wühlst in Deinem Rucksack. Doch vergebens: "
    "Der Siegelring ist verschwunden!"
+LM_haz_hello = de "Sei gegrüßt, %s%s!"

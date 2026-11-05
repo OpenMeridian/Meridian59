@@ -1,2 +1,3 @@
 Statue_name_rsc = de "Die Statue"
 Statue_desc_rsc = de "Dies ist eine Statue von %q, einem großen Abenteurer."
+Statue_desc_empty_rsc = de "Eine Statue eines unbekannten Abenteurers."

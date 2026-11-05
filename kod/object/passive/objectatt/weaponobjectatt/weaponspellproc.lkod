@@ -9,3 +9,6 @@ weapon_proc_no_target = de \
    "Der %s getragen von %s gibt einen magischen Flair, zauber %s!"
 wsp_attribute_self_rsc = de "auf dich"
 wsp_attribute_target_rsc = de "auf den Gegner"
+weapspellproc_attribute_desc = de \
+   "\n\nBei einem erfolgreichen Treffer wirken die in %s eingravierten Runen "
+   "%s %s mit %i Zauberkraft in %i%% der Fälle."

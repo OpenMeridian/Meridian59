@@ -36,3 +36,11 @@ raza_locked_clock = de \
 raza_locked_townhall = de \
    "Die Türen der Stadthalle sind fest von innen verriegelt."
 raza_locked_tavern = de "Die Tür zu Eric D'Jorns Wohnung ist verschlossen."
+raza_info = de \
+   "Die Stadt Raza bietet fast alles, was sich ein junger Abenteurer nur "
+   "wünschen kann: Ausrüstung, fähige Lehrer und natürlich Quests!  Nimm Dir "
+   "Zeit und sieh Dich selbst um.  Während wir herumlaufen, erzähle ich Dir "
+   "noch etwas mehr über die Stadt.\n~I[Hinweis: Mit NPCs und Gegenständen "
+   "interagierst Du per Rechtsklick.  In Ogre wählst Du den NPC oder "
+   "Gegenstand stattdessen mit einem Linksklick aus und benutzt dann die "
+   "Symbole im Zielfenster.]~I"

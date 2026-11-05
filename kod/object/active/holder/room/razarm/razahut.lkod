@@ -11,3 +11,12 @@ razahut_sign = de \
    "Art der Kommunikation ist der Befehl MITTEILEN (Kürzel: m). \nWenn Du "
    "M HALLO eintippst, dann sagst Du zu jedem 'Hallo', der online ist."
    "\n\nTippe s AUFTRAG, um zu sehen, was Du als nächstes tun sollst."
+razahut_info = de \
+   "Hier wohnt der Älteste der Stadt.  Vielleicht kann er uns mehr über die "
+   "aktuellen Probleme der Stadt erzählen.  Vielleicht hat er sogar eine "
+   "~IQuest~I für uns!  Ich habe auch gehört, dass der Älteste zu seiner Zeit "
+   "ein ziemlicher Magier war.  Es könnte sich lohnen, ihn zu fragen, ob er "
+   "uns den einen oder anderen Zauber beibringt.\n~I[Erinnerung: Mit NPCs und "
+   "Gegenständen interagierst Du per Rechtsklick.  In Ogre wählst Du den NPC "
+   "oder Gegenstand stattdessen mit einem Linksklick aus und benutzt dann die "
+   "Symbole im Zielfenster.]~I"

@@ -17,3 +17,12 @@ razabar_sign = de \
    "Du auf Deine Entdeckungsreisen mitnehmen kannst.\n-----------------------\nVon "
    "hier aus begibst Du Dich zum Heim des Ältesten. Es ist das kleine Haus, "
    "das nordöstlich der Taverne liegt."
+razabar_info = de \
+   "Diese Taverne führt Eric d'Jorn.  Seine Getränkeauswahl ist nicht gerade "
+   "groß, aber er ist ein hervorragender Koch und immer auf der Suche nach "
+   "frischen Zutaten wie ~Iessbaren Pilzen~I.  Vielleicht können wir ihm "
+   "welche ~Ianbieten~I...  Ach, und wir sollten uns hier gleich mit Essen "
+   "eindecken!  Seine Suppe ist einfach himmlisch!\n~I[Erinnerung: Mit NPCs "
+   "und Gegenständen interagierst Du per Rechtsklick.  In Ogre wählst Du den "
+   "NPC oder Gegenstand stattdessen mit einem Linksklick aus und benutzt dann "
+   "die Symbole im Zielfenster.]~I"

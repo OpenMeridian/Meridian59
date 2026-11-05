@@ -55,3 +55,4 @@ hunt_rank_3_female = de "Jägerin"
 hunt_rank_2 = de "Mitglied"
 hunt_rank_1 = de "Lehrling"
 
+hunter_rank_rsc = de "\n\nDein Rang bei den Jägern ist: %s."
