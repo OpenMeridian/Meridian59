@@ -21,7 +21,7 @@ dementpupilquest_completed = de \
 dementlearn_trigger = de "Schüler"
 dementlearn_assign_2 = de \
    "Ich kann Dir das wenige in den magischen Dingen beibringen, das ich weiß, "
-   "aber ich möchte dass Du mir dafür einen Gefallen tust."
+   "aber ich möchte dass Du mir dafür einen Gefallen tust. "
    "Bringe %CARGO zu %NPC, denn ich bin ihm%HIMHER_NPC ungern zu nah. Weißt Du, "
    "%NPC ist seit kurzen von einer unheiligen Kraft umgeben, die sich wie es "
    "scheint, von menschlicher Energie zu ernährt. Ich weiß nicht mehr als das "

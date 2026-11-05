@@ -11,7 +11,7 @@ WarLetter_close_rsc = de \
    "Vorsichtig bindest Du den Faden um den Brief und verschließt ihn."
 Warletter_text_default = de "Dieser Brief ist unbeschrieben."
 Warletter_text1_rsc = de \
-   "Lieber %s,Ich hoffe, der Brief hat Dich erreicht. In solchen Zeiten muss "
+   "Lieber %s, Ich hoffe, der Brief hat Dich erreicht. In solchen Zeiten muss "
    "man seine eigene Sicherheit im Kopf haben. Du weißt, das sind schwierige "
    "Zeiten.\n\nIch habe Dir geschrieben, um Deine Meinung über den jüngsten "
    "Mord zu erfahren. So eine abscheuliche Tat wird ohne Zweifel schnell "
@@ -125,7 +125,7 @@ Warletter_text8_rsc = de \
    "unsere Länder. Möge Kraanan die Faust uns die Kraft gewähren, das zu "
    "tun, was das Beste ist.\n\n%s"
 Warletter_text9_rsc = de \
-   "An %s, meinem vertrauten Freund,Die Leute sagen, dass ich paranoid bin, "
+   "An %s, meinem vertrauten Freund, Die Leute sagen, dass ich paranoid bin, "
    "aber ich beginne mir Sorgen um meine Sicherheit zu machen. Die Leute "
    "scheinen immer an mir vorbeizulaufen, mir merkwürdige Blicke zuzuwerfen "
    "und bereit zu sein, ohne irgendeinen Grund auf mich loszugehen!\n\nVielleicht "

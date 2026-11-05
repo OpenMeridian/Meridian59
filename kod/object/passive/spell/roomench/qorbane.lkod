@@ -17,7 +17,7 @@ QorBane_hit_rsc = de \
    "ein Strudel heiliger Macht Deinen Körper und erfüllt ihn mit glühender Reinheit."
 QorBane_kill_rsc = de \
    "Als die letzten Silben des Zauberspruchs Deinen Mund verlassen, durchströmt "
-   "ein Strudel heiliger Macht Deinen Körper und erfüllt ihn mit glühender Reinheit."
+   "ein Strudel heiliger Macht Deinen Körper und erfüllt ihn mit glühender Reinheit. "
    "Du schreist noch ein einiziges Mal auf bevor die Heiligkeit dich tötet."
 QorBane_killer_rsc = de \
       "%s%s läuft durch deine Qor Bannen Verzauberung aus."

@@ -219,7 +219,7 @@ user_cant_suicide_token = de \
    "bist!"
 user_cant_suicide_hp = de \
 	  "Du hast in Deiner Zeit auf dieser Welt schon einiges erreicht und Du "
-	  "kannst Deine Reise doch nicht allen Ernstes schon jetzt beenden wollen,"
+	  "kannst Deine Reise doch nicht allen Ernstes schon jetzt beenden wollen, "
      "oder?  Wenn Du wirklich gute Gründe dafür hast, wende Dich an die Götter "
      "und sie werden Dir helfen."
 user_cant_suicide_OOG = de \
@@ -382,7 +382,7 @@ user_autophase_detected = de \
    "Automatischen-Ausstieg erkannt!  Dieses Ereignis wurde protokolliert."
 
 user_honor_gain_penalty = de \
-   "Du erhältst %i Ehrenpunkte durch Deinen Sieg als %s feige das Schlachtfeld"
+   "Du erhältst %i Ehrenpunkte durch Deinen Sieg als %s feige das Schlachtfeld "
    "verlässt."
 user_honor_loss_penalty = de \
    "Du verlierst %i Ehrenpunkte durch Deinen Rückzug vom Schlachtfeld."

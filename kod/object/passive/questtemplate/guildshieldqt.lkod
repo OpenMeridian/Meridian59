@@ -14,7 +14,7 @@ guildshieldquest_deliver_rsc = de \
    "angehörigen Gilde anfertigen. Finde %s%s und bringe es zu %s."
 
 guildshieldquest_completed_rsc = de \
-   "Du hast die Quest \"Farbe Bekennen\" abgeschlossen, indem Du die Bergwerksexpedition"
+   "Du hast die Quest \"Farbe Bekennen\" abgeschlossen, indem Du die Bergwerksexpedition "
    "erfolgreich absolviert hast. Ein Gildenschild in den Farben deiner Gilde wurde "
    "als Belohnung übergeben."
 

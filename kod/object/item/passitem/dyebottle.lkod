@@ -1,6 +1,6 @@
 DyeBottle_name_rsc = de "Flasche mit Farbe"
 DyeBottle_desc_rsc = de \
-   "Erlaubt es dir, einen Gegenstand mit dem enthaltenen Farbstoff zu färben."
+   "Erlaubt es dir, einen Gegenstand mit dem enthaltenen Farbstoff zu färben. "
    "Der Farbstoff reicht nur für eine einzige Färbung aus und wird die Wirkung "
    "einer vorherigen Färbung aufheben."
 DyeBottle_unable_rsc = de \

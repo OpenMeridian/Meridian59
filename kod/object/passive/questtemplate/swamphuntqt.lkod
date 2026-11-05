@@ -2,7 +2,7 @@
  
    SwampHuntQuest_desc_rsc = de \
       "Weitere feindliche Kreaturen sind im Sumpf aufgetaucht.  "
-      "Michael d'Adue befasst sich mit dem aktuellen Zustand der Feuchtgebiete"
+      "Michael d'Adue befasst sich mit dem aktuellen Zustand der Feuchtgebiete "
       "und die Auswirkungen auf die Umwelt.  "
       "Sammeln Sie Informationen darüber, warum dies möglicherweise passiert."
  
@@ -16,8 +16,8 @@
    SwampHuntQuest_trigger = de "Sumpf"
    SwampHuntQuest_assign_2 = de \
       "Warst du in letzter Zeit im Sumpf? Der Hahnenfuß ist befallen.  "
-      "das Wasser und haben die Umwelt verdorben.  Der Sumpf, Heimat der"
-      "Sanfte Rasse von Froschmännern, kämpfen einen verlorenen Kampf gegen die"
+      "das Wasser und haben die Umwelt verdorben.  Der Sumpf, Heimat der "
+      "Sanfte Rasse von Froschmännern, kämpfen einen verlorenen Kampf gegen die "
       "krank. Möchten Sie mir nicht glauben?  Versuchen Sie es mit einem "
       "Dutzend Ranunkeln und zurück kommen."
  
@@ -34,33 +34,33 @@
       "Bitten Sie einen königlichen Ratsmitglied um Hilfe.  "
       "Esseldi ist als Forscher und Reisender bekannt, er kann helfen."
    SwampHuntQuest_assign_3 = de \
-      "Du bist zurück? Die meisten, die aus dem Westen kommen, sind nicht so stark wie du ..."
-      "Der Zustand des Moores beunruhigt mich wirklich. Verstehen Sie, dass uns das betrifft."
-      "Alle. Ich würde unserem König vertrauen, dass er diese Angelegenheiten regelt, aber es scheint so."
-      "Das einzige, was den König interessiert, ist, Schilling aus unserem"
-      "Taschen. Gibt es jemanden vom königlichen Rat, der bereit wäre"
+      "Du bist zurück? Die meisten, die aus dem Westen kommen, sind nicht so stark wie du ... "
+      "Der Zustand des Moores beunruhigt mich wirklich. Verstehen Sie, dass uns das betrifft. "
+      "Alle. Ich würde unserem König vertrauen, dass er diese Angelegenheiten regelt, aber es scheint so. "
+      "Das einzige, was den König interessiert, ist, Schilling aus unserem "
+      "Taschen. Gibt es jemanden vom königlichen Rat, der bereit wäre "
       "um uns zu helfen?"
    SwampHuntQuest_failure_3 = de \
       "Betreff: Schlammige Gewässer \n"
       "Haben Sie lief weg? Sie Westler sind schlimmer als die Hahnenfuß."
  
    SwampHuntQuest_node4_rsc = de \
-      "Der Rat ist nicht in der Lage, bei den Problemen des Sumpfes zu helfen."
+      "Der Rat ist nicht in der Lage, bei den Problemen des Sumpfes zu helfen. "
       "Melde dich bei Michael d'Adue und lass es ihn wissen."
    SwampHuntQuest_assign_4 = de \
-      "Der Rat hat nicht die Zuständigkeit, sich in die"
-      "Politik des Ostens. Ich kann einige Informationen haben, die von einigen sein könnten"
-      "Benutz dich ... ich bin spät in der Nacht durch den Sumpf gelaufen und habe seine"
-      "Habitat. Als ich plötzlich dieses flatternde Geräusch hörte. Ich schaute auf, um zu sehen"
-      "Eine schattenhafte Gestalt ging am Mond vorbei, es war ein großer geflügelter Vogel."
-      "schien, auf großen Ritzeln in der Luft schwebend, es hatte die gesamte überspannt"
-      "Himmel. Als ich aus den Feuchtgebieten ging, fühlte ich mich die ganze Zeit, als ob ich"
-      "wurde beobachtet ... Barden singen davon, ~ Inight Stalker ~ Ich , die folgen"
-      "Verlorene Reisende, bevor sie ihre Seelen verzehrten. Ich hatte das Glück zu bekommen"
+      "Der Rat hat nicht die Zuständigkeit, sich in die "
+      "Politik des Ostens. Ich kann einige Informationen haben, die von einigen sein könnten "
+      "Benutz dich ... ich bin spät in der Nacht durch den Sumpf gelaufen und habe seine "
+      "Habitat. Als ich plötzlich dieses flatternde Geräusch hörte. Ich schaute auf, um zu sehen "
+      "Eine schattenhafte Gestalt ging am Mond vorbei, es war ein großer geflügelter Vogel. "
+      "schien, auf großen Ritzeln in der Luft schwebend, es hatte die gesamte überspannt "
+      "Himmel. Als ich aus den Feuchtgebieten ging, fühlte ich mich die ganze Zeit, als ob ich "
+      "wurde beobachtet ... Barden singen davon, ~ Inight Stalker ~ Ich , die folgen "
+      "Verlorene Reisende, bevor sie ihre Seelen verzehrten. Ich hatte das Glück zu bekommen "
       "da raus. Sicher ist das die Arbeit von Qor ."
    SwampHuntQuest_failure_4 = de \
       "Betreff: Schlammige Gewässer \n"
-      "Es ist eine lange Reise nach Osten. Es ist schwierig, Ressourcen zu schicken."
+      "Es ist eine lange Reise nach Osten. Es ist schwierig, Ressourcen zu schicken. "
       "so. Entschuldigung für die Probleme!"
  
    SwampHuntQuest_node5_rsc = de \
@@ -69,9 +69,9 @@
       "Derzeit hast du %i für dieses Ziel erschlagen.  "
       "Beende diese Aufgabe und erstatte Michael d'Adue Bericht."
    SwampHuntQuest_assign_5 = de \
-      "Keine Gerichtsbarkeit? Wohin gehen unsere besteuerten Schills? Ein riesiger Vogel ?!"
-      "Wahrscheinlich auf einer fernen Insel, aber nicht hier..."
-      "Obwohl ... wenn die Sonne untergeht, gibt es das Gefühl einer bösen Präsenz."
+      "Keine Gerichtsbarkeit? Wohin gehen unsere besteuerten Schills? Ein riesiger Vogel ?! "
+      "Wahrscheinlich auf einer fernen Insel, aber nicht hier... "
+      "Obwohl ... wenn die Sonne untergeht, gibt es das Gefühl einer bösen Präsenz. "
       "Versammle ein Team und verbanne diese sogenannten Nachtpirscher."
    SwampHuntQuest_failure_5 = de \
       "Betreff: Schlammige Gewässer \n"
@@ -79,5 +79,5 @@
       "Nur ein weiterer Westener, der versucht, von unserem Land zu profitieren."
  
    SwampHuntQuest_success = de \
-      "Es scheint schon zu spät zu sein, um die Auswirkungen der Umwelt umzukehren."
+      "Es scheint schon zu spät zu sein, um die Auswirkungen der Umwelt umzukehren. "
       "Zumindest hast du es versucht ..."

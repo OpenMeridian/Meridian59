@@ -6,7 +6,7 @@ shalquest_desc_rsc = de \
    "überzeugter Anhänger bist. Sobald du dich bewiesen hast, wirst du zudem "
    "mit einer passenden Schülerrobe belohnt werden."
 shalquest_node_two_rsc = de \
-   "Priesterin Xiana hat Dich beauftragt %s aufzusuchen und folgende Worte zu sprechen:"
+   "Priesterin Xiana hat Dich beauftragt %s aufzusuchen und folgende Worte zu sprechen: "
    "\"Ihr und Euresgleichen, empfanget die Reinheit welches uns leitet in unserer "
    "Not und unserer Trauer. Ich verzeihe euch und euren Jüngern. Euer Leben "
    "ist dem Krieg gewidmet doch niemand anderes als die Gütige selbst wird "

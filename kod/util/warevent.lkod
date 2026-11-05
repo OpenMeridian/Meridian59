@@ -20,7 +20,7 @@ WarEvent_start_message = de \
    "einer anderen Seite erzielt, wird aufgezeichnet. Die Ergebnisse dieses "
    "Kampfes werden am Ende des Krieges bekanntgegeben. Viel Glück!"
 WarEvent_end_message = de \
-   "~B~rDer Krieg ist zuende!  ~wEs werden Keine Tötungen mehr zu den Punkten gezählt."
+   "~B~rDer Krieg ist zu Ende!  ~wEs werden keine Tötungen mehr zu den Punkten gezählt."
 WarEvent_got_kill_rsc = de \
    "~B~bEin Gegner liegt darnieder. Du hast einen Punkt für Deine Seite "
    "erzielt!"

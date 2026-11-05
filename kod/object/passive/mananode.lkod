@@ -1,6 +1,6 @@
 ManaNode_name_rsc = de "Mana Node"
 ManaNode_desc_rsc = de \
-   "Eine Ansammlung von mystischer Energie, in einem Fluss aus rohem Mana.Sie "
+   "Eine Ansammlung von mystischer Energie, in einem Fluss aus rohem Mana. Sie "
    "gibt Kraft auf die Zauberer ab, wenn diese sich mit ihr verschmelzen"
 ManaNode_Dead_desc_rsc = de \
    "Eine Ansammlung von mystischer Energie, in einem Fluss aus rohem Mana "

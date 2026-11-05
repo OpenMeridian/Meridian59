@@ -1,6 +1,6 @@
 princess_name_rsc = de "Princess Kateriina"
 princess_desc_rsc = de \
-   "Das Alter machte Prinzessin Kateriina stärker und selbstbewußter,aber "
+   "Das Alter machte Prinzessin Kateriina stärker und selbstbewußter, aber "
    "es änderte nur wenig an ihrer Naivität. Sie entwickelte einegroße Verachtung "
    "für den Herzog und alle, die sich in politischenIntrigen engagieren. "
    "Erwägungen politischer Intrigen sind unter ihrerWürde, weil sie darauf "
@@ -13,7 +13,7 @@ princess_token_delivered_rsc = de \
    "tun müssen. %s"
 princess_princess_delivered_rsc = de "Ihr wart immer ein treuer Gefolgsmann."
 princess_neutral_delivered_rsc = de \
-   "Euer Ansinnen gleicht dem Meinen, bitte unterstützt meine Fraktion.Bitte "
+   "Euer Ansinnen gleicht dem Meinen, bitte unterstützt meine Fraktion. Bitte "
    "unterzeichnet diese Schriftrolle."
 princess_other_delivered_rsc = de \
    "Amen.  Sogar die Diener der Thronanwärter beginnen, den besseren Wegzu "

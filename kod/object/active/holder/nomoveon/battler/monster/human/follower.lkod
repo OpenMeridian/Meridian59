@@ -183,7 +183,7 @@ follower_entered_combat_e_b = de \
 follower_entered_combat_e_c = de \
    "Kampf!  Ich hoffe, ich habe nicht vergessen wie man sich einen richtigen Kampf liefert..."
 follower_entered_combat_e_d = de \
-   "Gegner vorraus!  Nach all der Zeit! ...da kommen mir die Tr‰nen. Ehrlich!"
+   "Gegner voraus!  Nach all der Zeit! ...da kommen mir die Tr‰nen. Ehrlich!"
 follower_entered_combat_e_e = de "Ich kann es kaum glauben, ein richtiger Kampf!  Ein echter Kampf!"
 follower_entered_combat_e_f = de "Feinde!  Warte!  Heiﬂt das, wir beommen endlich was zu tun?!"
 follower_entered_combat_e_g = de \
