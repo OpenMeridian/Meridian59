@@ -1,15 +1,15 @@
 princess_name_rsc = de "Princess Kateriina"
 princess_desc_rsc = de \
    "Das Alter machte Prinzessin Kateriina stärker und selbstbewußter, aber "
-   "es änderte nur wenig an ihrer Naivität. Sie entwickelte einegroße Verachtung "
-   "für den Herzog und alle, die sich in politischenIntrigen engagieren. "
-   "Erwägungen politischer Intrigen sind unter ihrerWürde, weil sie darauf "
-   "vertraut, daß man sie akzeptiert, wenn sie weiseund gerecht regiert. "
+   "es änderte nur wenig an ihrer Naivität. Sie entwickelte eine große Verachtung "
+   "für den Herzog und alle, die sich in politischen Intrigen engagieren. "
+   "Erwägungen politischer Intrigen sind unter ihrer Würde, weil sie darauf "
+   "vertraut, daß man sie akzeptiert, wenn sie weise und gerecht regiert. "
    "Die Magie fasziniert sie weiterhin und manchmalträumt sie davon, wegzulaufen, "
    "um die geheimnisvollen Künste zu studieren."
 princess_token_delivered_rsc = de \
-   "Ahhh.  Ich werde dafür Sorge tragen, dass dies seinem rechtmäßigen Besitzerim "
-   "Rat zurück gegeben wird. Bei meiner Krone, dafür wird er mir einenGefallen "
+   "Ahhh.  Ich werde dafür Sorge tragen, dass dies seinem rechtmäßigen Besitzer im "
+   "Rat zurück gegeben wird. Bei meiner Krone, dafür wird er mir einen Gefallen "
    "tun müssen. %s"
 princess_princess_delivered_rsc = de "Ihr wart immer ein treuer Gefolgsmann."
 princess_neutral_delivered_rsc = de \
@@ -19,5 +19,5 @@ princess_other_delivered_rsc = de \
    "Amen.  Sogar die Diener der Thronanwärter beginnen, den besseren Wegzu "
    "erkennen. Lasst uns zusammen zu dieser Fraktion übertreten, ja?"
 princess_toopowered_rsc = de \
-   "Ich bin offen zu Euch: Wären wir nicht bereits eine sehr starkeFraktion, "
+   "Ich bin offen zu Euch: Wären wir nicht bereits eine sehr starke Fraktion, "
    "hätte ich Euch vorgeschlagen, uns beizutreten."

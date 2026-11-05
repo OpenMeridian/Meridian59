@@ -5,16 +5,16 @@ RazaElder_desc_rsc = de \
 RazaEl_entry_welcome = de \
    "Willkommen mein Sohn, bist du gekommen um Zaubern zu lernen?"
 Elder_potion_faren = de \
-   "Ich kann dir %s%s verkaufen, um alles was du von Faren weiﬂt zu verkaufenEs "
+   "Ich kann dir %s%s verkaufen, um alles was du von Faren weiﬂt zu verkaufen. Es "
    "gibt keinerlei Nebenwirkungen oder Gefahren. Also, willst du einen kaufen?"
 Elder_potion_kraanan = de \
-   "Ich kann dir %s%s verkaufen, um alles was du von Kraanan weiﬂt zu verkaufenEs "
+   "Ich kann dir %s%s verkaufen, um alles was du von Kraanan weiﬂt zu verkaufen. Es "
    "gibt keinerlei Nebenwirkungen oder Gefahren. Also, willst du einen kaufen?"
 Elder_potion_qor = de \
-   "Ich kann dir %s%s verkaufen, um alles was du von Qor weiﬂt zu verkaufenEs "
+   "Ich kann dir %s%s verkaufen, um alles was du von Qor weiﬂt zu verkaufen. Es "
    "gibt keinerlei Nebenwirkungen oder Gefahren. Also, willst du einen kaufen?"
 Elder_potion_shalille = de \
-   "Ich kann dir %s%s verkaufen, um alles was du von Shal'ill weiﬂt zu verkaufenEs "
+   "Ich kann dir %s%s verkaufen, um alles was du von Shal'ill weiﬂt zu verkaufen. Es "
    "gibt keinerlei Nebenwirkungen oder Gefahren. Also, willst du einen kaufen?"
 potion_faren = de "Faren"
 potion_kraanan = de "Kraanan"

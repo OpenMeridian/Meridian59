@@ -7,7 +7,7 @@ egghunt_end_msg = de \
 egghunt_continues_msg = de \
       "~B~k[Event]~n ~B~vEs sind noch immer %i Ostereier nicht gefunden!"
 egghunt_oneleft_msg = de \
-      "~B~k[Event]~n ~B~vJetzt fehlt nurnoch ein einziges Osterei!"
+      "~B~k[Event]~n ~B~vJetzt fehlt nur noch ein einziges Osterei!"
 egghunt_allfound_msg = de \
       "~B~k[Event]~n ~B~vAlle Ostereier wurden gefunden!"
 egghunt_scores_msg = de \
