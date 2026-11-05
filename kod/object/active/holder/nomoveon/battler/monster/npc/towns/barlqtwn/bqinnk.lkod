@@ -7,7 +7,7 @@ Barloque_Innkeep_desc_rsc = de \
 BqInn_entry_welcome = de "Ich bin froh dich zu sehen, Kumpel."
 BqInn_mace_sale = de \
    "Ja, du könntest einen gebrauchen, wenn du unsere kultivierte Stadt verlassen "
-   "willst,Ich habe ein paar und könnte sie dir verkaufen."
+   "willst, Ich habe ein paar und könnte sie dir verkaufen."
 BqInn_unwanted_give = de \
    "~k%s%s teilt dir mit, \"Wozu bietest du mir das an?~n~k\""
 BarloqueInnkeeper_room_rented = de \

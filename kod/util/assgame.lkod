@@ -12,7 +12,7 @@ assgame_prize = de \
 assgame_go = de "~IDein Dolch umgibt ein unheimliches glühen.."
 assgame_urge = de "~IDu hast diesen Drang Roq besuchen zu wollen."
 assgame_mail_not_enough = de \
-   "Betreff: Du wurdes verstoßen\nDu wurdest vom Kreis der Meuchelmörder verstoßen, "
+   "Betreff: Du wurdest verstoßen\nDu wurdest vom Kreis der Meuchelmörder verstoßen, "
    "da Du zu feige warst um Zeit aufzuwenden um teilzuhaben an dem Handlungsablauf.\n\n-- "
    "Roq, die Dunkelklinge"
 assgame_mail_no_kills = de \

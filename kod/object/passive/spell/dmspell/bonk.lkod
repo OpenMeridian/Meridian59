@@ -8,7 +8,7 @@ bonk_desc_rsc = de "Dies Bonkt eine Person Deiner Wahl.  "
 caster_bonkstick_msg = de \
    "~bDu richtest bösartigerweise deinen Bonkstab auf %s%s's Rübe."
 bonked_bonkstick_msg = de \
-   "~r~B>OUCH<~n~b  %s%s schlägt unbarmherzig auf deinem Kopf mit einem Bonkstick herrum!!%s$0"
+   "~r~B>OUCH<~n~b  %s%s schlägt unbarmherzig auf deinem Kopf mit einem Bonkstick herum!!%s$0"
 allinroom_bstick_msg1 = de \
    "~bNach einem heftigen Schlag auf den Kopf von %s$3%s$4, schielt %s$1%s$2 "
    "einen Augenblick heftig.%s$0%s$0"

@@ -114,7 +114,7 @@ LM_haz_elder_buy = de "Ich habe keinen Nutzen für diese wertlosen Güter."
 LM_haz_elder_sell = de "Sehe ich wie ein gewöhnlicher Hausierer aus? Neee!"
 LM_haz_apoth_buy = de \
    "Die Waren die ich derzeit verkaufe sind recht einfach aber ich bin immer "
-   "auf der Suche um meinen Laden zu vergrößern.Solltest Du irgendwelche "
+   "auf der Suche um meinen Laden zu vergrößern. Solltest Du irgendwelche "
    "magischen Zutaten finden werde ich Dir einen guten Preis dafür geben."
 LM_haz_apoth_sell = de \
    "Ich habe nichts wirklich Besonderes auf Lager aber wenn Du ein paar grundlegende "
@@ -989,7 +989,7 @@ LM_tosdeath_rand13 = de \
 LM_tosdeath_rand14 = de \
    "Paddock ist ein guter Kerl, er hat nichts gegen mich."
 LM_tosdeath_rand15 = de \
-   "Der Apotheker in Tos würde eine bessere Prinzession abgeben. Er will mir "
+   "Der Apotheker in Tos würde eine bessere Prinzessin abgeben. Er will mir "
    "nichts verkaufen. Ich denke er hat Angst vor mir."
 LM_bart_necro_rand1 = de \
    "Ich habe Gerüchte über seltsame Geräusche aus den Ruinen der Stadt Brax "

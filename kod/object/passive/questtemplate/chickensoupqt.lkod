@@ -7,7 +7,7 @@ chickensoupquest_desc_rsc = de \
    "Weg nach Jasper zu machen, um eine Schüssel der köstlichen Suppe zu besorgen?"
 
 chickensoupquest_nodetwo_rsc = de \
-   "%s fühlt sich krank und fragt deßhalb, ob Du zu Witwe Qesino "
+   "%s fühlt sich krank und fragt deshalb, ob Du zu Witwe Qesino "
    "gehen könntest um nach einer warmen Hühnersuppe zu fragen."
 
 chickensoupquest_return_rsc = de \

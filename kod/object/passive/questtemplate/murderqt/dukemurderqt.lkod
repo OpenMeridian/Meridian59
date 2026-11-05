@@ -1,7 +1,7 @@
 // Quest description.
 dukemurderqt_name_rsc = de "Herzog mysterisches Mörder Quest"
 dukemurderqt_desc_rsc = de \
-   "Herzog Arkadius will, dass Du Leute über den Tod von Herzog Kalior befragtst."
+   "Herzog Akardius will, dass Du Leute über den Tod von Herzog Kalior befragtst."
 
 dukemurderqt_completed_rsc = de \
    "Du hast die Quest \"Mysterischer Mörder\" abgeschlossen."

@@ -1,8 +1,8 @@
 blackmummy_koc_name_rsc = de "teotnapleoc"
 blackmummy_name_rsc = de "Die Schattenmumie"
 blackmummy_desc_rsc = de \
-   "Diese üble Kreatur wurde durch schwarze Magie unbekannter Herkunft insLeben "
-   "gerufen.Ihr Fleisch ist faulig und weich, und ihre Augen bittenum Ruhe "
+   "Diese üble Kreatur wurde durch schwarze Magie unbekannter Herkunft ins Leben "
+   "gerufen. Ihr Fleisch ist faulig und weich, und ihre Augen bittenum Ruhe "
    "von diesem verfluchten Unleben. Diese Kreatur leidet unter einemständigen "
    "Schatten-Fluch, der ihr große Stärke, aber auch großes Leid gibt."
 blackmummy_dead_name_rsc = de "Eine tote Schattenmumie"
@@ -14,7 +14,7 @@ blackmummy_info_quest = de \
    "Schau dort hinüber! Das muss eine dieser Schattenmumien sein, von denen jeder "
    "spricht! Lass uns ihre Existenz auslöschen und unsere Belohnung einsammmeln..."
 blackmummy_info_killed = de \
-   "Puh, diese Schattenmumie hat uns wirklich einen guten Kampmf geliefert. Wir haben "
+   "Puh, diese Schattenmumie hat uns wirklich einen guten Kampf geliefert. Wir haben "
    "es aber geschafft erfolgreich heraus zu kommen!"
 blackmummy_info_quest_killed = de \
    "Wir haben es geschafft! Nun lass uns zurück in die Stadt, und dem Ältesten "

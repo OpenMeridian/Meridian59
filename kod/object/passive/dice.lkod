@@ -4,7 +4,7 @@ dice_desc = de \
    "werden können."
 die_name = de "Würfel"
 die_desc = de \
-   "Ein einzelner sechsseitiger Würfel sitzt hier. und wratet auf seine Chance "
+   "Ein einzelner sechsseitiger Würfel sitzt hier. und wartet auf seine Chance "
    "ergriffen zu werden."
 dice_not_in_range = de \
    "Du bist nicht nah genug an den Würfeln um sie zu benutzen!"

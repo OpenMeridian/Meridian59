@@ -2,5 +2,5 @@ ModelNode_name_rsc = de "Miniatur Mana Node"
 ModelNode_desc_rsc = de \
    "Auf einem Schild unter dem Modell steht:\n "
    "Eine Ansammlung von mystischer Energie, "
-   "in einem Fluss aus rohem Mana.Sie gibt Kraft "
+   "in einem Fluss aus rohem Mana. Sie gibt Kraft "
    "auf die Zauberer ab, wenn diese sich mit ihr verschmelzen"

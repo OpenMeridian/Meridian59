@@ -13,4 +13,4 @@ seduce_target_off = de "Du bist nicht länger verführt."
 seduce_cast_self = de "Du kannst Dich nicht selber verführen!"
 seduce_stolen = de "%s%s hat deinen %s verführt!"
 seduce_too_many = de \
-   "Du bist nicht in der lange noch weitere Dienger zu verführen."
+   "Du bist nicht in der lange noch weitere Diener zu verführen."

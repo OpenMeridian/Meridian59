@@ -3,7 +3,7 @@ merchanttaxqt_name_rsc = de "Eilzustellung"
 merchanttaxqt_desc_rsc = de \
    "%s ist mit den Steuern etwas spät dran und sucht nach einem "
    "vertrauenswürdigen Abenteurer, der diese zuverlässig - und vor allem "
-   "schnell - an den Herzog liefert. Herzog Arkadius würde dich nach "
+   "schnell - an den Herzog liefert. Herzog Akardius würde dich nach "
    "erfolgter Zustellung für deine Mühen entlohnen."
 
 merchanttaxqt_completed_rsc = de \
@@ -21,7 +21,7 @@ merchanttax_assign_2_h = de \
    "Könntest du meine Steuern zu %NPC bringen? Ich bin mir sicher, dass ich "
    "zu spät dran bin, und brauche Dich um diese %INDEF_CARGO%CARGO zu %NPC "
    "zu bringen. Diebstahl führt zu einem Unglück, also denk nicht daran mich "
-   "zu täuschen! Ich habe mich um Deine Belohung gekümmert und diese wird "
+   "zu täuschen! Ich habe mich um Deine Belohnung gekümmert und diese wird "
    "von %HIMHER_NPC übergeben."
 merchanttax_success_2 = de \
    "Ah, ich habe mich schon gefragt, wann %SOURCE_NPC mir einen Besuch abstatten "

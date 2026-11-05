@@ -22,7 +22,7 @@ GuildCreator_player_inactive = de \
    "ist."
 gcreator_no_guild = de \
    "Du gehörst keiner Gilde an, somit schuldest du mir auch kein Geld."
-gCreator_no_rent = de "Du schuldest mir mometan nichts."
+gCreator_no_rent = de "Du schuldest mir momentan nichts."
 gcreator_rent_due = de "%s%q schuldet mir derzeit %i Schillinge an Rente."
 gcreator_hours_til_rent = de \
    "Die Gildenmitglieder haben %i Stunden um die Schulden zu bezahlen, ansonsten "

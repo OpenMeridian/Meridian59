@@ -1,5 +1,5 @@
 Auctioneer_item_add = de \
-   "~B%s%s steht zur Auktion! Nicht zögern, mitmachen! Platziere jetzte dein Gebot."
+   "~B%s%s steht zur Auktion! Nicht zögern, mitmachen! Platziere jetzt dein Gebot."
 Auctioneer_item_bid = de \
    "~BIch mag %s, das solltest Du auch!  %s hat ein Gebit über %i platziert!  "
    "Höre ich ein Gebot von %i?"

@@ -17,10 +17,10 @@ dukeloyalty_collect_rsc = de \
    "zurück - Mit der vollen Summe!"
 
 dukeloyalty_return_rsc = de \
-   "Kehre zu Herzog Arkadius zurück und übergebe die %i Schillingen an Steuern."
+   "Kehre zu Herzog Akardius zurück und übergebe die %i Schillingen an Steuern."
 
 dukeloyalty_completed = de \
-   "Du hast die Loyalität für Arkadius bewiesen und bleibst somit ein Anhänger des Herzogs."
+   "Du hast die Loyalität für Akardius bewiesen und bleibst somit ein Anhänger des Herzogs."
 
 // Quest resources.
 duke_standard2_assign = de \

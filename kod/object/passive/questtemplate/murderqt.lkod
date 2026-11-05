@@ -1,6 +1,6 @@
 // Quest description.
 murderqt_nodetwo_rsc = de \
-   "%s%s möchte mehr über den Mord an Herzog Akardius erfahren, und %s bittet "
+   "%s%s möchte mehr über den Mord an Herzog Kalior erfahren, und %s bittet "
    "Dich, %s%s danach zu fragen."
 murderqt_nodethree_rsc = de \
    "Zum Mord befragt, sagte %s%s: \"%s\".  Kehre zu %s%s zurück und überbringe "
@@ -22,7 +22,7 @@ murder_princess_w_3 = de \
    "welche Art von Waffe würde sie benutzen?"
 murder_princess_w_4 = de \
    "Ich habe gehört, dass die Prinzessin beide Arten von Kampf gelernt hat, "
-   "Waffenfertigkeiten und Magie.  Obowhl sie in den letzten Jahren nichts "
+   "Waffenfertigkeiten und Magie.  Obwohl sie in den letzten Jahren nichts "
    "davon benutzt hat. Ich habe ebenfalls gehört, dass sie immernoch eine "
    "Expertin mit dem Schwert ist."
 murder_princess_w_5 = de \
@@ -108,7 +108,7 @@ murder_jonas_m_4 = de \
 murder_jonas_m_5 = de \
    "Jemand sagte, dass die Prinzessin und Jonas in letzter Zeit, ziemlich "
    "gute Freunde geworden sind.  Vielleicht hat sie ihn angeheuert den Herzog "
-   "zu töten?Er ist immer auf der Suche um seine Kampffähigkeiten unter Beweis "
+   "zu töten? Er ist immer auf der Suche um seine Kampffähigkeiten unter Beweis "
    "zu stellen."
 murder_jonas_c_1 = de \
    "Ich finde es seltsam, dass wenn Du Jonas suchst, dass Du ihn niemals "
@@ -215,7 +215,7 @@ murder_lich_c_5 = de \
 murder_lich_w_1 = de \
    "Ich weiß nicht, ob ich es Dir sagen soll oder nicht, aber ein Freund "
    "arbeitet als Wache für den Herzog. Er sagt, dass es dort eine große Menge "
-   "Wachen gibt. Es scheint, als wäre der Herzog nicht ermordert worden!  "
+   "Wachen gibt. Es scheint, als wäre der Herzog nicht ermordet worden!  "
    "Er hat sich selbst umgebracht als er versuchte ein Amulett der Drei abzulegen."
 murder_lich_w_2 = de \
    "Ich weiß nichts über eine Waffe, aber ich weiß, dass die Festhalle verschlossen "
@@ -227,11 +227,11 @@ murder_lich_w_3 = de \
    "der Wachen des Herzogs von Skeletten angegriffen!"
 murder_lich_w_4 = de \
    "Ein Freund von mir, der für die Prinzessin arbeitet, ist davon überzeugt, "
-   "dass der Herzog ein Nekrommant geworden ist."
+   "dass der Herzog ein Nekromant geworden ist."
 murder_lich_w_5 = de \
    "Ich habe gehört, dass einer der Wachen des Herzogs jemanden, der genau "
    "so aussah wie der Herzog zu Fuß aus dem Schloss kam, nachdem der Herzog "
-   "gestorben war. Er lief hin um es zu untersuchen,doch wer immer es war, "
+   "gestorben war. Er lief hin um es zu untersuchen, doch wer immer es war, "
    "war bereits weg und hinterliess nur eine Pfütze von schleimigen Glibber."
 murder_lich_m_1 = de \
    "Ich habe gehört, dass der Herzog ein Bankett hatte, während dem er bekannt "
@@ -266,7 +266,7 @@ murder_akardius_c_4 = de \
    "hat.  Es sollte ein großes Willkommen zurück sein, und der Herzog wollte "
    "ihn als seinen Erben benennen."
 murder_akardius_c_5 = de \
-   "Es gibt mehr über Herzog Arkadius als man sieht;  Hast du Dich jemals "
+   "Es gibt mehr über Herzog Akardius als man sieht;  Hast du Dich jemals "
    "gefragt, wo er all die Jahre war?  Auf der Insel, im Tempel von Riija "
    "studieren, dass ist es!  Ich sag Dir was, jeder, der so viel Zeit mit "
    "dem Gott der Gaunerei verbracht hat, dem ist nicht zu vertrauen."
@@ -275,39 +275,39 @@ murder_akardius_w_1 = de \
    "oder Magie getötet wurde.  Es war ein  Zaubertrank. Ist Gift nicht die "
    "Waffe mit der die Adligen Ihre Familienmitglieder immer umgebracht habe?"
 murder_akardius_w_2 = de \
-   "Sie sagen, dass an dem Tag als der Herzog getötet wurde, hat Arkadius "
+   "Sie sagen, dass an dem Tag als der Herzog getötet wurde, hat Akardius "
    "ein neues Schwert aus der Waffenkammer bekommen.  Ich frage mich, warum "
    "wollte er nicht mehr sein altes tragen..."
 murder_akardius_w_3 = de \
-   "Ich habe gehört, dass Herzog Arkadius im Tempel von Riija studiert hat, "
+   "Ich habe gehört, dass Herzog Akardius im Tempel von Riija studiert hat, "
    "während er weg war.  ich frage mich, ob sie ihn mehr als nur die einfachen "
    "Illusionen zu fortgeschrittene lehrten. Schließlich ist Riija der Gaunergott "
    "und manche Tricks können tödlich sein."
 murder_akardius_w_4 = de \
    "Ich weiß, dass sie alle Waffen der Wächter überprüft haben, direkt nachdem "
-   "der Herzog getötet wurde, und Herzog Arkadius war der erste der ging "
+   "der Herzog getötet wurde, und Herzog Akardius war der erste der ging "
    "um ein gutes Beispiel für seine Leute abzugeben."
 murder_akardius_w_5 = de \
-   "Sie sagen, dass Herzog Arkadis ein vollendeter Schwertkämpfer war. Nicht "
+   "Sie sagen, dass Herzog Akardius ein vollendeter Schwertkämpfer war. Nicht "
    "das er so hart hätte sein müssen um auf seinen Onkel zu treffen.  ich "
    "meine, schließlich war er ein bisschen, äh ... kräftig gebaut."
 murder_akardius_m_1 = de \
    "Du weißt, dass man sagt: Blick in Richtung der einen, die am meisten "
    "Wohlstand besitzen."
 murder_akardius_m_2 = de \
-   "Ich habe gehört, dass Herzog Arkadius nicht auf die Insel gehen wollte, "
+   "Ich habe gehört, dass Herzog Akardius nicht auf die Insel gehen wollte, "
    "aber sein Onkel ihn gesandt hat, als er klein war.  Vielleicht hat er "
    "seinen Onkel dafür gehasst."
 murder_akardius_m_3 = de \
    "Ich hörte, dass der Herzog Jonas militärischen Fähigkeiten lobte und, "
-   "dass er ein würdiger Erbe wäre.  Vielleicht war Arkadius eifersüchtig."
+   "dass er ein würdiger Erbe wäre.  Vielleicht war Akardius eifersüchtig."
 murder_akardius_m_4 = de \
-   "Madelia sagte mir, dass sie mal mit Arkadius zu einem Picknick war, und "
+   "Madelia sagte mir, dass sie mal mit Akardius zu einem Picknick war, und "
    "nachher wurde er nervös und lief weinend weg, \"Oh wie konnte ich Prinzessin "
    "Kateriina das nur antun?\"   Könnten sie sich geliebt haben?  Der alte "
    "Herzog hätte das, sicher nicht genehmigt!"
 murder_akardius_m_5 = de \
-   "Jeder weiß, dass der Herzog geplant hat Arkadius als sein Erbe zu ernennen.  "
+   "Jeder weiß, dass der Herzog geplant hat Akardius als sein Erbe zu ernennen.  "
    "Ich sehe nicht ein, warum hätte er seinem Onkel schaden wollen, wo er "
    "doch so gut zu ihm war."
 murder_maleval_c_1 = de \
@@ -325,7 +325,7 @@ murder_maleval_c_3 = de \
    "Qor. Sicher nicht!"
 murder_maleval_c_4 = de \
    "Einer von den Lieferanten des Herzogs erzählte, dass Kalior ein Fest "
-   "halten wollte um zu verkünden, dass Arkadius sein neuer Berater ist. "
+   "halten wollte um zu verkünden, dass Akardius sein neuer Berater ist. "
    "Ich wette das hat Maleval nicht geschmeckt!"
 murder_maleval_c_5 = de \
    "Ich habe einen Freund, der im Garten des Herzogs arbeitet, und einmal "
@@ -355,7 +355,7 @@ murder_maleval_m_1 = de \
    "Ich hatte immer das Gefühl, dass Maleval die eigentliche Macht hinter "
    "dem Thron hatte.  Vielleicht wurde er müde von seiner Marionette."
 murder_maleval_m_2 = de \
-   "Maleval scheint den jungen Arkadius zweifelsfrei zu mögen.  Er scheint "
+   "Maleval scheint den jungen Akardius zweifelsfrei zu mögen.  Er scheint "
    "ihn fast zu schützen.  Ich nehme an,  es ist natürlich, nachdem was geschehen "
    "ist."
 murder_maleval_m_3 = de \
@@ -369,7 +369,7 @@ murder_maleval_m_5 = de \
    "Angeblich hat Maleval gedacht, Herzog Kalior hat nicht genug Respekt "
    "für die Magie.  Vielleicht hat er eine kleine Demonstration veranstaltet."
 murder_roq_m_1 = de \
-   "Ist dort nicht ein professioneller Meuchelmörder in der Kanalistation "
+   "Ist dort nicht ein professioneller Meuchelmörder in der Kanalisation "
    "von Barloque?  Er scheint ziemlich verdächtig zu sein.  Ich bin überrascht, "
    "dass er nicht bereits festgenommen wurde!"
 murder_roq_m_2 = de \
@@ -377,7 +377,7 @@ murder_roq_m_2 = de \
    "die Kanalisation geschickt wurden. Für mich klingt das nach eine Hexenjagd.  "
    "Jeder weiß, Roq ist seit Jahren im Ruhestand."
 murder_roq_m_3 = de \
-   "Warum denkst Du, versteckt sich Roq in der Kanalistation?  Man munkelt, "
+   "Warum denkst Du, versteckt sich Roq in der Kanalisation?  Man munkelt, "
    "dass er vor Jahren Königin Katria getötet hat und sich deshalb immernoch "
    "versteckt.  Meine Tante sagt immer, es war Kalior selbst, der ihn zu "
    "dem gemacht hat was er ist."
@@ -399,9 +399,9 @@ murder_roq_w_2 = de \
    "schlimm, es eiterte und aß ihn innerhalb von Minuten.  Kam die Wunde "
    "von einer magisch verfluchten Waffe?"
 murder_roq_w_3 = de \
-   "Einer der Wachen des Herzogs sagt, Kalior und Arkadius spielten eine "
+   "Einer der Wachen des Herzogs sagt, Kalior und Akardius spielten eine "
    "Runde das Meuchelmörderspiel vor dem Bankett.  Was, wenn jemand den schwarzen "
-   "Dolch von Arkadius ausgetauscht hat?"
+   "Dolch von Akardius ausgetauscht hat?"
 murder_roq_w_4 = de \
    "Jemand hat mir gesagt, dass Roq am Tag der Ermordung des Herzogs mit "
    "nur einem Messer gesehen wurde.  Hat er nicht für gewöhnlich zwei?"
@@ -417,7 +417,7 @@ murder_roq_c_2 = de \
    "Roq kann es nicht gewesen sein, denn zu der Zeit habe ich einen Dolch "
    "bei ihm gekauft.   Und das ist, wie mir ein Freund sagte.  Ein kleiner."
 murder_roq_c_3 = de \
-   "Ein Freund sagt, das eine schattenhafte Gestallt sich schnell durch die "
+   "Ein Freund sagt, das eine schattenhafte Gestalt sich schnell durch die "
    "Twisted Woods bewegt hat in der Nacht des Mordes.  Er grüßte ihn und "
    "in dem Moment als er ihm in die rotglühenden Augen sah ist er verschwunden."
 murder_roq_c_4 = de \
@@ -431,10 +431,10 @@ murder_roq_c_5 = de \
    "raus in die Nacht eilte"
 murder_random_w_1 = de \
    "Pah!  Das ganze Ding ist lächerlich.  Tatsache ist, dass der Herzog nicht "
-   "warten konnte um das Fest zu beginnen und das war Arkadius peinlich, "
+   "warten konnte um das Fest zu beginnen und das war Akardius peinlich, "
    "denn sein Onkel hat sich zu Tode gefressen."
 murder_random_c_1 = de \
-   "Ich habe gehört, dass Arkadius die Leiche des Herzogs zu einem Heiler "
+   "Ich habe gehört, dass Akardius die Leiche des Herzogs zu einem Heiler "
    "brachte, als er bereits tot war.  Ich glaube er hat verzweifelt versucht "
    "ihn zu retten."
 murder_random_m_1 = de \

@@ -7,7 +7,7 @@ chaos_night_rsc = de \
    "und wird nach der Schlacht wiederhergestellt.]"
 chaos_night_admin_rsc = de \
    "### ~B~bADMINISTRATOR~n: Um die Schlacht des Blutes zu beenden. Du solltest "
-   "jetzt eine Kopie der LASTSAVE.TXT (liegt auf dem Server-Rechner) anfertigen.Wenn "
+   "jetzt eine Kopie der LASTSAVE.TXT (liegt auf dem Server-Rechner) anfertigen. Wenn "
    "die Schlacht des Blutes vorbei ist, fahre den Server herunter und stelle "
    "die LASTSAVE.TXT wieder her."
 end_chaos_night_rsc = de \
