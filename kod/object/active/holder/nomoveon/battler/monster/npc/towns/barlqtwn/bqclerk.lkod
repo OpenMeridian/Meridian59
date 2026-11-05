@@ -170,7 +170,7 @@ bq_clerk_no_start_ad = de \
 bq_clerk_stop_ad = de \
    "Du wirst nicht l‰nger benachrichtigt, wenn eine neue Wahl beginnt."
 bq_clerk_stop_ad_outlaw = de \
-   "Ich sehe schon, Reformen stehen ausserhalb eures Verst‰ndnisses.  Ich "
+   "Ich sehe schon, Reformen stehen auﬂerhalb eures Verst‰ndnisses.  Ich "
    "werde euch also nicht l‰nger mit meinen Benachrichtigungen bel‰stigen."
 bq_clerk_no_stop_ad = de \
    "Du wirst nicht l‰nger benachrichtigt, wenn eine neue Wahl startet."

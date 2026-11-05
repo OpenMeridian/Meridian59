@@ -1,4 +1,4 @@
-debuff_name_rsc = de "debuff"
+debuff_name_rsc = de "Schwächung"
 debuff_desc_rsc = de "Ein Zauber, der auf andere Spieler gezaubert wird."
 debuff_already_enchanted_rsc = de "Du bist bereits verzaubert."
 debuff_On_rsc = de "Dein Körper prickelt mit magischer Energie."
