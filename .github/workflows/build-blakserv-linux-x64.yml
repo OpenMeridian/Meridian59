@@ -36,27 +36,21 @@ jobs:
 
       - name: Package server runtime
         run: |
-          package_root=dist/blakserv-linux-x64
-          server_dir="$package_root/run/server"
+          server_dir=dist/blakserv-linux-x64
           install -d "$server_dir/loadkod" "$server_dir/memmap" "$server_dir/rooms" \
-            "$server_dir/rsc" "$server_dir/channel" "$server_dir/savegame" \
-            "$package_root/kod/include" "$package_root/resource/rooms"
+            "$server_dir/rsc" "$server_dir/channel" "$server_dir/savegame"
           test -s run/server/loadkod/system.bof
           test -s run/server/rsc/rsc0000.rsb
           install -m 0755 blakserv/debug/blakserv "$server_dir/blakserv"
           install -m 0755 run/server/blakadmin.sh "$server_dir/blakadmin.sh"
-          install -m 0644 run/server/blakserv.cfg-linux "$server_dir/blakserv.cfg.example"
+          sed -i 's/\r$//' "$server_dir/blakadmin.sh"
           install -m 0644 run/server/packages.txt run/server/blakston.khd \
             run/server/protocol.khd run/server/kodbase.txt "$server_dir/"
-          install -m 0644 dlg/npcdlg.txt "$server_dir/npcdlg.txt"
           cp -a run/server/loadkod/. "$server_dir/loadkod/"
           cp -a run/server/memmap/. "$server_dir/memmap/"
           cp -a run/server/rooms/. "$server_dir/rooms/"
           cp -a run/server/rsc/. "$server_dir/rsc/"
-          install -m 0644 kod/kodbase.txt "$package_root/kod/kodbase.txt"
-          install -m 0644 kod/include/*.khd "$package_root/kod/include/"
-          install -m 0644 resource/rooms/*.roo "$package_root/resource/rooms/"
-          tar -C dist -czf blakserv-linux-x64.tar.gz blakserv-linux-x64
+          tar -C "$server_dir" --exclude=.gitignore -czf blakserv-linux-x64.tar.gz .
 
       - name: Upload Linux x64 artifact
         uses: actions/upload-artifact@v4

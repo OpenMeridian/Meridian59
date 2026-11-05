@@ -42,12 +42,8 @@ jobs:
       - name: Package server runtime
         shell: pwsh
         run: |
-          $packageRoot = "dist\blakserv-windows-x64"
-          $serverDir = Join-Path $packageRoot "run\server"
-          $kodIncludeDir = Join-Path $packageRoot "kod\include"
-          $roomsDir = Join-Path $packageRoot "resource\rooms"
+          $serverDir = "dist\blakserv-windows-x64"
           $serverDirs = @("loadkod", "memmap", "rooms", "rsc", "channel", "savegame")
-          New-Item -ItemType Directory -Force -Path $serverDir, $kodIncludeDir, $roomsDir | Out-Null
           foreach ($directory in $serverDirs) {
             New-Item -ItemType Directory -Force -Path (Join-Path $serverDir $directory) | Out-Null
           }
@@ -61,10 +57,6 @@ jobs:
           foreach ($file in $serverFiles) {
             Copy-Item (Join-Path "run\server" $file) $serverDir
           }
-          Copy-Item "dlg\npcdlg.txt" $serverDir
-          Copy-Item "run\server\blakserv.cfg" (Join-Path $serverDir "blakserv.cfg.example")
-          Copy-Item "run\server\channel\.gitignore" (Join-Path $serverDir "channel\.gitignore")
-          Copy-Item "run\server\savegame\.gitignore" (Join-Path $serverDir "savegame\.gitignore")
           foreach ($directory in @("loadkod", "memmap", "rsc")) {
             $source = Join-Path "run\server" $directory
             $destination = Join-Path $serverDir $directory
@@ -74,9 +66,6 @@ jobs:
           Copy-Item "blakserv\x64\Release\blakserv.map" $serverDir
           Copy-Item "blakserv\x64\Release\blakserv.pdb" $serverDir
 
-          Copy-Item "kod\kodbase.txt" (Join-Path $packageRoot "kod\kodbase.txt")
-          Copy-Item "kod\include\*.khd" $kodIncludeDir
-          Copy-Item "resource\rooms\*.roo" $roomsDir
           Copy-Item "resource\rooms\*.roo" (Join-Path $serverDir "rooms")
 
           $runtimeDlls = @(
@@ -95,7 +84,19 @@ jobs:
             Copy-Item $source $serverDir
           }
 
-          Compress-Archive -Path "$packageRoot\*" -DestinationPath "blakserv-windows-x64.zip" -Force
+          Get-ChildItem $serverDir -Filter ".gitignore" -File -Recurse -Force | Remove-Item -Force
+          Compress-Archive -Path "$serverDir\*" -DestinationPath "blakserv-windows-x64.zip" -Force
+          Add-Type -AssemblyName System.IO.Compression.FileSystem
+          $archive = [System.IO.Compression.ZipFile]::Open((Join-Path (Get-Location) "blakserv-windows-x64.zip"), [System.IO.Compression.ZipArchiveMode]::Update)
+          try {
+            foreach ($directory in $serverDirs) {
+              if (-not $archive.GetEntry("$directory/")) {
+                [void]$archive.CreateEntry("$directory/")
+              }
+            }
+          } finally {
+            $archive.Dispose()
+          }
 
       - name: Upload Windows x64 artifact
         uses: actions/upload-artifact@v4
