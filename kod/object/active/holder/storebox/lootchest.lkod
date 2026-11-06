@@ -5,3 +5,5 @@ LootChest_desc_rsc = de \
 LootChest_key_disappears = de "Dein Schlüssel verschwindet in der Luft!"
 LootChest_locked = de \
    "Die Kiste scheint verschlossen zu sein"
+LootChest_desc_open = de \
+   "%s\n\nDie Kiste schließt sich in %r%r%r%r%r%r%r."

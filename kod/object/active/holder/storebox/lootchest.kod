@@ -28,6 +28,8 @@ resources:
    LootChest_key_disappears = "Your key disappears into thin air!"
    LootChest_locked = \
       "This chest appears to be locked."
+   LootChest_desc_open = \
+      "%s\n\nThe chest closes in %r%r%r%r%r%r%r."
 
    LootChest_sound_rsc = kblow3.ogg
    LootChest_lock_sound_rsc = doorlck.ogg
@@ -44,12 +46,9 @@ classvars:
    viMinNumTreasure = 30
    viMaxNumTreasure = 50
 
-   // Most entries the chest keeps, a stack counts as one entry. Leftovers
-   // stay in the chest, so without a limit it grows with every reset.
-   viMaxNumEntries = 100
-
-   // Reset after 1 hour
-   viReset_time = 6000000
+   // Open for 15 minutes after a key is used. The chest is empty while locked,
+   // a key fills it.
+   viReset_time = 900000
 
 properties:
 
@@ -65,7 +64,7 @@ messages:
    Constructor(iColor=0)
    {
       Send(self,@SetLootChestColor,#iColor=iColor);
-      Send(self,@ResetLootChest);
+      Send(self,@LockChest,#bLocked=TRUE);
 
       propagate;
    }
@@ -342,35 +341,64 @@ messages:
    }
 
    ResetLootChest()
+   "Timer ran out: closes the chest, nothing stays inside."
    {
       ptReset_timer = $;
 
-      Send(self,@GenerateLootTreasure);
-      Send(self,@TrimLootTreasure);
+      Send(self,@DeleteHolding);
       Send(self,@LockChest,#bLocked=TRUE);
 
       return;
    }
 
-   TrimLootTreasure()
-   "Deletes the oldest entries beyond viMaxNumEntries."
+   ShowDesc()
    {
-      local iExtra;
-
-      iExtra = Length(plPassive) - viMaxNumEntries;
-      while iExtra > 0
+      if pbLocked
       {
-         // New items are added to the front, so the oldest one is last.
-         Send(Send(self,@HolderExtractObject,#data=Last(plPassive)),@Delete);
-         iExtra--;
+         AddPacket(4,vrDesc);
+
+         return;
       }
 
+      // At least 1, a time of 0 would leave out the whole description.
+      Send(self,@SendTimeRemaining,
+            #iTime=Bound(GetTimeRemaining(ptReset_timer) / 1000,1,$));
+
       return;
+   }
+
+   SendTimeRemainingHeader(parm1=$, parm2=$)
+   {
+      AddPacket(4,LootChest_desc_open, 4,vrDesc);
+
+      return;
+   }
+
+   ReqNewHold(what=$, who=$, bTransfer=FALSE)
+   "Players can't put anything into a loot chest."
+   {
+      return FALSE;
+   }
+
+   ReqTaker(what=$, taker=$)
+   {
+      if pbLocked
+      {
+         return FALSE;
+      }
+
+      propagate;
    }
 
    TryActivate(who=$)
    {
       local oKey;
+
+      // An open chest doesn't use up another key.
+      if NOT pbLocked
+      {
+         return FALSE;
+      }
 
       if (who = $
          OR NOT IsClass(who,&User)
@@ -389,10 +417,12 @@ messages:
       
       if oKey
       {
+         Send(self,@GenerateLootTreasure);
          Send(who,@MsgSendUser,#message_rsc=LootChest_key_disappears);
          Send(who,@WaveSendUser,#wave_rsc=LootChest_sound_rsc);
          Send(self,@LockChest,#bLocked=FALSE);
          Send(oKey,@Delete);
+
          return TRUE;
       }
       else 
