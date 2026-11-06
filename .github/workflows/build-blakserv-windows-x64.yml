@@ -22,9 +22,18 @@ jobs:
   build:
     runs-on: windows-2022
     timeout-minutes: 30
+    outputs:
+      artifact_name: ${{ steps.artifact_name.outputs.name }}
     steps:
       - name: Check out source
         uses: actions/checkout@v4
+
+      - name: Set artifact filename
+        id: artifact_name
+        uses: ./.github/actions/artifact-name
+        with:
+          prefix: blakserv-windows-x64
+          extension: zip
 
       - name: Set up MSBuild
         uses: microsoft/setup-msbuild@v2
@@ -41,6 +50,8 @@ jobs:
 
       - name: Package server runtime
         shell: pwsh
+        env:
+          ARTIFACT_NAME: ${{ steps.artifact_name.outputs.name }}
         run: |
           $serverDir = "dist\blakserv-windows-x64"
           $serverDirs = @("loadkod", "memmap", "rooms", "rsc", "channel", "savegame")
@@ -85,9 +96,9 @@ jobs:
           }
 
           Get-ChildItem $serverDir -Filter ".gitignore" -File -Recurse -Force | Remove-Item -Force
-          Compress-Archive -Path "$serverDir\*" -DestinationPath "blakserv-windows-x64.zip" -Force
+          Compress-Archive -Path "$serverDir\*" -DestinationPath $env:ARTIFACT_NAME -Force
           Add-Type -AssemblyName System.IO.Compression.FileSystem
-          $archive = [System.IO.Compression.ZipFile]::Open((Join-Path (Get-Location) "blakserv-windows-x64.zip"), [System.IO.Compression.ZipArchiveMode]::Update)
+          $archive = [System.IO.Compression.ZipFile]::Open((Join-Path (Get-Location) $env:ARTIFACT_NAME), [System.IO.Compression.ZipArchiveMode]::Update)
           try {
             foreach ($directory in $serverDirs) {
               if (-not $archive.GetEntry("$directory/")) {
@@ -99,10 +110,10 @@ jobs:
           }
 
       - name: Upload Windows x64 artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
-          name: ${{ github.event_name == 'pull_request' && format('blakserv-windows-x64-pr-{0}', github.event.pull_request.number) || 'blakserv-windows-x64' }}
-          path: blakserv-windows-x64.zip
+          path: ${{ steps.artifact_name.outputs.name }}
+          archive: false
           if-no-files-found: error
           retention-days: ${{ github.event_name == 'pull_request' && 5 || 90 }}
 
@@ -113,4 +124,4 @@ jobs:
       actions: write
     uses: ./.github/workflows/cleanup-old-branch-artifacts.yml
     with:
-      artifact-name: blakserv-windows-x64
+      artifact-name: ${{ needs.build.outputs.artifact_name }}

@@ -22,9 +22,18 @@ jobs:
   build:
     runs-on: ubuntu-24.04
     timeout-minutes: 30
+    outputs:
+      artifact_name: ${{ steps.artifact_name.outputs.name }}
     steps:
       - name: Check out source
         uses: actions/checkout@v4
+
+      - name: Set artifact filename
+        id: artifact_name
+        uses: ./.github/actions/artifact-name
+        with:
+          prefix: blakserv-linux-x64
+          extension: tar.gz
 
       - name: Install build dependencies
         run: |
@@ -35,6 +44,8 @@ jobs:
         run: make -f makefile.linux Bserver Bresource Bkod
 
       - name: Package server runtime
+        env:
+          ARTIFACT_NAME: ${{ steps.artifact_name.outputs.name }}
         run: |
           server_dir=dist/blakserv-linux-x64
           install -d "$server_dir/loadkod" "$server_dir/memmap" "$server_dir/rooms" \
@@ -50,13 +61,13 @@ jobs:
           cp -a run/server/memmap/. "$server_dir/memmap/"
           cp -a run/server/rooms/. "$server_dir/rooms/"
           cp -a run/server/rsc/. "$server_dir/rsc/"
-          tar -C "$server_dir" --exclude=.gitignore -czf blakserv-linux-x64.tar.gz .
+          tar -C "$server_dir" --exclude=.gitignore -czf "$ARTIFACT_NAME" .
 
       - name: Upload Linux x64 artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
-          name: ${{ github.event_name == 'pull_request' && format('blakserv-linux-x64-pr-{0}', github.event.pull_request.number) || 'blakserv-linux-x64' }}
-          path: blakserv-linux-x64.tar.gz
+          path: ${{ steps.artifact_name.outputs.name }}
+          archive: false
           if-no-files-found: error
           retention-days: ${{ github.event_name == 'pull_request' && 5 || 90 }}
 
@@ -67,4 +78,4 @@ jobs:
       actions: write
     uses: ./.github/workflows/cleanup-old-branch-artifacts.yml
     with:
-      artifact-name: blakserv-linux-x64
+      artifact-name: ${{ needs.build.outputs.artifact_name }}
