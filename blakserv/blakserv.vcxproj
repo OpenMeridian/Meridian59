@@ -548,7 +548,7 @@ call "$(ProjectDir)copy_postgres_runtime.bat" "$(SolutionDir)bin" "$(SolutionDir
     <ProjectReference Include="..\libjansson\jansson.vcxproj">
       <Project>{f61a1cc1-dc47-4407-bfe0-a2221e5eecca}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\resource\resource.vcxproj">
+    <ProjectReference Include="..\resource\resource.vcxproj" Condition="'$(BuildServerResources)' != 'false'">
       <Project>{15142a8c-248c-402a-90bf-c4b5c14cd8dc}</Project>
       <Private>false</Private>
       <ReferenceOutputAssembly>true</ReferenceOutputAssembly>

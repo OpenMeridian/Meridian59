@@ -1,0 +1,81 @@
+name: Build Blakserv Linux x64
+
+on:
+  push:
+    branches:
+      - develop
+      - master
+  pull_request:
+    branches:
+      - develop
+      - master
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    outputs:
+      artifact_name: ${{ steps.artifact_name.outputs.name }}
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set artifact filename
+        id: artifact_name
+        uses: ./.github/actions/artifact-name
+        with:
+          prefix: blakserv-linux-x64
+          extension: tar.gz
+
+      - name: Install build dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y g++ make flex bison libjansson-dev libpq-dev
+
+      - name: Build Blakserv and runtime data
+        run: make -f makefile.linux Bserver Bresource Bkod
+
+      - name: Package server runtime
+        env:
+          ARTIFACT_NAME: ${{ steps.artifact_name.outputs.name }}
+        run: |
+          server_dir=dist/blakserv-linux-x64
+          install -d "$server_dir/loadkod" "$server_dir/memmap" "$server_dir/rooms" \
+            "$server_dir/rsc" "$server_dir/channel" "$server_dir/savegame"
+          test -s run/server/loadkod/system.bof
+          test -s run/server/rsc/rsc0000.rsb
+          install -m 0755 blakserv/debug/blakserv "$server_dir/blakserv"
+          install -m 0755 run/server/blakadmin.sh "$server_dir/blakadmin.sh"
+          sed -i 's/\r$//' "$server_dir/blakadmin.sh"
+          install -m 0644 run/server/packages.txt run/server/blakston.khd \
+            run/server/protocol.khd run/server/kodbase.txt "$server_dir/"
+          cp -a run/server/loadkod/. "$server_dir/loadkod/"
+          cp -a run/server/memmap/. "$server_dir/memmap/"
+          cp -a run/server/rooms/. "$server_dir/rooms/"
+          cp -a run/server/rsc/. "$server_dir/rsc/"
+          tar -C "$server_dir" --exclude=.gitignore -czf "$ARTIFACT_NAME" .
+
+      - name: Upload Linux x64 artifact
+        uses: actions/upload-artifact@v7
+        with:
+          path: ${{ steps.artifact_name.outputs.name }}
+          archive: false
+          if-no-files-found: error
+          retention-days: ${{ github.event_name == 'pull_request' && 5 || 90 }}
+
+  cleanup-old-branch-artifacts:
+    if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/develop'
+    needs: build
+    permissions:
+      actions: write
+    uses: ./.github/workflows/cleanup-old-branch-artifacts.yml
+    with:
+      artifact-name: ${{ needs.build.outputs.artifact_name }}

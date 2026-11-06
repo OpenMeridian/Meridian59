@@ -1,0 +1,127 @@
+name: Build Blakserv Windows x64
+
+on:
+  push:
+    branches:
+      - develop
+      - master
+  pull_request:
+    branches:
+      - develop
+      - master
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-2022
+    timeout-minutes: 30
+    outputs:
+      artifact_name: ${{ steps.artifact_name.outputs.name }}
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set artifact filename
+        id: artifact_name
+        uses: ./.github/actions/artifact-name
+        with:
+          prefix: blakserv-windows-x64
+          extension: zip
+
+      - name: Set up MSBuild
+        uses: microsoft/setup-msbuild@v2
+
+      - name: Set up MSVC developer environment
+        uses: ilammy/msvc-dev-cmd@v1
+        with:
+          arch: x64
+
+      - name: Build Blakserv and server KOD data
+        shell: pwsh
+        run: |
+          msbuild Meridian59.sln '/t:Server\blakserv;Server\blakod' /m:2 /nologo /p:Configuration=Release /p:Platform=x64 /p:BuildServerResources=false
+
+      - name: Package server runtime
+        shell: pwsh
+        env:
+          ARTIFACT_NAME: ${{ steps.artifact_name.outputs.name }}
+        run: |
+          $serverDir = "dist\blakserv-windows-x64"
+          $serverDirs = @("loadkod", "memmap", "rooms", "rsc", "channel", "savegame")
+          foreach ($directory in $serverDirs) {
+            New-Item -ItemType Directory -Force -Path (Join-Path $serverDir $directory) | Out-Null
+          }
+
+          foreach ($file in @("run\server\loadkod\system.bof", "run\server\rsc\rsc0000.rsb")) {
+            if (-not (Test-Path $file -PathType Leaf) -or (Get-Item $file).Length -eq 0) {
+              throw "Missing or empty generated server data: $file"
+            }
+          }
+          $serverFiles = @("blakadmin.sh", "packages.txt", "blakston.khd", "protocol.khd", "kodbase.txt")
+          foreach ($file in $serverFiles) {
+            Copy-Item (Join-Path "run\server" $file) $serverDir
+          }
+          foreach ($directory in @("loadkod", "memmap", "rsc")) {
+            $source = Join-Path "run\server" $directory
+            $destination = Join-Path $serverDir $directory
+            Copy-Item "$source\*" $destination -Recurse -Force
+          }
+          Copy-Item "blakserv\x64\Release\blakserv.exe" $serverDir
+          Copy-Item "blakserv\x64\Release\blakserv.map" $serverDir
+          Copy-Item "blakserv\x64\Release\blakserv.pdb" $serverDir
+
+          Copy-Item "resource\rooms\*.roo" (Join-Path $serverDir "rooms")
+
+          $runtimeDlls = @(
+            "libpq.dll",
+            "libcrypto-3-x64.dll",
+            "libintl-9.dll",
+            "libssl-3-x64.dll",
+            "libiconv-2.dll",
+            "libwinpthread-1.dll"
+          )
+          foreach ($dll in $runtimeDlls) {
+            $source = Join-Path "bin" $dll
+            if (-not (Test-Path $source)) {
+              throw "Missing runtime dependency: $source"
+            }
+            Copy-Item $source $serverDir
+          }
+
+          Get-ChildItem $serverDir -Filter ".gitignore" -File -Recurse -Force | Remove-Item -Force
+          Compress-Archive -Path "$serverDir\*" -DestinationPath $env:ARTIFACT_NAME -Force
+          Add-Type -AssemblyName System.IO.Compression.FileSystem
+          $archive = [System.IO.Compression.ZipFile]::Open((Join-Path (Get-Location) $env:ARTIFACT_NAME), [System.IO.Compression.ZipArchiveMode]::Update)
+          try {
+            foreach ($directory in $serverDirs) {
+              if (-not $archive.GetEntry("$directory/")) {
+                [void]$archive.CreateEntry("$directory/")
+              }
+            }
+          } finally {
+            $archive.Dispose()
+          }
+
+      - name: Upload Windows x64 artifact
+        uses: actions/upload-artifact@v7
+        with:
+          path: ${{ steps.artifact_name.outputs.name }}
+          archive: false
+          if-no-files-found: error
+          retention-days: ${{ github.event_name == 'pull_request' && 5 || 90 }}
+
+  cleanup-old-branch-artifacts:
+    if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/develop'
+    needs: build
+    permissions:
+      actions: write
+    uses: ./.github/workflows/cleanup-old-branch-artifacts.yml
+    with:
+      artifact-name: ${{ needs.build.outputs.artifact_name }}
