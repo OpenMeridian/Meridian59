@@ -32,14 +32,23 @@ jobs:
                 repo: context.repo.repo,
                 name: process.env.ARTIFACT_NAME,
                 per_page: 100,
-              },
-              (response) => response.data.artifacts,
+              }
             );
 
-            const staleArtifacts = artifacts.filter((artifact) =>
+            const branchArtifacts = artifacts.filter((artifact) =>
               artifact.workflow_run?.head_branch === branch &&
-              artifact.workflow_run?.head_repository_id === repositoryId &&
-              artifact.workflow_run?.id !== currentRunId
+              artifact.workflow_run?.head_repository_id === repositoryId
+            );
+            const currentArtifact = branchArtifacts.find((artifact) =>
+              artifact.workflow_run.id === currentRunId
+            );
+            const currentCreatedAt = Date.parse(currentArtifact?.created_at);
+            if (!Number.isFinite(currentCreatedAt)) {
+              throw new Error("Current artifact is missing or has no valid creation time; skipping cleanup");
+            }
+            const staleArtifacts = branchArtifacts.filter((artifact) =>
+              artifact.workflow_run.id < currentRunId &&
+              Date.parse(artifact.created_at) < currentCreatedAt
             );
 
             for (const artifact of staleArtifacts) {
