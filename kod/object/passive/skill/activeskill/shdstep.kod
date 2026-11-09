@@ -146,7 +146,9 @@ messages:
 
       use_weapon = Send(who,@GetWeapon);
       stroke_obj = Send(who,@GetStrokeObject);
-      iRange = Send(stroke_obj,@GetRange,#weapon_used=use_weapon);
+      // A short step: ranged weapons must not extend it.
+      iRange = Bound(Send(stroke_obj,@GetRange,#weapon_used=use_weapon),
+                     $,3 * FINENESS);
 
       if NOT Send(who,@TargetWithinSightAndRange,#oTarget=First(lTargets),
          #iRange=iRange,#use_weapon=use_weapon,#stroke_obj=stroke_obj)

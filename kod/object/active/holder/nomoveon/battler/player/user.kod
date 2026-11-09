@@ -2411,6 +2411,7 @@ messages:
          }
          else if IsClass(oAbility,&Phase)
             AND Send(self,@CanPhaseAgain)
+            AND Send(oAbility,@CanPhaseHere,#who=self)
          {
             DeleteTimer(ptAttackTimer);
             ptAttackTimer = $;

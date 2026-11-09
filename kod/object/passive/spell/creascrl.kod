@@ -282,10 +282,14 @@ messages:
                {
                   if Send(oUserObject,@IsStackable)
                   {
-                     Send(oUserObject,@SubtractNumber,#number=iNumNeeded);
-                     iNumNeeded = 0;
-
-                     break;
+                     // SubtractNumber returns anything left over, which
+                     // has to come from the next stack.
+                     iNumNeeded = Send(oUserObject,@SubtractNumber,
+                                       #number=iNumNeeded);
+                     if iNumNeeded = 0
+                     {
+                        break;
+                     }
                   }
                   else
                   {

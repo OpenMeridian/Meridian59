@@ -162,6 +162,32 @@ messages:
       return TRUE;
    }
 
+   CanPhaseHere(who = $)
+   "Silent check for rooms and states in which phase isn't allowed. "
+   "Keep in line with the checks that report to the player."
+   {
+      local oRoom, oSpell;
+
+      oRoom = Send(who,@GetOwner);
+      if oRoom = $
+      {
+         return FALSE;
+      }
+
+      if Send(oRoom,@CheckRoomFlag,#flag=ROOM_NO_COMBAT)
+      {
+         oSpell = Send(SYS,@FindSpellByNum,#num=SID_TRUCE);
+         if NOT Send(oRoom,@IsEnchanted,#what=oSpell)
+         {
+            return FALSE;
+         }
+      }
+
+      return NOT (Send(oRoom,@IsArena)
+                  OR Send(oRoom,@OverridesDeathFunction)
+                  OR Send(who,@CheckPlayerFlag,#flag=PFLAG_SPECTATOR));
+   }
+
    AdjustVisualEffectBasedOnTimeRemaining(who = $)
    "Returns the amount of time (in milliseconds) until the message should "
    "be called again to change xlat or send a message.  This should all be in "

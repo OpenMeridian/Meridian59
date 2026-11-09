@@ -277,6 +277,12 @@ messages:
          return FALSE;
       }
 
+      // Only a grown plant can be harvested.
+      if piPhase <> PHASE_PLANT
+      {
+         return FALSE;
+      }
+
       oItem = Create(&WindrootLeaf,#number=viHarvestAmount);
       if Send(who,@ReqNewHold,#what=oItem)
       {

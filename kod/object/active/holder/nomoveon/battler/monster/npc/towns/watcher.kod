@@ -2221,9 +2221,9 @@ messages:
                if First(i) = what
                {
                   Send(what,@LoseHealth,#amount=Send(what,@GetHealth)-Nth(i,2));
-                  Send(what,@GainMana,#amount=Nth(i,3)-Send(what,@GetMana));
-                  iAmount = 100*(Nth(i,2)-Send(what,@GetVigor));
-                  Send(what,@GainVigor,#precision=TRUE,#amount=iAmount);
+                  // GainMana and GainVigor can't lower the values.
+                  Send(what,@SetMana,#amount=Nth(i,3));
+                  Send(what,@SetVigor,#amount=Nth(i,4));
                   plUserStats = DelListElem(plUserStats,i);
                }
             }
@@ -2238,14 +2238,18 @@ messages:
 
    ClearCombatants()
    {
-      local i, j;
+      local i, j, lCombatants;
 
-      foreach i in plCombatants
+      // Combatants have to be off the list first, otherwise Teleport treats
+      // them as entering the fight and doesn't restore their stats.
+      lCombatants = plCombatants;
+      plCombatants = $;
+
+      foreach i in lCombatants
       {
          Send(self,@Teleport,#what=i,#outofplay=TRUE);
       }
 
-      plCombatants = $;
       Send(self,@ResetChampion);
       Send(poOwner,@ArenaEndFight,#lCombatants=plCombatants);
       pbAccept = FALSE;

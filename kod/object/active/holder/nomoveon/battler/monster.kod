@@ -6080,6 +6080,7 @@ messages:
             }
 
             if oQuester <> $
+               AND NOT Send(self,@IsIllusion)
             {
                // Notify the quest engine, to check if a quest is affected -AJM
                Send(Send(SYS,@GetQuestEngine),@MonsterKilled,#dead_monster=self,

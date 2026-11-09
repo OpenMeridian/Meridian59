@@ -70,7 +70,8 @@ messages:
          iHold = time;
       }
 
-      lState = [what,who,lTargets,TRUE,bFreeCast,100,power,FALSE];
+      // Slot 9 is the speed change applied below.
+      lState = [what,who,lTargets,TRUE,bFreeCast,100,power,FALSE,0];
 
       if NOT iHold
       {
@@ -84,8 +85,10 @@ messages:
             // Trance time is limited to viHold_interval. If the trance expires without
             // the same ability key being pressed again, EndEnchantment() will call
             // StoppedHolding instead of CastSkill() or PerformSpell().
+            lState = [what,who,lTargets,TRUE,bFreeCast,100,power,
+                      iHold-viHold_interval,0];
             Send(who,@StartEnchantment,#what=self,#time=viHold_interval,#addicon=FALSE,
-               #state=[what,who,lTargets,TRUE,bFreeCast,100,power,iHold-viHold_interval]);
+               #state=lState);
             Send(who,@SetAttackTime,#time=Send(what,@GetPostActionDelay));
          }
          else
@@ -99,8 +102,10 @@ messages:
          Send(what,@StartChargeDrain,#who=who,#iPower=power,#bFreeCast=bFreeCast);
       }
 
-      Send(who,@AddMovementSpeedPercent,
-         #iSpeed=-Send(what,@GetMovementSpeedReduction,#state=lState));
+      // Remember the change, the value can differ when the trance ends
+      // (e.g. the weapon is gone by then).
+      SetNth(lState,9,Send(what,@GetMovementSpeedReduction,#state=lState));
+      Send(who,@AddMovementSpeedPercent,#iSpeed=-Nth(lState,9));
 
       return;
    }
@@ -123,8 +128,7 @@ messages:
       oAbility = First(state);
 
       // Let's clear up our trance related effects before proceeding further.
-      Send(who,@AddMovementSpeedPercent,
-         #iSpeed=Send(oAbility,@GetMovementSpeedReduction,#state=state));
+      Send(who,@AddMovementSpeedPercent,#iSpeed=Nth(state,9));
 
       // Wraps up any unfinished business that has to be taken care of
       // regardless of how the trance came to an end.
@@ -292,8 +296,7 @@ messages:
 
       oAbility = First(state);
 
-      Send(who,@AddMovementSpeedPercent,
-         #iSpeed=Send(oAbility,@GetMovementSpeedReduction,#state=state));
+      Send(who,@AddMovementSpeedPercent,#iSpeed=Nth(state,9));
 
       // Wraps up any unfinished business that has to be taken care of
       // regardless of how the trance came to an end.

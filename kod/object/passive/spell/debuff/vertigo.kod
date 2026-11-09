@@ -150,7 +150,8 @@ messages:
       else
       {
          Send(who,@AddMonsterAgility,#points=First(state));
-         Send(who,@AddMonsterAim,#points=Nth(state,2));
+         Send(who,@AddMonsterMight,#points=Nth(state,2));
+         Send(who,@AddMonsterAim,#points=Nth(state,3));
       }
 
       return;

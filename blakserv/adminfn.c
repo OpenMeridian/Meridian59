@@ -1648,7 +1648,7 @@ void AdminShowPost(int session_id, admin_parm_type parms[],
    // Step 7: Print post data.
    aprintf("Showing post ID %i by author: %s, title: %s:\n",
       post_id, author_name_ptr, post_title->data);
-   aprintf(post_body->data);
+   aprintf("%s", post_body->data);
 }
 
 void AdminShowRoomTable(int session_id, admin_parm_type parms[],

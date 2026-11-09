@@ -25,6 +25,7 @@ resources:
 
    GuildDevice_too_many = "You may only use one type of object as fuel."
    GuildDevice_not_fuel = "This object cannot use this as fuel for this %s."
+   GuildDevice_too_little_fuel = "This %s needs at least %i of those for one charge."
 
    GuildDevice_invisibility_name = "cloaking device"
    GuildDevice_invisibility_icon = guildcloak.bgf
@@ -217,16 +218,47 @@ messages:
 
    OfferedWantedItem(who=$, oItem=$)
    {
-      piCharges_Pending = Bound((piCharges + Send(oItem,@GetNumber)) 
-         / Nth(plReagentCost,2),1,100000);
+      local iCharges;
+
+      iCharges = Send(oItem,@GetNumber) / Nth(plReagentCost,2);
+
+      // Less than one charge's worth would be turned into a full charge.
+      if iCharges < 1
+      {
+         Send(who,@MsgSendUser,#message_rsc=GuildDevice_too_little_fuel,
+            #parm1=Send(self,@GetName),#parm2=Nth(plReagentCost,2));
+
+         return FALSE;
+      }
+
+      piCharges_Pending = Bound(piCharges + iCharges,1,100000);
+
       return TRUE;
    }
 
    AcceptOffer(who = $)
    {
+      local oHolder, lTake_items, i;
+
       piCharges = piCharges_Pending;
+
+      // The fuel is used up. Left in the offer holder, it would go to
+      // whoever completes the next offer.
+      oHolder = Send(SYS,@GetSystemHolder1);
+      foreach lTake_items in [ Send(oHolder,@GetHolderActive),
+                               Send(oHolder,@GetHolderPassive) ]
+      {
+         foreach i in lTake_items
+         {
+            Send(i,@Delete);
+         }
+      }
+
+      // Kill the cancel offer timer.
+      Send(self,@OfferCanceled,#who=who);
       Send(self,@UpdateGuildDevice);
-      return;
+
+      return TRUE;
    }
 
    GetSpellEffect()

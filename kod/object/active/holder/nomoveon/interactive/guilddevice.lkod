@@ -5,6 +5,7 @@ GuildDevice_desc = de \
 
 GuildDevice_too_many = de "Sie dürfen nur einen Objekttyp als Kraftstoff verwenden."
 GuildDevice_not_fuel = de "Dieses Objekt kann dies nicht als Treibstoff für dieses %s verwenden."
+GuildDevice_too_little_fuel = de "%s braucht davon mindestens %i für eine Ladung."
 
 GuildDevice_invisibility_name = de "Tarnvorrichtung"
 
